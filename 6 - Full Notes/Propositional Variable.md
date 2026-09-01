@@ -12,4 +12,4 @@ A generic letter that can represent any premise that it is given
 p = "The raven is black"
 # References
 
-[[Foundations of Computation]]
+[[Logic and Proof]]

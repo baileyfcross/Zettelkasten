@@ -19,4 +19,4 @@ are propositions
 
 # References
 
-[[Foundations of Computation]]
+[[Logic and Proof]]

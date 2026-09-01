@@ -12,4 +12,4 @@ This thought process has an application to the design of [[Electronic Circuits]]
 
 # References
 
-[[Foundations of Computation]]
+[[Logic and Proof]]

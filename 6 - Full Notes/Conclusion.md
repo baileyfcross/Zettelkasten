@@ -10,6 +10,6 @@ Tags: [[Logical Deduction]] [[Boolean Algebra]]
 Also know as an [[Output]] in a logical system
 # References
 
-[[Foundations of Computation]]
+[[Logic and Proof]]
 
 [[Lecture 2 - Logic.pdf]]

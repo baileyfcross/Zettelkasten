@@ -11,6 +11,6 @@ Also known as an [[Input]] to a logical system
 A statement that can be either true or false
 # References
 
-[[Foundations of Computation]]
+[[Logic and Proof]]
 
 [[Lecture 2 - Logic.pdf]]

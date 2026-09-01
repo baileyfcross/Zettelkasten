@@ -12,7 +12,7 @@ A kind of computation that can be derived from a premise and lead into a conclus
 They are also know as [[Proof]]s
 # References
 
-[[Foundations of Computation]]
+[[Logic and Proof]]
 
 [[Lecture 2 - Logic.pdf]]
 

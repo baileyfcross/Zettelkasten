@@ -10,7 +10,7 @@ Tags: [[Boolean Algebra]]
 
 # References
 
-[[Foundations of Computation]]
+[[Logic and Proof]]
 
 [[Lecture 2 - Logic.pdf
 ]]

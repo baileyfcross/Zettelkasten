@@ -11,12 +11,14 @@
             "id": "8c396553136b9859",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2 - Source Material/Books/3duserinterfaces2ande.pdf"
+                "file": "3 - Tags/System Dynamics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "3duserinterfaces2ande"
+              "icon": "lucide-file",
+              "title": "System Dynamics"
             }
           }
         ]
@@ -187,18 +189,32 @@
   "active": "8c396553136b9859",
   "lastOpenFiles": [
     "6 - Full Notes/Accommodation.md",
-    "6 - Full Notes/Activity Theory.md",
-    "6 - Full Notes/Affordance.md",
+    "3 - Tags/Game Production.md",
+    "3 - Tags/Game Analytics and Probability.md",
+    "3 - Tags/Game Balance and Progression.md",
+    "3 - Tags/Game Economies.md",
+    "3 - Tags/Game Systems.md",
+    "3 - Tags/Game Design Methods.md",
+    "3 - Tags/Player Experience Design.md",
+    "3 - Tags/Game Interactivity.md",
+    "3 - Tags/Game Foundations.md",
+    "3 - Tags/Emergent Systems.md",
+    "3 - Tags/System Dynamics.md",
+    "3 - Tags/Systems Foundations.md",
+    "3 - Tags/Software Engineering.md",
+    "3 - Tags/XR Environments.md",
+    "3 - Tags/XR Display Systems.md",
+    "3 - Tags/Spatial Perception and Navigation.md",
+    "3 - Tags/Spatial Interaction.md",
+    "3 - Tags/Interaction Design.md",
+    "3 - Tags/UX Evaluation.md",
+    "3 - Tags/Human Cognition.md",
+    "3 - Tags/Formal Logic.md",
     "6 - Full Notes/3D User Interface.md",
     "6 - Full Notes/3D Travel.md",
     "6 - Full Notes/3D Tracking.md",
     "6 - Full Notes/3D Manipulation.md",
-    "6 - Full Notes/3D Interaction.md",
-    "3 - Tags/Computer Science.md",
-    "6 - Full Notes/Logic and Proof.md",
-    "6 - Full Notes/Mathematical Generality.md",
-    "6 - Full Notes/Premise.md",
-    "6 - Full Notes/Proposition.md",
+    "2 - Source Material/Books/3duserinterfaces2ande.pdf",
     "2 - Source Material/Foundations of CS Lectures/Lecture 3 - Logic Gates.pdf",
     "2 - Source Material/Foundations of CS Lectures/Lecture 2 - Logic.pdf",
     "2 - Source Material/Foundations of CS Lectures/Lecture 1 - 301.pdf",
@@ -208,21 +224,7 @@
     "2 - Source Material/Books/introductiontogamesystemdesign.pdf",
     "2 - Source Material/Books/introductiontogamedesignprototypinganddevelopment3e.pdf",
     "2 - Source Material/Books/gameprogrammingincplusplus.pdf",
-    "2 - Source Material/Books/robloxgamedevelopmentin24hours_theofficialrobloxguide.pdf",
-    "6 - Full Notes/Software.md",
-    "6 - Full Notes/Software Development.md",
-    "6 - Full Notes/Logically Equivalent.md",
-    "6 - Full Notes/Compound Propositions.md",
-    "6 - Full Notes/Artificial Intelligence.md",
-    "5 - Templates/Manual Source Entry.md",
-    "2 - Source Material/Article/What is software development.md",
-    "2 - Source Material/Article/What is artificial intelligence (AI).md",
-    "6 - Full Notes/Foundations of Computation.md",
-    "6 - Full Notes/Propositional Logic.md",
-    "6 - Full Notes/Propositional Variable.md",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "6 - Full Notes/Conclusion.md",
-    "6 - Full Notes/Boolean Algebra.md"
+    "Untitled 1.canvas"
   ]
 }

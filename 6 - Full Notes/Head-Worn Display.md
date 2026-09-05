@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[XR Display Systems]] [[XR Environments]]
 
 # Head-Worn Display
 

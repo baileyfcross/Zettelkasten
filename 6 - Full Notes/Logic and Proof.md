@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags:[[Computer Science]]
+Tags: [[Formal Logic]]
 
 # Logic and Proof
 

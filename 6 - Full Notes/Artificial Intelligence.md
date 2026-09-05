@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]]
+Tags: [[Software Engineering]]
 
 # Artificial Intelligence
 

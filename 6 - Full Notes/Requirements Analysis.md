@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]] [[Software Development]]
+Tags: [[UX Evaluation]] [[Software Engineering]]
 
 # Requirements Analysis
 

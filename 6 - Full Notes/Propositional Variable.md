@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Boolean Algebra]] [[Mathematics]] [[Propositional Logic]]
+Tags: [[Formal Logic]]
 
 # Propositional Variable
 

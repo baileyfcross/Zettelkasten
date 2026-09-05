@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]] [[Mathematics]]
+Tags: [[Game Analytics and Probability]]
 
 # Fitts's Law
 

@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Propositional Logic]] [[Boolean Algebra]]
+Tags: [[Formal Logic]]
 
 # Premise
 

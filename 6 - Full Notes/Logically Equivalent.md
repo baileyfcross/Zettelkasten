@@ -3,7 +3,7 @@
 
 Status: #baby 
 
-Tags: [[Boolean Algebra]] [[Computer Science]]
+Tags: [[Formal Logic]]
 
 # Logically Equivalent
 

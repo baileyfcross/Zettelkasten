@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Mathematics]]
+Tags: [[Formal Logic]]
 
 # Boolean Algebra
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[Interaction Design]]
 
 # Physical Ergonomics
 

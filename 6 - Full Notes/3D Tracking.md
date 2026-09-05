@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[Spatial Interaction]] [[XR Environments]]
 
 # 3D Tracking
 

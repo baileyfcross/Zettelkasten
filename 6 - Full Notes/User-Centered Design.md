@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[UX Evaluation]] [[Player Experience Design]]
 
 # User-Centered Design
 

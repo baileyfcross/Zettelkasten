@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[Interaction Design]]
 
 # Conceptual Model
 
@@ -12,6 +12,9 @@ The designer's model is the relatively complete view formed during development a
 
 Consistent behavior, visible system state, [[Feedback]], and [[Affordance]]s help align the two models.
 
+Games make this alignment dynamic: the [[Game Model]] changes in response to action, while the [[Player Mental Model]] changes in response to feedback. Productive uncertainty leaves room for prediction and learning without making the game's effects seem arbitrary.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[advancedgamedesign.pdf]]

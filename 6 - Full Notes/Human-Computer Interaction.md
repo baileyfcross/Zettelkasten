@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]]
+Tags: [[Interaction Design]]
 
 # Human-Computer Interaction
 

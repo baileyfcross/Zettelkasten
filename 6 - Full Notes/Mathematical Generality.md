@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Mathematics]]
+Tags: [[Formal Logic]]
 
 # Mathematical Generality
 

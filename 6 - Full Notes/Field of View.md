@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[Spatial Perception and Navigation]] [[XR Environments]]
 
 # Field of View
 

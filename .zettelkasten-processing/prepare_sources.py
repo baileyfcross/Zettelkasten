@@ -19,6 +19,9 @@ ROOT = Path(__file__).resolve().parent.parent
 BOOKS = ROOT / "2 - Source Material" / "Books"
 MANIFEST = Path(__file__).resolve().parent / "manifest.json"
 FULL_NOTES = ROOT / "6 - Full Notes"
+TAGS = ROOT / "3 - Tags"
+TOPIC_TARGET_MIN = 10
+TOPIC_TARGET_MAX = 20
 
 
 def sha256(path: Path) -> str:
@@ -154,6 +157,67 @@ def tracked_full_notes() -> set[str]:
     return {line.replace("\\", "/") for line in result.stdout.splitlines() if line}
 
 
+def linked_topics(content: str) -> list[str]:
+    match = re.search(r"^Tags:\s*(.*)$", content, re.MULTILINE)
+    if not match:
+        return []
+    return [
+        link.split("|", 1)[0].split("#", 1)[0].strip()
+        for link in re.findall(r"\[\[([^\]]+)\]\]", match.group(1))
+    ]
+
+
+def validate_topics() -> dict:
+    errors: list[str] = []
+    warnings: list[str] = []
+    counts: dict[str, int] = {}
+    topic_notes: dict[str, list[str]] = {}
+    tag_files = {path.stem.casefold(): path for path in TAGS.glob("*.md")}
+
+    for path in sorted(FULL_NOTES.glob("*.md"), key=lambda item: item.name.casefold()):
+        content = path.read_text(encoding="utf-8-sig")
+        topics = linked_topics(content)
+        if not topics:
+            errors.append(f"{path.name}: missing linked topic on Tags line")
+            continue
+        for topic in topics:
+            tag_path = tag_files.get(topic.casefold())
+            if tag_path is None:
+                errors.append(f"{path.name}: topic [[{topic}]] has no file in 3 - Tags")
+                continue
+            counts[topic] = counts.get(topic, 0) + 1
+            topic_notes.setdefault(topic, []).append(path.stem)
+
+    for topic, count in sorted(counts.items(), key=lambda item: item[0].casefold()):
+        if count > TOPIC_TARGET_MAX:
+            errors.append(
+                f"{topic}: {count} linked Full Notes exceeds the {TOPIC_TARGET_MAX}-note topic limit; "
+                "split it into more specific reusable topics"
+            )
+        elif count < TOPIC_TARGET_MIN:
+            warnings.append(
+                f"{topic}: {count} linked Full Notes is below the {TOPIC_TARGET_MIN}-note target; "
+                "prefer a compatible existing topic unless this is a growing subject"
+            )
+
+    for topic_key, path in sorted(tag_files.items(), key=lambda item: item[1].name.casefold()):
+        content = path.read_text(encoding="utf-8-sig")
+        topic = path.stem
+        expected_query = f'path:"6 - Full Notes" "[[{topic}]]"'
+        if expected_query not in content:
+            errors.append(f"{path.name}: missing embedded query for Full Notes linking [[{topic}]]")
+
+    return {
+        "full_notes": len(list(FULL_NOTES.glob("*.md"))),
+        "used_topics": len(counts),
+        "target_notes_per_topic": [TOPIC_TARGET_MIN, TOPIC_TARGET_MAX],
+        "topic_counts": dict(sorted(counts.items(), key=lambda item: item[0].casefold())),
+        "topic_notes": dict(sorted(topic_notes.items(), key=lambda item: item[0].casefold())),
+        "errors": errors,
+        "warnings": warnings,
+    }
+
+
 def validate_source(relative_path: str) -> dict:
     source = BOOKS / Path(relative_path)
     source_link = f"[[{source.name}]]"
@@ -191,6 +255,10 @@ def validate_source(relative_path: str) -> dict:
         if "\x00" in content or "�" in content:
             errors.append(f"{path.name}: contains corrupt text characters")
 
+        for topic in linked_topics(content):
+            if not (TAGS / f"{topic}.md").is_file():
+                errors.append(f"{path.name}: topic [[{topic}]] has no file in 3 - Tags")
+
         links = re.findall(r"\[\[([^\]]+)\]\]", content)
         wikilink_count += len(links)
         for link in links:
@@ -218,6 +286,10 @@ def validate_source(relative_path: str) -> dict:
     if sha256(source) != entry["sha256"]:
         errors.append(f"{relative_path}: source hash changed during processing")
 
+    topic_validation = validate_topics()
+    errors.extend(topic_validation["errors"])
+    warnings.extend(topic_validation["warnings"])
+
     tracked = tracked_full_notes()
     created = []
     updated = []
@@ -231,6 +303,7 @@ def validate_source(relative_path: str) -> dict:
         "concepts_created": created,
         "concepts_updated": updated,
         "wikilinks_in_contributing_notes": wikilink_count,
+        "topic_counts": topic_validation["topic_counts"],
         "errors": errors,
         "warnings": warnings,
     }
@@ -254,11 +327,33 @@ def complete_source(relative_path: str) -> None:
     entry["validation"] = {
         "contributing_notes": validation["contributing_notes"],
         "wikilinks_in_contributing_notes": validation["wikilinks_in_contributing_notes"],
+        "topic_counts": validation["topic_counts"],
         "errors": validation["errors"],
         "warnings": validation["warnings"],
     }
     MANIFEST.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(validation, indent=2))
+
+
+def refresh_processed_validations() -> None:
+    data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    refreshed = []
+    for entry in data["sources"]:
+        if entry.get("status") != "processed":
+            continue
+        validation = validate_source(entry["relative_path"])
+        if validation["errors"]:
+            raise RuntimeError(json.dumps(validation, indent=2))
+        entry["validation"] = {
+            "contributing_notes": validation["contributing_notes"],
+            "wikilinks_in_contributing_notes": validation["wikilinks_in_contributing_notes"],
+            "topic_counts": validation["topic_counts"],
+            "errors": validation["errors"],
+            "warnings": validation["warnings"],
+        }
+        refreshed.append(entry["relative_path"])
+    MANIFEST.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"refreshed_processed_sources": refreshed}, indent=2))
 
 
 def main() -> None:
@@ -275,6 +370,8 @@ def main() -> None:
     validate_parser.add_argument("relative_path")
     complete_parser = subparsers.add_parser("complete-source")
     complete_parser.add_argument("relative_path")
+    subparsers.add_parser("validate-topics")
+    subparsers.add_parser("refresh-processed-validations")
     args = parser.parse_args()
 
     if args.command == "inventory":
@@ -287,6 +384,10 @@ def main() -> None:
         print(json.dumps(validate_source(args.relative_path), indent=2))
     elif args.command == "complete-source":
         complete_source(args.relative_path)
+    elif args.command == "validate-topics":
+        print(json.dumps(validate_topics(), indent=2))
+    elif args.command == "refresh-processed-validations":
+        refresh_processed_validations()
 
 
 if __name__ == "__main__":

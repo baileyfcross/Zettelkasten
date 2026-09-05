@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Boolean Algebra]]
+Tags: [[Formal Logic]]
 
 # Compound Propositions
 

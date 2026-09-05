@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[Interaction Design]] [[Game Interactivity]]
 
 # User-System Loop
 
@@ -12,6 +12,9 @@ User actions are sensed by [[Input Device]]s. Transfer functions interpret the i
 
 The model helps locate design problems. Device choice and input mappings affect interpretation, simulation affects the resulting state, and rendering or device [[Latency]] can delay [[Feedback]].
 
+The same structure becomes reciprocal [[Interactivity]] when the user's updated mental state produces a new intention. In games, this cycle forms the [[Core Gameplay Loop]] and couples the [[Game Model]] with the [[Player Mental Model]] inside a larger [[Game-Player System]].
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[advancedgamedesign.pdf]]

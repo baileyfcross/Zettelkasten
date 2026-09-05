@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Boolean Algebra]] [[Mathematics]]
+Tags: [[Formal Logic]]
 
 # Logical Deduction
 

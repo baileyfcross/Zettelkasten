@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[Human Cognition]]
 
 # Cognitive Load
 
@@ -12,6 +12,9 @@ An interface raises cognitive load when users must remember transient informatio
 
 Evaluation can combine subjective workload ratings with task-performance or physiological measures. Self-report is useful but is stronger when correlated with objective evidence.
 
+In games, [[Articulatory Distance]] adds effort between intention and input, while [[Semantic Distance]] adds effort between feedback and understanding. These demands consume a finite [[Interactivity Budget]], so simultaneous fast action and complex reflection can overwhelm a player even when each demand is manageable alone.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[advancedgamedesign.pdf]]

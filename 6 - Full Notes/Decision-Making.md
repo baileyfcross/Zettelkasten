@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computer Science]] [[Human-Computer Interaction]]
+Tags: [[Human Cognition]]
 
 # Decision-Making
 
@@ -12,6 +12,9 @@ Its speed is affected by conflict, complexity, and uncertainty. Normative models
 
 In [[Information Processing]], decision-making connects perception and knowledge to action. [[Situation Awareness]] supplies an internal model of the environment, while learned behavior and [[Skill Acquisition|skills]] can make common responses faster and more accurate.
 
+In games, a [[Meaningful Decision]] changes discernible state, future possibilities, or progress toward a goal. Uncertainty makes prediction relevant, while a dominant strategy or equivalent alternatives collapse the decision space into an apparent choice with no practical consequence.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[advancedgamedesign.pdf]]

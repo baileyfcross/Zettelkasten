@@ -4,65 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "084d6dc448cd6293",
+        "id": "ca835f39c7e6a2e7",
         "type": "tabs",
         "children": [
           {
-            "id": "f1e3bde856acff9b",
+            "id": "8c396553136b9859",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "6 - Full Notes/Foundations of Computation.md",
-                "mode": "source",
-                "source": false
+                "file": "2 - Source Material/Books/3duserinterfaces2ande.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Foundations of Computation"
-            }
-          },
-          {
-            "id": "c13346a9c5946008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Full Notes/Foundations of Computation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Foundations of Computation"
-            }
-          },
-          {
-            "id": "6a27f6e393855612",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
-            }
-          },
-          {
-            "id": "1b236bc15c70582e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Full Notes/Propositional Logic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Propositional Logic"
+              "icon": "lucide-file-text",
+              "title": "3duserinterfaces2ande"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,45 +184,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "6a27f6e393855612",
+  "active": "8c396553136b9859",
   "lastOpenFiles": [
+    "6 - Full Notes/Accommodation.md",
+    "6 - Full Notes/Activity Theory.md",
+    "6 - Full Notes/Affordance.md",
+    "6 - Full Notes/3D User Interface.md",
+    "6 - Full Notes/3D Travel.md",
+    "6 - Full Notes/3D Tracking.md",
+    "6 - Full Notes/3D Manipulation.md",
+    "6 - Full Notes/3D Interaction.md",
+    "3 - Tags/Computer Science.md",
+    "6 - Full Notes/Logic and Proof.md",
+    "6 - Full Notes/Mathematical Generality.md",
+    "6 - Full Notes/Premise.md",
+    "6 - Full Notes/Proposition.md",
+    "2 - Source Material/Foundations of CS Lectures/Lecture 3 - Logic Gates.pdf",
+    "2 - Source Material/Foundations of CS Lectures/Lecture 2 - Logic.pdf",
+    "2 - Source Material/Foundations of CS Lectures/Lecture 1 - 301.pdf",
+    "2 - Source Material/Books/unrealenginevrcookbook.pdf",
+    "2 - Source Material/Books/agamedesignvocabulary.pdf",
+    "2 - Source Material/Books/multiplayergameprogramming.pdf",
+    "2 - Source Material/Books/introductiontogamesystemdesign.pdf",
+    "2 - Source Material/Books/introductiontogamedesignprototypinganddevelopment3e.pdf",
+    "2 - Source Material/Books/gameprogrammingincplusplus.pdf",
+    "2 - Source Material/Books/robloxgamedevelopmentin24hours_theofficialrobloxguide.pdf",
     "6 - Full Notes/Software.md",
     "6 - Full Notes/Software Development.md",
     "6 - Full Notes/Logically Equivalent.md",
-    "6 - Full Notes/Logic and Proof.md",
     "6 - Full Notes/Compound Propositions.md",
     "6 - Full Notes/Artificial Intelligence.md",
     "5 - Templates/Manual Source Entry.md",
     "2 - Source Material/Article/What is software development.md",
     "2 - Source Material/Article/What is artificial intelligence (AI).md",
-    "2 - Source Material/Article",
-    "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
-    "6 - Full Notes/Mathematical Generality.md",
-    "2 - Source Material/Papers/Mathematical_Generalization.pdf",
-    "2 - Source Material/Papers",
     "6 - Full Notes/Foundations of Computation.md",
-    "6 - Full Notes/Proposition.md",
     "6 - Full Notes/Propositional Logic.md",
     "6 - Full Notes/Propositional Variable.md",
-    "6 - Full Notes/Premise.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "6 - Full Notes/Conclusion.md",
-    "6 - Full Notes/Boolean Algebra.md",
-    "5 - Templates/Full Note.md",
-    "Welcome.md",
-    "6 - Full Notes/create a link.md",
-    "6 - Full Notes/Logical Operators.md",
-    "6 - Full Notes/Logical Deduction.md",
-    "6 - Full Notes/Electronic Circuits.md",
-    "3 - Tags/Mathematics.md",
-    "2 - Source Material/Foundations of CS Lectures/Lecture 3 - Logic Gates.pdf",
-    "2 - Source Material/Foundations of CS Lectures/Lecture 2 - Logic.pdf",
-    "3 - Tags/Computer Science.md",
-    "2 - Source Material/Books",
-    "2 - Source Material/Foundations of CS Lectures/Lecture 3 - Application Software.pdf",
-    "2 - Source Material/Foundations of CS Lectures/Lecture 1 - 301.pdf",
-    "2 - Source Material/Foundations of CS Lectures.md",
-    "2 - Source Material/Foundations of CS Lectures"
+    "6 - Full Notes/Boolean Algebra.md"
   ]
 }

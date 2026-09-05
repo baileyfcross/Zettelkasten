@@ -10,7 +10,9 @@ A stage gate is a deliberate checkpoint at which a project is evaluated for viab
 
 Stage gates bound an otherwise open-ended [[Design-Build-Test Loop]]. They allow exploration while preventing iteration from becoming indefinite motion without progress, and they preserve rejected ideas for possible future use rather than forcing sunk-cost continuation.
 
+A gate can coexist with agile delivery when it evaluates demonstrated results, current risks, and updated forecasts. Treating the gate as approval of a frozen speculative plan instead suppresses the evidence that iteration was meant to produce.
+
 # References
 
 [[advancedgamedesign.pdf]]
-
+[[agilegamedevelopment2e.pdf]]

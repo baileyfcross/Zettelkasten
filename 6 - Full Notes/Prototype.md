@@ -14,7 +14,10 @@ Prototypes make imagined details concrete. They support rapid [[Formative Evalua
 
 For a game, a prototype must include at least one working interactive loop; a static mockup, prerecorded demonstration, or noninteractive simulation does not test gameplay. Each prototype should answer a clear design question, remain separate from production code, and be cheap enough to discard after it informs the next [[Design-Build-Test Loop|iteration]].
 
+In an agile backlog, a timeboxed [[Spike]] can use a prototype to remove uncertainty before estimation or commitment. Prototyping is especially important for novel platforms, where changing hardware constraints make long-range designs assumption-heavy and several parallel options may need to be tested.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[advancedgamedesign.pdf]]
+[[agilegamedevelopment2e.pdf]]

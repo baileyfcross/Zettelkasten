@@ -10,7 +10,9 @@ Systems thinking studies both the parts of a system and the unified behavior cre
 
 The method moves repeatedly among [[System State|state]], [[System Behavior|behavior]], interaction loops, the resulting whole, and its wider context. This makes it especially useful for designing a [[Complex System]], where feedback and [[Emergence]] make isolated parts an incomplete explanation.
 
+In an organization, systems thinking shifts improvement from individual utilization to the flow of value, information, and decisions across teams. It reveals how structure and communication can shape both development behavior and the architecture of the product.
+
 # References
 
 [[advancedgamedesign.pdf]]
-
+[[agilegamedevelopment2e.pdf]]

@@ -12,7 +12,10 @@ When challenge is too low, boredom threatens; when it is too high, anxiety or fr
 
 Flow requires goals that can be acted on, feedback that supports adjustment, and demands that change as mastery grows. The ideal channel is only one possible shape of play: some games begin in frustration and let practice close the gap, while others pursue reflection or understanding rather than an uninterrupted flow state.
 
+The same challenge-skill relationship can support creative work: excessive demand produces stress, insufficient demand produces boredom, and a demanding but attainable goal enables concentrated, productive absorption.
+
 # References
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+[[agilegamedevelopment2e.pdf]]

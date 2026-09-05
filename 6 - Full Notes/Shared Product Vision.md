@@ -10,7 +10,9 @@ A shared product vision is a clear, compelling, and stable understanding of what
 
 The vision should be documented, understood, and supported across the team without becoming immune to evidence. Necessary changes involve relevant stakeholders and are communicated deliberately so the project does not drift through accumulated local decisions.
 
+Release planning can revisit the vision through a concise elevator statement, game-box exercise, positioning map, or ambitious release goal. The representation matters less than giving developers enough shared context to make aligned daily decisions while features emerge.
+
 # References
 
 [[advancedgamedesign.pdf]]
-
+[[agilegamedevelopment2e.pdf]]

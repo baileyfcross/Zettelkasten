@@ -10,7 +10,9 @@ Game development commonly moves through concept, preproduction, production, alph
 
 Concept validates the vision and core loops; preproduction clarifies features, assets, cost, and schedule; production builds the game; alpha establishes broad playability; beta emphasizes stability and release concerns; release begins learning from the full player population.
 
+An agile phase boundary is evidence-based: preproduction explores fun, tools, budgets, and uncertainty, while production begins when mechanics and pipelines are stable enough for predictable content flow. Short iterations continue inside both phases even though their dominant risks differ.
+
 # References
 
 [[advancedgamedesign.pdf]]
-
+[[agilegamedevelopment2e.pdf]]

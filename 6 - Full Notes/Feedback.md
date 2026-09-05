@@ -14,7 +14,10 @@ Useful feedback closes the [[User-System Loop]] and supports an accurate [[Conce
 
 In a [[Game-Player System]], feedback is also the return path by which the result of a player's action changes the [[Player Mental Model]]. A behavior should provide timely, comprehensible evidence of relevant state change; missing or inexplicable feedback prevents the player from testing predictions and weakens [[Engagement]].
 
+A [[Robust Game Verb]] provides feedback even when an action is refused. A sound, animation, or other visible reaction can teach why an object resists the verb instead of leaving the player uncertain whether the input was received.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[advancedgamedesign.pdf]]
+[[agamedesignvocabulary.pdf]]

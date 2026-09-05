@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]]
+Tags: [[Authored Game Narrative]]
 
 # Content-Driven Game
 
@@ -13,4 +13,3 @@ Because each additional experience requires more authored content, the approach 
 # References
 
 [[advancedgamedesign.pdf]]
-

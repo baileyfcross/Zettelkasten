@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]]
+Tags: [[Game Mechanics and Rules]]
 
 # Game
 
@@ -13,4 +13,3 @@ A functioning game is not only rules or content. It is a [[Game-Player System]] 
 # References
 
 [[advancedgamedesign.pdf]]
-

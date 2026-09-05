@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]] [[Emergent Systems]]
+Tags: [[Emergent Game Narrative]] [[Emergent Systems]]
 
 # Systemic Game
 
@@ -10,7 +10,9 @@ A systemic game derives much of its gameplay from interacting feedback loops rat
 
 Systemic structure supports replayability and mastery because the same parts can combine differently across play. It does not eliminate content; it uses content as material within systems rather than relying on a continuous [[Content-Driven Game|content treadmill]].
 
+When relationships among verbs and objects create many possible situations, players can discover strategies and produce [[Emergent Story|stories]] the creator did not script. The system still bounds those outcomes, but it facilitates rather than fully authors their sequence.
+
 # References
 
 [[advancedgamedesign.pdf]]
-
+[[agamedesignvocabulary.pdf]]

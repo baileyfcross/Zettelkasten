@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]]
+Tags: [[Player Experience Design]]
 
 # Magic Circle
 
@@ -13,4 +13,3 @@ The boundary can be porous: [[Metagaming]] may carry information, relationships,
 # References
 
 [[advancedgamedesign.pdf]]
-

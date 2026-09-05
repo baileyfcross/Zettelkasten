@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]] [[Game Systems]]
+Tags: [[Game Mechanics and Rules]] [[Game Systems]]
 
 # Game Model
 
@@ -13,4 +13,3 @@ The model does not need to reproduce reality in full; it must expose the structu
 # References
 
 [[advancedgamedesign.pdf]]
-

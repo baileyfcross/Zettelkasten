@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]]
+Tags: [[Player Experience Design]]
 
 # Metagaming
 
@@ -13,4 +13,3 @@ Metagaming can become an outer loop that changes later decisions inside the game
 # References
 
 [[advancedgamedesign.pdf]]
-

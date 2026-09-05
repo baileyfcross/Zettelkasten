@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Player Experience Design]]
+Tags: [[Player Experience Design]] [[Game Challenge Design]]
 
 # Opposition in Games
 
@@ -13,4 +13,3 @@ Opposition creates uncertainty and gives [[Meaningful Decision|decisions]] stake
 # References
 
 [[advancedgamedesign.pdf]]
-

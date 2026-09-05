@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]]
+Tags: [[Game Mechanics and Rules]]
 
 # Mechanics-Dynamics-Aesthetics Framework
 
@@ -13,4 +13,3 @@ Designers usually reason from mechanics through dynamics to aesthetics, while pl
 # References
 
 [[advancedgamedesign.pdf]]
-

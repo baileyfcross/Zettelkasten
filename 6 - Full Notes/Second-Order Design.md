@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]]
+Tags: [[Game Mechanics and Rules]]
 
 # Second-Order Design
 
@@ -13,4 +13,3 @@ Its success depends on whether the resulting [[Play Space]] offers multiple viab
 # References
 
 [[advancedgamedesign.pdf]]
-

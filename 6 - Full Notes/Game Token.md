@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]]
+Tags: [[Game Mechanics and Rules]]
 
 # Game Token
 
@@ -13,4 +13,3 @@ Tokens communicate selected aspects of the [[Game Model]] to the player. Combine
 # References
 
 [[advancedgamedesign.pdf]]
-

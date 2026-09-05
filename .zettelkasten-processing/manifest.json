@@ -2,7 +2,7 @@
   "schema_version": 1,
   "source_root": "2 - Source Material/Books",
   "order": "case-insensitive relative path",
-  "generated_at": "2026-09-05T17:22:29.832580+00:00",
+  "generated_at": "2026-09-05T19:41:22.622217+00:00",
   "source_count": 119,
   "missing_previously_processed_sources": [],
   "sources": [
@@ -331,13 +331,143 @@
       "extension": ".pdf",
       "size_bytes": 8035809,
       "sha256": "5d7e500101bbb2fc5ca56ae1f63a126e2717e662d352b78b0429d55bdd705051",
-      "status": "unprocessed",
-      "completed_at": null,
-      "concepts_created": [],
-      "concepts_updated": [],
-      "notes_reused": 0,
+      "status": "processed",
+      "completed_at": "2026-09-05T19:40:38.985915+00:00",
+      "concepts_created": [
+        "Achievement",
+        "Attention Guidance",
+        "Authored Story",
+        "Boredom in Games",
+        "Branching Story",
+        "Character Silhouette",
+        "Checkpoint",
+        "Context-Rule Cohesion",
+        "Cutscene",
+        "Dead-End Reward",
+        "Difficulty Mode",
+        "Donkey Space",
+        "Dynamic Difficulty Adjustment",
+        "Emergent Story",
+        "Emotional Resonance",
+        "Experience Point",
+        "Exploratory Storytelling",
+        "Expressive Game System",
+        "Frustration in Games",
+        "Game as Conversation",
+        "Game Camera",
+        "Game Character Design",
+        "Game Context",
+        "Game Difficulty",
+        "Game Lore",
+        "Game Modding",
+        "Game Resistance",
+        "Game Scene",
+        "Game Score",
+        "Game Sound",
+        "Game Verb",
+        "Gameplay Animation",
+        "Grinding",
+        "Input Density",
+        "Interpreted Story",
+        "Listening Through Interaction",
+        "Moment of Inversion",
+        "Multiplayer Complexity",
+        "Narrative Ambiguity",
+        "Narrative Interpretation",
+        "Object Layering",
+        "Open Resistance",
+        "Open Story",
+        "Orphaned Verb",
+        "Physical Input Layer",
+        "Player Expression",
+        "Player Performance",
+        "Player-Controlled Difficulty",
+        "Possibility Space",
+        "Punishment",
+        "Reconverging Branches",
+        "Reflective Choice",
+        "Reflective Scoring",
+        "Repetition as Punishment",
+        "Reward",
+        "Robust Game Verb",
+        "Rule Introduction",
+        "Scene Composition",
+        "Scene Iteration",
+        "Scene Purpose",
+        "Scene Shape",
+        "Shared Authorship",
+        "Side Quest",
+        "Sound Texture",
+        "Story as Exertion",
+        "Story as System",
+        "Story-Game",
+        "Systemic Reward",
+        "Verb Development",
+        "Verb Relationship",
+        "Visual Motif",
+        "Visual Shape",
+        "Yomi"
+      ],
+      "concepts_updated": [
+        "Complex System",
+        "Emergence",
+        "Feedback",
+        "Flow",
+        "Game Currency",
+        "Game Mechanic",
+        "Game Narrative",
+        "Game Pacing",
+        "Game Part",
+        "Game Rule",
+        "Game Theme",
+        "Game-Player System",
+        "Meaningful Decision",
+        "Player Goal",
+        "Playtesting",
+        "Progression Curve",
+        "Randomization",
+        "Resource",
+        "Systemic Elegance",
+        "Systemic Game"
+      ],
+      "notes_reused": 20,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": {
+        "contributing_notes": 93,
+        "wikilinks_in_contributing_notes": 364,
+        "topic_counts": {
+          "Authored Game Narrative": 13,
+          "Emergent Game Narrative": 16,
+          "Emergent Systems": 14,
+          "Formal Logic": 13,
+          "Game Analytics and Probability": 11,
+          "Game Balance and Progression": 12,
+          "Game Challenge Design": 12,
+          "Game Design Methods": 13,
+          "Game Economies": 15,
+          "Game Interactivity": 16,
+          "Game Mechanics and Rules": 19,
+          "Game Presentation": 12,
+          "Game Production": 14,
+          "Game Rewards and Consequences": 13,
+          "Game Systems": 12,
+          "Human Cognition": 13,
+          "Interaction Design": 19,
+          "Level and Scene Design": 12,
+          "Player Experience Design": 19,
+          "Software Engineering": 11,
+          "Spatial Interaction": 14,
+          "Spatial Perception and Navigation": 10,
+          "System Dynamics": 17,
+          "Systems Foundations": 13,
+          "UX Evaluation": 13,
+          "XR Display Systems": 11,
+          "XR Environments": 13
+        },
+        "errors": [],
+        "warnings": []
+      }
     },
     {
       "position": 4,
@@ -352,7 +482,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 5,
@@ -367,7 +498,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 6,
@@ -382,7 +514,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 7,
@@ -397,7 +530,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 8,
@@ -412,7 +546,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 9,
@@ -427,7 +562,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 10,
@@ -442,7 +578,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 11,
@@ -457,7 +594,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 12,
@@ -472,7 +610,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 13,
@@ -487,7 +626,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 14,
@@ -502,7 +642,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 15,
@@ -517,7 +658,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 16,
@@ -532,7 +674,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 17,
@@ -547,7 +690,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 18,
@@ -562,7 +706,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 19,
@@ -577,7 +722,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 20,
@@ -592,7 +738,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 21,
@@ -607,7 +754,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 22,
@@ -622,7 +770,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 23,
@@ -637,7 +786,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 24,
@@ -652,7 +802,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 25,
@@ -667,7 +818,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 26,
@@ -682,7 +834,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 27,
@@ -697,7 +850,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 28,
@@ -712,7 +866,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 29,
@@ -727,7 +882,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 30,
@@ -742,7 +898,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 31,
@@ -757,7 +914,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 32,
@@ -772,7 +930,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 33,
@@ -787,7 +946,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 34,
@@ -802,7 +962,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 35,
@@ -817,7 +978,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 36,
@@ -832,7 +994,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 37,
@@ -847,7 +1010,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 38,
@@ -862,7 +1026,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 39,
@@ -877,7 +1042,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 40,
@@ -892,7 +1058,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 41,
@@ -907,7 +1074,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 42,
@@ -922,7 +1090,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 43,
@@ -937,7 +1106,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 44,
@@ -952,7 +1122,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 45,
@@ -967,7 +1138,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 46,
@@ -982,7 +1154,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 47,
@@ -997,7 +1170,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 48,
@@ -1012,7 +1186,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 49,
@@ -1027,7 +1202,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 50,
@@ -1042,7 +1218,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 51,
@@ -1057,7 +1234,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 52,
@@ -1072,7 +1250,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 53,
@@ -1087,7 +1266,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 54,
@@ -1102,7 +1282,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 55,
@@ -1117,7 +1298,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 56,
@@ -1132,7 +1314,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 57,
@@ -1147,7 +1330,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 58,
@@ -1162,7 +1346,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 59,
@@ -1177,7 +1362,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 60,
@@ -1192,7 +1378,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 61,
@@ -1207,7 +1394,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 62,
@@ -1222,7 +1410,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 63,
@@ -1237,7 +1426,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 64,
@@ -1252,7 +1442,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 65,
@@ -1267,7 +1458,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 66,
@@ -1282,7 +1474,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 67,
@@ -1297,7 +1490,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 68,
@@ -1312,7 +1506,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 69,
@@ -1327,7 +1522,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 70,
@@ -1342,7 +1538,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 71,
@@ -1357,7 +1554,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 72,
@@ -1372,7 +1570,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 73,
@@ -1387,7 +1586,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 74,
@@ -1402,7 +1602,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 75,
@@ -1417,7 +1618,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 76,
@@ -1432,7 +1634,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 77,
@@ -1447,7 +1650,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 78,
@@ -1462,7 +1666,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 79,
@@ -1477,7 +1682,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 80,
@@ -1492,7 +1698,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 81,
@@ -1507,7 +1714,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 82,
@@ -1522,7 +1730,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 83,
@@ -1537,7 +1746,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 84,
@@ -1552,7 +1762,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 85,
@@ -1567,7 +1778,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 86,
@@ -1582,7 +1794,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 87,
@@ -1597,7 +1810,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 88,
@@ -1612,7 +1826,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 89,
@@ -1627,7 +1842,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 90,
@@ -1642,7 +1858,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 91,
@@ -1657,7 +1874,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 92,
@@ -1672,7 +1890,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 93,
@@ -1687,7 +1906,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 94,
@@ -1702,7 +1922,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 95,
@@ -1717,7 +1938,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 96,
@@ -1732,7 +1954,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 97,
@@ -1747,7 +1970,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 98,
@@ -1762,7 +1986,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 99,
@@ -1777,7 +2002,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 100,
@@ -1792,7 +2018,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 101,
@@ -1807,7 +2034,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 102,
@@ -1822,7 +2050,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 103,
@@ -1837,7 +2066,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 104,
@@ -1852,7 +2082,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 105,
@@ -1867,7 +2098,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 106,
@@ -1882,7 +2114,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 107,
@@ -1897,7 +2130,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 108,
@@ -1912,7 +2146,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 109,
@@ -1927,7 +2162,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 110,
@@ -1942,7 +2178,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 111,
@@ -1957,7 +2194,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 112,
@@ -1972,7 +2210,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 113,
@@ -1987,7 +2226,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 114,
@@ -2002,7 +2242,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 115,
@@ -2017,7 +2258,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 116,
@@ -2032,7 +2274,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 117,
@@ -2047,7 +2290,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 118,
@@ -2062,7 +2306,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     },
     {
       "position": 119,
@@ -2077,7 +2322,8 @@
       "concepts_updated": [],
       "notes_reused": 0,
       "duplicate_candidates_merged": 0,
-      "parse_error": null
+      "parse_error": null,
+      "validation": null
     }
   ]
 }

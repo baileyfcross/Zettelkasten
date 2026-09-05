@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]] [[Game Systems]]
+Tags: [[Game Mechanics and Rules]] [[Game Systems]]
 
 # Game System
 
@@ -13,4 +13,3 @@ The parts and behaviors of a game system must support the desired player experie
 # References
 
 [[advancedgamedesign.pdf]]
-

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Foundations]]
+Tags: [[Game Mechanics and Rules]]
 
 # Function-Behavior-Structure Framework
 
@@ -13,4 +13,3 @@ It can be applied top-down from desired function to structure or bottom-up as St
 # References
 
 [[advancedgamedesign.pdf]]
-

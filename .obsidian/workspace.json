@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6ed415f14e32f5c5",
+        "id": "43187f448d5aa342",
         "type": "tabs",
         "children": [
           {
-            "id": "f2ec07c8acd81ab9",
+            "id": "a8b1bf1329b1b338",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Full Notes/Multiplayer Complexity.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Multiplayer Complexity"
+              "title": "New tab"
             }
           }
         ]
@@ -80,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 318.5
   },
   "right": {
     "id": "b4c00f5882eb6a9e",
@@ -186,8 +182,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "f2ec07c8acd81ab9",
+  "active": "b67b9e80f53c6606",
   "lastOpenFiles": [
+    "tmp/epubs/aiassistants/OEBPS/images/9780262542555.jpg",
+    "tmp/epubs/aiassistants/OEBPS/images/12761_005_fig_000.jpg",
+    "tmp/epubs/aiassistants/OEBPS/images/12761_004_fig_000.jpg",
+    "tmp/epubs/aiassistants/OEBPS/images/12761_003_fig_000.jpg",
+    "tmp/epubs/aiassistants/OEBPS/images/12761_002_fig_000.jpg",
+    "tmp/epubs/aiassistants/OEBPS/images/12761_001_fig_000.jpg",
+    "tmp/epubs/aiassistants/OEBPS/images/12761_000_fig_5001.jpg",
+    "tmp/epubs/aiassistants/OEBPS/toc.ncx",
+    "tmp/epubs/aiassistants/OEBPS/toc.xhtml",
+    "tmp/epubs/aiassistants/OEBPS/images",
+    "tmp/epubs/aiassistants/OEBPS/default.css",
+    "tmp/epubs/aiassistants/OEBPS/12761-0018_2.xhtml",
+    "tmp/epubs/aiassistants/OEBPS/12761-0018_3.xhtml",
+    "tmp/epubs/aiassistants/OEBPS/content.opf",
+    "tmp/epubs/aiassistants/OEBPS/12761-0017.xhtml",
+    "tmp/epubs/aiassistants/OEBPS/12761-0018_1.xhtml",
+    "tmp/epubs/aiassistants/OEBPS/12761-0016.xhtml",
+    "6 - Full Notes/Feedback.md",
+    "6 - Full Notes/Game Verb.md",
+    "3 - Tags/Game Design.md",
+    "3 - Tags/Computer Science.md",
+    "6 - Full Notes/Multiplayer Complexity.md",
     "6 - Full Notes/Continuous Improvement.md",
     "6 - Full Notes/Empirical Process Control.md",
     "6 - Full Notes/Yomi.md",
@@ -208,32 +226,10 @@
     "6 - Full Notes/Blue-Green Deployment.md",
     "6 - Full Notes/Incident Retrospective.md",
     "6 - Full Notes/Live Support Team.md",
-    "6 - Full Notes/Canary Deployment.md",
-    "6 - Full Notes/Feature Toggle.md",
-    "6 - Full Notes/Continuous Deployment.md",
-    "6 - Full Notes/Continuous Delivery.md",
-    "6 - Full Notes/Lead Time.md",
-    "6 - Full Notes/Value Stream.md",
     "tmp/pdfs/agile-render/page-522.png",
     "tmp/pdfs/agile-render/page-514.png",
     "tmp/pdfs/agile-render/page-474.png",
     "tmp/pdfs/agile-render/page-417.png",
-    "tmp/pdfs/agile-render/page-331.png",
-    "tmp/pdfs/agile-render/page-284.png",
-    "tmp/pdfs/agile-render/page-223.png",
-    "tmp/pdfs/agile-render/page-180.png",
-    "tmp/pdfs/agile-render/page-152.png",
-    "tmp/pdfs/agile-render/page-84.png",
-    "tmp/pdfs/agile-render",
-    "tmp/pdfs/agilegamedevelopment2e.txt",
-    "tmp/pdfs",
-    "tmp",
-    "tmp/pdfs/rendered-agamedesignvocabulary",
-    "tmp/pdfs/agamedesignvocabulary.txt",
-    "2 - Source Material/Books/3duserinterfaces2ande.pdf",
-    "2 - Source Material/Foundations of CS Lectures/Lecture 3 - Logic Gates.pdf",
-    "2 - Source Material/Foundations of CS Lectures/Lecture 2 - Logic.pdf",
-    "2 - Source Material/Foundations of CS Lectures/Lecture 1 - 301.pdf",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

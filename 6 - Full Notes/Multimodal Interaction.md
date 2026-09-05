@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Interaction Design]]
+Tags: [[Interaction Design]] · [[Conversational Assistant Design]]
 
 # Multimodal Interaction
 
@@ -12,6 +12,10 @@ Multiple channels can decouple [[System Control]] from a primary task, resolve a
 
 The task should be matched to suitable modalities, transitions should be clear, and combined performance should be evaluated rather than assumed to improve automatically.
 
+In a virtual assistant, speech can be combined with a display, touch, gaze, or physical orientation. The [[Dialog Manager]] must keep these channels in one [[Conversation Context]] so expressions such as “that one” can be resolved against what the user sees or indicates.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+
+[[aiassistants.epub]]

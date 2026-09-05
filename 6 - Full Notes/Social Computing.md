@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Interaction Design]]
+Tags: [[Interaction Design]] · [[Conversational Assistant Design]]
 
 # Social Computing
 
@@ -12,6 +12,10 @@ Because conversations and conventions are situated in social reality, social com
 
 In three-dimensional environments, social computing can place remote users in a shared virtual space through [[Telepresence]].
 
+Conversational assistants can also become social actors rather than neutral communication channels. Voice, timing, memory, and [[Assistant Personality]] invite people to apply social expectations to a [[Social Virtual Assistant]] or [[Social Robot]], even when the system's actual understanding is narrow.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+
+[[aiassistants.epub]]

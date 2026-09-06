@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]]
+Tags: [[Game Production Planning and Milestones]]
 
 # Alpha Milestone
 
@@ -13,4 +13,3 @@ After alpha, emphasis shifts from adding major features toward balancing, testin
 # References
 
 [[advancedgamedesign.pdf]]
-

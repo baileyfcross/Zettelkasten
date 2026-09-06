@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]]
+Tags: [[Game Production Planning and Milestones]]
 
 # Beta Milestone
 
@@ -13,4 +13,3 @@ It follows the [[Alpha Milestone]] and precedes commercial release, but its exac
 # References
 
 [[advancedgamedesign.pdf]]
-

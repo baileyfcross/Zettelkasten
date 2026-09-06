@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]]
+Tags: [[Game Production Planning and Milestones]]
 
 # Game Scope
 
@@ -13,4 +13,3 @@ Scope is controlled through clear priorities and willingness to remove elements 
 # References
 
 [[advancedgamedesign.pdf]]
-

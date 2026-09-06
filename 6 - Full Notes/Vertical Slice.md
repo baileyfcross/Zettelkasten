@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]]
+Tags: [[Game Production Planning and Milestones]]
 
 # Vertical Slice
 

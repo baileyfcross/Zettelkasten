@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Interaction Design]] [[Game Interactivity]]
+Tags: [[Human-Computer Interaction Foundations]] [[Game Interactivity]]
 
 # Feedback
 

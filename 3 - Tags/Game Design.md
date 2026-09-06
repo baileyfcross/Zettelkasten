@@ -2,30 +2,52 @@
 
 Game Design is the broad index for topics concerned with games and their creation. Full Notes should normally use the most focused applicable topic below instead of this root topic.
 
-## Topics
+## Overview Chapter
 
-- [[Game Foundations]]
-- [[Game Mechanics and Rules]]
-- [[Level and Scene Design]]
-- [[Game Presentation]]
-- [[Game Challenge Design]]
-- [[Game Rewards and Consequences]]
-- [[Authored Game Narrative]]
-- [[Emergent Game Narrative]]
-- [[Game Interactivity]]
-- [[Player Experience Design]]
-- [[Game Design Methods]]
-- [[Game Systems]]
-- [[Game Economies]]
-- [[Game Balance and Progression]]
-- [[Game Analytics and Probability]]
-- [[Game Production]]
-- [[Systems Foundations]]
-- [[System Dynamics]]
-- [[Emergent Systems]]
+Game design is the practice of constructing systems that players can understand, act within, and experience over time. A game is not produced by rules alone or by presentation alone. It emerges from the relationship among formal structures, player actions, feedback, authored content, technical constraints, and the development process that brings them together. The topics under this tag describe that relationship from first principles through production.
 
-## Directly linked Full Notes
+### Rules, systems, and emergence
+
+[[Game Foundations]] begins with the structures that make games recognizable as games: goals, rules, challenges, representations, and participation. [[Game Mechanics and Rules]] makes those structures operational. Rules establish what is permitted or prohibited, while mechanics expose repeatable actions through which the player changes the game state. A rule may exist internally, but it becomes meaningful to the player through a verb, an observable consequence, and a place in the larger activity.
+
+That larger activity is described by [[Game Systems]]. Resources, attributes, engines, ecologies, and progression structures connect individual mechanics into patterns of play. [[Systems Foundations]] provides the vocabulary for reasoning about those connections through boundaries, parts, states, hierarchies, and models. [[System Dynamics]] adds change over time: stocks accumulate, flows transfer value, and reinforcing or balancing feedback loops shape trajectories. When local interactions produce global outcomes that were not explicitly authored, [[Emergent Systems]] explains how upward and downward causality, nonlinearity, and structural coupling create systemic depth.
+
+These levels should be designed together. A mechanic that is elegant in isolation may become dominant, irrelevant, or confusing when connected to the rest of the system. Conversely, a small rule can create a rich possibility space when it participates in several feedback relationships. The designer's task is therefore second-order: instead of directly creating every event, the designer creates conditions from which meaningful events can arise.
+
+### Action, feedback, and player experience
+
+[[Game Interactivity]] focuses on the reciprocal loop between player and game. The player forms an intention, performs an action, observes feedback, and revises the next action. Interactivity can occur at physical, cognitive, emotional, social, and cultural timescales. A responsive control scheme matters, but so do longer loops in which players interpret strategy, identity, cooperation, or consequence.
+
+The quality of these loops is judged through [[Player Experience Design]]. Goals, motivation, mental models, engagement, flow, onboarding, and styles of play determine how a system is actually encountered. The player's experience cannot be read directly from the design document. It must be observed through play because different players bring different skills, expectations, and motivations to the same possibility space.
+
+[[Game Challenge Design]] shapes the resistance that gives action weight. Challenge depends on player skill, perceived fairness, pacing, available information, and the cost of failure. Too little resistance produces boredom; too much produces frustration. [[Game Rewards and Consequences]] gives outcomes motivational and systemic meaning through scores, achievements, resources, checkpoints, punishment, and reflective evaluation. Rewards are strongest when they reinforce the activity the game is meant to sustain rather than replacing it with an unrelated accumulation task.
+
+The immediate context for these experiences is built through [[Level and Scene Design]]. A scene introduces rules, directs attention, creates decisions, controls pacing, and arranges the physical or conceptual space through which play unfolds. [[Game Presentation]] communicates that structure through visual composition, animation, sound, camera, silhouette, motif, and contextual cohesion. Presentation is not merely decoration: it makes system state perceivable and tells the player which actions and consequences deserve attention.
+
+### Narrative and meaning
+
+Games can organize story through authored sequences or through systems. [[Authored Game Narrative]] covers lore, themes, cutscenes, side quests, branching structures, and other content whose dramatic form is deliberately composed. Branches can give players agency, but they multiply production cost and often reconverge so the larger story remains manageable.
+
+[[Emergent Game Narrative]] arises when players interpret events generated by rules, other players, and unpredictable combinations of state. The designer does not write every resulting story, but supplies objects, relationships, tensions, and consequences from which stories can be constructed. Authored and emergent approaches are not opposites that must be chosen exclusively. Authored material can give context and emotional direction to a systemic event, while systemic play can make an authored theme personally meaningful.
+
+### Economy, balance, and evidence
+
+[[Game Economies]] describes how resources enter, circulate, convert, accumulate, and leave a game. Sources and sinks influence scarcity; prices establish exchange relationships; poorly regulated flows can create inflation or stagnation. Because an economy connects many actions, changing one cost or reward can alter strategies far beyond the object being tuned.
+
+[[Game Balance and Progression]] studies those tradeoffs across choices, characters, difficulty, pacing, and advancement. Balance does not always mean equality. It can mean that alternatives remain situationally useful, that improvement preserves meaningful decisions, or that challenge grows in a way players can learn. Mathematical models reveal possible relationships, designer judgment supplies intent, and playtesting reveals how people actually use the system.
+
+[[Game Analytics and Probability]] provides quantitative tools for this work. Probability distributions describe uncertain outcomes, simulations expose long-run tendencies, and behavioral data reveal cohorts, retention, progression, and failure points. Metrics are evidence rather than goals in themselves. A measured increase is useful only when it can be connected to the experience and values the design is meant to support.
+
+### Designing and producing the game
+
+[[Game Design Methods]] turns ideas into testable artifacts through concept statements, prototypes, design questions, documents, story maps, and repeated playtests. Early prototypes isolate uncertainty cheaply. Later documentation coordinates a growing team without pretending that the design will stop changing. Each artifact should answer a current question or enable a decision.
+
+The work is organized by [[Scrum and Agile Foundations]], which emphasizes empirical development, cross-discipline collaboration, inspect-and-adapt cycles, and shared product goals. [[Scrum Iteration Practices]] gives that approach a rhythm through Sprint planning, daily coordination, review, and retrospective learning. [[Agile Backlog and Estimation]] connects player value to ordered work through user stories, acceptance criteria, refinement, relative estimates, and release forecasts.
+
+[[Game Production]] integrates creative vision with scope, staffing, milestones, technical risk, quality, and release. Production is not separate from design: every constraint changes the space of possible designs, and every design decision creates production consequences. The most reliable process maintains a short design-build-test loop, keeps the whole playable experience visible, and treats evidence from the running game as the basis for the next decision.
+
+## Directly Referenced Tags
 
 ```query
-path:"6 - Full Notes" "[[Game Design]]"
+path:"3 - Tags" "[[Game Design]]"
 ```

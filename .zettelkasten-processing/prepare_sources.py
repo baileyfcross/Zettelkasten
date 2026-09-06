@@ -20,8 +20,10 @@ BOOKS = ROOT / "2 - Source Material" / "Books"
 MANIFEST = Path(__file__).resolve().parent / "manifest.json"
 FULL_NOTES = ROOT / "6 - Full Notes"
 TAGS = ROOT / "3 - Tags"
-TOPIC_TARGET_MIN = 10
-TOPIC_TARGET_MAX = 20
+TAG_REFERENCE_MINIMUM = 10
+TAG_CHAPTER_MINIMUM_QUALIFYING_CHILDREN = 5
+TAG_CHAPTER_MIN_WORDS = 500
+TAG_CHAPTER_WORDS_PER_CHILD_TOPIC = 20
 
 
 def sha256(path: Path) -> str:
@@ -167,6 +169,43 @@ def linked_topics(content: str) -> list[str]:
     ]
 
 
+def parent_topics(content: str) -> list[str]:
+    match = re.search(r"^Parent topics?:\s*(.*)$", content, re.MULTILINE)
+    if not match:
+        return []
+    return [
+        link.split("|", 1)[0].split("#", 1)[0].strip()
+        for link in re.findall(r"\[\[([^\]]+)\]\]", match.group(1))
+    ]
+
+
+def wikilink_targets(content: str) -> set[str]:
+    content_without_code = re.sub(r"```.*?```", "", content, flags=re.DOTALL)
+    return {
+        link.split("|", 1)[0].split("#", 1)[0].strip()
+        for link in re.findall(r"\[\[([^\]]+)\]\]", content_without_code)
+        if link.split("|", 1)[0].split("#", 1)[0].strip()
+    }
+
+
+def overview_chapter(content: str) -> str:
+    heading = re.search(r"^## Overview Chapter\s*$", content, re.MULTILINE)
+    if not heading:
+        return ""
+    remainder = content[heading.end() :]
+    next_section = re.search(r"^##\s+", remainder, re.MULTILINE)
+    return (remainder[: next_section.start()] if next_section else remainder).strip()
+
+
+def directly_referenced_tags(content: str) -> str:
+    heading = re.search(r"^## Directly Referenced Tags\s*$", content, re.MULTILINE)
+    if not heading:
+        return ""
+    remainder = content[heading.end() :]
+    next_section = re.search(r"^##\s+", remainder, re.MULTILINE)
+    return (remainder[: next_section.start()] if next_section else remainder).strip()
+
+
 def validate_topics() -> dict:
     errors: list[str] = []
     warnings: list[str] = []
@@ -185,34 +224,155 @@ def validate_topics() -> dict:
             if tag_path is None:
                 errors.append(f"{path.name}: topic [[{topic}]] has no file in 3 - Tags")
                 continue
-            counts[topic] = counts.get(topic, 0) + 1
-            topic_notes.setdefault(topic, []).append(path.stem)
+            canonical_topic = tag_path.stem
+            counts[canonical_topic] = counts.get(canonical_topic, 0) + 1
+            topic_notes.setdefault(canonical_topic, []).append(path.stem)
 
-    for topic, count in sorted(counts.items(), key=lambda item: item[0].casefold()):
-        if count > TOPIC_TARGET_MAX:
-            errors.append(
-                f"{topic}: {count} linked Full Notes exceeds the {TOPIC_TARGET_MAX}-note topic limit; "
-                "split it into more specific reusable topics"
-            )
-        elif count < TOPIC_TARGET_MIN:
-            warnings.append(
-                f"{topic}: {count} linked Full Notes is below the {TOPIC_TARGET_MIN}-note target; "
-                "prefer a compatible existing topic unless this is a growing subject"
-            )
+    child_topics: dict[str, set[str]] = {path.stem: set() for path in tag_files.values()}
+    for child_path in tag_files.values():
+        content = child_path.read_text(encoding="utf-8-sig")
+        for parent in parent_topics(content):
+            parent_path = tag_files.get(parent.casefold())
+            if parent_path is None:
+                errors.append(f"{child_path.name}: parent topic [[{parent}]] has no file in 3 - Tags")
+                continue
+            child_topics[parent_path.stem].add(child_path.stem)
 
+    tag_details: dict[str, dict] = {}
+    tag_tiers: dict[str, list[str]] = {
+        "chapter_summary": [],
+        "regular": [],
+        "under_threshold": [],
+    }
+    chapter_summaries: dict[str, dict] = {}
     for topic_key, path in sorted(tag_files.items(), key=lambda item: item[1].name.casefold()):
-        content = path.read_text(encoding="utf-8-sig")
         topic = path.stem
+        direct_references = counts.get(topic, 0)
+        content = path.read_text(encoding="utf-8-sig")
+        children = sorted(child_topics[topic], key=str.casefold)
+        qualifying_children = [
+            child for child in children if counts.get(child, 0) >= TAG_REFERENCE_MINIMUM
+        ]
+        chapter_required = (
+            len(qualifying_children) >= TAG_CHAPTER_MINIMUM_QUALIFYING_CHILDREN
+        )
+        if chapter_required:
+            tier = "chapter_summary"
+        elif direct_references >= TAG_REFERENCE_MINIMUM:
+            tier = "regular"
+        else:
+            tier = "under_threshold"
+        tag_tiers[tier].append(topic)
+        tag_details[topic] = {
+            "tier": tier,
+            "direct_references": direct_references,
+            "child_tags": len(children),
+            "qualifying_child_tags": len(qualifying_children),
+        }
+
+        chapter = overview_chapter(content)
+        tag_section = directly_referenced_tags(content)
         expected_query = f'path:"6 - Full Notes" "[[{topic}]]"'
-        if expected_query not in content:
-            errors.append(f"{path.name}: missing embedded query for Full Notes linking [[{topic}]]")
+        if not chapter_required:
+            if tier == "under_threshold":
+                errors.append(
+                    f"{path.name}: only {direct_references} directly linked Full Notes and "
+                    f"{len(qualifying_children)} qualifying child tags; a tag requires at least "
+                    f"{TAG_REFERENCE_MINIMUM} direct references or "
+                    f"{TAG_CHAPTER_MINIMUM_QUALIFYING_CHILDREN} child tags with at least "
+                    f"{TAG_REFERENCE_MINIMUM} references each"
+                )
+            if expected_query not in content:
+                errors.append(
+                    f"{path.name}: regular tags must query directly linked Full Notes for [[{topic}]]"
+                )
+            if tag_section:
+                errors.append(
+                    f"{path.name}: only chapter-summary tags may contain a "
+                    "'## Directly Referenced Tags' section"
+                )
+            if chapter:
+                errors.append(
+                    f"{path.name}: has an Overview Chapter but only "
+                    f"{len(qualifying_children)} child tags meet the "
+                    f"{TAG_REFERENCE_MINIMUM}-reference threshold"
+                )
+            continue
+
+        if direct_references:
+            errors.append(
+                f"{path.name}: chapter-summary tags cannot have directly linked Full Notes; "
+                f"move its {direct_references} notes to focused child tags"
+            )
+        if expected_query in content:
+            errors.append(
+                f"{path.name}: replace the direct Full Notes query with a "
+                "'## Directly Referenced Tags' section"
+            )
+        if not tag_section:
+            errors.append(
+                f"{path.name}: chapter-summary tags require a populated "
+                "'## Directly Referenced Tags' section"
+            )
+        else:
+            expected_tag_query = f'path:"3 - Tags" "[[{topic}]]"'
+            if expected_tag_query not in tag_section:
+                errors.append(
+                    f"{path.name}: Directly Referenced Tags must query tag pages linking "
+                    f"[[{topic}]] with '{expected_tag_query}'"
+                )
+            manual_tag_links = sorted(wikilink_targets(tag_section), key=str.casefold)
+            if manual_tag_links:
+                manual = ", ".join(f"[[{tag}]]" for tag in manual_tag_links)
+                errors.append(
+                    f"{path.name}: replace manually listed child tags with the embedded "
+                    f"tag query; manual links found: {manual}"
+                )
+
+        minimum_words = max(
+            TAG_CHAPTER_MIN_WORDS,
+            len(children) * TAG_CHAPTER_WORDS_PER_CHILD_TOPIC,
+        )
+        word_count = len(re.findall(r"\b[\w'’-]+\b", chapter))
+        chapter_links = {target.casefold() for target in wikilink_targets(chapter)}
+        missing_children = [child for child in children if child.casefold() not in chapter_links]
+        chapter_summaries[topic] = {
+            "direct_references": direct_references,
+            "child_topics": len(children),
+            "qualifying_child_topics": len(qualifying_children),
+            "chapter_words": word_count,
+            "minimum_words": minimum_words,
+        }
+
+        if not chapter:
+            errors.append(
+                f"{path.name}: {len(qualifying_children)} child tags have at least "
+                f"{TAG_REFERENCE_MINIMUM} references; add a textbook-style "
+                "'## Overview Chapter' section covering all child topics"
+            )
+            continue
+        if word_count < minimum_words:
+            errors.append(
+                f"{path.name}: overview chapter has {word_count} words; "
+                f"write at least {minimum_words} words to synthesize its linked topics"
+            )
+        if missing_children:
+            missing = ", ".join(f"[[{child}]]" for child in missing_children)
+            errors.append(f"{path.name}: overview chapter does not cover child topics: {missing}")
 
     return {
         "full_notes": len(list(FULL_NOTES.glob("*.md"))),
         "used_topics": len(counts),
-        "target_notes_per_topic": [TOPIC_TARGET_MIN, TOPIC_TARGET_MAX],
+        "tag_reference_minimum": TAG_REFERENCE_MINIMUM,
+        "chapter_summary_rule": {
+            "minimum_qualifying_child_tags": TAG_CHAPTER_MINIMUM_QUALIFYING_CHILDREN,
+            "minimum_direct_references_per_child": TAG_REFERENCE_MINIMUM,
+        },
         "topic_counts": dict(sorted(counts.items(), key=lambda item: item[0].casefold())),
         "topic_notes": dict(sorted(topic_notes.items(), key=lambda item: item[0].casefold())),
+        "tag_tiers": tag_tiers,
+        "tag_details": tag_details,
+        "chapter_summaries": chapter_summaries,
         "errors": errors,
         "warnings": warnings,
     }

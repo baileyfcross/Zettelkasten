@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]] [[Software Engineering]]
+Tags: [[Game Production Planning and Milestones]] [[Software Engineering]]
 
 # Stage Gate
 

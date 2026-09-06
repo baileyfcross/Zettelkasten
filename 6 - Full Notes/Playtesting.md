@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Design Methods]] [[Game Production]] [[Agile Engineering and Quality]]
+Tags: [[Game Design Methods]] [[Game Production Planning and Milestones]] [[Agile Engineering and Quality]]
 
 # Playtesting
 

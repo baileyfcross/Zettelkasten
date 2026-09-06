@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Interaction Design]] · [[Conversational Assistant Design]]
+Tags: [[Human-Computer Interaction Foundations]] · [[Conversational Assistant Design]]
 
 # Social Computing
 

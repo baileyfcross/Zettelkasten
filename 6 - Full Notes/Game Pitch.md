@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]]
+Tags: [[Game Production Planning and Milestones]]
 
 # Game Pitch
 
@@ -13,4 +13,3 @@ An effective pitch opens with a concise [[Concept Statement]], shows the core ex
 # References
 
 [[advancedgamedesign.pdf]]
-

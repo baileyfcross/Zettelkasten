@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Software Engineering]] [[Game Design Methods]] [[Game Production]]
+Tags: [[Software Engineering]] [[Game Design Methods]] [[Game Production Planning and Milestones]]
 
 # Prototype
 

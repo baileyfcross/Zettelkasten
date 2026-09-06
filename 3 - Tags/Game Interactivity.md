@@ -1,6 +1,6 @@
 # Game Interactivity
 
-Parent topics: [[Game Design]] · [[Computer Science]]
+Parent topics: [[Game Foundations]] · [[Game Design]] · [[Computer Science]]
 
 Reciprocal game-player loops across physical, cognitive, social, emotional, and cultural timescales.
 

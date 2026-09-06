@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Interaction Design]] [[Player Experience Design]]
+Tags: [[Human-Computer Interaction Foundations]] [[Player Experience Design]]
 
 # User Experience
 

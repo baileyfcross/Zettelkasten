@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]]
+Tags: [[Game Production Planning and Milestones]]
 
 # Game Release
 
@@ -13,4 +13,3 @@ Release also opens the outermost [[Designer Loop]]: broad player behavior and ma
 # References
 
 [[advancedgamedesign.pdf]]
-

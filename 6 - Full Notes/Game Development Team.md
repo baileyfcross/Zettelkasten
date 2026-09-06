@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]]
+Tags: [[Game Production Planning and Milestones]]
 
 # Game Development Team
 
@@ -13,4 +13,3 @@ Successful teams maintain mutual respect, clear roles, open communication, accou
 # References
 
 [[advancedgamedesign.pdf]]
-

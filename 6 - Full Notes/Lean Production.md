@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production]] [[Kanban Production Flow]]
+Tags: [[Game Production Planning and Milestones]] [[Kanban Production Flow]]
 
 # Lean Production
 

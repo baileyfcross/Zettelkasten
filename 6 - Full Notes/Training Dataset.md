@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]] · [[Data Ethics and Digital Power]]
+Tags: [[Neural Network Training]] · [[Data Ethics and Digital Power]]
 
 # Training Dataset
 
@@ -12,8 +12,12 @@ For speech systems, useful training data must span speakers, accents, recording 
 
 Training data are also a [[Dataset Abstraction]] shaped by choices about categories, labels, and inclusion. Their size does not guarantee [[Dataset Representativeness]], and records of earlier decisions can encode [[Historical Bias in Data]]. A model may therefore reproduce social inequality while accurately learning the pattern it was given.
 
+During supervised neural-network training, each example is paired with a desired output. One complete pass through the collection is a [[Training Epoch]], and multiple epochs progressively adjust weights and biases. A separate [[Test Dataset]] is withheld from these updates so it can measure generalization.
+
 # References
 
 [[aiassistants.epub]]
 
 [[aiethics.epub]]
+
+[[algorithms.epub]]

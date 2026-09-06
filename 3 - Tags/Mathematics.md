@@ -24,6 +24,12 @@ Equations use this structure to identify values that make a condition true, whil
 
 Simple local equations can create complex global behavior. Delays may produce oscillation, nonlinear responses may create thresholds, and interacting feedback loops may generate outcomes that intuition misses. Mathematical models make these relationships explicit enough to simulate, compare, and revise. They do not remove the need for judgment, but they expose the assumptions behind a prediction.
 
+### Matrices, transformations, and optimization
+
+[[Matrix and Vector Computation]] represents related numerical quantities in rows, columns, and vectors so that large families of calculations can be expressed as structured operations. Matrix multiplication can propagate values through a network, an adjacency matrix can encode the edges of a graph, and a sparse representation can store only the meaningful nonzero relationships. Iterative multiplication also connects a matrix to its eigenvectors, as demonstrated by the power method used in PageRank.
+
+[[Optimization and Differentiation]] studies how a measurable objective changes and how its value can be improved. A derivative describes local rate of change, partial derivatives isolate the contribution of individual variables, and a gradient gathers those changes into one direction. Moving against the gradient reduces a loss function locally, giving neural-network training a systematic way to adjust many weights and biases from prediction error.
+
 ### Probability and behavioral evidence
 
 [[Game Analytics and Probability]] applies quantitative reasoning to uncertain systems and observed player behavior. Probability distributions describe the likelihood of outcomes rather than pretending a random event has one predictable result. Expected values, simulations, and repeated trials reveal long-run tendencies that may be invisible in a small number of plays.

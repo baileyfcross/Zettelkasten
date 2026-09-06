@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]]
+Tags: [[Neural Network Training]]
 
 # Unsupervised Learning
 
@@ -10,6 +10,10 @@ Unsupervised learning searches for structure in data without being given target 
 
 Because no answer key is supplied, the discovered structure is not automatically equivalent to a human concept. The method is nevertheless valuable when unlabeled data are abundant and annotated [[Training Dataset|training datasets]] are scarce.
 
+Clustering illustrates the setup: observations are supplied without correct group assignments, so the algorithm must derive a useful organization from the inputs themselves. This contrasts with [[Supervised Learning]], where desired outputs guide every training example.
+
 # References
 
 [[aiassistants.epub]]
+
+[[algorithms.epub]]

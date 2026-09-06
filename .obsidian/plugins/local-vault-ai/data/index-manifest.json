@@ -2,7 +2,7 @@
   "version": 3,
   "embeddingModel": "embeddinggemma",
   "embeddingDimensions": 768,
-  "lastIndexedAt": "2026-09-06T22:22:57.511Z",
+  "lastIndexedAt": "2026-09-06T22:57:28.951Z",
   "documents": {
     "6 - Full Notes/Zero Product Property.md": {
       "hash": "e4a0f266fe68144a3b6cfefecf693d16dbe3316be5e5d0d2a76e227d5f8c11a9",
@@ -8642,8 +8642,8 @@
       ]
     },
     "3 - Tags/Mathematics.md": {
-      "hash": "14ddce26bea2806bdbe7e4e0c0ca71065091c099fcc4389416a591377f3f0bb3",
-      "mtime": 1788668124790,
+      "hash": "cf1cc20cc7e5c383f61fd93c799ac42405d3ce3f572a1de94a633173a74b8170",
+      "mtime": 1788734756245,
       "chunkIds": [
         "3 - Tags/Mathematics.md::0",
         "3 - Tags/Mathematics.md::1",
@@ -9215,6 +9215,1438 @@
         "2 - Source Material/Article/What is artificial intelligence (AI).md::31",
         "2 - Source Material/Article/What is artificial intelligence (AI).md::32",
         "2 - Source Material/Article/What is artificial intelligence (AI).md::33"
+      ]
+    },
+    "3 - Tags/Statistical Computing Workflows.md": {
+      "hash": "c12e4436c3a8b3b4ce2893256e66153d99970c8f372a7c9f99190e378c4a31bb",
+      "mtime": 1788734744843,
+      "chunkIds": [
+        "3 - Tags/Statistical Computing Workflows.md::0",
+        "3 - Tags/Statistical Computing Workflows.md::1"
+      ]
+    },
+    "3 - Tags/Analytic Data Preparation.md": {
+      "hash": "330e35a1fd9cd2189b8926bb0001c64effabc0c5df4135d0d0430af30ef37441",
+      "mtime": 1788734746092,
+      "chunkIds": [
+        "3 - Tags/Analytic Data Preparation.md::0",
+        "3 - Tags/Analytic Data Preparation.md::1"
+      ]
+    },
+    "3 - Tags/Health Data Analysis.md": {
+      "hash": "4e58ecd4d9dd8846275a10ea909d1157e444b306d937814f82382b6b9de86d11",
+      "mtime": 1788734743589,
+      "chunkIds": [
+        "3 - Tags/Health Data Analysis.md::0",
+        "3 - Tags/Health Data Analysis.md::1",
+        "3 - Tags/Health Data Analysis.md::2",
+        "3 - Tags/Health Data Analysis.md::3"
+      ]
+    },
+    "3 - Tags/Health Data Visualization.md": {
+      "hash": "68ccc7890fc67e86859fbecf556e6bd63bfaf89ec171e6b732da6a0ed2293efc",
+      "mtime": 1788734747427,
+      "chunkIds": [
+        "3 - Tags/Health Data Visualization.md::0",
+        "3 - Tags/Health Data Visualization.md::1"
+      ]
+    },
+    "3 - Tags/Descriptive Health Statistics.md": {
+      "hash": "d64ab2230855c4ea1ee2d1577799a1232cebf1683a7057b912482b9748047eb8",
+      "mtime": 1788734748840,
+      "chunkIds": [
+        "3 - Tags/Descriptive Health Statistics.md::0",
+        "3 - Tags/Descriptive Health Statistics.md::1"
+      ]
+    },
+    "3 - Tags/Statistical Power and Effect Size.md": {
+      "hash": "9f7084378f402f19e8995a43e98e76a274b96f0c362cf2a7517167aa65614a6f",
+      "mtime": 1788734750072,
+      "chunkIds": [
+        "3 - Tags/Statistical Power and Effect Size.md::0",
+        "3 - Tags/Statistical Power and Effect Size.md::1"
+      ]
+    },
+    "3 - Tags/Regression Model Development.md": {
+      "hash": "a09ff5354e1c9e686e139c6ae119792c364c1082b26e8433d333cc88af90bc1c",
+      "mtime": 1788734751286,
+      "chunkIds": [
+        "3 - Tags/Regression Model Development.md::0",
+        "3 - Tags/Regression Model Development.md::1"
+      ]
+    },
+    "3 - Tags/Linear Regression Analysis.md": {
+      "hash": "bc4efd2ed05337f1279b2d8e2578f841b3ddcc330c94bae2b1b39ca2a80ddfef",
+      "mtime": 1788734752537,
+      "chunkIds": [
+        "3 - Tags/Linear Regression Analysis.md::0",
+        "3 - Tags/Linear Regression Analysis.md::1"
+      ]
+    },
+    "3 - Tags/Logistic Regression Analysis.md": {
+      "hash": "f38a89f496276981c4cc07b91e66ffbd635b65f26fa1e1f14c3d4a96b8eadb0c",
+      "mtime": 1788734753769,
+      "chunkIds": [
+        "3 - Tags/Logistic Regression Analysis.md::0",
+        "3 - Tags/Logistic Regression Analysis.md::1"
+      ]
+    },
+    "3 - Tags/Survival and Time-to-Event Analysis.md": {
+      "hash": "3479df250e7918b90177e2d5b46a5e33bd759cb6b67cd0d2c905e47d84342e2b",
+      "mtime": 1788734755008,
+      "chunkIds": [
+        "3 - Tags/Survival and Time-to-Event Analysis.md::0",
+        "3 - Tags/Survival and Time-to-Event Analysis.md::1"
+      ]
+    },
+    "6 - Full Notes/SAS Procedure.md": {
+      "hash": "6da2fb335baef7559deb99b2e70162601bdbb5c9d50d4e1f5441648466120995",
+      "mtime": 1788734820527,
+      "chunkIds": [
+        "6 - Full Notes/SAS Procedure.md::0",
+        "6 - Full Notes/SAS Procedure.md::1",
+        "6 - Full Notes/SAS Procedure.md::2"
+      ]
+    },
+    "6 - Full Notes/SAS Data Step.md": {
+      "hash": "1395990cebc1320440ff10c1554c6f4b2907f4d9f85d4d2afdb71e498301c3cf",
+      "mtime": 1788734821766,
+      "chunkIds": [
+        "6 - Full Notes/SAS Data Step.md::0",
+        "6 - Full Notes/SAS Data Step.md::1",
+        "6 - Full Notes/SAS Data Step.md::2"
+      ]
+    },
+    "6 - Full Notes/SAS Output Delivery System.md": {
+      "hash": "cad081775a2577296517c27a0a725e22eac03e58251cf539ff09ed6619d0d34b",
+      "mtime": 1788734823034,
+      "chunkIds": [
+        "6 - Full Notes/SAS Output Delivery System.md::0",
+        "6 - Full Notes/SAS Output Delivery System.md::1",
+        "6 - Full Notes/SAS Output Delivery System.md::2"
+      ]
+    },
+    "6 - Full Notes/SAS Macro.md": {
+      "hash": "58e1ba7d64ce201bb153e0fd10a580f5b5f2c1d45d73ce5c6e4be4fe82a2ae33",
+      "mtime": 1788734824298,
+      "chunkIds": [
+        "6 - Full Notes/SAS Macro.md::0",
+        "6 - Full Notes/SAS Macro.md::1",
+        "6 - Full Notes/SAS Macro.md::2"
+      ]
+    },
+    "6 - Full Notes/R Package.md": {
+      "hash": "e2ef98d85d505c0c72a6c1d48711fdf57773ab7b1ded3abcacad7d12c00adbaa",
+      "mtime": 1788734825562,
+      "chunkIds": [
+        "6 - Full Notes/R Package.md::0",
+        "6 - Full Notes/R Package.md::1",
+        "6 - Full Notes/R Package.md::2"
+      ]
+    },
+    "6 - Full Notes/R Data Frame.md": {
+      "hash": "565acbdaf4d773547966807376d32438735ad99449d29f6fb2615ec892557cac",
+      "mtime": 1788734826870,
+      "chunkIds": [
+        "6 - Full Notes/R Data Frame.md::0",
+        "6 - Full Notes/R Data Frame.md::1",
+        "6 - Full Notes/R Data Frame.md::2"
+      ]
+    },
+    "6 - Full Notes/R Object Assignment.md": {
+      "hash": "fca9baf71edfc3d6ade73c72144090192c46557442054551685e5d1951775fc1",
+      "mtime": 1788734828159,
+      "chunkIds": [
+        "6 - Full Notes/R Object Assignment.md::0",
+        "6 - Full Notes/R Object Assignment.md::1",
+        "6 - Full Notes/R Object Assignment.md::2"
+      ]
+    },
+    "6 - Full Notes/R Console.md": {
+      "hash": "18f41d98a49fbde1d42bbec4be1215e8401efa81e8dd56fd0d34ae21811e8b5c",
+      "mtime": 1788734829449,
+      "chunkIds": [
+        "6 - Full Notes/R Console.md::0",
+        "6 - Full Notes/R Console.md::1",
+        "6 - Full Notes/R Console.md::2"
+      ]
+    },
+    "6 - Full Notes/RStudio.md": {
+      "hash": "4a79cae89c56d890d455995e02dd6e0a816c87e85dca41692f6fe264d75bba82",
+      "mtime": 1788734830702,
+      "chunkIds": [
+        "6 - Full Notes/RStudio.md::0",
+        "6 - Full Notes/RStudio.md::1",
+        "6 - Full Notes/RStudio.md::2"
+      ]
+    },
+    "6 - Full Notes/Package Dependency.md": {
+      "hash": "3874bdbc8d1bcc6c73ca954b7aa6138add97c8a0f84ff84cb7b9555fa2c23331",
+      "mtime": 1788734831996,
+      "chunkIds": [
+        "6 - Full Notes/Package Dependency.md::0",
+        "6 - Full Notes/Package Dependency.md::1",
+        "6 - Full Notes/Package Dependency.md::2"
+      ]
+    },
+    "6 - Full Notes/Statistical Software Licensing.md": {
+      "hash": "49262cb4a9924bf51763486ebc0f76af5b61030905c741e4959e3da692428a7f",
+      "mtime": 1788734833267,
+      "chunkIds": [
+        "6 - Full Notes/Statistical Software Licensing.md::0",
+        "6 - Full Notes/Statistical Software Licensing.md::1",
+        "6 - Full Notes/Statistical Software Licensing.md::2"
+      ]
+    },
+    "6 - Full Notes/Production Package Management.md": {
+      "hash": "3b7a6697dec134189ce4237aac8f4c7a37b63fe377d145c0ed3813a93efad993",
+      "mtime": 1788734834537,
+      "chunkIds": [
+        "6 - Full Notes/Production Package Management.md::0",
+        "6 - Full Notes/Production Package Management.md::1",
+        "6 - Full Notes/Production Package Management.md::2"
+      ]
+    },
+    "6 - Full Notes/Statistical Code Module.md": {
+      "hash": "9652df7a1d09beccb5e3f1ce19f6eacae1c86a5c3b547630c8d21aaf50ed2dea",
+      "mtime": 1788734835820,
+      "chunkIds": [
+        "6 - Full Notes/Statistical Code Module.md::0",
+        "6 - Full Notes/Statistical Code Module.md::1",
+        "6 - Full Notes/Statistical Code Module.md::2"
+      ]
+    },
+    "6 - Full Notes/Execution-Order Prefix.md": {
+      "hash": "c182055a4b7eed480042c911683d4c06bbd5052d3b3c2f129a74332095bbdb54",
+      "mtime": 1788734837094,
+      "chunkIds": [
+        "6 - Full Notes/Execution-Order Prefix.md::0",
+        "6 - Full Notes/Execution-Order Prefix.md::1",
+        "6 - Full Notes/Execution-Order Prefix.md::2"
+      ]
+    },
+    "6 - Full Notes/External Data Dictionary.md": {
+      "hash": "d5ef49e5978363c2526a80577e0b45f62ce82b95feb59e7814596e4f802f17b1",
+      "mtime": 1788734838358,
+      "chunkIds": [
+        "6 - Full Notes/External Data Dictionary.md::0",
+        "6 - Full Notes/External Data Dictionary.md::1",
+        "6 - Full Notes/External Data Dictionary.md::2"
+      ]
+    },
+    "6 - Full Notes/Reproducible Statistical Pipeline.md": {
+      "hash": "6e6cef76cfe389a38e617830213762c6129b699bd748c23a2fdcce3a915e9f06",
+      "mtime": 1788734839642,
+      "chunkIds": [
+        "6 - Full Notes/Reproducible Statistical Pipeline.md::0",
+        "6 - Full Notes/Reproducible Statistical Pipeline.md::1",
+        "6 - Full Notes/Reproducible Statistical Pipeline.md::2"
+      ]
+    },
+    "6 - Full Notes/Statistical Software Selection.md": {
+      "hash": "876a59d59475f9704cb2106cebf0b5522301abfbad568844d780a3add0a702b1",
+      "mtime": 1788734840930,
+      "chunkIds": [
+        "6 - Full Notes/Statistical Software Selection.md::0",
+        "6 - Full Notes/Statistical Software Selection.md::1",
+        "6 - Full Notes/Statistical Software Selection.md::2"
+      ]
+    },
+    "6 - Full Notes/Statistical Function Automation.md": {
+      "hash": "f1edf3e6272d0a96ab06f212345bde05bde239553f91562144b4d5a68885c659",
+      "mtime": 1788734842204,
+      "chunkIds": [
+        "6 - Full Notes/Statistical Function Automation.md::0",
+        "6 - Full Notes/Statistical Function Automation.md::1",
+        "6 - Full Notes/Statistical Function Automation.md::2"
+      ]
+    },
+    "6 - Full Notes/Dataset Import.md": {
+      "hash": "05b56aa0f64840012128eacebceced970fc8c22bf99123708eeab14fe4aa7d0a",
+      "mtime": 1788734909112,
+      "chunkIds": [
+        "6 - Full Notes/Dataset Import.md::0",
+        "6 - Full Notes/Dataset Import.md::1",
+        "6 - Full Notes/Dataset Import.md::2"
+      ]
+    },
+    "6 - Full Notes/Analytic Dataset.md": {
+      "hash": "031c8d99a4fce3e285d1c0088b505d88ef093da23a6da358c1426351e243504b",
+      "mtime": 1788734910355,
+      "chunkIds": [
+        "6 - Full Notes/Analytic Dataset.md::0",
+        "6 - Full Notes/Analytic Dataset.md::1",
+        "6 - Full Notes/Analytic Dataset.md::2"
+      ]
+    },
+    "6 - Full Notes/Dataset Structure Check.md": {
+      "hash": "51ecb17301b7a0768981b087c5dbb1243b2dfff0d46a676b3e8bb9157ffcfb01",
+      "mtime": 1788734911680,
+      "chunkIds": [
+        "6 - Full Notes/Dataset Structure Check.md::0",
+        "6 - Full Notes/Dataset Structure Check.md::1",
+        "6 - Full Notes/Dataset Structure Check.md::2"
+      ]
+    },
+    "6 - Full Notes/Variable Class.md": {
+      "hash": "a34a171d123ef516c85838460b5e32eae3e9a82bfae4a6ae93cdc5e303a81972",
+      "mtime": 1788734912941,
+      "chunkIds": [
+        "6 - Full Notes/Variable Class.md::0",
+        "6 - Full Notes/Variable Class.md::1",
+        "6 - Full Notes/Variable Class.md::2"
+      ]
+    },
+    "6 - Full Notes/Variable Subsetting.md": {
+      "hash": "42b08cdd4065c00566c753524682ce61976673aa85b24916412dc76bec6fb518",
+      "mtime": 1788734914222,
+      "chunkIds": [
+        "6 - Full Notes/Variable Subsetting.md::0",
+        "6 - Full Notes/Variable Subsetting.md::1",
+        "6 - Full Notes/Variable Subsetting.md::2"
+      ]
+    },
+    "6 - Full Notes/Record Inclusion Criteria.md": {
+      "hash": "c51944387345100d328fb8bcab3e2016c17393af32ff2819057f920937d86adb",
+      "mtime": 1788734915502,
+      "chunkIds": [
+        "6 - Full Notes/Record Inclusion Criteria.md::0",
+        "6 - Full Notes/Record Inclusion Criteria.md::1",
+        "6 - Full Notes/Record Inclusion Criteria.md::2"
+      ]
+    },
+    "6 - Full Notes/Record Exclusion Audit.md": {
+      "hash": "556edfbccdac038ae0f09d084d2d61b55e27b985d86a2648b1194be33f31ea67",
+      "mtime": 1788734916793,
+      "chunkIds": [
+        "6 - Full Notes/Record Exclusion Audit.md::0",
+        "6 - Full Notes/Record Exclusion Audit.md::1",
+        "6 - Full Notes/Record Exclusion Audit.md::2"
+      ]
+    },
+    "6 - Full Notes/Dataset Partition Verification.md": {
+      "hash": "2585eec7c8a4a3c95a3c14d76dfb7465b1a922a16cc833baa0bd18f0e0ecd506",
+      "mtime": 1788734918080,
+      "chunkIds": [
+        "6 - Full Notes/Dataset Partition Verification.md::0",
+        "6 - Full Notes/Dataset Partition Verification.md::1",
+        "6 - Full Notes/Dataset Partition Verification.md::2"
+      ]
+    },
+    "6 - Full Notes/Grouping Variable.md": {
+      "hash": "5859b842d42b812a3c305fcf6dc0795f0cefa1f13a18587d5f2f390b4e3de926",
+      "mtime": 1788734919344,
+      "chunkIds": [
+        "6 - Full Notes/Grouping Variable.md::0",
+        "6 - Full Notes/Grouping Variable.md::1",
+        "6 - Full Notes/Grouping Variable.md::2"
+      ]
+    },
+    "6 - Full Notes/Indicator Variable.md": {
+      "hash": "934297ddfd1dcfc88113dff215de31b14d6a889bb6a9f65caf0d459b93233e10",
+      "mtime": 1788734920601,
+      "chunkIds": [
+        "6 - Full Notes/Indicator Variable.md::0",
+        "6 - Full Notes/Indicator Variable.md::1",
+        "6 - Full Notes/Indicator Variable.md::2"
+      ]
+    },
+    "6 - Full Notes/Regression Reference Group.md": {
+      "hash": "198b29b1b65c070b1135de5e9ae29278c60e6d8602583269f00cec006c13c740",
+      "mtime": 1788734921888,
+      "chunkIds": [
+        "6 - Full Notes/Regression Reference Group.md::0",
+        "6 - Full Notes/Regression Reference Group.md::1",
+        "6 - Full Notes/Regression Reference Group.md::2"
+      ]
+    },
+    "6 - Full Notes/Missingness Indicator.md": {
+      "hash": "c3e0113cabfff4ad119a22f8dd53fa3a5885feb3008aada1fb87f9216cb8d9e1",
+      "mtime": 1788734923171,
+      "chunkIds": [
+        "6 - Full Notes/Missingness Indicator.md::0",
+        "6 - Full Notes/Missingness Indicator.md::1",
+        "6 - Full Notes/Missingness Indicator.md::2"
+      ]
+    },
+    "6 - Full Notes/Binary Outcome Variable.md": {
+      "hash": "99fde96e5763901adc996feb6a9247558ce6b5d9eb014a85b5b51cf9955f12cb",
+      "mtime": 1788734924428,
+      "chunkIds": [
+        "6 - Full Notes/Binary Outcome Variable.md::0",
+        "6 - Full Notes/Binary Outcome Variable.md::1",
+        "6 - Full Notes/Binary Outcome Variable.md::2"
+      ]
+    },
+    "6 - Full Notes/Continuous Variable Recoding.md": {
+      "hash": "7639f14534052d22e45a5e191e5c186a056143f3bad13e4604661532bf2abad0",
+      "mtime": 1788734925722,
+      "chunkIds": [
+        "6 - Full Notes/Continuous Variable Recoding.md::0",
+        "6 - Full Notes/Continuous Variable Recoding.md::1",
+        "6 - Full Notes/Continuous Variable Recoding.md::2"
+      ]
+    },
+    "6 - Full Notes/Quantile-Based Grouping.md": {
+      "hash": "8ee4a168c25cf28999ed15e35f6b5940781a631285b09f58dba4eb7674b7fdc1",
+      "mtime": 1788734927022,
+      "chunkIds": [
+        "6 - Full Notes/Quantile-Based Grouping.md::0",
+        "6 - Full Notes/Quantile-Based Grouping.md::1",
+        "6 - Full Notes/Quantile-Based Grouping.md::2"
+      ]
+    },
+    "6 - Full Notes/Continuous Variable Transformation.md": {
+      "hash": "8f90803b27e74952f0455586e6e7061cab9cdc44a81a5628b08b89bb3ed59b3d",
+      "mtime": 1788734928308,
+      "chunkIds": [
+        "6 - Full Notes/Continuous Variable Transformation.md::0",
+        "6 - Full Notes/Continuous Variable Transformation.md::1",
+        "6 - Full Notes/Continuous Variable Transformation.md::2"
+      ]
+    },
+    "6 - Full Notes/Date Parsing.md": {
+      "hash": "b82454712fc5e48355bae64f11f1fb01a72757872046fda7c72d477a759ac476",
+      "mtime": 1788734929585,
+      "chunkIds": [
+        "6 - Full Notes/Date Parsing.md::0",
+        "6 - Full Notes/Date Parsing.md::1",
+        "6 - Full Notes/Date Parsing.md::2"
+      ]
+    },
+    "6 - Full Notes/Date Difference.md": {
+      "hash": "8b568226a32f4066d9392a883a680ffda60eb5ebfefc21654e046085001f5477",
+      "mtime": 1788734930847,
+      "chunkIds": [
+        "6 - Full Notes/Date Difference.md::0",
+        "6 - Full Notes/Date Difference.md::1",
+        "6 - Full Notes/Date Difference.md::2"
+      ]
+    },
+    "6 - Full Notes/Analytic File Export.md": {
+      "hash": "bd13fff3b9328b174c26130eeb11669eb23ca0c42a33b22ad517ce0572929f8c",
+      "mtime": 1788734932186,
+      "chunkIds": [
+        "6 - Full Notes/Analytic File Export.md::0",
+        "6 - Full Notes/Analytic File Export.md::1",
+        "6 - Full Notes/Analytic File Export.md::2"
+      ]
+    },
+    "6 - Full Notes/Data Validation.md": {
+      "hash": "30e6875b722a850889ea8bb006a48a5248f6660ac374745300b102496cd24a76",
+      "mtime": 1788734933548,
+      "chunkIds": [
+        "6 - Full Notes/Data Validation.md::0",
+        "6 - Full Notes/Data Validation.md::1",
+        "6 - Full Notes/Data Validation.md::2"
+      ]
+    },
+    "6 - Full Notes/Histogram.md": {
+      "hash": "5a2d5283e31520398c6c6824e7fe42e0e7e503efda0a55d3653dbbd948e518cc",
+      "mtime": 1788734982080,
+      "chunkIds": [
+        "6 - Full Notes/Histogram.md::0",
+        "6 - Full Notes/Histogram.md::1",
+        "6 - Full Notes/Histogram.md::2"
+      ]
+    },
+    "6 - Full Notes/Box Plot.md": {
+      "hash": "039f691beb62b3f98ed7db72e251766bbc3a661a55f3caff2ba8fec253fc4c8c",
+      "mtime": 1788734983319,
+      "chunkIds": [
+        "6 - Full Notes/Box Plot.md::0",
+        "6 - Full Notes/Box Plot.md::1",
+        "6 - Full Notes/Box Plot.md::2"
+      ]
+    },
+    "6 - Full Notes/Quantile-Quantile Plot.md": {
+      "hash": "e09dc376988628661ed319ef7280d99149e02efc4c60ff61e8b560ae3c170fe4",
+      "mtime": 1788734984629,
+      "chunkIds": [
+        "6 - Full Notes/Quantile-Quantile Plot.md::0",
+        "6 - Full Notes/Quantile-Quantile Plot.md::1",
+        "6 - Full Notes/Quantile-Quantile Plot.md::2"
+      ]
+    },
+    "6 - Full Notes/Pie Chart.md": {
+      "hash": "6aa8e83878714d5cf22c04df15c0617f218f79babb0322c0a1c379cf412b0513",
+      "mtime": 1788734985922,
+      "chunkIds": [
+        "6 - Full Notes/Pie Chart.md::0",
+        "6 - Full Notes/Pie Chart.md::1",
+        "6 - Full Notes/Pie Chart.md::2"
+      ]
+    },
+    "6 - Full Notes/Bar Chart.md": {
+      "hash": "eecc4bc4ae95d7110e5566a99168e7f9878ed826bc7850cbc2545b4ee300fdcf",
+      "mtime": 1788734987261,
+      "chunkIds": [
+        "6 - Full Notes/Bar Chart.md::0",
+        "6 - Full Notes/Bar Chart.md::1",
+        "6 - Full Notes/Bar Chart.md::2"
+      ]
+    },
+    "6 - Full Notes/Stacked Bar Chart.md": {
+      "hash": "19e6f1889fe2d04f9defb4f154f41ab459a9f6193657926e642deea3f1265455",
+      "mtime": 1788734988584,
+      "chunkIds": [
+        "6 - Full Notes/Stacked Bar Chart.md::0",
+        "6 - Full Notes/Stacked Bar Chart.md::1",
+        "6 - Full Notes/Stacked Bar Chart.md::2"
+      ]
+    },
+    "6 - Full Notes/Scatter Plot.md": {
+      "hash": "d8610be9e7054f9bbc7c1e26d5d11eccce1707644361db99b94c89abbfb1e170",
+      "mtime": 1788734989931,
+      "chunkIds": [
+        "6 - Full Notes/Scatter Plot.md::0",
+        "6 - Full Notes/Scatter Plot.md::1",
+        "6 - Full Notes/Scatter Plot.md::2"
+      ]
+    },
+    "6 - Full Notes/Correlation Plot.md": {
+      "hash": "15cf3bd421329309fada8075a21e13dd5a1d529017419e2a740a79763298fb1a",
+      "mtime": 1788734991273,
+      "chunkIds": [
+        "6 - Full Notes/Correlation Plot.md::0",
+        "6 - Full Notes/Correlation Plot.md::1",
+        "6 - Full Notes/Correlation Plot.md::2"
+      ]
+    },
+    "6 - Full Notes/Plot Matrix.md": {
+      "hash": "303a0b67a11363c7523e1bc69c6e0cbc1ea8b668ca1f1ab9a82bace4ff03b180",
+      "mtime": 1788734992590,
+      "chunkIds": [
+        "6 - Full Notes/Plot Matrix.md::0",
+        "6 - Full Notes/Plot Matrix.md::1",
+        "6 - Full Notes/Plot Matrix.md::2"
+      ]
+    },
+    "6 - Full Notes/Grouped Distribution Plot.md": {
+      "hash": "1d4908e409a42e2a0163ed84e87019a0945545c87ebce28da688590064bb8874",
+      "mtime": 1788734993921,
+      "chunkIds": [
+        "6 - Full Notes/Grouped Distribution Plot.md::0",
+        "6 - Full Notes/Grouped Distribution Plot.md::1",
+        "6 - Full Notes/Grouped Distribution Plot.md::2"
+      ]
+    },
+    "6 - Full Notes/Plot Axis Scaling.md": {
+      "hash": "da6f591afb2dab8a82c0ea286a738c58bd115e4bb25ba40db1b0cf9b02f7d4e6",
+      "mtime": 1788734995240,
+      "chunkIds": [
+        "6 - Full Notes/Plot Axis Scaling.md::0",
+        "6 - Full Notes/Plot Axis Scaling.md::1",
+        "6 - Full Notes/Plot Axis Scaling.md::2"
+      ]
+    },
+    "6 - Full Notes/Plot Legend.md": {
+      "hash": "22c2bbcc48489b7424b557c039662df8ec0a5786d62e0d5e1a7a940f51feffd1",
+      "mtime": 1788734996553,
+      "chunkIds": [
+        "6 - Full Notes/Plot Legend.md::0",
+        "6 - Full Notes/Plot Legend.md::1",
+        "6 - Full Notes/Plot Legend.md::2"
+      ]
+    },
+    "6 - Full Notes/Plot Encoding.md": {
+      "hash": "fbd8bba7bdb2418c78ba191b06cd3672a96f5dbc02af80952db82df97895a08c",
+      "mtime": 1788734997839,
+      "chunkIds": [
+        "6 - Full Notes/Plot Encoding.md::0",
+        "6 - Full Notes/Plot Encoding.md::1",
+        "6 - Full Notes/Plot Encoding.md::2"
+      ]
+    },
+    "6 - Full Notes/Coefficient Plot.md": {
+      "hash": "a5c1f67052b4329023c8772ffaa4611ce3d91e199790803cd534e8e9039b78e2",
+      "mtime": 1788734999114,
+      "chunkIds": [
+        "6 - Full Notes/Coefficient Plot.md::0",
+        "6 - Full Notes/Coefficient Plot.md::1",
+        "6 - Full Notes/Coefficient Plot.md::2"
+      ]
+    },
+    "6 - Full Notes/Graphical Model Interpretation.md": {
+      "hash": "4a2303b2006d5baad755b6123741fa535085eef44dd64829b00c2c9dc6203fc7",
+      "mtime": 1788735000451,
+      "chunkIds": [
+        "6 - Full Notes/Graphical Model Interpretation.md::0",
+        "6 - Full Notes/Graphical Model Interpretation.md::1",
+        "6 - Full Notes/Graphical Model Interpretation.md::2"
+      ]
+    },
+    "6 - Full Notes/Descriptive Analysis.md": {
+      "hash": "cc45727de4345591189bf7097a143f08419524604f1aa22bef0a1ec58616bdd6",
+      "mtime": 1788735067779,
+      "chunkIds": [
+        "6 - Full Notes/Descriptive Analysis.md::0",
+        "6 - Full Notes/Descriptive Analysis.md::1",
+        "6 - Full Notes/Descriptive Analysis.md::2"
+      ]
+    },
+    "6 - Full Notes/Summary Statistic.md": {
+      "hash": "de8373fffdfffbf3aeec24bef0dc2ddcd33c819119835f2b10aec2bbef0349df",
+      "mtime": 1788735069019,
+      "chunkIds": [
+        "6 - Full Notes/Summary Statistic.md::0",
+        "6 - Full Notes/Summary Statistic.md::1",
+        "6 - Full Notes/Summary Statistic.md::2"
+      ]
+    },
+    "6 - Full Notes/Percentile.md": {
+      "hash": "ba3ec51dec3062c02ac741d9b3a7daba6d0e1e216ad82ea08bb3dea1848f01b8",
+      "mtime": 1788735070326,
+      "chunkIds": [
+        "6 - Full Notes/Percentile.md::0",
+        "6 - Full Notes/Percentile.md::1",
+        "6 - Full Notes/Percentile.md::2"
+      ]
+    },
+    "6 - Full Notes/Quantile.md": {
+      "hash": "957f41e6128c7c027f390db62086cb16178dcbf75dd8fa6b1ce45822bdee00db",
+      "mtime": 1788735071648,
+      "chunkIds": [
+        "6 - Full Notes/Quantile.md::0",
+        "6 - Full Notes/Quantile.md::1",
+        "6 - Full Notes/Quantile.md::2"
+      ]
+    },
+    "6 - Full Notes/Frequency Table.md": {
+      "hash": "3cbd603172329bfc744edeb3fcd8b4b8d22d960f76b26eb5bd1e7ac2bf0613ad",
+      "mtime": 1788735072914,
+      "chunkIds": [
+        "6 - Full Notes/Frequency Table.md::0",
+        "6 - Full Notes/Frequency Table.md::1",
+        "6 - Full Notes/Frequency Table.md::2"
+      ]
+    },
+    "6 - Full Notes/Contingency Table.md": {
+      "hash": "4c00e7657993864120ad988855d4796ae3b6dc53e5626ceeb14661e0b39f585a",
+      "mtime": 1788735074225,
+      "chunkIds": [
+        "6 - Full Notes/Contingency Table.md::0",
+        "6 - Full Notes/Contingency Table.md::1",
+        "6 - Full Notes/Contingency Table.md::2"
+      ]
+    },
+    "6 - Full Notes/Row Proportion.md": {
+      "hash": "7d92e306b4833b58bc1b2f62867d227bc50a1fd933c1b9500b0cc4e81bda82ce",
+      "mtime": 1788735075499,
+      "chunkIds": [
+        "6 - Full Notes/Row Proportion.md::0",
+        "6 - Full Notes/Row Proportion.md::1",
+        "6 - Full Notes/Row Proportion.md::2"
+      ]
+    },
+    "6 - Full Notes/Column Proportion.md": {
+      "hash": "624b52892307233176d97d4adea892dc0d399e9e513c3846923aa015144cbf83",
+      "mtime": 1788735076767,
+      "chunkIds": [
+        "6 - Full Notes/Column Proportion.md::0",
+        "6 - Full Notes/Column Proportion.md::1",
+        "6 - Full Notes/Column Proportion.md::2"
+      ]
+    },
+    "6 - Full Notes/Correlation Matrix.md": {
+      "hash": "973673a768ecc03b406ce14f7102c58c7b2cfe39ae1bf3d5e2f08c2ae7e6b086",
+      "mtime": 1788735078069,
+      "chunkIds": [
+        "6 - Full Notes/Correlation Matrix.md::0",
+        "6 - Full Notes/Correlation Matrix.md::1",
+        "6 - Full Notes/Correlation Matrix.md::2"
+      ]
+    },
+    "6 - Full Notes/Pearson Correlation Coefficient.md": {
+      "hash": "d105a24a623bc8a7abd3f83adc028600a046bf8ed24e19cf33d94f546a23efb5",
+      "mtime": 1788735079327,
+      "chunkIds": [
+        "6 - Full Notes/Pearson Correlation Coefficient.md::0",
+        "6 - Full Notes/Pearson Correlation Coefficient.md::1",
+        "6 - Full Notes/Pearson Correlation Coefficient.md::2"
+      ]
+    },
+    "6 - Full Notes/Pearson Chi-Squared Test.md": {
+      "hash": "c4bcb109fc544c28b1c727ef38a24f0b2c4c3b5f68c02d58dd51c86fd33b556d",
+      "mtime": 1788735080630,
+      "chunkIds": [
+        "6 - Full Notes/Pearson Chi-Squared Test.md::0",
+        "6 - Full Notes/Pearson Chi-Squared Test.md::1",
+        "6 - Full Notes/Pearson Chi-Squared Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Fisher Exact Test.md": {
+      "hash": "15b688ef077f24b6ebf83e549359beaa83a03926790225557454defde113fc12",
+      "mtime": 1788735081958,
+      "chunkIds": [
+        "6 - Full Notes/Fisher Exact Test.md::0",
+        "6 - Full Notes/Fisher Exact Test.md::1",
+        "6 - Full Notes/Fisher Exact Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Student t-Test.md": {
+      "hash": "e47e4d2c01345d39bbe9582986fa1d5023e43838078651a734fe5f4f9b7586cd",
+      "mtime": 1788735083268,
+      "chunkIds": [
+        "6 - Full Notes/Student t-Test.md::0",
+        "6 - Full Notes/Student t-Test.md::1",
+        "6 - Full Notes/Student t-Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Welch t-Test.md": {
+      "hash": "f70c1eb3755a2b4b8717475918c34e48a731bc46a7a830e32b109d0cd2f18a2e",
+      "mtime": 1788735084557,
+      "chunkIds": [
+        "6 - Full Notes/Welch t-Test.md::0",
+        "6 - Full Notes/Welch t-Test.md::1",
+        "6 - Full Notes/Welch t-Test.md::2"
+      ]
+    },
+    "6 - Full Notes/One-Way ANOVA.md": {
+      "hash": "8c360ad8751cbf3cf9b01d1a62b4b2fa1603a50547641d60095492e29ea6542a",
+      "mtime": 1788735085861,
+      "chunkIds": [
+        "6 - Full Notes/One-Way ANOVA.md::0",
+        "6 - Full Notes/One-Way ANOVA.md::1",
+        "6 - Full Notes/One-Way ANOVA.md::2"
+      ]
+    },
+    "6 - Full Notes/Mann-Whitney U Test.md": {
+      "hash": "68e2ccc7242cab8334eb1856a8cf0e51c52545227a73db7d9d848356e5a048bd",
+      "mtime": 1788735087182,
+      "chunkIds": [
+        "6 - Full Notes/Mann-Whitney U Test.md::0",
+        "6 - Full Notes/Mann-Whitney U Test.md::1",
+        "6 - Full Notes/Mann-Whitney U Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Kruskal-Wallis Test.md": {
+      "hash": "63a84c7cadad12043c3f4b2150be2723b710db74513ad7fdefcd196231f8a480",
+      "mtime": 1788735088474,
+      "chunkIds": [
+        "6 - Full Notes/Kruskal-Wallis Test.md::0",
+        "6 - Full Notes/Kruskal-Wallis Test.md::1",
+        "6 - Full Notes/Kruskal-Wallis Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Homogeneity of Variance.md": {
+      "hash": "c87d28dc48cda6900dfa660e4db5277c6345b94808211ce3959296cae09309f8",
+      "mtime": 1788735089779,
+      "chunkIds": [
+        "6 - Full Notes/Homogeneity of Variance.md::0",
+        "6 - Full Notes/Homogeneity of Variance.md::1",
+        "6 - Full Notes/Homogeneity of Variance.md::2"
+      ]
+    },
+    "6 - Full Notes/Bartlett Test.md": {
+      "hash": "53e12cf587a9ebdadf8615d24379c3d6d44732e1c2602fe927d38172481f8f34",
+      "mtime": 1788735091077,
+      "chunkIds": [
+        "6 - Full Notes/Bartlett Test.md::0",
+        "6 - Full Notes/Bartlett Test.md::1",
+        "6 - Full Notes/Bartlett Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Journal Table 1.md": {
+      "hash": "3cecd0670c4b64760421bd24dddb154961f06c2d62763c9fd07387376380d0d6",
+      "mtime": 1788735092360,
+      "chunkIds": [
+        "6 - Full Notes/Journal Table 1.md::0",
+        "6 - Full Notes/Journal Table 1.md::1",
+        "6 - Full Notes/Journal Table 1.md::2"
+      ]
+    },
+    "6 - Full Notes/Statistical Power.md": {
+      "hash": "3938284f62d21acf057c94fd7ea93eaa07cbf612a17e08b2e61a672c5e14cd2c",
+      "mtime": 1788735127120,
+      "chunkIds": [
+        "6 - Full Notes/Statistical Power.md::0",
+        "6 - Full Notes/Statistical Power.md::1",
+        "6 - Full Notes/Statistical Power.md::2"
+      ]
+    },
+    "6 - Full Notes/Effect Size.md": {
+      "hash": "3526b99c4f496322adb8f40afe7a302b54bf4041c3c281f53c26497ca9d80297",
+      "mtime": 1788735128455,
+      "chunkIds": [
+        "6 - Full Notes/Effect Size.md::0",
+        "6 - Full Notes/Effect Size.md::1",
+        "6 - Full Notes/Effect Size.md::2"
+      ]
+    },
+    "6 - Full Notes/Cohen's d.md": {
+      "hash": "80a1d67366166a43ce085a7aa3eb4d1752f073525a008f56858a4071a49341ab",
+      "mtime": 1788735129736,
+      "chunkIds": [
+        "6 - Full Notes/Cohen's d.md::0",
+        "6 - Full Notes/Cohen's d.md::1",
+        "6 - Full Notes/Cohen's d.md::2"
+      ]
+    },
+    "6 - Full Notes/Significance Level.md": {
+      "hash": "c171ba810cf01239de97a4cbbdb6fa8cf8618bb90b055c14d3aa5ac3574447c4",
+      "mtime": 1788735131026,
+      "chunkIds": [
+        "6 - Full Notes/Significance Level.md::0",
+        "6 - Full Notes/Significance Level.md::1",
+        "6 - Full Notes/Significance Level.md::2"
+      ]
+    },
+    "6 - Full Notes/Sample Size Calculation.md": {
+      "hash": "47e916df32be3666f19f5db132e7fa22de0d31e76aea90ebe004dbcaedb0886e",
+      "mtime": 1788735132310,
+      "chunkIds": [
+        "6 - Full Notes/Sample Size Calculation.md::0",
+        "6 - Full Notes/Sample Size Calculation.md::1",
+        "6 - Full Notes/Sample Size Calculation.md::2"
+      ]
+    },
+    "6 - Full Notes/Two-Sample Mean Power Calculation.md": {
+      "hash": "068518125248d54e24a418cf67423886ded77260f0052f5415a9adad863d6159",
+      "mtime": 1788735133584,
+      "chunkIds": [
+        "6 - Full Notes/Two-Sample Mean Power Calculation.md::0",
+        "6 - Full Notes/Two-Sample Mean Power Calculation.md::1",
+        "6 - Full Notes/Two-Sample Mean Power Calculation.md::2"
+      ]
+    },
+    "6 - Full Notes/Proportion Power Calculation.md": {
+      "hash": "fff0ff7bf695fc836a2977b7915f675641e54bb4ab28f5464b0e0ebde03b2acb",
+      "mtime": 1788735134868,
+      "chunkIds": [
+        "6 - Full Notes/Proportion Power Calculation.md::0",
+        "6 - Full Notes/Proportion Power Calculation.md::1",
+        "6 - Full Notes/Proportion Power Calculation.md::2"
+      ]
+    },
+    "6 - Full Notes/Linear Model Power Calculation.md": {
+      "hash": "e9fe24b1ebc37dc7d0500d6c6c511d46c7c933b08288f92d4a26ddc75a312ef1",
+      "mtime": 1788735136133,
+      "chunkIds": [
+        "6 - Full Notes/Linear Model Power Calculation.md::0",
+        "6 - Full Notes/Linear Model Power Calculation.md::1",
+        "6 - Full Notes/Linear Model Power Calculation.md::2"
+      ]
+    },
+    "6 - Full Notes/Power Sensitivity Analysis.md": {
+      "hash": "0b773e85666693efb7907f8c0377c3e1eeb2f94ea236a4a3e1d2e3720624482d",
+      "mtime": 1788735137393,
+      "chunkIds": [
+        "6 - Full Notes/Power Sensitivity Analysis.md::0",
+        "6 - Full Notes/Power Sensitivity Analysis.md::1",
+        "6 - Full Notes/Power Sensitivity Analysis.md::2"
+      ]
+    },
+    "6 - Full Notes/Unequal Group Power Calculation.md": {
+      "hash": "1f9ab394acdd5dfef2b431cd1c3f03e1d9f03e091b225a277609f78fe346f19f",
+      "mtime": 1788735138672,
+      "chunkIds": [
+        "6 - Full Notes/Unequal Group Power Calculation.md::0",
+        "6 - Full Notes/Unequal Group Power Calculation.md::1",
+        "6 - Full Notes/Unequal Group Power Calculation.md::2"
+      ]
+    },
+    "6 - Full Notes/Hypothesis-Driven Regression.md": {
+      "hash": "f825a323e6d61b5d232b52ab57d31d7c5e11b0f81735e9dc431edb0b84d48102",
+      "mtime": 1788735205171,
+      "chunkIds": [
+        "6 - Full Notes/Hypothesis-Driven Regression.md::0",
+        "6 - Full Notes/Hypothesis-Driven Regression.md::1",
+        "6 - Full Notes/Hypothesis-Driven Regression.md::2"
+      ]
+    },
+    "6 - Full Notes/Exploratory Regression.md": {
+      "hash": "8b0ff14500466ccb51d3c9e635c1ea11fc561c815fb99c54f824b0e909b1251c",
+      "mtime": 1788735206385,
+      "chunkIds": [
+        "6 - Full Notes/Exploratory Regression.md::0",
+        "6 - Full Notes/Exploratory Regression.md::1",
+        "6 - Full Notes/Exploratory Regression.md::2"
+      ]
+    },
+    "6 - Full Notes/Regression Model Fitting.md": {
+      "hash": "9af7aaf1026fc402c6dff8b875a4901d9ca7c3d86b0161f77c01551f77dd8975",
+      "mtime": 1788735207673,
+      "chunkIds": [
+        "6 - Full Notes/Regression Model Fitting.md::0",
+        "6 - Full Notes/Regression Model Fitting.md::1",
+        "6 - Full Notes/Regression Model Fitting.md::2"
+      ]
+    },
+    "6 - Full Notes/Forward Selection.md": {
+      "hash": "3955fba70db54da4144912066b4ecaac1a099c2be9cf1ba719762e317cc521aa",
+      "mtime": 1788735208942,
+      "chunkIds": [
+        "6 - Full Notes/Forward Selection.md::0",
+        "6 - Full Notes/Forward Selection.md::1",
+        "6 - Full Notes/Forward Selection.md::2"
+      ]
+    },
+    "6 - Full Notes/Backward Elimination.md": {
+      "hash": "001fd9d552c84d7dcfe4b2597ca66347ea4997e94c04ae7fad14cb85693ac586",
+      "mtime": 1788735210197,
+      "chunkIds": [
+        "6 - Full Notes/Backward Elimination.md::0",
+        "6 - Full Notes/Backward Elimination.md::1",
+        "6 - Full Notes/Backward Elimination.md::2"
+      ]
+    },
+    "6 - Full Notes/Stepwise Selection.md": {
+      "hash": "4c71e68b9cbe51e9e83e95eadeae3abd1b7912531b5894fe269ef472fec7d779",
+      "mtime": 1788735211498,
+      "chunkIds": [
+        "6 - Full Notes/Stepwise Selection.md::0",
+        "6 - Full Notes/Stepwise Selection.md::1",
+        "6 - Full Notes/Stepwise Selection.md::2"
+      ]
+    },
+    "6 - Full Notes/Manual Model Selection.md": {
+      "hash": "323f459fa55f9267ee514eba4e9cb66ec5325759967ecab478d15a1188dedc20",
+      "mtime": 1788735212806,
+      "chunkIds": [
+        "6 - Full Notes/Manual Model Selection.md::0",
+        "6 - Full Notes/Manual Model Selection.md::1",
+        "6 - Full Notes/Manual Model Selection.md::2"
+      ]
+    },
+    "6 - Full Notes/Working Regression Model.md": {
+      "hash": "430dbeef129296d743fe1f115834cb2335f5015074f48529c71bad219af2fd6d",
+      "mtime": 1788735214110,
+      "chunkIds": [
+        "6 - Full Notes/Working Regression Model.md::0",
+        "6 - Full Notes/Working Regression Model.md::1",
+        "6 - Full Notes/Working Regression Model.md::2"
+      ]
+    },
+    "6 - Full Notes/Final Regression Model.md": {
+      "hash": "7aef6452222ebdb2a9ef44b38110b1ade864e80214a882957f12a626e3e54d59",
+      "mtime": 1788735215390,
+      "chunkIds": [
+        "6 - Full Notes/Final Regression Model.md::0",
+        "6 - Full Notes/Final Regression Model.md::1",
+        "6 - Full Notes/Final Regression Model.md::2"
+      ]
+    },
+    "6 - Full Notes/Model Metadata.md": {
+      "hash": "f8cad3e0ae7edde01f8f7e670ae2a7ed672073856ca2fbea436ecf27c18672cd",
+      "mtime": 1788735216679,
+      "chunkIds": [
+        "6 - Full Notes/Model Metadata.md::0",
+        "6 - Full Notes/Model Metadata.md::1",
+        "6 - Full Notes/Model Metadata.md::2"
+      ]
+    },
+    "6 - Full Notes/A Priori Hypothesis.md": {
+      "hash": "d835ebaa88b3e4149393432edf9f66cc12a8860dea5109667feddb40a19dd47b",
+      "mtime": 1788735217964,
+      "chunkIds": [
+        "6 - Full Notes/A Priori Hypothesis.md::0",
+        "6 - Full Notes/A Priori Hypothesis.md::1",
+        "6 - Full Notes/A Priori Hypothesis.md::2"
+      ]
+    },
+    "6 - Full Notes/Researcher Degrees of Freedom.md": {
+      "hash": "304f1f12c7f9416928367953ae22eeb8e4b77696431a49059224bcd26ba26201",
+      "mtime": 1788735219256,
+      "chunkIds": [
+        "6 - Full Notes/Researcher Degrees of Freedom.md::0",
+        "6 - Full Notes/Researcher Degrees of Freedom.md::1",
+        "6 - Full Notes/Researcher Degrees of Freedom.md::2"
+      ]
+    },
+    "6 - Full Notes/P-Hacking.md": {
+      "hash": "f9c018b3c40c4bc7a50b6f05fe767686beb99470c701fd1948c05fa1271fbd0f",
+      "mtime": 1788735220541,
+      "chunkIds": [
+        "6 - Full Notes/P-Hacking.md::0",
+        "6 - Full Notes/P-Hacking.md::1",
+        "6 - Full Notes/P-Hacking.md::2"
+      ]
+    },
+    "6 - Full Notes/Confounding Variable.md": {
+      "hash": "208ad1f38a910d5fd4a24bb6ad3a7549357ecb6f9ce0b8aa13f11eaded220bb7",
+      "mtime": 1788735221822,
+      "chunkIds": [
+        "6 - Full Notes/Confounding Variable.md::0",
+        "6 - Full Notes/Confounding Variable.md::1",
+        "6 - Full Notes/Confounding Variable.md::2"
+      ]
+    },
+    "6 - Full Notes/Change-in-Estimate Criterion.md": {
+      "hash": "788e09399b79d2cbb0a3db95589aad801f805877c61b826864ce0b56bce2ca5a",
+      "mtime": 1788735223098,
+      "chunkIds": [
+        "6 - Full Notes/Change-in-Estimate Criterion.md::0",
+        "6 - Full Notes/Change-in-Estimate Criterion.md::1",
+        "6 - Full Notes/Change-in-Estimate Criterion.md::2"
+      ]
+    },
+    "6 - Full Notes/Regression Collinearity.md": {
+      "hash": "41a218c3502827e06763e3e53f78e34001edcaef648df74c9ae3e6a5ba57f252",
+      "mtime": 1788735224411,
+      "chunkIds": [
+        "6 - Full Notes/Regression Collinearity.md::0",
+        "6 - Full Notes/Regression Collinearity.md::1",
+        "6 - Full Notes/Regression Collinearity.md::2"
+      ]
+    },
+    "6 - Full Notes/Regression Interaction Term.md": {
+      "hash": "8812512cc3a4d1022df93c7285dbfb4bce326064231ebc00db4355ba29feee3e",
+      "mtime": 1788735225688,
+      "chunkIds": [
+        "6 - Full Notes/Regression Interaction Term.md::0",
+        "6 - Full Notes/Regression Interaction Term.md::1",
+        "6 - Full Notes/Regression Interaction Term.md::2"
+      ]
+    },
+    "6 - Full Notes/Nested Model Comparison.md": {
+      "hash": "4eeb253bc7929476acacebc846bc322f90866723eefd6938448f8c5744f7e5b6",
+      "mtime": 1788735226973,
+      "chunkIds": [
+        "6 - Full Notes/Nested Model Comparison.md::0",
+        "6 - Full Notes/Nested Model Comparison.md::1",
+        "6 - Full Notes/Nested Model Comparison.md::2"
+      ]
+    },
+    "6 - Full Notes/Akaike Information Criterion.md": {
+      "hash": "0f700640f23d153c5978cb23d9b7232e437f9816d0a6774285aeefa9c92e74a0",
+      "mtime": 1788735228281,
+      "chunkIds": [
+        "6 - Full Notes/Akaike Information Criterion.md::0",
+        "6 - Full Notes/Akaike Information Criterion.md::1",
+        "6 - Full Notes/Akaike Information Criterion.md::2"
+      ]
+    },
+    "6 - Full Notes/Regression Robustness.md": {
+      "hash": "52560e5e1ec3d5f22673aa475f41011f60808f58d9a2d0a7747928706ce96c0d",
+      "mtime": 1788735229545,
+      "chunkIds": [
+        "6 - Full Notes/Regression Robustness.md::0",
+        "6 - Full Notes/Regression Robustness.md::1",
+        "6 - Full Notes/Regression Robustness.md::2"
+      ]
+    },
+    "6 - Full Notes/Linear Regression.md": {
+      "hash": "5c3545e362c9df828be2d6c652665099426d2d7502ec3b61415d9d81e5a37054",
+      "mtime": 1788735270299,
+      "chunkIds": [
+        "6 - Full Notes/Linear Regression.md::0",
+        "6 - Full Notes/Linear Regression.md::1",
+        "6 - Full Notes/Linear Regression.md::2"
+      ]
+    },
+    "6 - Full Notes/Linear Regression Coefficient.md": {
+      "hash": "aeced07f9465f01da0318fb6a38f1a61c53d36ddb6d2a5da38fdf7ca4af9d7cc",
+      "mtime": 1788735271554,
+      "chunkIds": [
+        "6 - Full Notes/Linear Regression Coefficient.md::0",
+        "6 - Full Notes/Linear Regression Coefficient.md::1",
+        "6 - Full Notes/Linear Regression Coefficient.md::2"
+      ]
+    },
+    "6 - Full Notes/Linear Regression Intercept.md": {
+      "hash": "c79c718ca1b5b7deee8eabc2775d6ee382559ace61313c1d6be90b44d26b2e7b",
+      "mtime": 1788735272849,
+      "chunkIds": [
+        "6 - Full Notes/Linear Regression Intercept.md::0",
+        "6 - Full Notes/Linear Regression Intercept.md::1",
+        "6 - Full Notes/Linear Regression Intercept.md::2"
+      ]
+    },
+    "6 - Full Notes/Residual.md": {
+      "hash": "1c01b14ff7448fc8af29b0b01c09a68bf48d125086d7de80d7f13d74c9b5df39",
+      "mtime": 1788735274119,
+      "chunkIds": [
+        "6 - Full Notes/Residual.md::0",
+        "6 - Full Notes/Residual.md::1",
+        "6 - Full Notes/Residual.md::2"
+      ]
+    },
+    "6 - Full Notes/Regression Residual Plot.md": {
+      "hash": "2c00d6b2ce86bd52c6f9723656430fb62ef179a5f1171764fba13550622a7986",
+      "mtime": 1788735275423,
+      "chunkIds": [
+        "6 - Full Notes/Regression Residual Plot.md::0",
+        "6 - Full Notes/Regression Residual Plot.md::1",
+        "6 - Full Notes/Regression Residual Plot.md::2"
+      ]
+    },
+    "6 - Full Notes/Linearity Assumption.md": {
+      "hash": "3e9be1c8cfd2ecd192ac87309cbe6ae2a17529111101e6126aeb8a24458d05cb",
+      "mtime": 1788735276719,
+      "chunkIds": [
+        "6 - Full Notes/Linearity Assumption.md::0",
+        "6 - Full Notes/Linearity Assumption.md::1",
+        "6 - Full Notes/Linearity Assumption.md::2"
+      ]
+    },
+    "6 - Full Notes/Homoscedasticity.md": {
+      "hash": "1c248fa54706b90ff2801a5b86b1d672a6b886c9d68a40b977597889fe26a2b7",
+      "mtime": 1788735277980,
+      "chunkIds": [
+        "6 - Full Notes/Homoscedasticity.md::0",
+        "6 - Full Notes/Homoscedasticity.md::1",
+        "6 - Full Notes/Homoscedasticity.md::2"
+      ]
+    },
+    "6 - Full Notes/Adjusted R-Squared.md": {
+      "hash": "2562ac0974ad75dedc06832eceda97b86d217756ba99317ce7929e4209b0dd75",
+      "mtime": 1788735279249,
+      "chunkIds": [
+        "6 - Full Notes/Adjusted R-Squared.md::0",
+        "6 - Full Notes/Adjusted R-Squared.md::1",
+        "6 - Full Notes/Adjusted R-Squared.md::2"
+      ]
+    },
+    "6 - Full Notes/Regression F-Statistic.md": {
+      "hash": "bbc554ec475f9af625766d9039a8301d60ce88c2b9aa25d2096c74a4ea4b6af9",
+      "mtime": 1788735280510,
+      "chunkIds": [
+        "6 - Full Notes/Regression F-Statistic.md::0",
+        "6 - Full Notes/Regression F-Statistic.md::1",
+        "6 - Full Notes/Regression F-Statistic.md::2"
+      ]
+    },
+    "6 - Full Notes/Linear Model Assumption Test.md": {
+      "hash": "86f6fa8eeb6d3e425e17f2cf30a44bd2a908aa5848d091f5a94359c49bea9190",
+      "mtime": 1788735281776,
+      "chunkIds": [
+        "6 - Full Notes/Linear Model Assumption Test.md::0",
+        "6 - Full Notes/Linear Model Assumption Test.md::1",
+        "6 - Full Notes/Linear Model Assumption Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Linear Regression Model Presentation.md": {
+      "hash": "f4bcc4e5390a333c95a70a9dada77162e3755c70243d05abad5e31467b00505e",
+      "mtime": 1788735284311,
+      "chunkIds": [
+        "6 - Full Notes/Linear Regression Model Presentation.md::0",
+        "6 - Full Notes/Linear Regression Model Presentation.md::1",
+        "6 - Full Notes/Linear Regression Model Presentation.md::2"
+      ]
+    },
+    "6 - Full Notes/Linear Regression Confidence Interval.md": {
+      "hash": "863749122fad702fc071918d1525681c7a4382ecdc11ada92f1509d10cad7b99",
+      "mtime": 1788735283043,
+      "chunkIds": [
+        "6 - Full Notes/Linear Regression Confidence Interval.md::0",
+        "6 - Full Notes/Linear Regression Confidence Interval.md::1",
+        "6 - Full Notes/Linear Regression Confidence Interval.md::2"
+      ]
+    },
+    "6 - Full Notes/Log Odds.md": {
+      "hash": "c01f3109a6b30d1efe6180c0eb268025bae9e84f5899be0c4549efd662411819",
+      "mtime": 1788735335416,
+      "chunkIds": [
+        "6 - Full Notes/Log Odds.md::0",
+        "6 - Full Notes/Log Odds.md::1",
+        "6 - Full Notes/Log Odds.md::2"
+      ]
+    },
+    "6 - Full Notes/Logistic Regression.md": {
+      "hash": "c9627eed007c3c6eeb7bd5037c9defe81e8020a4449d2b72024f776e2fed1b81",
+      "mtime": 1788735334182,
+      "chunkIds": [
+        "6 - Full Notes/Logistic Regression.md::0",
+        "6 - Full Notes/Logistic Regression.md::1",
+        "6 - Full Notes/Logistic Regression.md::2"
+      ]
+    },
+    "6 - Full Notes/Odds Ratio.md": {
+      "hash": "36af428e566eb7ba2efc37e3d911925faded45656aaeef4879b8f119a8745591",
+      "mtime": 1788735336695,
+      "chunkIds": [
+        "6 - Full Notes/Odds Ratio.md::0",
+        "6 - Full Notes/Odds Ratio.md::1",
+        "6 - Full Notes/Odds Ratio.md::2"
+      ]
+    },
+    "6 - Full Notes/Odds Ratio Confidence Interval.md": {
+      "hash": "f8a8bcc27013e710a490afc2b4c384793920121015455213c7bcdf59696a3e7f",
+      "mtime": 1788735337962,
+      "chunkIds": [
+        "6 - Full Notes/Odds Ratio Confidence Interval.md::0",
+        "6 - Full Notes/Odds Ratio Confidence Interval.md::1",
+        "6 - Full Notes/Odds Ratio Confidence Interval.md::2"
+      ]
+    },
+    "6 - Full Notes/Binomial Logistic Model.md": {
+      "hash": "f28c281d1e3a63d1ee94bb0ba08949cca24cc3a75c24c20249b4567d7c0c8654",
+      "mtime": 1788735339217,
+      "chunkIds": [
+        "6 - Full Notes/Binomial Logistic Model.md::0",
+        "6 - Full Notes/Binomial Logistic Model.md::1",
+        "6 - Full Notes/Binomial Logistic Model.md::2"
+      ]
+    },
+    "6 - Full Notes/Logistic Regression Coefficient.md": {
+      "hash": "a3736cf5408155c323f67908d8def8dd445c3fc4b54b8827441375240e31e327",
+      "mtime": 1788735340478,
+      "chunkIds": [
+        "6 - Full Notes/Logistic Regression Coefficient.md::0",
+        "6 - Full Notes/Logistic Regression Coefficient.md::1",
+        "6 - Full Notes/Logistic Regression Coefficient.md::2"
+      ]
+    },
+    "6 - Full Notes/Wald Test.md": {
+      "hash": "012bfabc9487dd4ee087d62988c229da5462bd7f1c4b3f2389c61011849a6d60",
+      "mtime": 1788735341756,
+      "chunkIds": [
+        "6 - Full Notes/Wald Test.md::0",
+        "6 - Full Notes/Wald Test.md::1",
+        "6 - Full Notes/Wald Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Logistic Model Deviance.md": {
+      "hash": "6aae5e26fc0f9f762efe283dc4d0e75ea77bd30fcabc5fbd1fa7d0db1f70aa43",
+      "mtime": 1788735343006,
+      "chunkIds": [
+        "6 - Full Notes/Logistic Model Deviance.md::0",
+        "6 - Full Notes/Logistic Model Deviance.md::1",
+        "6 - Full Notes/Logistic Model Deviance.md::2"
+      ]
+    },
+    "6 - Full Notes/Logistic Model Convergence.md": {
+      "hash": "470b0df48f60cc161ef3a4638b34f971c8da4ace9fb29ac1fc41060a64f0ef1b",
+      "mtime": 1788735344263,
+      "chunkIds": [
+        "6 - Full Notes/Logistic Model Convergence.md::0",
+        "6 - Full Notes/Logistic Model Convergence.md::1",
+        "6 - Full Notes/Logistic Model Convergence.md::2"
+      ]
+    },
+    "6 - Full Notes/Complete Separation.md": {
+      "hash": "2160655e60368032387166b035a82d515a98a0e35a0ef6fe6e5578d8df1ee5dd",
+      "mtime": 1788735345526,
+      "chunkIds": [
+        "6 - Full Notes/Complete Separation.md::0",
+        "6 - Full Notes/Complete Separation.md::1",
+        "6 - Full Notes/Complete Separation.md::2"
+      ]
+    },
+    "6 - Full Notes/Firth Logistic Regression.md": {
+      "hash": "02fbccd1a7c2ac780487494e2a432d5af6e36f4a7325ce858cf0e580e00dd52d",
+      "mtime": 1788735346804,
+      "chunkIds": [
+        "6 - Full Notes/Firth Logistic Regression.md::0",
+        "6 - Full Notes/Firth Logistic Regression.md::1",
+        "6 - Full Notes/Firth Logistic Regression.md::2"
+      ]
+    },
+    "6 - Full Notes/Logistic Omitted Variable Bias.md": {
+      "hash": "5fd18020a5fcaf37f80252712eaaf56de0fe2a1d14e505fed3cca19310001219",
+      "mtime": 1788735348082,
+      "chunkIds": [
+        "6 - Full Notes/Logistic Omitted Variable Bias.md::0",
+        "6 - Full Notes/Logistic Omitted Variable Bias.md::1",
+        "6 - Full Notes/Logistic Omitted Variable Bias.md::2"
+      ]
+    },
+    "6 - Full Notes/Logistic Model Fit Comparison.md": {
+      "hash": "0fd03cc57432588e0f7cee3436aaa95af6a54f9e4700e017490fa26f048148f6",
+      "mtime": 1788735349343,
+      "chunkIds": [
+        "6 - Full Notes/Logistic Model Fit Comparison.md::0",
+        "6 - Full Notes/Logistic Model Fit Comparison.md::1",
+        "6 - Full Notes/Logistic Model Fit Comparison.md::2"
+      ]
+    },
+    "6 - Full Notes/Logistic Regression Model Presentation.md": {
+      "hash": "a91bd37f65658493bdbdedfe012fd56a7b7d67cd38d6dfebfc6be76556999b79",
+      "mtime": 1788735350647,
+      "chunkIds": [
+        "6 - Full Notes/Logistic Regression Model Presentation.md::0",
+        "6 - Full Notes/Logistic Regression Model Presentation.md::1",
+        "6 - Full Notes/Logistic Regression Model Presentation.md::2"
+      ]
+    },
+    "6 - Full Notes/Logistic Regression Coefficient Plot.md": {
+      "hash": "209b1f4ca3a85e176f91506b6d16e5517f89395d5011cb1d429646ec9519b4e2",
+      "mtime": 1788735351912,
+      "chunkIds": [
+        "6 - Full Notes/Logistic Regression Coefficient Plot.md::0",
+        "6 - Full Notes/Logistic Regression Coefficient Plot.md::1",
+        "6 - Full Notes/Logistic Regression Coefficient Plot.md::2"
+      ]
+    },
+    "6 - Full Notes/Survival Analysis.md": {
+      "hash": "107cb11a21be794058a4cf147f6d1e8961cde985274727a2a34fcf99ef213293",
+      "mtime": 1788735417749,
+      "chunkIds": [
+        "6 - Full Notes/Survival Analysis.md::0",
+        "6 - Full Notes/Survival Analysis.md::1",
+        "6 - Full Notes/Survival Analysis.md::2"
+      ]
+    },
+    "6 - Full Notes/Time-to-Event Variable.md": {
+      "hash": "31012396f311eb696854b13584e6cb29641c10103da5a83fb2eb688ddb302f96",
+      "mtime": 1788735419037,
+      "chunkIds": [
+        "6 - Full Notes/Time-to-Event Variable.md::0",
+        "6 - Full Notes/Time-to-Event Variable.md::1",
+        "6 - Full Notes/Time-to-Event Variable.md::2"
+      ]
+    },
+    "6 - Full Notes/Event Indicator.md": {
+      "hash": "0402328b16352557f39fa64c1e607225e2fe85b27714f5855f6c9410f5a9fb64",
+      "mtime": 1788735420555,
+      "chunkIds": [
+        "6 - Full Notes/Event Indicator.md::0",
+        "6 - Full Notes/Event Indicator.md::1",
+        "6 - Full Notes/Event Indicator.md::2"
+      ]
+    },
+    "6 - Full Notes/Censoring.md": {
+      "hash": "645038261ccfa65e3c7ddc24244e65053925ac1e445b79f8c98ec6c5e360e2c8",
+      "mtime": 1788735421954,
+      "chunkIds": [
+        "6 - Full Notes/Censoring.md::0",
+        "6 - Full Notes/Censoring.md::1",
+        "6 - Full Notes/Censoring.md::2"
+      ]
+    },
+    "6 - Full Notes/Administrative Censoring.md": {
+      "hash": "1353b534b7a2142df334ed5487c18e4f51741f322c51b5f1e185974c7a886330",
+      "mtime": 1788735423257,
+      "chunkIds": [
+        "6 - Full Notes/Administrative Censoring.md::0",
+        "6 - Full Notes/Administrative Censoring.md::1",
+        "6 - Full Notes/Administrative Censoring.md::2"
+      ]
+    },
+    "6 - Full Notes/Survival Probability.md": {
+      "hash": "b5d50a250739c3c2b1a28ca6e6c9117f5c8f71beed8b97c926586f8610085697",
+      "mtime": 1788735424539,
+      "chunkIds": [
+        "6 - Full Notes/Survival Probability.md::0",
+        "6 - Full Notes/Survival Probability.md::1",
+        "6 - Full Notes/Survival Probability.md::2"
+      ]
+    },
+    "6 - Full Notes/Conditional Survival Table.md": {
+      "hash": "473622f03a582d1c727e0bad011aeb539a673abb88e77806df931e89b2632832",
+      "mtime": 1788735425842,
+      "chunkIds": [
+        "6 - Full Notes/Conditional Survival Table.md::0",
+        "6 - Full Notes/Conditional Survival Table.md::1",
+        "6 - Full Notes/Conditional Survival Table.md::2"
+      ]
+    },
+    "6 - Full Notes/Survival Curve.md": {
+      "hash": "20bf8f57c49be9152995bc572967b6ed84168b001982582c1ffc29170cd2d99e",
+      "mtime": 1788735427170,
+      "chunkIds": [
+        "6 - Full Notes/Survival Curve.md::0",
+        "6 - Full Notes/Survival Curve.md::1",
+        "6 - Full Notes/Survival Curve.md::2"
+      ]
+    },
+    "6 - Full Notes/Kaplan-Meier Estimator.md": {
+      "hash": "52b4f4de8f1508b1ad3c9e66ea3326fe0ede9c7b491c8ea65768b59dee12987a",
+      "mtime": 1788735428481,
+      "chunkIds": [
+        "6 - Full Notes/Kaplan-Meier Estimator.md::0",
+        "6 - Full Notes/Kaplan-Meier Estimator.md::1",
+        "6 - Full Notes/Kaplan-Meier Estimator.md::2"
+      ]
+    },
+    "6 - Full Notes/Log-Rank Test.md": {
+      "hash": "2dd8823bbf7fcc66cfb27e546850c5909cc8bf01f035604fadca07b309782fbe",
+      "mtime": 1788735429794,
+      "chunkIds": [
+        "6 - Full Notes/Log-Rank Test.md::0",
+        "6 - Full Notes/Log-Rank Test.md::1",
+        "6 - Full Notes/Log-Rank Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Generalized Wilcoxon Survival Test.md": {
+      "hash": "c1aa2190b4e1af7326f063c6e90b7400361a55d1822cafd202996f15bd8103d4",
+      "mtime": 1788735431095,
+      "chunkIds": [
+        "6 - Full Notes/Generalized Wilcoxon Survival Test.md::0",
+        "6 - Full Notes/Generalized Wilcoxon Survival Test.md::1",
+        "6 - Full Notes/Generalized Wilcoxon Survival Test.md::2"
+      ]
+    },
+    "6 - Full Notes/Parametric Survival Model.md": {
+      "hash": "8fe3542e3895ad932383108cf3b50759cb3f8c70a312619b612b614ff2114ecf",
+      "mtime": 1788735432412,
+      "chunkIds": [
+        "6 - Full Notes/Parametric Survival Model.md::0",
+        "6 - Full Notes/Parametric Survival Model.md::1",
+        "6 - Full Notes/Parametric Survival Model.md::2"
+      ]
+    },
+    "6 - Full Notes/Exponential Survival Distribution.md": {
+      "hash": "c165746d9cc0038a63214170bf7ac8e41cde939b2ddd558aa293ddb6969ed47f",
+      "mtime": 1788735433722,
+      "chunkIds": [
+        "6 - Full Notes/Exponential Survival Distribution.md::0",
+        "6 - Full Notes/Exponential Survival Distribution.md::1",
+        "6 - Full Notes/Exponential Survival Distribution.md::2"
+      ]
+    },
+    "6 - Full Notes/Log-Normal Survival Distribution.md": {
+      "hash": "ecd10acacf884ff63a8f1cb0b25fe4b8f636b346f5d9b0260f149752167f4937",
+      "mtime": 1788735435056,
+      "chunkIds": [
+        "6 - Full Notes/Log-Normal Survival Distribution.md::0",
+        "6 - Full Notes/Log-Normal Survival Distribution.md::1",
+        "6 - Full Notes/Log-Normal Survival Distribution.md::2"
+      ]
+    },
+    "6 - Full Notes/Cox Proportional Hazards Model.md": {
+      "hash": "ea12260413ba69904cf3964b99ed0dc916441272e6fa3e8fae1e7fd2f94819fb",
+      "mtime": 1788735436331,
+      "chunkIds": [
+        "6 - Full Notes/Cox Proportional Hazards Model.md::0",
+        "6 - Full Notes/Cox Proportional Hazards Model.md::1",
+        "6 - Full Notes/Cox Proportional Hazards Model.md::2"
+      ]
+    },
+    "6 - Full Notes/Proportional Hazards Assumption.md": {
+      "hash": "b2d306eb2faec9116250655578b1de7b9bac3b25eb616e4d3430e6de54702f0a",
+      "mtime": 1788735437683,
+      "chunkIds": [
+        "6 - Full Notes/Proportional Hazards Assumption.md::0",
+        "6 - Full Notes/Proportional Hazards Assumption.md::1",
+        "6 - Full Notes/Proportional Hazards Assumption.md::2"
+      ]
+    },
+    "6 - Full Notes/Cumulative Hazard.md": {
+      "hash": "d268733da4e42b6e3d816b01e11d21e063a3072a92b3a4ea0e6dbe44ed94fd41",
+      "mtime": 1788735438995,
+      "chunkIds": [
+        "6 - Full Notes/Cumulative Hazard.md::0",
+        "6 - Full Notes/Cumulative Hazard.md::1",
+        "6 - Full Notes/Cumulative Hazard.md::2"
+      ]
+    },
+    "6 - Full Notes/Hazard Ratio.md": {
+      "hash": "ade7afa8680e632114d8c0d2ee9ced1237544e760e9af52f169171d5577c3909",
+      "mtime": 1788735440325,
+      "chunkIds": [
+        "6 - Full Notes/Hazard Ratio.md::0",
+        "6 - Full Notes/Hazard Ratio.md::1",
+        "6 - Full Notes/Hazard Ratio.md::2"
+      ]
+    },
+    "6 - Full Notes/Survival Model Distribution Selection.md": {
+      "hash": "e5bd484416a30f4a0e52b47c74d8588558cbdf3fd18679ec807470246fd11f16",
+      "mtime": 1788735441636,
+      "chunkIds": [
+        "6 - Full Notes/Survival Model Distribution Selection.md::0",
+        "6 - Full Notes/Survival Model Distribution Selection.md::1",
+        "6 - Full Notes/Survival Model Distribution Selection.md::2"
+      ]
+    },
+    "6 - Full Notes/Survival Data Selection Bias.md": {
+      "hash": "3b1ea7e1557c00cea57f5162704d86cbd44e3d09caf1d69059369d7608313e09",
+      "mtime": 1788735442960,
+      "chunkIds": [
+        "6 - Full Notes/Survival Data Selection Bias.md::0",
+        "6 - Full Notes/Survival Data Selection Bias.md::1",
+        "6 - Full Notes/Survival Data Selection Bias.md::2"
       ]
     }
   }

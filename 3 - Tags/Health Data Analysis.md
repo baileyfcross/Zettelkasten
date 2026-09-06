@@ -1,0 +1,33 @@
+# Health Data Analysis
+
+Parent topic: [[Mathematics]]
+
+Health Data Analysis is the chapter-level topic for turning health observations into reproducible descriptive and inferential evidence. Full Notes should use one of the focused child topics below rather than linking directly to this chapter tag.
+
+## Overview Chapter
+
+Health data analysis connects data management, statistical reasoning, software, and scientific judgment. A result is credible only when the path from the original records to the reported estimate can be inspected. That path begins with [[Statistical Computing Workflows]], where analysts choose an environment, organize code into ordered modules, manage packages, preserve metadata, and make every transformation reproducible. R and SAS embody different technical models, but both require a disciplined workflow: code should communicate intent, inputs should remain traceable, and an upstream correction should be able to flow through the entire analysis without manual reconstruction.
+
+The working dataset is created through [[Analytic Data Preparation]]. Raw health files often contain many variables, special codes for unknown responses, inconsistent representations of dates, and records that do not belong to the target population. Analysts therefore inspect dimensions and variable classes, select the required columns, document inclusion and exclusion rules, recode categories, create indicator variables, and verify that partitioned records still account for the original data. Preparation is not clerical work preceding the “real” analysis. It defines the population, exposure, outcome, candidate confounders, missing-data treatment, and time window on which every later claim depends.
+
+Numbers become easier to assess through [[Health Data Visualization]]. Histograms, box plots, quantile–quantile plots, and grouped displays reveal the shape and spread of continuous variables. Bar charts and stacked bars show how categorical levels are distributed, while scatter plots and correlation plots expose pairwise structure. Coefficient plots later help interpret fitted models. A useful graph is not decoration: its axes, encodings, labels, comparison groups, and scale should make the statistical question visible without implying more certainty than the data support.
+
+Before fitting multivariable models, [[Descriptive Health Statistics]] establishes what the analytic sample contains. Summary statistics, quantiles, frequency and contingency tables, row and column proportions, and correlation matrices characterize the data. Bivariate tests then compare groups or relationships: chi-squared and Fisher tests address categorical associations, t-tests and one-way ANOVA compare means, and rank-based alternatives handle situations where parametric assumptions are doubtful. A journal-style Table 1 brings these results together so readers can see the sample, the outcome groups, and the candidate confounders before interpreting adjusted estimates.
+
+Study design also depends on [[Statistical Power and Effect Size]]. Power calculations connect the magnitude of a scientifically meaningful effect with sample size, significance level, group allocation, and the intended statistical test. Effect sizes such as Cohen's d prevent planning from being reduced to a desired p-value. Sensitivity calculations across several plausible effects are often more informative than a single estimate, because the true effect is not known in advance and unequal outcome groups may impose practical limits.
+
+The general reasoning used to build adjusted models belongs to [[Regression Model Development]]. Hypothesis-driven analysis prespecifies an exposure, outcome, and plausible confounders before model fitting, reducing the temptation to search indiscriminately for significance. Forward selection, backward elimination, and stepwise selection provide different paths through the candidate variables, but a manual process can keep categorical coding and scientific judgment visible. Model metadata records each iteration, while checks for collinearity, interaction, robustness, and relative fit help the analyst distinguish a defensible final model from a convenient one.
+
+[[Linear Regression Analysis]] models a continuous outcome as an intercept plus contributions from explanatory variables. Its coefficients remain on the outcome's scale, which makes their interpretation direct, but residual behavior matters. Linearity, homoscedasticity, influential patterns, and the gap between raw and adjusted fit should be examined through residual plots and assumption tests. Adjusted R-squared and the regression F-statistic summarize aspects of fit, while confidence intervals show the uncertainty around individual estimates.
+
+[[Logistic Regression Analysis]] addresses binary outcomes. Its fitted coefficients are log odds, but health research commonly exponentiates them to odds ratios with confidence intervals. The model introduces distinctive concerns: omitted-variable effects can change coefficient scale, separation can prevent ordinary maximum-likelihood convergence, and model deviance or information criteria may be needed to compare alternative specifications. Clear presentation identifies the reference group and makes it obvious whether an interval includes the no-association value of one.
+
+Finally, [[Survival and Time-to-Event Analysis]] adds time and censoring to outcome analysis. An event indicator must be paired with a valid time-to-event measure, and the observation window determines who is treated as having experienced the event. Kaplan–Meier estimates and conditional survival tables describe the changing risk set; log-rank or generalized Wilcoxon tests compare curves. Regression may assume a parametric distribution or use the semiparametric Cox proportional hazards model, but the distributional and proportional-hazards assumptions must be checked. If event times are poorly measured or selection removes most events, a simpler logistic analysis may be more honest than a sophisticated survival model.
+
+Together, these topics form a single chain of evidence. Computing practices protect reproducibility; preparation defines the estimate; visualization and description reveal the data; power connects design to detectable effects; and regression or survival methods estimate adjusted relationships. None of the stages can compensate for a serious failure in an earlier one. Health data analysis is therefore best understood as a documented reasoning process rather than a collection of isolated statistical commands.
+
+## Directly Referenced Tags
+
+```query
+path:"3 - Tags" "[[Health Data Analysis]]"
+```

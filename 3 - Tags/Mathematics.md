@@ -48,6 +48,8 @@ Balance is not identical to numerical equality. A useful model preserves meaning
 
 The learned result depends on the objective, data distribution, model architecture, and optimization process. A low training error does not guarantee useful generalization, and a numerical reward may encode the wrong behavior. Mathematics provides the machinery for fitting the model, while careful experimental design determines whether its performance transfers beyond the examples it saw.
 
+[[Health Data Analysis]] applies statistical reasoning to observations about populations, exposures, outcomes, and time-to-event processes. It connects reproducible data preparation with descriptive measures, power calculations, regression, and survival analysis. The mathematical method is inseparable from study design: coding choices define comparison groups, missingness changes the analyzed population, and model assumptions determine which interpretation an estimate can support. Visual diagnostics and sensitivity checks help reveal when a formally valid calculation rests on a weak representation of the underlying health process.
+
 ### Modeling speech
 
 [[Speech and Acoustic Modeling]] applies signal processing, probability, and sequence models to spoken language. A waveform is divided into short frames and transformed into feature vectors that summarize spectral energy. Acoustic models estimate relationships between those observations and phonetic states; pronunciation models connect sounds to words; language models constrain which word sequences are probable.

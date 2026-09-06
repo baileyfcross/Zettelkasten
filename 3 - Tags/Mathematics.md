@@ -12,6 +12,12 @@ Mathematics supplies formal languages for expressing structure, change, uncertai
 
 Formalization also reveals limits. A valid deduction can still begin from false premises, and a precisely defined model can omit relevant features of the world. Mathematics separates internal correctness from empirical adequacy: proof establishes what follows inside a system, while observation determines whether that system is a useful representation of its subject.
 
+### Algebraic structure and symbolic solution
+
+[[Elementary Algebra]] generalizes arithmetic by replacing particular quantities with variables and preserving relationships through valid symbolic transformations. Its foundations include number systems, fractions, arithmetic properties, expressions, exponents, sequences, polynomials, factorization, equations, and inequalities. These topics explain not only how to obtain an answer, but why operations such as distributing a factor, combining like terms, cancelling a common factor, or performing the same operation on both sides preserve the intended relationship.
+
+Equations use this structure to identify values that make a condition true, while inequalities describe ordered sets of possible values. Factoring exposes multiplicative structure, and algebraic identities make recurring square and cube patterns reusable. The subject establishes a practical bridge between computation and abstraction: a verbal or numerical pattern becomes a symbolic model that can be transformed, checked by substitution, and applied to many cases.
+
 ### Change, accumulation, and feedback
 
 [[System Dynamics]] represents behavior over time through stocks, flows, feedback loops, delays, and nonlinear relationships. A stock records an accumulated quantity, while flows increase, decrease, or transfer it. Reinforcing loops amplify a direction of change; balancing loops oppose deviation and can produce stability around a target.

@@ -30,6 +30,8 @@ That interpretive step belongs to [[Natural Language Understanding Systems]]. An
 
 [[Virtual Assistant Architecture]] joins recognition, understanding, dialog, generation, and external digital services into a modular pipeline. Architecture alone does not make the interaction natural. [[Conversational Assistant Design]] governs prompts, initiative, turn-taking, multimodality, proactivity, personality, and social expectations. A capable assistant must coordinate its technical modules while making uncertainty, available actions, privacy boundaries, and conversational control legible to the user.
 
+The effects of computational systems cannot be separated from their capabilities. [[AI Ethics]] connects the design and deployment of intelligent systems to questions about human identity, machine moral status, data power, responsibility, explainability, fairness, governance, labor, and environmental sustainability. It treats an AI application as part of a larger sociotechnical system whose outcomes depend on institutions, infrastructure, and the distribution of power as well as code and models.
+
 ### Games as computational systems
 
 Games provide a concentrated example of computation, systems, interaction, and experience working together. [[Game Foundations]] organizes the defining structures and expressive forms of games. [[Game Systems]] examines the parts, attributes, resources, engines, ecologies, and progression structures that generate gameplay, while [[Game Interactivity]] focuses on the reciprocal loop through which player action changes the game and feedback changes later action.

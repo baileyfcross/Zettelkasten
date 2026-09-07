@@ -34,6 +34,8 @@ Simple local equations can create complex global behavior. Delays may produce os
 
 ### Probability and behavioral evidence
 
+[[Bayesian Reasoning and Programming]] treats probability as a calculus for reasoning from incomplete knowledge. It connects normalized and conditional distributions to explicit program descriptions, information fusion, recursive estimation, exact and approximate inference, and learning of parameters or dependency structures. By separating the assumptions in a description from the variables named in a question, the framework makes clear that every posterior answer is conditional on both the model and the evidence.
+
 [[Game Analytics and Probability]] applies quantitative reasoning to uncertain systems and observed player behavior. Probability distributions describe the likelihood of outcomes rather than pretending a random event has one predictable result. Expected values, simulations, and repeated trials reveal long-run tendencies that may be invisible in a small number of plays.
 
 Analytics adds empirical data such as cohorts, retention, progression, and failure rates. A metric becomes meaningful only through a model that connects it to behavior and design intent. Correlation can suggest where to investigate, but it does not by itself establish why players acted as they did. Quantitative evidence is strongest when combined with a clear question and qualitative observation.

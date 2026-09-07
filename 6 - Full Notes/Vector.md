@@ -10,6 +10,10 @@ A vector is an ordered row or column of values. It is a special case of a [[Matr
 
 In PageRank, the [[PageRank Vector]] contains one relative-importance value for every web page. Repeated [[Vector-Matrix Multiplication]] updates those values until they converge to an [[Eigenvector]] of the Google matrix.
 
+A row vector is a $1\times n$ matrix and a column vector is an $n\times1$ matrix. Beyond coordinates, a vector is any element of a [[Vector Space]], where [[Vector Addition]] and [[Scalar Multiplication of a Vector]] obey the vector-space axioms.
+
 # References
 
 [[algorithms.epub]]
+
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

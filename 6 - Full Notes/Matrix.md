@@ -10,6 +10,10 @@ A matrix is a rectangular arrangement of values organized into horizontal rows a
 
 Matrices can represent graph connections, sales data, neural-network parameters, or other structured numerical relationships. [[Matrix Multiplication]] combines compatible matrices, while a [[Vector]] can be treated as the special case of a matrix with one row or one column.
 
+Matrix algebra also includes [[Matrix Addition]], [[Scalar Multiplication of a Matrix]], and [[Matrix Transpose]]. Shape and structure matter: a [[Square Matrix]] may have a [[Determinant]], [[Matrix Inverse]], eigenvalues, and factorizations, while a [[Rectangular Matrix]] naturally represents overdetermined or underdetermined systems.
+
 # References
 
 [[algorithms.epub]]
+
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

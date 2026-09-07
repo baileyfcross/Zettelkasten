@@ -24,7 +24,9 @@ Equations use this structure to identify values that make a condition true, whil
 
 Simple local equations can create complex global behavior. Delays may produce oscillation, nonlinear responses may create thresholds, and interacting feedback loops may generate outcomes that intuition misses. Mathematical models make these relationships explicit enough to simulate, compare, and revise. They do not remove the need for judgment, but they expose the assumptions behind a prediction.
 
-### Matrices, transformations, and optimization
+### Linear algebra and optimization
+
+[[Applied Linear Algebra and Optimization]] connects abstract vector spaces to numerical methods for matrices, linear systems, eigenvalues, approximation, and constrained decision-making. It distinguishes the mathematical structure of a problem from the algorithm used to compute an answer, then treats finite-precision error and conditioning as part of interpreting that answer.
 
 [[Matrix and Vector Computation]] represents related numerical quantities in rows, columns, and vectors so that large families of calculations can be expressed as structured operations. Matrix multiplication can propagate values through a network, an adjacency matrix can encode the edges of a graph, and a sparse representation can store only the meaningful nonzero relationships. Iterative multiplication also connects a matrix to its eigenvectors, as demonstrated by the power method used in PageRank.
 

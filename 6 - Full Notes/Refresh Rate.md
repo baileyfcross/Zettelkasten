@@ -12,6 +12,9 @@ For a [[Visual Display]], refresh rate is how quickly the device refreshes the i
 
 For a [[Haptic Display]], temporal resolution is often described as refresh rate. Force feedback requires rapid updates; insufficient temporal resolution can create unintended vibration and make virtual objects feel softer than intended.
 
+Display refresh places a lower bound on when a completed AR image can become visible. A nominal 60-hertz display offers a frame interval of about 17 milliseconds, but sensing, processing, rendering, and scanout add their own delay to the complete motion-to-display path.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

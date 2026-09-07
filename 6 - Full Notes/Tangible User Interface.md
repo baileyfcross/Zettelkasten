@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human-Computer Interaction Foundations]]
+Tags: [[Human-Computer Interaction Foundations]] [[Tangible and Multimodal Interaction]]
 
 # Tangible User Interface
 
@@ -12,6 +12,9 @@ Because the physical representation and the control are integrated, users can ap
 
 Tangible interfaces are a form of [[Embodied Interaction]] and can overlap with [[Augmented Reality]] when physical objects are enhanced by digital information.
 
+In AR, tangibles may have generic shapes whose tracked pose controls virtual content or distinctive shapes whose physical form identifies their role. The object supplies grasping, contact, and shared-space cues, while augmentation adds changeable appearance and behavior that the physical artifact cannot provide alone.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

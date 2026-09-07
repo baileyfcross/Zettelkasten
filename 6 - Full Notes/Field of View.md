@@ -12,6 +12,9 @@ Field of view describes what is visible at one moment, while [[Field of Regard]]
 
 A wider field of view can support peripheral vision, visual search, and spatial awareness, but it is only one component of [[Display Fidelity]].
 
+AR often has a narrower augmented field than the user's unobstructed physical view. Virtual content can therefore disappear at an artificial image boundary even though its real referent remains visible, making off-screen cues and deliberate content placement important.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

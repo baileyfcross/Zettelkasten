@@ -12,6 +12,9 @@ For a [[Visual Display]], resolution depends on both pixel count and screen size
 
 Higher resolution can improve detail, but its value depends on the user, task, viewing or contact conditions, and other parts of [[Display Fidelity]].
 
+For a near-eye AR display, angular resolution describes how much visual angle each resolvable element occupies. Increasing pixel count without considering field of view, optics, and eye position does not by itself determine how finely registered details can be perceived.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

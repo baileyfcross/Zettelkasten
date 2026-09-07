@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spatial Perception and Navigation]]
+Tags: [[Spatial Perception and Navigation]] [[Augmented Reality Navigation]]
 
 # Cognitive Map
 
@@ -12,6 +12,9 @@ Cognitive mapping is the process of building, accessing, and using this structur
 
 Interfaces can support this process with stable landmarks, legible environments, maps, and transitions that preserve spatial context.
 
+AR guidance can reduce immediate navigation effort by overlaying a route, yet it should still help the user relate the path to surrounding structure. Overview views, visible decision points, and [[Transitional Interface|transitions]] between perspectives preserve opportunities to build survey and route knowledge.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

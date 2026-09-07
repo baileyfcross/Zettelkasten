@@ -12,6 +12,9 @@ Latency breaks the temporal agreement between bodily motion and external [[Feedb
 
 Sources include sensing, processing, simulation, rendering, and display refresh. Raising update rates, reducing scene complexity, or predicting motion may reduce parts of the delay, but improving only one stage does not remove every source.
 
+For AR, latency is also a [[Temporal Registration|temporal-registration]] error: the physical view reflects the present while a virtual object is rendered from an older pose. Motion prediction can estimate the viewpoint expected at display time, but variable delay and sudden changes limit how well prediction can compensate.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

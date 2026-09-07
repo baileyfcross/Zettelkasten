@@ -10,6 +10,9 @@ An auditory display is an [[Output Device]] that presents information through he
 
 Audio can indicate off-screen objects, support [[Wayfinding]], provide ambient realism, substitute for missing touch feedback, encode data through [[Sonification]], or deliver annotation and help. It can be presented through headphones or external speakers, each with different tradeoffs involving comfort, isolation, crosstalk, externalization, and support for multiple listeners.
 
+In AR, generated sound can be spatially registered with a physical source or location and mixed with the sounds already present in the environment. This makes auditory augmentation useful when an object lies outside the visual field or when additional graphics would overload the display.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

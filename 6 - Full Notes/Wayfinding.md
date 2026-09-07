@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spatial Perception and Navigation]]
+Tags: [[Spatial Perception and Navigation]] [[Augmented Reality Navigation]]
 
 # Wayfinding
 
@@ -12,6 +12,9 @@ The user determines the current location, selects a path, maintains orientation,
 
 In a large or unfamiliar [[Virtual Environment]], wayfinding aids can be essential even when the [[3D Travel]] technique is efficient. Integrated aids can reduce [[Cognitive Load]] and strengthen [[Spatial Knowledge]].
 
+An [[AR Route Visualization]] can place a path or decision cue directly onto the traveler's view of the physical environment. This reduces the transformation required from a separate map, but the route should still expose useful landmarks and orientation so the user does not become dependent on following an isolated arrow.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

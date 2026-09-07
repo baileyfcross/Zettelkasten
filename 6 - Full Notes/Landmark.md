@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spatial Perception and Navigation]]
+Tags: [[Spatial Perception and Navigation]] [[Augmented Reality Navigation]]
 
 # Landmark
 
@@ -12,6 +12,9 @@ A global landmark is visible from much of the environment and supplies broad dir
 
 Landmarks make environments more legible and support [[Wayfinding]], [[Spatial Knowledge]], and the construction of a [[Cognitive Map]].
 
+An AR navigation system can highlight a physical landmark or attach a decision cue to it, connecting digital route information to a feature the traveler can recognize without the display. Stable real-world referents also help relate egocentric guidance to an exocentric overview.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

@@ -1,6 +1,6 @@
 # XR Display Systems
 
-Parent topic: [[Computer Science]]
+Parent topic: [[Augmented Reality Systems]]
 
 Visual, auditory, and haptic display technologies and the performance properties that shape them.
 

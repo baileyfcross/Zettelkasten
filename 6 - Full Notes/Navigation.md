@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spatial Perception and Navigation]]
+Tags: [[Spatial Perception and Navigation]] [[Augmented Reality Navigation]]
 
 # Navigation
 
@@ -12,6 +12,9 @@ Travel changes the viewpoint or location. Wayfinding determines where to go and 
 
 Designers can integrate the two through maps, landmarks, view overviews, or techniques that reinforce a [[Cognitive Map]] while the user travels.
 
+AR can support navigation in the traveler's own physical frame by registering points of interest, routes, and directional cues with the visible environment. A [[Multiple-Perspective Interface]] can connect this local guidance to an overview when the user also needs global route structure.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

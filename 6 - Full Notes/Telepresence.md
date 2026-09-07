@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Environments]]
+Tags: [[XR Environments]] [[Collaborative Augmented Reality]]
 
 # Telepresence
 
@@ -12,6 +12,9 @@ In a [[Virtual Environment]], remote users can appear and act in the same three-
 
 The concept connects [[Social Computing]], [[Computer-Supported Cooperative Work]], and [[Presence]].
 
+Collaborative AR can create telepresence by placing a remote participant's video, avatar, annotations, or gestures into the local task space. In an asymmetric arrangement, a stationary expert may inspect a remote user's live view and return spatial guidance that appears registered with the user's physical environment.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

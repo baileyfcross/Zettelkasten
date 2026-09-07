@@ -1,6 +1,6 @@
 # XR Environments
 
-Parent topic: [[Computer Science]]
+Parent topic: [[Augmented Reality Systems]]
 
 Virtual, augmented, mixed, and remote environments and the experience of inhabiting them.
 

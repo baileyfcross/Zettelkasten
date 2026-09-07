@@ -12,6 +12,9 @@ Tactile feedback stimulates receptors in the skin, while kinesthetic feedback ac
 
 Important characteristics include [[Spatial Resolution]], temporal resolution, range, safety, attachment effort, weight, and freedom of movement. No single haptic device is best for every task.
 
+AR haptics can exploit contact with real objects as passive feedback or add active tactile and force effects. Because the physical environment already resists motion, a design must align generated feedback with visible and tangible surfaces rather than treating touch as an independent channel.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

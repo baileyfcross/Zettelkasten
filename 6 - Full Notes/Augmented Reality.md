@@ -12,6 +12,9 @@ AR design must account for both physical and virtual content. Display limits, ch
 
 AR is part of the broader [[Mixed Reality]] continuum and uses a [[3D User Interface]] when tasks occur directly in a three-dimensional spatial context.
 
+An AR system combines real and virtual information, updates interactively in real time, and keeps corresponding information [[Spatial Registration|registered in three dimensions]]. These requirements do not prescribe a visual or head-worn device: spatial audio or haptic augmentation can also connect information to the physical environment. A working system coordinates tracking, registration, visualization, and a model that relates real and virtual entities.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

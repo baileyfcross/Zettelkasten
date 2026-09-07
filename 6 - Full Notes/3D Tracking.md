@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spatial Interaction]] [[XR Environments]]
+Tags: [[Spatial Interaction]] [[XR Environments]] [[Spatial Tracking and Registration]]
 
 # 3D Tracking
 
@@ -12,6 +12,9 @@ Important tracker characteristics include range, accuracy, [[Latency]], jitter, 
 
 Hybrid sensing combines complementary technologies so that one can compensate for another's weakness.
 
+For augmented reality, tracking measurements pass through calibration and coordinate transformations to maintain [[Spatial Registration]] between an augmentation and its physical referent. [[Tracking Accuracy]], [[Tracking Precision]], [[Tracking Update Rate]], [[Tracking Jitter]], [[Tracker Drift]], and [[Latency]] describe different ways the resulting pose can depart from the one the display needs.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[augmentedreality_pearson.pdf]]

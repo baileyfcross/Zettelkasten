@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Data Query and Presentation]]
+Tags: [[Web Data Query and Presentation]], [[Web Performance and Scalability]]
 
 # Server-Side Paging
 
@@ -10,6 +10,9 @@ Server-side paging applies a page index and page size to a query before the resu
 
 It reduces database materialization, network transfer, and browser rendering for large datasets. Page changes require new [[HTTP Request|requests]], so sorting and filtering parameters must be sent with the page selection.
 
+For a high-demand API, paging also bounds the work performed by any one collection request. The page size remains a capacity choice: a value that is too large loses the protection, while one that is too small creates excess navigation and request traffic.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[aspnetcore3andreact.pdf]]

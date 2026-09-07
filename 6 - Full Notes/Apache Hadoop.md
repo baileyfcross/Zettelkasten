@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Scalable Social Data Processing]]
+Tags: [[Scalable Social Data Processing]], [[Hadoop and SQL Analytics]]
 
 # Apache Hadoop
 
@@ -13,3 +13,5 @@ Its disk-oriented job boundaries scale one-pass processing but add startup, clea
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
+
+[[bigdatamanagementandprocessing.pdf]]

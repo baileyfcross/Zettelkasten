@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Scalable Social Data Processing]]
+Tags: [[Scalable Social Data Processing]], [[Hadoop and SQL Analytics]]
 
 # Apache Hive
 
@@ -13,3 +13,5 @@ The catalog enables operations such as column and partition pruning, join planni
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
+
+[[bigdatamanagementandprocessing.pdf]]

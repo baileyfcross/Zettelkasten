@@ -1,7 +1,280 @@
 {
   "id": "bb84e03a-908b-4c56-9c54-58f024a0964d",
-  "title": "New chat",
+  "title": "How do I make a linked list?",
   "createdAt": "2026-09-06T22:32:10.644Z",
-  "updatedAt": "2026-09-06T22:32:10.644Z",
-  "messages": []
+  "updatedAt": "2026-09-07T06:28:49.093Z",
+  "messages": [
+    {
+      "id": "9e43372d-b1c3-430d-b068-6fee287488c6",
+      "role": "user",
+      "content": "How do I make a linked list?",
+      "createdAt": "2026-09-07T04:03:08.395Z"
+    },
+    {
+      "id": "c8ac42e3-742c-415e-9dc8-9c4ea68f9e3f",
+      "role": "assistant",
+      "content": "The indexed vault does not contain sufficient information to answer how to make a linked list. The provided sources focus on topics such as test doubles [1], definitions of done in agile practices [4], and game theory concepts like donkey space [7], but none address data structures or linked list implementation.",
+      "createdAt": "2026-09-07T04:04:24.839Z",
+      "sources": [
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "Test Double",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "References",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "Definition of Done",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "References",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Donkey Space.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Donkey Space.md",
+          "heading": "Donkey Space",
+          "score": null
+        }
+      ]
+    },
+    {
+      "id": "92a83a12-5276-4908-8d5a-98fd5ae1a4ad",
+      "role": "user",
+      "content": "Explain Game development to me like I'm a freshman",
+      "createdAt": "2026-09-07T04:04:46.484Z"
+    },
+    {
+      "id": "e16ea094-cbf5-4446-8645-e1d93aae2519",
+      "role": "assistant",
+      "content": "The indexed vault does not contain direct information about game development fundamentals. However, it includes related concepts from game theory that might help frame the idea:  \n\n1. **Donkey Space** [8]: This refers to the complex, recursive interactions players have when trying to predict each other's moves in competitive games. It highlights how game design involves creating layers of strategy and uncertainty.  \n\n2. **Yomi** [8]: A term describing the \"read\" of an opponent’s intentions, which is central to competitive gameplay. Game development often involves balancing rules and player agency to create such dynamic interactions.  \n\nIf you’re asking about building a game (e.g., coding, design, or mechanics), the vault’s sources focus on software testing (test doubles [2]) and agile practices (definition of done [5]), which are more about quality assurance than game creation. For a freshman-level explanation, you’d need to start with basics like game loops, assets, and player mechanics—none of which are covered here. Let me know if you’d like to explore the concepts *within* the vault further!",
+      "createdAt": "2026-09-07T04:05:11.457Z",
+      "sources": [
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "Test Double",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "References",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "Definition of Done",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "References",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Donkey Space.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Donkey Space.md",
+          "heading": "Donkey Space",
+          "score": null
+        }
+      ]
+    },
+    {
+      "id": "974cdd38-a041-41a0-8a4c-542f07fba6ed",
+      "role": "user",
+      "content": "How do I make a linked list?",
+      "createdAt": "2026-09-07T04:05:29.386Z"
+    },
+    {
+      "id": "70bbe42d-6e1b-43f3-aabd-799e1fe7073b",
+      "role": "assistant",
+      "content": "The indexed vault does not contain information about implementing a linked list or data structures. The provided sources focus on software testing (test doubles [2]), agile practices (definition of done [5]), and game theory concepts (donkey space [8], yomi [8]). For a linked list explanation, you’d need to refer to general programming knowledge. Here’s a brief overview:\n\nA **linked list** is a data structure where each element (node) contains data and a reference to the next node. To create one:\n1. Define a `Node` class with a `data` field and a `next` pointer.\n2. Use pointers to link nodes sequentially.\n3. Implement operations like adding/removing nodes or traversing the list.\n\nThis explanation is based on general model knowledge, as the vault does not cover programming fundamentals. Let me know if you’d like details about the concepts *within* the vault!",
+      "createdAt": "2026-09-07T04:05:46.719Z",
+      "sources": [
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "Test Double",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Test Double.md",
+          "heading": "References",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "Definition of Done",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Definition of Done.md",
+          "heading": "References",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Donkey Space.md",
+          "heading": "Document",
+          "score": null
+        },
+        {
+          "filePath": "6 - Full Notes/Donkey Space.md",
+          "heading": "Donkey Space",
+          "score": null
+        }
+      ]
+    },
+    {
+      "id": "48e944c4-b19f-4c84-801f-68671deff257",
+      "role": "user",
+      "content": "How do I make a linked list?",
+      "createdAt": "2026-09-07T06:28:05.965Z"
+    },
+    {
+      "id": "4efc6b13-83b7-4fae-b48d-64ea6ba8469a",
+      "role": "assistant",
+      "content": "To build a linked list you need three main ideas:\n\n1. **Node structure** – each node holds the data (payload) and a pointer (reference) to the next node.  \n2. **Head pointer** – the first node of the list is called the **head**.  \n3. **End marker** – the last node’s pointer is set to **null** to mark the list’s end.  \n\nWith these, you can create, traverse, and modify the list (e.g., insert or delete nodes). This is exactly what a linked list is described as in the vault’s notes [1].",
+      "thinking": "We have source 1 explaining linked list. Need answer.",
+      "createdAt": "2026-09-07T06:28:12.897Z",
+      "sources": [
+        {
+          "filePath": "6 - Full Notes/Linked List.md",
+          "heading": "Linked List",
+          "score": 0.8961137344536765
+        },
+        {
+          "filePath": "6 - Full Notes/Game Mechanic.md",
+          "heading": "Game Mechanic",
+          "score": 0.7653644867195437
+        },
+        {
+          "filePath": "3 - Tags/Game Design Methods.md",
+          "heading": "Game Design Methods",
+          "score": 0.7639121510542726
+        },
+        {
+          "filePath": "6 - Full Notes/Game Attribute.md",
+          "heading": "Game Attribute",
+          "score": 0.7634347133582585
+        },
+        {
+          "filePath": "6 - Full Notes/Artificial Intelligence.md",
+          "heading": "References",
+          "score": 0.7601762914661843
+        },
+        {
+          "filePath": "6 - Full Notes/Linked List.md",
+          "heading": "References",
+          "score": 0.7544915841520677
+        },
+        {
+          "filePath": "6 - Full Notes/Game Mechanic.md",
+          "heading": "References",
+          "score": 0.7177125575292838
+        },
+        {
+          "filePath": "6 - Full Notes/Linked List.md",
+          "heading": "Document",
+          "score": 0.7097716910397018
+        }
+      ]
+    },
+    {
+      "id": "36c1cb5d-f69d-4241-98a8-3388b9a89c4a",
+      "role": "user",
+      "content": "Where is this mentioned within my notes?",
+      "createdAt": "2026-09-07T06:28:43.750Z"
+    },
+    {
+      "id": "7a24dedf-b736-4f9b-ac92-058271743919",
+      "role": "assistant",
+      "content": "It’s described in the **“Linked List”** section of **Source 1** (file `6 - Full Notes/Linked List.md`). The note states:\n\n> “A linked list is a data structure whose nodes store payload data and a [[Pointer]] to the next node. The first node is called the head, and the last node points to null to mark the end.”【1】",
+      "thinking": "Need location: Source 1.",
+      "createdAt": "2026-09-07T06:28:49.093Z",
+      "sources": [
+        {
+          "filePath": "6 - Full Notes/Linked List.md",
+          "heading": "Linked List",
+          "score": 0.8463719948411755
+        },
+        {
+          "filePath": "3 - Tags/Angular Application Architecture.md",
+          "heading": "Angular Application Architecture > Linked Full Notes",
+          "score": 0.77834931894267
+        },
+        {
+          "filePath": "6 - Full Notes/Linked List.md",
+          "heading": "References",
+          "score": 0.7594432359971163
+        },
+        {
+          "filePath": "6 - Full Notes/Artificial Intelligence.md",
+          "heading": "References",
+          "score": 0.73994021590764
+        },
+        {
+          "filePath": "6 - Full Notes/Linked List.md",
+          "heading": "Document",
+          "score": 0.7204938457202366
+        },
+        {
+          "filePath": "3 - Tags/Virtual Assistant Architecture.md",
+          "heading": "Virtual Assistant Architecture > Linked Full Notes",
+          "score": 0.7188695969934634
+        },
+        {
+          "filePath": "3 - Tags/Linear Inequalities and Intervals.md",
+          "heading": "Linear Inequalities and Intervals > Linked Full Notes",
+          "score": 0.7041190425667168
+        },
+        {
+          "filePath": "3 - Tags/ASP.NET Core Application Architecture.md",
+          "heading": "ASP.NET Core Application Architecture > Linked Full Notes",
+          "score": 0.7034146599095388
+        }
+      ]
+    }
+  ]
 }

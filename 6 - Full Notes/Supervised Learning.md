@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Neural Network Training]]
+Tags: [[Neural Network Training]], [[Parallel Neural Network Training]]
 
 # Supervised Learning
 
@@ -17,3 +17,5 @@ For classification, every training observation is paired with a [[Class Label]].
 [[aiassistants.epub]]
 
 [[algorithms.epub]]
+
+[[bigdatamanagementandprocessing.pdf]]

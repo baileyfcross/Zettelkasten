@@ -1,0 +1,13 @@
+{
+  "ollamaUrl": "http://localhost:11434",
+  "chatModel": "gpt-oss:20b",
+  "lectureModel": "qwen3:30b-instruct",
+  "embeddingModel": "embeddinggemma",
+  "autoIndex": true,
+  "topK": 8,
+  "hybridTextWeight": 0.45,
+  "hybridVectorWeight": 0.55,
+  "minVectorSimilarity": 0.35,
+  "vaultOnly": true,
+  "modifyDebounceMs": 1400
+}

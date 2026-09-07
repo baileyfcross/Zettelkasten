@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Scalable Social Data Processing]]
+Tags: [[Scalable Social Data Processing]], [[Hadoop and SQL Analytics]]
 
 # Spark SQL
 
@@ -13,3 +13,5 @@ In-memory reusable data reduces disk input/output and job-restart overhead when 
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
+
+[[bigdatamanagementandprocessing.pdf]]

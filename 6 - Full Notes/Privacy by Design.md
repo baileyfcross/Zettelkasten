@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[AI Governance and Responsible Innovation]]
+Tags: [[AI Governance and Responsible Innovation]], [[Big Data Governance and Quality]]
 
 # Privacy by Design
 
@@ -13,3 +13,5 @@ The approach is especially important for AI because models often depend on large
 # References
 
 [[aiethics.epub]]
+
+[[bigdatamanagementandprocessing.pdf]]

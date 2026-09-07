@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Neural Network Training]]
+Tags: [[Neural Network Training]], [[Parallel Neural Network Training]]
 
 # Backpropagation
 
@@ -17,3 +17,5 @@ Training first uses [[Forward Propagation]] to calculate layer-by-layer activati
 [[aiassistants.epub]]
 
 [[algorithms.epub]]
+
+[[bigdatamanagementandprocessing.pdf]]

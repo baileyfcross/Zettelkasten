@@ -1,0 +1,33 @@
+# Social and Complex Network Analytics
+
+Parent topic: [[Computer Science]]
+
+Social and Complex Network Analytics is the chapter-level topic for representing large connected systems, processing their data at scale, modeling behavior and diffusion, and using network structure to support prediction and interpretation. Full Notes should link to one of the focused child topics rather than directly to this chapter tag.
+
+## Overview Chapter
+
+Social and complex networks turn relationships into data. A person, account, document, organization, or infrastructure component becomes a node, while interaction, similarity, dependence, support, or communication becomes an edge. The resulting graph preserves structure that a flat table can hide, but its scale and heterogeneity create difficult problems in storage, computation, visualization, prediction, and evaluation. Network analysis therefore combines representations, algorithms, statistical models, and domain knowledge rather than treating every collection of links as interchangeable.
+
+[[Hyperbolic Network Analytics]] exploits the relationship between negatively curved space and the hierarchical, scale-free organization common in complex networks. Hyperbolic distance can combine radial popularity with angular similarity, making nearby coordinates useful for link prediction and greedy routing. Models such as the Poincare disk compress an infinite space into a finite visual region whose available area grows exponentially with radius. Embeddings can preserve enough structural distance to support scalable navigation, dimensionality reduction, correlation analysis, optimization, and focus-plus-context visualization.
+
+Before sophisticated modeling is possible, [[Scalable Social Data Processing]] must turn massive collections of records into queryable and reusable computations. High-level systems such as Pig, Hive, and Spark SQL compile concise scripts or queries into parallel execution plans. Dataflow abstractions are natural for transformations of semi-structured records, while data warehouses add schemas and catalogs for structured queries. Iterative algorithms expose the limits of one-pass MapReduce jobs, motivating in-memory reuse and collective communication for repeated K-means or PageRank updates.
+
+[[Social Content Popularity Prediction]] asks which posts, stories, topics, or events will attract attention and how long that attention will last. Useful signals can come from early user behavior, content features, information lifecycles, or network topology. Feature selection reduces computation and removes weak inputs, while lifecycle models represent bursts, rebounds, and influence decay. Evaluation must match the output: ranking metrics judge ordered lists, classification metrics distinguish categories, and numerical metrics compare predicted and observed quantities.
+
+Individual decisions are developed further in [[Social Recommendation and Behavior Modeling]]. A recommendation can combine personal preference for an item's content with interpersonal influence from its senders. User-item adoption, user-user interaction, social relations, and item semantics provide different contextual views of the same choice. Dynamic, multi-faceted representations describe behavior that changes across time and aspects. Cross-domain methods transfer information from richer auxiliary domains to a sparse target domain, helping with new users and limited interaction histories.
+
+Open communication also enables inaccurate information to travel quickly. [[Social Misinformation Detection and Intervention]] distinguishes unintentional misinformation from deliberately spread disinformation, then studies content, accounts, and network structure as detection evidence. Diffusion may be represented as belief exchange rather than literal infection because exposure changes trust without guaranteeing adoption. Detection can target the message or its spreader, while intervention may identify malicious accounts early or seed a competing truthful campaign after misinformation has begun to spread.
+
+[[Rumor Diffusion and Source Detection]] focuses on the shape and origin of unverified information cascades. A snapshot of infected or informed nodes rarely exposes the original source directly, especially with partial observations or multiple simultaneous sources. Graph-theoretic methods compare candidate origins through distance, centrality, resolving sets, or potential functions. Content and linguistic features contribute a second line of evidence by estimating credibility and veracity. Together these methods separate the questions of how a rumor spreads, where it began, and whether its claims are reliable.
+
+Many systems cannot be represented faithfully by a single edge type or one static graph. [[Multilayer Network Analysis]] assigns relationships to layers and permits connections within or across them. Multiplex, interdependent, interconnected, multidimensional, multilevel, temporal, and hypernetwork formulations impose different constraints on node and edge participation. A supra-adjacency matrix can combine layer-specific and interlayer structure, but aggregation can change the dynamics. Diffusion, synchronization, and cascading failure may behave differently once dependencies between layers are preserved.
+
+The interpretive power of these methods is illustrated by [[Legislative Network Analysis]]. Bill co-sponsorship links legislators through an observable form of support and allows centrality, homophily, community, and temporal measures to be compared with political outcomes. The network is still a proxy whose validity depends on institutional conditions and data collection choices. In a multiparty legislature, repeated session-level graphs can reveal party cohesion, splitting, and switching even when aggregate relationships appear dense, while association rules can test whether combinations of network positions accompany re-election.
+
+Across all eight topics, the central discipline is matching representation and question. An edge must have a defensible meaning, a temporal or multilayer model must preserve distinctions that matter, and an evaluation metric must measure the claimed output. Scale changes which algorithms are feasible, but speed alone cannot correct weak labels, biased samples, confounded relationships, or an unsuitable proxy. Social and complex network analytics is strongest when computational efficiency, statistical evidence, and domain interpretation are designed together.
+
+## Directly Referenced Tags
+
+```query
+path:"3 - Tags" "[[Social and Complex Network Analytics]]"
+```

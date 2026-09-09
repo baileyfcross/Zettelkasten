@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Application Architecture]] [[Angular Application Architecture]]
+Tags: [[ASP.NET Core Application Architecture]] [[Angular Application Architecture]] [[ASP.NET Core Page and MVC Development]]
 
 # Dependency Injection
 
@@ -13,3 +13,4 @@ ASP.NET Core registers application services during startup and injects them into
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

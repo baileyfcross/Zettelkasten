@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Performance and Scalability]]
+Tags: [[Web Performance and Scalability]] [[ASP.NET Core Page and MVC Development]]
 
 # Asynchronous Controller Action
 
@@ -13,3 +13,4 @@ This can improve server scalability under concurrent I/O-bound requests, but it 
 # References
 
 [[aspnetcore3andreact.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

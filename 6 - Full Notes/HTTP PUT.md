@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]]
+Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]]
 
 # HTTP PUT
 
@@ -13,3 +13,4 @@ The endpoint must define what happens when the resource does not exist and which
 # References
 
 [[aspnetcore3andreact.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

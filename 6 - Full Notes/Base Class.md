@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Front-End Service Design]]
+Tags: [[Front-End Service Design]] [[C Sharp Interfaces Generics and Inheritance]]
 
 # Base Class
 
@@ -13,3 +13,4 @@ The base should contain only behavior common to its descendants. In the Angular 
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

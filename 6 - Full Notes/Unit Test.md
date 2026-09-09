@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]] [[Web Application Testing]]
+Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]]
 
 # Unit Test
 
@@ -17,3 +17,4 @@ In a full-stack web application, unit tests can isolate ASP.NET Core controller 
 [[agilegamedevelopment2e.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

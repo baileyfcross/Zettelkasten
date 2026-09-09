@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]]
+Tags: [[HTTP API Integration]] [[.NET Files Streams and Serialization]]
 
 # JSON Serialization
 
@@ -13,3 +13,4 @@ An ASP.NET Core endpoint can serialize health or entity results, and an Angular 
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]]
+Tags: [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]]
 
 # xUnit.net
 
@@ -13,3 +13,4 @@ The tests arrange controlled data, invoke controller or service behavior, and as
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

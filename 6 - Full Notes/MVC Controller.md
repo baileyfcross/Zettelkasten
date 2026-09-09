@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Application Architecture]]
+Tags: [[ASP.NET Core Application Architecture]] [[ASP.NET Core Page and MVC Development]]
 
 # MVC Controller
 
@@ -13,3 +13,4 @@ Controllers sit behind the [[HTTP Request Pipeline]] and are reached through [[E
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Application Debugging]]
+Tags: [[Application Debugging]] [[C Sharp Functions Diagnostics and Testing]]
 
 # Debugger
 
@@ -13,3 +13,4 @@ In a full-stack application, [[Server-Side Debugging]] follows .NET request hand
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

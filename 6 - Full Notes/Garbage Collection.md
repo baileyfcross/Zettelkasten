@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Performance and Scalability]]
+Tags: [[Web Performance and Scalability]] [[.NET Core Data Types and Collections]]
 
 # Garbage Collection
 
@@ -13,3 +13,4 @@ The book compares custom request parsing with ASP.NET Core model binding to redu
 # References
 
 [[aspnetcore3andreact.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

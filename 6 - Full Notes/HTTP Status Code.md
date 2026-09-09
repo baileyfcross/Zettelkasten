@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]]
+Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]]
 
 # HTTP Status Code
 
@@ -13,3 +13,4 @@ Status selection is part of an API contract. A health endpoint can map healthy, 
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

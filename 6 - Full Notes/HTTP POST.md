@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]]
+Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]]
 
 # HTTP POST
 
@@ -13,3 +13,4 @@ A successful creation response can include the created representation and its re
 # References
 
 [[aspnetcore3andreact.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

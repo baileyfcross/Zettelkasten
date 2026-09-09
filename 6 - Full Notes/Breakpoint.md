@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Application Debugging]]
+Tags: [[Application Debugging]] [[C Sharp Functions Diagnostics and Testing]]
 
 # Breakpoint
 
@@ -13,3 +13,4 @@ A breakpoint inside a controller can expose server request state, while one in a
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

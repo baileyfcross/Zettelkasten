@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Front-End Service Design]]
+Tags: [[Front-End Service Design]] [[ASP.NET Core Web API Development]]
 
 # Data Transfer Object
 
@@ -13,3 +13,4 @@ Using a DTO preserves [[Separation of Concerns]] between persistence and present
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

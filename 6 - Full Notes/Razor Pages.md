@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Application Architecture]]
+Tags: [[ASP.NET Core Application Architecture]] [[ASP.NET Core Page and MVC Development]]
 
 # Razor Pages
 
@@ -13,3 +13,4 @@ A single-page Angular client may not need server-rendered views, but Razor Pages
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

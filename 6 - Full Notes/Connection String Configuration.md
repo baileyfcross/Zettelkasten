@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Application Deployment]]
+Tags: [[Cloud Application Deployment]] [[Entity Framework Core Data Access]]
 
 # Connection String Configuration
 
@@ -13,3 +13,4 @@ The value is operational configuration and may contain sensitive credentials. It
 # References
 
 [[aspnetcore3andreact.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

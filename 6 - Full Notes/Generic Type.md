@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Front-End Service Design]]
+Tags: [[Front-End Service Design]] [[C Sharp Interfaces Generics and Inheritance]]
 
 # Generic Type
 
@@ -13,3 +13,4 @@ Using a type parameter is more informative than replacing every value with an un
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

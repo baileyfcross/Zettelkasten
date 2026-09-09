@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]]
+Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]]
 
 # Web API
 
@@ -13,3 +13,4 @@ In ASP.NET Core, [[MVC Controller|controller]] actions commonly implement these 
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

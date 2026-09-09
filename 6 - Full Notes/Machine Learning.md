@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]] · [[Data Ethics and Digital Power]]
+Tags: [[Machine Learning and Neural Networks]] · [[Data Ethics and Digital Power]] · [[ML.NET Recommendation Applications]]
 
 # Machine Learning
 
@@ -21,3 +21,5 @@ A learned pattern is not automatically a causal explanation or a fair basis for 
 [[aiethics.epub]]
 
 [[algorithms.epub]]
+
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

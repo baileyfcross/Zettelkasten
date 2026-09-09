@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Application Architecture]]
+Tags: [[ASP.NET Core Application Architecture]] [[ASP.NET Core Page and MVC Development]]
 
 # ASP.NET Core
 
@@ -13,3 +13,4 @@ An ASP.NET Core application commonly starts a [[Web Host]], accepts traffic thro
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

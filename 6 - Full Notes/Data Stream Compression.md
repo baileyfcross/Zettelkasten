@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Real-Time IoT Stream Processing]]
+Tags: [[Real-Time IoT Stream Processing]] [[.NET Files Streams and Serialization]]
 
 # Data Stream Compression
 
@@ -13,3 +13,4 @@ Lossless methods preserve exact recovery; lossy methods trade accuracy for stron
 # References
 
 [[bigdatamanagementandprocessing.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

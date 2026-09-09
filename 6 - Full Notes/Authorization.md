@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]]
+Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]]
 
 # Authorization
 
@@ -13,3 +13,4 @@ Angular route guards can control client navigation, but server-side authorizatio
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

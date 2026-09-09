@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Entity Framework Core Data Modeling]]
+Tags: [[Entity Framework Core Data Modeling]] [[Entity Framework Core Data Access]]
 
 # Object-Relational Mapping
 
@@ -13,3 +13,4 @@ Object-relational mapping connects an object-oriented application model to table
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

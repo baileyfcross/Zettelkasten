@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Statistical Computing Workflows]]
+Tags: [[Statistical Computing Workflows]] [[.NET Assemblies Packages and Deployment]]
 
 # Package Dependency
 
@@ -13,3 +13,4 @@ Dependencies make modular software reuse possible, but they also expand the vers
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Front-End Service Design]]
+Tags: [[Front-End Service Design]] [[C Sharp Interfaces Generics and Inheritance]]
 
 # Derived Class
 
@@ -13,3 +13,4 @@ City and country form components can derive from one base form component, and th
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

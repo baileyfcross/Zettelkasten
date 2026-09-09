@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Application Debugging]]
+Tags: [[Application Debugging]] [[C Sharp Language and Type Fundamentals]]
 
 # C# Preprocessor Directive
 
@@ -13,3 +13,4 @@ This can isolate debugging helpers such as SQL query inspection from a productio
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

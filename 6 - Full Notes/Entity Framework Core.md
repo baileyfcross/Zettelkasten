@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Entity Framework Core Data Modeling]]
+Tags: [[Entity Framework Core Data Modeling]] [[Entity Framework Core Data Access]]
 
 # Entity Framework Core
 
@@ -13,3 +13,4 @@ An EF Core model combines entity classes, relationships, conventions, and annota
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

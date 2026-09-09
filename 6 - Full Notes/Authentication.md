@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]]
+Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]]
 
 # Authentication
 
@@ -13,3 +13,4 @@ Authentication answers who the client is; [[Authorization]] answers what that id
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

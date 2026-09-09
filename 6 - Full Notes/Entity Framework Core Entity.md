@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Entity Framework Core Data Modeling]]
+Tags: [[Entity Framework Core Data Modeling]] [[Entity Framework Core Data Access]]
 
 # Entity Framework Core Entity
 
@@ -13,3 +13,4 @@ Entity classes let a controller work with domain objects instead of raw rows. Th
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[c80andnetcore30moderncross-platformdevelopment.pdf]]

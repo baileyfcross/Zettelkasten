@@ -14,7 +14,11 @@ Training from examples changes adjustable model parameters instead of requiring 
 
 A learned pattern is not automatically a causal explanation or a fair basis for action. Model behavior depends on the [[Data Science Pipeline]], including how examples were captured, selected, represented, and interpreted. Ethical evaluation therefore examines the data and institutional use as well as predictive performance.
 
+The emotion-detector chapter contrasts training a custom model with consuming a provider's pretrained service. A hosted model reduces the expertise and time needed by the application developer, but the application then depends on the provider's training data and the questions its service can answer.
+
 # References
+
+[[c8andnetcore30projectsusingazure.pdf]]
 
 [[aiassistants.epub]]
 

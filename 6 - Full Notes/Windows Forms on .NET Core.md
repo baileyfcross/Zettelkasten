@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Windows Desktop Applications]]
+Tags: [[.NET Windows Desktop Applications]] [[Windows Desktop Modernization]]
 
 # Windows Forms on .NET Core
 
@@ -10,6 +10,10 @@ Tags: [[.NET Windows Desktop Applications]]
 
 Porting is not guaranteed to be a simple runtime switch because applications may depend on libraries or APIs absent from .NET Core. Compatibility analysis and targeted testing identify which pieces can move and which require replacement.
 
+The Azure projects book demonstrates a 2019-era migration by changing a legacy Windows Forms project to the Windows Desktop SDK, targeting `netcoreapp3.0`, enabling Windows Forms, and then resolving package, reference, and resource differences. The interface can remain familiar while the runtime and project system change.
+
 # References
+
+[[c8andnetcore30projectsusingazure.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

@@ -10,6 +10,10 @@ The Universal Windows Platform is an application model for Windows devices that 
 
 Capabilities make access to sensitive device functions explicit, and packaging governs installation and distribution. UWP's constraints distinguish it from classic desktop frameworks even when both use C# and XAML.
 
+The stock-checker and bot projects use UWP clients for Windows tablets and desktop chat. The examples combine XAML, view models, commands, and HTTP or Direct Line wrappers while keeping network and identity behavior outside the visual controls.
+
 # References
+
+[[c8andnetcore30projectsusingazure.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

@@ -10,6 +10,10 @@ A Xamarin.Forms solution contains shared application code alongside platform pro
 
 This structure concentrates reusable pages and domain logic while retaining access to native behavior where required. Build and release testing must still cover every platform because packaging and operating-system integration are not shared in the same way as C# logic.
 
+The book's solution keeps shared Xamarin.Forms code in one project and Android-specific permissions, manifest entries, resources, and plugin initialization in the Android project. An iOS target would add its own platform project while referencing the same shared application.
+
 # References
+
+[[c8andnetcore30projectsusingazure.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

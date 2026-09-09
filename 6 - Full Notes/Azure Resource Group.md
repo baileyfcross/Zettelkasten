@@ -10,6 +10,10 @@ An Azure resource group is a management container for related cloud resources. T
 
 The group provides an operational boundary rather than an application runtime. Naming and environment separation should make it clear which resources belong together and which lifecycle they share.
 
+The Azure projects group databases, applications, monitoring tools, and related services by shared purpose and lifetime. Because deleting a group removes its contained resources, it also becomes a practical cleanup boundary for temporary project infrastructure.
+
 # References
+
+[[c8andnetcore30projectsusingazure.pdf]]
 
 [[aspnetcore3andreact.pdf]]

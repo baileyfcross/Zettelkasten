@@ -10,7 +10,11 @@ Authentication is the process of verifying that a person or automated system is 
 
 Authentication answers who the client is; [[Authorization]] answers what that identity may view or change. Sessions, tokens, signatures, and second factors are different mechanisms for carrying or strengthening the result.
 
+The stock-checker project separates authentication from permission: a user must first establish an accepted identity before the application considers which stock operations that identity may perform. IdentityServer issues the token used to carry that authenticated relationship to the API.
+
 # References
+
+[[c8andnetcore30projectsusingazure.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

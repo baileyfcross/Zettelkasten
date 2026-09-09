@@ -12,7 +12,11 @@ Many unit tests form the fast base of a [[Testing Pyramid]], but they cannot pro
 
 In a full-stack web application, unit tests can isolate ASP.NET Core controller behavior with [[Moq]] and an [[In-Memory Database Provider]], or isolate Angular components with [[Angular TestBed]], [[Jasmine]], and a [[Test Double]]. [[Arrange-Act-Assert]] keeps setup, execution, and verification distinct.
 
+The web-research chapter emphasizes that test code has a maintenance cost and should prove a useful behavior. Its controller/database example spans multiple components and is therefore described cautiously rather than being labeled a pure single-unit test.
+
 # References
+
+[[c8andnetcore30projectsusingazure.pdf]]
 
 [[agilegamedevelopment2e.pdf]]
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Azure Logic Apps and Functions]]
+Tags: [[Azure Logic Apps and Functions]] [[Cloud Business Process Automation]]
 
 # Workflow Engine
 
@@ -10,6 +10,10 @@ A workflow engine coordinates a sequence of independent components at a high lev
 
 The book presents Azure Logic Apps as a graphical workflow engine whose prebuilt components can connect services such as Excel, OneDrive, Twitter, and Azure Functions. An HTTP call provides an escape hatch when a required operation is not available as a built-in component.
 
+A workflow engine can also orchestrate a cloud business process whose components include software services, information sources, automated actions, and human steps. Its value depends on explicit triggers, interfaces, conditions, and completion measures rather than automation alone.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[cloudcomputing_mit.epub]]

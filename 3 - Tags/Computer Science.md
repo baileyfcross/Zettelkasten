@@ -62,6 +62,10 @@ Large computational systems require a development process that can learn while d
 
 Process also depends on people and organizational structure. [[Agile Team Leadership]] emphasizes coaching, facilitation, psychological safety, shared accountability, and leadership adapted to a team's situation. [[Scaling Agile Teams]] addresses communication overhead, feature and component structures, integration, dependencies, and coordination across many teams. In the specialized setting of [[Game Production]], these practices meet creative vision, scope, milestones, stage gates, quality assurance, live operations, and release constraints.
 
+### Computing delivered as services
+
+[[Cloud Computing]] reorganizes infrastructure, platforms, software, information, and business processes as measured services reached through networks. Virtualization and resource pools enable elastic capacity, while public, private, community, and hybrid models define who shares it. Reusable service cells, catalogs, brokers, and integration contracts let organizations compose capabilities across providers. Pricing and financial models connect those capabilities to business value; security, continuity, backup, interoperability, and governance keep abstraction from hiding accountability. Cloud adoption therefore changes not only where computation runs but how it is purchased, controlled, recovered, and woven into work.
+
 Across all of these areas, computer science moves repeatedly between abstraction and experience. Logic supplies precision; engineering makes change manageable; systems thinking exposes interactions; human cognition and interface design connect computation to people; machine learning handles variation; and production practices turn uncertain ideas into maintained artifacts. The field is unified less by a single technology than by this disciplined movement from representations and models to behavior, evidence, and revision.
 
 ## Directly Referenced Tags

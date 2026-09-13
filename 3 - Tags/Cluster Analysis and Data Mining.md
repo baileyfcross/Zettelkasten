@@ -6,7 +6,7 @@ Cluster Analysis and Data Mining is the chapter-level topic for finding structur
 
 ## Overview Chapter
 
-Cluster analysis begins with with a deceptively simple objective: place similar objects together and dissimilar objects apart. The difficulty lies in deciding what similarity means, which attributes deserve influence, how many groups the data support, and whether the resulting structure reflects anything beyond the behavior of a chosen algorithm. Data mining places this problem inside a larger discovery process. The analyst must understand the application, prepare and explore the data, select a model, evaluate the result, and decide how discovered patterns will be used. A cluster is therefore not a fact extracted mechanically from a database. It is a model produced by an explicit chain of representational, computational, and interpretive choices.
+Cluster analysis begins with a deceptively simple objective: place similar objects together and dissimilar objects apart. The difficulty lies in deciding what similarity means, which attributes deserve influence, how many groups the data support, and whether the resulting structure reflects anything beyond the behavior of a chosen algorithm. Data mining places this problem inside a larger discovery process. The analyst must understand the application, prepare and explore the data, select a model, evaluate the result, and decide how discovered patterns will be used. A cluster is therefore not a fact extracted mechanically from a database. It is a model produced by an explicit chain of representational, computational, and interpretive choices.
 
 ### Defining the clustering problem
 
@@ -52,7 +52,7 @@ Decision trees encode classification as a sequence of attribute tests. Internal 
 
 Trees can overfit noise or idiosyncrasies in a small sample. Prepruning stops growth when a proposed split offers too little gain; postpruning grows a larger tree and removes branches that fail validation or a complexity criterion. Bayesian classification provides a probabilistic alternative. A naive Bayes classifier combines class priors with attribute likelihoods under conditional independence, selecting the class with the largest posterior score. Its assumptions simplify computation and incremental learning, while its output preserves a probability-based basis for the prediction.
 
-[[Association Rule Mining]] searches for recurring co-occurrences rather than a single target class. A transaction database contains itemsets. Support counts how often an itemset appears, and a minimum-support threshold identifies frequent itemsets. Confidence measures how often the consequent appears among transactions containing the antecedent. These quantities describe empirical association, not causation.
+[[Association Rule Discovery]] searches for recurring co-occurrences rather than a single target class. A transaction database contains itemsets. Support counts how often an itemset appears, and a minimum-support threshold identifies frequent itemsets. Confidence measures how often the consequent appears among transactions containing the antecedent. These quantities describe empirical association, not causation.
 
 The downward-closure property makes the combinatorial search practical: every subset of a frequent itemset must also be frequent, so an infrequent candidate eliminates all supersets containing it. Apriori repeatedly forms length-k candidates from the frequent sets of length k-1 and rescans the transactions for support. Frequent sets then generate implication rules that satisfy a confidence threshold. The same framework can represent binary, quantitative, or fuzzy relationships, provided support and membership are defined consistently.
 
@@ -94,7 +94,7 @@ Competitive networks support unsupervised grouping by making output units compet
 
 Attribute selection determines which distinctions the proximity calculation can see. Irrelevant dimensions can overwhelm useful structure, correlated categorical variables can count the same information repeatedly, and differences in scale can make one numerical feature dominate. Weighting and standardization are therefore modeling choices, not neutral housekeeping. The proximity measure must also fit the data type and the intended meaning of resemblance.
 
-Interpretation finally asks what a cluster represents in the application. Domain experts may assess face validity, visualizations can expose shape and overlap, and quantitative indices can compare stability or fit. More than one clustering can legitimately represent the same data at different resolutions or under different purposes. Unequal density further complicates boundary decisions. The responsible conclusion describes the method, data preparation, parameters, alternatives, and uncertainties together with the groups it found discovered.
+Interpretation finally asks what a cluster represents in the application. Domain experts may assess face validity, visualizations can expose shape and overlap, and quantitative indices can compare stability or fit. More than one clustering can legitimately represent the same data at different resolutions or under different purposes. Unequal density further complicates boundary decisions. The responsible conclusion describes the method, data preparation, parameters, alternatives, and uncertainties together with the groups it discovered.
 
 Across the chapter, cluster analysis and data mining form a disciplined loop between representation and evidence. Proximity and attributes define what relationships are visible; algorithms compress those relationships into groups or rules; validation tests their stability and fit; and interpretation reconnects the mathematical result to the domain. The output becomes useful knowledge only when that whole chain remains explicit.
 
@@ -103,4 +103,3 @@ Across the chapter, cluster analysis and data mining form a disciplined loop bet
 ```query
 path:"3 - Tags" "[[Cluster Analysis and Data Mining]]"
 ```
-

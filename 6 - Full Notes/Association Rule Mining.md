@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Legislative Network Analysis]]
+Tags: [[Legislative Network Analysis]] · [[Association Rule Discovery]]
 
 # Association Rule Mining
 
@@ -10,6 +10,10 @@ Association rule mining searches for combinations of categorized attributes that
 
 In legislative analysis, session-level centrality and homophily values can be categorized and tested for combinations associated with re-election. A discovered rule is an empirical association rather than proof of a causal career strategy.
 
+The book develops the search from transaction databases and itemsets: minimum support identifies frequent combinations, the downward-closure property prunes all supersets of an infrequent candidate, and confidence filters the implications generated from the surviving sets. These measures describe co-occurrence rather than causal influence.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
+
+[[clusteranalysisanddatamining.pdf]]

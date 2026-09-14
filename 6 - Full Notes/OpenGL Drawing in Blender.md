@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Viewport Drawing API]]
+Tags: [[Blender Viewport Drawing API]] · [[Blender Editor Construction]]
 
 # OpenGL Drawing in Blender
 
@@ -10,6 +10,10 @@ OpenGL-style drawing in Blender can place transient lines and shapes over a 3D V
 
 Restoring defaults after every draw helps the overlay cooperate with Blender and other add-ons that share the graphics context. Because the source targets Blender 2.78c and OpenGL 2.1-style `bgl`, exact functions are version-specific, but disciplined state management remains a general requirement for shared viewport drawing.
 
+Core editor code can avoid direct OpenGL calls by using Blender's GPU abstraction. The tutorial editor clears a region and emits colored rectangles through [[Blender Immediate-Mode GPU Drawing]], allowing the [[Blender Region Draw Dispatch]] path to render through application-owned shaders, buffers, and state.
+
 # References
 
 [[blenderpythonapi.pdf]]
+
+[[coreblenderdevelopment.pdf]]

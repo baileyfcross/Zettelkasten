@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computing Machine Architecture]]
+Tags: [[Computing Machine Architecture]] · [[Digital Information and Early Data Processing]]
 
 # Hollerith Tabulating Machines
 
@@ -13,3 +13,4 @@ Hollerith’s design treated symbols as data rather than merely as numbers for a
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

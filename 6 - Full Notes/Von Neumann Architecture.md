@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computing Machine Architecture]]
+Tags: [[Computing Machine Architecture]] · [[Stored-Program and Mainframe Computing]]
 
 # Von Neumann Architecture
 
@@ -13,3 +13,4 @@ The architecture gives physical meaning to familiar programming ideas such as se
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

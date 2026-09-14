@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[PageRank and Link Analysis]]
+Tags: [[PageRank and Link Analysis]] · [[World Wide Web and Online Services]]
 
 # Hypertext
 
@@ -13,3 +13,4 @@ On the web, linked documents collectively form a [[Web Graph]]. The link structu
 # References
 
 [[algorithms.epub]]
+[[computing.epub]]

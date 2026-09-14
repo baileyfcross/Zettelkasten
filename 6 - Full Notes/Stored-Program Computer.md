@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computing Machine Architecture]]
+Tags: [[Computing Machine Architecture]] · [[Stored-Program and Mainframe Computing]]
 
 # Stored-Program Computer
 
@@ -13,3 +13,4 @@ This organization made programs easier to load and change and enabled code gener
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

@@ -13,3 +13,4 @@ An automatic computer performs those rules through physical mechanisms without o
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

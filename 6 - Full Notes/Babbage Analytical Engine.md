@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computing Machine Architecture]]
+Tags: [[Computing Machine Architecture]] · [[Digital Information and Early Data Processing]]
 
 # Babbage Analytical Engine
 
@@ -13,3 +13,4 @@ Although never completed, its organization anticipated major elements of later m
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

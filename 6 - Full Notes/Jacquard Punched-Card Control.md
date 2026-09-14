@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computing Machine Architecture]]
+Tags: [[Computing Machine Architecture]] · [[Digital Information and Early Data Processing]]
 
 # Jacquard Punched-Card Control
 
@@ -13,3 +13,4 @@ This separation between mechanism and instructions anticipated [[Software]]. Cha
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

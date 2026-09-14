@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Algorithm Foundations]]
+Tags: [[Algorithm Foundations]] · [[Wartime Computing and Early Electronic Machines]]
 
 # Turing Machine
 
@@ -13,3 +13,4 @@ Its operations are deliberately elementary, yet a properly constructed Turing ma
 # References
 
 [[algorithms.epub]]
+[[computing.epub]]

@@ -13,3 +13,4 @@ Automation is limited by what can be specified, computed, and safely delegated. 
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

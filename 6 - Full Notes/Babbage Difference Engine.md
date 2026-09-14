@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computing Machine Architecture]]
+Tags: [[Computing Machine Architecture]] · [[Digital Information and Early Data Processing]]
 
 # Babbage Difference Engine
 
@@ -13,3 +13,4 @@ The machine’s thousands of precisely interacting parts exceeded the manufactur
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

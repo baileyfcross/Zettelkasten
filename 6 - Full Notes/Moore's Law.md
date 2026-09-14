@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Emerging Computational Models]]
+Tags: [[Emerging Computational Models]] · [[Semiconductor and Integrated Circuit History]]
 
 # Moore's Law
 
@@ -13,3 +13,4 @@ It is a technology trend rather than a physical law and cannot continue indefini
 # References
 
 [[computationalthinking.epub]]
+[[computing.epub]]

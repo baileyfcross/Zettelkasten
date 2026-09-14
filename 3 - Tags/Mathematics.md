@@ -18,6 +18,10 @@ Formalization also reveals limits. A valid deduction can still begin from false 
 
 Equations use this structure to identify values that make a condition true, while inequalities describe ordered sets of possible values. Factoring exposes multiplicative structure, and algebraic identities make recurring square and cube patterns reusable. The subject establishes a practical bridge between computation and abstraction: a verbal or numerical pattern becomes a symbolic model that can be transformed, checked by substitution, and applied to many cases.
 
+[[Commutative Algebra]] studies rings, ideals, modules, localization, and homological constructions that organize polynomial equations and their geometry. Ideals encode systems of algebraic constraints, prime ideals act as geometric points in a spectrum, and modules generalize vector spaces when scalars come from a ring rather than a field. Localization examines these structures near selected primes, while graded and filtered objects record how algebra changes by degree or approximation level.
+
+This structural viewpoint connects symbolic computation with geometry. Gröbner bases turn ideal questions into algorithms, exact sequences track how modules fit together, and resolutions expose relations among generators. Dimension, depth, Hilbert functions, Tor, Ext, and local cohomology then measure different aspects of size, singularity, dependence, and support. The result is a language in which equations, spaces, and computational procedures can be compared through the same algebraic invariants.
+
 ### Change, accumulation, and feedback
 
 [[System Dynamics]] represents behavior over time through stocks, flows, feedback loops, delays, and nonlinear relationships. A stock records an accumulated quantity, while flows increase, decrease, or transfer it. Reinforcing loops amplify a direction of change; balancing loops oppose deviation and can produce stability around a target.

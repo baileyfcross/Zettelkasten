@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]]
+Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]]
 
 # Authorization
 
@@ -14,6 +14,8 @@ The stock-checker assigns different read and update capabilities to authenticate
 
 For cloud resources, authorization applies after identity and authentication have been established. It can grant rights according to a user's role and should restrict both human users and automated applications to the operations their work requires.
 
+The cybersecurity model distinguishes authorization from authentication: proving who a user is does not prove that the user may reach every resource. Access-control policy can base authorization on administrator mandates, owner discretion, roles, or contextual rules.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -22,3 +24,5 @@ For cloud resources, authorization applies after identity and authentication hav
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[cloudcomputing_mit.epub]]
+
+[[cybersecurity.epub]]

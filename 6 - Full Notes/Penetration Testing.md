@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[Layered Cyber Defense and Secure Development]]
 
 # Penetration Testing
 
@@ -10,6 +10,10 @@ Penetration testing deliberately attempts to circumvent a system's protections a
 
 Cloud services can schedule penetration tests as part of proactive monitoring and assurance, subject to the provider's rules and the system's scope. Findings should lead to remediation and retesting rather than serving only as a one-time report.
 
+Penetration testing belongs throughout a [[Secure Software Development Lifecycle]] rather than only after construction. Used alongside [[Security Code Review]] and [[Security Architecture Analysis]], it can reveal exploitable behavior early enough to change the design as well as the deployment.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[cybersecurity.epub]]

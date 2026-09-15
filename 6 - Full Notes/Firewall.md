@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[Layered Cyber Defense and Secure Development]]
 
 # Firewall
 
@@ -10,6 +10,10 @@ A firewall is a logical or physical boundary that allows or blocks network traff
 
 Rules can restrict ports, protocols, sources, and destinations, while logs record rejected or accepted activity for monitoring. A firewall is one layer of defense and does not replace application authorization, endpoint protection, or secure data handling.
 
+Within [[Defense in Depth]], a firewall regulates incoming and outgoing traffic at a network boundary according to a defined security policy. It can prevent an attack from moving freely between public and private networks, but it cannot repair a trusted user who executes a malicious payload.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[cybersecurity.epub]]

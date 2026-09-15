@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[Layered Cyber Defense and Secure Development]]
 
 # Intrusion Prevention System
 
@@ -10,6 +10,10 @@ An intrusion prevention system detects suspicious activity and automatically int
 
 Automated prevention must use rules calibrated to the service because false positives can deny legitimate access. Monitoring and retained evidence are still required so administrators can understand why the action occurred and improve the control.
 
+The source describes an intrusion prevention system as combining detection with firewall-like intervention. When its detector identifies a matching intrusion, the preventive component can stop the activity automatically instead of waiting for a person to respond to an alert.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[cybersecurity.epub]]

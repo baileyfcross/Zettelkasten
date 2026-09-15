@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]]
+Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]]
 
 # Authentication
 
@@ -14,6 +14,8 @@ The stock-checker project separates authentication from permission: a user must 
 
 Within a cloud [[Security Container]], authentication follows identification and establishes whether a claimed person, application, system, or connected device is legitimate. Evidence may be something the claimant knows, something it possesses, or a biometric characteristic.
 
+Authentication is one of the six security goals in the source's [[Cybersecurity Goal Model]]. It can combine knowledge, possession, and biometric evidence; using several categories reduces dependence on any one credential before [[Authorization]] evaluates access.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -22,3 +24,5 @@ Within a cloud [[Security Container]], authentication follows identification and
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[cloudcomputing_mit.epub]]
+
+[[cybersecurity.epub]]

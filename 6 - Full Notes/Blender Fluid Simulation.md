@@ -10,6 +10,9 @@ Blender's fluid simulator calculates liquid behavior inside a defined domain. Fl
 
 The calculation produces substantial cached data and can generate a changing surface mesh for rendering. Domain resolution trades simulation detail against computation time and storage.
 
+Gress's liquid example shows why the interaction solve is important: a moving collider creates wake, foam, splash, and ripples before the result is surfaced as a mesh. His gas example uses fuel and temperature to distinguish smoke from ignition. See [[Fluid Simulation of Splashes and Fire]].
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
+[[digitalvisualeffectsandcompositing.pdf]]

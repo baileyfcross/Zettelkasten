@@ -10,6 +10,9 @@ Rigid body dynamics simulate objects that move and collide while retaining their
 
 This is more efficient and appropriate than making a soft body artificially stiff. Initial position and rotation give the solver the starting conditions from which falling, impact, and bouncing develop.
 
+Gress applies the same rigid-body idea to destruction: a model must first be fractured into pieces, then a collider and force can drive their motion. The result still needs suitable fragment shapes, timing, surfacing, and motion blur to read as a real collapse. See [[Rigid Body Fracture and Collision]].
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
+[[digitalvisualeffectsandcompositing.pdf]]

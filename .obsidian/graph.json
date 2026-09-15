@@ -1,13 +1,13 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:\"2 - Source Material\" -path:\"Attachments\" -path:\"Archive\"",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.04231590268975836,
+  "scale": 0.08317427835927532,
   "close": true
 }

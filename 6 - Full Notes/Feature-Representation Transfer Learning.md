@@ -10,6 +10,10 @@ Feature-representation transfer learning constructs a space in which source know
 
 After alignment, a classifier can use labeled source structure to support a sparsely labeled target. A representation that aligns marginal distributions while mixing class boundaries can create negative transfer, so class relevance remains essential.
 
+Kelleher gives a concrete neural example: early layers of an image-trained [[Convolutional Neural Network]] may already detect low-level visual patterns useful for a related target task. A project can keep those layers, replace later task-specific layers, and train the hybrid model with a smaller labeled dataset. The transfer works best when the source features are relevant; reusing a representation is not a substitute for checking its target-task performance.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[deeplearning_mit.epub]]

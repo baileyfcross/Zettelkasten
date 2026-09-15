@@ -12,8 +12,12 @@ Because no answer key is supplied, the discovered structure is not automatically
 
 Clustering illustrates the setup: observations are supplied without correct group assignments, so the algorithm must derive a useful organization from the inputs themselves. This contrasts with [[Supervised Learning]], where desired outputs guide every training example.
 
+Kelleher also describes [[Autoencoder|autoencoders]] as a way to learn a representation by reconstructing inputs without task labels. Such representations can later support a supervised model. The book presents increased interest in these methods partly as a response to the expense of annotating ever larger datasets, not as a guarantee that unlabeled learning always replaces labeled evaluation.
+
 # References
 
 [[aiassistants.epub]]
 
 [[algorithms.epub]]
+
+[[deeplearning_mit.epub]]

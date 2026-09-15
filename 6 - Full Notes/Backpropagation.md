@@ -12,6 +12,8 @@ An optimizer uses those gradients to adjust weights toward lower error over many
 
 Training first uses [[Forward Propagation]] to calculate layer-by-layer activations and the final loss. Backpropagation then works from the output toward the input, calculating how weights and biases in each layer affect that loss. These derivatives support a [[Neural Network Parameter Update]] across the entire network.
 
+Kelleher separates the [[Neural Credit Assignment Problem|assignment of error sensitivity]] from the optimizer's choice of weight update. During the forward pass, each neuron's weighted sum and activation are stored. The backward pass first computes a local error gradient, or delta, for output neurons; hidden deltas combine downstream deltas according to connection weights and the derivative of the hidden activation. A weight's gradient is then its destination neuron's delta multiplied by the source activation. [[Gradient Descent]] can use those gradients, but it is a separate update rule rather than the meaning of the backward calculation itself.
+
 # References
 
 [[aiassistants.epub]]
@@ -19,3 +21,5 @@ Training first uses [[Forward Propagation]] to calculate layer-by-layer activati
 [[algorithms.epub]]
 
 [[bigdatamanagementandprocessing.pdf]]
+
+[[deeplearning_mit.epub]]

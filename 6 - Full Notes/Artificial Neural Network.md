@@ -12,8 +12,12 @@ Learning changes the connection weights so that the network maps inputs to usefu
 
 Networks commonly arrange neurons into an input layer, one or more [[Hidden Layer|hidden layers]], and an output layer. A [[Dense Layer]] connects every unit to every neuron in the following layer, though other connection patterns can be chosen for different tasks. [[Forward Propagation]] carries activations toward the output, and [[Backpropagation]] sends parameter-adjustment information in the reverse direction during training.
 
+Kelleher emphasizes that each processing neuron performs two steps: a weighted sum of incoming values and an [[Activation Function]] applied to that sum. The network's function is built by [[Neural Model Composition|composing]] those small transformations. For a fully connected layer, the sums can be evaluated together as [[Layer Matrix Computation|vector–matrix multiplication]], with nonlinear activations applied afterward. This mathematical regularity helps explain the suitability of GPU-style matrix hardware for repeated network runs.
+
 # References
 
 [[aiassistants.epub]]
 
 [[algorithms.epub]]
+
+[[deeplearning_mit.epub]]

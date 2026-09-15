@@ -16,6 +16,8 @@ During supervised neural-network training, each example is paired with a desired
 
 For the source's tissue-classification problem, the training dataset contains gene-expression features paired with known tissue labels. It supports fitting and parameter selection, but performance measured on the same observations is an optimistically biased estimate of prediction on new samples.
 
+Kelleher describes a dataset as examples represented by features, with target values added for supervised learning. Choosing too few features can hide useful information, while irrelevant or redundant features can invite spurious patterns. Large neural datasets help flexible models learn, yet scale alone cannot settle the [[Ill-Posed Learning Problem|ambiguity]] between several functions or remove the need to check generalization.
+
 # References
 
 [[aiassistants.epub]]
@@ -25,3 +27,5 @@ For the source's tissue-classification problem, the training dataset contains ge
 [[algorithms.epub]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[deeplearning_mit.epub]]

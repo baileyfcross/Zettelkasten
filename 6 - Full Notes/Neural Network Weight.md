@@ -10,6 +10,10 @@ A neural-network weight is a numerical parameter applied to one input of an [[Ar
 
 Training changes weights to reduce a [[Loss Function]]. A positive or negative value can make a connection excitatory or inhibitory in the simplified computational model, while the collection of learned weights stores much of the network's fitted behavior.
 
+Kelleher interprets a neuron's input weights as a vector. For a threshold unit with two inputs, changing that vector rotates the [[Decision Boundary]] because the boundary is orthogonal to the weight direction. Weights can also be collected into a matrix for [[Layer Matrix Computation]], so all neurons' weighted sums in a fully connected layer are calculated together.
+
 # References
 
 [[algorithms.epub]]
+
+[[deeplearning_mit.epub]]

@@ -10,6 +10,10 @@ An activation function converts an artificial neuron's weighted input and bias i
 
 A step function produces the binary output used by a [[Perceptron]]. Smooth alternatives include the [[Sigmoid Activation Function]] and [[Tanh Activation Function]], while the [[Rectifier Activation Function]] suppresses negative input and passes positive input proportionally.
 
+Kelleher explains why the nonlinear step matters: composing layers that only calculate weighted sums still gives an overall linear mapping, so such a network cannot represent a genuinely nonlinear input-to-output relationship. A nonlinear activation changes that capacity. The choice also affects training: ordinary [[Backpropagation]] needs usable derivatives, which a discontinuous threshold does not supply; saturated sigmoid regions can make those derivatives very small.
+
 # References
 
 [[algorithms.epub]]
+
+[[deeplearning_mit.epub]]

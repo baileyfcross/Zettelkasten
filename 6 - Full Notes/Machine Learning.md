@@ -16,6 +16,8 @@ A learned pattern is not automatically a causal explanation or a fair basis for 
 
 The emotion-detector chapter contrasts training a custom model with consuming a provider's pretrained service. A hosted model reduces the expertise and time needed by the application developer, but the application then depends on the provider's training data and the questions its service can answer.
 
+Kelleher frames learning as a search among candidate input-to-output functions using three ingredients: examples, a family of possible functions, and a measure of how well each candidate fits the examples. The search is an [[Ill-Posed Learning Problem|ill-posed problem]] when several functions agree with limited data. An [[Inductive Bias in Machine Learning|inductive bias]] supplies assumptions to resolve that ambiguity, but overly restrictive or permissive choices can lead to [[Model Underfitting|underfitting]] or [[Model Overfitting|overfitting]]. Deep networks make the candidate family flexible and can learn internal features as well as final predictions.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -27,3 +29,5 @@ The emotion-detector chapter contrasts training a custom model with consuming a 
 [[algorithms.epub]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[deeplearning_mit.epub]]

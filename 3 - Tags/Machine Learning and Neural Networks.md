@@ -2,7 +2,7 @@
 
 Parent topics: [[Computer Science]] · [[Mathematics]]
 
-Data-driven learning methods and neural architectures used by conversational systems.
+Data-driven function learning, generalization, learned representations, and neural architectures for language, images, and other complex inputs.
 
 ## Linked Full Notes
 

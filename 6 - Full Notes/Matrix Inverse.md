@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]]
 
 # Matrix Inverse
 
@@ -10,7 +10,10 @@ An inverse of a square matrix $A$ is a matrix $A^{-1}$ satisfying $AA^{-1}=A^{-1
 
 For a system $Ax=b$, multiplication by the inverse gives $x=A^{-1}b$. In computation, a direct solver or [[LU Decomposition]] is usually preferable to explicitly forming the inverse.
 
+The closed-form least-squares expression includes the inverse of the design cross-product, but the source cautions that explicitly computing it with `solve` can be numerically unstable. A [[QR Decomposition]] is preferred for fitting in practical software.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[dataanalysisforthelifescienceswithr.pdf]]

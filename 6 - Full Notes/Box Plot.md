@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]]
+Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]]
 
 # Box Plot
 
@@ -10,6 +10,10 @@ A box plot summarizes a continuous distribution through its median, quartiles, s
 
 Side-by-side box plots are especially useful for comparing the same outcome across groups. Their compactness can hide multimodality and sample-size differences, so they work best alongside numerical summaries and other distribution plots.
 
+The source defines the box through the 25th, 50th, and 75th percentiles and places whiskers relative to the interquartile range. This design makes the display useful when a skewed distribution causes the mean and standard deviation to give an incomplete summary.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]

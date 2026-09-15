@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]]
 
 # Matrix Transpose
 
@@ -10,7 +10,10 @@ The transpose of a matrix exchanges its rows and columns. If $A$ is an $m\times 
 
 Transposition reverses the order of a product: $(AB)^T=B^TA^T$. A matrix equal to its transpose is a [[Symmetric Matrix]], while one equal to the negative of its transpose is a [[Skew-Symmetric Matrix]].
 
+The source uses transposition to form dot products, sums of squares, and the normal equations. In R, `t` changes row orientation to column orientation so outcome and design matrices have compatible dimensions for these calculations.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[dataanalysisforthelifescienceswithr.pdf]]

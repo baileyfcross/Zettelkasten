@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Least Squares Methods]]
+Tags: [[Least Squares Methods]] · [[Matrix Algebra for Statistical Models]]
 
 # Linear Least Squares
 
@@ -10,7 +10,10 @@ Linear least squares fits a line $y=a+bx$ by minimizing the [[Residual Sum of Sq
 
 Although the fitted model is a line, the method generalizes directly to several linear parameters by writing the observations as $Ax\approx b$ and solving the [[Normal Equation]].
 
+The source applies least squares to outcome vector $Y$ and design matrix $X$, choosing coefficients that minimize the residual sum of squares. This formulation covers group comparisons, continuous predictors, polynomial terms, and interactions within the same matrix framework.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[dataanalysisforthelifescienceswithr.pdf]]

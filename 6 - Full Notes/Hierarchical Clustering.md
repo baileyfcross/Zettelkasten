@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Hierarchical Clustering Methods]]
+Tags: [[Hierarchical Clustering Methods]] · [[Statistical Learning and Validation]]
 
 # Hierarchical Clustering
 
@@ -10,7 +10,10 @@ Hierarchical clustering constructs nested groups ranging from singleton observat
 
 The hierarchy preserves possible solutions at many resolutions. A separate decision selects the level that best serves the analysis.
 
+The source begins with one cluster per gene-expression sample and repeatedly joins the two most similar groups. A chosen linkage rule converts pairwise sample distances into distances between clusters, while the resulting tree supports exploration without assuming the tissue labels in advance.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
 
+[[dataanalysisforthelifescienceswithr.pdf]]

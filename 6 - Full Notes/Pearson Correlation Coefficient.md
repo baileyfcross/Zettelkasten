@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Descriptive Health Statistics]]
+Tags: [[Descriptive Health Statistics]] · [[Exploratory and Robust Data Analysis]]
 
 # Pearson Correlation Coefficient
 
@@ -10,6 +10,10 @@ The Pearson correlation coefficient measures the direction and strength of a lin
 
 The coefficient is sensitive to outliers and can be small when a strong relationship is nonlinear. A p-value may test whether the population correlation differs from zero, but a large sample can make a weak, practically unimportant coefficient statistically significant.
 
+The source further warns that correlation measures linear association, not agreement or reproducibility. Its compact interpretation is most complete for approximately bivariate-normal data; shared trends, broad ranges, or a single extreme observation can otherwise create a misleadingly high value.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]

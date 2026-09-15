@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cluster Analysis Foundations]]
+Tags: [[Cluster Analysis Foundations]] · [[Statistical Learning and Validation]]
 
 # Dendrogram
 
@@ -10,7 +10,10 @@ A dendrogram is a tree diagram for a hierarchical clustering. Each node represen
 
 A horizontal cut through the dendrogram selects one partition from the hierarchy. The diagram makes the sequence visible, but the chosen cut still requires a stopping rule and substantive interpretation.
 
+In the source's tissue example, leaf colors reveal whether an unsupervised hierarchy corresponds to known biological groups. Changes caused by feature scaling or by replacing all genes with leading principal components demonstrate that the tree depends on the representation and distance used.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
 
+[[dataanalysisforthelifescienceswithr.pdf]]

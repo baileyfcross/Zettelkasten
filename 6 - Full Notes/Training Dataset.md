@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Neural Network Training]] · [[Data Ethics and Digital Power]]
+Tags: [[Neural Network Training]] · [[Data Ethics and Digital Power]] · [[Statistical Learning and Validation]]
 
 # Training Dataset
 
@@ -14,6 +14,8 @@ Training data are also a [[Dataset Abstraction]] shaped by choices about categor
 
 During supervised neural-network training, each example is paired with a desired output. One complete pass through the collection is a [[Training Epoch]], and multiple epochs progressively adjust weights and biases. A separate [[Test Dataset]] is withheld from these updates so it can measure generalization.
 
+For the source's tissue-classification problem, the training dataset contains gene-expression features paired with known tissue labels. It supports fitting and parameter selection, but performance measured on the same observations is an optimistically biased estimate of prediction on new samples.
+
 # References
 
 [[aiassistants.epub]]
@@ -21,3 +23,5 @@ During supervised neural-network training, each example is paired with a desired
 [[aiethics.epub]]
 
 [[algorithms.epub]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]

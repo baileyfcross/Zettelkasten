@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Bayesian Information Fusion]] · [[Classification and Decision Trees]]
+Tags: [[Bayesian Information Fusion]] · [[Classification and Decision Trees]] · [[Statistical Learning and Validation]]
 
 # Bayesian Classification
 
@@ -12,8 +12,12 @@ The full posterior preserves ambiguity among classes. A later decision can choos
 
 For labeled data, the classifier combines class priors with feature likelihoods and selects the class with the largest posterior score. A naive Bayes implementation assumes conditional independence among attributes; this reduces computation but requires smoothing when an unseen feature-class combination would otherwise force a zero product.
 
+The source presents the general Bayes decision boundary: for a given predictor vector, assign the class with the largest conditional probability. Practical learning methods approximate this unknown probability from training data rather than observing the true boundary directly.
+
 # References
 
 [[bayesianprogramming.pdf]]
 
 [[clusteranalysisanddatamining.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]

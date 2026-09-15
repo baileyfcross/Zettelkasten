@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]]
 
 # Vector
 
@@ -12,8 +12,12 @@ In PageRank, the [[PageRank Vector]] contains one relative-importance value for 
 
 A row vector is a $1\times n$ matrix and a column vector is an $n\times1$ matrix. Beyond coordinates, a vector is any element of a [[Vector Space]], where [[Vector Addition]] and [[Scalar Multiplication of a Vector]] obey the vector-space axioms.
 
+The source collects all observed outcomes into one column vector and all unknown linear-model parameters into another. Vector notation replaces a separate scalar equation for every experimental unit with a single matrix equation that is easier to manipulate and implement in R.
+
 # References
 
 [[algorithms.epub]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]

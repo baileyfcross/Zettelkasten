@@ -96,6 +96,10 @@ Attribute selection determines which distinctions the proximity calculation can 
 
 Interpretation finally asks what a cluster represents in the application. Domain experts may assess face validity, visualizations can expose shape and overlap, and quantitative indices can compare stability or fit. More than one clustering can legitimately represent the same data at different resolutions or under different purposes. Unequal density further complicates boundary decisions. The responsible conclusion describes the method, data preparation, parameters, alternatives, and uncertainties together with the groups it discovered.
 
+### Modern algorithmic extensions
+
+[[Data Clustering Algorithms]] extends these foundations into the representations and computational settings encountered in modern applications. Its child topics cover unsupervised feature selection, density and grid methods, matrix factorization and spectral embeddings, subspace discovery, streaming and distributed computation, and algorithms tailored to text, multimedia, temporal, biological, network, and uncertain data. It also connects analyst-guided clustering with the search for alternative solutions and ensemble consensus. The unifying lesson is that algorithm choice cannot be separated from data form: each method preserves some structures, suppresses others, and creates its own validation obligations.
+
 Across the chapter, cluster analysis and data mining form a disciplined loop between representation and evidence. Proximity and attributes define what relationships are visible; algorithms compress those relationships into groups or rules; validation tests their stability and fit; and interpretation reconnects the mathematical result to the domain. The output becomes useful knowledge only when that whole chain remains explicit.
 
 ## Directly Referenced Tags

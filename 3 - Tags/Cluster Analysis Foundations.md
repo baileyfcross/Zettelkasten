@@ -1,6 +1,6 @@
 # Cluster Analysis Foundations
 
-Parent topic: [[Cluster Analysis and Data Mining]]
+Parent topics: [[Cluster Analysis and Data Mining]] · [[Data Clustering Algorithms]]
 
 The core ideas that define clusters, proximity, neighborhoods, objective functions, and visual representations of a clustering.
 
@@ -9,4 +9,3 @@ The core ideas that define clusters, proximity, neighborhoods, objective functio
 ```query
 path:"6 - Full Notes" "[[Cluster Analysis Foundations]]"
 ```
-

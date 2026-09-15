@@ -1,6 +1,6 @@
 # Model-Based Clustering
 
-Parent topic: [[Cluster Analysis and Data Mining]]
+Parent topics: [[Cluster Analysis and Data Mining]] · [[Data Clustering Algorithms]]
 
 Probabilistic concept hierarchies and finite-mixture models that treat clusters as components of a data-generating process.
 
@@ -9,4 +9,3 @@ Probabilistic concept hierarchies and finite-mixture models that treat clusters 
 ```query
 path:"6 - Full Notes" "[[Model-Based Clustering]]"
 ```
-

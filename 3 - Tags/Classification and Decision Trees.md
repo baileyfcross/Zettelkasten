@@ -1,6 +1,6 @@
 # Classification and Decision Trees
 
-Parent topic: [[Cluster Analysis and Data Mining]]
+Parent topics: [[Cluster Analysis and Data Mining]] · [[Data Classification]]
 
 Supervised classification workflows, decision-tree induction, entropy and information gain, pruning, and Bayesian classification.
 
@@ -9,4 +9,3 @@ Supervised classification workflows, decision-tree induction, entropy and inform
 ```query
 path:"6 - Full Notes" "[[Classification and Decision Trees]]"
 ```
-

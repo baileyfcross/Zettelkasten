@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Classification Feature Selection]]
+Tags: [[Classification Feature Selection]] · [[Advanced Feature Selection]]
 
 # Embedded Feature Selection Model
 
@@ -10,6 +10,10 @@ An embedded feature selection model chooses variables as part of classifier fitt
 
 The source presents embedded selection as a bridge between fast filter scoring and accurate wrapper evaluation. Sparse penalties and tree split selection are typical mechanisms through which a learning objective can suppress unnecessary variables while fitting the model.
 
+Embedded methods can exploit the learning algorithm's internal structure while avoiding a separate wrapper search. The selected subset is consequently tied to the model objective, regularization, and fitting procedure.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[featureengineeringformachinelearninganddataanalytics.pdf]]

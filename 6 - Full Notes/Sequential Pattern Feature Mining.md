@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Sequence and Network Classification]]
+Tags: [[Sequence and Network Classification]] · [[Sequence Feature Engineering]]
 
 # Sequential Pattern Feature Mining
 
@@ -10,6 +10,10 @@ Sequential pattern feature mining discovers ordered symbol patterns and converts
 
 The candidate space grows combinatorially as patterns lengthen. Minimum support, upper bounds, closed-pattern constraints, and wrapper evaluation reduce the search while preserving features likely to improve classification.
 
+A complete pattern-defined feature also specifies how matches become values, such as binary presence, cumulative frequency, positional indicators, or windowed counts. Mining and mapping are therefore distinct design decisions.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[featureengineeringformachinelearninganddataanalytics.pdf]]

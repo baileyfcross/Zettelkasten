@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Copy-Move and Resampling Forensics]]
+Tags: [[Copy-Move and Resampling Forensics]] · [[Visual Feature Representation]]
 
 # Histogram of Oriented Gradients Descriptor
 
@@ -10,6 +10,10 @@ A histogram of oriented gradients descriptor summarizes the directions and stren
 
 In clone detection, similar descriptors identify potential source-and-copy feature pairs even after modest processing. A descriptor match is only a candidate because unrelated repeated structures can look alike; its geometric relationship and underlying pixels must also agree.
 
+More generally, HOG partitions an image into spatial cells, accumulates local gradient orientations, and normalizes neighboring cells in blocks. This preserves coarse shape and edge layout while reducing sensitivity to absolute illumination.
+
 # References
 
 [[fakephotos.epub]]
+
+[[featureengineeringformachinelearninganddataanalytics.pdf]]

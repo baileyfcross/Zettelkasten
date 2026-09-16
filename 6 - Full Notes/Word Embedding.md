@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Natural Language Understanding Systems]]
+Tags: [[Natural Language Understanding Systems]] · [[Deep Feature Representation]]
 
 # Word Embedding
 
@@ -12,8 +12,12 @@ Unlike one-hot identifiers, embeddings share statistical information among relat
 
 Kelleher describes word2vec as learning vectors from neighboring-word co-occurrence: words used in similar textual contexts tend to acquire similar vectors. Those vectors can become numerical inputs to a [[Recurrent Neural Network]] for language processing. Proximity reflects patterns in a training corpus; it should not be mistaken for a complete account of a word's meaning in every context.
 
+Deep feature engineering uses these learned vectors as distributed representations rather than sparse word identities. Recurrent, gated, and other sequence models can then operate on dense inputs whose geometry reflects corpus context.
+
 # References
 
 [[aiassistants.epub]]
 
 [[deeplearning_mit.epub]]
+
+[[featureengineeringformachinelearninganddataanalytics.pdf]]

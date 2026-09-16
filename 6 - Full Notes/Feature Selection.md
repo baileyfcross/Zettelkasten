@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Social Content Popularity Prediction]] · [[Feature Engineering and Metadata]]
+Tags: [[Social Content Popularity Prediction]] · [[Feature Engineering and Metadata]] · [[Feature Engineering Foundations]]
 
 # Feature Selection
 
@@ -12,8 +12,12 @@ Selection retains original features, whereas feature extraction constructs new r
 
 The book begins feature selection with role-based exclusions: identifiers, outputs, unusable missing fields, constants, high-cardinality fields, and predictors unavailable at scoring time. Algorithmic rankings are then interpreted within those data-quality and leakage constraints.
 
+Feature selection can also make an otherwise infeasible analysis tractable by reducing a large candidate pool. Its value includes faster learning, improved accuracy when irrelevant information is removed, and greater model comprehensibility, although finding a globally optimal subset is generally computationally difficult.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[featureengineeringformachinelearninganddataanalytics.pdf]]

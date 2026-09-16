@@ -10,6 +10,10 @@ The F-measure for classification is the harmonic mean of precision and recall. T
 
 Because both components depend on the chosen positive class and decision threshold, the score should be interpreted with the application's error costs and class distribution in view.
 
+The book calculates the measure from held-out confusion-matrix counts so a model must balance successful positive retrieval against the reliability of positive predictions. The appropriate balance remains dependent on the costs of false positives and false negatives.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[essentialsofdatascience.pdf]]

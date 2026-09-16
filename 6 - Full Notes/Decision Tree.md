@@ -10,7 +10,10 @@ A decision tree represents classification as a hierarchy of attribute tests. Int
 
 Every root-to-leaf path can be read as an if-then rule. Tree depth and branching affect storage, search cost, and interpretability.
 
+The book fits a classification tree as an interpretable baseline, examines its splits and variable importance, and applies it to held-out data. The contrast between training and validation results shows why readable structure does not eliminate the need for independent evaluation.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
 
+[[essentialsofdatascience.pdf]]

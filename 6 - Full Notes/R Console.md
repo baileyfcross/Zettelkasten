@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]]
+Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]] · [[R Programming Environment]]
 
 # R Console
 
@@ -12,8 +12,12 @@ Because several kinds of output share the console, it is not automatically equiv
 
 For an introductory R workflow, the console also serves as the immediate place to request function help, load packages, and test commands before preserving them in a reproducible project. The source treats console familiarity as a prerequisite for following its statistical examples.
 
+In the book's RStudio workflow, the console provides immediate feedback while scripts preserve the analysis. Commands, warnings, and errors are inspected there, but repeatable work is moved into source files and functions.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[essentialsofdatascience.pdf]]

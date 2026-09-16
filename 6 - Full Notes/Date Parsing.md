@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Analytic Data Preparation]]
+Tags: [[Analytic Data Preparation]] · [[Data Quality and Missing Data]]
 
 # Date Parsing
 
@@ -10,6 +10,10 @@ Date parsing converts a character or factor representation into a date class by 
 
 A value that looks like a date on screen may still be text internally. Parsing should therefore be followed by a class check and sample comparison, because a mistaken format can produce missing or misinterpreted dates that contaminate every later time calculation.
 
+In the book's wrangling pattern, corrected dates become the basis for [[Derived Temporal Feature|derived year and season features]]. Parsing must precede that derivation so apparently valid text does not produce misleading calendar groups.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[essentialsofdatascience.pdf]]

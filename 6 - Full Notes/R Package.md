@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]]
+Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]] · [[R Programming Environment]]
 
 # R Package
 
@@ -12,8 +12,12 @@ Published packages on CRAN follow documentation requirements and can be installe
 
 Installation and loading are separate operations: `install.packages` places a package on the system, while `library` attaches it to the current R session. This distinction lets an analysis declare the packages it uses without reinstalling them on every run.
 
+The book further distinguishes installing a package from making it available in a session. [[R Library Attachment]] exposes exported functions on the search path, while an explicit [[R Package Namespace]] can identify the provider without attaching it.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[essentialsofdatascience.pdf]]

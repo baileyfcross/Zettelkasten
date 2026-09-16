@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]]
+Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]] · [[Exploratory Data Visualization in R]]
 
 # Box Plot
 
@@ -12,8 +12,12 @@ Side-by-side box plots are especially useful for comparing the same outcome acro
 
 The source defines the box through the 25th, 50th, and 75th percentiles and places whiskers relative to the interquartile range. This design makes the display useful when a skewed distribution causes the mean and standard deviation to give an incomplete summary.
 
+The book places box plots beside [[Violin Plot|violin plots]] for grouped continuous data. The compact quartile summary and the smoothed distribution view answer complementary questions about center, spread, skewness, and multiple modes.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[essentialsofdatascience.pdf]]

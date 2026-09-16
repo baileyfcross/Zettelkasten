@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Neural Network Training]] · [[Data Ethics and Digital Power]] · [[Statistical Learning and Validation]]
+Tags: [[Neural Network Training]] · [[Data Ethics and Digital Power]] · [[Statistical Learning and Validation]] · [[Predictive Data Partitioning]]
 
 # Training Dataset
 
@@ -18,6 +18,8 @@ For the source's tissue-classification problem, the training dataset contains ge
 
 Kelleher describes a dataset as examples represented by features, with target values added for supervised learning. Choosing too few features can hide useful information, while irrelevant or redundant features can invite spurious patterns. Large neural datasets help flexible models learn, yet scale alone cannot settle the [[Ill-Posed Learning Problem|ambiguity]] between several functions or remove the need to check generalization.
 
+The book's predictive pattern assigns most records to training while preserving separate validation and test partitions. Training is the only partition used to fit model parameters; its apparent performance is expected to be optimistic.
+
 # References
 
 [[aiassistants.epub]]
@@ -29,3 +31,5 @@ Kelleher describes a dataset as examples represented by features, with target va
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[deeplearning_mit.epub]]
+
+[[essentialsofdatascience.pdf]]

@@ -1,6 +1,6 @@
 # Statistical Learning and Validation
 
-Parent topic: [[Life Science Data Analysis with R]]
+Parent topics: [[Life Science Data Analysis with R]] · [[Predictive Modeling in R]]
 
 Clustering, local prediction, train-test separation, cross-validation, and hyperparameter selection for generalizable statistical learning.
 

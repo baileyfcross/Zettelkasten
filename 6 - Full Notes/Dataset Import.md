@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Analytic Data Preparation]]
+Tags: [[Analytic Data Preparation]] · [[R Data Ingestion and Review]]
 
 # Dataset Import
 
@@ -10,6 +10,10 @@ Dataset import converts a stored file into an object that statistical software c
 
 Import is not complete when the command runs successfully. The analyst must perform a [[Dataset Structure Check]] to confirm the expected number of observations, columns, names, classes, and missing values before any recoding begins.
 
+In the book's reusable pattern, the selected resource is imported into a generic working object and then checked before any substantive analysis. The resource identity and transformation path remain part of provenance even when a convenient object name is reused.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[essentialsofdatascience.pdf]]

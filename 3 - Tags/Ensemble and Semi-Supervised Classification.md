@@ -1,6 +1,6 @@
 # Ensemble and Semi-Supervised Classification
 
-Parent topic: [[Data Classification]]
+Parent topics: [[Data Classification]] · [[Predictive Modeling in R]]
 
 Methods that combine multiple classifiers or exploit unlabeled observations to improve generalization.
 

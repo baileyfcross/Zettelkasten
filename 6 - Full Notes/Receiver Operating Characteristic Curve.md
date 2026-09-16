@@ -10,6 +10,10 @@ A receiver operating characteristic curve plots true-positive rate against false
 
 Curves toward the upper-left indicate stronger separation, and the area under the curve summarizes ranking performance across thresholds. Operational selection still requires a specific balance between missed positives and false alarms.
 
+The book uses ROC curves to compare predictive models across possible probability cutoffs rather than fixing one threshold prematurely. It pairs the curve with area under the curve and risk-oriented displays that connect ranking quality to use.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[essentialsofdatascience.pdf]]

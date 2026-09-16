@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]]
+Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]] · [[Exploratory Data Visualization in R]]
 
 # Scatter Plot
 
@@ -12,8 +12,12 @@ Color or symbol can encode a grouping variable so analysts can see whether the o
 
 In the source's paired-height example, plotting every father-son observation reveals a relationship that the two marginal means and standard deviations omit. The graph provides the context needed to interpret a [[Pearson Correlation Coefficient]] rather than treating the coefficient as a complete description.
 
+The book implements scatter plots in an R grammar-of-graphics workflow, mapping variables to axes and optional color groups. Faceting, labels, and explicit export settings turn the exploratory display into a reproducible analytic artifact.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[essentialsofdatascience.pdf]]

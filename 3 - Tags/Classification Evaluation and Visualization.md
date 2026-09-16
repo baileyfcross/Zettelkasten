@@ -1,6 +1,6 @@
 # Classification Evaluation and Visualization
 
-Parent topic: [[Data Classification]]
+Parent topics: [[Data Classification]] · [[Predictive Modeling in R]]
 
 Validation designs, performance measures, comparisons, and visual interfaces for understanding classifier behavior.
 

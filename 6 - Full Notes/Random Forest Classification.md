@@ -10,6 +10,10 @@ Random forest classification combines decision trees trained on bootstrap sample
 
 The final class is chosen by aggregate voting. Deep individual trees can fit complex patterns, while averaging reduces their variance; restricting candidate features prevents a few dominant predictors from making every tree too similar.
 
+The book fits hundreds of randomized trees, monitors [[Out-of-Bag Error]], and examines variable importance before evaluating held-out probabilities. The gap between near-perfect training performance and weaker validation performance remains evidence that ensemble accuracy must be checked independently.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[essentialsofdatascience.pdf]]

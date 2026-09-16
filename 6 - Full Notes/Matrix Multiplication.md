@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]]
 
 # Matrix Multiplication
 
@@ -14,6 +14,8 @@ If $A$ has size $m\times n$ and $B$ has size $n\times p$, then $AB$ has size $m\
 
 In a linear model, multiplying the design matrix by the coefficient vector produces a fitted value for every experimental unit at once. R uses `%*%` for this operation, distinguishing it from element-wise multiplication.
 
+Finite element equations use matrix products to map nodal unknowns into loads, strains, stresses, gradients, and fluxes. The order of multiplication matters because coefficient, interpolation, and field vectors have specific compatible dimensions.
+
 # References
 
 [[algorithms.epub]]
@@ -21,3 +23,5 @@ In a linear model, multiplying the design matrix by the coefficient vector produ
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[finiteelementanalysis_aprimer.pdf]]

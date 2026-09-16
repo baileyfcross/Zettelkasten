@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]]
 
 # Matrix
 
@@ -14,6 +14,8 @@ Matrix algebra also includes [[Matrix Addition]], [[Scalar Multiplication of a M
 
 For statistical modeling, a matrix can place observations in rows and model terms in columns so one equation represents an entire dataset. This representation makes the relationship among a design, its coefficients, fitted values, and residuals explicit.
 
+Finite element formulations use matrix notation to collect element coefficients, nodal unknowns, and loads. Assembly ultimately produces a large simultaneous system in which rows and columns follow the ordering of global degrees of freedom.
+
 # References
 
 [[algorithms.epub]]
@@ -21,3 +23,5 @@ For statistical modeling, a matrix can place observations in rows and model term
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[finiteelementanalysis_aprimer.pdf]]

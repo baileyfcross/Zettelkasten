@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]]
 
 # Matrix Inverse
 
@@ -12,8 +12,12 @@ For a system $Ax=b$, multiplication by the inverse gives $x=A^{-1}b$. In computa
 
 The closed-form least-squares expression includes the inverse of the design cross-product, but the source cautions that explicitly computing it with `solve` can be numerically unstable. A [[QR Decomposition]] is preferred for fitting in practical software.
 
+The primer expresses formal finite element solutions through an inverse of the reduced global matrix. For large assembled systems, solving the equations directly is preferable to explicitly constructing that inverse.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[finiteelementanalysis_aprimer.pdf]]

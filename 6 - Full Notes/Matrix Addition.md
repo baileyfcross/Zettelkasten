@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]]
+Tags: [[Matrix and Vector Computation]] · [[FEM Mathematical Foundations]]
 
 # Matrix Addition
 
@@ -10,7 +10,10 @@ Matrix addition combines two matrices of the same size by adding corresponding e
 
 The operation is commutative and associative, and the [[Zero Matrix]] acts as its additive identity. Matrix subtraction is addition of a [[Scalar Multiplication of a Matrix|scalar multiple]] by $-1$.
 
+During finite element assembly, matrices from elements sharing a degree of freedom contribute by addition to the corresponding global entries. Compatible dimensions and consistent local-to-global numbering are therefore essential.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[finiteelementanalysis_aprimer.pdf]]

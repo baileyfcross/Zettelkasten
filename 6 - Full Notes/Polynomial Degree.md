@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Polynomial and Rational Expressions]] · [[Ring and Ideal Foundations]]
+Tags: [[Polynomial and Rational Expressions]] · [[Ring and Ideal Foundations]] · [[Polynomial Rings and Factorization]]
 
 # Polynomial Degree
 
@@ -12,8 +12,12 @@ Degree organizes polynomial terms and controls division. [[Polynomial Long Divis
 
 Over a coefficient [[Field]], the same degree comparison underlies the [[Polynomial Division Algorithm]]: a dividend has a unique quotient and a remainder whose degree is smaller than the divisor's. The degree also identifies the [[Leading Coefficient]] and controls the size of a [[Sylvester Matrix]].
 
+The source uses degree to bound the number of roots over an integral domain and to control quotient and remainder uniqueness over a field. These results connect formal polynomial arithmetic to factorization and extension-field dimension.
+
 # References
 
 [[algebraessentials.pdf]]
 
 [[commutativealgebra.pdf]]
+
+[[essentialsofmodernalgebra.pdf]]

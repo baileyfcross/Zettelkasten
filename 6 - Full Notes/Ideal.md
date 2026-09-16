@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Ring and Ideal Foundations]]
+Tags: [[Ring and Ideal Foundations]] · [[Quotient Rings and Ideals]]
 
 # Ideal
 
@@ -10,6 +10,10 @@ An ideal I in a [[Commutative Ring]] is closed under subtraction and under multi
 
 Ideals are precisely the kernels available to [[Ring Homomorphism]]s and the substructures by which [[Quotient Ring]]s are formed. Prime, maximal, radical, primary, and finitely generated ideals capture different structural properties.
 
+The source motivates ideals by asking when multiplication of additive cosets is well defined. Closure under multiplication by every ring element is exactly the condition that makes the coset product independent of representatives.
+
 # References
 
 [[commutativealgebra.pdf]]
+
+[[essentialsofmodernalgebra.pdf]]

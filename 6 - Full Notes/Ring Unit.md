@@ -10,6 +10,10 @@ A ring unit is an element with a [[Multiplicative Inverse]]. If a unit belongs t
 
 Units are central to [[Ring Localization]], where chosen elements are deliberately made invertible. In a [[Local Ring]], every element outside the unique maximal ideal is a unit.
 
+In the source's elementary ring theory, units form a group under multiplication. This group separates elements that support reversible multiplication from zero divisors and other nonunits.
+
 # References
 
 [[commutativealgebra.pdf]]
+
+[[essentialsofmodernalgebra.pdf]]

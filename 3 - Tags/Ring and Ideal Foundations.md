@@ -1,6 +1,6 @@
 # Ring and Ideal Foundations
 
-Parent topic: [[Commutative Algebra]]
+Parent topics: [[Commutative Algebra]] · [[Modern Algebra]]
 
 Commutative rings, fields, units, polynomial rings, zero divisors, ideals, quotients, and homomorphisms.
 

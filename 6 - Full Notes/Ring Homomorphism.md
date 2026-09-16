@@ -10,6 +10,10 @@ A ring homomorphism is a map between rings that preserves addition, multiplicati
 
 The kernel records which elements become zero. The [[First Isomorphism Theorem for Rings]] identifies the image with the source modulo that kernel, connecting homomorphisms directly to [[Quotient Ring]]s.
 
+The book develops ring homomorphisms in parallel with group homomorphisms: kernels are ideals, images are subrings, and the source modulo its kernel is isomorphic to the image. This parallel motivates both quotient rings and the ring version of the fundamental homomorphism theorem.
+
 # References
 
 [[commutativealgebra.pdf]]
+
+[[essentialsofmodernalgebra.pdf]]

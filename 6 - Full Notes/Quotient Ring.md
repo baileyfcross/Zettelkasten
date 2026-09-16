@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Ring and Ideal Foundations]]
+Tags: [[Ring and Ideal Foundations]] · [[Quotient Rings and Ideals]]
 
 # Quotient Ring
 
@@ -10,6 +10,10 @@ Given an [[Ideal]] I in a ring R, the quotient ring R/I consists of additive cos
 
 The natural map R → R/I is a surjective [[Ring Homomorphism]] with kernel I. Quotients translate ideal properties into ring properties: prime ideals yield [[Integral Domain]] quotients and maximal ideals yield [[Field]] quotients.
 
+The book first translates the additive coset rules from groups and then shows that an ideal permits multiplication by (a+I)(b+I)=ab+I. This gives the quotient both its ring operations and its natural projection map.
+
 # References
 
 [[commutativealgebra.pdf]]
+
+[[essentialsofmodernalgebra.pdf]]

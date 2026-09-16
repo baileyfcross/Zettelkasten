@@ -22,6 +22,12 @@ Equations use this structure to identify values that make a condition true, whil
 
 This structural viewpoint connects symbolic computation with geometry. Gröbner bases turn ideal questions into algorithms, exact sequences track how modules fit together, and resolutions expose relations among generators. Dimension, depth, Hilbert functions, Tor, Ext, and local cohomology then measure different aspects of size, singularity, dependence, and support. The result is a language in which equations, spaces, and computational procedures can be compared through the same algebraic invariants.
 
+### Measurement and unit relationships
+
+[[Unit Algebra and Measurement Precision]] treats a measured quantity as a number together with a unit, then uses base and derived dimensions to check whether a calculation is coherent. Conversion factors act as ratios equal to one: their orientation is chosen so unwanted units cancel. A reported conversion must also reflect the measurement's meaningful digits rather than the length of a calculator display. Even a dimensionally correct ratio can be wrong if a similarly named unit, such as a dry or liquid measure, has been chosen from the wrong convention.
+
+[[Engineering and Scientific Unit Conversions]] applies that reasoning to area, volume, flow, mass density, mechanical force and pressure, thermal properties, electrical and magnetic quantities, light, and radiology. Squared and cubed measures require correspondingly powered length changes; compound quantities require each numerator and denominator unit to be handled in its own position. Temperature readings are a special case because scale offsets prevent a simple multiplicative factor from converting every absolute value.
+
 ### Change, accumulation, and feedback
 
 [[System Dynamics]] represents behavior over time through stocks, flows, feedback loops, delays, and nonlinear relationships. A stock records an accumulated quantity, while flows increase, decrease, or transfer it. Reinforcing loops amplify a direction of change; balancing loops oppose deviation and can produce stability around a target.

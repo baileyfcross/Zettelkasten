@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Axial Bar Finite Elements]]
+Tags: [[Axial Bar Finite Elements]] · [[Fluid Mechanics and Material Properties]]
 
 # Young's Modulus
 
@@ -13,3 +13,5 @@ Together with area and length, the modulus determines axial element stiffness. A
 # References
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[foundationsofphysics.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Orbital Mechanics and Unmanned Flight]]
+Tags: [[Orbital Mechanics and Unmanned Flight]] · [[Gravitation and Relativity]]
 
 # Escape Velocity
 
@@ -12,3 +12,4 @@ Escape velocity is the minimum ideal launch speed that lets an object reach inde
 
 [[flightscience.pdf]]
 
+[[foundationsofphysics.pdf]]

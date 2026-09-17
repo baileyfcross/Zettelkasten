@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Nuclear Fusion Energy]]
+Tags: [[Nuclear Fusion Energy]] · [[Atomic and Nuclear Physics]]
 
 # Nuclear Fusion
 
@@ -11,3 +11,5 @@ Nuclear fusion joins light nuclei into heavier products and releases energy when
 # References
 
 [[directenergyconversiontechnologies.pdf]]
+
+[[foundationsofphysics.pdf]]

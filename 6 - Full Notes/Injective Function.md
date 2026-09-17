@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Functions and Elementary Number Theory]]
+Tags: [[Functions and Elementary Number Theory]] · [[Functions Cardinality and Relational Data]]
 
 # Injective Function
 
@@ -10,7 +10,10 @@ An injective function sends distinct domain elements to distinct outputs. Equiva
 
 An injective homomorphism identifies its source with an isomorphic substructure of the target.
 
+An injection prevents collisions: if f(x) = f(y), then x = y. Comparing infinite sets through injective maps helps establish their relative cardinalities.
+
 # References
 
 [[essentialsofmodernalgebra.pdf]]
 
+[[FoundationsOfComputation_2.3.2.pdf]]

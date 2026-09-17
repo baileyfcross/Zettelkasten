@@ -58,6 +58,8 @@ Example:
 
 p ∨ q ∧ q ∨ r is [[Logically Equivalent]] to p ∨ (q ∧ q) ∨ r
 
+The chapter develops this logical foundation beyond propositional formulas through [[Predicate Logic]], quantified statements, valid inference, proof techniques, and [[Mathematical Induction]]. Its recurring theme is that discovering a useful argument can be creative even when checking each inferential step is mechanical.
+
 # References
 
 [[FoundationsOfComputation_2.3.2.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Functions and Elementary Number Theory]]
+Tags: [[Functions and Elementary Number Theory]] · [[Functions Cardinality and Relational Data]]
 
 # Function
 
@@ -10,7 +10,10 @@ A function assigns each element of a domain exactly one element of a codomain. T
 
 Homomorphisms are functions with the additional requirement that algebraic operations are preserved.
 
+A total function assigns an output to every domain element, whereas a partial function may be undefined for some inputs. A function can also be viewed as a relation in which each input appears with exactly one output.
+
 # References
 
 [[essentialsofmodernalgebra.pdf]]
 
+[[FoundationsOfComputation_2.3.2.pdf]]

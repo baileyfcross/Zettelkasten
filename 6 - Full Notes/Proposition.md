@@ -17,6 +17,10 @@ are propositions
 
 [[Propositional Logic]] is the study of propositions as basic and considers how they can be combined and manipulated
 
+A proposition must have a definite truth value, even when that value is unknown. Questions, commands, and open expressions containing an unbound variable are not propositions until they are completed or quantified.
+
 # References
 
 [[Logic and Proof]]
+
+[[FoundationsOfComputation_2.3.2.pdf]]

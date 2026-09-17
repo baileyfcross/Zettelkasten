@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Set Relations and Algebraic Foundations]]
+Tags: [[Set Relations and Algebraic Foundations]] · [[Set Theory and Relations]]
 
 # Cartesian Product
 
@@ -10,7 +10,10 @@ The Cartesian product A × B consists of ordered pairs whose first component lie
 
 Coordinatewise operations turn products of groups or rings into new algebraic structures.
 
+Products extend to ordered n-tuples and provide the ambient sets for [[Binary Relation|relations]]. A relation from A to B is precisely a subset of A × B.
+
 # References
 
 [[essentialsofmodernalgebra.pdf]]
 
+[[FoundationsOfComputation_2.3.2.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Algorithm Foundations]] · [[Wartime Computing and Early Electronic Machines]]
+Tags: [[Algorithm Foundations]] · [[Wartime Computing and Early Electronic Machines]] · [[Turing Machines and Computability]]
 
 # Turing Machine
 
@@ -10,7 +10,11 @@ A Turing machine is an idealized computational machine consisting of an unbounde
 
 Its operations are deliberately elementary, yet a properly constructed Turing machine can implement any [[Algorithm]]. This makes it a formal model for reasoning about what computation can accomplish, independent of the speed or physical construction of a particular computer.
 
+Formally, its transition function maps the current non-halting state and scanned symbol to a written symbol, a one-cell left or right move, and a new state. A computation may reach its halt state or continue forever, allowing the model to distinguish [[Turing-Decidable Language|decision]] from [[Turing-Acceptable Language|acceptance]].
+
 # References
 
 [[algorithms.epub]]
 [[computing.epub]]
+
+[[FoundationsOfComputation_2.3.2.pdf]]

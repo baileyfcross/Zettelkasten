@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Algorithm Foundations]]
+Tags: [[Algorithm Foundations]] · [[Turing Machines and Computability]]
 
 # Church-Turing Thesis
 
@@ -10,6 +10,10 @@ The Church-Turing thesis states that anything computable by an [[Algorithm]] can
 
 It is a thesis rather than a proved mathematical theorem because it relates a formal machine to the informal idea of everything that can be computed. A fundamentally different form of effective computation could disprove it, but no accepted counterexample is known within the source's account.
 
+The computation text motivates the thesis through simulation: ordinary computers, multitape machines, nondeterministic machines, general grammars, and other proposed models can be simulated without increasing which functions and languages are computable.
+
 # References
 
 [[algorithms.epub]]
+
+[[FoundationsOfComputation_2.3.2.pdf]]

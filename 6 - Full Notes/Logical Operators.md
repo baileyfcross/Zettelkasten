@@ -13,6 +13,8 @@ Tags: [[Formal Logic]]
 
 All three of these Logical Operators can be derived from every computer program made.
 
+AND, OR, and NOT form a functionally complete collection: any finite Boolean input-output table can be expressed using only these operators. Conditional, biconditional, and exclusive OR operators add convenient notation but can be reduced to combinations of the basic three.
+
 
 # References
 

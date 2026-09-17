@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Set Relations and Algebraic Foundations]]
+Tags: [[Set Relations and Algebraic Foundations]] · [[Set Theory and Relations]]
 
 # Set
 
@@ -10,7 +10,10 @@ A set is a collection whose membership is well defined. Sets may be described by
 
 Modern algebra uses sets as the underlying carriers for operations, relations, functions, groups, rings, and fields.
 
+Order and repetition in a written list do not change the set it denotes. Membership is expressed by ∈, while the empty set is the unique set with no elements.
+
 # References
 
 [[essentialsofmodernalgebra.pdf]]
 
+[[FoundationsOfComputation_2.3.2.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Functions and Elementary Number Theory]]
+Tags: [[Functions and Elementary Number Theory]] · [[Functions Cardinality and Relational Data]]
 
 # Function Composition
 
@@ -10,7 +10,10 @@ Function composition applies one function and then another, with (g ◦ f)(x) = 
 
 Automorphisms form groups under composition because identities and inverse functions preserve the structure.
 
+Composition is defined when the outputs of the first function lie in the domain of the second. Its associativity allows a chain of transformations to be grouped without changing the resulting mapping.
+
 # References
 
 [[essentialsofmodernalgebra.pdf]]
 
+[[FoundationsOfComputation_2.3.2.pdf]]

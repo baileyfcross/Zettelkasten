@@ -15,6 +15,8 @@ Example:
 or 
 
  p∧(¬q)
+
+The main operator determines the final step in evaluating the whole expression. Unless parentheses override grouping, negation has higher precedence than conjunction, and conjunction has higher precedence than disjunction.
 # References
 
 [[Lecture 2 - Logic.pdf]]
@@ -22,3 +24,5 @@ or
 [[Lecture 3 - Logic Gates.pdf]]
 
 [[Logic and Proof]]
+
+[[FoundationsOfComputation_2.3.2.pdf]]

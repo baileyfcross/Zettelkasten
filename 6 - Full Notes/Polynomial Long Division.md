@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Polynomial and Rational Expressions]]
+Tags: [[Polynomial and Rational Expressions]] · [[Polynomial Equations and Factorization]]
 
 # Polynomial Long Division
 
@@ -17,3 +17,5 @@ Missing powers should be treated as zero-coefficient placeholders so columns rem
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

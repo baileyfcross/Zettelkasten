@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Quadratic Equations]]
+Tags: [[Quadratic Equations]] · [[Polynomial Equations and Factorization]]
 
 # Quadratic Formula
 
@@ -17,3 +17,5 @@ The method works whether or not integer factors are easy to find. Substitute the
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

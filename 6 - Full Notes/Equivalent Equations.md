@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Linear Equations and Modeling]]
+Tags: [[Linear Equations and Modeling]] · [[Algebraic Manipulation and Inequalities]]
 
 # Equivalent Equations
 
@@ -13,3 +13,5 @@ For example, (3x-5=28), (3x=33), and (x=11) are equivalent. Not every manipulati
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

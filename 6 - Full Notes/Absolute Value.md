@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Number Systems and Arithmetic]]
+Tags: [[Number Systems and Arithmetic]] · [[Real Number Algebra and Arithmetic]]
 
 # Absolute Value
 
@@ -15,3 +15,5 @@ Thus (|5|=5) and (|-5|=5). Absolute value removes direction while preserving mag
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

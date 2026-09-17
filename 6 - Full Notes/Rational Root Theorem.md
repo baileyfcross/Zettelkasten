@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Polynomial Rings and Factorization]]
+Tags: [[Polynomial Rings and Factorization]] · [[Polynomial Equations and Factorization]]
 
 # Rational Root Theorem
 
@@ -14,3 +14,4 @@ Failure of every candidate can prove a quadratic or cubic irreducible over the r
 
 [[essentialsofmodernalgebra.pdf]]
 
+[[foundationsofmath.pdf]]

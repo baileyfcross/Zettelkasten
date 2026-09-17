@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Functions and Elementary Number Theory]] · [[Functions Cardinality and Relational Data]]
+Tags: [[Functions and Elementary Number Theory]] · [[Functions Cardinality and Relational Data]] · [[Function Analysis and Transformations]]
 
 # Function Composition
 
@@ -17,3 +17,5 @@ Composition is defined when the outputs of the first function lie in the domain 
 [[essentialsofmodernalgebra.pdf]]
 
 [[FoundationsOfComputation_2.3.2.pdf]]
+
+[[foundationsofmath.pdf]]

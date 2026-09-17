@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Sequences and Algebraic Patterns]]
+Tags: [[Sequences and Algebraic Patterns]] · [[Limits and Continuity]]
 
 # Sequence
 
@@ -13,3 +13,5 @@ A [[Law of Formation]] describes the ordering. It may specify a constant additiv
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

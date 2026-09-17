@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Number Systems and Arithmetic]]
+Tags: [[Number Systems and Arithmetic]] · [[Real Number Algebra and Arithmetic]]
 
 # Irrational Number
 
@@ -13,3 +13,5 @@ For example, (sqrt{2}) is irrational, so any finite calculator display of it is 
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

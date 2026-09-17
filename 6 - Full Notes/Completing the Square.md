@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Quadratic Equations]]
+Tags: [[Quadratic Equations]] · [[Polynomial Equations and Factorization]]
 
 # Completing the Square
 
@@ -23,3 +23,5 @@ When solving an equation, the same quantity must be added to both sides. The met
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

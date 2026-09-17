@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Polynomial and Rational Expressions]]
+Tags: [[Polynomial and Rational Expressions]] · [[Polynomial Equations and Factorization]]
 
 # Polynomial
 
@@ -19,3 +19,5 @@ The source treats a polynomial as a formal coefficient sequence over a ring, not
 [[algebraessentials.pdf]]
 
 [[essentialsofmodernalgebra.pdf]]
+
+[[foundationsofmath.pdf]]

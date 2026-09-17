@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Polynomial Rings and Factorization]]
+Tags: [[Polynomial Rings and Factorization]] · [[Polynomial Equations and Factorization]]
 
 # Factor Theorem
 
@@ -14,3 +14,4 @@ Repeated use extracts known roots as linear factors.
 
 [[essentialsofmodernalgebra.pdf]]
 
+[[foundationsofmath.pdf]]

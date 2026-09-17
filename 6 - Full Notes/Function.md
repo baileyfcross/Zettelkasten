@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Functions and Elementary Number Theory]] · [[Functions Cardinality and Relational Data]]
+Tags: [[Functions and Elementary Number Theory]] · [[Functions Cardinality and Relational Data]] · [[Function Analysis and Transformations]]
 
 # Function
 
@@ -17,3 +17,5 @@ A total function assigns an output to every domain element, whereas a partial fu
 [[essentialsofmodernalgebra.pdf]]
 
 [[FoundationsOfComputation_2.3.2.pdf]]
+
+[[foundationsofmath.pdf]]

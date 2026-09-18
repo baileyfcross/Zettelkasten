@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Classification Feature Selection]] · [[Advanced Feature Selection]]
+Tags: [[Classification Feature Selection]] · [[Advanced Feature Selection]] · [[Big Data Preprocessing]]
 
 # Filter Feature Selection Model
 
@@ -12,8 +12,12 @@ Separating selection from classifier training makes filters comparatively effici
 
 Within a broader taxonomy, filters contrast with wrappers, hybrids, and embedded methods. Their model independence makes them reusable and scalable, although their scoring assumptions determine which dependencies they can recognize.
 
+For high-dimensional Big Data, filters are attractive because they avoid fitting a classifier for every candidate subset. Distributed scoring can extend that advantage, although pairwise relevance and redundancy measures may still be expensive.
+
 # References
 
 [[dataclassification.pdf]]
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[frontiersofdatascience.pdf]]

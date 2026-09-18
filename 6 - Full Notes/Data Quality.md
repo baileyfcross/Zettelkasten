@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Big Data Governance and Quality]] · [[Cluster Data Quality and Interpretation]]
+Tags: [[Big Data Governance and Quality]] · [[Cluster Data Quality and Interpretation]] · [[Evidence-Based Data Decisions]]
 
 # Data Quality
 
@@ -12,8 +12,12 @@ Volume does not compensate for poor quality. Errors and irrelevant observations 
 
 For cluster analysis, quality is inseparable from representation. Unrelated features distort proximity, incompatible data types can invalidate a method, and stale domains or unenforced business rules can corrupt results. The source emphasizes accuracy, reliability, timeliness, relevance, and completeness as complementary dimensions maintained through ongoing cleansing.
 
+For evidence-based decisions, quality also connects the processing pipeline to the decision context. Veracity, provenance, and adequate cleaning determine whether a pattern can be treated as credible evidence rather than merely as a computable result.
+
 # References
 
 [[bigdatamanagementandprocessing.pdf]]
 
 [[clusteranalysisanddatamining.pdf]]
+
+[[frontiersofdatascience.pdf]]

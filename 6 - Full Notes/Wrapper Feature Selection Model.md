@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Classification Feature Selection]] · [[Advanced Feature Selection]]
+Tags: [[Classification Feature Selection]] · [[Advanced Feature Selection]] · [[Big Data Preprocessing]]
 
 # Wrapper Feature Selection Model
 
@@ -12,8 +12,12 @@ Wrappers can discover subsets well matched to a learner's inductive bias, but re
 
 Wrapper selection couples a search strategy with a model-based evaluator. Sequential, randomized, or other subset searches trade coverage of the combinatorial space against the number of costly training runs.
 
+The cost becomes a central limitation in Big Data because both the number of subsets and the expense of each model fit grow. Parallel execution can help, but it does not remove the need for an efficient search and careful validation.
+
 # References
 
 [[dataclassification.pdf]]
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[frontiersofdatascience.pdf]]

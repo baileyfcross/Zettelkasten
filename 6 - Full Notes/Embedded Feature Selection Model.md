@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Classification Feature Selection]] · [[Advanced Feature Selection]]
+Tags: [[Classification Feature Selection]] · [[Advanced Feature Selection]] · [[Big Data Preprocessing]]
 
 # Embedded Feature Selection Model
 
@@ -12,8 +12,12 @@ The source presents embedded selection as a bridge between fast filter scoring a
 
 Embedded methods can exploit the learning algorithm's internal structure while avoiding a separate wrapper search. The selected subset is consequently tied to the model objective, regularization, and fitting procedure.
 
+That integration can be computationally favorable for large datasets because selection occurs during a fit that was already required. Scalability still depends on whether the learning algorithm itself can be distributed or adapted to streaming data.
+
 # References
 
 [[dataclassification.pdf]]
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[frontiersofdatascience.pdf]]

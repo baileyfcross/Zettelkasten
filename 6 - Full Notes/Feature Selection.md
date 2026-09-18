@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Social Content Popularity Prediction]] · [[Feature Engineering and Metadata]] · [[Feature Engineering Foundations]]
+Tags: [[Social Content Popularity Prediction]] · [[Feature Engineering and Metadata]] · [[Feature Engineering Foundations]] · [[Big Data Preprocessing]]
 
 # Feature Selection
 
@@ -14,6 +14,8 @@ The book begins feature selection with role-based exclusions: identifiers, outpu
 
 Feature selection can also make an otherwise infeasible analysis tractable by reducing a large candidate pool. Its value includes faster learning, improved accuracy when irrelevant information is removed, and greater model comprehensibility, although finding a globally optimal subset is generally computationally difficult.
 
+At Big Data scale, the exponential subset space, distributed storage, streaming input, and demand for interpretability change which methods are practical. Scalable selection must balance relevance, redundancy, stability, computation, and communication rather than optimize predictive score alone.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
@@ -21,3 +23,5 @@ Feature selection can also make an otherwise infeasible analysis tractable by re
 [[essentialsofdatascience.pdf]]
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[frontiersofdatascience.pdf]]

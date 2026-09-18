@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Display Systems]]
+Tags: [[XR Display Systems]] · [[Online Multiplayer and Persistent Worlds]]
 
 # Latency
 
@@ -14,7 +14,11 @@ Sources include sensing, processing, simulation, rendering, and display refresh.
 
 For AR, latency is also a [[Temporal Registration|temporal-registration]] error: the physical view reflects the present while a virtual object is rendered from an older pose. Motion prediction can estimate the viewpoint expected at display time, but variable delay and sudden changes limit how well prediction can compensate.
 
+In an online game, network latency delays the response to a remote player's command and may give faster connections a competitive advantage. Turn-based mechanics, regional or connection-quality matchmaking, prediction, and designs tolerant of timing variation can reduce its effect, but the acceptable delay depends on how precisely play must be synchronized.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
+
+[[fundamentalsofgamedesign3e.pdf]]

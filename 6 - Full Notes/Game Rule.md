@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Mechanics and Rules]]
+Tags: [[Game Mechanics and Rules]] · [[Game Definition and Forms]]
 
 # Game Rule
 
@@ -12,7 +12,11 @@ Too few rules can leave important situations ambiguous, while too many rules and
 
 The experience of play comes from rules interacting rather than operating in isolation. Rules become more useful as the player discovers their relationships and applies them in increasingly developed situations.
 
+A complete ruleset may specify required, permitted, and prohibited actions; sequence of play; challenges and actions; goals; termination conditions; the meanings of symbols; and metarules that govern whether another rule may change. Software can hide bookkeeping rules from a video-game player while still enforcing them precisely.
+
 # References
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+
+[[fundamentalsofgamedesign3e.pdf]]

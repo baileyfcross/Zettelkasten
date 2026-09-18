@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Balance and Progression]] [[Level and Scene Design]] [[Game Challenge Design]]
+Tags: [[Game Balance and Progression]] [[Level and Scene Design]] [[Game Challenge Design]] [[Level Layout and Progression]]
 
 # Game Pacing
 
@@ -12,7 +12,11 @@ Pacing balances early success with lasting goals and alternates intensity to avo
 
 Within a [[Game Scene]], pacing can emerge as the [[Scene Shape|shape of choice]] widens and narrows. Ordering scenes determines when rules are introduced, revisited, combined, or inverted, so rhythm can change without continually adding new mechanics.
 
+Within a level, layout, enemy placement, resources, traversal time, story events, and safe areas determine the rate of demand and recovery. Varying that rate keeps sustained intensity from becoming exhausting and keeps quiet stretches from becoming monotonous.
+
 # References
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+
+[[fundamentalsofgamedesign3e.pdf]]

@@ -10,6 +10,9 @@ A head-up display places indicators over the main view rather than in a separate
 
 HUD elements should be readable against varied backgrounds and should not obscure the action they are meant to support. Information belongs there only when the player needs it frequently enough to justify persistent screen space.
 
+Common programmable HUD elements include an [[Aiming Reticle]], [[Game Radar Display]], and [[Waypoint Indicator]]. Each converts game state or world-space information into stable screen-space feedback while the main scene continues to update.
+
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[gameprogrammingalgorithmsandtechniques.pdf]]

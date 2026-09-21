@@ -58,6 +58,8 @@ The effects of computational systems cannot be separated from their capabilities
 
 ### Games as computational systems
 
+[[Game Programming]] describes the implementation layer that keeps an interactive game running coherently in real time. Its focused topics connect frame timing and object architecture to 2D and 3D rendering, spatial mathematics, device input, audio, collision and movement, cameras, game AI, interface code, scripting, data formats, and network protocols. The chapter makes the dependencies among those systems explicit: a coordinate-space convention can affect rendering, audio, physics, cameras, and picking, while update order and authority determine whether local and networked state remain consistent.
+
 Games provide a concentrated example of computation, systems, interaction, and experience working together. [[Game Foundations]] organizes the defining structures and expressive forms of games. [[Game Systems]] examines the parts, attributes, resources, engines, ecologies, and progression structures that generate gameplay, while [[Game Interactivity]] focuses on the reciprocal loop through which player action changes the game and feedback changes later action.
 
 The system becomes meaningful only through a player. [[Player Experience Design]] connects goals, motivation, challenge, flow, fun, mental models, onboarding, and different styles of play. These desired experiences do not follow automatically from a rule set. [[Game Design Methods]] supplies concept statements, prototypes, design documents, playtests, and iterative methods that let a team explore the relationship between rules and experience before committing to a complete production.

@@ -14,7 +14,10 @@ A wider field of view can support peripheral vision, visual search, and spatial 
 
 AR often has a narrower augmented field than the user's unobstructed physical view. Virtual content can therefore disappear at an artificial image boundary even though its real referent remains visible, making off-screen cues and deliberate content placement important.
 
+In a perspective game camera, field of view is an input to the projection matrix. An excessively narrow value magnifies camera motion and can hide surrounding context, while a very wide value increases peripheral coverage but distorts the image near its edges.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
+[[gameprogrammingalgorithmsandtechniques.pdf]]

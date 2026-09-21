@@ -10,6 +10,9 @@ Transmission Control Protocol provides a reliable ordered data stream over an un
 
 TCP operates end to end between hosts rather than requiring every network link to guarantee delivery. Applications can use its service without managing each packet directly.
 
+This reliability can add delay when a missing segment blocks later data until retransmission succeeds. Games therefore use TCP for information that must arrive intact, while rapidly changing real-time updates often favor [[User Datagram Protocol]].
+
 # References
 
 [[computing.epub]]
+[[gameprogrammingalgorithmsandtechniques.pdf]]

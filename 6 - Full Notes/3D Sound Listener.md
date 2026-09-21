@@ -12,4 +12,5 @@ The audio engine compares the listener with each [[3D Sound Emitter]] to calcula
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

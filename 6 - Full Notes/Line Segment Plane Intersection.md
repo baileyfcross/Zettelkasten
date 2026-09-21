@@ -12,4 +12,5 @@ A negative value lies behind the start, and a value greater than one lies beyond
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

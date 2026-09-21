@@ -12,4 +12,5 @@ Distance can control attenuation, horizontal direction can influence stereo plac
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,4 +12,5 @@ Lighting, collision, and relationships among separate objects are often evaluate
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,4 +12,5 @@ The line through those points defines a ray from the camera into the scene. [[Ob
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

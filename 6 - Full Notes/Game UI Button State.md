@@ -12,4 +12,5 @@ The button's activation event should remain separate from its appearance. This l
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

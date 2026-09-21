@@ -12,4 +12,5 @@ Animated sprites select successive source images over time, often from a [[Sprit
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

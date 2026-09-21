@@ -12,4 +12,5 @@ The conversion should distinguish absolute pixel artwork from elements that anch
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,5 +12,5 @@ This avoids repeatedly sampling a full-resolution image for a surface that cover
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[creatinggameenvironmentsinblender3d.pdf]]
-

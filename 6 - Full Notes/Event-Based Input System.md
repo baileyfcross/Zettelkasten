@@ -12,4 +12,5 @@ This indirection supports remapping and multiple devices. It also lets different
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

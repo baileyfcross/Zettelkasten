@@ -12,4 +12,5 @@ This structure makes a [[Game Behavior State Machine]] easier to extend and test
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

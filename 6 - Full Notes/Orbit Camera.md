@@ -12,4 +12,5 @@ Those spherical parameters are converted into a camera position each update, and
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

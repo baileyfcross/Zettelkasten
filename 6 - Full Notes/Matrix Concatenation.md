@@ -12,4 +12,5 @@ Scale, rotation, and translation therefore cannot be rearranged casually. A worl
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

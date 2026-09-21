@@ -12,4 +12,5 @@ Comparing squared distance avoids an unnecessary square root. Spheres are cheap 
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

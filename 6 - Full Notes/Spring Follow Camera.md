@@ -12,4 +12,5 @@ The resulting lag smooths sudden target motion and can make the view feel more n
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

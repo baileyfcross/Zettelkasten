@@ -12,4 +12,5 @@ The camera should begin moving only when the controlled object reaches the inten
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

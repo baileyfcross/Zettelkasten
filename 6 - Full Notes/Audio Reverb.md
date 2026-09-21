@@ -12,4 +12,5 @@ Games can associate reverb settings with regions and blend them as the listener 
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

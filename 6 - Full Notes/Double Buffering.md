@@ -12,4 +12,5 @@ The technique reduces visible flicker and supports synchronization with the [[Ve
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,4 +12,5 @@ Path-node networks can be compact but require careful authoring and may constrai
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

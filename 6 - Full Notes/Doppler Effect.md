@@ -10,4 +10,5 @@ The Doppler effect is the change in observed frequency caused by relative motion
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[foundationsofphysics.pdf]]

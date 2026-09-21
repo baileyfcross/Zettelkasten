@@ -12,4 +12,5 @@ The algorithm repeatedly selects the unvisited vertex with the smallest current 
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[algorithms.epub]]

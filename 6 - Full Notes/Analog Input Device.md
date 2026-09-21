@@ -12,4 +12,5 @@ Raw values often contain noise or small unwanted deviations. [[Analog Input Filt
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

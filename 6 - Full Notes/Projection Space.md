@@ -12,4 +12,5 @@ After the perspective divide and viewport mapping, projected positions become [[
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

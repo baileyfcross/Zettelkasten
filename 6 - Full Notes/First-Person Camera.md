@@ -12,4 +12,5 @@ The design produces an immersive perspective but must manage rotation limits, in
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

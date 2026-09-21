@@ -12,4 +12,5 @@ The format is difficult to inspect or merge directly and must manage version, by
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

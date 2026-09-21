@@ -12,4 +12,5 @@ Changing these parameters changes both visible composition and depth precision. 
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

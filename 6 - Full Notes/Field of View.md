@@ -18,6 +18,7 @@ In a perspective game camera, field of view is an input to the projection matrix
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

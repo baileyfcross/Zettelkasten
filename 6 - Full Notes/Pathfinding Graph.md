@@ -12,4 +12,5 @@ A grid, collection of [[Path Node|path nodes]], or [[Navigation Mesh]] can all p
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

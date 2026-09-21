@@ -12,4 +12,5 @@ Presenting a completed back buffer during this interval prevents [[Screen Tearin
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

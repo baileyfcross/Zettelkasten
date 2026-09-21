@@ -12,4 +12,5 @@ Two AABBs intersect when their intervals overlap on every relevant axis. The tes
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

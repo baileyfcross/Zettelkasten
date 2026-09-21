@@ -12,4 +12,5 @@ Unit directions simplify lighting, movement, and angle calculations. A zero vect
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

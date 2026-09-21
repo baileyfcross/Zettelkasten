@@ -12,4 +12,5 @@ Vectors support the same reusable geometric operations across rendering, physics
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

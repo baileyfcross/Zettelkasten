@@ -12,4 +12,5 @@ Without this relationship, higher frame rates make movement and animation advanc
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

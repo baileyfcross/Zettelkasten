@@ -12,4 +12,5 @@ The order is deliberate: input changes intentions, the update phase advances sta
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

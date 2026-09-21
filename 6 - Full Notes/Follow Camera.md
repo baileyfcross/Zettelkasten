@@ -12,4 +12,5 @@ Directly snapping to the desired transform is simple but can transmit every abru
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

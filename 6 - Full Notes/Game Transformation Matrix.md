@@ -12,4 +12,5 @@ Combining transformations creates the matrices used to move geometry among model
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

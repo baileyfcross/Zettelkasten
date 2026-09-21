@@ -12,4 +12,5 @@ Compared with isolated [[Path Node|path nodes]], the mesh describes traversable 
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

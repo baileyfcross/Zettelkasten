@@ -12,4 +12,5 @@ The visual can communicate weapon spread, target validity, or interaction state 
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

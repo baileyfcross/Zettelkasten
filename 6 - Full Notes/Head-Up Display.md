@@ -14,5 +14,6 @@ Common programmable HUD elements include an [[Aiming Reticle]], [[Game Radar Dis
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[fundamentalsofgamedesign3e.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

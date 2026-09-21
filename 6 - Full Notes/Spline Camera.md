@@ -12,4 +12,5 @@ Position can be evaluated from a [[Catmull-Rom Spline]], while orientation may f
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

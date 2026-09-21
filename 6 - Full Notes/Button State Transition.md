@@ -12,4 +12,5 @@ Transitions let a game trigger one event per activation while still supporting h
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

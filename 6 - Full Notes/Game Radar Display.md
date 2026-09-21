@@ -12,4 +12,5 @@ The display may rotate with the player or preserve a fixed world orientation. Sy
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

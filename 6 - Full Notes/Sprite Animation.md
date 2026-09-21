@@ -12,4 +12,5 @@ Animation speed should be stored independently from the rendering frame rate. El
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

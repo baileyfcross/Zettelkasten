@@ -12,4 +12,5 @@ Panning supplies a directional cue even without a full surround system. It is co
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,4 +12,5 @@ The chosen curve is often tuned for gameplay clarity rather than strict physical
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

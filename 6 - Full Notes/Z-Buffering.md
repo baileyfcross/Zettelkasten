@@ -12,4 +12,5 @@ This per-pixel visibility method removes the need to sort every three-dimensiona
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

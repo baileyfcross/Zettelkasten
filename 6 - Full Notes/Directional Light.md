@@ -12,4 +12,5 @@ Sunlight is a common use because the distance to the source is enormous relative
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

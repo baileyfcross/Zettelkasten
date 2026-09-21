@@ -12,4 +12,5 @@ The improved fit makes intersection tests more expensive because overlap must be
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,4 +12,5 @@ Multiplying it by the [[Game Time Factor]] produces the amount of simulation tim
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

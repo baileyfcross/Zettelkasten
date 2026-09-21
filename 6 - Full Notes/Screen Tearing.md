@@ -12,4 +12,5 @@ Synchronizing the swap with the [[Vertical Blank Interval]] prevents the buffer 
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

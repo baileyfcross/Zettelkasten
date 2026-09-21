@@ -12,4 +12,5 @@ The limiter belongs after input, update, and output work. It should use accurate
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

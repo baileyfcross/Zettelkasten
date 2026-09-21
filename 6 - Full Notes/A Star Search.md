@@ -12,4 +12,5 @@ With an [[Admissible Heuristic]], A-star can return an optimal path. Games apply
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

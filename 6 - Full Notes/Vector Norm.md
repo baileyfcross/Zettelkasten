@@ -14,5 +14,6 @@ Game geometry most often uses the Euclidean norm for displacement and distance. 
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

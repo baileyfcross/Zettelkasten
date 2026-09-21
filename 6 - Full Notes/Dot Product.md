@@ -12,5 +12,6 @@ With normalized vectors, a game can use the dot product directly as the cosine o
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[foundationsofmath.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

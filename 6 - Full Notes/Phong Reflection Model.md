@@ -12,4 +12,5 @@ It is a bidirectional reflectance model used to calculate how lights affect an o
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

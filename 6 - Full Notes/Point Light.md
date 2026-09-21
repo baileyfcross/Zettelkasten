@@ -12,4 +12,5 @@ Real-time shading compares the light direction with a surface normal and view di
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,4 +12,5 @@ The distinction lets an audio system produce different effects for a pillar betw
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

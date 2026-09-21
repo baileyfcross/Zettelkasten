@@ -12,4 +12,5 @@ This model makes legal transitions explicit and works well when navigation has a
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

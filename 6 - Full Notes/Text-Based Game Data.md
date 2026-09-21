@@ -12,4 +12,5 @@ Parsing text consumes more time and storage than a compact binary representation
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,4 +12,5 @@ A game object can store position, scale, and quaternion rotation compactly, then
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

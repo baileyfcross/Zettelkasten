@@ -12,4 +12,5 @@ Resolution-aware UI uses anchors, reference dimensions, and [[Game UI Coordinate
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

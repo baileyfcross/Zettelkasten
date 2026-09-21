@@ -14,5 +14,6 @@ Interface implementation must anticipate that translated text changes length and
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[fundamentalsofgamedesign3e.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -12,4 +12,5 @@ Separating capabilities into interfaces such as [[Updateable Game Object]] and [
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

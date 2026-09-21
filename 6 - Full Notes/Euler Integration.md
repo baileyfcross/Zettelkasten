@@ -12,4 +12,5 @@ The method is simple but accumulates numerical error and can become unstable whe
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

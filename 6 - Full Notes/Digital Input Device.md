@@ -12,4 +12,5 @@ Comparing present and previous states yields transitions such as just pressed an
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

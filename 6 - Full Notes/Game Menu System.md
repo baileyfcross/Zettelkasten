@@ -12,4 +12,5 @@ The system must coordinate focus, selection, transitions, and return behavior ac
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

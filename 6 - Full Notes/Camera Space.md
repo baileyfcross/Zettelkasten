@@ -12,4 +12,5 @@ This common viewpoint makes projection consistent. Geometry proceeds from camera
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

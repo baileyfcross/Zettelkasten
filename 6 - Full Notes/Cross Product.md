@@ -12,5 +12,6 @@ Game code uses the cross product to construct perpendicular basis directions and
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[foundationsofmath.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

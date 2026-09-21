@@ -12,4 +12,5 @@ Filtering prevents drift and unstable motion. The chosen threshold must be large
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

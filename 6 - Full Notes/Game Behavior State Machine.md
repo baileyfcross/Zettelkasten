@@ -12,4 +12,5 @@ The model is easy to reason about when transitions remain explicit. Large machin
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

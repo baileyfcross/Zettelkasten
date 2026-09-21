@@ -12,4 +12,5 @@ A world transform converts these local coordinates into [[World Space]] by apply
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

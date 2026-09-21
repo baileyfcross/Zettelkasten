@@ -12,4 +12,5 @@ Rendering speed determines how often frames are presented, but simulation behavi
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

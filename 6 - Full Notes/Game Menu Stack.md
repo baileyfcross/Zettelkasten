@@ -12,4 +12,5 @@ Pause dialogs and nested option screens fit this structure naturally. The system
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[COMSOL Model Construction]]
+Tags: [[COMSOL Model Construction]] [[COMSOL Geometry Configuration]]
 
 # COMSOL Physics Interface Selection
 
@@ -13,4 +13,4 @@ A specialized multiphysics interface can create appropriate couplings automatica
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

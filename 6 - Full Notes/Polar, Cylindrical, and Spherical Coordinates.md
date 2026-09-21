@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Aeronautical Coordinates and Vector Navigation]]
+Tags: [[Aeronautical Coordinates and Vector Navigation]] [[Engineering Geometry Foundations]]
 
 # Polar, Cylindrical, and Spherical Coordinates
 
@@ -11,4 +11,4 @@ Polar coordinates locate a planar point by radius and angle. Cylindrical coordin
 # References
 
 [[flightscience.pdf]]
-
+[[geometrycreationandimport.pdf]]

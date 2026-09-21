@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Thermal Model Verification and Sensitivity]]
+Tags: [[Thermal Model Verification and Sensitivity]] [[Simulation Geometry Quality]]
 
 # Parametric Sweep in COMSOL
 
@@ -13,4 +13,4 @@ The sweep produces a family of solutions that can be plotted or evaluated consis
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cartesian Analytic Geometry]]
+Tags: [[Cartesian Analytic Geometry]] [[Engineering Geometry Foundations]]
 
 # Cartesian Coordinate System
 
@@ -11,3 +11,4 @@ The Cartesian coordinate system locates a point in the plane by an ordered pair 
 # References
 
 [[foundationsofmath.pdf]]
+[[geometrycreationandimport.pdf]]

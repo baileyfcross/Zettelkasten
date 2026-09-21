@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Finite Element Thermal Modeling]]
+Tags: [[Finite Element Thermal Modeling]] [[Simulation Geometry Quality]]
 
 # Symmetry Reduction in Thermal Geometry
 
@@ -13,4 +13,4 @@ The reduction is invalid if an asymmetric source, material, flow, or boundary co
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

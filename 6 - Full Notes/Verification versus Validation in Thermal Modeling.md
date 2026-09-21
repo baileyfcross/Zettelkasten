@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Thermal Model Verification and Sensitivity]]
+Tags: [[Thermal Model Verification and Sensitivity]] [[Simulation Geometry Quality]]
 
 # Verification versus Validation in Thermal Modeling
 
@@ -13,4 +13,4 @@ Validation asks whether those equations and assumptions represent the physical s
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

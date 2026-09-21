@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[COMSOL Model Construction]]
+Tags: [[COMSOL Model Construction]] [[COMSOL Geometry Configuration]]
 
 # COMSOL Model Builder Tree
 
@@ -13,4 +13,4 @@ Because settings inherit context from their node, location matters: a global par
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

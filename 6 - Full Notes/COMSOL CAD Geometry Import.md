@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[COMSOL Model Construction]]
+Tags: [[COMSOL Model Construction]] [[CAD and FEM Geometry Exchange]]
 
 # COMSOL CAD Geometry Import
 
@@ -13,4 +13,4 @@ Imported geometry often requires simplification, partitioning, or capping before
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

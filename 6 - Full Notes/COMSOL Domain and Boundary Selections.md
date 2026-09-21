@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[COMSOL Model Construction]]
+Tags: [[COMSOL Model Construction]] [[COMSOL Geometry Operations]]
 
 # COMSOL Domain and Boundary Selections
 
@@ -13,4 +13,4 @@ Selections can change when geometry is rebuilt or imported, so visual inspection
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

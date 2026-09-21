@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Portable 3D Model Data]]
+Tags: [[Portable 3D Model Data]] [[CAD and FEM Geometry Exchange]]
 
 # STL Mesh Format
 
@@ -13,3 +13,4 @@ The format does not use shared vertex indices and does not carry texture coordin
 # References
 
 [[blenderpythonapi.pdf]]
+[[geometrycreationandimport.pdf]]

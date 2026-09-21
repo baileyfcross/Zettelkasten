@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[COMSOL Model Construction]]
+Tags: [[COMSOL Model Construction]] [[COMSOL Geometry Configuration]]
 
 # COMSOL Component and Study Structure
 
@@ -13,4 +13,4 @@ Studies specify which physics are solved and whether the solution is stationary,
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

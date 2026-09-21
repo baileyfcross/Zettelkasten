@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[COMSOL Model Construction]]
+Tags: [[COMSOL Model Construction]] [[COMSOL Geometry Configuration]]
 
 # COMSOL Global Parameters and Variables
 
@@ -13,4 +13,4 @@ Replacing repeated numeric literals with descriptive names reduces editing error
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

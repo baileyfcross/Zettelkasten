@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[COMSOL Model Construction]]
+Tags: [[COMSOL Model Construction]] [[COMSOL Geometry Configuration]]
 
 # COMSOL Internal Geometry Construction
 
@@ -13,4 +13,4 @@ An internal geometry sequence keeps dimensions connected to [[COMSOL Global Para
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

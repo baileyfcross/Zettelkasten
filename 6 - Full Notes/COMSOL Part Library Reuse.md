@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[COMSOL Model Construction]]
+Tags: [[COMSOL Model Construction]] [[COMSOL Geometry Operations]]
 
 # COMSOL Part Library Reuse
 
@@ -13,4 +13,4 @@ Library reuse accelerates model setup and standardizes common components, but it
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

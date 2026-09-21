@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Applied Thermal System Case Studies]]
+Tags: [[Applied Thermal System Case Studies]] [[Parametric Fin Geometry]]
 
 # Twisted-Fin Thermal Performance
 
@@ -13,4 +13,4 @@ Surface integrations quantify conductive power while cut lines compare temperatu
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Thermal Model Verification and Sensitivity]]
+Tags: [[Thermal Model Verification and Sensitivity]] [[Simulation Geometry Quality]]
 
 # Mesh Independence Study
 
@@ -13,4 +13,4 @@ The comparison must preserve other solver and time-step settings so that spatial
 # References
 
 [[cosmolheattransfermodels.pdf]]
-
+[[geometrycreationandimport.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Euclidean Geometry Theorems]]
+Tags: [[Euclidean Geometry Theorems]] [[Engineering Geometry Foundations]]
 
 # Euclidean Axiomatic Geometry
 
@@ -11,3 +11,4 @@ Euclidean geometry derives the properties of plane figures from definitions, com
 # References
 
 [[foundationsofmath.pdf]]
+[[geometrycreationandimport.pdf]]

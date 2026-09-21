@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Concept Development]]
+Tags: [[Game Concept Development]] [[Iterative Game Design Cycle]]
 
 # Game Design Brainstorming
 
@@ -13,3 +13,4 @@ Separating generation from evaluation protects momentum and participation. After
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[gamesdesignandplay.pdf]]

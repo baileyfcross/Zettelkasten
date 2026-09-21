@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Software Engineering]] [[Game Design Methods]] [[Game Production Planning and Milestones]]
+Tags: [[Software Engineering]] [[Game Design Methods]] [[Game Production Planning and Milestones]] [[Iterative Game Design Cycle]] [[Game Prototyping Strategy]]
 
 # Prototype
 
@@ -21,3 +21,4 @@ In an agile backlog, a timeboxed [[Spike]] can use a prototype to remove uncerta
 [[3duserinterfaces2ande.pdf]]
 [[advancedgamedesign.pdf]]
 [[agilegamedevelopment2e.pdf]]
+[[gamesdesignandplay.pdf]]

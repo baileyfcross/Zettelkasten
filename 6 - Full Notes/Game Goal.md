@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Definition and Forms]]
+Tags: [[Game Definition and Forms]] [[Play Design Elements]]
 
 # Game Goal
 
@@ -13,3 +13,4 @@ Goals must be nontrivial enough to require meaningful effort. Victory and loss c
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[gamesdesignandplay.pdf]]

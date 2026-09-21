@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Mechanics and Rules]] · [[Game Definition and Forms]]
+Tags: [[Game Mechanics and Rules]] · [[Game Definition and Forms]] [[Play Design Elements]]
 
 # Game Rule
 
@@ -20,3 +20,4 @@ A complete ruleset may specify required, permitted, and prohibited actions; sequ
 [[agamedesignvocabulary.pdf]]
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[gamesdesignandplay.pdf]]

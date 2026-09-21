@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Design Methods]] [[Game Production Planning and Milestones]] [[Agile Engineering and Quality]]
+Tags: [[Game Design Methods]] [[Game Production Planning and Milestones]] [[Agile Engineering and Quality]] [[Iterative Game Design Cycle]] [[Game Playtesting Practice]]
 
 # Playtesting
 
@@ -19,3 +19,4 @@ Agile teams involve players throughout development rather than waiting for a sep
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
 [[agilegamedevelopment2e.pdf]]
+[[gamesdesignandplay.pdf]]

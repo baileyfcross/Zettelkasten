@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human Cognition]]
+Tags: [[Human Cognition]] [[Player Experience Layers]]
 
 # Attention
 
@@ -15,3 +15,4 @@ Attention is limited. Overload, peripheral vision limits, rapid events, or divid
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[gamesdesignandplay.pdf]]

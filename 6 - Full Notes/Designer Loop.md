@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Design Methods]]
+Tags: [[Game Design Methods]] [[Iterative Game Design Cycle]]
 
 # Designer Loop
 
@@ -13,3 +13,4 @@ The loop cannot close through rules or a simulation alone; it requires actual pl
 # References
 
 [[advancedgamedesign.pdf]]
+[[gamesdesignandplay.pdf]]

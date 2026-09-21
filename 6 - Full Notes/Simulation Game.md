@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Video Game Genres and Platforms]]
+Tags: [[Video Game Genres and Platforms]] [[Play Styles and Structures]]
 
 # Simulation Game
 
@@ -13,3 +13,4 @@ The design abstracts reality selectively. Accuracy matters only to the degree ne
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[gamesdesignandplay.pdf]]

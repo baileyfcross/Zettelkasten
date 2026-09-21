@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human-Computer Interaction Foundations]]
+Tags: [[Human-Computer Interaction Foundations]] [[Player Experience Layers]]
 
 # Affordance
 
@@ -20,3 +20,4 @@ For example, a visible virtual eraser can suggest deletion, being within reach c
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[gamesdesignandplay.pdf]]

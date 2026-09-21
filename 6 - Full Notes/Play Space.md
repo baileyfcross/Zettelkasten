@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Player Experience Design]]
+Tags: [[Player Experience Design]] [[Play Design Elements]]
 
 # Play Space
 
@@ -13,3 +13,4 @@ A broad play space contains several viable routes whose consequences differ. A d
 # References
 
 [[advancedgamedesign.pdf]]
+[[gamesdesignandplay.pdf]]

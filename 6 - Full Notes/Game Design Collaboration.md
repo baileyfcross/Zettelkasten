@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Design Methods]]
+Tags: [[Game Design Methods]] [[Collaborative Game Development]]
 
 # Game Design Collaboration
 
@@ -13,3 +13,4 @@ Assigning a designer to each core-mechanic team shortens conversations and lets 
 # References
 
 [[agilegamedevelopment2e.pdf]]
+[[gamesdesignandplay.pdf]]

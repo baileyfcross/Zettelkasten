@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human-Computer Interaction Foundations]] [[Game Interactivity]]
+Tags: [[Human-Computer Interaction Foundations]] [[Game Interactivity]] [[Player Experience Layers]]
 
 # Feedback
 
@@ -21,3 +21,4 @@ A [[Robust Game Verb]] provides feedback even when an action is refused. A sound
 [[3duserinterfaces2ande.pdf]]
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+[[gamesdesignandplay.pdf]]

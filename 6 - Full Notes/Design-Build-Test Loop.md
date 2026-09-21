@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Production Planning and Milestones]] [[Software Engineering]]
+Tags: [[Game Production Planning and Milestones]] [[Software Engineering]] [[Iterative Game Design Cycle]]
 
 # Design-Build-Test Loop
 
@@ -13,3 +13,4 @@ Early iterations focus on concept and fast prototypes, production shifts toward 
 # References
 
 [[advancedgamedesign.pdf]]
+[[gamesdesignandplay.pdf]]

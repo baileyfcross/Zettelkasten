@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Mechanics and Rules]]
+Tags: [[Game Mechanics and Rules]] [[Play Design Elements]]
 
 # Game Token
 
@@ -13,3 +13,4 @@ Tokens communicate selected aspects of the [[Game Model]] to the player. Combine
 # References
 
 [[advancedgamedesign.pdf]]
+[[gamesdesignandplay.pdf]]

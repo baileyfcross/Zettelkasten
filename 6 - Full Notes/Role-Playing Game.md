@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Video Game Genres and Platforms]]
+Tags: [[Video Game Genres and Platforms]] [[Play Styles and Structures]]
 
 # Role-Playing Game
 
@@ -13,3 +13,4 @@ The genre typically combines exploration, resource management, tactical conflict
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[gamesdesignandplay.pdf]]

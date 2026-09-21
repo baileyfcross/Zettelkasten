@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Authored Game Narrative]]
+Tags: [[Authored Game Narrative]] [[Play Design Elements]]
 
 # Game Theme
 
@@ -16,3 +16,4 @@ Images, animation, words, sound, and timing give rules a [[Game Context|context]
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+[[gamesdesignandplay.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Player Experience Design]]
+Tags: [[Player Experience Design]] [[Player Experience Layers]]
 
 # Player Mental Model
 
@@ -13,4 +13,4 @@ The player tests this model through action and revises it from [[Feedback]]. A c
 # References
 
 [[advancedgamedesign.pdf]]
-
+[[gamesdesignandplay.pdf]]

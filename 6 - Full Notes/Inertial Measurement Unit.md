@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spatial Tracking and Registration]]
+Tags: [[Spatial Tracking and Registration]] [[Pre-Satellite Navigation Systems]]
 
 # Inertial Measurement Unit
 
@@ -13,3 +13,4 @@ Pose must be inferred by integrating its relative measurements, which accumulate
 # References
 
 [[augmentedreality_pearson.pdf]]
+[[gps.epub]]

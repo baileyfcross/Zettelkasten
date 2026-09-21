@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Aeronautical Coordinates and Vector Navigation]]
+Tags: [[Aeronautical Coordinates and Vector Navigation]] [[Pre-Satellite Navigation Systems]]
 
 # Lines of Position in Navigation
 
@@ -11,4 +11,4 @@ A line of position is the set of possible locations consistent with a navigation
 # References
 
 [[flightscience.pdf]]
-
+[[gps.epub]]

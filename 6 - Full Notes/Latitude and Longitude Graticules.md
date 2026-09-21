@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Aeronautical Coordinates and Vector Navigation]]
+Tags: [[Aeronautical Coordinates and Vector Navigation]] [[Satellite Navigation Principles]]
 
 # Latitude and Longitude Graticules
 
@@ -11,4 +11,4 @@ Latitude measures angular position north or south of the Equator, and its parall
 # References
 
 [[flightscience.pdf]]
-
+[[gps.epub]]

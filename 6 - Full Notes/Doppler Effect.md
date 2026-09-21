@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Wave Motion and Geometric Optics]]
+Tags: [[Wave Motion and Geometric Optics]] [[Satellite Navigation Principles]]
 
 # Doppler Effect
 
@@ -12,3 +12,4 @@ The Doppler effect is the change in observed frequency caused by relative motion
 
 [[gameprogrammingincplusplus.pdf]]
 [[foundationsofphysics.pdf]]
+[[gps.epub]]

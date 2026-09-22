@@ -16,6 +16,8 @@ Within a cloud [[Security Container]], authentication follows identification and
 
 Authentication is one of the six security goals in the source's [[Cybersecurity Goal Model]]. It can combine knowledge, possession, and biometric evidence; using several categories reduces dependence on any one credential before [[Authorization]] evaluates access.
 
+The inventory web application adds a login boundary before restricted product operations, while the cloud chapter describes delegating identity proof to a provider and accepting its token. In both cases, establishing identity is only the first step; the server still has to enforce permissions for each protected operation.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -26,3 +28,4 @@ Authentication is one of the six security goals in the source's [[Cybersecurity 
 [[cloudcomputing_mit.epub]]
 
 [[cybersecurity.epub]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]

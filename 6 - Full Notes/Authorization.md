@@ -16,6 +16,8 @@ For cloud resources, authorization applies after identity and authentication hav
 
 The cybersecurity model distinguishes authorization from authentication: proving who a user is does not prove that the user may reach every resource. Access-control policy can base authorization on administrator mandates, owner discretion, roles, or contextual rules.
 
+The design-patterns source extends the inventory web application so logged-in users are not automatically permitted to perform every product action. Restricted pages and operations require a role or policy check on the server; the cloud discussion makes the same distinction when an external identity provider supplies a token but the application retains its own access rules.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -26,3 +28,4 @@ The cybersecurity model distinguishes authorization from authentication: proving
 [[cloudcomputing_mit.epub]]
 
 [[cybersecurity.epub]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]

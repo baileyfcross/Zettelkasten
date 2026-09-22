@@ -10,6 +10,9 @@ An `async` method can use `await` to pause its logical execution until an awaita
 
 Asynchronous code improves responsiveness and scalability for waiting-heavy operations, but it does not make CPU work inherently faster. Tasks should normally be awaited, exceptions must be observed, and cancellation should be propagated through the operation graph.
 
+The conference-counter example uses waiting customers to motivate nonblocking work. In an application, `await` yields while an asynchronous operation is incomplete instead of occupying a thread solely to wait; many requests can therefore make progress with fewer blocked workers.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]

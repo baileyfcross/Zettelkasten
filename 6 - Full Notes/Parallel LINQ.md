@@ -10,6 +10,9 @@ Parallel LINQ can partition an in-memory query across multiple workers by conver
 
 Parallel execution can change ordering and exposes unsafe shared state in query delegates. It should be adopted after measurement, with explicit ordering only when needed and with cancellation and exception behavior accounted for.
 
+The design-patterns source places Parallel LINQ beside concurrent collections and task-based code. The comparison matters: PLINQ partitions a data query for CPU work, whereas `async`/`await` avoids tying up a thread while an operation waits. Applying both labels to a workload does not automatically improve its throughput.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]

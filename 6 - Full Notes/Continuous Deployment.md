@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Live Game Operations]], [[Continuous Integration and Delivery]]
+Tags: [[Live Game Operations]], [[Continuous Integration and Delivery]] [[Cloud Messaging Caching and Operations Patterns]]
 
 # Continuous Deployment
 
@@ -12,7 +12,10 @@ Because games can have platform, player, and experiential constraints, teams may
 
 An Azure DevOps pipeline can remove routine manual execution by triggering a build, publishing an artifact, and advancing automated deployment stages when their checks pass. Whether production promotion is automatic determines whether this is continuous deployment rather than continuous delivery.
 
+The design-patterns source describes different promotion triggers for development, user-acceptance testing, and production. Automated build and test gates can move a change toward release, but an explicit human sign-off before production makes that final stage continuous delivery rather than automatic deployment.
+
 # References
 
 [[agilegamedevelopment2e.pdf]]
 [[aspnetcore3andreact.pdf]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]

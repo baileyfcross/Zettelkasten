@@ -13,3 +13,5 @@ Managed hosting transfers infrastructure, failover, and geographic scaling work 
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

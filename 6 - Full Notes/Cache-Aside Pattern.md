@@ -12,3 +12,4 @@ Cache-aside makes the application responsible for loading and maintaining a fast
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

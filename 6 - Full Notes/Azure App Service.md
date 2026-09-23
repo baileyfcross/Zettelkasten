@@ -17,3 +17,5 @@ The web-research and bot projects use App Service as the managed destination for
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[aspnetcore3andreact.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

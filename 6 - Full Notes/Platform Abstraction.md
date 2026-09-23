@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Augmented Reality Software Architecture]]
+Tags: [[Augmented Reality Software Architecture]] [[Xamarin Application Architecture]]
 
 # Platform Abstraction
 
@@ -13,3 +13,5 @@ This supports reuse as an AR setup changes and makes simulated or recorded input
 # References
 
 [[augmentedreality_pearson.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

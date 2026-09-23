@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Cross-Platform .NET Mobile Runtime]]
 
 # Xamarin.Forms Platform Projects
 
@@ -17,3 +17,5 @@ The book's solution keeps shared Xamarin.Forms code in one project and Android-s
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

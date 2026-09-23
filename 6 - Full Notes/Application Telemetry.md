@@ -12,3 +12,4 @@ Application telemetry is operational data emitted by running software, such as r
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

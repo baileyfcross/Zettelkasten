@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Dependency Injection and Service Lifetimes]]
+Tags: [[.NET Dependency Injection and Service Lifetimes]] [[Xamarin Application Architecture]]
 
 # Inversion of Control
 
@@ -12,3 +12,4 @@ Inversion of control moves decisions about constructing and connecting collabora
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

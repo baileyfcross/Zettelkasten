@@ -13,3 +13,5 @@ The book's C# function compares dates for a logic app and returns a compact resu
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

@@ -12,3 +12,4 @@ The publisher-subscriber pattern sends an event from a producer to whichever con
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

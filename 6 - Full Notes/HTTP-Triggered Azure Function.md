@@ -13,3 +13,5 @@ The date-comparison function reads a JSON request body, performs its comparison,
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

@@ -13,3 +13,5 @@ Higher provisioned throughput permits more database work, while lower throughput
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

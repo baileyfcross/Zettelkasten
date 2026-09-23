@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Reactive Programming in .NET]]
+Tags: [[Reactive Programming in .NET]] [[Xamarin Application Architecture]]
 
 # Model-View-ViewModel Pattern
 
@@ -12,3 +12,4 @@ Model-View-ViewModel (MVVM) separates domain data, its visual representation, an
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

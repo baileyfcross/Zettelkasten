@@ -19,3 +19,5 @@ In Domain-Driven Design, a repository represents a collection of [[Aggregate]] r
 [[aspnetcore3andreact.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

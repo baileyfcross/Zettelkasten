@@ -13,3 +13,5 @@ The emotion detector provisions the Face API, obtains an endpoint and access key
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

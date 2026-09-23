@@ -13,3 +13,5 @@ The campaign project periodically reads rows from an Excel table, evaluates whet
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

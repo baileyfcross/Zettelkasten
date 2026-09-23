@@ -13,3 +13,5 @@ The artifact connects one tested source revision to every environment that recei
 # References
 
 [[aspnetcore3andreact.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

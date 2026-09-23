@@ -16,3 +16,5 @@ The cloud-patterns source emphasizes the queue's load-leveling role: clients can
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Object-Oriented Design Patterns]]
+Tags: [[Object-Oriented Design Patterns]] [[Xamarin Application Architecture]]
 
 # Decorator Pattern
 
@@ -12,3 +12,4 @@ A decorator implements the same interface as an object it wraps, delegates the c
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

@@ -12,3 +12,4 @@ Asynchronous command processing accepts a state-changing request and completes i
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

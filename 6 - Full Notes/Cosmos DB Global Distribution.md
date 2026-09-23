@@ -13,3 +13,5 @@ Replication has a monetary and consistency cost, so regions should reflect actua
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

@@ -12,3 +12,4 @@ A materialized view stores the result of a query so readers need not recompute i
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Cross-Platform .NET Mobile Runtime]]
 
 # Xamarin and Xamarin.Forms
 
@@ -17,3 +17,5 @@ The emotion-detector project uses Xamarin.Forms as a small shared UI layer and a
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

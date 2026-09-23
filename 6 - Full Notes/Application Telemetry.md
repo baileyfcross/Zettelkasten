@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Messaging Caching and Operations Patterns]]
+Tags: [[Cloud Messaging Caching and Operations Patterns]] [[Distributed Network Caching Monitoring and Inspection]]
 
 # Application Telemetry
 
@@ -13,3 +13,5 @@ Application telemetry is operational data emitted by running software, such as r
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

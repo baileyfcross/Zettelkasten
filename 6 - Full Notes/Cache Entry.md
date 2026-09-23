@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Performance and Scalability]]
+Tags: [[Web Performance and Scalability]] [[Distributed Network Caching Monitoring and Inspection]]
 
 # Cache Entry
 
@@ -13,3 +13,5 @@ Entry lifetime determines the balance between reuse and freshness. Keys must als
 # References
 
 [[aspnetcore3andreact.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

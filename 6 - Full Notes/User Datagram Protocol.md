@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Networked Game Programming]]
+Tags: [[Networked Game Programming]] [[TCP UDP and Internet Protocol Addressing]]
 
 # User Datagram Protocol
 
@@ -13,3 +13,5 @@ A game using UDP must decide which messages need its own sequencing, acknowledgm
 # References
 
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

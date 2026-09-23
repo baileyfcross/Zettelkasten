@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Networked Game Programming]]
+Tags: [[Networked Game Programming]] [[TCP UDP and Internet Protocol Addressing]]
 
 # IPv6 Address
 
@@ -13,3 +13,5 @@ Networked games should use address-family-neutral APIs when possible so endpoint
 # References
 
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

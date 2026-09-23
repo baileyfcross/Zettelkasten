@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Application Commands and Service Boundaries]]
+Tags: [[Application Commands and Service Boundaries]] [[OSI Layers Packets and Network Streams]]
 
 # Application Layer
 
@@ -11,3 +11,5 @@ The application layer coordinates a use case around an isolated [[Domain Model]]
 # References
 
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Applied Cryptography and PKI]]
+Tags: [[Applied Cryptography and PKI]] [[TLS Authentication and Secure Remote Access]]
 
 # Public Key Infrastructure
 
@@ -13,3 +13,5 @@ PKI supports encrypted sessions, identity checks, signatures, and secure key exc
 # References
 
 [[cybersecurity.epub]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

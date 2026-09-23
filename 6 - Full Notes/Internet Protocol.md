@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Internet Infrastructure History]]
+Tags: [[Internet Infrastructure History]] [[TCP UDP and Internet Protocol Addressing]]
 
 # Internet Protocol
 
@@ -16,3 +16,5 @@ For a networked game, IP supplies the addressed packet layer beneath transports 
 
 [[computing.epub]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

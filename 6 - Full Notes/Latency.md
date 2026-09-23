@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Display Systems]] · [[Online Multiplayer and Persistent Worlds]]
+Tags: [[XR Display Systems]] · [[Online Multiplayer and Persistent Worlds]] [[Distributed Network Caching Monitoring and Inspection]]
 
 # Latency
 
@@ -22,3 +22,5 @@ In an online game, network latency delays the response to a remote player's comm
 [[augmentedreality_pearson.pdf]]
 
 [[fundamentalsofgamedesign3e.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

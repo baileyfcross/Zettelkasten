@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]]
+Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]] [[TLS Authentication and Secure Remote Access]]
 
 # Authentication
 
@@ -29,3 +29,5 @@ The inventory web application adds a login boundary before restricted product op
 
 [[cybersecurity.epub]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

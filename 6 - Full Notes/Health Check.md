@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]]
+Tags: [[HTTP API Integration]] [[Distributed Network Caching Monitoring and Inspection]]
 
 # Health Check
 
@@ -13,3 +13,5 @@ Useful outcomes distinguish healthy, degraded, and unhealthy states and can incl
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

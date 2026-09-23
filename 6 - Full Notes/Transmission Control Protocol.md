@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Internet Infrastructure History]]
+Tags: [[Internet Infrastructure History]] [[TCP UDP and Internet Protocol Addressing]]
 
 # Transmission Control Protocol
 
@@ -16,3 +16,5 @@ This reliability can add delay when a missing segment blocks later data until re
 
 [[computing.epub]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

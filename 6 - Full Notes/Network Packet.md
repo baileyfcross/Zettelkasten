@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Networked Game Programming]]
+Tags: [[Networked Game Programming]] [[OSI Layers Packets and Network Streams]]
 
 # Network Packet
 
@@ -13,3 +13,5 @@ Game traffic should avoid unnecessary payload because bandwidth, serialization t
 # References
 
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]] [[Applied Cryptography and PKI]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[Applied Cryptography and PKI]] [[TLS Authentication and Secure Remote Access]]
 
 # Certificate Authority
 
@@ -17,3 +17,5 @@ Within [[Public Key Infrastructure]], a certificate authority supports the creat
 [[cloudcomputing_mit.epub]]
 
 [[cybersecurity.epub]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

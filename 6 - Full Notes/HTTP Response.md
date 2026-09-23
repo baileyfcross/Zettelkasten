@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]]
+Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]] [[HTTP FTP SMTP and Custom Protocols]]
 
 # HTTP Response
 
@@ -14,3 +14,5 @@ ASP.NET Core middleware or controller actions can write responses. A client inte
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

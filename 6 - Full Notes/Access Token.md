@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]] [[OAuth 2.0 and IdentityServer]]
+Tags: [[Web Identity and Access Control]] [[OAuth 2.0 and IdentityServer]] [[TLS Authentication and Secure Remote Access]]
 
 # Access Token
 
@@ -17,3 +17,5 @@ In the stock-checker client, a successful resource-owner password request return
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[aspnetcore3andreact.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

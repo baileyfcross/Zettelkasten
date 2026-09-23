@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[World Wide Web and Online Services]]
+Tags: [[World Wide Web and Online Services]] [[Network Topology and Resource Addressing]]
 
 # URL
 
@@ -13,3 +13,5 @@ URLs give the Web a flat navigational surface across geography and hardware. Thi
 # References
 
 [[computing.epub]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

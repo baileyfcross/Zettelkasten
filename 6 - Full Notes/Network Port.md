@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Networked Game Programming]]
+Tags: [[Networked Game Programming]] [[.NET Network Requests Sockets and Streams]]
 
 # Network Port
 
@@ -13,3 +13,5 @@ Servers bind a [[Game Network Socket]] to an address and port so clients know wh
 # References
 
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

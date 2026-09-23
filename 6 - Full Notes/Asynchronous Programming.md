@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Performance and Scalability]] [[.NET Task Parallelism and Asynchrony]]
+Tags: [[Web Performance and Scalability]] [[.NET Task Parallelism and Asynchrony]] [[.NET Network Requests Sockets and Streams]]
 
 # Asynchronous Programming
 
@@ -14,3 +14,5 @@ Its primary server benefit is efficient concurrency around I/O. CPU-bound work s
 
 [[aspnetcore3andreact.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

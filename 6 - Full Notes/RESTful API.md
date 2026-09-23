@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]]
+Tags: [[HTTP API Integration]] [[HTTP FTP SMTP and Custom Protocols]]
 
 # RESTful API
 
@@ -13,3 +13,5 @@ This convention lets an Angular client treat a server-side controller as a data 
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

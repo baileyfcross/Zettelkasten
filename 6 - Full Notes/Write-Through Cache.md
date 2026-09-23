@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Messaging Caching and Operations Patterns]]
+Tags: [[Cloud Messaging Caching and Operations Patterns]] [[Distributed Network Caching Monitoring and Inspection]]
 
 # Write-Through Cache
 
@@ -12,3 +12,4 @@ A write-through cache places the cache service in the write path: the caller wri
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

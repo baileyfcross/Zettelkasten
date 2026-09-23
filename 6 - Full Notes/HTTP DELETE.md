@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]]
+Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]] [[HTTP FTP SMTP and Custom Protocols]]
 
 # HTTP DELETE
 
@@ -14,3 +14,5 @@ The HTTP operation exposes a deletion contract; it does not determine whether th
 
 [[aspnetcore3andreact.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[World Wide Web and Online Services]]
+Tags: [[World Wide Web and Online Services]] [[TLS Authentication and Secure Remote Access]]
 
 # Secure Sockets Layer
 
@@ -13,3 +13,5 @@ Secure transport made commercial transactions more credible on an open network. 
 # References
 
 [[computing.epub]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

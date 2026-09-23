@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[World Wide Web and Online Services]]
+Tags: [[World Wide Web and Online Services]] [[HTTP FTP SMTP and Custom Protocols]]
 
 # HTTP
 
@@ -13,3 +13,5 @@ HTTP made exchange consistent across independent systems. Later extensions suppo
 # References
 
 [[computing.epub]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

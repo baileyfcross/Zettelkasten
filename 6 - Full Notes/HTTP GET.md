@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]]
+Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]] [[HTTP FTP SMTP and Custom Protocols]]
 
 # HTTP GET
 
@@ -14,3 +14,5 @@ Collection GET endpoints often accept paging, sorting, or filtering parameters. 
 
 [[aspnetcore3andreact.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

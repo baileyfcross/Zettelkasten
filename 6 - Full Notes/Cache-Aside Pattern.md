@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Messaging Caching and Operations Patterns]]
+Tags: [[Cloud Messaging Caching and Operations Patterns]] [[Distributed Network Caching Monitoring and Inspection]]
 
 # Cache-Aside Pattern
 
@@ -13,3 +13,5 @@ Cache-aside makes the application responsible for loading and maintaining a fast
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

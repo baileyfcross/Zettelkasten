@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Networked Game Programming]]
+Tags: [[Networked Game Programming]] [[TCP UDP and Internet Protocol Addressing]]
 
 # IPv4 Address
 
@@ -13,3 +13,5 @@ The limited address space led to address-sharing techniques and motivated [[IPv6
 # References
 
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

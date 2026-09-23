@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]]
+Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]] [[TLS Authentication and Secure Remote Access]]
 
 # Authorization
 
@@ -29,3 +29,5 @@ The design-patterns source extends the inventory web application so logged-in us
 
 [[cybersecurity.epub]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

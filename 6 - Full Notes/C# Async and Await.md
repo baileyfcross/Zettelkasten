@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Network Requests Sockets and Streams]]
 
 # C# Async and Await
 
@@ -16,3 +16,5 @@ The conference-counter example uses waiting customers to motivate nonblocking wo
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[OAuth 2.0 and IdentityServer]]
+Tags: [[OAuth 2.0 and IdentityServer]] [[TLS Authentication and Secure Remote Access]]
 
 # OAuth 2.0
 
@@ -13,3 +13,5 @@ The stock-checker project uses IdentityServer 4 to issue a token to a UWP client
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

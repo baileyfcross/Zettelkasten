@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Internet Infrastructure History]]
+Tags: [[Internet Infrastructure History]] [[TCP UDP and Internet Protocol Addressing]]
 
 # TCP IP
 
@@ -13,3 +13,5 @@ Separating these responsibilities lets local networks use different technologies
 # References
 
 [[computing.epub]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

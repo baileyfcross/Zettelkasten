@@ -22,6 +22,8 @@ At the persistence boundary, [[CQRS and Ledger Data Architecture]] separates rec
 
 Finally, [[Cloud Messaging Caching and Operations Patterns]] turns those architectural goals into operational mechanisms. A queue buffers work so short spikes do not overwhelm a worker; publish-subscribe sends an event to each interested consumer; a priority queue gives selected work different treatment. Cache-aside places responsibility for misses and invalidation in application code, whereas a write-through cache coordinates writes through the cache service. Static content hosting moves media and scripts to a dedicated delivery network. Federated security delegates identity proof to a trusted provider, and telemetry centralizes observations from distributed services. Continuous integration and deployment turn code changes into repeatable builds, tests, and releases. Each pattern moves responsibility to a different boundary, so the crucial question is who now owns correctness when data changes, messages repeat, identities expire, or a deployment fails.
 
+[[Domain-Driven Design]] applies that boundary question to business meaning itself. It develops a shared language with domain experts, uses EventStorming to expose behavior and uncertainty, and encodes business rules in entities, value objects, services, and aggregates. Commands and queries give external intent explicit shapes; repositories and event stores preserve aggregate state; projections produce read models; and bounded contexts keep incompatible meanings from being forced into one universal model. These techniques connect architecture to organizational structure because a model boundary is sustainable only when a team can understand and own it.
+
 Together these topics move from local code to a distributed system without losing the same central concern: define a boundary that matches a real reason for change. Patterns are a vocabulary for evaluating those boundaries. They cannot replace clear requirements, tests, measurements, or operational evidence, but they can make a system easier to extend when the constraints they address are genuinely present.
 
 ## Directly Referenced Tags
@@ -29,4 +31,3 @@ Together these topics move from local code to a distributed system without losin
 ```query
 path:"3 - Tags" "[[Software Design Patterns and Application Architecture]]"
 ```
-

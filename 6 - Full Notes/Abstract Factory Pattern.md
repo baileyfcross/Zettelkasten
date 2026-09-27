@@ -8,7 +8,10 @@ Tags: [[Object-Oriented Design Patterns]]
 
 An abstract factory supplies a family of related objects through a common creation contract, leaving the choice of concrete family outside the client. A caller asks for products it can use without coupling itself to the classes that construct them. In the book's inventory-command example, shared command abstractions let the console workflow invoke differently created commands through a common interface, though that example is closer to a general factory than a strict family-of-products abstract factory.
 
+An abstract factory adds a factory-level abstraction so a client can request related products without selecting a concrete product family or concrete factory directly. The pattern is most valuable when those products must remain compatible as a group.
+
 # References
 
-[[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
+[[hands-ondesignpatternswithcandnetcore.pdf]]

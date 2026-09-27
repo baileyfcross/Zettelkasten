@@ -10,7 +10,11 @@ A base class defines behavior or state intended to be inherited by more speciali
 
 The base should contain only behavior common to its descendants. In the Angular examples, base form and data-service classes reduce duplicated validation and HTTP operations while subclasses retain entity-specific behavior.
 
+In an inheritance hierarchy, the base class defines the state and behavior intended to be shared by more specific types. A sound is-a relationship requires a derived instance to remain usable wherever the base contract is expected.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

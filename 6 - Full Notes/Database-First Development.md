@@ -12,7 +12,11 @@ Schema changes originate in the database and may require regenerated or updated 
 
 For EF Core 3, the book describes database-first as a one-way starting operation: tooling can reverse-engineer a code model from an existing schema, but subsequent database changes are generated from the resulting code model rather than continuously synchronized both ways.
 
+In the database-first approach, the existing tables, columns, and relationships are inspected to generate application model classes. Schema changes originate in the database and require the generated model to be refreshed or regenerated deliberately.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 

@@ -8,7 +8,10 @@ Tags: [[Software Design Principles]]
 
 The dependency inversion principle directs high-level behavior to depend on abstractions rather than concrete details. An inventory command can require an `IInventoryReadContext` contract instead of constructing a particular database or in-memory repository. [[Dependency Injection]] is one way to provide the implementation, but the principle concerns the dependency direction itself: changing storage should not require rewriting the command's business rule.
 
+Layered code follows dependency inversion when high- and low-level modules meet through abstractions whose contracts do not expose concrete implementation details. Changes can then be contained behind the abstraction instead of propagating through construction and call sites.
+
 # References
 
-[[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
+[[hands-ondesignpatternswithcandnetcore.pdf]]

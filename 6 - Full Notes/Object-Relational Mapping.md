@@ -10,7 +10,11 @@ Object-relational mapping connects an object-oriented application model to table
 
 [[Entity Framework Core]] performs this mapping from entity classes and a [[Database Context]]. Conventions and [[Data Annotation|annotations]] define how class members correspond to the database model.
 
+The source presents an ORM as a layer that maps application entities and operations to database tables and SQL. This lets code work through domain-shaped objects while the mapper remains responsible for translation, relationships, and persistence commands.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

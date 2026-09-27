@@ -10,6 +10,10 @@ Polymorphism lets code use a base-class or interface reference while runtime dis
 
 Hiding a member creates a separate compile-time choice and is not the same as overriding it. Abstract members require derived implementations, while sealed types or members prevent further inheritance or overrides when an extension point would violate the design.
 
+Polymorphism lets code invoke a common contract while the runtime type supplies the concrete behavior. Overriding inherited operations and implementing abstract members are dynamic forms; method or operator overloading chooses among statically known signatures.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

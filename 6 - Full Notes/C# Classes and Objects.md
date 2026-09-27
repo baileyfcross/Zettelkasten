@@ -10,6 +10,10 @@ A C# class defines a reference type whose members describe stored state and supp
 
 Every class ultimately derives from `System.Object`, which supplies common behavior such as string representation and type identity. A class acts as a design for possible objects; construction turns that design into a particular value with initialized state.
 
+A class acts as a reusable definition of state and behavior; an object is one instantiated identity created from that definition. Modeling begins by selecting the properties and methods relevant to the application's purpose rather than copying every characteristic of a real-world thing.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

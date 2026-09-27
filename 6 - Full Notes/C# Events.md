@@ -10,6 +10,12 @@ A C# event lets one object publish that something happened while other objects s
 
 The event boundary restricts outside code to subscription and unsubscription rather than arbitrary invocation. Event arguments carry details about the occurrence, and a custom event-argument type can add domain-specific data beyond the conventional sender reference.
 
+An event lets a publisher notify subscribed handlers without hard-coding each downstream action. Multiple handlers can subscribe with `+=` and unsubscribe with `-=`, allowing notification behavior to be extended independently of the publisher.
+
+The conventional .NET handler shape receives the publishing object and an `EventArgs` value carrying event-specific data.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

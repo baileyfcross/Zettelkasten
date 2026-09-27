@@ -4,7 +4,7 @@
   "chatReasoningEffort": "low",
   "chatKeepAlive": "10m",
   "showModelReasoning": true,
-  "lectureModel": "qwen3:30b-instruct",
+  "lectureModel": "gpt-oss:20b",
   "lectureThinking": false,
   "lectureRetrievalChunks": 8,
   "lectureSourceCharacterBudget": 12000,

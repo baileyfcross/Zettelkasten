@@ -2,7 +2,7 @@
   "id": "16f99b2b-25af-4b2b-94a8-41c2b8fa8f0e",
   "title": "Can you explain proofs for me? Make sure to u...",
   "createdAt": "2026-09-26T14:56:14.346Z",
-  "updatedAt": "2026-09-27T01:55:37.793Z",
+  "updatedAt": "2026-09-27T02:59:47.470Z",
   "messages": [
     {
       "id": "1ece9ca2-2516-4385-a45a-e8f405779db2",
@@ -105,6 +105,210 @@
         "answeringMs": 262804,
         "modelStartupMs": 24664.290117,
         "promptProcessingMs": 182133.046
+      }
+    },
+    {
+      "id": "ee0477f2-22ad-44f4-867d-fd15ce38417d",
+      "role": "user",
+      "content": "Can you create slides for me about proofs in terms for a second year class? I want some worked examples as well.",
+      "createdAt": "2026-09-27T02:34:39.889Z",
+      "requestState": "error"
+    },
+    {
+      "id": "583546fc-8254-4b35-9c4c-b9cad90a6731",
+      "role": "assistant",
+      "content": "**Request failed.**\n\nThe request did not complete. The error has been saved here so it can be reviewed later.\n\n**Error**\n\n```text\nStreaming chat request failed for model \"qwen3:30b-instruct\". socket hang up\n```",
+      "createdAt": "2026-09-27T02:35:25.350Z",
+      "sources": [
+        {
+          "filePath": "3 - Tags/Foundations of Mathematics.md",
+          "heading": "Foundations of Mathematics > Overview Chapter",
+          "score": 0.7796773155750315,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Mathematical Induction.md",
+          "heading": "Mathematical Induction",
+          "score": 0.723078111017189,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Proof Methods and Recursive Definitions.md",
+          "heading": "Proof Methods and Recursive Definitions",
+          "score": 0.6836704907666183,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "56 CHAPTER 1. LOGIC AND PROOF",
+          "score": 0.6361353502164835,
+          "sourceType": "pdf",
+          "pageStart": 60,
+          "pageEnd": 60,
+          "sectionNumber": "1.8",
+          "sectionTitle": "Mathematical Induction"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "40 CHAPTER 1. LOGIC AND PROOF",
+          "score": 0.6351394103136475,
+          "sourceType": "pdf",
+          "pageStart": 44,
+          "pageEnd": 44,
+          "sectionNumber": "1.6",
+          "sectionTitle": "Proof"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "1.8 Mathematical Induction",
+          "score": 0.6323760340711714,
+          "sourceType": "pdf",
+          "pageStart": 55,
+          "pageEnd": 55,
+          "sectionNumber": "1.8",
+          "sectionTitle": "Mathematical Induction"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "1.6. PROOF 41",
+          "score": 0.6166020953051013,
+          "sourceType": "pdf",
+          "pageStart": 45,
+          "pageEnd": 45,
+          "sectionNumber": "1.6",
+          "sectionTitle": "Proof"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "1.6. PROOF 43",
+          "score": 0.6128853664270822,
+          "sourceType": "pdf",
+          "pageStart": 47,
+          "pageEnd": 47,
+          "sectionNumber": "1.6",
+          "sectionTitle": "Proof"
+        }
+      ],
+      "requestState": "error",
+      "errorMessage": "Streaming chat request failed for model \"qwen3:30b-instruct\". socket hang up",
+      "generationDurationMs": 45224,
+      "stageTimings": {
+        "retrievalMs": 3658.5
+      }
+    },
+    {
+      "id": "632a83b2-a8ce-4f3d-ac7b-89ae11da1bd9",
+      "role": "user",
+      "content": "Can you create slides for me about proofs in terms for a second year class? I want some worked examples as well.",
+      "createdAt": "2026-09-27T02:42:48.938Z"
+    },
+    {
+      "id": "7c2311bf-58fc-408f-bb4e-7ee45dab5042",
+      "role": "assistant",
+      "content": "## Slide 1 – What Is a Proof?\n\n- A proof is a **logical argument** that shows a statement follows necessarily from given assumptions.  \n- In Foundations of Computation the structure is a sequence of statements: assumptions or consequences of previous statements via rules of logic.  \n- The result is a valid argument that can be trusted by anyone who accepts the assumptions.\n\n## Slide 2 – Types of Proofs\n\n- **Direct proof** – start with the hypothesis and apply rules (e.g., modus ponens) until the conclusion appears.  \n- **Indirect proof (contradiction)** – assume the negation of what you want to show, derive a contradiction, conclude the original statement is true.  \n- **Proof by contrapositive** – prove “if Q then P” to show “if P then Q”.  \n- **Mathematical induction** – prove a statement for all natural numbers using a base case and an inductive step.  \n- **Existence proof** – produce a concrete example to show “∃ x P(x)”.  \n- **Uniqueness proof** – show that any two objects satisfying a property must be identical.\n\n## Slide 3 – Why Induction Is Powerful\n\n- Natural numbers are ordered: 0, 1, 2, 3, … → an infinite but well‑ordered set.  \n- Induction states: if  \n  1. \\(P(0)\\) holds, and  \n  2. \\(\\forall k\\,(P(k)\\rightarrow P(k+1))\\) holds,  \n  then \\(\\forall n\\,P(n)\\) is true.  \n- This avoids proving infinitely many individual cases; one inductive step covers them all.\n\n## Slide 4 – Induction: Formal Statement (from the text)\n\n- **Principle of Induction** (section 1.8, page 55):  \n  If \\(P(0)\\) and \\(\\forall k\\,(P(k)\\rightarrow P(k+1))\\) are provable, then \\(\\forall n\\,P(n)\\) follows.  \n- The proof of the principle is a separate theorem (Theorem 2.3 in the book) but we use it as an axiom in most courses.\n\n## Slide 5 – Worked Example 1: Even → Square Even\n\n**Goal:** Show ∀ n (if n is even then n² is even).  \n1. Assume arbitrary integer \\(n\\).  \n2. Suppose \\(n\\) is even → \\(n = 2k\\) for some integer \\(k\\) (definition).  \n3. Then \\(n² = (2k)² = 4k² = 2(2k²)\\).  \n4. Thus \\(n² = 2m\\) for \\(m = 2k²\\); by definition \\(n²\\) is even.  \n5. Since the argument works for any \\(n\\), the universal statement holds.  \n\n- This is a **direct proof** using algebraic manipulation and the definition of evenness.\n\n## Slide 6 – Worked Example 2: Prime Factorization (Theorem 1.13)\n\n- **Statement:** Every natural number \\(>1\\) can be written as a product of primes.  \n- **Induction setup:** Let \\(P(n)\\) be “\\(n>1\\) ⇒ \\(n\\) is a product of primes”.  \n  - Base: \\(P(2)\\) true (2 is prime).  \n  - Inductive step: Assume \\(P(k)\\) for all \\(k\\le n\\).  \n    - If \\(n+1\\) is prime, trivial.  \n    - If composite, \\(n+1 = a\\,b\\) with \\(2\\le a,b \\le n\\).  \n    - By IH, \\(a\\) and \\(b\\) each have prime factorizations → so does \\(n+1\\).  \n- Conclusion: \\(P(n)\\) holds for all \\(n>1\\).  \n\n- Note: The text stresses that the inductive step need not use all previous cases; it may use any necessary assumptions.  \n\n## Slide 7 – Worked Example 3: Sum of Powers of 2\n\n**Statement (Exercise 3, page 60):**  \n\\[\n\\sum_{i=0}^{n} 2^i = 2^{n+1} - 1\n\\]\n- **Base \\(n=0\\):** \\(2^0 = 1 = 2^{1}-1\\).  \n- **Inductive step:** Assume true for \\(n=k\\).  \n  \\[\n  \\sum_{i=0}^{k+1} 2^i = \\left(\\sum_{i=0}^{k} 2^i\\right) + 2^{k+1}\n  \\]\n  Substitute IH: \\(= (2^{k+1}-1) + 2^{k+1} = 2^{k+2}-1\\).  \n- Hence holds for all \\(n\\).  \n\n- This demonstrates a classic use of induction with a summation formula.\n\n## Slide 8 – Exercises for Students\n\n1. **Induction Challenge:** Prove that \\(n^3 + 3n^2 + 2n\\) is divisible by 3 for all \\(n\\).  \n2. **Contradiction Practice:** Show that there is no smallest natural number that is not a sum of two squares.  \n3. **Existence Demo:** Find a number that is both a square and a cube (hint: 64).  \n\n- **Tip:** For (1), test \\(n=0,1,2\\) as base cases, then assume divisibility for \\(k\\) and show it for \\(k+1\\).\n\n## Slide 9 – Common Pitfalls\n\n- **Assuming the conclusion** in an inductive step (e.g., using \\(P(k+1)\\) to prove \\(P(k+1)\\)).  \n- **Missing the base case** or using a wrong base case (e.g., starting at \\(n=1\\) when \\(P(0)\\) is needed).  \n- **Unnecessary assumptions** about the arbitrary element \\(x\\); keep it truly arbitrary.  \n- **Confusing existential proofs** with universal ones; remember a counterexample disproves a universal statement.\n\n## Slide 10 – Summary\n\n- Proofs are the backbone of rigorous reasoning in mathematics and computer science.  \n- Induction is a central technique for handling properties of natural numbers.  \n- The Foundations of Computation provides clear patterns for building proofs: start with assumptions, apply logical rules, conclude universally.  \n- Practice: work through the provided examples and exercises to internalize the structure.\n\n---",
+      "thinking": "Need slides.",
+      "createdAt": "2026-09-27T02:59:47.469Z",
+      "sources": [
+        {
+          "filePath": "3 - Tags/Foundations of Mathematics.md",
+          "heading": "Foundations of Mathematics > Overview Chapter",
+          "score": 0.7796773155750315,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Mathematical Induction.md",
+          "heading": "Mathematical Induction",
+          "score": 0.723078111017189,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Proof Methods and Recursive Definitions.md",
+          "heading": "Proof Methods and Recursive Definitions",
+          "score": 0.6836704907666183,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "56 CHAPTER 1. LOGIC AND PROOF",
+          "score": 0.6361353502164835,
+          "sourceType": "pdf",
+          "pageStart": 60,
+          "pageEnd": 60,
+          "sectionNumber": "1.8",
+          "sectionTitle": "Mathematical Induction"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "40 CHAPTER 1. LOGIC AND PROOF",
+          "score": 0.6351394103136475,
+          "sourceType": "pdf",
+          "pageStart": 44,
+          "pageEnd": 44,
+          "sectionNumber": "1.6",
+          "sectionTitle": "Proof"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "1.8 Mathematical Induction",
+          "score": 0.6323760340711714,
+          "sourceType": "pdf",
+          "pageStart": 55,
+          "pageEnd": 55,
+          "sectionNumber": "1.8",
+          "sectionTitle": "Mathematical Induction"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "1.6. PROOF 41",
+          "score": 0.6166020953051013,
+          "sourceType": "pdf",
+          "pageStart": 45,
+          "pageEnd": 45,
+          "sectionNumber": "1.6",
+          "sectionTitle": "Proof"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "1.6. PROOF 43",
+          "score": 0.6128853664270822,
+          "sourceType": "pdf",
+          "pageStart": 47,
+          "pageEnd": 47,
+          "sectionNumber": "1.6",
+          "sectionTitle": "Proof"
+        }
+      ],
+      "generationDurationMs": 1018431,
+      "stageTimings": {
+        "retrievalMs": 3543.6999999955297,
+        "reasoningMs": 3848.7000000029802,
+        "answeringMs": 670049.5,
+        "modelStartupMs": 23644.511454,
+        "promptProcessingMs": 315584.846
       }
     }
   ]

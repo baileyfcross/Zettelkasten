@@ -8,7 +8,10 @@ Tags: [[Object-Oriented Design Patterns]]
 
 The strategy pattern defines interchangeable algorithms behind one operation and chooses which one to apply at runtime. A caller can request an outcome without embedding a branch for every algorithm. The book also shows a functional version: a filtering operation accepts a `Func<T, bool>` criterion, so supplying a different predicate changes the selection strategy without adding another class.
 
+Strategy turns a family of algorithms into interchangeable implementations of one abstraction. An object can receive the appropriate behavior through composition, avoiding an inheritance hierarchy that mixes independent behavioral dimensions.
+
 # References
 
-[[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
+[[hands-ondesignpatternswithcandnetcore.pdf]]

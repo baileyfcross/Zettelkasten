@@ -14,7 +14,11 @@ In the book's Azure flow, versioned build artifacts enter a release pipeline and
 
 The design-patterns source describes development, user-acceptance testing, and production as distinct promotion boundaries. Builds and checks can be automated while production still requires a scheduled or approved release, preserving a deployable artifact without claiming every passing change is live.
 
+The source extends successful integration into a multistage path where a versioned artifact can be promoted through test and staging toward production. Delivery means the release is ready and repeatable even when final production approval remains manual.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[agilegamedevelopment2e.pdf]]
 [[aspnetcore3andreact.pdf]]

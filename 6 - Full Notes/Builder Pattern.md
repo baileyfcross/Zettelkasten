@@ -10,7 +10,11 @@ The builder pattern separates the construction process for a complex object from
 
 A builder moves the steps required to assemble a complex object out of the client. Different builders can follow the same construction process while producing different representations, and a director can coordinate the sequence when that sequence itself is reusable.
 
+The room-construction example separates a configured building process from the client that requests a completed representation. .NET Generic Host applies the same pattern by accumulating service, configuration, and logging choices before building the host.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 

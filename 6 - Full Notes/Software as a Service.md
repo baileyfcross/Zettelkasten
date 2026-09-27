@@ -10,6 +10,10 @@ Software as a service delivers a hosted application that performs a recognizable
 
 Examples include customer relationship management, billing, communication, office productivity, and rendering tools. SaaS can lower local maintenance and support needs, but availability, data protection, provider dependency, export formats, and backup remain consumer concerns.
 
+The book connects SaaS to service design thinking: the provider owns not only executable software but also deployment, monitoring, adaptation, and the continuing outcome the customer receives as needs change.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[cloudcomputing_mit.epub]]

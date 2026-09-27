@@ -10,7 +10,11 @@ Command Query Responsibility Segregation (CQRS) separates operations that change
 
 The separation can begin in one application and one database. The command side loads an [[Aggregate]] through the [[Repository Pattern]] and protects its invariants, while an [[Application Query]] returns a purpose-specific [[Read Model]] without reconstructing the behavioral model. Separate storage is an optional later optimization, not part of the definition.
 
+The book describes CQRS as separating update commands from read queries when their specifications and performance needs differ. Its strongest form can give each side distinct models or stores, accepting synchronization cost for independent optimization.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-ondomain-drivendesignwithnetcore.pdf]]

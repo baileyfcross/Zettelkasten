@@ -12,7 +12,11 @@ Independent deployment and scaling can isolate change, but dividing one system i
 
 The design-patterns source frames a microservice as a small unit built around one business capability, loosely coupled by an explicit service contract, independently maintainable, and responsible for isolated state. Those boundaries permit different services and their data stores to scale or deploy at different rates, rather than merely splitting a monolith into smaller processes that still share one database.
 
+The architecture source distinguishes code modularity from deployment modularity. A microservice is valuable when a focused business capability, isolated persistence, loose communication, and independent deployment create an operational boundary—not merely when a codebase is split into more processes.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]

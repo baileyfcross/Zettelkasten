@@ -16,7 +16,11 @@ In Domain-Driven Design, a repository represents a collection of [[Aggregate]] r
 
 In an ASP.NET Core REST service, the repository boundary also lets the application layer select between Entity Framework Core, Dapper, or a test double without forcing controllers to understand provider-specific query mechanics.
 
+This book reinforces aggregate-centric repositories: the application layer depends on an interface for loading and storing roots, while provider-specific implementations are supplied through dependency injection.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[aspnetcore3andreact.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]

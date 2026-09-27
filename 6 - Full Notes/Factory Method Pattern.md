@@ -10,7 +10,11 @@ A factory method centralizes the decision about which concrete implementation to
 
 A factory method selects and constructs one implementation of a shared product abstraction according to creation logic hidden from the client. The client receives the common product type rather than hard-coding a particular concrete class.
 
+The architecture chapter uses factory behavior when creation must vary without making consuming code select and construct every concrete class directly. The seam preserves a stable use site while centralizing the choice of implementation.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 

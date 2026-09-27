@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-27T15:13:52.867Z",
+  "updatedAt": "2026-09-27T15:52:56.869Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -2965,13 +2965,13 @@
       ]
     },
     "3 - Tags/Azure Cloud Application Development.md": {
-      "sourceHash": "ad61b50ae7f1da525050f2a28114c143f659403d7fb52d86a8c670eb2566787f",
+      "sourceHash": "1b001298585b0759361dfc407c66a5ddcb7d3414ac27a3233db71165336afb73",
       "sourceType": "markdown",
       "fileName": "Azure Cloud Application Development.md",
       "title": "Azure Cloud Application Development",
-      "chunkCount": 9,
+      "chunkCount": 10,
       "objectHashes": [
-        "d32e7472c3c23a3798db30d3ae8c90c335667fb3940da7f2807683925412268d"
+        "fe08f9c8d898f3c1ec38f54b826baefa50224571656ef3a820cfcee7eec1e218"
       ]
     },
     "3 - Tags/Azure Cognitive Vision Applications.md": {
@@ -2992,6 +2992,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "3429952a526c20c9273f6ac00e0c60ddc83f2a45e90f609cab3bb38da3117b2c"
+      ]
+    },
+    "3 - Tags/Azure DevOps Work Planning and Traceability.md": {
+      "sourceHash": "4f3bb8541f76f7b18fbbbe3ac7d75639eabbd117998152514da17f97747e5f28",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps Work Planning and Traceability.md",
+      "title": "Azure DevOps Work Planning and Traceability",
+      "chunkCount": 2,
+      "objectHashes": [
+        "361134ad1ff3678af62b6509b6cc44d541d4e9571ff301f28e77bf0a767c08b4"
       ]
     },
     "3 - Tags/Azure Kubernetes Service Operations.md": {
@@ -3515,13 +3525,23 @@
       ]
     },
     "3 - Tags/C Sharp and .NET Development.md": {
-      "sourceHash": "689d47c3497781148ca4d54a4d40ce7ad8c747dfca5b4e96d9089c8c55ac55d8",
+      "sourceHash": "0d2ceb74c7e4a2dc24d4bb2f1660516bac44ad1cc45aa8c8bb1c99dac9bbf394",
       "sourceType": "markdown",
       "fileName": "C Sharp and .NET Development.md",
       "title": "C Sharp and .NET Development",
-      "chunkCount": 13,
+      "chunkCount": 14,
       "objectHashes": [
-        "e08cd01b58ccbae508eaec6c5d842f7d411e80231d89a9ce85b278d24503a931"
+        "9fa1e4c8e55d2ba3e71f1d223acf88d19db71dbcba621389217822507bdf5434"
+      ]
+    },
+    "3 - Tags/C Sharp Code Quality Metrics and Static Analysis.md": {
+      "sourceHash": "65ccc4464f7fe519d8b84394dcdf40489674e1a3b9ef8517ad9ac6e727ef089d",
+      "sourceType": "markdown",
+      "fileName": "C Sharp Code Quality Metrics and Static Analysis.md",
+      "title": "C Sharp Code Quality Metrics and Static Analysis",
+      "chunkCount": 2,
+      "objectHashes": [
+        "ad2524dc6c6b59120ee707327664f1e0702401c30ef4ae07e497eb7b9024bbc4"
       ]
     },
     "3 - Tags/C Sharp Exception Handling.md": {
@@ -3892,6 +3912,16 @@
       "chunkCount": 10,
       "objectHashes": [
         "0f7dc0e6934977ec70c3ea99ea640cfd37ad0f88bc73e510728d219b48d89eec"
+      ]
+    },
+    "3 - Tags/Cloud Data Storage Selection and Consistency.md": {
+      "sourceHash": "83c4d3334526c49da2b6ebefbe956cc8ed9ce769122a92379eeeff35f6c35451",
+      "sourceType": "markdown",
+      "fileName": "Cloud Data Storage Selection and Consistency.md",
+      "title": "Cloud Data Storage Selection and Consistency",
+      "chunkCount": 2,
+      "objectHashes": [
+        "e5b3674daa0def9dd0a827c41391270f41daf8d2420dc953de5afbc6c299a864"
       ]
     },
     "3 - Tags/Cloud Governance and Adoption.md": {
@@ -4272,6 +4302,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "1845a7ff4de45cb684f7f64fa8dbe88ee5a02cbcf75265d8d9a89b97a6245d33"
+      ]
+    },
+    "3 - Tags/Continuous Delivery Risk and Release Governance.md": {
+      "sourceHash": "233f11f40ade9c8f94e5cfaf5a400f9bc93c9f6c2deb5cf91b5080068cf87aae",
+      "sourceType": "markdown",
+      "fileName": "Continuous Delivery Risk and Release Governance.md",
+      "title": "Continuous Delivery Risk and Release Governance",
+      "chunkCount": 2,
+      "objectHashes": [
+        "76d4660a257f89aa0315788cd14ae1f2f06c7b448d675efaaf63bd96ac3df945"
       ]
     },
     "3 - Tags/Continuous Integration and Delivery.md": {
@@ -7965,13 +8005,13 @@
       ]
     },
     "3 - Tags/Software Design Patterns and Application Architecture.md": {
-      "sourceHash": "830b2b9d8ee9863b810b2288c41369705a496f0e407db02f0102fe264c83807c",
+      "sourceHash": "0d19b296c8e893313ab9bc1bded885ac7456890f8093a659a4f293e3cf546611",
       "sourceType": "markdown",
       "fileName": "Software Design Patterns and Application Architecture.md",
       "title": "Software Design Patterns and Application Architecture",
-      "chunkCount": 5,
+      "chunkCount": 6,
       "objectHashes": [
-        "98c7f0c18d74ab1458cfa6f8683cf34a6979bbca0de23aeb0473bbb5144b3386"
+        "c30df566b07e74ad8abdaa1884082166253333ee454b35832aca66142d03d1f4"
       ]
     },
     "3 - Tags/Software Design Principles.md": {
@@ -7992,6 +8032,26 @@
       "chunkCount": 2,
       "objectHashes": [
         "71ee90dd606cf1171f3ca08d158c8fdc055bbc823fd654e1e31e30ca3dca1436"
+      ]
+    },
+    "3 - Tags/Software Quality Attributes and Architecture Tradeoffs.md": {
+      "sourceHash": "adf2c4b1487d9443f53b7d4789ebd07f3e6b08ef5aac92f7885c13afaa26d9d0",
+      "sourceType": "markdown",
+      "fileName": "Software Quality Attributes and Architecture Tradeoffs.md",
+      "title": "Software Quality Attributes and Architecture Tradeoffs",
+      "chunkCount": 2,
+      "objectHashes": [
+        "01a0e989c789bd5e6861cfa87da604dc1cfa1a50059636ba3cab6d8aa31cd9dd"
+      ]
+    },
+    "3 - Tags/Software Requirements Elicitation and Specification.md": {
+      "sourceHash": "3acb8ea023e03f245a338f757db1b94ea32040dcd9b0d8d682219f36b38a8064",
+      "sourceType": "markdown",
+      "fileName": "Software Requirements Elicitation and Specification.md",
+      "title": "Software Requirements Elicitation and Specification",
+      "chunkCount": 2,
+      "objectHashes": [
+        "2883607f4ead7ecebe4bdda50d1bead6ec598bdb8943387bb32fc0ea717953d9"
       ]
     },
     "3 - Tags/Solar Thermal Collection.md": {
@@ -8292,6 +8352,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "a0d7ee8cfc4c45daf4f881629b238ba2c01178c87c021dd3ec2fb2bffdbe60bb"
+      ]
+    },
+    "3 - Tags/Test-Driven Development and Unit Test Design.md": {
+      "sourceHash": "9c37bd1b3f7cfbd2b2a2dd97edd7117350bd55726ae603310372fb485d482310",
+      "sourceType": "markdown",
+      "fileName": "Test-Driven Development and Unit Test Design.md",
+      "title": "Test-Driven Development and Unit Test Design",
+      "chunkCount": 2,
+      "objectHashes": [
+        "2eb13ce1a89a27b590399da33d9a0e2241c36bd0d4a85e1ed52f11f984e8299f"
       ]
     },
     "3 - Tags/Text Analytics Philosophy and Methods.md": {
@@ -9835,13 +9905,13 @@
       ]
     },
     "6 - Full Notes/Aggregate.md": {
-      "sourceHash": "b71acd9091ce198e5dedadb3ca735d5256a2699f1f95ee5b4870c130df987019",
+      "sourceHash": "3cd17f38e3d0fd9aa1ca3a384996c02348bdd6c640ec937401956e1333137115",
       "sourceType": "markdown",
       "fileName": "Aggregate.md",
       "title": "Aggregate",
       "chunkCount": 3,
       "objectHashes": [
-        "e1d275737a41abdcd73fd8c406777d309c0002a369515d7885760a146d1289dc"
+        "f70bf4b76b9ae9f7ceabea96698ac3ad4cb5a07b3d39bbada964084326b96808"
       ]
     },
     "6 - Full Notes/Aggregation Pattern.md": {
@@ -11685,13 +11755,13 @@
       ]
     },
     "6 - Full Notes/Application Telemetry.md": {
-      "sourceHash": "17e9495ca461fb8d94138d67634a6498da455fdf5ab3d1d89e9587e531d059b4",
+      "sourceHash": "2f9f18b74e744b3a4ab7ced38db7b798b002ced36b432ec39857c6026bc3fa4e",
       "sourceType": "markdown",
       "fileName": "Application Telemetry.md",
       "title": "Application Telemetry",
       "chunkCount": 3,
       "objectHashes": [
-        "a0a29259e9a1ef2f4717e43d86fe93952e54876497595d139a33ad98a5f1f4bf"
+        "45d5d914878d1d80216143dbc4e2dcad4e312368d5ffbfd7b1f397718b781230"
       ]
     },
     "6 - Full Notes/Application User.md": {
@@ -11892,6 +11962,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "37153166d15f3efa9168c23fe6adacc78cb3e5215994821f88e954c18fc90690"
+      ]
+    },
+    "6 - Full Notes/Architecture Tradeoff.md": {
+      "sourceHash": "caece86f5f7c2d29cee58496b434fe3ad62fab7f34b7ae7695c789387f59efde",
+      "sourceType": "markdown",
+      "fileName": "Architecture Tradeoff.md",
+      "title": "Architecture Tradeoff",
+      "chunkCount": 3,
+      "objectHashes": [
+        "836cb2f7623f2f78d76be79d2891497c89b2fc25d51a759fcc544e2ba931af00"
       ]
     },
     "6 - Full Notes/Area Under the ROC Curve.md": {
@@ -12185,13 +12265,13 @@
       ]
     },
     "6 - Full Notes/ASP.NET Core HttpClientFactory.md": {
-      "sourceHash": "6b8fa1ce8df18e53f4829461aa2cfb0eb5db017c050729eb59faff184c09a377",
+      "sourceHash": "5c54898a1802144cd9d9f30c71852c7ff3d3910726157f687fea584f228a59a2",
       "sourceType": "markdown",
       "fileName": "ASP.NET Core HttpClientFactory.md",
       "title": "ASP.NET Core HttpClientFactory",
       "chunkCount": 3,
       "objectHashes": [
-        "bb260894ee60551dfaf03e08dcdb5cd441c2edc9b7ae703cdb3da72339691381"
+        "4386f91e404a4964ebd65aa28e8dd2c0e4df7e364ea0513070c29298edcc4555"
       ]
     },
     "6 - Full Notes/ASP.NET Core Identity.md": {
@@ -12225,33 +12305,33 @@
       ]
     },
     "6 - Full Notes/ASP.NET Core Middleware.md": {
-      "sourceHash": "dc0a7ba30bbe5c2fe88690e0693d523f6a62ef1703d6f0764520501bf647fd62",
+      "sourceHash": "2666241008498baa4b2d166575c5b9212dd324cc8d3622327862fa527aad722e",
       "sourceType": "markdown",
       "fileName": "ASP.NET Core Middleware.md",
       "title": "ASP.NET Core Middleware",
       "chunkCount": 3,
       "objectHashes": [
-        "682becd468a1637f006823ba245258afbd7b99d03cf91025962d83a76f405045"
+        "2785214c7a43b38b8f54463117d87eba4401c67914510d580ee3df397050a660"
       ]
     },
     "6 - Full Notes/ASP.NET Core Model Binding and Validation.md": {
-      "sourceHash": "1166646780cbc3924b60cdeb324b5729c9f854e9333da9e58e1d562b93d4ca1a",
+      "sourceHash": "63639b2c5c58fe88ecf6793000fa7cdcc22383393cf4a5b3d277a1653b7b0c45",
       "sourceType": "markdown",
       "fileName": "ASP.NET Core Model Binding and Validation.md",
       "title": "ASP.NET Core Model Binding and Validation",
       "chunkCount": 3,
       "objectHashes": [
-        "03578b51f44eb4436bb23661c5ac87afa3f8f718cf35cc6426402c29f891a14c"
+        "4886ddaa893c724976ce4f19ccccdf6fa7538b1a6c8fc830e662f15828152981"
       ]
     },
     "6 - Full Notes/ASP.NET Core MVC Routing.md": {
-      "sourceHash": "608e779c6ac1de305060c4411a7c0c9a61627abaa9fa5002ca8b73193baf7003",
+      "sourceHash": "d000f6afaf96cb3e59d681415c50173fa111d1cdc0ba3bfbca25180707bb161a",
       "sourceType": "markdown",
       "fileName": "ASP.NET Core MVC Routing.md",
       "title": "ASP.NET Core MVC Routing",
       "chunkCount": 3,
       "objectHashes": [
-        "883933625970d699f66910032e0375444bc197bba7341c515c88ef2443fd84fd"
+        "12debcab160d93fe6a465e64b151411b23a19fea98aeb77cc32a85905d7efbb3"
       ]
     },
     "6 - Full Notes/ASP.NET Core Response Cache Attribute.md": {
@@ -12275,13 +12355,13 @@
       ]
     },
     "6 - Full Notes/ASP.NET Core WebApplicationFactory.md": {
-      "sourceHash": "1ef78ff03fc9cd9bc000980866da1a515a959f28cc8db1e9b8c728f1e9a86c66",
+      "sourceHash": "812259ec065cff9d9cae170c46f6c08665a845ba0df8ba9218fb4a3dca87d40a",
       "sourceType": "markdown",
       "fileName": "ASP.NET Core WebApplicationFactory.md",
       "title": "ASP.NET Core WebApplicationFactory",
       "chunkCount": 3,
       "objectHashes": [
-        "19f3419dfa1cd8444124c94b2ab55138a72f6dc0646a9434e9e177d7fe4a0ad0"
+        "505ce011ec01a69d915e952bbd0ce676ce78f80332867a914c30fa7d971da20a"
       ]
     },
     "6 - Full Notes/ASP.NET Core.md": {
@@ -13035,13 +13115,13 @@
       ]
     },
     "6 - Full Notes/Automated Deployment.md": {
-      "sourceHash": "e108246a3db393e197f9325e2ed714bacd4e3bba7b642f7908e86c816dec65db",
+      "sourceHash": "3f523e91304c12fc8455aca0b2ab74250db6400e768392f0eed6016071c4c81a",
       "sourceType": "markdown",
       "fileName": "Automated Deployment.md",
       "title": "Automated Deployment",
       "chunkCount": 3,
       "objectHashes": [
-        "ba4f69928f29f50de1b05f020596b70151740b4c9ef0ab2df68aa4644b3a68b2"
+        "d8fcb89f5e665e1eb5fcaf6925cab83d4e2b1d55462c9031044cc0a991e9b73c"
       ]
     },
     "6 - Full Notes/Automated Feature Engineering.md": {
@@ -13102,6 +13182,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "ca78560f18beeb84c4d14246cb61317f00a46ef88860cd1e260fe5bf43a492f4"
+      ]
+    },
+    "6 - Full Notes/Automated Unit Test.md": {
+      "sourceHash": "78638fbe4c4fe80a738060bb718c7a5dfc88a0e78860f9fe453b2b738d877cda",
+      "sourceType": "markdown",
+      "fileName": "Automated Unit Test.md",
+      "title": "Automated Unit Test",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f58debe0f752be944175a7fe05834561d09cbc9dfaa10560ee241fe7ceb1ed1a"
       ]
     },
     "6 - Full Notes/Automatic Carry in Mechanical Calculators.md": {
@@ -13454,6 +13544,16 @@
         "4bd4fdb4c95c5761d5064a022b055d88efc4e9d2e73bd4877b727dfa0d0b35a7"
       ]
     },
+    "6 - Full Notes/Azure Artifacts.md": {
+      "sourceHash": "a43fbcb2018be3e0daecabb1d617c78acc7132ab175ae9112685af2f1b15a28a",
+      "sourceType": "markdown",
+      "fileName": "Azure Artifacts.md",
+      "title": "Azure Artifacts",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0d9e5569d3acb77da502402a0fe6bdd05ea3d45ac146be5478b69f25a436a306"
+      ]
+    },
     "6 - Full Notes/Azure Blob Storage.md": {
       "sourceHash": "ba4fdfcbe8d9dd0cc962e2fa4dc4e695b88846c01b47765c3bdf4896b49bbedb",
       "sourceType": "markdown",
@@ -13462,6 +13562,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "eb5ce01ceb365450969aaa2da273d755778c8938b7fdb5e68b9d45bc4b192679"
+      ]
+    },
+    "6 - Full Notes/Azure Boards.md": {
+      "sourceHash": "3f6ce70e8030a1fe9af9112fa75d4c546d492c6a4c534ce3fe03ed766bf3795f",
+      "sourceType": "markdown",
+      "fileName": "Azure Boards.md",
+      "title": "Azure Boards",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2000301e8c8a2675648957f8d900e21ad032ced04e2085b41db2ad8d2c675336"
       ]
     },
     "6 - Full Notes/Azure Cognitive Services.md": {
@@ -13495,13 +13605,13 @@
       ]
     },
     "6 - Full Notes/Azure Container Registry.md": {
-      "sourceHash": "d9186fceb8473002e1b1b031c5dd6ecdc0f3cba795b23894a2bc22c3f5912329",
+      "sourceHash": "2069a1e178a238c6ca0a2170cbeb57c4fd60181b7d42becd4a131d67c1bc440a",
       "sourceType": "markdown",
       "fileName": "Azure Container Registry.md",
       "title": "Azure Container Registry",
       "chunkCount": 3,
       "objectHashes": [
-        "e8f0caff75f1b74208e51edc017bc8a5e3adcce58f8fe8927cc8863af6fd8e84"
+        "53531df88d238583539388c303fd44ee98cdac486d86c507d5de834b2ec8d4b1"
       ]
     },
     "6 - Full Notes/Azure Containerized Service Configuration.md": {
@@ -13534,14 +13644,94 @@
         "5c77a9963eae39a3894e2c1f84bfaf49698de2c43a8c0da3425440ce495b8893"
       ]
     },
+    "6 - Full Notes/Azure DevOps Area Path.md": {
+      "sourceHash": "b65e206192a4915dd958436b0227f9d80ad9aafa8cfda12b39df5126e74f9b5a",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps Area Path.md",
+      "title": "Azure DevOps Area Path",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f8de68663da839e96cd6a809423be416bc5bbce125f3c4ebe15a4fe2ce2f5f3c"
+      ]
+    },
+    "6 - Full Notes/Azure DevOps Epic.md": {
+      "sourceHash": "7ae3ce691e33ecbd27427e17c59307e45b7ef830ccf3132dd8286b3cd840653e",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps Epic.md",
+      "title": "Azure DevOps Epic",
+      "chunkCount": 3,
+      "objectHashes": [
+        "42836427e2bf7bac2b6356815fb72d81ee69f4b989df0fcca96bb36b8f210227"
+      ]
+    },
+    "6 - Full Notes/Azure DevOps Feature Work Item.md": {
+      "sourceHash": "d6d6be6f5c4367ee0400f69c2716de4a360111fe7c7c74213036c9e4873888fc",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps Feature Work Item.md",
+      "title": "Azure DevOps Feature Work Item",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e729973d30efb66a0625894998a77429386126d1d16a31c380bf6c7f1153e2db"
+      ]
+    },
+    "6 - Full Notes/Azure DevOps Iteration Path.md": {
+      "sourceHash": "2b96f184e56d8833334ff724191523e25f3a8a955365cba20bd6a4537160b440",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps Iteration Path.md",
+      "title": "Azure DevOps Iteration Path",
+      "chunkCount": 3,
+      "objectHashes": [
+        "dba0dcce14cfa248d20b7df6ba6f9f994e097f04a8a4a155d05ba98ad9936d4b"
+      ]
+    },
+    "6 - Full Notes/Azure DevOps Product Backlog Item.md": {
+      "sourceHash": "9ac368132ed788a1be480dbdf3a4ebbd9d0fd17566fa4dccead92d0151c5c03b",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps Product Backlog Item.md",
+      "title": "Azure DevOps Product Backlog Item",
+      "chunkCount": 3,
+      "objectHashes": [
+        "91ba6f26f61e5c072c722995794d1cb5a7e4dabac43d44b468154822ef585028"
+      ]
+    },
+    "6 - Full Notes/Azure DevOps Sprint Planning.md": {
+      "sourceHash": "a8b5a1bd543b68506c2da03f548d8d854a36aa6547ddfc1715353055bc1a1ca3",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps Sprint Planning.md",
+      "title": "Azure DevOps Sprint Planning",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6a47baab782a4fd3ce8e671860daabf7d02f99e8c9fce492c4fd08b9cc804391"
+      ]
+    },
+    "6 - Full Notes/Azure DevOps Task Work Item.md": {
+      "sourceHash": "66b25e081cc7465d6cb4a804b5cc7e6a8ca705e7a10ba51a2421682aab266e1b",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps Task Work Item.md",
+      "title": "Azure DevOps Task Work Item",
+      "chunkCount": 3,
+      "objectHashes": [
+        "badca8b05f46105199af2dc111571d757a0f5f5624d6ddbb3f1d9d9506d32d75"
+      ]
+    },
+    "6 - Full Notes/Azure DevOps User Story Work Item.md": {
+      "sourceHash": "2495f96ec40e30543e48eb76fd7fea1a04e6a5da1bf4e8a7489877417204b028",
+      "sourceType": "markdown",
+      "fileName": "Azure DevOps User Story Work Item.md",
+      "title": "Azure DevOps User Story Work Item",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6231333e00fb5ce417ab52199667e6ceb45ba3ef47fe8b80107e509477afecc0"
+      ]
+    },
     "6 - Full Notes/Azure DevOps.md": {
-      "sourceHash": "d46ccf95420c4b45e8ebf99d9ce97c20313fc8cffb29d39e56e8e507f9c81b0a",
+      "sourceHash": "ec3a61b36503bf2c18704e1126e93947c70f31fb46a305a0737c9352378907a3",
       "sourceType": "markdown",
       "fileName": "Azure DevOps.md",
       "title": "Azure DevOps",
       "chunkCount": 3,
       "objectHashes": [
-        "30482baefec20aab2eb7d9fccd224dd748e9b1a7b23a28ab3260daa76a0016c4"
+        "e85c695eafe3dce434dcb336eaf703498405181254e5bf336055c7481537c24c"
       ]
     },
     "6 - Full Notes/Azure Face API.md": {
@@ -13555,23 +13745,23 @@
       ]
     },
     "6 - Full Notes/Azure Function.md": {
-      "sourceHash": "b3742e49673bb97ab057c205272b9f141dd3f808fcb23045d16277bf74c31505",
+      "sourceHash": "ffda4e7da0cc0c5576c4ed08094858b4cb6365d891de5da268f7f95252ae93ba",
       "sourceType": "markdown",
       "fileName": "Azure Function.md",
       "title": "Azure Function",
       "chunkCount": 3,
       "objectHashes": [
-        "3c9d87963d635a37ef8732cf1db9408e37e803135f8959a6df46d66d38e8a47a"
+        "bb4bfc32a41c2b57de0bc15dece833eb32abd7c8f4414b62a1c60b7fa34014e8"
       ]
     },
     "6 - Full Notes/Azure Kubernetes Service.md": {
-      "sourceHash": "8a26788bd6da0dbd5a4cb9763fc02a25933966218ba840b2a5c8a94879e92e1e",
+      "sourceHash": "107f22dfdad3c99666d62111ab101f25ba479ac91e8c64b10e72c81b6aef1d8b",
       "sourceType": "markdown",
       "fileName": "Azure Kubernetes Service.md",
       "title": "Azure Kubernetes Service",
       "chunkCount": 3,
       "objectHashes": [
-        "d60d03cc4d9f8797423a952dd021839289453d1a8893b6f5c2f107f23cc68396"
+        "69a2b1217daa57d8574efcebdeec67f7f23dc1fef40314208fc997630a1fbe8e"
       ]
     },
     "6 - Full Notes/Azure Logic Apps.md": {
@@ -13582,6 +13772,26 @@
       "chunkCount": 3,
       "objectHashes": [
         "c351222951b614aee55fa424644bcf35f04c1f9fcbdd18092384911da5736a55"
+      ]
+    },
+    "6 - Full Notes/Azure Pipelines.md": {
+      "sourceHash": "3b216182e19cc5f8d650ae41f378d34ce7e72b29c34fd54cff024a069a662f39",
+      "sourceType": "markdown",
+      "fileName": "Azure Pipelines.md",
+      "title": "Azure Pipelines",
+      "chunkCount": 3,
+      "objectHashes": [
+        "92fe8c74461855501f1ceed14f579ffb580161eca6d28b8797e41a536bf23740"
+      ]
+    },
+    "6 - Full Notes/Azure Repos.md": {
+      "sourceHash": "621f489faadc993a2267ab26465af866145d97af1de42773cb3dcdb33b3afc06",
+      "sourceType": "markdown",
+      "fileName": "Azure Repos.md",
+      "title": "Azure Repos",
+      "chunkCount": 3,
+      "objectHashes": [
+        "904f6f4f86b794cba0e55b2902fe897c53e5daa30e4c13fb082b7b1f9148476c"
       ]
     },
     "6 - Full Notes/Azure Resource Group.md": {
@@ -13662,6 +13872,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "518e5cf777c3bde57665e7caf60d0accea4d8626d576fbd8491b4701f134d979"
+      ]
+    },
+    "6 - Full Notes/Azure Test Plans.md": {
+      "sourceHash": "51b4ff328f9097e687cb1aa8a62122d347bb4255a8762459a436dfeb5abeb86e",
+      "sourceType": "markdown",
+      "fileName": "Azure Test Plans.md",
+      "title": "Azure Test Plans",
+      "chunkCount": 3,
+      "objectHashes": [
+        "eed1feefbc9810b8a46cf64e863faa9faa221b5afba534f323545c0ddd31fb6d"
       ]
     },
     "6 - Full Notes/Babbage Analytical Engine.md": {
@@ -18465,13 +18685,13 @@
       ]
     },
     "6 - Full Notes/Bounded Context.md": {
-      "sourceHash": "bca0f76688fb34081abf7077728d0645062d96b3437ef43c01172258cd08a607",
+      "sourceHash": "94d6b3cbe649d31b890034bcb62cf20ceddd7031acce4c927b2455169c4ae9aa",
       "sourceType": "markdown",
       "fileName": "Bounded Context.md",
       "title": "Bounded Context",
       "chunkCount": 3,
       "objectHashes": [
-        "e8213a31fdecbefc534648d2cbfdd9f21621e67a25fb0e7b90a4298de3132daf"
+        "2f5b2323697a911e550890a6a99194b083979b95b68574caf8b3a9a3fdfb3943"
       ]
     },
     "6 - Full Notes/Bounded Interval.md": {
@@ -18695,23 +18915,23 @@
       ]
     },
     "6 - Full Notes/Build Pipeline.md": {
-      "sourceHash": "fe30e3b4fe63c2ff72f746b64e54b8d003fea71c20c0800333069297c23d240e",
+      "sourceHash": "4f2b03cdc7df2fbd25aaf939d530f6aca8add2d0095e9dd60c6239578a196f28",
       "sourceType": "markdown",
       "fileName": "Build Pipeline.md",
       "title": "Build Pipeline",
       "chunkCount": 3,
       "objectHashes": [
-        "a5a8c0976675d19c1f973cd6e2825e93979646e00c96ff73bd91f96b77c8e855"
+        "0788621dcd5b90a86f11497f2fa5e2d2281ed25905e4e95741c6dda936a4502d"
       ]
     },
     "6 - Full Notes/Builder Pattern.md": {
-      "sourceHash": "950dffa041bf1b414e0ea10df38286cdb56ec032e55e2d686e39905f66d2c99d",
+      "sourceHash": "1657daa76bbfbe651475a412dbe70ba4ba637e74c5e91aa9b7dc39c372824253",
       "sourceType": "markdown",
       "fileName": "Builder Pattern.md",
       "title": "Builder Pattern",
       "chunkCount": 3,
       "objectHashes": [
-        "125f5a112525a638fc94da32197e63b5e6a63708977b3ccfe02d3f882117769f"
+        "f7d715f12377152bf665f0cfaa015fe411c2fb80feba38bc6b36dab027a5da61"
       ]
     },
     "6 - Full Notes/Building with Living Cells.md": {
@@ -19402,6 +19622,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "ac171cd4a3119c1391f0caaaaae2e38239f1c9384fe65972ff6eca89a1ef6d01"
+      ]
+    },
+    "6 - Full Notes/Cache as Database.md": {
+      "sourceHash": "8995dac692fbd907aab98fd3aafc50ec6c903267d9b4e488916b02e13121c622",
+      "sourceType": "markdown",
+      "fileName": "Cache as Database.md",
+      "title": "Cache as Database",
+      "chunkCount": 3,
+      "objectHashes": [
+        "79fcfddcc7e661695a6b4e60063fbc7f612dc3ce25b16bf51b0ee1acd85a869e"
       ]
     },
     "6 - Full Notes/Cache Entry.md": {
@@ -20734,6 +20964,16 @@
         "f4cb79f2b2fbf1498271c537f61d99d304ac54d2d681a7ac4fb014917ecf7270"
       ]
     },
+    "6 - Full Notes/Class Coupling.md": {
+      "sourceHash": "4d9e32c39c26d66d2d470408c7bc6c90d0bad8dab2f125434c89d1520e37cc3a",
+      "sourceType": "markdown",
+      "fileName": "Class Coupling.md",
+      "title": "Class Coupling",
+      "chunkCount": 3,
+      "objectHashes": [
+        "611c962a2f9dcd0e2fda6182aed1b87844c8a53051c5abf719d1ee73ffb6bb13"
+      ]
+    },
     "6 - Full Notes/Class Label.md": {
       "sourceHash": "b1498a9deb54b3388f6352a1ee7b283fbc0988372518ab7c0091315599b4389a",
       "sourceType": "markdown",
@@ -21335,13 +21575,13 @@
       ]
     },
     "6 - Full Notes/Cloud Deployment Model.md": {
-      "sourceHash": "447d5432db81447206432fbec497ac4cd44ce086ad14fd0ef3ecc056927ecb42",
+      "sourceHash": "0c007b9a5f39f0041a0593a26ae5a3399a937e5aafdbd28a4cc3cf57a34b11f7",
       "sourceType": "markdown",
       "fileName": "Cloud Deployment Model.md",
       "title": "Cloud Deployment Model",
       "chunkCount": 3,
       "objectHashes": [
-        "560d94b7cc3e0b03efc6919623e22f4c6aef97eb1f4ea630d8beb0f8cdcb29f8"
+        "d73da7fa3502c9f1c9b7f71c00e2e0f9808aa2d6b0ae4411d3398dbc3f77445d"
       ]
     },
     "6 - Full Notes/Cloud Examination Service.md": {
@@ -22534,6 +22774,36 @@
         "a3c718234235820ac344544cc44864242d1a6dde0656f1e9b922ab0240c0ad8c"
       ]
     },
+    "6 - Full Notes/Code Analysis Build Step.md": {
+      "sourceHash": "815b8d1d2493aa0f642d564a4d705f691232d7b039ffa9a62b7cde7e74c435bc",
+      "sourceType": "markdown",
+      "fileName": "Code Analysis Build Step.md",
+      "title": "Code Analysis Build Step",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8d01479188164d2b82fe553b13df6349b62b9af2c873519a8a37ccdf21f3f2b2"
+      ]
+    },
+    "6 - Full Notes/Code Cracker Analyzer.md": {
+      "sourceHash": "1084dd1656124c019f156c6f4c5e14f38c07df7ea0fe208c6bb918a1980441c2",
+      "sourceType": "markdown",
+      "fileName": "Code Cracker Analyzer.md",
+      "title": "Code Cracker Analyzer",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a3f7f321937a4d6f5b04402cf5b6239038612223d720f953b92687f2685e812b"
+      ]
+    },
+    "6 - Full Notes/Code Metric Threshold.md": {
+      "sourceHash": "466f37b1863cefcc6599c192ef9dc9886f1709a5fece8b9af0f59a188fa9c077",
+      "sourceType": "markdown",
+      "fileName": "Code Metric Threshold.md",
+      "title": "Code Metric Threshold",
+      "chunkCount": 3,
+      "objectHashes": [
+        "732fe6fabc1f55e9f11426d08302fa15238d480b985f1ecd0051e0a3b202a1b6"
+      ]
+    },
     "6 - Full Notes/Code-First Development.md": {
       "sourceHash": "86b33ef5613590722ac5a76cb316d388f9a2b6d0e3d4cb4961d93f455d535aa9",
       "sourceType": "markdown",
@@ -22965,23 +23235,23 @@
       ]
     },
     "6 - Full Notes/Command Pattern.md": {
-      "sourceHash": "f6c03b25943c033e9e590807bff11e2346e34b4bf5f72852dd31f7a838d2a0a7",
+      "sourceHash": "0c14f60bb0e90ccf3cc6da49b0ca219737c10b93e43aecd191288d77101e48f3",
       "sourceType": "markdown",
       "fileName": "Command Pattern.md",
       "title": "Command Pattern",
       "chunkCount": 3,
       "objectHashes": [
-        "2aed8776650a93ca771ccff12a9158f4340f9fc40cfb76dc5b26a0cbc2b72d74"
+        "c4baeda7e343bd1f25bca679c4b1e657189ee04c9f6b98ce8bc11df215d3b3d3"
       ]
     },
     "6 - Full Notes/Command Query Responsibility Segregation.md": {
-      "sourceHash": "a3da8b6db460fa152392bbaefbb4a9a224795a2319285679cab74f20e2fa7c65",
+      "sourceHash": "b821d3468312c6bee62b0561ccef7fcef428835f278c2f69e4c00534c8952fb5",
       "sourceType": "markdown",
       "fileName": "Command Query Responsibility Segregation.md",
       "title": "Command Query Responsibility Segregation",
       "chunkCount": 3,
       "objectHashes": [
-        "eda20df5712d5881c5dabfc8c801783ddc0a18c99c2d8254fab86316ba502e76"
+        "b285d53f374649aaedf4ea8d05e1e2553d996c8219033974da0872b10b32d887"
       ]
     },
     "6 - Full Notes/Commercial Electronic Computing.md": {
@@ -23232,6 +23502,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "654906b967dbd1844e20629398a1c7ed840c3646b0517f63ad65b809adb1f5e5"
+      ]
+    },
+    "6 - Full Notes/Compiler Diagnostic Severity.md": {
+      "sourceHash": "7a0b542dd9199c840a7f4a84fbe122a014e62c2ffd4b8a9045a74be2d17d69a7",
+      "sourceType": "markdown",
+      "fileName": "Compiler Diagnostic Severity.md",
+      "title": "Compiler Diagnostic Severity",
+      "chunkCount": 3,
+      "objectHashes": [
+        "30377eb1b26351a9c30bc458675ea792719d4c8c27bdc2c5a2d21014d5a48b05"
       ]
     },
     "6 - Full Notes/Compiler Origins.md": {
@@ -25165,13 +25445,13 @@
       ]
     },
     "6 - Full Notes/Continuous Delivery.md": {
-      "sourceHash": "c000ad949da8860db9476064d2513f7177692e73c1f09e8622a58d2ade373b9f",
+      "sourceHash": "2654832ee3129e6e43da8e9c5d0dfbcc24f0b0300d437d3a07c056735851f7e6",
       "sourceType": "markdown",
       "fileName": "Continuous Delivery.md",
       "title": "Continuous Delivery",
       "chunkCount": 3,
       "objectHashes": [
-        "27a753f797da7bbf56daf4a6d7bf1e8a18cb9f36170e3fd078c392d4c691782f"
+        "5ca4757f0049da824505f9c2e9f784625999736011df1c67d6a7cebc1ff75f99"
       ]
     },
     "6 - Full Notes/Continuous Deployment.md": {
@@ -25195,13 +25475,13 @@
       ]
     },
     "6 - Full Notes/Continuous Integration.md": {
-      "sourceHash": "5218d76f5ddde262f3ca58c446e062968afd167ab28a8a28ceb71ad34feebc81",
+      "sourceHash": "251cad030bbc65f126025a6680b70b31841350170e2f8bf948151d204036b29a",
       "sourceType": "markdown",
       "fileName": "Continuous Integration.md",
       "title": "Continuous Integration",
       "chunkCount": 3,
       "objectHashes": [
-        "a6121dc281495de6c6ac30b1681617c90f993bdd97f8addc936fc0b054a6dcfb"
+        "4621a0c65033156b4a10c4d9c4b4e4b9b26052355ffe144e44b10262020c0a4e"
       ]
     },
     "6 - Full Notes/Continuous Speech Recognition.md": {
@@ -25824,6 +26104,16 @@
         "98157fbac888ac6917c99ddbe457ff6b4b4d73d290cbd798c85daed18f3307c7"
       ]
     },
+    "6 - Full Notes/Cosmos DB Consistency Level.md": {
+      "sourceHash": "01a0c6a6e181766b6c7b53f604fae12996fda79ed5294e1a6b1a9351a22f1a09",
+      "sourceType": "markdown",
+      "fileName": "Cosmos DB Consistency Level.md",
+      "title": "Cosmos DB Consistency Level",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5d293f571fc5e3e20c25e425f18268ca7c2baf89ff3816abf49e78c4b5049a65"
+      ]
+    },
     "6 - Full Notes/Cosmos DB Global Distribution.md": {
       "sourceHash": "0d683431aee01912f4cc35fbfe9aa9918af4b93f114bf60ba37298ea94d4f3f2",
       "sourceType": "markdown",
@@ -25844,6 +26134,16 @@
         "01a0f12dafa4a1fd860af06e26c3f1bfa15b201bc0ee99350b293f1b96ae61d1"
       ]
     },
+    "6 - Full Notes/Cosmos DB Partition Key.md": {
+      "sourceHash": "f4bd1009d6414ab7ec2681dce13ffe9c846895be68428605da33a63c4ca63858",
+      "sourceType": "markdown",
+      "fileName": "Cosmos DB Partition Key.md",
+      "title": "Cosmos DB Partition Key",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ea3d7da2c336dc84f9385ac7dcbe3ea5f365a4ef3f553fd285bb98c610ae96df"
+      ]
+    },
     "6 - Full Notes/Cosmos DB Request Unit.md": {
       "sourceHash": "93d8e60a5f7041914ce12df64f264f461873fa8bc7777a12b4cf81bf493ad541",
       "sourceType": "markdown",
@@ -25852,6 +26152,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "fcee23c0807527df6108909baff0e1efe6d2ebcb0113ab2d14f3dc9e9be27104"
+      ]
+    },
+    "6 - Full Notes/Cost-Constrained Architecture.md": {
+      "sourceHash": "ca6951dbd79471c3ebd8159f501c8d1d6fafd22ba9aa1d500a2511044d936d3c",
+      "sourceType": "markdown",
+      "fileName": "Cost-Constrained Architecture.md",
+      "title": "Cost-Constrained Architecture",
+      "chunkCount": 3,
+      "objectHashes": [
+        "93fa982fcfdef01caa9fcd095e3f6ac0d23f44a0cf3a391cb14f0f1773016562"
       ]
     },
     "6 - Full Notes/Cost-Sensitive Rare-Class Learning.md": {
@@ -28434,6 +28744,16 @@
         "e89b9c7fe6e62507aab89133396e3b14681ecb3e81793e99fc3fdb5955cb4466"
       ]
     },
+    "6 - Full Notes/Cyclomatic Complexity.md": {
+      "sourceHash": "57c8d1e8a9c4dc07f29b141d02fef79023e0aa02159e5f8a56ef5f5b38a61a39",
+      "sourceType": "markdown",
+      "fileName": "Cyclomatic Complexity.md",
+      "title": "Cyclomatic Complexity",
+      "chunkCount": 3,
+      "objectHashes": [
+        "feded9ad090459b9418b4b9b47645833f0628992564c8f2c2b7eeb895c1b6929"
+      ]
+    },
     "6 - Full Notes/Cylinder Projection UV Mapping.md": {
       "sourceHash": "2130d08ed34ad96989e9fcc9252eddaf75efb8022b566d186f008aee09fb8156",
       "sourceType": "markdown",
@@ -28565,13 +28885,13 @@
       ]
     },
     "6 - Full Notes/Data Annotation.md": {
-      "sourceHash": "7210446bbc89b170b1afd91f9f647459041ea6453e4f8db3b041622a5de6c677",
+      "sourceHash": "34b0feb37f405f9047b7e5b961df195d138621193921bebd8d4e03128a3e442d",
       "sourceType": "markdown",
       "fileName": "Data Annotation.md",
       "title": "Data Annotation",
       "chunkCount": 3,
       "objectHashes": [
-        "69191073a22a11c306754bdecdb2a33d6be1cbdbed7758fef45360f19aedae3b"
+        "7232f89dd527a387ad2227bd8ca54b530c7bd83eac5f760cfd77b750cba2032e"
       ]
     },
     "6 - Full Notes/Data Archive.md": {
@@ -28642,6 +28962,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "1961ab285588f2fc6b37bc2493065400f1cff7c95ae739f2bc5c6a0ecd662569"
+      ]
+    },
+    "6 - Full Notes/Data Consistency.md": {
+      "sourceHash": "c6c5621137f61fdfc5466be620349d614f3c7fc3110850c466e21e9702254076",
+      "sourceType": "markdown",
+      "fileName": "Data Consistency.md",
+      "title": "Data Consistency",
+      "chunkCount": 3,
+      "objectHashes": [
+        "60375bdb4f0720876b2bdd89e859605f51d689c8d931a3a842d43cfde13008ea"
       ]
     },
     "6 - Full Notes/Data Cube.md": {
@@ -29174,6 +29504,16 @@
         "2896929969c3161bf34bdc6e5192232504970ed1d6544a256d5742e8d546af0f"
       ]
     },
+    "6 - Full Notes/Data Store Selection.md": {
+      "sourceHash": "f071568d301843bcb3cc36279178deb5c87bb9b044240ef73096f9c38a807d17",
+      "sourceType": "markdown",
+      "fileName": "Data Store Selection.md",
+      "title": "Data Store Selection",
+      "chunkCount": 3,
+      "objectHashes": [
+        "9aa4db7479fa8961f3a84abea34484c0008d63f1d6c3584e75b06e4ccbd244d9"
+      ]
+    },
     "6 - Full Notes/Data Stratification.md": {
       "sourceHash": "7069fb42caccf4679a1aed5183b42da96863c4769380a2f11a72405e0aa903ca",
       "sourceType": "markdown",
@@ -29375,13 +29715,13 @@
       ]
     },
     "6 - Full Notes/Database Context.md": {
-      "sourceHash": "634f3cec373b37411c89305917fc0ee93e5babb202fd46431b82290ec56ea2ff",
+      "sourceHash": "417ae89f224a0f3d101c5955d7462042b258c2e66aa3b0e3f28367a91a74e856",
       "sourceType": "markdown",
       "fileName": "Database Context.md",
       "title": "Database Context",
       "chunkCount": 3,
       "objectHashes": [
-        "a0ad5c30d4c7e961707361adf3bb4eec9f633f1ef45efaf2d077fbdfa5d70011"
+        "6d3794e8996d05ac8a3fef5161e083d67ed487a9ed76aa0554b33ed86659b982"
       ]
     },
     "6 - Full Notes/Database Health Check.md": {
@@ -30275,13 +30615,13 @@
       ]
     },
     "6 - Full Notes/Dependency Injection.md": {
-      "sourceHash": "b61a143fcded91af5033541ea52691f8d38bcc9964266a658af3f109ae81492b",
+      "sourceHash": "bb5ba187e2d609cc944820544a52cad691a6c4a699f59707dffaa07be1f8e1c6",
       "sourceType": "markdown",
       "fileName": "Dependency Injection.md",
       "title": "Dependency Injection",
       "chunkCount": 3,
       "objectHashes": [
-        "f6d4142b5aa947a911d647e56b7c156c72a9410c78f2f39ad688c15d834506bf"
+        "358168503f4f2d9dedf3af325c1a3ae0f60b4e570f3c4a32d3112094f9c15cb4"
       ]
     },
     "6 - Full Notes/Dependency Inversion Principle.md": {
@@ -30362,6 +30702,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "c9bdf7f4ad3cc78f475969a832280a6f3f0aced089f7331a9beeb361a0adb46f"
+      ]
+    },
+    "6 - Full Notes/Depth of Inheritance.md": {
+      "sourceHash": "8b9f25b96fbe71d27de4f88ef8eb041d27955258484f1245c8ebce327646a185",
+      "sourceType": "markdown",
+      "fileName": "Depth of Inheritance.md",
+      "title": "Depth of Inheritance",
+      "chunkCount": 3,
+      "objectHashes": [
+        "de39f52268b2c6d0c5952d5bd0ad7b2c37f8ef1c3c1143e17ca26c1ed14d777a"
       ]
     },
     "6 - Full Notes/Derivation.md": {
@@ -31464,6 +31814,16 @@
         "e6585d00ae66879057812220fc50f4bb747e5a21c1266ad25497f1f5f607616e"
       ]
     },
+    "6 - Full Notes/Disk-Based Storage.md": {
+      "sourceHash": "845ad36850a5662d213eb06eacdf8fa94315f2b9fa165e9d9c445f24c2e9ee21",
+      "sourceType": "markdown",
+      "fileName": "Disk-Based Storage.md",
+      "title": "Disk-Based Storage",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b6af4a32d3c27643c9081e020aa545959d5292dfbafe5516a8020e14ebbed30e"
+      ]
+    },
     "6 - Full Notes/Displacement.md": {
       "sourceHash": "6bdf3d1a05969bbc2e71c162ddea0d75086f57c485990b0d020ef0cfab13c735",
       "sourceType": "markdown",
@@ -31714,6 +32074,16 @@
         "0d748dff87d92c1acd740cc02568d759edf24982a3a264168dfe32294ac6fce6"
       ]
     },
+    "6 - Full Notes/Distributed Write Scalability.md": {
+      "sourceHash": "3e282044e6a2dc2fb6f93c0f572c401489a354772c4c94e9ccce2681547683f5",
+      "sourceType": "markdown",
+      "fileName": "Distributed Write Scalability.md",
+      "title": "Distributed Write Scalability",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f3c234138574633c719b4344b1795feb17e7793aad99debbcea59c3f9ee1e02c"
+      ]
+    },
     "6 - Full Notes/Distribution Sampling.md": {
       "sourceHash": "e54f48fe30c10112b828a37815b7f3a34f171ff4e1edf456f9cb586483e89dbf",
       "sourceType": "markdown",
@@ -31845,23 +32215,23 @@
       ]
     },
     "6 - Full Notes/Docker Container.md": {
-      "sourceHash": "a2d56edde3088a689f6bc336c87511ab791ed994f6e35668368c80c6db4d5e84",
+      "sourceHash": "af7c14e4800ebce5cc43e5afef4bf56d932635500dfae9371e215a7cd45e9efe",
       "sourceType": "markdown",
       "fileName": "Docker Container.md",
       "title": "Docker Container",
       "chunkCount": 3,
       "objectHashes": [
-        "431ee0700c45fcd0f6864fbdea357fe96995a5a5f9a96952a6859d55d964b210"
+        "f5981e5e0046a24191ca303362e60a55ffd922ee46e2d3d21597e06fbc209437"
       ]
     },
     "6 - Full Notes/Docker Image.md": {
-      "sourceHash": "81bae1a3d0fbf4fc5dd15540c126c3ec5d15488b6e8cf9e1b101cc27ef061441",
+      "sourceHash": "2f2c0fbdac928947ce3080a8d39428167a27f16892d0b7eb5a7b7d00b3d5d65c",
       "sourceType": "markdown",
       "fileName": "Docker Image.md",
       "title": "Docker Image",
       "chunkCount": 3,
       "objectHashes": [
-        "20a5c57b0f8dd2208f58ed88aefba8960877e6bf0aea5a6368d9d3a90536f685"
+        "7da0fb74907365080329ab9bd3b6588ed5da8fe8b027b61d549281f0e9370229"
       ]
     },
     "6 - Full Notes/Docker Runtime Image.md": {
@@ -31885,23 +32255,23 @@
       ]
     },
     "6 - Full Notes/Dockerfile.md": {
-      "sourceHash": "237841f786229f7e11fbe8d6b53c7d7e12eceb3dfe21bd237106d131e2a6e384",
+      "sourceHash": "f032776256217eba389c4297d1f5b5554b999d9ec870dbda0fa0817f57dd8160",
       "sourceType": "markdown",
       "fileName": "Dockerfile.md",
       "title": "Dockerfile",
       "chunkCount": 3,
       "objectHashes": [
-        "bbaf4aaf79b3aee9df91ae3b6fa18389eb389401b95e1d3a491614f4bb147e40"
+        "ff5002588e54632774989909240c331dbc8cfc541d155c0bb8f84eb9ca341324"
       ]
     },
     "6 - Full Notes/Document Database.md": {
-      "sourceHash": "c1f5ba8436d20856c099002c2b09e676fd6c4346812dbd94ddb869768410dd32",
+      "sourceHash": "c3dd46da9b0c502faf09984408d1bfea3079972df7474e998595bac5a1629d98",
       "sourceType": "markdown",
       "fileName": "Document Database.md",
       "title": "Document Database",
       "chunkCount": 3,
       "objectHashes": [
-        "a3e24622a5893cdc48f292fd9fa85c708f4ee69bfe76676cd829e1068d43fbd1"
+        "e712d2cccccd3cd01ed4058226dd6a824a43ed3b628e8966ae17175b87b9ac11"
       ]
     },
     "6 - Full Notes/Document Similarity Clustering.md": {
@@ -31955,13 +32325,13 @@
       ]
     },
     "6 - Full Notes/Domain Event.md": {
-      "sourceHash": "97b594cae264c16a439850eae53424d565c99ca1a19ec5035a17f4027d102683",
+      "sourceHash": "660282d0a4cfec0b6ee1d55cd0946bec05182a29bd63a9e5ad9b3ec28e978043",
       "sourceType": "markdown",
       "fileName": "Domain Event.md",
       "title": "Domain Event",
       "chunkCount": 3,
       "objectHashes": [
-        "c6138b3693f4f25f3295cf9db2b4cc4c4668ca81247629548f31862b700768a3"
+        "6f1dcb25f11a44f0206f8a0ee98dc0e2cf92931d056a4409e5af554fda92829a"
       ]
     },
     "6 - Full Notes/Domain Knowledge.md": {
@@ -32715,13 +33085,13 @@
       ]
     },
     "6 - Full Notes/EF Core Fluent API.md": {
-      "sourceHash": "10265ebdd05c5bc7a0b5d57419e0f93f18167804b5a899dc7a3ab8171d90dab0",
+      "sourceHash": "1235d7af504c1550e612949210f35710193edaeb191f0d44c56cbb2f6f16b268",
       "sourceType": "markdown",
       "fileName": "EF Core Fluent API.md",
       "title": "EF Core Fluent API",
       "chunkCount": 3,
       "objectHashes": [
-        "7daa634840ded0a6ed19765346a6e4641f02c9918fac743a79c0ba228290f2b4"
+        "dbdc85a529f8b2dbb9c7c31f9d2f78a3ecd36cb5ac5e338e4e9e71f6124f283f"
       ]
     },
     "6 - Full Notes/EF Core Model Conventions.md": {
@@ -33765,33 +34135,33 @@
       ]
     },
     "6 - Full Notes/Entity Framework Core Entity.md": {
-      "sourceHash": "7984202f10d01c51c8768bd1cfc2f5ddc50deb0a9153eba3fe93b9a3c238b9e5",
+      "sourceHash": "bf5ca341cd458421a14d9ff947ea42c0633316e3d0eeb8c2f27ab909d26c2a42",
       "sourceType": "markdown",
       "fileName": "Entity Framework Core Entity.md",
       "title": "Entity Framework Core Entity",
       "chunkCount": 3,
       "objectHashes": [
-        "1b904133b870b02e2aa806ae0b332823c8a25399617c6ad6955c87296dc75dec"
+        "c81075f99aab2b61ecfee904542234ed3e254bc8dca9023c692d2e6b9009680f"
       ]
     },
     "6 - Full Notes/Entity Framework Core.md": {
-      "sourceHash": "da055545eed2a99c5f39e56c581ad84ba0e8c9e985a1f3f26c98943af027ffe7",
+      "sourceHash": "656b2d5eb7f5d4b566c85727bc3b0d60a8698c6de081540136ad176507189827",
       "sourceType": "markdown",
       "fileName": "Entity Framework Core.md",
       "title": "Entity Framework Core",
       "chunkCount": 3,
       "objectHashes": [
-        "2d3edb5c7ea61cb8442b173626804c6d816d1cabed1ea8b5cf0a2b65dd129adf"
+        "c976b189e72b8864d1b7fb552262c15260c7c8615f3b0b39081dacce10774f4b"
       ]
     },
     "6 - Full Notes/Entity Framework Migration.md": {
-      "sourceHash": "3079e09b2f15e950efa4f7bf65e648f0cb876b5d463efcee305fb3bbf94c922d",
+      "sourceHash": "780c8d678c8cac3f6f0a5148a608c722111e8bf05e20f1a6963436a147e55497",
       "sourceType": "markdown",
       "fileName": "Entity Framework Migration.md",
       "title": "Entity Framework Migration",
       "chunkCount": 3,
       "objectHashes": [
-        "23e79497e7d50fd698be8f1696daa75be1b7c6d4e98f026f58abbd2bb0169c37"
+        "18ffdf41362ba82ad97c76a49f9647611c8422a8c1782f83f2cb21b5745478fa"
       ]
     },
     "6 - Full Notes/Entity Identity.md": {
@@ -33825,13 +34195,13 @@
       ]
     },
     "6 - Full Notes/Entity.md": {
-      "sourceHash": "ad522b5893a01e65bfaa6ce35a9de2f4e31df75930470857e5a9a48b7eefb282",
+      "sourceHash": "fcde407d93445088695e39f9a179a707ec4b18f0c31771d282c13d212efcf384",
       "sourceType": "markdown",
       "fileName": "Entity.md",
       "title": "Entity",
       "chunkCount": 3,
       "objectHashes": [
-        "1068b36ea8c4b5324445f13e73487d71d1700b7f6dc7faa441c7464156593524"
+        "16f6dc4ccf91c2bc34f81aa1dbe402436861ac6c0a781f33290bf1105bdfa9e6"
       ]
     },
     "6 - Full Notes/Entropy.md": {
@@ -34275,13 +34645,13 @@
       ]
     },
     "6 - Full Notes/Event Sourcing.md": {
-      "sourceHash": "a6303214d028fe57b456c65aed2b950dd113ed37afb29164af57841094187fc2",
+      "sourceHash": "8ce88451d43e899d63800d74fac5598415b68dcb6d52b1fa07bab9ee474692d6",
       "sourceType": "markdown",
       "fileName": "Event Sourcing.md",
       "title": "Event Sourcing",
       "chunkCount": 3,
       "objectHashes": [
-        "95d81be700fa53d80c4da9e175a72eb26558b0c50db1ca294d0cef8b76596ad6"
+        "135af2d24fb1f2aa4fa1b2fa59a816833bc43297d3dd17b1f44ab97687b32e42"
       ]
     },
     "6 - Full Notes/Event Store.md": {
@@ -34345,13 +34715,13 @@
       ]
     },
     "6 - Full Notes/Event-Driven Architecture.md": {
-      "sourceHash": "587c4cf811bc3290941bfcac04f15dc9e162bb11e1f1e5691033ab7b31df6077",
+      "sourceHash": "f829535a06f700babe1c4895465d2bcf828159b9527a6b8d359237bd5d7d2c58",
       "sourceType": "markdown",
       "fileName": "Event-Driven Architecture.md",
       "title": "Event-Driven Architecture",
       "chunkCount": 3,
       "objectHashes": [
-        "4884b052ba2b73da21da473503c9205b27314b8f819c5773434f3399bea1ce61"
+        "fcef13f5c29db660995e84d21768914eaaff35c9e7b6bb5ff4b1027f33c00b8c"
       ]
     },
     "6 - Full Notes/Event-Sourced Aggregate.md": {
@@ -34435,13 +34805,13 @@
       ]
     },
     "6 - Full Notes/Eventual Consistency.md": {
-      "sourceHash": "08b87be51fb1f8dba00e12a072b3bcf08b1a9a155d4e6c74bcac037a656aec80",
+      "sourceHash": "28f6850bba6518930dc6fd937f8c2da7c1effaaa16c3dbfcef8a442bdc684747",
       "sourceType": "markdown",
       "fileName": "Eventual Consistency.md",
       "title": "Eventual Consistency",
       "chunkCount": 3,
       "objectHashes": [
-        "110cd0d3cb6a249ca2f8486a1245c58e0add78c547ae4918668180999dfe6bee"
+        "550cadc84215fc238ee95822933aa6970457ba1c6b19fe9b9cd6f207e51cfca2"
       ]
     },
     "6 - Full Notes/Evidence-Based Decision Making.md": {
@@ -34482,6 +34852,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "c02574ad96fac428fab5024529cdccb717dff6c662da8fcd7e4d5989e78b29ee"
+      ]
+    },
+    "6 - Full Notes/Evolutionary Software Architecture.md": {
+      "sourceHash": "e7746b04d50e471f9ad781293289ec773d8619a8475c39eed3b6b6eebb3cbc6b",
+      "sourceType": "markdown",
+      "fileName": "Evolutionary Software Architecture.md",
+      "title": "Evolutionary Software Architecture",
+      "chunkCount": 3,
+      "objectHashes": [
+        "52682a0279b921a6e746789594452ed46a87e0208a1ad57716730b67f53b4092"
       ]
     },
     "6 - Full Notes/Evolving Data Stream Classifier.md": {
@@ -35415,13 +35795,13 @@
       ]
     },
     "6 - Full Notes/Factory Method Pattern.md": {
-      "sourceHash": "16c7a513ba5453341e6be9d8b9ff259b5a93f3063feb9d2ccdc19a5c5bb60aea",
+      "sourceHash": "aa49c4f8d5dcfd1f6176216c5b7d756e7f6bc9801a90ff652be05d51e091c4b3",
       "sourceType": "markdown",
       "fileName": "Factory Method Pattern.md",
       "title": "Factory Method Pattern",
       "chunkCount": 3,
       "objectHashes": [
-        "fbbf410666def6cdf5ba49e347c72c72f8d9fda41eddbefb88cd51cf6bf11106"
+        "b52d9ebf94d8ac46efb0e1d96c22fb96ef4861a254f963503da83757ff36f432"
       ]
     },
     "6 - Full Notes/Fail-Safe Defaults.md": {
@@ -37685,13 +38065,13 @@
       ]
     },
     "6 - Full Notes/Functional Requirements and Unstated Context.md": {
-      "sourceHash": "326016322c0f1c5a2d089037b6150832ee514fb57323fc43d9c74ebcdc67fa04",
+      "sourceHash": "367bc3ec0974725e5a8adb01b93f1796838d7eb29ca9ea4a62178f8ed1688276",
       "sourceType": "markdown",
       "fileName": "Functional Requirements and Unstated Context.md",
       "title": "Functional Requirements and Unstated Context",
       "chunkCount": 3,
       "objectHashes": [
-        "f0f2e2448cea41adeb8e1144c27e17ad079890565ad29afb858766173ee9a13d"
+        "9c790b3392749085e6e143bfdb21073abbd1341c1a9bac4f9529e27694d24de0"
       ]
     },
     "6 - Full Notes/Functional Strategy Pattern.md": {
@@ -42355,13 +42735,13 @@
       ]
     },
     "6 - Full Notes/Horizontal Scaling.md": {
-      "sourceHash": "895d47548b8a0744dde0ae11c61a69fa3c03ed7dd9825e4d330dad5981f711cd",
+      "sourceHash": "28712a6347b54bb66c3daaee69a62681c2c2b94c7bc6745a5b51a2f0ce8d6bae",
       "sourceType": "markdown",
       "fileName": "Horizontal Scaling.md",
       "title": "Horizontal Scaling",
       "chunkCount": 3,
       "objectHashes": [
-        "3bd170d099faddf3e8f5c233c34fe7a89fdeb900eb1101b5e8ab55737b2593f2"
+        "441472ea97be4bd53711e84415d27b63ff9abf2afde65718a08039fdbd6af91d"
       ]
     },
     "6 - Full Notes/Hospital Big Data.md": {
@@ -42655,13 +43035,13 @@
       ]
     },
     "6 - Full Notes/HTTP-Triggered Azure Function.md": {
-      "sourceHash": "34c50024e0d78f5326f0afd5db578ef8410e0807c83bb0d82119e5e2d0104018",
+      "sourceHash": "c06eb88d2e5f878034ddd11d240daaa742a6d815032948d20daa955ac26c8b3e",
       "sourceType": "markdown",
       "fileName": "HTTP-Triggered Azure Function.md",
       "title": "HTTP-Triggered Azure Function",
       "chunkCount": 3,
       "objectHashes": [
-        "6caf984545e78703c318782e2e8981fa7315ba37c99830eae389047203212687"
+        "5b790867e3888f5ce8833d7867610e8657ef5256fd4747564a28ba941620de63"
       ]
     },
     "6 - Full Notes/HTTP.md": {
@@ -42885,13 +43265,13 @@
       ]
     },
     "6 - Full Notes/Hybrid Cloud.md": {
-      "sourceHash": "6ffc6b54ad5217de7d1bae0280b0b5c04441e1abdafa5632bd9d2079310fc867",
+      "sourceHash": "8219290144241bf1ce15380f5a314b7ab9958b141dbac00ccb1ed26e2677c9ec",
       "sourceType": "markdown",
       "fileName": "Hybrid Cloud.md",
       "title": "Hybrid Cloud",
       "chunkCount": 3,
       "objectHashes": [
-        "90ddb4bc98db510f114da0febdb3e94e1a28d89e010e1b6882e1b203f44f4a8a"
+        "e5c89638e6ab607fbdc28ef3a1c54632d0e8b8bd4f55426a31d5ce8e5080c500"
       ]
     },
     "6 - Full Notes/Hybrid Data Warehouse.md": {
@@ -44345,13 +44725,13 @@
       ]
     },
     "6 - Full Notes/Infrastructure as a Service.md": {
-      "sourceHash": "4f80789c74dcf1a139c1d1a81032c59ba1e2892e3eadca73f44fdec3a1e823ae",
+      "sourceHash": "3c62be8c165b6ee7708f0813cdbf78be06f33310f52ab0f5d00d90c103de2d32",
       "sourceType": "markdown",
       "fileName": "Infrastructure as a Service.md",
       "title": "Infrastructure as a Service",
       "chunkCount": 3,
       "objectHashes": [
-        "30bfe4f4fbc644b2a71112bcc3d224cf59b2949f95a4998cb01f2d2f9bef3762"
+        "ca7a0f03b0711ebccb4cea8d0224538e56270124e76d228b1353343496a53a59"
       ]
     },
     "6 - Full Notes/Initial Cluster Partition.md": {
@@ -44655,13 +45035,13 @@
       ]
     },
     "6 - Full Notes/Integration Test.md": {
-      "sourceHash": "9cf10dbce8b28bce08773486a2f7854c26f4ee3a659e23bc8b41e1c5dbcd4f69",
+      "sourceHash": "d6fbc730eb3c19f8c0b3ff9df2c67967fa35228d40f75e2dd06f035a601931cf",
       "sourceType": "markdown",
       "fileName": "Integration Test.md",
       "title": "Integration Test",
       "chunkCount": 3,
       "objectHashes": [
-        "1a87f19b0e98f0e923ec1cd045dca7b7a188e4b8f5a4ba17aa1e3120489ec572"
+        "68a134990117994b416c674348169fe73ab2c48cb69ec6c1b344df3e81f3d2d6"
       ]
     },
     "6 - Full Notes/Intel 1103 Semiconductor Memory.md": {
@@ -46185,13 +46565,13 @@
       ]
     },
     "6 - Full Notes/JSON Web Token.md": {
-      "sourceHash": "6e45a85f0e3eb13b05659494b6efd89a7aed4e2b93f36566798fd05a9af92567",
+      "sourceHash": "1968bc5f4cf3ad121c6ebc4e2b309e261ffcc12f7704ce02feb6925fc7ab9219",
       "sourceType": "markdown",
       "fileName": "JSON Web Token.md",
       "title": "JSON Web Token",
       "chunkCount": 3,
       "objectHashes": [
-        "63881e487f1fef2363f505d8d6299a93377c00076e6ef758d55d70c72b496f85"
+        "9221bbd2255d1986fc6a55e943dbd47e9823a726b98d4acd93f0918eacd78386"
       ]
     },
     "6 - Full Notes/JSX.md": {
@@ -49624,6 +50004,16 @@
         "d4ffe9b2804880af64deb81887e3f443c2d534c841e89fdeda64ae10f7d438cc"
       ]
     },
+    "6 - Full Notes/Maintainability Index.md": {
+      "sourceHash": "6fb1262d7ee75e8c7f65ddbe39fe4cb0e3732f3f50d5ca3ad3c819060202573f",
+      "sourceType": "markdown",
+      "fileName": "Maintainability Index.md",
+      "title": "Maintainability Index",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ab28d622bc904487bd82333f0867fbcc9242b08d548e2e7be41cf7dcf5c519d3"
+      ]
+    },
     "6 - Full Notes/Malicious Account Detection.md": {
       "sourceHash": "f95a093bb87a0da6c4687a8a2b799401b039e1d2f514f99f002a9bfb3ec4f160",
       "sourceType": "markdown",
@@ -51125,13 +51515,13 @@
       ]
     },
     "6 - Full Notes/Microservice.md": {
-      "sourceHash": "82d9316519fec76f64330eaa58501dccbf54e4e85cd90328074ce40c524feb83",
+      "sourceHash": "0fd8a2abcc0c27615c6a5ce6323266079b5cd9ea8bef79a9c086a6db91ce4fc0",
       "sourceType": "markdown",
       "fileName": "Microservice.md",
       "title": "Microservice",
       "chunkCount": 3,
       "objectHashes": [
-        "a06be2069e5f53654c3c4b20967934f2f372e39761ef49d86c8abf250547724f"
+        "ff896a21432b202c9cd06a08848b857f1e6e41cf5502c53e36ee70bce97f742d"
       ]
     },
     "6 - Full Notes/Microsoft Azure.md": {
@@ -51652,6 +52042,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "5aee925f92f39620b2be4db28ceccdb834c4ffde1990987cb5661e65ad672406"
+      ]
+    },
+    "6 - Full Notes/Mock Setup.md": {
+      "sourceHash": "95a3570e48ac001beeef54998f155eb0b29e55dc0789a42731b7642beab03263",
+      "sourceType": "markdown",
+      "fileName": "Mock Setup.md",
+      "title": "Mock Setup",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2d686e61b13522adb8bf1e84595d93e1d015518657a7f0dba2f46082c5cb2b79"
       ]
     },
     "6 - Full Notes/Mocking Async Dependencies.md": {
@@ -52245,13 +52645,13 @@
       ]
     },
     "6 - Full Notes/Moq.md": {
-      "sourceHash": "4abee7e75a8d41911ae57b0d4b70dfbc4bc8bc562c8385913788dd40e811bcbc",
+      "sourceHash": "0a18ed8e33dfb3271515a1725b1bc34eea698c78a763ec17f7ba83ac45092667",
       "sourceType": "markdown",
       "fileName": "Moq.md",
       "title": "Moq",
       "chunkCount": 3,
       "objectHashes": [
-        "5e343dc95b8f8ad5e5e80fbd20c614bfd00b47528b1e02fbdc16d281ad027a23"
+        "91690c9ff8f343e73e54d7ed51f1b23f74ecdec7c8d8abe75afb4561eaeafc13"
       ]
     },
     "6 - Full Notes/Moral Status of AI.md": {
@@ -53025,13 +53425,13 @@
       ]
     },
     "6 - Full Notes/MVC Controller.md": {
-      "sourceHash": "ae35ac721d2ed30b55df18700472341f4fb74b9a7d97c3dec339e6e50b7d96ee",
+      "sourceHash": "3e597b55b5bffd0571677f6b1c3eae5424d5f32f8208bec8f2218f880d60fe3f",
       "sourceType": "markdown",
       "fileName": "MVC Controller.md",
       "title": "MVC Controller",
       "chunkCount": 3,
       "objectHashes": [
-        "ece0e71df7b51efe9fa1c44b0496fa92bf18f3c17e9ac60dea0043ade47d1a4f"
+        "45e94f4746f895e2d0011fea40cb5f3f9362cf9b7fe0e114697b7a4680b18376"
       ]
     },
     "6 - Full Notes/N-Gram Language Model.md": {
@@ -54265,13 +54665,13 @@
       ]
     },
     "6 - Full Notes/NoSQL Database.md": {
-      "sourceHash": "fed7e380ebfb39d443dd61ba837fc38dc7c9b72f3d24d87b5bba0e2b18a5ac12",
+      "sourceHash": "d94206b9370375697695399da9d0b3986ec36793b5d831970eafe493db39ec91",
       "sourceType": "markdown",
       "fileName": "NoSQL Database.md",
       "title": "NoSQL Database",
       "chunkCount": 3,
       "objectHashes": [
-        "b43133b47bc5b1b9de90a61ba341b7598f0c3dea0177d50fe6f01b507ce1cf14"
+        "e17b73abde3fa6f77f6f70e2b8cde58de5260bf261d14c1b081772ed147c002c"
       ]
     },
     "6 - Full Notes/Not Found Route.md": {
@@ -54645,13 +55045,13 @@
       ]
     },
     "6 - Full Notes/Object-Relational Mapping.md": {
-      "sourceHash": "ed799938e45c2e01678ca9233ff82e16388cdffa975e11e1f873f4766de43cdc",
+      "sourceHash": "34d9d190da48e35005a00b478d7d88b9ec04904f3badba99606f9d6372f2af06",
       "sourceType": "markdown",
       "fileName": "Object-Relational Mapping.md",
       "title": "Object-Relational Mapping",
       "chunkCount": 3,
       "objectHashes": [
-        "de4c8b1debb8d0a13ea814d444d67ed30b2472e2e4e6d55095e7a958f7c1fb45"
+        "12f59a762865615d0016b53e4841256aad95adafaaea5ff5a95672464486bba0"
       ]
     },
     "6 - Full Notes/Objective Function.md": {
@@ -55145,13 +55545,13 @@
       ]
     },
     "6 - Full Notes/OpenAPI and Swagger.md": {
-      "sourceHash": "cd6fa0793a2c565c10404f5870431e02e65b7daa5a90baa6105a52d6c0ac367e",
+      "sourceHash": "33e312dab516177bc65093f3388bcec3e4dd09c3affbbbf5245eee695bcbc30f",
       "sourceType": "markdown",
       "fileName": "OpenAPI and Swagger.md",
       "title": "OpenAPI and Swagger",
       "chunkCount": 3,
       "objectHashes": [
-        "4f00a3deab401713f6966ac8e7c734b08a16ba04fdf4570845acd9b741fc87eb"
+        "eab1c07b3d8901fca2f36c615add29b2e7e10a741e40d0827c46232adf99f6bc"
       ]
     },
     "6 - Full Notes/OpenAPI API Convention.md": {
@@ -56884,14 +57284,24 @@
         "010f99065502698dda2ff6d5c53dbefb6e8213dbb04c6f9959d837eaed4075e3"
       ]
     },
+    "6 - Full Notes/Performance Requirement.md": {
+      "sourceHash": "91f159ef27973ff12018dab8966f8364fa471434e2769d1d2635f8f2faeebb1c",
+      "sourceType": "markdown",
+      "fileName": "Performance Requirement.md",
+      "title": "Performance Requirement",
+      "chunkCount": 3,
+      "objectHashes": [
+        "9e482c383c8fc2dc39b859110ebae7ddbf70f20c3d4a49e56b99993664e39b78"
+      ]
+    },
     "6 - Full Notes/Performance Testing.md": {
-      "sourceHash": "9e429b62a0ab8e040856ec4073ae8a8ed7fab70eb71cf9ea7b1b6490f9e30dc8",
+      "sourceHash": "2ef5864dc0c7f8ba39b0b7d75e1113804cec711799b4e9d4e2670a21c880458b",
       "sourceType": "markdown",
       "fileName": "Performance Testing.md",
       "title": "Performance Testing",
       "chunkCount": 3,
       "objectHashes": [
-        "9489754ceafe292c9124af1c471b166d7f199d4f436ff3b59f8a7e0d6f0fc5a4"
+        "ed3e3849d3506993e08bd1d1b6d769ede1fa623cde99222aae11af595daddca9"
       ]
     },
     "6 - Full Notes/Performance-Based Pricing.md": {
@@ -57715,13 +58125,13 @@
       ]
     },
     "6 - Full Notes/Platform as a Service.md": {
-      "sourceHash": "911896cc6b4425d30fec39b8f2c0021703d22ff93e5b019956dcef2acba0ed1e",
+      "sourceHash": "01c7c2fde5a20c8e97db5a171ac99a2812e155b6a9633680ebd83e3c424fc325",
       "sourceType": "markdown",
       "fileName": "Platform as a Service.md",
       "title": "Platform as a Service",
       "chunkCount": 3,
       "objectHashes": [
-        "e742b8202da6fe6c6400bd55d802bfa9623462eee7a16975641d2b23f6e00b5a"
+        "f345c2de229653c0fb1e427e9d7ad18878c9ff138f744890f49aa348a38dcf31"
       ]
     },
     "6 - Full Notes/Platform-Genre Fit.md": {
@@ -58275,13 +58685,13 @@
       ]
     },
     "6 - Full Notes/Polly Resilient Request.md": {
-      "sourceHash": "c3b65a1dc644698acd91d2dd93c6d0aa60f4c336ce9c7efaff36cd4bd5bc80f9",
+      "sourceHash": "46704f96ba5af3f0c58ada306c7ba8aa4e257c41d7956bd7113b3a0d02dabaed",
       "sourceType": "markdown",
       "fileName": "Polly Resilient Request.md",
       "title": "Polly Resilient Request",
       "chunkCount": 3,
       "objectHashes": [
-        "b41c8cb3b10a840c79dd67fb3fc586b74c37d3f32da8458dd4e8cc1b548d0dcf"
+        "088e5a690e519e2208a18f87f32db51201e4cb05c7064e21a75d3aac1fd84357"
       ]
     },
     "6 - Full Notes/Polycrystalline Silicon Solar Cell.md": {
@@ -58292,6 +58702,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "75a75443dfdf568c4143f30a7253c69a117b43f7ec1b06a785506ba0ec02596d"
+      ]
+    },
+    "6 - Full Notes/Polyglot Persistence.md": {
+      "sourceHash": "f8108c6654ec2ea587bd3489d6e7449512e160a223a2e4967e71aff3ba77dc1a",
+      "sourceType": "markdown",
+      "fileName": "Polyglot Persistence.md",
+      "title": "Polyglot Persistence",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4bea935f5587e9ba8f95f143009a447ed8b2e7b7cc8266c38e882b7834a3f9e3"
       ]
     },
     "6 - Full Notes/Polynomial Degree.md": {
@@ -60515,13 +60935,13 @@
       ]
     },
     "6 - Full Notes/Proxy Pattern.md": {
-      "sourceHash": "7c32f7cc3b45c595110de8bec118f64f40c393bd71be27b1762f3ec962ae5423",
+      "sourceHash": "3ea33d5214f4be21ec01b414acb0ca9d6136cd23dc10dcacdb55b38d937e72d1",
       "sourceType": "markdown",
       "fileName": "Proxy Pattern.md",
       "title": "Proxy Pattern",
       "chunkCount": 3,
       "objectHashes": [
-        "21d7b6ed9773c72bc95072036fd37c1bb71918e2905b5b4abeb19ab415e76d7b"
+        "5bc0c13d7d99f71c5d43804dae22b1dc350ad0deaf167f5bca45516f1128cea5"
       ]
     },
     "6 - Full Notes/Pseudo-Circular Data References in bpy.md": {
@@ -60625,13 +61045,23 @@
       ]
     },
     "6 - Full Notes/Publisher-Subscriber Pattern.md": {
-      "sourceHash": "6bc4daffc76fa62f6a3757555d6432efc2f30841e070217894cce5040594f95d",
+      "sourceHash": "d7e79b47a70f4ae20b5452fc6a710673a5603f1789e45663a680d5e9a7d2c729",
       "sourceType": "markdown",
       "fileName": "Publisher-Subscriber Pattern.md",
       "title": "Publisher-Subscriber Pattern",
       "chunkCount": 3,
       "objectHashes": [
-        "88b0bfaf9b4eaaeede6a3fcb98f1804c18a5280690634f3b64d442f8aabe98a6"
+        "f96726b51e7470773227c8a8b86aeea240039a43cf9e400a7c91981a0d6f7fe8"
+      ]
+    },
+    "6 - Full Notes/Pull Request.md": {
+      "sourceHash": "e8b35ec6a4db4c4c165e007b9bb0e32ed3d97c4b56e1fe851c496126e587a460",
+      "sourceType": "markdown",
+      "fileName": "Pull Request.md",
+      "title": "Pull Request",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6b76416f910e8144f01803e21080707db74db3e30c76be858c5e98047b8749c2"
       ]
     },
     "6 - Full Notes/Pull System.md": {
@@ -60944,6 +61374,16 @@
         "4739301f44ec12b0748490b7fb4f581c477a8349fcc88655031470e4d420fb5b"
       ]
     },
+    "6 - Full Notes/Quality Gate.md": {
+      "sourceHash": "e2573ba2ef396ef07f370fb347de9329befb9eacdbf355d3a8bdc775a0e6ca4b",
+      "sourceType": "markdown",
+      "fileName": "Quality Gate.md",
+      "title": "Quality Gate",
+      "chunkCount": 3,
+      "objectHashes": [
+        "bad78bf53fb7065cd1129f041482a52c40f7daa532df52193a806a41d5783c8f"
+      ]
+    },
     "6 - Full Notes/Quantile Map Classification.md": {
       "sourceHash": "d040e72ab7735201bdd0e9a9fa996a713c56954e41b471ce25c48ef89d5df368",
       "sourceType": "markdown",
@@ -61115,13 +61555,13 @@
       ]
     },
     "6 - Full Notes/Queue-Based Work Distribution.md": {
-      "sourceHash": "b8a39ca0346c9ce32d8894926714915c56cb87e5b6d9b734b73322a883837f7f",
+      "sourceHash": "e277b5b112a6a0f5bfee034a7bd6dbecbe8eb6ba7edd992bb4149eed54e92400",
       "sourceType": "markdown",
       "fileName": "Queue-Based Work Distribution.md",
       "title": "Queue-Based Work Distribution",
       "chunkCount": 3,
       "objectHashes": [
-        "5077eb3dc2eecd1f6e7a82550cd7b9b79238591e92b392815e9447f0c6158d00"
+        "3d1c3df007629eae1fd92fa0da33b9bb6d21c96cd4a83bebf515a764e65109e7"
       ]
     },
     "6 - Full Notes/Queueing State-Space Model.md": {
@@ -62005,23 +62445,23 @@
       ]
     },
     "6 - Full Notes/Razor Layout.md": {
-      "sourceHash": "9d9831a2c26f51a57e3a7d4f633d4aac063ef1aff70b5aa857b762c03d48389d",
+      "sourceHash": "b84462297c35959362833c72aef205553698012e6083ea6ce81f6eb119a6cd03",
       "sourceType": "markdown",
       "fileName": "Razor Layout.md",
       "title": "Razor Layout",
       "chunkCount": 3,
       "objectHashes": [
-        "940b33cb1c1b8294ea229fb10708d34a8977848f21f41fb8a9ddd87002dc8511"
+        "f7291bedc91096f47b468b1b8fe8ee2bd66e9657cebb0e3079ceed05674f02ec"
       ]
     },
     "6 - Full Notes/Razor Page Model.md": {
-      "sourceHash": "07d6e2bfc8e54d09eeccc45b115e2a1f9edc5f4a7621531c53f3ec4c86cd8acf",
+      "sourceHash": "e4266727f5c0b0bf767888f91868461262e54053f4858e31df63c1d9406bbbcc",
       "sourceType": "markdown",
       "fileName": "Razor Page Model.md",
       "title": "Razor Page Model",
       "chunkCount": 3,
       "objectHashes": [
-        "0a56b9b6a77b19363550e979a6543ec96e6d33d0c95e9af9a1347e08309d200e"
+        "ee1490fa520dafc239baacf64a20500a41ae385f85fb01ee00ccd3582867677b"
       ]
     },
     "6 - Full Notes/Razor Pages.md": {
@@ -62604,6 +63044,16 @@
         "9189f58755ab29c2e210c8abb7b4fb7b6bea9e9693749adadc61391ad17a232a"
       ]
     },
+    "6 - Full Notes/Red Green Refactor.md": {
+      "sourceHash": "0f6ad856c21c7f17408f201232a58e3af2d172c48e749a9c82736ffa845261e4",
+      "sourceType": "markdown",
+      "fileName": "Red Green Refactor.md",
+      "title": "Red Green Refactor",
+      "chunkCount": 3,
+      "objectHashes": [
+        "01015bcb4eafca359fc680e75dcd4d71c87d19b1c83dd2cf7197978079a3faa5"
+      ]
+    },
     "6 - Full Notes/Red-Cyan Anaglyph Channel Assembly.md": {
       "sourceHash": "468f21c64101e159e0dcb0d0457bc6e10750ca80ead05f128a24a898ccba447f",
       "sourceType": "markdown",
@@ -62622,6 +63072,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "978e3382415d0a21143e61e3f5d72a105a07328c0e92352e160f044722c2ffaf"
+      ]
+    },
+    "6 - Full Notes/Redis.md": {
+      "sourceHash": "60760c5dd6b4537c48ec8cc7d505e6e78633c8d3220cccc73e28f1ab3bbda535",
+      "sourceType": "markdown",
+      "fileName": "Redis.md",
+      "title": "Redis",
+      "chunkCount": 3,
+      "objectHashes": [
+        "9ae89e909adf1ef904470769f6d0bd22487b1926752684db0cdf935d3149a8de"
       ]
     },
     "6 - Full Notes/Reduced Ring.md": {
@@ -63135,13 +63595,13 @@
       ]
     },
     "6 - Full Notes/Relational Database.md": {
-      "sourceHash": "713f7f5550be9092a395f7d726966611988ae2cb038e070b2fcdf16b611d7651",
+      "sourceHash": "dc065262b7231c18fda32ca233e57094e4c88f2579db77ce70dda82af1e74cb0",
       "sourceType": "markdown",
       "fileName": "Relational Database.md",
       "title": "Relational Database",
       "chunkCount": 3,
       "objectHashes": [
-        "1a84c55507b1ed54c1cf70b601595173c6636d995f1fca7a6486dab5c2083f23"
+        "edd53a9e670ea877d274e5f3c49e537b1094d86cdd9ae23c893eace23cdc1e00"
       ]
     },
     "6 - Full Notes/Relational Feature Construction.md": {
@@ -63275,13 +63735,13 @@
       ]
     },
     "6 - Full Notes/Release Pipeline.md": {
-      "sourceHash": "befb956b696c09756b8d7d05d778f3f437a2b6554785dad70ce0557c4dee2521",
+      "sourceHash": "7e3ba4ca5ce34387ef282caff0718395e6581d4c389dd34c290e8dba641913a3",
       "sourceType": "markdown",
       "fileName": "Release Pipeline.md",
       "title": "Release Pipeline",
       "chunkCount": 3,
       "objectHashes": [
-        "aca510fc7fb7901f273d6fc31a69dfb10451d6acb4c657407ee7b8ccb2aa018e"
+        "88c8f67800a65a3ffc73e51e94e4a642a6c6d281d00fdedc20d2eee149b2a3f8"
       ]
     },
     "6 - Full Notes/Release Planning.md": {
@@ -63455,13 +63915,13 @@
       ]
     },
     "6 - Full Notes/Repository Pattern.md": {
-      "sourceHash": "7b502bf3a0cee343218cd542684afda7d8ed10663976c041223fe0cf160c1821",
+      "sourceHash": "62c54641473fca5a2c35afbd0dd92b563d6f18ec38703e1641cda0943176e9e6",
       "sourceType": "markdown",
       "fileName": "Repository Pattern.md",
       "title": "Repository Pattern",
       "chunkCount": 3,
       "objectHashes": [
-        "b2179c1c1254ab212ecc662806fecd066cf50ad085f8f412cfcd22d7b093303e"
+        "0109171b182cf7dd4905b99988484161256c392fbd508cd61c074be2f87c8248"
       ]
     },
     "6 - Full Notes/Representative Player.md": {
@@ -63525,23 +63985,33 @@
       ]
     },
     "6 - Full Notes/Requirements Analysis.md": {
-      "sourceHash": "de249eb073d0b5782a3acf9d83f941082be29e263a1a7705093c35d5452796a4",
+      "sourceHash": "6f7c15f4519e274db747e40fb8111454a21bd02dd3a1f1fe6766511c6f6e1233",
       "sourceType": "markdown",
       "fileName": "Requirements Analysis.md",
       "title": "Requirements Analysis",
       "chunkCount": 3,
       "objectHashes": [
-        "1f5e68a56756dcaa3eff17669d30373a4a51223dbd8836574b4f475ed120bbba"
+        "276d8fa2bb71e958fdee02e82f2da66231371bd08b6dbdda86fd58d98decbb83"
+      ]
+    },
+    "6 - Full Notes/Requirements Gathering.md": {
+      "sourceHash": "4d08a0585636b62b7f56cd66f096128e659d8cf067d677b48fee41d5f9f65817",
+      "sourceType": "markdown",
+      "fileName": "Requirements Gathering.md",
+      "title": "Requirements Gathering",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2fdcdfda06ac04034bc872fe60dd01f024eb48b85dd7eb78951c722126580204"
       ]
     },
     "6 - Full Notes/Requirements Specification.md": {
-      "sourceHash": "f106e3ad26e31cfd9d4fe5c13407f7ce628ade7f122f9a09ddbdf175f9229309",
+      "sourceHash": "95a6e8dd97c3b764b7122f1b61f1097102e4d0993a8080acaa29ac2f5db6979c",
       "sourceType": "markdown",
       "fileName": "Requirements Specification.md",
       "title": "Requirements Specification",
       "chunkCount": 3,
       "objectHashes": [
-        "bffad9ce941ed699a5d5348c47617a90d7e28b635e27d8dfbc58f741125fdf03"
+        "bdeeac76ed6a377c1a144d97cf59be66663de4f41198d4e66e6d7f22495c3469"
       ]
     },
     "6 - Full Notes/Resampling Periodicity.md": {
@@ -63684,6 +64154,16 @@
         "f2225d9a9c7c113aa3e84d8130dc588a023b4ef6363c69f746b8510daa462785"
       ]
     },
+    "6 - Full Notes/Response Time Requirement.md": {
+      "sourceHash": "b2b66e17aa3ab4237e05a4243c282e3e11920bbcc8a1ea03bfe2380b33e41757",
+      "sourceType": "markdown",
+      "fileName": "Response Time Requirement.md",
+      "title": "Response Time Requirement",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f6913a223d45c1c33ffa456ea45283d98aaa97a639286b00017f79e165ad9e75"
+      ]
+    },
     "6 - Full Notes/Responsibility Gap.md": {
       "sourceHash": "2363e9f954751f5cfedb229ff822c39bdaededdd2a3be9a4c4498a2b928a5b36",
       "sourceType": "markdown",
@@ -63785,13 +64265,13 @@
       ]
     },
     "6 - Full Notes/RESTful API.md": {
-      "sourceHash": "e7629e468baaca156dede9929742fc71197b4db8d695dbbc6157a939458c39e0",
+      "sourceHash": "8f8a75a6b4d8e977fec360bab5cc0d76affe7340f4b8269dad70712359de63a3",
       "sourceType": "markdown",
       "fileName": "RESTful API.md",
       "title": "RESTful API",
       "chunkCount": 3,
       "objectHashes": [
-        "da8bd51ebdaf001c9e5b83a36fec58dd93c97e417d73e8ea8274e2556a351ab3"
+        "cbb0c6b4fd036f8e96898b0ca164493d6176264650c4e1fb3025eee7b43dd7ea"
       ]
     },
     "6 - Full Notes/Restricted Boltzmann Machine.md": {
@@ -64282,6 +64762,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "17d4c10eed03e41274ab66cebc9ca6decde4ed34d445a63655e24e87a03aa3e3"
+      ]
+    },
+    "6 - Full Notes/Roslyn Analyzer.md": {
+      "sourceHash": "f5f061e9b86c19ca1d438d129ae75954145a2072114b868dc03aa36167017ba4",
+      "sourceType": "markdown",
+      "fileName": "Roslyn Analyzer.md",
+      "title": "Roslyn Analyzer",
+      "chunkCount": 3,
+      "objectHashes": [
+        "3647921df7a0a58ae3e97a1c3d0c92882db5535c2857a4e7d2be9391be2c5f6d"
       ]
     },
     "6 - Full Notes/Rotini Fin Geometry.md": {
@@ -64775,13 +65265,13 @@
       ]
     },
     "6 - Full Notes/Scalability.md": {
-      "sourceHash": "e2ece2933e0ec84d3da894e964661bfaf7336c830ec823abb2f58b6bf64d6849",
+      "sourceHash": "d64ffe1a98e6ac67fe6c20c1bf3f8b0d3778d9c5cd742c1dd4267d911844373e",
       "sourceType": "markdown",
       "fileName": "Scalability.md",
       "title": "Scalability",
       "chunkCount": 3,
       "objectHashes": [
-        "5505ad3a4dae440bbc72076fde6e82283e899ceb25d30074da70e486eca0b5b3"
+        "cd058c390c5e6ef104ab7b0cc4d12ffd37a39802cc2b796b509e478056a90351"
       ]
     },
     "6 - Full Notes/Scalar Extension for Modules.md": {
@@ -65995,13 +66485,13 @@
       ]
     },
     "6 - Full Notes/Serverless Computing.md": {
-      "sourceHash": "860a1b0561ec549b18371fcd18d08a90b7340dbcde88c6342550deacab8e7781",
+      "sourceHash": "381f5fe28039d9fef8a37661202cb282ae20b6764efc4c297e62626bf56e4d98",
       "sourceType": "markdown",
       "fileName": "Serverless Computing.md",
       "title": "Serverless Computing",
       "chunkCount": 3,
       "objectHashes": [
-        "4e8202799ed637ecdf687c8a8da9d91b191e22e9525e6ed9ce51d954f8082d33"
+        "4707c9bc9905adf0ecafee2919de1f3817e32b4c8d7cdb81d1738f84dd93335a"
       ]
     },
     "6 - Full Notes/Service Autonomy.md": {
@@ -66925,13 +67415,13 @@
       ]
     },
     "6 - Full Notes/Singleton Pattern.md": {
-      "sourceHash": "4b54beb6bed5ca4980345480e5d659089b3e233aa9c9cc902d83b9c1467c0ef5",
+      "sourceHash": "0ddfcac28d9c963c85b9718b4a415e3635032e45d1f00bccd77efe07473d2b6e",
       "sourceType": "markdown",
       "fileName": "Singleton Pattern.md",
       "title": "Singleton Pattern",
       "chunkCount": 3,
       "objectHashes": [
-        "cd5fa137e41a9cde3fcfd817fb63dc5d6c4ea6aed8a460d772b9e50433f68228"
+        "c35f6375727317d472769341814912675b1d57c9a81eb60cbd5a869632ec9684"
       ]
     },
     "6 - Full Notes/Singleton Service.md": {
@@ -67245,13 +67735,13 @@
       ]
     },
     "6 - Full Notes/SOAP Web Service.md": {
-      "sourceHash": "5fa431b1fc2a4a1677a53691abd595fa0341cf91035a95cd965631e045264713",
+      "sourceHash": "bcb2b381dd58f13acca5f705dd0aacc71b15d87339a788bcba168019b9ef7dec",
       "sourceType": "markdown",
       "fileName": "SOAP Web Service.md",
       "title": "SOAP Web Service",
       "chunkCount": 3,
       "objectHashes": [
-        "9af0ab10ff4444ce96f357b1986d8203d34b7a60fa9b4155f9a1916468291e4a"
+        "019a9e0dddce1c0ccfe419008b3570b1a3420ba41da964bae3c550f77dd38599"
       ]
     },
     "6 - Full Notes/Social Bot Content Feature.md": {
@@ -67445,13 +67935,13 @@
       ]
     },
     "6 - Full Notes/Soft Delete.md": {
-      "sourceHash": "e5bfeaf7649b1c6284acfe808919334b9776ca0da47a9f15b02987c16645f3a7",
+      "sourceHash": "680e17fe8fa257c75417edb697a7dc6fa38721c9efa26b14b46263e01a0bd2f7",
       "sourceType": "markdown",
       "fileName": "Soft Delete.md",
       "title": "Soft Delete",
       "chunkCount": 3,
       "objectHashes": [
-        "d87fd4e896ff8f9818ecea326ffc76584fd68cd15251782770f22dd92a6a9453"
+        "0fb214c58fa64bdbc139ec4cb9657fc02204384a87fa518f7a3b8ffafdc4d03e"
       ]
     },
     "6 - Full Notes/Soft Evidence.md": {
@@ -67515,13 +68005,13 @@
       ]
     },
     "6 - Full Notes/Software as a Service.md": {
-      "sourceHash": "404310551d9a3cd7a0477f6ea69057b902eae8a855dd5ed7de53f9c8be2038b0",
+      "sourceHash": "5b43c1afc435be5681c922639ac2b2d2b778dd997509f9aec5ab2b3a3cae6587",
       "sourceType": "markdown",
       "fileName": "Software as a Service.md",
       "title": "Software as a Service",
       "chunkCount": 3,
       "objectHashes": [
-        "965ea400a187d8852ac7ddfa7435cf4265db5cbe76bc240cb4be9af1e222b779"
+        "a1aac76ab8d9e17875e4e80269f4eebae7d6e0dfca73db2c45253091371e7ea9"
       ]
     },
     "6 - Full Notes/Software as a Virtual World.md": {
@@ -67614,6 +68104,26 @@
         "8d57c729f7920f0fded376faa0384a04d0618387bb82295fef90005aadbd9def"
       ]
     },
+    "6 - Full Notes/Software Interoperability.md": {
+      "sourceHash": "c9e15daa1f5421c74cdc3524697db7cb9aeb3a5e445f6266d659e03336e0c5d2",
+      "sourceType": "markdown",
+      "fileName": "Software Interoperability.md",
+      "title": "Software Interoperability",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d8fdb30ebe79b978745b53a11ad3c7af27b57a975ca71d69efc0cc850ce81009"
+      ]
+    },
+    "6 - Full Notes/Software Maintainability.md": {
+      "sourceHash": "abef7c3af73dac9f04f2c73e65f875b1ad9034b0951c926a201b2fb75d40d032",
+      "sourceType": "markdown",
+      "fileName": "Software Maintainability.md",
+      "title": "Software Maintainability",
+      "chunkCount": 3,
+      "objectHashes": [
+        "c5037aafd80e51d4811a31ea9f0cdb646a91236fd7815e33deeb00f8cbe53777"
+      ]
+    },
     "6 - Full Notes/Software Process Feature.md": {
       "sourceHash": "182743a6a190bdd93edd4633f0f7110bcb8aa2dfedd07343307366d3b9b69459",
       "sourceType": "markdown",
@@ -67624,6 +68134,26 @@
         "24e37f958ed30f08d7430001dff0d896c8720c5a1f4838798c08a7ce40b36ecf"
       ]
     },
+    "6 - Full Notes/Software Quality Attribute.md": {
+      "sourceHash": "8f688bb5ff8791a254308f5706547f50ed967e84a228f2b41cf232516d63703e",
+      "sourceType": "markdown",
+      "fileName": "Software Quality Attribute.md",
+      "title": "Software Quality Attribute",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4393f8cd465775e613acd9f04648f3ec40b99580deaf1a67423189f644fddb0f"
+      ]
+    },
+    "6 - Full Notes/Software Robustness.md": {
+      "sourceHash": "611fb14ebb95f4f10b8beeb6de4333ca5bda1d147068f03135b230b07ced7282",
+      "sourceType": "markdown",
+      "fileName": "Software Robustness.md",
+      "title": "Software Robustness",
+      "chunkCount": 3,
+      "objectHashes": [
+        "968ce4e008e994dffec10d8f3c7b4142aa510e9e257a1f91af9442e53cd12b66"
+      ]
+    },
     "6 - Full Notes/Software Satisfaction Ladder.md": {
       "sourceHash": "f18a85c64fb5f16a5140142769589f1589be02267af5c7339de18a792a49a2d3",
       "sourceType": "markdown",
@@ -67632,6 +68162,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "393eefd7cee2034041bffdf6f087c6a4ab8dd27b6e80995bed0abc0f7ff6ddc4"
+      ]
+    },
+    "6 - Full Notes/Software Security Requirement.md": {
+      "sourceHash": "0a9fbabd1be248cf3d6408c42d388bd1830539ef4dc84e03a5d67268feaf2ed5",
+      "sourceType": "markdown",
+      "fileName": "Software Security Requirement.md",
+      "title": "Software Security Requirement",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a24fd43a5093b600d1457a5b4f891f4dc9c7dd51af877fcd88f211ffa0d26bd4"
       ]
     },
     "6 - Full Notes/Software World Inhabitants.md": {
@@ -68034,6 +68574,26 @@
         "2bde1ca7ec22a352d7365b28e968cadb810643362522a3220aa3e0d6488b0b4e"
       ]
     },
+    "6 - Full Notes/SonarCloud Analysis.md": {
+      "sourceHash": "4e7a15cd44ff57e89902301c297c9bf0e54d096e2666d12dd2c972608a4c5434",
+      "sourceType": "markdown",
+      "fileName": "SonarCloud Analysis.md",
+      "title": "SonarCloud Analysis",
+      "chunkCount": 3,
+      "objectHashes": [
+        "fdeb2b00d8cedf4f7215418911f8a6586fc66b7133f0869017334d19216a44bb"
+      ]
+    },
+    "6 - Full Notes/SonarLint.md": {
+      "sourceHash": "36d895cb18499e27bb255d4d2a5fcf39f243520511c00642fc4b3d52c360493f",
+      "sourceType": "markdown",
+      "fileName": "SonarLint.md",
+      "title": "SonarLint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "81da75aa7342e7e55e1d677684300ed8b7f4208ff28d6d244e3b2802f34788ca"
+      ]
+    },
     "6 - Full Notes/Sonification.md": {
       "sourceHash": "3f833315b0d35f8fb29545ce768dba61884204cd4f041539c2989deecf9dda76",
       "sourceType": "markdown",
@@ -68122,6 +68682,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "51d9348a02fad82af85b781f14ac0a844eed1ef3426f74122d35b85592e9ab50"
+      ]
+    },
+    "6 - Full Notes/Source Lines of Code.md": {
+      "sourceHash": "b0c74d94f4d3b693569a4fdaea24e147cad63217354b8e0e00ebf3f1248e142f",
+      "sourceType": "markdown",
+      "fileName": "Source Lines of Code.md",
+      "title": "Source Lines of Code",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6e9844c97f403904ab5d81a6c57451c0bf303b5ffc7387203393d827d6aa928b"
       ]
     },
     "6 - Full Notes/Source Resolving Set.md": {
@@ -69534,6 +70104,16 @@
         "92843985e9e513e27794c442afd5ab4e2a64a209e203f5312c2e04d070d7bf35"
       ]
     },
+    "6 - Full Notes/Static Code Analysis.md": {
+      "sourceHash": "196eb013d894d86d0101f80c92257401aa63e5f23c6b2b3ce3d29a632de56281",
+      "sourceType": "markdown",
+      "fileName": "Static Code Analysis.md",
+      "title": "Static Code Analysis",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f13cc4fe93f964b89ee84e24c20fdbca0d5fa168fe74070d8b77a01f0c5852d9"
+      ]
+    },
     "6 - Full Notes/Static Content Hosting Pattern.md": {
       "sourceHash": "ce6add94854febdfdd50654caa27e3fe94c58969e2b8101b251af67a96b117a3",
       "sourceType": "markdown",
@@ -70504,6 +71084,16 @@
         "b44f136706c9881b854d0ea80cd551d35c6cc6701617d57ab45fb3c83f90ba8c"
       ]
     },
+    "6 - Full Notes/Structured Data Storage.md": {
+      "sourceHash": "baf064ad8967b1bd50b6ad8091dd1dd565daa2cbefcbc3583aecceae2ab634b4",
+      "sourceType": "markdown",
+      "fileName": "Structured Data Storage.md",
+      "title": "Structured Data Storage",
+      "chunkCount": 3,
+      "objectHashes": [
+        "aa33450f6af336d4887639af36de69e4d137410e8f3c548447cfad4316f164cf"
+      ]
+    },
     "6 - Full Notes/STSDF Object.md": {
       "sourceHash": "e9cf08823350186b3e27c480e02587a3af72556276eb4e60c77eea698e1c7f3c",
       "sourceType": "markdown",
@@ -71344,6 +71934,16 @@
         "2f57dc54594033a107ede2f0351b1ad75b349e47ee07f34bd05e359a369fb89b"
       ]
     },
+    "6 - Full Notes/System Load Requirement.md": {
+      "sourceHash": "1c6f0dc9399903ca2e837a39b3d2bb694fd7901a7fa02f1c16f6408cd7d413b6",
+      "sourceType": "markdown",
+      "fileName": "System Load Requirement.md",
+      "title": "System Load Requirement",
+      "chunkCount": 3,
+      "objectHashes": [
+        "fe59fd429fb5af215bed6267af9e906aed56983435eb94c56708c79c4cff31f9"
+      ]
+    },
     "6 - Full Notes/System of Parameters.md": {
       "sourceHash": "c0b1ba7cc361cc03934a7e459b010fff8871dbe9b4adfbbd7918205dc5217b3b",
       "sourceType": "markdown",
@@ -72094,6 +72694,26 @@
         "df31aa842c0b6ea1c07faf575a152ded970501dbc0f8833a1451c36affa64fcf"
       ]
     },
+    "6 - Full Notes/Test Assertion.md": {
+      "sourceHash": "f5250f09031fb6a38b1b78f8d8fe69941983eb3db87afdc1d23e922e4297d1ac",
+      "sourceType": "markdown",
+      "fileName": "Test Assertion.md",
+      "title": "Test Assertion",
+      "chunkCount": 3,
+      "objectHashes": [
+        "898580c71d70024657117a983fea54736e397525a1ac5ff56e7f1700650235eb"
+      ]
+    },
+    "6 - Full Notes/Test Case Isolation.md": {
+      "sourceHash": "650480f982061ee6e01c28250ae16a43e438a62d1dda0074c84f1d596a68a8ab",
+      "sourceType": "markdown",
+      "fileName": "Test Case Isolation.md",
+      "title": "Test Case Isolation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7a7079dd8794863197d4f0dd70fbf333aa141baf661d931e19bcd8d3f9baa3ed"
+      ]
+    },
     "6 - Full Notes/Test Dataset.md": {
       "sourceHash": "1144e1f6078b1acc4f085618838aa03fe983dd14e651edd3e18bb620bc8f1b1d",
       "sourceType": "markdown",
@@ -72134,14 +72754,34 @@
         "a455249bb3dc4394b7f1c8407381673728b1f584e723f096fc649a949bb5f556"
       ]
     },
+    "6 - Full Notes/Test Failure Localization.md": {
+      "sourceHash": "1c3adc0c2c6759239d000b83e9ba0c089b753ea8cb01c3b70366bd17ddf3adb5",
+      "sourceType": "markdown",
+      "fileName": "Test Failure Localization.md",
+      "title": "Test Failure Localization",
+      "chunkCount": 3,
+      "objectHashes": [
+        "097436c53754663626acd9e9a611af6c67236773cdcde376ceda9c29207ec273"
+      ]
+    },
     "6 - Full Notes/Test Fixture.md": {
-      "sourceHash": "296d9d5b2dbea340c2e12ec3c3a2144f3edeb34385f271d506fb8991e84c3fd7",
+      "sourceHash": "bbb5273e9cca677b4e954b7849cc1d05d05bb60fad1efde0bfec36ec4c6d3d06",
       "sourceType": "markdown",
       "fileName": "Test Fixture.md",
       "title": "Test Fixture",
       "chunkCount": 3,
       "objectHashes": [
-        "b4484e927ce0100f4040feb94824fa17a6c009d44a35cdd4b4faa067dabda9ca"
+        "fee5f3c3d3bef6964881ca5f120e030a2206e534ed54f35ab83e47bd19162221"
+      ]
+    },
+    "6 - Full Notes/Test Setup and Teardown.md": {
+      "sourceHash": "0de8007dfe382c02112f26a1f5821e2e4be23b5235c1ad573a76cf51364abeca",
+      "sourceType": "markdown",
+      "fileName": "Test Setup and Teardown.md",
+      "title": "Test Setup and Teardown",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b055d6e90a26b9ab0df2d4526149c55d7f041ac71e8093fe54e8fec6607bed1d"
       ]
     },
     "6 - Full Notes/Test Spy.md": {
@@ -72165,13 +72805,13 @@
       ]
     },
     "6 - Full Notes/Test-Driven Development.md": {
-      "sourceHash": "090a9c5cdb6d7a132d5e4194efbe9627c4a5196c3d6aed6b850ea19366245966",
+      "sourceHash": "d25c5ebbf5d5e370e4300b119d5709e0adac1dcfac60612f9f2e0cd1755ba5aa",
       "sourceType": "markdown",
       "fileName": "Test-Driven Development.md",
       "title": "Test-Driven Development",
       "chunkCount": 3,
       "objectHashes": [
-        "5d4c8cac68da73b05d6f15192ba746beec5f3ffea581d69732da25a21d8ad602"
+        "96f7d1b198609e0a16f6496cdaf243464efd2cea9d44f742128533ec1ff27710"
       ]
     },
     "6 - Full Notes/Testing Blender API Calls.md": {
@@ -73914,6 +74554,16 @@
         "4fe410d21388494ab9c0dcba3a31323da2982ccb74422ec7b0cf1952828d5d96"
       ]
     },
+    "6 - Full Notes/Transaction Isolation.md": {
+      "sourceHash": "3ff95da0e38963f3a49a0c3927a8b6b8a5195d24c21860fd92e3059c8831e364",
+      "sourceType": "markdown",
+      "fileName": "Transaction Isolation.md",
+      "title": "Transaction Isolation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "85d506b770ad992f09f6fe20183c3966346e2bfe0c193e76de9611b3fcad424e"
+      ]
+    },
     "6 - Full Notes/Transaction-Based Pricing.md": {
       "sourceHash": "ce60a6681c4056badb465030229590603384d355a5207b5902ff4536cf9d3c9e",
       "sourceType": "markdown",
@@ -75575,23 +76225,23 @@
       ]
     },
     "6 - Full Notes/Unit of Work.md": {
-      "sourceHash": "8960829498887fe641735c7ab2dfdc7609f502c8568af475cc541efc333f3a24",
+      "sourceHash": "454fd601b16bd0c7bb2c4d89c7eaa8e8167c6327c1c5edfb85de5eb2b2536292",
       "sourceType": "markdown",
       "fileName": "Unit of Work.md",
       "title": "Unit of Work",
       "chunkCount": 3,
       "objectHashes": [
-        "60a2e8f9cad51947ff167e14338d539f1ce406d9b2ef4f7f9a44479fe19a8096"
+        "6948c863474e58eb97c04db6860b36153b3739743d4f2ec814bbf1de081ee13c"
       ]
     },
     "6 - Full Notes/Unit Test.md": {
-      "sourceHash": "750cfca1ed66c7b1a365e8d32d084f07a1b618678be7626dd3f36c90c1873e7d",
+      "sourceHash": "3e7f8d9386f52de945cbb056c72720cd0791956ebd3de36ecefbbbd825007f48",
       "sourceType": "markdown",
       "fileName": "Unit Test.md",
       "title": "Unit Test",
       "chunkCount": 3,
       "objectHashes": [
-        "e39a9d6ab61b524a7b84d2b54c16bba72e3c44d8a04be4a9d1a0118641bd1056"
+        "97ef4b7e79512206994f085296c6204c476d7e234eda502a2df189526e2d8b22"
       ]
     },
     "6 - Full Notes/UNIVAC.md": {
@@ -75825,13 +76475,13 @@
       ]
     },
     "6 - Full Notes/Usability.md": {
-      "sourceHash": "d997be829c5d56eceacdf7a8a1162094e8af7798497f06ae8b3d5e8a94004ebc",
+      "sourceHash": "ce7c687f4f1ea964ae29b1fc0c72fd71ac04af1544a29676abf7ed8857deeaf1",
       "sourceType": "markdown",
       "fileName": "Usability.md",
       "title": "Usability",
       "chunkCount": 3,
       "objectHashes": [
-        "0dc29b54796186b6d1ce91a5f4f3a2f7f899323d8a732777b605bc334a087cb9"
+        "28a8eee2eab661f459b249fee1ec1a772254e993fde7ade8aab676302a264997"
       ]
     },
     "6 - Full Notes/Usenet.md": {
@@ -75945,13 +76595,13 @@
       ]
     },
     "6 - Full Notes/User Story.md": {
-      "sourceHash": "564610f8f9ed68f2e2111f105ba97ea701b71d852ad18c38a8c0de3f5941461b",
+      "sourceHash": "2fa9ad510a47e7dd86d712b4b3e193dedeeafa295adc04b98416101a8325da11",
       "sourceType": "markdown",
       "fileName": "User Story.md",
       "title": "User Story",
       "chunkCount": 3,
       "objectHashes": [
-        "3de461a087d15f46a3778dad1ca1689c914133a8366a901199098b76d17224a1"
+        "cb9b5baaba3d653a73a126a36ac637aa270c8d3b1dbe4c210bc315fc03b1bd66"
       ]
     },
     "6 - Full Notes/User Timeout.md": {
@@ -76175,13 +76825,13 @@
       ]
     },
     "6 - Full Notes/Value Object.md": {
-      "sourceHash": "ce5c1d01a75b12b2070d3b4a898aaee2dc98cce2c756fc286cb90ded6b098372",
+      "sourceHash": "041245c73bcc9e4f4e5099263f8f722eb53bc012f2f9be6c51d1d09b3c03bdcb",
       "sourceType": "markdown",
       "fileName": "Value Object.md",
       "title": "Value Object",
       "chunkCount": 3,
       "objectHashes": [
-        "d1a7ede0c39ad6b5b50a416195ef73cda06f8432e8f871747cc8be529dc34c8a"
+        "ee2a83f41732823ded0cee5cb47b674884592653b798217f57f4ab552f2d34c3"
       ]
     },
     "6 - Full Notes/Value Stream.md": {
@@ -76815,13 +77465,13 @@
       ]
     },
     "6 - Full Notes/Vertical Scaling.md": {
-      "sourceHash": "dc55204430ba08568d36597e597552d048ed8cccc002bac423f52d36c879da19",
+      "sourceHash": "152f04eac16f5de7ad52a9d2327f4c686350a5b5b635b4777e4abe8aaeb3ed03",
       "sourceType": "markdown",
       "fileName": "Vertical Scaling.md",
       "title": "Vertical Scaling",
       "chunkCount": 3,
       "objectHashes": [
-        "c5e514340ce20d4dfe074a30146d8b4815f8cf3121e5d654d05f4033024009b0"
+        "2d2bfa615ce864fc73ee43bfb1f84ef4f2b72833c2f6d027fea405c729f9eb91"
       ]
     },
     "6 - Full Notes/Vertical Slice.md": {
@@ -77212,6 +77862,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "d5264a0b132ff42005caa33a531702698a3fec79dfc34447cb7114f6fcb3d134"
+      ]
+    },
+    "6 - Full Notes/Visual Studio Code Metrics.md": {
+      "sourceHash": "269cd1634f73022247750e77b6d17462f5adf9035556f4af92688b7f99e44c59",
+      "sourceType": "markdown",
+      "fileName": "Visual Studio Code Metrics.md",
+      "title": "Visual Studio Code Metrics",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2d28c8956fd69669f21f0d214da7d69c01a97347b9ce448efc56d26b9f74ca93"
       ]
     },
     "6 - Full Notes/Visual Studio Diagnostic Tools.md": {
@@ -78244,6 +78904,16 @@
         "67b217ba03704cbd240b0ff61ae44cafb985bca98745bd08c036d81cc0a24c3c"
       ]
     },
+    "6 - Full Notes/Work Item Traceability.md": {
+      "sourceHash": "cfd017c6f5e41b5b98c260ca5f42633c315dc593ee0d406fa1cf7f28d731339f",
+      "sourceType": "markdown",
+      "fileName": "Work Item Traceability.md",
+      "title": "Work Item Traceability",
+      "chunkCount": 3,
+      "objectHashes": [
+        "c42c4a8c856e4f47686d5ab953e964df3702e190faf277a0508299c9398fa6ec"
+      ]
+    },
     "6 - Full Notes/Work.md": {
       "sourceHash": "67721820b3c3988b7f5e702130509b6cd9050edc746bceea6f6dcb17df871cda",
       "sourceType": "markdown",
@@ -78864,24 +79534,44 @@
         "fca9e518ed705e8e6c2d10185a88b621fd2cf31ab185277166eb37ec4fd69a21"
       ]
     },
+    "6 - Full Notes/xUnit Class Fixture.md": {
+      "sourceHash": "6b3646a80fd1f9187f94a29dc2f3e0fb665b60de75d06fc3924724cc5ff9095c",
+      "sourceType": "markdown",
+      "fileName": "xUnit Class Fixture.md",
+      "title": "xUnit Class Fixture",
+      "chunkCount": 3,
+      "objectHashes": [
+        "522d10d95fab9d2cbc372da9af4c517bd0fd6887c3e31c30ec6520c096f2c2d2"
+      ]
+    },
+    "6 - Full Notes/xUnit Fact.md": {
+      "sourceHash": "10a7fafa4c129e63426c28a2c1de210e8b7a394746254c07bcc1be842d004ae3",
+      "sourceType": "markdown",
+      "fileName": "xUnit Fact.md",
+      "title": "xUnit Fact",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0d44b9014416e2ff7e35e93526848a60a374d3008714caf85809198a46960212"
+      ]
+    },
     "6 - Full Notes/xUnit Theory Data.md": {
-      "sourceHash": "fa88ad973792c8500369c5f74cea46e9f9f2aad6d27d1f4b930641c881c65a9e",
+      "sourceHash": "3cf7184729da1495c3dab824d8633fbf4f164a047d8e2d489f21c63245c29cb9",
       "sourceType": "markdown",
       "fileName": "xUnit Theory Data.md",
       "title": "xUnit Theory Data",
       "chunkCount": 3,
       "objectHashes": [
-        "b1b8b9eff92a2b2a870491798cbd2300dad0a9a292b81ca0a2992b4dd1016e66"
+        "b1c8db5404f0b34399a6e562fd5d6dffa36ce1a720ae9b2a74599703aee6199d"
       ]
     },
     "6 - Full Notes/xUnit.net.md": {
-      "sourceHash": "4b743159684574c1b11bcd4dde108502eeb2927552e9d1f3bae3c72fe060a1f2",
+      "sourceHash": "e0048d181fa0f2e33190aeb7481d62247d9cd9f384355bff4229501d3aa3a9d7",
       "sourceType": "markdown",
       "fileName": "xUnit.net.md",
       "title": "xUnit.net",
       "chunkCount": 3,
       "objectHashes": [
-        "e6358c0b7412bd565d046a9b8f31c02d941bd81c29a516c67be24ff471cd0044"
+        "bf9e60e200ff6bb51bcd79fa6d1a3c163a5227ba455271d4127eb287aa89e73c"
       ]
     },
     "6 - Full Notes/Yahoo Directory.md": {

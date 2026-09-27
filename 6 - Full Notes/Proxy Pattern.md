@@ -10,7 +10,10 @@ The Proxy pattern places a stand-in object in front of another object and preser
 
 Unlike an [[Adapter Pattern|adapter]], a proxy normally preserves the subject's conceptual interface rather than translating to a different one. Its added control should remain visible enough that callers understand latency, security, or lifetime effects.
 
+Its proxy example places a representative object in front of another object to control access or add behavior without changing the caller's interface, a structure useful for remote, protected, or deferred interactions.
+
 # References
 
-[[hands-onobject-orientedprogrammingwithc.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
+[[hands-onobject-orientedprogrammingwithc.pdf]]

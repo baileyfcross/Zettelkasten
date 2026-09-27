@@ -10,7 +10,11 @@ A Docker image is the packaged, versionable template used to start one or more c
 
 The sales-order image is built locally, tested with `docker run`, tagged, and uploaded to a registry. Kubernetes then refers to that registered image when creating its worker pods.
 
+The software-architecture treatment uses images to separate the versioned deployable artifact from its running container instances. Registry distribution and orchestration can then reproduce the same service package on several nodes.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

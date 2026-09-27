@@ -10,7 +10,11 @@ An Azure Function is a small stateless unit of code invoked by a configured trig
 
 The book's C# function compares dates for a logic app and returns a compact result. A function is useful when a high-level workflow reaches a calculation that is clearer or more reliable in ordinary code.
 
+The book frames an Azure Function as a small event-triggered unit hosted under a Function App, with execution and scaling governed by the selected plan and bindings connecting inputs and outputs to Azure services.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 

@@ -14,7 +14,11 @@ For a React and ASP.NET Core application, an Azure DevOps build pipeline can tri
 
 The design-patterns source applies the same cycle to several developers and branches: a code change triggers a new build, automated unit tests check it, and a failed build receives immediate attention before more changes accumulate. This is the integration gate before any environment-specific release decision.
 
+The DevOps chapters define CI as building and testing every integrated commit so defects and conflicts are exposed quickly. Stable branches, automated tests, and pull-request controls determine whether frequent integration actually produces dependable feedback.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[agilegamedevelopment2e.pdf]]
 [[aspnetcore3andreact.pdf]]

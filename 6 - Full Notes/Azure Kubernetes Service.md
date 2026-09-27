@@ -10,6 +10,10 @@ Azure Kubernetes Service is Microsoft's managed environment for running Kubernet
 
 The 2019 project creates an AKS cluster, grants it access to an Azure container registry, and applies a deployment that runs the sales-order image. The workload remains containerized and is presented as portable in principle to another Kubernetes provider.
 
+The book positions Azure Kubernetes Service as an orchestration option for containerized microservices, managing clusters, replicas, service exposure, and deployment while the application team retains responsibility for service boundaries, data, and message behavior.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]

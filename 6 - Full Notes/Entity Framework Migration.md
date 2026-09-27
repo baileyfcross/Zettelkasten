@@ -12,7 +12,11 @@ After entities, relationships, or identity structures change, a new migration ca
 
 The REST service workflow uses migrations to turn the persistence model configured in the data layer into a reproducible database schema before the API begins serving repository operations.
 
+The software-architecture workflow treats migrations as versioned transformations from the configured EF Core model to a deployable physical schema, allowing database evolution to accompany application releases rather than rely on manual drift.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

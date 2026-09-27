@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human-Centered Computational Design]]
+Tags: [[Human-Centered Computational Design]] [[Software Requirements Elicitation and Specification]]
 
 # Functional Requirements and Unstated Context
 
@@ -10,6 +10,9 @@ Functional requirements express testable behavior a system is expected to provid
 
 A project can satisfy its written requirements and still disappoint users when unstated context is missing. Continuous contact, prototypes, and observation help reveal those assumptions before they become expensive design failures.
 
+In software architecture, the functional portion states observable system behavior, while the elicitation process must continue probing the operating context that gives that behavior value and exposes its hidden constraints.
+
 # References
 
 [[computationalthinking.epub]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

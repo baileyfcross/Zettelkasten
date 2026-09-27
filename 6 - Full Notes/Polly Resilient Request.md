@@ -10,7 +10,11 @@ A Polly resilient request wraps a remote operation in an explicit recovery polic
 
 Retries must be bounded and appropriate to the operation. Repeating a non-idempotent request can duplicate a side effect, while retrying an invalid address or authorization failure merely adds delay and load.
 
+Within interservice communication, Polly policies handle transient remote failures around asynchronous operations. The architecture must still decide which failures are retryable and ensure repeated execution cannot duplicate an unsafe side effect.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

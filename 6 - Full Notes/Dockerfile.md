@@ -10,7 +10,11 @@ A Dockerfile is the declarative build recipe for a Docker image. Its instruction
 
 Visual Studio generates the book's initial Dockerfile when Linux container support is added. The file remains the reproducible source for rebuilding the image rather than relying on the state of one developer machine.
 
+The book shows Visual Studio generating Docker support, but the Dockerfile remains the explicit recipe that turns application output and a selected runtime base into a reproducible image with a defined startup command.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

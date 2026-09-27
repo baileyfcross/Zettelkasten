@@ -10,7 +10,11 @@ Azure Container Registry is a managed remote repository for versioned container 
 
 The registry separates image distribution from the developer's local Docker cache. Access between AKS and the registry must be configured, and image tags should identify which build a workload is expected to run.
 
+In the architecture workflow, a private registry holds versioned service images that Azure orchestration can retrieve. Registry identity and access connect the build artifact to the exact package deployed across the microservice environment.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

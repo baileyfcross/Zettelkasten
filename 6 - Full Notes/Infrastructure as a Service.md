@@ -10,6 +10,10 @@ Infrastructure as a service provides hardware-oriented computing resources such 
 
 Typical uses include computing-intensive work, elastic web hosting, storage, and remote backup. An operating system preinstalled for provider security does not by itself turn IaaS into [[Platform as a Service]]; the distinction depends on whether a usable application platform and supporting software are provided.
 
+The architecture source frames IaaS as the option that gives the customer the most control over virtual machines and networking while leaving more operating-system, patching, configuration, and security responsibility with the customer.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[cloudcomputing_mit.epub]]

@@ -10,7 +10,11 @@ OpenAPI describes an HTTP API's operations, parameters, payload schemas, respons
 
 The document improves discovery and can drive client generation, but it must accurately reflect runtime behavior. Response types, status codes, and schema annotations should therefore be maintained as part of the API contract rather than treated as incidental documentation.
 
+The book configures ASP.NET Core OpenAPI generation and Swagger UI so the running API exposes discoverable operations and schemas. Accurate annotations and response metadata are required for the generated description to remain trustworthy.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

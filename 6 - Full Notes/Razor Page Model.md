@@ -10,6 +10,10 @@ A Razor Page pairs a `.cshtml` template with an optional page-model class that c
 
 The page-centered structure keeps the code for one screen close together while still separating C# behavior from markup. Services supplied through dependency injection let the page model coordinate persistence or application logic without constructing its dependencies directly.
 
+The architecture discussion contrasts page-focused handlers with MVC controllers: a page model groups request handling and state for one Razor Page while preserving separation from rendering and application services.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

@@ -12,7 +12,11 @@ ASP.NET Core registers application services during startup and injects them into
 
 In the inventory application, commands depend on read or write context interfaces and the .NET service provider supplies their implementations through constructor injection. Registration also specifies whether an instance is transient, scoped, or shared as a singleton; this construction policy is distinct from the business behavior of the command.
 
+Its .NET examples register abstractions and implementations with the generic host or ASP.NET Core service collection, moving object composition and lifetime selection away from business behavior that consumes the dependency.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

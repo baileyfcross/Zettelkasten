@@ -12,7 +12,11 @@ Fluent configuration keeps persistence details out of entity classes and can exp
 
 In the book's service architecture, fluent configuration is part of the data-access layer and defines the database-facing model without moving those details into the HTTP or application-service layers.
 
+This source uses `OnModelCreating` to complete mappings that conventions or annotations do not express cleanly, keeping database-oriented relationship and key configuration within the data-layer composition boundary.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

@@ -12,7 +12,11 @@ Object-relational mapping connects an object-oriented application model to table
 
 The source presents an ORM as a layer that maps application entities and operations to database tables and SQL. This lets code work through domain-shaped objects while the mapper remains responsible for translation, relationships, and persistence commands.
 
+The architecture source explains ORM as a mapping layer between object graphs and relational rows. It reduces repetitive persistence code while leaving query shape, transactions, schema evolution, and provider capabilities as explicit design concerns.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 

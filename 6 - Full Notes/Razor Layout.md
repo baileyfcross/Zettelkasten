@@ -10,6 +10,10 @@ A Razor layout defines the shared outer structure of multiple pages or views, su
 
 Layouts reduce duplicated markup and create a single place for application-wide presentation changes. Shared view imports and startup files can further establish common namespaces, tag helpers, and default layout choices.
 
+The source uses layouts to keep shared page structure around view-specific content, providing reuse at the presentation layer without moving controller or domain behavior into the visual template.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

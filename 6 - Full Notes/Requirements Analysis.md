@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[UX Evaluation]] [[Software Engineering]]
+Tags: [[UX Evaluation]] [[Software Engineering]] [[Software Requirements Elicitation and Specification]]
 
 # Requirements Analysis
 
@@ -12,6 +12,9 @@ Contextual inquiry gathers evidence through observation, interviews, recordings,
 
 This work grounds [[User-Centered Design]] in actual context and supplies inputs to [[Task Analysis]], design, and [[Prototype|prototyping]].
 
+Architectural analysis also classifies statements into behavior and quality constraints, resolves conflicts, and tests feasibility against schedule, budget, technology, and the expected operating environment.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

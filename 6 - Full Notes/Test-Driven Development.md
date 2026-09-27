@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]] [[Web Application Testing]]
+Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[Test-Driven Development and Unit Test Design]]
 
 # Test-Driven Development
 
@@ -14,9 +14,12 @@ ASP.NET Core and Angular tests apply the same cycle with different tools: xUnit.
 
 The inventory project uses tests around commands, factories, and the shared repository to make expected behavior visible while the design changes. In particular, tests expose a race in concurrent quantity updates and a lifetime error when each resolution builds a new dependency-injection provider. Passing tests measure the implemented behavior, not the completeness of user acceptance testing.
 
+The red-green-refactor loop treats the initial failing test as evidence that the new behavior is absent, implements only enough to satisfy it, and then improves the design while the full suite remains green.
+
 # References
 
 [[agilegamedevelopment2e.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

@@ -8,7 +8,11 @@ Tags: [[Cloud Messaging Caching and Operations Patterns]] [[.NET Microservice Co
 
 The publisher-subscriber pattern sends an event from a producer to whichever consumers have registered interest in that event. A customer service can publish a customer-created event while an order service updates its own store and a separate service sends a welcome message. The producer does not need direct knowledge of either consumer, making it easier to add or replace reactions, but subscribers must agree on the event's meaning and delivery behavior.
 
+The book uses publish-subscribe to let an event source notify interested handlers without depending directly on each receiver. That reduces structural coupling while making event contract, ordering, and duplicate delivery part of the design.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 

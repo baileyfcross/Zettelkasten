@@ -10,6 +10,10 @@ A SOAP web service exchanges structured messages according to the Simple Object 
 
 The contract can standardize operations and message structure across consumers, but its additional envelope and service conventions are useful only when both sides need that formal interoperability.
 
+The architecture source presents SOAP as a standards-based service approach with structured envelopes and formal contracts suited to established enterprise interoperability needs, while contrasting its heavier protocol model with common REST interfaces.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]

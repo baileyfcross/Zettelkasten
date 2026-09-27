@@ -12,7 +12,11 @@ This convention lets an Angular client treat a server-side controller as a data 
 
 The REST constraints add more than resource-shaped routes: messages should be self-descriptive, requests stateless, responses cacheable where appropriate, and representations capable of advertising available transitions through hypermedia.
 
+Its SOA chapter relates REST services to resource-oriented URLs, standard HTTP methods, stateless requests, status semantics, bearer authorization, and OpenAPI documentation, keeping transport choices aligned with an interoperable public contract.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 

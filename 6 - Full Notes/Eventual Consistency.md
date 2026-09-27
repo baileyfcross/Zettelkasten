@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[CQRS and Ledger Data Architecture]] [[Event Sourcing and Projections]]
+Tags: [[CQRS and Ledger Data Architecture]] [[Event Sourcing and Projections]] [[Cloud Data Storage Selection and Consistency]]
 
 # Eventual Consistency
 
@@ -10,7 +10,10 @@ Eventual consistency means that a read model may temporarily lag behind committe
 
 In an event-sourced system, the event stream is updated before asynchronous [[Projection]]s consume the new event. The consistency delay is therefore the interval between appending the event and updating every affected [[Read Model]]. Reliable subscriptions, retries, and [[Projection Checkpoint]]s make convergence possible, while the interface must not promise immediate visibility it cannot provide.
 
+Distributed document databases can expose eventual consistency as a selectable replication contract, improving availability or latency while requiring the application to tolerate temporarily stale reads.
+
 # References
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

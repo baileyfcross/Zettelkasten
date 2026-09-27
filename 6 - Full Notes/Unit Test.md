@@ -2,11 +2,13 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]] [[ASP.NET Core API Integration Testing]]
+Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]] [[ASP.NET Core API Integration Testing]] [[Test-Driven Development and Unit Test Design]]
 
 # Unit Test
 
 A unit test is a fast automated check of a small piece of software behavior in controlled conditions. It gives developers immediate evidence about local correctness and supports safe refactoring.
+
+Its narrow scope should isolate external collaborators, arrange deterministic state, and express a specific expectation. Unit tests can be wrong, but independently written tests and implementation are unlikely to reproduce exactly the same error.
 
 Many unit tests form the fast base of a [[Testing Pyramid]], but they cannot prove that assets, systems, platforms, and player-facing behavior work together. Broader integration and playthrough tests supply that evidence.
 
@@ -23,3 +25,4 @@ The web-research chapter emphasizes that test code has a maintenance cost and sh
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

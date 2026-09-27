@@ -10,7 +10,11 @@ Tags: [[ASP.NET Core Web API Development]] [[.NET Network Requests Sockets and S
 
 Central configuration provides a natural place for base addresses, headers, logging, and resilience policies. Consumers receive a client through dependency injection, which makes their external-service dependency visible and easier to replace during tests.
 
+The architecture book uses the factory to create efficient outbound REST clients without repeatedly constructing unmanaged handler resources. Typed or named configuration keeps remote-service addresses and behavior outside controllers.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 

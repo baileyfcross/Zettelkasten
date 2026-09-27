@@ -10,6 +10,10 @@ A data annotation is metadata attached to a model member to express mapping or v
 
 Annotations supplement [[Convention over Configuration]]. They keep simple rules close to the entity definition, while more complicated mapping remains available through explicit model configuration.
 
+In EF Core, attributes can declare mapping details such as keys, required properties, lengths, and relationships close to the entity definition. The book contrasts this convenience with fluent configuration held in the context when mapping concerns should remain external.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]

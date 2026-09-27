@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core API Integration Testing]]
+Tags: [[ASP.NET Core API Integration Testing]] [[Test-Driven Development and Unit Test Design]]
 
 # xUnit Theory Data
 
@@ -13,3 +13,4 @@ Theory data is most useful when every row tests one coherent behavior. If rows r
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

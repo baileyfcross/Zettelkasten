@@ -10,6 +10,10 @@ A database context is the Entity Framework Core object that represents a session
 
 The context is configured with a database provider and connection information, then supplied to controllers or services through [[Dependency Injection]]. Tests can replace the production configuration with an [[In-Memory Database Provider]].
 
+The book uses a `DbContext` subclass to expose mapped collections and centralize entity configuration, database provider setup, transactions, and global filters. Its lifetime defines a change-tracking and unit-of-work boundary.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]

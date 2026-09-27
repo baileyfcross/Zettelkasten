@@ -10,7 +10,11 @@ A unit of work tracks changes made during one application operation and commits 
 
 For a RESTful service, the unit of work belongs at the application-operation boundary: the service coordinates repository changes and saves once, while the HTTP controller remains concerned with translating requests and responses.
 
+Its DDD design assigns the unit of work responsibility for coordinating repository changes and committing them as one transaction, preventing each repository call from deciding independently when shared application work becomes durable.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

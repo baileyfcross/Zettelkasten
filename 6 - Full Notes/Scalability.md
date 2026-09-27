@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Performance and Scalability]] [[Cloud Computing Foundations]]
+Tags: [[Web Performance and Scalability]] [[Cloud Computing Foundations]] [[Software Quality Attributes and Architecture Tradeoffs]]
 
 # Scalability
 
@@ -12,8 +12,11 @@ Paging, asynchronous I/O, caching, and fewer queries address different constrain
 
 Scaling can be [[Horizontal Scalability|horizontal]], by changing the number of resource instances, or [[Vertical Scalability|vertical]], by increasing the capacity of an individual resource. Cloud [[Rapid Elasticity|elasticity]] automates horizontal scaling in and out so that capacity can follow demand.
 
+As a quality requirement, scalability must identify the growing load and the service levels that remain acceptable; otherwise adding resources may simply move an unmeasured bottleneck.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
 
 [[cloudcomputing_mit.epub]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

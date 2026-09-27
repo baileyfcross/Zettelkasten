@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]]
+Tags: [[Web Application Testing]] [[ASP.NET Core API Integration Testing]]
 
 # Integration Test
 
@@ -13,3 +13,4 @@ The broader path provides confidence that individually correct pieces work toget
 # References
 
 [[aspnetcore3andreact.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

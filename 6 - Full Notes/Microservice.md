@@ -17,3 +17,4 @@ The design-patterns source frames a microservice as a small unit built around on
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

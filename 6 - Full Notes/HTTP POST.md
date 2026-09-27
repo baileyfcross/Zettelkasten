@@ -16,3 +16,4 @@ A successful creation response can include the created representation and its re
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

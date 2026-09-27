@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]]
+Tags: [[Web Identity and Access Control]] [[ASP.NET Core API Security and Caching]]
 
 # Token-Based Authentication
 
@@ -13,3 +13,4 @@ The ASP.NET Core and Angular SPA flow uses a [[JSON Web Token]] issued through I
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

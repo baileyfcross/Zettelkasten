@@ -19,3 +19,4 @@ The web-research and bot projects use App Service as the managed destination for
 [[aspnetcore3andreact.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Front-End Service Design]] [[ASP.NET Core Web API Development]] [[Application Commands and Service Boundaries]]
+Tags: [[Front-End Service Design]] [[ASP.NET Core Web API Development]] [[Application Commands and Service Boundaries]] [[ASP.NET Core Service Layers and Mapping]]
 
 # Data Transfer Object
 
@@ -17,3 +17,4 @@ In a domain-centered application, request DTOs form the [[Public API Contract]] 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

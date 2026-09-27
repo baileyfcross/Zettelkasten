@@ -17,3 +17,4 @@ The order-processing project creates an Azure SQL database for the microservice'
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[aspnetcore3andreact.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Messaging Caching and Operations Patterns]]
+Tags: [[Cloud Messaging Caching and Operations Patterns]] [[.NET Microservice Communication and Workers]]
 
 # Publisher-Subscriber Pattern
 
@@ -13,3 +13,4 @@ The publisher-subscriber pattern sends an event from a producer to whichever con
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

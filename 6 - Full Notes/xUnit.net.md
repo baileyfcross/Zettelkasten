@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]]
+Tags: [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]] [[ASP.NET Core API Integration Testing]]
 
 # xUnit.net
 
@@ -18,3 +18,4 @@ The web-research project uses xUnit facts to arrange an EF Core in-memory contex
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

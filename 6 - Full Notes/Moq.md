@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]]
+Tags: [[Web Application Testing]] [[ASP.NET Core API Integration Testing]]
 
 # Moq
 
@@ -13,3 +13,4 @@ In ASP.NET Core controller tests, Moq can isolate controller behavior from a pro
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

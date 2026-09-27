@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Distributed Network Caching Monitoring and Inspection]]
+Tags: [[Distributed Network Caching Monitoring and Inspection]] [[ASP.NET Core API Security and Caching]]
 
 # Distributed Cache
 
@@ -13,3 +13,4 @@ The shared store improves consistency of cached access across instances but adds
 # References
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

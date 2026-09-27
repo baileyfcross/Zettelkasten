@@ -16,3 +16,4 @@ Collection GET endpoints often accept paging, sorting, or filtering parameters. 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

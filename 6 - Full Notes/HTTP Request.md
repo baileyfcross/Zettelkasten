@@ -16,3 +16,4 @@ In ASP.NET Core, the request passes through the [[HTTP Request Pipeline]] before
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

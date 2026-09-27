@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Containerized Microservice Architecture]]
+Tags: [[Containerized Microservice Architecture]] [[ASP.NET Core Service Observability and API Tooling]]
 
 # Distributed Logging
 
@@ -13,3 +13,4 @@ The order-processing chapter suggests a managed service such as Application Insi
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

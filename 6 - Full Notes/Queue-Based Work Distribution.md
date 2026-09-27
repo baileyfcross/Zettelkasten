@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Containerized Microservice Architecture]] [[Cloud Messaging Caching and Operations Patterns]]
+Tags: [[Containerized Microservice Architecture]] [[Cloud Messaging Caching and Operations Patterns]] [[.NET Microservice Communication and Workers]]
 
 # Queue-Based Work Distribution
 
@@ -18,3 +18,4 @@ The cloud-patterns source emphasizes the queue's load-leveling role: clients can
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

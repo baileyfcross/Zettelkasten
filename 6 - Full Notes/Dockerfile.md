@@ -13,3 +13,4 @@ Visual Studio generates the book's initial Dockerfile when Linux container suppo
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

@@ -13,3 +13,4 @@ The book runs its .NET Core 3 worker in a Linux container. The container is ligh
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

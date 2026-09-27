@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]]
+Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]] [[ASP.NET Core API Integration Testing]]
 
 # Unit Test
 
@@ -22,3 +22,4 @@ The web-research chapter emphasizes that test code has a maintenance cost and sh
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

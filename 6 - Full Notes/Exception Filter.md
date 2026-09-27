@@ -13,4 +13,3 @@ Filters are useful when an exception carries a stable property that determines w
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
-

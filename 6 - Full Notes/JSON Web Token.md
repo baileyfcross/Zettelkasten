@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]]
+Tags: [[Web Identity and Access Control]] [[ASP.NET Core API Security and Caching]]
 
 # JSON Web Token
 
@@ -13,3 +13,4 @@ In a single-page application, IdentityServer can issue a JWT after authenticatio
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Messaging Caching and Operations Patterns]] [[Distributed Network Caching Monitoring and Inspection]]
+Tags: [[Cloud Messaging Caching and Operations Patterns]] [[Distributed Network Caching Monitoring and Inspection]] [[ASP.NET Core Service Observability and API Tooling]]
 
 # Application Telemetry
 
@@ -15,3 +15,4 @@ Application telemetry is operational data emitted by running software, such as r
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Scalability and Resilience Patterns]]
+Tags: [[Cloud Scalability and Resilience Patterns]] [[.NET Microservice Communication and Workers]]
 
 # Event-Driven Architecture
 
@@ -11,4 +11,4 @@ Event-driven architecture reacts to facts that have occurred, such as a customer
 # References
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
-
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

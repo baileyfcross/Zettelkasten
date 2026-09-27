@@ -13,3 +13,4 @@ The sales-order image is built locally, tested with `docker run`, tagged, and up
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

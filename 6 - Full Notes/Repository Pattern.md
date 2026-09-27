@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Dapper Data Access]] [[Aggregate Consistency and Persistence]]
+Tags: [[Dapper Data Access]] [[Aggregate Consistency and Persistence]] [[ASP.NET Core Service Layers and Mapping]]
 
 # Repository Pattern
 
@@ -14,6 +14,8 @@ The inventory example first puts books in an in-memory repository shared by add,
 
 In Domain-Driven Design, a repository represents a collection of [[Aggregate]] roots and abstracts their persistence from the domain and application layers. Its interface can load or add an aggregate while a separate [[Unit of Work]] owns the commit. A repository should not become a generic query layer for arbitrary screens: aggregate behavior belongs on the command side, while [[Read Model]] queries can use storage directly when that better matches their purpose.
 
+In an ASP.NET Core REST service, the repository boundary also lets the application layer select between Entity Framework Core, Dapper, or a test double without forcing controllers to understand provider-specific query mechanics.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
@@ -21,3 +23,4 @@ In Domain-Driven Design, a repository represents a collection of [[Aggregate]] r
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

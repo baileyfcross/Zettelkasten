@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]] [[Entity Framework Core Data Access]]
+Tags: [[Web Application Testing]] [[Entity Framework Core Data Access]] [[ASP.NET Core API Integration Testing]]
 
 # In-Memory Database Provider
 
@@ -17,3 +17,4 @@ The web-research tests configure a uniquely named EF Core in-memory database thr
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

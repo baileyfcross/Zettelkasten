@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Web API Development]]
+Tags: [[ASP.NET Core Web API Development]] [[ASP.NET Core Service Observability and API Tooling]]
 
 # OpenAPI and Swagger
 
@@ -13,3 +13,4 @@ The document improves discovery and can drive client generation, but it must acc
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

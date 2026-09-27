@@ -16,3 +16,4 @@ Status selection is part of an API contract. A health endpoint can map healthy, 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

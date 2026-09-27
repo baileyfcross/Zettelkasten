@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Network Requests Sockets and Streams]]
+Tags: [[.NET Network Requests Sockets and Streams]] [[.NET Microservice Communication and Workers]]
 
 # Polly Resilient Request
 
@@ -13,3 +13,4 @@ Retries must be bounded and appropriate to the operation. Repeating a non-idempo
 # References
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

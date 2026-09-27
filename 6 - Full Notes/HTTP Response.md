@@ -16,3 +16,4 @@ ASP.NET Core middleware or controller actions can write responses. A client inte
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

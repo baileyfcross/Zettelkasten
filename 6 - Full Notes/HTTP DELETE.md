@@ -16,3 +16,4 @@ The HTTP operation exposes a deletion contract; it does not determine whether th
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

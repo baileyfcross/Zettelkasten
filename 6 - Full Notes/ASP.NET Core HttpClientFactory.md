@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Web API Development]] [[.NET Network Requests Sockets and Streams]]
+Tags: [[ASP.NET Core Web API Development]] [[.NET Network Requests Sockets and Streams]] [[.NET Microservice Communication and Workers]]
 
 # ASP.NET Core HttpClientFactory
 
@@ -15,3 +15,4 @@ Central configuration provides a natural place for base addresses, headers, logg
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

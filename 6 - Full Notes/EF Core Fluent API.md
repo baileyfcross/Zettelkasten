@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Entity Framework Core Data Access]]
+Tags: [[Entity Framework Core Data Access]] [[ASP.NET Core Service Layers and Mapping]]
 
 # EF Core Fluent API
 
@@ -10,6 +10,9 @@ The EF Core Fluent API configures a model through chained method calls, commonly
 
 Fluent configuration keeps persistence details out of entity classes and can express mappings unavailable through attributes. When conventions, annotations, and Fluent API configuration conflict, the explicit Fluent configuration has the greatest authority.
 
+In the book's service architecture, fluent configuration is part of the data-access layer and defines the database-facing model without moving those details into the HTTP or application-service layers.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

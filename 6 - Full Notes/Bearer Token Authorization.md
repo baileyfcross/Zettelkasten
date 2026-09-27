@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[TLS Authentication and Secure Remote Access]]
+Tags: [[TLS Authentication and Secure Remote Access]] [[ASP.NET Core API Security and Caching]]
 
 # Bearer Token Authorization
 
@@ -13,3 +13,4 @@ Because possession is sufficient, a bearer token must be protected in storage an
 # References
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

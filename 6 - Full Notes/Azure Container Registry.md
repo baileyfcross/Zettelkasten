@@ -13,3 +13,4 @@ The registry separates image distribution from the developer's local Docker cach
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

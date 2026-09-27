@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-27T17:43:18.838Z",
+  "updatedAt": "2026-09-27T22:40:19.008Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -2755,6 +2755,16 @@
         "40156e62fe45d5f896be432b2b601b7e6858ea0d9fd29eab7e4356a679a34b89"
       ]
     },
+    "3 - Tags/AI Network Monitoring and Remediation.md": {
+      "sourceHash": "00ec39b05020dbffd15af24befba1f061d22395da7655e22eb815788e291da6b",
+      "sourceType": "markdown",
+      "fileName": "AI Network Monitoring and Remediation.md",
+      "title": "AI Network Monitoring and Remediation",
+      "chunkCount": 2,
+      "objectHashes": [
+        "0ce8aa407f08cc2aac42bd16803bde287aba894dbb5e4fbe2db43a276e89d15d"
+      ]
+    },
     "3 - Tags/AI Pipeline Engineering.md": {
       "sourceHash": "c50c2619601e7356527bfeacb4cb2224731e449817fc9403210d637677fcde7b",
       "sourceType": "markdown",
@@ -2783,6 +2793,36 @@
       "chunkCount": 2,
       "objectHashes": [
         "7869b9da609144f2a6ba90cae95f7d9497acef9e0b8032a69e0531508303e5bb"
+      ]
+    },
+    "3 - Tags/AI-Assisted Network Automation.md": {
+      "sourceHash": "53005cb33b2f7e6647485a569884a2398ae05e3f1d73c2cd1d26c10492c7f3d8",
+      "sourceType": "markdown",
+      "fileName": "AI-Assisted Network Automation.md",
+      "title": "AI-Assisted Network Automation",
+      "chunkCount": 2,
+      "objectHashes": [
+        "8eeb4d6e38cb2ebb401271f4c4c0d7f5bb40b47eb9d4b1abd7525ee0493c484a"
+      ]
+    },
+    "3 - Tags/AI-Assisted Network Security.md": {
+      "sourceHash": "3c7b8609487dd3685bf28cad517d36936d1c48e3f96cd4602c05cbc012cbdcd6",
+      "sourceType": "markdown",
+      "fileName": "AI-Assisted Network Security.md",
+      "title": "AI-Assisted Network Security",
+      "chunkCount": 2,
+      "objectHashes": [
+        "5bdb187051097f560af2267eccc5cd1b95f66ce5a8204118e5334d83934886fa"
+      ]
+    },
+    "3 - Tags/AI-Enabled Network Engineering.md": {
+      "sourceHash": "0ffce016b61fd4d7d81e10d7e0599b9750d17367d703ff606d59402bcae1df89",
+      "sourceType": "markdown",
+      "fileName": "AI-Enabled Network Engineering.md",
+      "title": "AI-Enabled Network Engineering",
+      "chunkCount": 10,
+      "objectHashes": [
+        "8ab3dcce3622b381a3c18fbc8078e511ab032a9c3ea4dd7218f960832e36dd1d"
       ]
     },
     "3 - Tags/Aircraft Airworthiness and Resource Planning.md": {
@@ -4496,13 +4536,13 @@
       ]
     },
     "3 - Tags/Computer Science.md": {
-      "sourceHash": "b3d42e18914da0783b1de5d2d19d663c77143d0fa4a1459f5faee9de5ce59564",
+      "sourceHash": "7f3439951e203e924616fdf85654d5f9f722153a640e1403ad1a26482d106dcf",
       "sourceType": "markdown",
       "fileName": "Computer Science.md",
       "title": "Computer Science",
       "chunkCount": 13,
       "objectHashes": [
-        "83f3efe4dbd81aa57c39849772d8ea70dc7e13f197042e036c09e6eff44a7cce"
+        "7b86a4151b3808f1bffd3a5cef15995281772300114679226a32763389c2f839"
       ]
     },
     "3 - Tags/Computing History.md": {
@@ -6835,6 +6875,16 @@
         "dd53e034b3e65284735c1a26ec1983db7f651f351054d4ef876fc3540f153662"
       ]
     },
+    "3 - Tags/Local LLM Network Engineering.md": {
+      "sourceHash": "102e6064abf6d3e3ff7e9aa4fff87faed3a2a5cab9a71e382c66b7d058bbe595",
+      "sourceType": "markdown",
+      "fileName": "Local LLM Network Engineering.md",
+      "title": "Local LLM Network Engineering",
+      "chunkCount": 2,
+      "objectHashes": [
+        "f77fa45c3f5c2bb7f86f60308f44cddad89fe1028cfb5c05c56a21e61548e81c"
+      ]
+    },
     "3 - Tags/Localization and Local Algebra.md": {
       "sourceHash": "441bb61e3a10bf1dd21bc467b9ea85553f2a19197bc9464129ee353cf21a42cf",
       "sourceType": "markdown",
@@ -7125,6 +7175,26 @@
         "75c978b9679c9829c88a9199756b747bb4e349e50f2c4b42d9ac348ee3f22cce"
       ]
     },
+    "3 - Tags/Network AI Application Architecture.md": {
+      "sourceHash": "c2195eebbda097ced3cfca195414dcd3873c70a765988f85d41c7e42ca5e49cd",
+      "sourceType": "markdown",
+      "fileName": "Network AI Application Architecture.md",
+      "title": "Network AI Application Architecture",
+      "chunkCount": 2,
+      "objectHashes": [
+        "08d995f4f2f23c513af13369b0cc8ea11f06c313b1fdbd2116745f186d4ef86b"
+      ]
+    },
+    "3 - Tags/Network AI Model and Prompt Engineering.md": {
+      "sourceHash": "d1bcc0deaf281c274189747a1a6ff63f5440eebd632718b9f0b9322684bda136",
+      "sourceType": "markdown",
+      "fileName": "Network AI Model and Prompt Engineering.md",
+      "title": "Network AI Model and Prompt Engineering",
+      "chunkCount": 2,
+      "objectHashes": [
+        "b82002e4c3c1cf50f41879b0da12b8ec77edd1b7c40a16a5d903ac6f67d5b948"
+      ]
+    },
     "3 - Tags/Network and Uncertain Data Clustering.md": {
       "sourceHash": "a4bb4b98ac6804ca3a2b5c3fcd504e587c085471bd8d0ebb26dfe58629ad670b",
       "sourceType": "markdown",
@@ -7133,6 +7203,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "589e7f3b061301d350451fb2036ef8f068fc46bf4bd459ad0eaf23e7ce24ace2"
+      ]
+    },
+    "3 - Tags/Network Copilot Design.md": {
+      "sourceHash": "5cb3b325c1e75515a0b3fe073bf48776c23ecfab7046342b15f3effaf4ea14da",
+      "sourceType": "markdown",
+      "fileName": "Network Copilot Design.md",
+      "title": "Network Copilot Design",
+      "chunkCount": 2,
+      "objectHashes": [
+        "8b3c159202d67e0e131ec7aee9c87391cfca213f401f06b8d29f2cc78f2fbfea"
       ]
     },
     "3 - Tags/Network Programming with C Sharp and .NET.md": {
@@ -10425,6 +10505,16 @@
         "840a8b08fea3084040f2c6a1245dbc6d2147d39cc48adaa3b124524af1a85e2c"
       ]
     },
+    "6 - Full Notes/AI Capacity Forecast.md": {
+      "sourceHash": "b3fd55b06d3ae16384f7ee9a47cd07280577d9c33833d441de5941f1e859b2f4",
+      "sourceType": "markdown",
+      "fileName": "AI Capacity Forecast.md",
+      "title": "AI Capacity Forecast",
+      "chunkCount": 3,
+      "objectHashes": [
+        "366a80418925e6db54e08aa2fc455d71ca0fdd4056b5c05a020fd493888cb9da"
+      ]
+    },
     "6 - Full Notes/AI Control Problem.md": {
       "sourceHash": "e0152ec23de38aad6cc8c3b07fed444c0f5adc4a0bdbd6704fbb65a6839e306a",
       "sourceType": "markdown",
@@ -10543,6 +10633,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "86c296cc466bc658e63c52335665ef9b26fce81e65749127019c0bc181505f53"
+      ]
+    },
+    "6 - Full Notes/AI Network Health Analysis.md": {
+      "sourceHash": "5a9fe9ba7923e4360c4b94d19872b6697b6ce433a2ed33bfc4a392a1ef997a49",
+      "sourceType": "markdown",
+      "fileName": "AI Network Health Analysis.md",
+      "title": "AI Network Health Analysis",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ba01ec186ba87bebfcc9fb7eb5bf7c499332bf5204cafd72d86bccb8518e9f03"
       ]
     },
     "6 - Full Notes/AI Paternalism.md": {
@@ -10703,6 +10803,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "0fea79ef4928d7b4423850c2cffa5604b43dbf308ed5249ec919e3b03b287b33"
+      ]
+    },
+    "6 - Full Notes/AI-Generated Method of Procedure.md": {
+      "sourceHash": "6bfd7e75a89e9f58b226d7c93bba7f633b49148e732625ab03a15f281df85a23",
+      "sourceType": "markdown",
+      "fileName": "AI-Generated Method of Procedure.md",
+      "title": "AI-Generated Method of Procedure",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8b18829f18873901d0cecfff86c006b73b92d04c84421e37d0c1aea3ca44ddf9"
       ]
     },
     "6 - Full Notes/Aiming Reticle.md": {
@@ -12283,6 +12393,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "81893bb3f7ff2b096ace13fa31d02f226b805b2288041493f294d4a73633b218"
+      ]
+    },
+    "6 - Full Notes/Approval-Gated Network Auto-Remediation.md": {
+      "sourceHash": "bbad0e451d7305c6dd33eceaa3279251bba1e62fbdd2e4e032f8128ae0103102",
+      "sourceType": "markdown",
+      "fileName": "Approval-Gated Network Auto-Remediation.md",
+      "title": "Approval-Gated Network Auto-Remediation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8b5b4ddf0453abe814ae15c4573717deda6100655a5006795d2c7ad4f08d178a"
       ]
     },
     "6 - Full Notes/Approximate Bayesian Inference.md": {
@@ -21145,6 +21265,16 @@
         "7c37d62d8b75c6d923e0bb011c0a19a6f0be3a81a4750ed3b0ae57f08de1266e"
       ]
     },
+    "6 - Full Notes/Change Risk Assessment for Network Remediation.md": {
+      "sourceHash": "133370659e6e18d8d9ffe06f86a2eb1cdf5bb384c77f937ce90181550efe0784",
+      "sourceType": "markdown",
+      "fileName": "Change Risk Assessment for Network Remediation.md",
+      "title": "Change Risk Assessment for Network Remediation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2f10c6e6f84729f9b276d1952b99de98f99f83f969f5b215439b0fbc7ef1e651"
+      ]
+    },
     "6 - Full Notes/Change-in-Estimate Criterion.md": {
       "sourceHash": "788e09399b79d2cbb0a3db95589aad801f805877c61b826864ce0b56bce2ca5a",
       "sourceType": "markdown",
@@ -23383,6 +23513,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "a3f7f321937a4d6f5b04402cf5b6239038612223d720f953b92687f2685e812b"
+      ]
+    },
+    "6 - Full Notes/Code Llama Network Automation.md": {
+      "sourceHash": "c2810abfa04faddd97e0d9cf3e35070bf3039ce16868c68beb71adf70d36d833",
+      "sourceType": "markdown",
+      "fileName": "Code Llama Network Automation.md",
+      "title": "Code Llama Network Automation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4ac4654b9057e8bd082affe1444f222971109a56569069398d331cf06a7381a4"
       ]
     },
     "6 - Full Notes/Code Metric Threshold.md": {
@@ -25855,6 +25995,16 @@
         "d6d5cbadd07e9470e52dc5844a7e48034ed778ad7968656e72e684cafb1525e5"
       ]
     },
+    "6 - Full Notes/Containerized Network AI Application.md": {
+      "sourceHash": "50452314fa8a2ad614692b1c335aa2c7eaf65f2a53eca1a837bba2ebf8c66583",
+      "sourceType": "markdown",
+      "fileName": "Containerized Network AI Application.md",
+      "title": "Containerized Network AI Application",
+      "chunkCount": 3,
+      "objectHashes": [
+        "03cef27372288c14ae50d3ecba37976c858628054654bfe702d7552ecb34dc98"
+      ]
+    },
     "6 - Full Notes/Containerized Worker Service.md": {
       "sourceHash": "dcefad76ee73f25bc0b4a72536f1d9120abca178b7a3ab6c3e91b74794f5e795",
       "sourceType": "markdown",
@@ -26325,6 +26475,16 @@
         "27934e92a9a929aabdf53ab4fa156fdc8f5d83f7515f0d9597cc890c07226c58"
       ]
     },
+    "6 - Full Notes/Conversation-Aware Network Context.md": {
+      "sourceHash": "5684262ee02c324454694ad18fc4adcec8d436936f08de8519baa040dc3af119",
+      "sourceType": "markdown",
+      "fileName": "Conversation-Aware Network Context.md",
+      "title": "Conversation-Aware Network Context",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f64123e3f05c254b4cb9bc1ab3dc0e6b7f8b682aa7a43d143876c4716a24a368"
+      ]
+    },
     "6 - Full Notes/Conversational Ability.md": {
       "sourceHash": "e689850cbcdd63677a578a3b5560652ba83c68a188eff54a0c883b1a3d7768e5",
       "sourceType": "markdown",
@@ -26793,6 +26953,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "fcee23c0807527df6108909baff0e1efe6d2ebcb0113ab2d14f3dc9e9be27104"
+      ]
+    },
+    "6 - Full Notes/Cost-Adjusted Network Model Selection.md": {
+      "sourceHash": "2fbb52b4d148d655c48d9490be7f90d013497bdae022c220d33fa5c2ac3b91df",
+      "sourceType": "markdown",
+      "fileName": "Cost-Adjusted Network Model Selection.md",
+      "title": "Cost-Adjusted Network Model Selection",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8e174c0b811f5f72abd3e99e48bc144a5309845d06f7849305c6e29841d04f02"
       ]
     },
     "6 - Full Notes/Cost-Constrained Architecture.md": {
@@ -29103,6 +29273,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "675aa5d11cf5b1bc1139c08ea4ef38f9706c53e596a572c60567bed8bff28036"
+      ]
+    },
+    "6 - Full Notes/Custom Network Data Injection.md": {
+      "sourceHash": "e96c5125edac3feb50bb4f01f9d8671ccf037c0e957e290d7f69f3f8203c7035",
+      "sourceType": "markdown",
+      "fileName": "Custom Network Data Injection.md",
+      "title": "Custom Network Data Injection",
+      "chunkCount": 3,
+      "objectHashes": [
+        "3a50737b16d1a0a114e17a9ef839151d9d657a2183945ba2fceff92eba53376a"
       ]
     },
     "6 - Full Notes/Custom WebApplicationFactory.md": {
@@ -31783,6 +31963,26 @@
       "chunkCount": 3,
       "objectHashes": [
         "805be9a5346085228fcbd02162fe5527e30038c84e86dcdc086354f5060bf197"
+      ]
+    },
+    "6 - Full Notes/Device-Aware Copilot State.md": {
+      "sourceHash": "a8476d5757c4423815f932046034c8c26c0d07be9427d7ea7fdbc133fc4f86e8",
+      "sourceType": "markdown",
+      "fileName": "Device-Aware Copilot State.md",
+      "title": "Device-Aware Copilot State",
+      "chunkCount": 3,
+      "objectHashes": [
+        "eef542efbcb3e7c9ee4c07a88ce968d638e507461ef231192b614ec1ce3c9c69"
+      ]
+    },
+    "6 - Full Notes/Device-Level Network Health Assessment.md": {
+      "sourceHash": "a3d3a76523eba1cc6e2c948d197b18435e655e3e912d355fffbe4ef75897d9af",
+      "sourceType": "markdown",
+      "fileName": "Device-Level Network Health Assessment.md",
+      "title": "Device-Level Network Health Assessment",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7e1d75c2d6df376928a0dae221838c3a555c4d9a4c43e7243fff78afccc91732"
       ]
     },
     "6 - Full Notes/DevOps Agent Architecture.md": {
@@ -35015,6 +35215,16 @@
         "5358254e3d6af0f38d79149cb179f658981e07f6df73262caefb34304f08dfb4"
       ]
     },
+    "6 - Full Notes/Environment-Based AI API Credentials.md": {
+      "sourceHash": "dbd9e524749736492bb9861dbe4f3a09f18405e70b4e6b5c0bf946b9763dfaed",
+      "sourceType": "markdown",
+      "fileName": "Environment-Based AI API Credentials.md",
+      "title": "Environment-Based AI API Credentials",
+      "chunkCount": 3,
+      "objectHashes": [
+        "cc5bf16c3c7f68e43c9ee8524284649af4f4b26b68636a53e8f2119795678c2f"
+      ]
+    },
     "6 - Full Notes/Environmental Dimension of a Game World.md": {
       "sourceHash": "ab2e408db9beb91a0e8f6e9c4ee76de280e8c9cc4447d22f4d5903e4de8db3d1",
       "sourceType": "markdown",
@@ -36785,6 +36995,16 @@
         "5a7b0e712c391ea2292da7db9f28c82bebf31b46a4d3440c254827c55eb99650"
       ]
     },
+    "6 - Full Notes/FastAPI Device-Aware Network Service.md": {
+      "sourceHash": "e83bb242092cfa82ca35247d0c1b3c592d8cb281f4b3e41ef0414e80ab186463",
+      "sourceType": "markdown",
+      "fileName": "FastAPI Device-Aware Network Service.md",
+      "title": "FastAPI Device-Aware Network Service",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6b673f961ed29211d8079f1952d038c647e9f2ba69cab4e6e278c6f773b4db09"
+      ]
+    },
     "6 - Full Notes/FBX Game Asset Export.md": {
       "sourceHash": "a7b224de21411c26ba01c3916bd1828bf15f75c787b2405ae63ddcabe2c3833b",
       "sourceType": "markdown",
@@ -37373,6 +37593,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "e59999e17035ed7d6c29a606da6e054746fa923f696b6ec735daaa2bf1d6b567"
+      ]
+    },
+    "6 - Full Notes/Fine-Tuned Network Model Verification.md": {
+      "sourceHash": "18ffbf6893a76a28d5ba23107184e388d57f9139c74561facc66e8d976942a34",
+      "sourceType": "markdown",
+      "fileName": "Fine-Tuned Network Model Verification.md",
+      "title": "Fine-Tuned Network Model Verification",
+      "chunkCount": 3,
+      "objectHashes": [
+        "99fa8795f46c10ca52d1e7a1bb3f20ab96a21bc143b9ceea75ee97cca3a94b69"
       ]
     },
     "6 - Full Notes/Finite Element Analysis.md": {
@@ -42063,6 +42293,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "2147d79a419b37ae0a137cb5e45f4244709417d08942d688dae8fc7e0ee70d1f"
+      ]
+    },
+    "6 - Full Notes/Graphviz Network Topology Rendering.md": {
+      "sourceHash": "6baec92bef386dd2f96de7ae3aed6a21a0ec39a3af18f5cd815d9f8f6db77f74",
+      "sourceType": "markdown",
+      "fileName": "Graphviz Network Topology Rendering.md",
+      "title": "Graphviz Network Topology Rendering",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ae456a6af21e7b0a46d2574a52f7b6d575c53b1bcfba80454ab1e4d63b4c987f"
       ]
     },
     "6 - Full Notes/GraRep Graph Embedding.md": {
@@ -47185,6 +47425,16 @@
         "314ca9dcebf58e301399ca2899f88f6a62bd72c513924ecc869c94f8b6799651"
       ]
     },
+    "6 - Full Notes/Iterative Network Prompt Feedback.md": {
+      "sourceHash": "114e54bf4568a79294799c998fb02bb6c6bac067f5791cb53de9bb38195fb334",
+      "sourceType": "markdown",
+      "fileName": "Iterative Network Prompt Feedback.md",
+      "title": "Iterative Network Prompt Feedback",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a38618d9f2bc1fdfb9a0605d05d2a9715ef701580380a09e21b8b5c19d4becea"
+      ]
+    },
     "6 - Full Notes/Iterative Partition Clustering.md": {
       "sourceHash": "0ecc699e289092549d72519776c054ecf7b0a3cdca85cacd91470e748bc78928",
       "sourceType": "markdown",
@@ -48265,6 +48515,26 @@
         "8162192e4f3840ed53eb2ab745afdb707915a741fd986d46739df4c68d0bee91"
       ]
     },
+    "6 - Full Notes/LangChain Network Model Adapter.md": {
+      "sourceHash": "c1b1f6a2a3d439f32b459447ffc3e8594d4dfd18d75aa13fc4b82105c21aff53",
+      "sourceType": "markdown",
+      "fileName": "LangChain Network Model Adapter.md",
+      "title": "LangChain Network Model Adapter",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6774cc4149d085a4f94edb8547fa029f35564fdc613b35f76ab5c1b2890d41e4"
+      ]
+    },
+    "6 - Full Notes/LangChain Network Tool Agent.md": {
+      "sourceHash": "f2cc6e8a68558d6bdffca6c855d63c79f17e2f9c2a908f17ff7c80bff78378ed",
+      "sourceType": "markdown",
+      "fileName": "LangChain Network Tool Agent.md",
+      "title": "LangChain Network Tool Agent",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b3bce6e907f43f9794b024cf49361b85abe8da2abc30a84a008f03da0c6f7fdf"
+      ]
+    },
     "6 - Full Notes/Laplacian Eigenmaps.md": {
       "sourceHash": "1b480c5645f9bb2d267316e3d1e08e599ebeef0c7c50ac7195e4d1b2a9f4dcee",
       "sourceType": "markdown",
@@ -48443,6 +48713,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "f56aaaa7037e6e221593d7a3faed8349ed8c7188cb7369a8ab600043e8409364"
+      ]
+    },
+    "6 - Full Notes/Layered Network Prompt Construction.md": {
+      "sourceHash": "f676a4c1ba714cdb04dae1e68de6e1223fb79cceaab5241dcb76ec28e11d9a3b",
+      "sourceType": "markdown",
+      "fileName": "Layered Network Prompt Construction.md",
+      "title": "Layered Network Prompt Construction",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8cc29d1f0a4f1874625437fd9c80ba7413e1fea64fab70780b4636d8b0e6bf8a"
       ]
     },
     "6 - Full Notes/Layered Time-Plot Annotation.md": {
@@ -49755,6 +50035,16 @@
         "cf62a0264c2814b3751026fef2c30d0918fc0569d019996106336bea1f730491"
       ]
     },
+    "6 - Full Notes/LLM-as-Judge Network Evaluation.md": {
+      "sourceHash": "c34a61fe1b69b92aac96799ca5b56572105f9894cdcc70d202f3f4d2ce2f67e8",
+      "sourceType": "markdown",
+      "fileName": "LLM-as-Judge Network Evaluation.md",
+      "title": "LLM-as-Judge Network Evaluation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "042e71b5b2d836ee130e6394a113702b586d25f25cf6ca3da02ef950d60789a4"
+      ]
+    },
     "6 - Full Notes/Load Imbalance.md": {
       "sourceHash": "d7f10fb574e78a3ce02890d07d55eedca88f6dc84d8ae5fd7a154b9834c5a24c",
       "sourceType": "markdown",
@@ -49845,6 +50135,36 @@
         "36202e6d486cc54f6e6da08b2237b61f8123b8b2d2305564373b125b3b5a0488"
       ]
     },
+    "6 - Full Notes/Local LLM Hardware Sizing.md": {
+      "sourceHash": "cdc0c35aed70519429fb48f681f2ad735b7cbd10ffb95ae9064afa61e54ea44b",
+      "sourceType": "markdown",
+      "fileName": "Local LLM Hardware Sizing.md",
+      "title": "Local LLM Hardware Sizing",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b79f9c192706da28e234772d7d3d428dca6f05f44b05fcb5a6c50d111fba6d98"
+      ]
+    },
+    "6 - Full Notes/Local LLM Memory Allocation.md": {
+      "sourceHash": "58d82b8856dff8186740be3e3f97ffe1f8560dd138be14e80abb4b4f3cd6115c",
+      "sourceType": "markdown",
+      "fileName": "Local LLM Memory Allocation.md",
+      "title": "Local LLM Memory Allocation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f72ab9021cf222826f866f14aa21938203cf1643159cecd1fd721c6618e39bd0"
+      ]
+    },
+    "6 - Full Notes/Local LLM Network Documentation.md": {
+      "sourceHash": "416c01c606bf99e321c6d0091e5a965bec401a8438835fefb71c314d1690e338",
+      "sourceType": "markdown",
+      "fileName": "Local LLM Network Documentation.md",
+      "title": "Local LLM Network Documentation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0d3e0300848af300fe64773a00e0c585954b75d89e454c7a244eca999d203061"
+      ]
+    },
     "6 - Full Notes/Local Maximum.md": {
       "sourceHash": "3ef537ca360194c2cf7b7b24b0913abde9236ce07b718de40e1636979cd3cc51",
       "sourceType": "markdown",
@@ -49863,6 +50183,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "5122146d6e5bdd3b3c4719af3c88295da588fe5138995141b081c48d3629edeb"
+      ]
+    },
+    "6 - Full Notes/Local Network LLM Ownership Tradeoff.md": {
+      "sourceHash": "9fe549d7fb0f098b7282ee65b240029ce68a6063821987d9b3ef81f5b9b406b6",
+      "sourceType": "markdown",
+      "fileName": "Local Network LLM Ownership Tradeoff.md",
+      "title": "Local Network LLM Ownership Tradeoff",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5cf52455dc6d4f8b580d53e4ae3866f1925404dc5a19761e1482feaa468c56ad"
       ]
     },
     "6 - Full Notes/Local Noise Inconsistency.md": {
@@ -50533,6 +50863,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "bfc30cd6adb733744a94faf98a9fbf41b638126cf9995f83369522ebe1bb7390"
+      ]
+    },
+    "6 - Full Notes/Low-Temperature Network Model.md": {
+      "sourceHash": "bc93f5c6909ce1a62eb662020a6c8c0a19a6d9937be7914359a151d1b3786cff",
+      "sourceType": "markdown",
+      "fileName": "Low-Temperature Network Model.md",
+      "title": "Low-Temperature Network Model",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7e47018fd00fbac295f506d9e9a431bbe8c5a071db8a92a496ab3b55a2c162e2"
       ]
     },
     "6 - Full Notes/Lower Triangular Matrix.md": {
@@ -51795,6 +52135,26 @@
         "8d799d2d4a2da51d17b70fc161e268ba1295827a2f57088ee780e168ffa280cb"
       ]
     },
+    "6 - Full Notes/MCP Network Observability Boundary.md": {
+      "sourceHash": "f8629402d4ac1bdb1819db028da38cb1ed15d3a9c785633f75a3b535542209e7",
+      "sourceType": "markdown",
+      "fileName": "MCP Network Observability Boundary.md",
+      "title": "MCP Network Observability Boundary",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8a8d56ed8fd004de3dc36691b95e64317ae51d0d84685ac3c3452137074262f9"
+      ]
+    },
+    "6 - Full Notes/MCP Network Resource Composition.md": {
+      "sourceHash": "e548a67c550165858a0b430540e711338f5f809cca2f25576574fc084a4bf668",
+      "sourceType": "markdown",
+      "fileName": "MCP Network Resource Composition.md",
+      "title": "MCP Network Resource Composition",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e5a90c2334abaadd4398be882abac0f9f96262a1a2240531e096f7063a506afe"
+      ]
+    },
     "6 - Full Notes/MCP Tool Contract Testing.md": {
       "sourceHash": "532cc08504b9de5daabfc2e15fcde238efbee3bfa9a546429f49446da4d31fd4",
       "sourceType": "markdown",
@@ -52875,6 +53235,16 @@
         "cc785c9fbf3f88a368ec2b6cd20c0ddef12c39b99ed7365a70dcc887b13c1cb5"
       ]
     },
+    "6 - Full Notes/Mixed-Model Network Analysis Chain.md": {
+      "sourceHash": "58939f8c0dd0eb9b567e23b2c03369718449d23d1450513058b2864e513d6531",
+      "sourceType": "markdown",
+      "fileName": "Mixed-Model Network Analysis Chain.md",
+      "title": "Mixed-Model Network Analysis Chain",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b6c2540a2b759ec556aa7875fad93ff1021f92ff7d46907cb4cfe904744ef225"
+      ]
+    },
     "6 - Full Notes/Mixed-Type Record Distance.md": {
       "sourceHash": "5edafc96381849b9d406a40c458ed79673fce1ef6a070f54b82c470d57146c30",
       "sourceType": "markdown",
@@ -53143,6 +53513,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "515cf5376e4bc347ac67f313e07fa27a77217a16fa1f902d8d890d48cdff57f9"
+      ]
+    },
+    "6 - Full Notes/Model Capability Cost and Latency Tradeoff.md": {
+      "sourceHash": "cdbf2f55c74f2010e4e1aadb8783fccd595c32a89ca745eff950a847bbd87072",
+      "sourceType": "markdown",
+      "fileName": "Model Capability Cost and Latency Tradeoff.md",
+      "title": "Model Capability Cost and Latency Tradeoff",
+      "chunkCount": 3,
+      "objectHashes": [
+        "193bb9415aaeba6261af13dffc8f0766814d463006f2dcdbaa86b57fac1941d1"
       ]
     },
     "6 - Full Notes/Model Context Protocol Tool Boundary.md": {
@@ -53923,6 +54303,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "db0d2c5d22e1aed5661d28eb04dbcc78b4366170f748b5b013e4f6bae10c4591"
+      ]
+    },
+    "6 - Full Notes/Multi-Page Network AI Interface.md": {
+      "sourceHash": "39a80f8c52ee769e4371cb829722ab53ade64d80b10a9d46d5a792dfd788af3e",
+      "sourceType": "markdown",
+      "fileName": "Multi-Page Network AI Interface.md",
+      "title": "Multi-Page Network AI Interface",
+      "chunkCount": 3,
+      "objectHashes": [
+        "100aa59886cbc375c9e44ec10a92b5bf5f7f8ddae677f6e59b635fb295e2e4f6"
       ]
     },
     "6 - Full Notes/Multi-Pass Render Compositing.md": {
@@ -54945,6 +55335,26 @@
         "5dcbd771c52ad97308978b8a10d1a3e49e152fb7b5377fef0c15e0e6332e47e9"
       ]
     },
+    "6 - Full Notes/Network AI API Request Anatomy.md": {
+      "sourceHash": "798d13e4bd0d20c51f59f33122cdffb0372215cd01f23fde9412a32810dacb19",
+      "sourceType": "markdown",
+      "fileName": "Network AI API Request Anatomy.md",
+      "title": "Network AI API Request Anatomy",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0f112ca1a98c3fdc7319dcbbfb2ac16c1a430fe05b858a8d86963756e122cc7e"
+      ]
+    },
+    "6 - Full Notes/Network Configuration Analyzer Pipeline.md": {
+      "sourceHash": "676496cc5b76c0d33ceaa9941d8efddcc0949e0ef7c4a5cec4d79cb5e395a927",
+      "sourceType": "markdown",
+      "fileName": "Network Configuration Analyzer Pipeline.md",
+      "title": "Network Configuration Analyzer Pipeline",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2458e28fa0e99ab33b864f2559398e9e0d03456dcca60c47cc86cd177fb0715a"
+      ]
+    },
     "6 - Full Notes/Network Connectivity Detection.md": {
       "sourceHash": "6c60f8ac498e5301c3c4c2166413dc73e681c84897687e1543107dac7fb7a263",
       "sourceType": "markdown",
@@ -54953,6 +55363,36 @@
       "chunkCount": 3,
       "objectHashes": [
         "97b055fb8aa0f4e1bab95029e2fe566d6b4ff1232f232421250ddf59c4e21223"
+      ]
+    },
+    "6 - Full Notes/Network Copilot Intent Classification.md": {
+      "sourceHash": "1f218ac3da1953d5609fa8335566894da74f8ea46296967c4669239e3251c045",
+      "sourceType": "markdown",
+      "fileName": "Network Copilot Intent Classification.md",
+      "title": "Network Copilot Intent Classification",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ecf9dcb930c0012d665b0e3aa302b777c362444954248cf88d243c3030edcda7"
+      ]
+    },
+    "6 - Full Notes/Network Copilot Knowledge Files.md": {
+      "sourceHash": "b2e8ad8a86ed48150b180f30967d5d7b32a4ad32248ad3684f15b12d33aed233",
+      "sourceType": "markdown",
+      "fileName": "Network Copilot Knowledge Files.md",
+      "title": "Network Copilot Knowledge Files",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f4669afcb9af6f7ce0c955c48e09c2e6d505d93d3b6734d0623b5b8345972c3b"
+      ]
+    },
+    "6 - Full Notes/Network Copilot Response Pipeline.md": {
+      "sourceHash": "e5abde4e62d76b9171734d5b8c12ab39ebcc47d1e0c812d5ca08caf435f84e6f",
+      "sourceType": "markdown",
+      "fileName": "Network Copilot Response Pipeline.md",
+      "title": "Network Copilot Response Pipeline",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ca64db7f4dca04bfc63a7fde6093e356500848984985c8334687ca800fe3bc93"
       ]
     },
     "6 - Full Notes/Network Data Stream.md": {
@@ -54965,6 +55405,26 @@
         "16e0d7baf687346a1f944b704f3a93675dfe858fbf2e502b1383a5cf61143ef5"
       ]
     },
+    "6 - Full Notes/Network Engineering System Message.md": {
+      "sourceHash": "4b9aab1715de84bf0a6b95a591fa15885463f65f57f0265a76897e9ed88952fb",
+      "sourceType": "markdown",
+      "fileName": "Network Engineering System Message.md",
+      "title": "Network Engineering System Message",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4e0d12876edc4e19b24ce5c91dc01a457ea7915688cd553a392ec3f59d97fbeb"
+      ]
+    },
+    "6 - Full Notes/Network Few-Shot Prompt.md": {
+      "sourceHash": "035a144df4a8ce86f4c7a567c7855d1143e6fa4452da318d21cbe6e5022d2732",
+      "sourceType": "markdown",
+      "fileName": "Network Few-Shot Prompt.md",
+      "title": "Network Few-Shot Prompt",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6b89f90dbf312db9567d869f3608539ccfc8e6885a62ec03992323e780938483"
+      ]
+    },
     "6 - Full Notes/Network Flow Control.md": {
       "sourceHash": "b828a74b58a6630e72c87059cb8024947fd87dbf0a32d947c1d2a9948f871d81",
       "sourceType": "markdown",
@@ -54975,6 +55435,16 @@
         "9f5a761e0c23df3859af243ee70b9e00e3f189b09468cb6f9067fedf41ef2183"
       ]
     },
+    "6 - Full Notes/Network Health Metrics Packet.md": {
+      "sourceHash": "f3ba95fe9e943c1d1aee3a244b18a0e54ac00fee1ba0122f5adc261bdecdec4a",
+      "sourceType": "markdown",
+      "fileName": "Network Health Metrics Packet.md",
+      "title": "Network Health Metrics Packet",
+      "chunkCount": 3,
+      "objectHashes": [
+        "72b082ba95846cbdb946145da6e4522e790a63a4a07c999ca8094b4e8fbc8580"
+      ]
+    },
     "6 - Full Notes/Network Interface Inspection.md": {
       "sourceHash": "184b03884ffcbd0d4dfbb0b12d4cf725467a65b118eb1a120cda28d0cff80ef1",
       "sourceType": "markdown",
@@ -54983,6 +55453,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "7d84d764890ebf8b5d5a2c865f08063c8a4d8309cc47791bba0342e703d7a434"
+      ]
+    },
+    "6 - Full Notes/Network Knowledge Refresh.md": {
+      "sourceHash": "ce21da42317671122fc86cd880e275e352a83ee81c0f262e935cb48bd2996d36",
+      "sourceType": "markdown",
+      "fileName": "Network Knowledge Refresh.md",
+      "title": "Network Knowledge Refresh",
+      "chunkCount": 3,
+      "objectHashes": [
+        "32633b98a7591f97561edc259ea343e06f5a4cc7b530aceb68c2a27c20db952a"
       ]
     },
     "6 - Full Notes/Network Layer.md": {
@@ -55003,6 +55483,46 @@
       "chunkCount": 3,
       "objectHashes": [
         "84140b6493de60aa99190e9250d852e727f245e893d1936a07e60833931af2c5"
+      ]
+    },
+    "6 - Full Notes/Network Method of Procedure Review Gate.md": {
+      "sourceHash": "afbb0dd807a8807d785115afc264811f8fd52e2c580a030dab8cd33dd008f27a",
+      "sourceType": "markdown",
+      "fileName": "Network Method of Procedure Review Gate.md",
+      "title": "Network Method of Procedure Review Gate",
+      "chunkCount": 3,
+      "objectHashes": [
+        "454672040a8a18bbf176ec3aa7a40a71292bb5e8a004884117a1ce7c3fb0b884"
+      ]
+    },
+    "6 - Full Notes/Network Model Fine-Tuning Dataset.md": {
+      "sourceHash": "b282aa1ab2b3c227a7a584394b6c5f93b6deaeba0c28abe63aae0059c4cab1bf",
+      "sourceType": "markdown",
+      "fileName": "Network Model Fine-Tuning Dataset.md",
+      "title": "Network Model Fine-Tuning Dataset",
+      "chunkCount": 3,
+      "objectHashes": [
+        "1fb5a7e5975e909e4da2297ff99bc261cc8c04bd004b0527e61673fac5910e7d"
+      ]
+    },
+    "6 - Full Notes/Network Modelfile.md": {
+      "sourceHash": "5c31f92cf4f5d033ca934357596897902024932e5bdd8eadf1de0029d16ad5d7",
+      "sourceType": "markdown",
+      "fileName": "Network Modelfile.md",
+      "title": "Network Modelfile",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5d9d636582c323990ff66575ba9e5c085de9a51fa49147baaaa356aae812e680"
+      ]
+    },
+    "6 - Full Notes/Network Optimization Opportunity Detection.md": {
+      "sourceHash": "ddce9e39c80dc73d375e47b4794bbeba74e52d2f33698d7e513d19e2159dfee8",
+      "sourceType": "markdown",
+      "fileName": "Network Optimization Opportunity Detection.md",
+      "title": "Network Optimization Opportunity Detection",
+      "chunkCount": 3,
+      "objectHashes": [
+        "682d746dcf72fd3e9f3ed381d4410c87333a7f2781d70c3951be68e29461a25c"
       ]
     },
     "6 - Full Notes/Network Packet.md": {
@@ -55043,6 +55563,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "bd55ede6f4e0ca0294ba7a37a78dbb650b79a33632b0d9b2375fd707d75797d8"
+      ]
+    },
+    "6 - Full Notes/Network Time-Series Context Window.md": {
+      "sourceHash": "25d1431529713642457b3c8788188eb93f1476b9d32a2be621b36ffae87a2665",
+      "sourceType": "markdown",
+      "fileName": "Network Time-Series Context Window.md",
+      "title": "Network Time-Series Context Window",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6bb4cfb736aba59b37957d8e3d6269cb15680f4a9188567b8ab1d0539bedb4e4"
       ]
     },
     "6 - Full Notes/Network Topology.md": {
@@ -56283,6 +56813,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "d1bd30f9218b927aab2b53cd47fb4adb22832161c5481a1b9e2573114248db44"
+      ]
+    },
+    "6 - Full Notes/Ollama Model Service Architecture.md": {
+      "sourceHash": "56c434439772e2e43d88291c328e41f84464862588cc727c195f7c6bd9ade17c",
+      "sourceType": "markdown",
+      "fileName": "Ollama Model Service Architecture.md",
+      "title": "Ollama Model Service Architecture",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a22996aa633f1b1372cc69818b3e49ec6167948c6932f06e628c3ed02fc97923"
       ]
     },
     "6 - Full Notes/OLTP and OLAP Workloads.md": {
@@ -58515,6 +59055,16 @@
         "c267b95a83d4b3e3f6d529c8e514a54ca90a8b055f8714121461aa1819c50371"
       ]
     },
+    "6 - Full Notes/Persistent Network AI Conversation History.md": {
+      "sourceHash": "f63b12567c0698132de75edb921658aa6ac5ec25dd062f0d10d5a1aa1919e827",
+      "sourceType": "markdown",
+      "fileName": "Persistent Network AI Conversation History.md",
+      "title": "Persistent Network AI Conversation History",
+      "chunkCount": 3,
+      "objectHashes": [
+        "41cc7ae57674f31691468d3eb9f1c3ad562a2a356a45593d8c3bc349b8cbb3e3"
+      ]
+    },
     "6 - Full Notes/Persistent World.md": {
       "sourceHash": "a4f7c05123bfadae9ed06d86ebd77555aa0663fa7ec31183baf9c7f0abb4ec9b",
       "sourceType": "markdown",
@@ -60213,6 +60763,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "5e948d47a17f11eaa3d03f2279db11b0ab191c4e3eeacfec95b12d06001d80ea"
+      ]
+    },
+    "6 - Full Notes/Postman Environment for AI APIs.md": {
+      "sourceHash": "6bfd59c33f42549c38c7e41c36f44bdfd628f80a251ddfec21ad11577c42095e",
+      "sourceType": "markdown",
+      "fileName": "Postman Environment for AI APIs.md",
+      "title": "Postman Environment for AI APIs",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b50c44244e82e81014151aed393a8637fa04dfae65bf34ba9adc90378780adb1"
       ]
     },
     "6 - Full Notes/Potential Flow Finite Element Procedure.md": {
@@ -65573,6 +66133,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "23e7370b548e5a3ad1c235e8e05014860cd5cfdc8cbfd102c974b7455c90ef74"
+      ]
+    },
+    "6 - Full Notes/Reusable Network Prompt Template.md": {
+      "sourceHash": "bdb3dcdd1a276c3b49c4cfbcb52bc37112a3ea5908f2cc28d16f9774c29ed948",
+      "sourceType": "markdown",
+      "fileName": "Reusable Network Prompt Template.md",
+      "title": "Reusable Network Prompt Template",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ced6053eb3c6e0b16c875752a3fb799713b8b9e6299ced6864df0329f3df5e5d"
       ]
     },
     "6 - Full Notes/Reverse Image Search Limitation.md": {
@@ -72205,6 +72775,16 @@
         "bcc6689db1df43f0ab200250c83bd9d15149a44b0bf026d3a011a8c26c3ee222"
       ]
     },
+    "6 - Full Notes/Streaming Network AI Response.md": {
+      "sourceHash": "cd69b7eda6258c98cbc628e3265363f682f2f26ef988f4dffd4eb60aa3394987",
+      "sourceType": "markdown",
+      "fileName": "Streaming Network AI Response.md",
+      "title": "Streaming Network AI Response",
+      "chunkCount": 3,
+      "objectHashes": [
+        "40c0890149db605c8facd733c985815486a33008063e095d80255c637825cc8f"
+      ]
+    },
     "6 - Full Notes/Streaming Recommender System.md": {
       "sourceHash": "5d4e82160308e4cddf6c4197b77ae7ec35540a29315137ee2d4e67a100d8cccc",
       "sourceType": "markdown",
@@ -72233,6 +72813,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "1dea286fe7a76c97e4c432f8a0932e7ffed3088b393a8d891a598af467b5e105"
+      ]
+    },
+    "6 - Full Notes/Streamlit Network Operations Interface.md": {
+      "sourceHash": "2ce7dd8fc96f7792afbb51f332ef04d703cd8aacb79d8889cc27784ee9e56e66",
+      "sourceType": "markdown",
+      "fileName": "Streamlit Network Operations Interface.md",
+      "title": "Streamlit Network Operations Interface",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8a6efebeaecd5d5e7765c938fcb80b3effa5421fde858f9f1f354068c839421c"
       ]
     },
     "6 - Full Notes/StreamReader and StreamWriter.md": {
@@ -72473,6 +73063,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "aa33450f6af336d4887639af36de69e4d137410e8f3c548447cfad4316f164cf"
+      ]
+    },
+    "6 - Full Notes/Structured Network AI Return Format.md": {
+      "sourceHash": "d614d9d988ee738ffd3625bde48abf7137cf4edea41c129ede1944ec56b6a456",
+      "sourceType": "markdown",
+      "fileName": "Structured Network AI Return Format.md",
+      "title": "Structured Network AI Return Format",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b98364bd98d7dc5e232466afaf267b631c0c5d7e313ef5cbb81946e76bbe2324"
       ]
     },
     "6 - Full Notes/STSDF Object.md": {
@@ -73725,6 +74325,26 @@
         "13fc73eb77c266f0c1a95426073ff7a5cef60238081d0db7183cb57d1b5bda45"
       ]
     },
+    "6 - Full Notes/Task-Specific Network Model Benchmark.md": {
+      "sourceHash": "687b56a9ca4aa0ed307775b55a10751db71f1ba85f2fd132f27153ea8348162d",
+      "sourceType": "markdown",
+      "fileName": "Task-Specific Network Model Benchmark.md",
+      "title": "Task-Specific Network Model Benchmark",
+      "chunkCount": 3,
+      "objectHashes": [
+        "05907bb082df449ef2c2e79b9fae38fe3609c25d6ea72baf06d0665e7bafba24"
+      ]
+    },
+    "6 - Full Notes/Task-Specific Network Prompt.md": {
+      "sourceHash": "f0df66d4b7d6a74e1a5df72697faaad7976d6363b5a3f7b7efe86d840dce2328",
+      "sourceType": "markdown",
+      "fileName": "Task-Specific Network Prompt.md",
+      "title": "Task-Specific Network Prompt",
+      "chunkCount": 3,
+      "objectHashes": [
+        "1c287dddf0fc82f335a3615e3daf084d5ade4795495cc620c4111fec92da8667"
+      ]
+    },
     "6 - Full Notes/Tautology.md": {
       "sourceHash": "ba24bb62880f588adb9dcd03f4f59b587b4dcd5fad4f354e43e4771a3dd2b192",
       "sourceType": "markdown",
@@ -73933,6 +74553,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "526afc4ceec44adaea86820201ff35d5f1a04cd4f46ff135929a04323b739e74"
+      ]
+    },
+    "6 - Full Notes/Temperature for Network Response Variability.md": {
+      "sourceHash": "82099aa3d00490c62e08a0ee365843f4d80f51ab156f2944de728f79f6eda382",
+      "sourceType": "markdown",
+      "fileName": "Temperature for Network Response Variability.md",
+      "title": "Temperature for Network Response Variability",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7760274414b38f7ced97e79dfb54d1233c5e9b957f1ad774c99440fbe716c6b9"
       ]
     },
     "6 - Full Notes/Temperature Readings versus Intervals.md": {
@@ -74373,6 +75003,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "8190b365300bfe17f1e169f6854b0a9ec79c56ed302f660a256f1c48bbd45ee0"
+      ]
+    },
+    "6 - Full Notes/Text-to-Topology Generation.md": {
+      "sourceHash": "efa5baab95cfe31ddc02a02a4ed0aaeca650a5898a3c60f403c75a2cdd824e30",
+      "sourceType": "markdown",
+      "fileName": "Text-to-Topology Generation.md",
+      "title": "Text-to-Topology Generation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6d78edaf141daa6674c1a68b545722d3968cd5866521b19e678d39f4a6241840"
       ]
     },
     "6 - Full Notes/Texture Coordinate Specification.md": {
@@ -75615,6 +76255,16 @@
         "eebe6801ec78c6e2d94e042b0b8c2ca02d6f7bdc5b5699be6a1e77994ddcda90"
       ]
     },
+    "6 - Full Notes/Token Limits for Network AI Output.md": {
+      "sourceHash": "bd118839895950249823dfe58da84fe6f7c0b1fad5369c932daac485b0a0437f",
+      "sourceType": "markdown",
+      "fileName": "Token Limits for Network AI Output.md",
+      "title": "Token Limits for Network AI Output",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f19886c77a639e56d35628de0ba1b8d446cb5570aa8c753e684e5075dcd1dc1d"
+      ]
+    },
     "6 - Full Notes/Token-Based Authentication.md": {
       "sourceHash": "00c459662569704719b7c01c404bcba8ec99d67a0a4b723b7a9461fbd6c0a489",
       "sourceType": "markdown",
@@ -75643,6 +76293,26 @@
       "chunkCount": 3,
       "objectHashes": [
         "b6abf021bcaef877937875551b456f95a2c0bdfa6347efc67e7c3c137347a54e"
+      ]
+    },
+    "6 - Full Notes/Top-P for Network Response Diversity.md": {
+      "sourceHash": "ee53cf921685f1168628cb6ddd6a45833ac90dfdb8a93731a5e350013dd0c2ab",
+      "sourceType": "markdown",
+      "fileName": "Top-P for Network Response Diversity.md",
+      "title": "Top-P for Network Response Diversity",
+      "chunkCount": 3,
+      "objectHashes": [
+        "9cc6914891c2457c7e8dcb38b709fefab4a9820e91fdc1481881fbbbd74b6ffa"
+      ]
+    },
+    "6 - Full Notes/Topology Context Injection.md": {
+      "sourceHash": "eea02af9ffe916f9bbb5d890bccbbf9c81cde0fb26fd37808b2c82b74516b911",
+      "sourceType": "markdown",
+      "fileName": "Topology Context Injection.md",
+      "title": "Topology Context Injection",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4bf8580a64ce34bf716eafc7920c18e453f4e170dc0151321ef1284f794b3cb5"
       ]
     },
     "6 - Full Notes/Topology-Based Popularity Prediction.md": {
@@ -77405,6 +78075,16 @@
         "e0ce630b38207d2359a7fd01482ee4945a75c9b0ce40d6cc976f31951178f3b1"
       ]
     },
+    "6 - Full Notes/Uncensored Local Model Security Boundary.md": {
+      "sourceHash": "1aa074ab9919424a17a88573ff7e7f3f0a1f49a3d827bd732f5bec631885773c",
+      "sourceType": "markdown",
+      "fileName": "Uncensored Local Model Security Boundary.md",
+      "title": "Uncensored Local Model Security Boundary",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d024d9547e3c4a5b91be1345ef623d9188c7ff81981d94ce2c17823fedde617f"
+      ]
+    },
     "6 - Full Notes/Uncertain Associative Classification.md": {
       "sourceHash": "a6ae0241f67ef0f6c5f5cb4a428e7f7b8c9f1d63b6405a099227382078995054",
       "sourceType": "markdown",
@@ -78943,6 +79623,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "fe6b67bced093ce9a7e3c6079d6756d6861b0659ec1cb410b391e9e9f125391e"
+      ]
+    },
+    "6 - Full Notes/Vibe Coding for Network Security.md": {
+      "sourceHash": "fb60a541c01f364c00601497aa814a58e3fe5fe63b31d3bbcf90d7d1c7c338d9",
+      "sourceType": "markdown",
+      "fileName": "Vibe Coding for Network Security.md",
+      "title": "Vibe Coding for Network Security",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b9d37f72e21e0008cb9a602d039238d46fedd662333b7c9c734aaa9f052141a9"
       ]
     },
     "6 - Full Notes/Video Avatar.md": {

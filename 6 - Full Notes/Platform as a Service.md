@@ -12,8 +12,12 @@ PaaS lets developers focus on application requirements instead of constructing t
 
 For application architects, PaaS trades some infrastructure control for managed hosting, scaling, deployment, and service integration, letting the team concentrate more effort on application behavior and less on server administration.
 
+The AWS guide illustrates this tradeoff with higher-level managed environments such as [[AWS Elastic Beanstalk]], where the customer supplies application code and configuration while the service coordinates much of the supporting infrastructure lifecycle.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[cloudcomputing_mit.epub]]
+
+[[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]

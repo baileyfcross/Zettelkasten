@@ -10,6 +10,10 @@ Rapid elasticity is the ability to add resources when demand rises and release t
 
 Elasticity depends on [[Resource Pooling]], automation, and sufficiently fast provisioning. It can protect service availability during a surge and reduce idle capacity afterward, but it does not remove the need to measure workload behavior or set safe scaling rules.
 
+On AWS, an [[EC2 Auto Scaling Group]] and scaling policy can make capacity follow observed demand instead of provisioning permanently for the expected peak. Minimum and maximum limits, instance warmup, and a representative metric keep that automation bounded.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]

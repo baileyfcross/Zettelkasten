@@ -10,6 +10,10 @@ Cloud computing provides on-demand network access to a shared pool of configurab
 
 The model combines [[Broad Network Access]], [[On-Demand Self-Service]], [[Resource Pooling]], [[Rapid Elasticity]], and [[Measured Cloud Service|measured use]]. [[Server Virtualization]] can help implement these properties, but virtualization alone is not cloud computing because it does not necessarily include automated provisioning, service measurement, reporting, or billing.
 
+The AWS guide presents the same model as API-accessible, pay-as-you-go capacity that can replace large advance infrastructure purchases with variable operating expense. That financial shift is useful only when consumption remains visible and governed.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]

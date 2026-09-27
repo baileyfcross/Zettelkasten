@@ -12,8 +12,12 @@ The components normally need to share data, processes, or control. A hybrid desi
 
 The book treats a hybrid application as a deliberate split in which existing on-premises capabilities remain in place while selected managed cloud services supply reach, elasticity, or specialized functions. Network boundaries and shared identity become part of the design.
 
+The AWS guide emphasizes that hybrid architecture often answers latency, regulatory, migration, or legacy-integration constraints. [[AWS Direct Connect]], site-to-site VPN, Storage Gateway, and Outposts provide different links between environments rather than one interchangeable hybrid mechanism.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[cloudcomputing_mit.epub]]
+
+[[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]

@@ -12,8 +12,12 @@ Typical uses include computing-intensive work, elastic web hosting, storage, and
 
 The architecture source frames IaaS as the option that gives the customer the most control over virtual machines and networking while leaving more operating-system, patching, configuration, and security responsibility with the customer.
 
+The AWS guide uses services such as EC2, EBS, and VPC to illustrate this boundary: AWS runs the underlying facilities and hardware, while the customer selects and secures the virtual network, operating system, storage, and deployed application.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[cloudcomputing_mit.epub]]
+
+[[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]

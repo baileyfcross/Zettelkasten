@@ -194,6 +194,10 @@
   },
   "active": "ef90bf97bd567075",
   "lastOpenFiles": [
+    "tmp/pdfs/aws-clf-c02/book.txt",
+    "tmp/pdfs/aws-clf-c02",
+    "tmp/pdfs",
+    "tmp",
     "6 - Full Notes/Vibe Coding for Network Security.md",
     "6 - Full Notes/Approval-Gated Network Auto-Remediation.md",
     "6 - Full Notes/Change Risk Assessment for Network Remediation.md",
@@ -219,7 +223,6 @@
     "6 - Full Notes/Persistent Network AI Conversation History.md",
     "6 - Full Notes/FastAPI Device-Aware Network Service.md",
     "6 - Full Notes/Multi-Page Network AI Interface.md",
-    "6 - Full Notes/Streamlit Network Operations Interface.md",
     "tmp/pdfs/ainetworkingcookbook/page-285.png",
     "tmp/pdfs/ainetworkingcookbook/page-250.png",
     "tmp/pdfs/ainetworkingcookbook/page-160.png",
@@ -227,8 +230,6 @@
     "tmp/pdfs/ainetworkingcookbook/page-34.png",
     "tmp/pdfs/ainetworkingcookbook/book.txt",
     "tmp/pdfs/ainetworkingcookbook",
-    "tmp/pdfs",
-    "tmp",
     "2 - Source Material/Books/masteringwindowsserver2025_fifthedition.pdf",
     "tmp/pdfs/agenticaifordevopsengineers/visual237-237.png",
     "tmp/pdfs/agenticaifordevopsengineers/visual219-219.png",
@@ -239,7 +240,6 @@
     "tmp/pdfs/agenticaifordevopsengineers",
     "tmp/pdfs/hands-on-software-architecture/render",
     "tmp/pdfs/extract_pdfium_text.py",
-    "tmp/pdfs/hands-on-software-architecture/book-full.txt",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

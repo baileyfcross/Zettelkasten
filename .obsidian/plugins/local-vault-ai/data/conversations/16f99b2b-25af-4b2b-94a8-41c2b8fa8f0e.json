@@ -1,0 +1,111 @@
+{
+  "id": "16f99b2b-25af-4b2b-94a8-41c2b8fa8f0e",
+  "title": "Can you explain proofs for me? Make sure to u...",
+  "createdAt": "2026-09-26T14:56:14.346Z",
+  "updatedAt": "2026-09-27T01:55:37.793Z",
+  "messages": [
+    {
+      "id": "1ece9ca2-2516-4385-a45a-e8f405779db2",
+      "role": "user",
+      "content": "Can you explain proofs for me? Make sure to use some of the information from Foundations of computing for me",
+      "createdAt": "2026-09-27T01:47:36.504Z"
+    },
+    {
+      "id": "352fb7cf-1257-4e43-8ee8-b8a7d56f69da",
+      "role": "assistant",
+      "content": "**What is a proof?**  \nA proof is a sequence of logical steps that shows a statement follows necessarily from a set of assumptions.  In the Foundations of Computation text, a proof is described as “a logical argument that shows how some result follows by logic alone from a given set of assumptions” and is “as solid as the foundations of logic themselves”【8】.\n\n---\n\n### 1.  The structure of a proof\n\n| Type | What it looks like | When you use it |\n|------|--------------------|-----------------|\n| **Direct proof** | Start with the hypotheses and apply rules (e.g., modus ponens) until the conclusion appears. | When the conclusion can be obtained by straightforward manipulation of the hypotheses. |\n| **Proof by contraposition** | Show that the negation of the conclusion implies the negation of the hypothesis. | When the direct route is hard but the contraposition is easier. |\n| **Proof by contradiction** | Assume the conclusion is false, combine it with the hypotheses, and derive a contradiction. | When a direct or contraposed approach is difficult; it turns the problem into a “cannot happen” argument. |\n| **Mathematical induction** | Prove a base case, then show that if it holds for an arbitrary case *k*, it holds for *k+1*. | When the statement involves all natural numbers or a sequence indexed by *n*. |\n\nThe text lists these methods in Section 1.6 “Proof” and §1.7 “Proof by Contradiction” and §1.8 “Mathematical Induction”【8】.  Each method follows the same idea: preserve truth from premises to conclusion by chaining valid inference rules.\n\n---\n\n### 2.  Proofs and recursion\n\nInduction is closely tied to recursion.  A recursive definition solves a problem by calling itself on smaller inputs and must reach a base case.  An inductive proof demonstrates that the recursive algorithm is correct for every input by proving:\n\n1. **Base case** – the algorithm works for the smallest input.  \n2. **Inductive step** – if it works for an input *k*, it also works for *k+1*.\n\nThis mirrors the structure of a recursive program: a terminating base case and a step that reduces the problem size.  The book explains this correspondence in §1.9 “Application: Recursion and Induction” and §1.10 “Recursive Definitions”【7】.\n\n---\n\n### 3.  Proofs in logic\n\nThe Foundations of Computation introduces the logical machinery needed for proofs:\n\n- **Propositional logic** (Section 1.1) gives truth tables, Boolean algebra, and inference rules such as modus ponens and modus tollens.  \n- **Predicate logic** (Section 1.4) adds quantifiers and predicates, allowing statements about all or some elements in a domain.  \n- **Deduction** (Section 1.5) formalizes how to derive conclusions from premises.\n\nThese tools provide the language and rules that make the proof constructions above possible.\n\n---\n\n### 4.  Practical take‑away\n\n1. **Choose the right style** – if the conclusion is directly accessible, go direct; if it’s easier to negate the conclusion, try contraposition; if you can’t reach the conclusion, try contradiction; if the statement is about all natural numbers, use induction.  \n2. **Structure your proof** – clearly state premises, state the goal, and write each inference step, citing the rule you used.  \n3. **Link to recursion** – when proving correctness of a recursive algorithm, treat the inductive proof as a formal justification that each recursive call behaves as intended.\n\nThese principles are the core of the proof theory presented in Foundations of Computation, providing a solid foundation for reasoning about algorithms and formal systems.",
+      "thinking": "Need explain proofs using Foundations of Computation info. Use source 2 content about proof sections. cite.",
+      "createdAt": "2026-09-27T01:55:37.793Z",
+      "sources": [
+        {
+          "filePath": "3 - Tags/Theory of Computation.md",
+          "heading": "Theory of Computation > Overview Chapter",
+          "score": 0.6944084305957022,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "Document",
+          "score": 0.6728683953508623,
+          "sourceType": "pdf",
+          "pageStart": 1,
+          "pageEnd": 3,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Theory of Computation.md",
+          "heading": "Theory of Computation",
+          "score": 0.6719203859722338,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Proof Methods and Recursive Definitions.md",
+          "heading": "Proof Methods and Recursive Definitions",
+          "score": 0.6434599953051169,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Mechanization of Calculation and Proof.md",
+          "heading": "Mechanization of Calculation and Proof",
+          "score": 0.6374254116296826,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "42 CHAPTER 1. LOGIC AND PROOF",
+          "score": 0.6183028451767107,
+          "sourceType": "pdf",
+          "pageStart": 46,
+          "pageEnd": 46,
+          "sectionNumber": "1.6",
+          "sectionTitle": "Proof"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "66 CHAPTER 1. LOGIC AND PROOF",
+          "score": 0.6149304323423181,
+          "sourceType": "pdf",
+          "pageStart": 70,
+          "pageEnd": 70,
+          "sectionNumber": "1.10",
+          "sectionTitle": "Recursive Definitions"
+        },
+        {
+          "filePath": "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf",
+          "heading": "1.6 Proof",
+          "score": 0.6137318606687432,
+          "sourceType": "pdf",
+          "pageStart": 42,
+          "pageEnd": 42,
+          "sectionNumber": "1.6",
+          "sectionTitle": "Proof"
+        }
+      ],
+      "generationDurationMs": 480665,
+      "stageTimings": {
+        "retrievalMs": 1231.1999999955297,
+        "reasoningMs": 8610.39999999851,
+        "answeringMs": 262804,
+        "modelStartupMs": 24664.290117,
+        "promptProcessingMs": 182133.046
+      }
+    }
+  ]
+}

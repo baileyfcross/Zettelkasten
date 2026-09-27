@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3aaa30d641787d6f",
+        "id": "28ed2f0bbd492684",
         "type": "tabs",
         "children": [
           {
-            "id": "89654caeef33abd0",
+            "id": "6807d5962d79192a",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -192,8 +192,10 @@
       "local-vault-ai:Open Local Vault AI": false
     }
   },
-  "active": "89654caeef33abd0",
+  "active": "6807d5962d79192a",
   "lastOpenFiles": [
+    "2 - Source Material/Books/ainetworkingcookbook.pdf",
+    "2 - Source Material/Books/introductiontoblender30.pdf",
     "6 - Full Notes/Basis Vector.md",
     "6 - Full Notes/Squared Vector Length.md",
     "6 - Full Notes/Vector Addition and Subtraction.md",
@@ -219,7 +221,6 @@
     "6 - Full Notes/Drawable Game Object.md",
     "6 - Full Notes/Updateable Game Object.md",
     "6 - Full Notes/Game Object.md",
-    "6 - Full Notes/Frame Limiting.md",
     "tmp/pdfs/gameprogrammingalgorithmsandtechniques/toc-012.png",
     "tmp/pdfs/gameprogrammingalgorithmsandtechniques/toc-011.png",
     "tmp/pdfs/gameprogrammingalgorithmsandtechniques/toc-010.png",
@@ -239,7 +240,6 @@
     "tmp/pdfs/blenderfordummies4thedition.txt",
     "tmp/epubs/biofabrication-images",
     "tmp/pdfs/bigdatamanagementandprocessing.txt",
-    "tmp/pdfs/bigdatamanagementandprocessing",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

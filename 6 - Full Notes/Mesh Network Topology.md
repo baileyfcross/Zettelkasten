@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Network Topology and Resource Addressing]]
+Tags: [[Network Topology and Resource Addressing]] [[.NET Distributed Memory and Message Passing]]
 
 # Mesh Network Topology
 
@@ -13,3 +13,4 @@ Multiple paths can make a mesh resilient to individual link failures. That resil
 # References
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

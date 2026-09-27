@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]]
 
 # Deadlock Avoidance
 
@@ -13,3 +13,4 @@ Consistent lock ordering, smaller critical sections, time-bounded acquisition, a
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

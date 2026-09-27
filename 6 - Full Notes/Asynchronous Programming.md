@@ -10,9 +10,12 @@ Asynchronous programming represents work that completes later without requiring 
 
 Its primary server benefit is efficient concurrency around I/O. CPU-bound work still consumes processing capacity, and converting only the outer method to async does not remove a synchronous block deeper in the call chain.
 
+The parallel-programming source distinguishes asynchronous progress from simultaneous CPU execution. An asynchronous operation may use no worker while it waits, whereas parallel computation deliberately places independent CPU work on several workers.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]]
 
 # Race Condition
 
@@ -16,3 +16,4 @@ The design-patterns source demonstrates that making an inventory context a singl
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

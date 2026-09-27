@@ -12,9 +12,12 @@ Asynchronous code improves responsiveness and scalability for waiting-heavy oper
 
 The conference-counter example uses waiting customers to motivate nonblocking work. In an application, `await` yields while an asynchronous operation is incomplete instead of occupying a thread solely to wait; many requests can therefore make progress with fewer blocked workers.
 
+An asynchronous method should normally return `Task` or `Task<T>` rather than `void`, and the async chain should continue to a caller that can observe completion. Context capture is useful for thread-affine interfaces but can be disabled in reusable code that has no such dependency.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

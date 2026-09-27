@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computational Methods and Formalization]]
+Tags: [[Computational Methods and Formalization]] [[.NET Data Parallelism and PLINQ]]
 
 # Parallel Computation
 
@@ -13,3 +13,4 @@ Speedup is limited by sequential dependencies, communication, synchronization, a
 # References
 
 [[computationalthinking.epub]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

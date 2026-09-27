@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Network Topology and Resource Addressing]]
+Tags: [[Network Topology and Resource Addressing]] [[.NET Distributed Memory and Message Passing]]
 
 # Network Topology
 
@@ -13,3 +13,4 @@ Topology affects routing, cost, resilience, and failure concentration. Software 
 # References
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

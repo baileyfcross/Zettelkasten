@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]]
 
 # Atomic Operations
 
@@ -10,6 +10,9 @@ An atomic operation appears indivisible to competing threads: no observer sees i
 
 Atomic primitives avoid a full lock for small state transitions, but they do not automatically protect a larger invariant spanning several values. Correct lock-free design requires the entire algorithm, not just one assignment, to remain valid under every interleaving.
 
+Interlocked operations also establish the memory-order boundary required for other threads to observe the transition consistently. That ordering guarantee is part of their synchronization role, not merely a faster spelling of arithmetic.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

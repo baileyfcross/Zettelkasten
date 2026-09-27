@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Network Topology and Resource Addressing]]
+Tags: [[Network Topology and Resource Addressing]] [[.NET Distributed Memory and Message Passing]]
 
 # Ring Network Topology
 
@@ -13,3 +13,4 @@ The closed path gives the topology a regular forwarding structure, but an unprot
 # References
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

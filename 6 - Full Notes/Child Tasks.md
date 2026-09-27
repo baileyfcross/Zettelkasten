@@ -10,6 +10,9 @@ A task created while another task is running is not automatically part of its pa
 
 Attachment also affects how cancellation and exceptions are observed. Because implicit task hierarchies can surprise callers, structured asynchronous code should make ownership and waiting responsibilities explicit.
 
+The default for many modern task-creation paths is detached behavior: a child can outlive the task that happened to create it. `AttachedToParent` deliberately extends the parent's completion and aggregates child failures into the parent relationship.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

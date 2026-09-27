@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]]
 
 # Mutual Exclusion Lock
 
@@ -10,6 +10,9 @@ A mutual-exclusion lock permits only one thread at a time to enter a protected c
 
 The protected region should be small, and all accesses to the shared invariant must follow the same locking discipline. Locking publicly accessible objects or performing slow and blocking operations while holding a lock increases contention and deadlock risk.
 
+A monitor-backed C# lock is process-local, while a named mutex can coordinate ownership across process boundaries at greater operating-system cost. The scope of the protected resource determines which form of mutual exclusion is appropriate.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

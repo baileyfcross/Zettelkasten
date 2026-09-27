@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Files Streams and Serialization]], [[.NET Task Parallelism and Asynchrony]]
+Tags: [[.NET Files Streams and Serialization]] [[.NET Task Parallelism and Asynchrony]] [[.NET Server Concurrency and Parallel Patterns]]
 
 # Async Streams in C#
 
@@ -17,3 +17,4 @@ An asynchronous stream returns `IAsyncEnumerable<T>` and is consumed with `await
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

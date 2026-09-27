@@ -10,6 +10,9 @@ A process is an executing program with its own resources, a thread is an operati
 
 A task does not always imply a newly created thread. It may run on a thread-pool worker, represent asynchronous I/O that uses no thread while waiting, or complete synchronously when its result is already available.
 
+The source also distinguishes multitasking among processes from multithreading inside one process. Parallel programming is the narrower case in which useful computations actually overlap, usually to exploit several processor cores.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

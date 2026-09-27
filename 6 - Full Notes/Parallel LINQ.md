@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[LINQ Query Construction]]
+Tags: [[LINQ Query Construction]] [[.NET Data Parallelism and PLINQ]]
 
 # Parallel LINQ
 
@@ -16,3 +16,4 @@ The design-patterns source places Parallel LINQ beside concurrent collections an
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

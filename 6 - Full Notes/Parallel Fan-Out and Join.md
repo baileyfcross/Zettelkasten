@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computational Methods and Formalization]]
+Tags: [[Computational Methods and Formalization]] [[.NET Server Concurrency and Parallel Patterns]]
 
 # Parallel Fan-Out and Join
 
@@ -13,3 +13,4 @@ The pattern can reduce elapsed time when work is sufficiently independent. Its b
 # References
 
 [[computationalthinking.epub]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

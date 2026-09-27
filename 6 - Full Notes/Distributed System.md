@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Containerized Microservice Architecture]]
+Tags: [[Containerized Microservice Architecture]] [[.NET Distributed Memory and Message Passing]]
 
 # Distributed System
 
@@ -13,3 +13,4 @@ The book's sales-order system separates message production, queued transport, or
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

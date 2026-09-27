@@ -1,13 +1,4 @@
 {
   "version": 1,
-  "failures": [
-    {
-      "path": "2 - Source Material/Books/masteringwindowsserver2025_fifthedition.pdf",
-      "extension": "pdf",
-      "message": "Filesystem failure while reading PDF source \"2 - Source Material/Books/masteringwindowsserver2025_fifthedition.pdf\" (attempt 4 of 4): File system operation timed out.",
-      "attempts": 4,
-      "firstFailedAt": 1790493526785,
-      "lastFailedAt": 1790493526785
-    }
-  ]
+  "failures": []
 }

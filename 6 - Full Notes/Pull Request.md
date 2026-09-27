@@ -10,6 +10,10 @@ A pull request proposes merging one branch's changes into another and provides a
 
 The request improves control only when review and validation are meaningful. Automatically approving a change or allowing required checks to be bypassed preserves the interface without the safeguard.
 
+AI can summarize metadata, explain failures, and flag possible risk inside this boundary, but it remains advisory. Deterministic checks and accountable reviewers decide whether the proposed change is acceptable.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
+[[agenticaifordevopsengineers.pdf]]

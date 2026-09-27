@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-27T15:52:56.869Z",
+  "updatedAt": "2026-09-27T17:43:18.838Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -160,6 +160,33 @@
         "6dd609ac709440ae8d79a524cf838caeaf5270185302e1b2230eaf468f9b67e9",
         "85dd1d9bfd473e2bfe74b6cdab9933fe3e14d7363b27ff92cf3e8402d92abcd6",
         "42f39404a7442d3c07bb60a2afc3a35492fd77288b4e78142eeb0b79674acb73"
+      ]
+    },
+    "2 - Source Material/Books/analyzinghealthdatainrforsasusers.pdf": {
+      "sourceHash": "00ab365019f676e452846c17d82577a885704390949404d3ffcdb91043d595fa",
+      "sourceType": "pdf",
+      "fileName": "analyzinghealthdatainrforsasusers.pdf",
+      "title": "Analyzing Health Data in R for SAS Users",
+      "pageCount": 319,
+      "chunkCount": 1087,
+      "objectHashes": [
+        "62be9860ee04e7bd6c5689cf774185b358a28a43a2747a38f0c4c7b0f089e030",
+        "a163bef6c20d73f3b4699bd8861b829238499962fb3ee8d7c20d3141d8d0a543",
+        "108557b24792edc7926200dd224a844b02c0b0ba976f8a7a0d47d88ab07eb557",
+        "238b993c18262fbb852d88126014ec573d6d2dbc64220c2c72bc9d74770d9e0d",
+        "f5f53f069375074183fb514d934a6227b6c18d04fa49ea5cc3221afd312da0e9",
+        "6984267cfe07d6fc88b40df621ecdedc19d30edec7dc88016c06de1e62e06a6e",
+        "67df122b40ffe67a5637f36d8d9d2386cb2e3bd5ffcb5d6a56de59d3f383b108",
+        "368c65e5c2199cd885fde552da40e6cef5fc83dd549dbc2b831a96eb33b8bd32",
+        "73f97e947e93bdd149c5ffe696b53b0f3a67dc7bb5c179a7b422cf44c42244fd",
+        "83a0f37f80c820affed52414ec6b2fdec04b4382416f325c9ef9acbd925b3010",
+        "2238192c6f5e0a30393a3d6685b18b47593dd0d6f6f29ec9606321708e01e545",
+        "a733966babe345a76036685867bb4fcd578732bd6400cda93e72138fc7f4971b",
+        "8d12f5da37d4c2695ae6fa727d397d658a01d8045edf9036e2a7bd2623c9a897",
+        "eec71a044d85cadc80c4b0f3833045ab5d8b982d6c33ce9e480ed919316fb409",
+        "7e7fabf95bd1d32d0e7c96fceb7ffea52e5782822149271b5f8a1570544f3b4b",
+        "24f4be88ba1463cb23a15954f23ba7a93c191545530d97512b8dec4c773c3a49",
+        "5f73625a096d2ebdac9cf41abe867c5404ac455792c8f03fdf906b130d45697e"
       ]
     },
     "2 - Source Material/Books/appliedlinearalgebraandoptimizationusingmatlab.pdf": {
@@ -522,6 +549,30 @@
         "3dfeda785671f0f00453f87f8c3e4e9c4ca547334124b1ac85bb64624382a4c6"
       ]
     },
+    "2 - Source Material/Books/commutativealgebra.pdf": {
+      "sourceHash": "ab857acca6084d522ee5ea4d4809d1d3c7981d31aadce73ab2f956a58b4a1d7a",
+      "sourceType": "pdf",
+      "fileName": "commutativealgebra.pdf",
+      "title": "commutativealgebra",
+      "pageCount": 246,
+      "chunkCount": 842,
+      "objectHashes": [
+        "ae3269d9f4c9ce4c1dbbcf05042b87aa318e07edc84601fc6fd6d900ff0f459a",
+        "acfa59d887ec049b6e0555480479823ce2e8e76cca17f05b813d87dfc7dfec2d",
+        "1ff1fd568f89ae58cccf34826bd10333d4bba91b08e9be111ac270964cc9107e",
+        "feb3d10293e45b8304ce906bb50eb62fa276e6958df97192ddd8e9c6e81a874c",
+        "5a4eace64a4b25f23af196446fbbbee82053ff9786c17ebea95a67702d8ff808",
+        "76115106fda025a58f5364e3bbfacaedd734f531ee7a44d02d7117dfb52d37c7",
+        "c33dcf4c3563d665a5371c41e7ad0d075cb8b1e7e978ff81d10ee2ba336bef0a",
+        "a04bcc1db08f9cd58314d31c74d2a9b860d1d9ac00faaf6c4730a7e30093ddcd",
+        "47ba5e9b7f3e67dd565adfd45525e174529dad3f08616f144a610e3a69948f59",
+        "722eaad502de8859c57159d4977eca8a8bdd056373e60ec9c24248030c82fc26",
+        "83be7e068b1530a66cae5a8ed66d6db5e3bca19840d987e00cf78875ab940517",
+        "adbdf4daf726d09141e080f47b4377c46311612587bff76923932f5325312f25",
+        "65767749d812ee10e8ce35d5b41a74cfc8b520d6ba8efda7ce4783142ae583f0",
+        "8ba57e2c26a02cd72edc50bcb9cfb1994e9f31f0a6491ea1be7a326cb4c4e186"
+      ]
+    },
     "2 - Source Material/Books/coreblenderdevelopment.pdf": {
       "sourceHash": "663eeb3c9398856c7c0859f654d86608ecc3e0ccab8855c1275c079d6d2e8836",
       "sourceType": "pdf",
@@ -706,6 +757,24 @@
         "24e0fd6a3271b276e996cf2cd511f7325e54f17aed8412d06496fc37ed24a3bf"
       ]
     },
+    "2 - Source Material/Books/datasciencefoundations_geometry.pdf": {
+      "sourceHash": "e8f2c7f6fd04fc81761aa9df139628935269aa84ef506fb73de7b93d0aa1ade8",
+      "sourceType": "pdf",
+      "fileName": "datasciencefoundations_geometry.pdf",
+      "title": "DATA SCIENCE FOUNDATIONS: Geometry and Topology of Complex Hierarchic Systems and Big Data Analytics",
+      "pageCount": 224,
+      "chunkCount": 452,
+      "objectHashes": [
+        "5edf09613cee930eda200afeadb42adbd052ad9d75c49e200c6b4e5fe1c6b55f",
+        "5f25e603233beb678c9b78ddb0bc351a248c971243d6b939cf6d7e5d733a055d",
+        "35acf60db05de8b849caab40b4419100af5000e122d03e0a28c6d64a2f582b8e",
+        "57d05ebe1b1ab4380253bbb35a84a162d44dcc201f6b69a0a5771ace06858d7a",
+        "ecf0e029f2ebc503bcd3a90dd053e1cec3fc430884ce1a3f16805d90cb60d354",
+        "87d0da9bcfa7cd995ed67fe0b4a08499eeb04a5bd81d1f0210c2302c34cc9d6b",
+        "1a21b39f7a0eb90714e9d1bb8ca121ccb2c360bfa85aec735c9f59fab5a90393",
+        "bf99819bccda8dc999b1516af7bd28423dba5197703abb1a18bd2c087233086d"
+      ]
+    },
     "2 - Source Material/Books/digitalvisualeffectsandcompositing.pdf": {
       "sourceHash": "ae1bc5c3c723c46c3e52aa48cd210c614f9103fab4dd4c9cd6635b6d185801c9",
       "sourceType": "pdf",
@@ -754,6 +823,23 @@
         "e5ef5da87d9dbcbb1a911c3857648ab4aee0f9bf1c8b7dd9a3843e08ab55a860",
         "fda1851ffbe23b085c5cc8c4198d3267a0bf95420e28c0be646a65ddfd71d597",
         "a1c6838d48c4f28f0ad64df59e91e0b20102381eb5d7eaffee8fb47586fa1983"
+      ]
+    },
+    "2 - Source Material/Books/displayingtimeseriesspatialandspace-timedatawithr2e.pdf": {
+      "sourceHash": "427666bf7a33f7365b22af30360df419859247752155b98de392be277bf25169",
+      "sourceType": "pdf",
+      "fileName": "displayingtimeseriesspatialandspace-timedatawithr2e.pdf",
+      "title": "Displaying Time Series, Spatial, and Space-Time Data with R",
+      "pageCount": 273,
+      "chunkCount": 405,
+      "objectHashes": [
+        "10e87f115eefc3cd0c123bdacd4af2a577be012c6f38fb582e1a2e708ab85158",
+        "4b95093d0b79d770f9a39cce1188f4f64cb791c0fd5a642bac32cdca3a2c47d1",
+        "03028e8fc4a0664d65d0b3a03e78590ad529539508171b5e8679e14797eb5b58",
+        "f23a3b8f595d8b0f436ab68344cb30118d8c5f9c2a3285922cdf6416175fbfff",
+        "913ea1463af9bc019a29efe6cbd4cb3eebce6072112626b22910b10aeb4f6cd7",
+        "311fdafbf7de96a4306d22a607782334f0c66e0e3decee7178570a2956b5261a",
+        "dd35010ec8804d55dc7b830a0852e0af3927b75971697c61099fd10cfe4ca5fe"
       ]
     },
     "2 - Source Material/Books/essentialsofdatascience.pdf": {
@@ -858,6 +944,24 @@
         "02989a874e7ee0be33f863644df9af5514d86045f8192c63a992bc3db5e92041",
         "d7afb13fe8af7cfd9eb3dc1e3f9a2145517ac67bde29fbe8ca60553fe465c769",
         "c7cf8e8694a8aa4303b4e9fc22b0cac8361b38a9c3b264f2f8bd19569eeb0403"
+      ]
+    },
+    "2 - Source Material/Books/FoundationsOfComputation_2.3.2.pdf": {
+      "sourceHash": "27453bc1e93a9e596dc2fc4dfd7a840fe76f7af0bb0fcf021f3b45960e164975",
+      "sourceType": "pdf",
+      "fileName": "FoundationsOfComputation_2.3.2.pdf",
+      "title": "FoundationsOfComputation_2.3.2",
+      "pageCount": 223,
+      "chunkCount": 472,
+      "objectHashes": [
+        "a96a52f56ff9fea56b77526dfa3e04c3408a349ff3d82757c89f922d2d0cb5e3",
+        "95e65ca86d321b76839b371ec798cacdf60f6d63c9cfce8ea14dc9c5d795291d",
+        "324488a0618cb7b89596925f432093e0fc7ad49afd3093ae80516bc1607ba8f8",
+        "c8f15460d6fc7212656b6580f093e39954bb13eda8622f068ac8a29b7723be47",
+        "60d699f36b21450380e595668be473abcef59d6ddd891000954db5229c1b0f7a",
+        "2b283eed2532d6f0b368bbd89b1f252a02f2d3942830d1f70b65db13f67e9295",
+        "4a85cbe9df38fc185823962df088d235b812be471fb0c879fc8d48550b978535",
+        "6ffb8ca5cfc664d889c6a2005eda99a18d23fdfff35f07b2da041b864839c905"
       ]
     },
     "2 - Source Material/Books/foundationsofmath.pdf": {
@@ -1109,6 +1213,20 @@
         "6c9fbcb2d025371973deb2584a9cfc9a34dd1d447b10f5daffe94d3d754fe77f"
       ]
     },
+    "2 - Source Material/Books/hands-onparallelprogrammingwithc8andnetcore3.pdf": {
+      "sourceHash": "452d0646462367ceb4e31011b1317ecac0a0f1619656c421a638a443490296e6",
+      "sourceType": "pdf",
+      "fileName": "hands-onparallelprogrammingwithc8andnetcore3.pdf",
+      "title": "hands-onparallelprogrammingwithc8andnetcore3",
+      "pageCount": 328,
+      "chunkCount": 202,
+      "objectHashes": [
+        "aecb31b78f09009825700d9d6ba650ec8bbd2c5355f366abb48ba801d7bc87f2",
+        "9eddf57e93fc366f589d8115d0c8d6d4445a448b72bb02615fa349c3b46e36ab",
+        "d0a689d70cda497bebaa11fc3ca10996c317866d303f08e210b3bc4f02ff9e64",
+        "ed422b3b3048ce5d05823c1d8d4549c580631c38d3375fc7e6b388ce74357ceb"
+      ]
+    },
     "2 - Source Material/Books/hands-onrestfulwebserviceswithaspnetcore3.pdf": {
       "sourceHash": "adf5c3dd83f8cf52f9015fc6999e42523157a04d63e451347c95518b38cca940",
       "sourceType": "pdf",
@@ -1250,6 +1368,23 @@
         "857abaf9b641f4692c1e666d0baacfce44b627fd783d08b8a12038685336af99",
         "abb314020f4207dcd7ea49e76f3104779073639ff6383fa3ccc9c6ca6d5b6127",
         "fefdaa6837167ae0b7d2f36d3b26f46442a8afd24778f95e9f662c129a272fb0"
+      ]
+    },
+    "2 - Source Material/Books/introductiontoblender30.pdf": {
+      "sourceHash": "809a292530d8e1713d36f72dbb60c699ae9b76cd5b6b8cb60ed8fcf6a95a77b7",
+      "sourceType": "pdf",
+      "fileName": "introductiontoblender30.pdf",
+      "title": "introductiontoblender30",
+      "pageCount": 477,
+      "chunkCount": 433,
+      "objectHashes": [
+        "1b4e62a1d2fea76668f458554f93fd13dd9462e5e95a3ca02970b5e728f238a6",
+        "2b61344f350b390b6482be662e3b2795b4b2e42cb0d2615245ed062b940ec8c4",
+        "60028341ee03d89c20c2b1927967abd83dae4b03912705869fe629b6cfeb94bb",
+        "9080bc0dfc9fbe8380df23a501242e0b627fee0d7402746eed8469c03882a41a",
+        "87101363875bdec4042f2309b5dd74ba37590e084e9a35ce3a6b163fdba804ef",
+        "bc0f4c2e737e6bca5f49275e3cab2d66931264e681bd3d5e722e5f22f1a1f326",
+        "29e984e1d1e14e1fa28554efce4aa3c5c69d420dbc24ec7dbff588e774f03cf4"
       ]
     },
     "2 - Source Material/Books/introductiontogamedesignprototypinganddevelopment3e.pdf": {
@@ -1394,6 +1529,23 @@
         "bf9d6e8feb9fee8cea5555ccaf558ac73ff2d1e5ab48d117795600aaf0a51069"
       ]
     },
+    "2 - Source Material/Books/linearalgebra.pdf": {
+      "sourceHash": "411b9647d99ed7fd0d49073fca71d162c2ec3beb3ce95c51dc66f7c1c293cd0a",
+      "sourceType": "pdf",
+      "fileName": "linearalgebra.pdf",
+      "title": "linear.indb",
+      "pageCount": 181,
+      "chunkCount": 399,
+      "objectHashes": [
+        "599b7fabd647e1cd27bcee96ad121e16faa8af3e9802ab8d7e3e0c3a642582cc",
+        "f467e78c104eb82d2c469c7de19b65b68d9b7950c9a9c16d71555a93e998bab7",
+        "ad3765367e1cbbc8d337ae7ff24680849fd5b073c0ea68be8f078355e617897a",
+        "099080f77e83f47fd376928a1185192b95bcf51632bc34e5516e71ac74f21071",
+        "aaf4e84a85ee20a6d3a73b7cd41c4a22b802aa37e47bc3aab10b95320fd15392",
+        "2dfe78597924873c6f1887938affe88578155e166e24a97851a051c99896f279",
+        "76d32fe2b76a0f09d28b0c7a4b1a0e2e0e7b7f0c87b2172f69e653a09c994ac4"
+      ]
+    },
     "2 - Source Material/Books/linuxkernelprogramming_secondedition.pdf": {
       "sourceHash": "9124d1f27f79a5063ed2988769669d815c55cef48243838d0654a30b3a80b107",
       "sourceType": "pdf",
@@ -1474,6 +1626,30 @@
         "30b8daa58ca109c4d0a19d677367e9b545385b96b38568315269425101a71a53",
         "334f3990e8232e393ebcab9518e4350c26c994986cbde9c9b104dfe17262527a",
         "d31b01bee359435f5efe27d027c112009aafe76074d6eaeff44fe8912f8b2aff"
+      ]
+    },
+    "2 - Source Material/Books/masteringwindowsserver2025_fifthedition.pdf": {
+      "sourceHash": "545087ab2f9be3ee900342a2af18185500a362404d54733bb4a7d6303c0a4d04",
+      "sourceType": "pdf",
+      "fileName": "masteringwindowsserver2025_fifthedition.pdf",
+      "title": "masteringwindowsserver2025_fifthedition",
+      "pageCount": 824,
+      "chunkCount": 837,
+      "objectHashes": [
+        "69b1a0bbc62a4b5cdcd85ce7188ff877d4a000cc54197ca008bb007107a3662b",
+        "f513a7ad4c785ab4c47401d531bed2dda54032285dbb0d14ac65ec5a5533e13d",
+        "b8524a92683ef31836a5a34f8660348ca8b2ac0ce536015035a428f40e999954",
+        "06f170593dbc344a6ab47e18a26c925e89dce7046586bde1a3687c5215a07d15",
+        "3919672428ecc011cb03a1d339f73e4ff7a896f0e530cd79c34464a3499cf556",
+        "ff11567cc8db9e560a5bd27d8c0f1b2a662cdf1ed6f46600b0086328925658de",
+        "0a358498ed5f72b98771b2ba2dcb743f4a4c0b13810107df90c056e8ede2faad",
+        "0a847a9ec0ec9ad44a8db3cb1e02f5046b34e57e6212f6d546a83b2a2643a06c",
+        "c0cbbdd3e8b72a3746f4a776c464710840700b796e3834c2508e6d326b9fa6ea",
+        "ce317fa81a6c56bd4ae9b67d40a828569e8207c6a155eccb1e9be939da9a2144",
+        "856f5b89eeccb3aaab67ac73c694eacc96dbdda926fe007fc7068ee758dc1cb1",
+        "161727990cf85ef7cb401b88ca4ebaa7ef3d729fcbc3b4c69b9cbc01a51674a2",
+        "39af319fd0ebf14a47318b9872ffdac707adf0f9fdb8f168345fc8c808bf44e3",
+        "c0a42b478a1d7f2efadfe0d7d43d54360897c89867eb167c74740759da94fee5"
       ]
     },
     "2 - Source Material/Books/mathematicalmethodsforphysics.pdf": {
@@ -1770,6 +1946,22 @@
         "24e0fd64b03958463860525c28689d934ea886668dca5843887b8ef4a079cc3b"
       ]
     },
+    "2 - Source Material/Books/platformengineeringforarchitects.pdf": {
+      "sourceHash": "965f9b9d57917f629f16c4dc3e857fdb137b192e54bcc99c527fa20509702b51",
+      "sourceType": "pdf",
+      "fileName": "platformengineeringforarchitects.pdf",
+      "title": "platformengineeringforarchitects",
+      "pageCount": 376,
+      "chunkCount": 329,
+      "objectHashes": [
+        "68b252406249c6e31e67cfcd063e1dec8552b6372f56f4993cb0d4dd3abdc635",
+        "367ec917a5fffc22ab0bc441028cccff1406fc3dc149926971c8929cbb6c8fa3",
+        "0b7a3b23b61641206fee9d67c5d96e02dc8d726e0130f11236020bbee4159965",
+        "201bfba58cbaa8ba4d8d6fea06e263aea7100aba213d1cf57117b68467108cdd",
+        "e535102443c2704cb4e517723d65d330212ff76900d6d74f85139b7fae3428fe",
+        "c095459d09686ec872996d421f68fa8abb092da735bf16086620269fe8adebb7"
+      ]
+    },
     "2 - Source Material/Books/playersmakingdecisions.pdf": {
       "sourceHash": "e151063021805c0534686f72b5209cd3095f75fbf4208f4edc20cddbab809f16",
       "sourceType": "pdf",
@@ -1788,6 +1980,27 @@
         "6af575c464a4ac890bdac978caad0ee89b366e61948c0c828b1fe8efe26bc5fe",
         "cf828703050dab13ea459c34f776456b4c9c6bcbb075f017e594bdf0579c946e",
         "86341848fb41c073411a08aee90fcb6516183441d8571d6aec4eaaa45d98cef2"
+      ]
+    },
+    "2 - Source Material/Books/podmanfordevopssecondedition.pdf": {
+      "sourceHash": "14f9e916013df4a2f15dd5e64b33b58f3bfe138b4d1290771e11ef6f224851db",
+      "sourceType": "pdf",
+      "fileName": "podmanfordevopssecondedition.pdf",
+      "title": "podmanfordevopssecondedition",
+      "pageCount": 550,
+      "chunkCount": 675,
+      "objectHashes": [
+        "0da5a8c00536f4271399edad59fca8a4f769389a1006a2c87acd1330d61bfe42",
+        "0bb9db31ba360fa955707ba02f3614afbf1de84f9f73cdb36a32ee8f1b2a2fc4",
+        "6cc250c33bf96c5edd9285883f8667e7df1db4a8919bacc04e28c79fa0442e7c",
+        "e3a3fa652131f75e1d793dffdce41355b5d4389ffc036c7d7cba4112ccac53e9",
+        "d91f5e667bab1f8608bb18efde9ce36827a463f2f6aceb91f46a87a4165b6e3a",
+        "0d5e8593722e93dfac250f17ee00ad1e65deac22fdefa5c0eeb2fadfbe7c39b5",
+        "1340780337313ab39e7105b5e624b91c8132fc20639f204d95decfb8dd44acb3",
+        "237ff0664470b4cd5b8c7c0318384a9cfd9ed640c6246402e08a661b4e443b69",
+        "463a1d253cf976f61aac6fb8117191475376cc0ca758599fafef7a0ac5143797",
+        "e1d5e3781c021e4306dbc2f2765ae77ff546e7a75158c9c35ae43d3acf878a92",
+        "b54c4bead877fb01d3f0496c18449e676feda61f3d40326c85b6a163adc6f422"
       ]
     },
     "2 - Source Material/Books/practicalaugmentedreality.pdf": {
@@ -1809,6 +2022,21 @@
         "1ad735dcf7ec2aff88a6f6cae090bcf8056f6cab4df859d81822631c6aad6705",
         "aae4227d469a02e9d7b607f3cb702615ceab6dc8ad84c16a3fbbf9583a0134c8",
         "0cf5253548cf199bfc9d3d5b4e5ef94dbddd5decae7c56a58c23cfbf0a4e7c28"
+      ]
+    },
+    "2 - Source Material/Books/programmingincexam70-483mcsdguide.pdf": {
+      "sourceHash": "cb312538079ecf6998eb63dd8d7057c190399554538ae5af9a54b6ebde459b4b",
+      "sourceType": "pdf",
+      "fileName": "programmingincexam70-483mcsdguide.pdf",
+      "title": "programmingincexam70-483mcsdguide",
+      "pageCount": 430,
+      "chunkCount": 272,
+      "objectHashes": [
+        "fff3bd480b50af57bc68ded3ef183c8199ac8f9ffea6ffe28e96c93691f80d2b",
+        "0c5a87c889f441c346e916e494023da2085cd34ae776ac5a596c3e539b9e0a5f",
+        "543482ef39331a312cca983de8712d1363e96378513d632d0c6a6957f0e6c50c",
+        "85a2da10b57209e5e13c872031a64d66d513eca2783188992634ead6388fe5f4",
+        "96cc22b7a36d0c98061bddb83e8973f28abef43eb5f81074efff63baadd3821a"
       ]
     },
     "2 - Source Material/Books/researchmethodsforinformationsystems.pdf": {
@@ -1945,9 +2173,9 @@
       "pageCount": 321,
       "chunkCount": 507,
       "objectHashes": [
-        "1df8776857ab3adeb5e7ee18ac488ff5bf910710b6a84bcededf84c58eee9ce6",
-        "7f3f8c486d4a95e01f950e83174589abcff2572fcbf61b22361b37c0541d3092",
-        "8eb2eafe3263568048b915a5c7cac3d17f4fccccb10f6f77160e2923f58372aa",
+        "dd83eb2e7c48fcdd3e0ff8db5d1130e0ed4d958557acfb061d49810df1577c6e",
+        "64982f60e52c60537c0162b5f5bc093c8898b144b8ae2a0edd57ca72349ed05d",
+        "89b6165a385b6a0fd0d6a688572dccd401193f620f761d324d36f1f72c67b32f",
         "9e326ae5c364dc59d2368b6a897995e6de5d535ae56b32ed41355f47c85a45d0",
         "118c9d34be1c38c36a1e9086b9c7d5376bf66527716582594550cc5535e2085b",
         "ffe0cf2611860e0091009d35d976d8c8f6c41c5603e1ae7c6a151d6a39834d41",
@@ -1980,6 +2208,39 @@
         "21ff35538bca626b9dbc301ecbb51236e8f0812d4926cddc7f70bff26688a1aa"
       ]
     },
+    "2 - Source Material/Books/statisticalcomputingincplusplusandr.pdf": {
+      "sourceHash": "3fca50caf9434c6841d8dc17c02b389226954a336b435908c53b530e7c79637e",
+      "sourceType": "pdf",
+      "fileName": "statisticalcomputingincplusplusandr.pdf",
+      "title": "Statistical Computing in C++ and R",
+      "pageCount": 553,
+      "chunkCount": 1428,
+      "objectHashes": [
+        "01fb38a3a496447efc936aa2417ecaf2d9b65ee7a234da5bfdd11362c15f873c",
+        "305efb414469a8640e91d856ba504b254b7c8e27ab6e42bc7c520c9bbd019692",
+        "2b29bfc9809ad66bdfa94f10a9843cc75009614d3add4cf4dfa62f50a85c66e5",
+        "49686fba0e76ea227f26829e825aec4b5809625737e72a9d343ce5d692c7ee6b",
+        "5c378bd0c7b7603f30563690d4f668676eec872ba2567a64d6241fe1114e5c92",
+        "9b4666bb1faa94474eaa85e3ed225831ddc876c0167af12833828e2c11914f86",
+        "a161ba72a74aaba126dbfb37790aceb1f02b04f6a39d6312ba52e1d1db27f7b3",
+        "5ca373f7588a2949d504225a3f6b5a21d71e2c401c2c3c69345cd7d0556bdaac",
+        "896872e3bb47b1df1149195a18fd3e90ae0052c3bf257557837a16634d3c1cae",
+        "6e01fd8bdf8885a34ae9ed8ba94ea01566c2d25896b7ce5a9bd989a1893ad662",
+        "bb1b09efbcd92f76a3de73633eb35c685d09a704d6a7ca73ae0725d5142ac99c",
+        "96b01fec303a0568ab208b45a53baa5bfe0bc2bd2fc416bb6c072404a426285f",
+        "96ade51d072646609e290beceedfe60905c734a03ff0b8dc7c97863cbb08b5b5",
+        "09d5b1678fece55aa940f2b7c54b5395d2938055fb5c6885777541baefae7c18",
+        "f288f212511f3e49fe67626e1bba6a48dddb1681f8d12ea12bcae91fe2fb44a8",
+        "b980a53cba8d5150ff6dd6a2dcd82b60af31618dcb9ca179134855c35ad73ea4",
+        "20f1bee493fa299e609351f5f58a7746adcf3c69548a1cf52b9882fe99056c26",
+        "608fadc9618c33cfe1ad08d990ec105cffa616ef84da1f96011e258801d46326",
+        "662f817a25851e805724079f4626a394174371145f6d460ac7ab48828ef22538",
+        "aac2c815f22854f4b5c6d6ab226e09f7228285275383cbabb796281cc7e7ef3e",
+        "0bf8151d5775e5483761ec7ec659649e15de82e67f6823335d7737eb46ad2f39",
+        "05a09dd2ad8f6b8562e1df29c9dec0a34bc66ccfe78dfb2ac889fda5f85ddc92",
+        "cf4b7694e17faee63df5182037856b7c442cb50067367c4f0e837b59f845d26e"
+      ]
+    },
     "2 - Source Material/Books/structuralsteeldesign.pdf": {
       "sourceHash": "aba847ca181c8e1d0d0f3ae86dd371cd47b271ebeac78344c3f3e3cdbbb32e9f",
       "sourceType": "pdf",
@@ -1988,35 +2249,35 @@
       "pageCount": 956,
       "chunkCount": 1809,
       "objectHashes": [
-        "8628a7ac5d005241bf91d7836a17cd4aa6744d76c9fbefa1cd0d0cb0df5c26ee",
-        "2c064bba9be642fe81055ea07838f205db6bf94e8b4e160f20b65f8a02563d54",
-        "1988b890668663bb649bda114866dc76b85d420feb7b784bf43fd6286f023ac9",
-        "f4ca9e0052244b0afc9ab204b4e7fea3cb83a48f417c1ba2897a3ef60e9b47d2",
-        "25ea4634d8d81acccc840a1b434228438c51710ba9ed2c7cf1c7fe15a42cfdb3",
-        "f92e694bad460481fe3877f371bbb779414c70cb8771202915e33a36f1adde9f",
-        "9faba5f6bd7ca5813e2a14074aa3ccddf0aa216ace1ee5a3adc16d0dd259bc91",
-        "1de90c2de8d742275920341920e0f19981694c951c7509ea4494e74680bc15f5",
-        "b2f1a2c092f0c412988f944dd911e8b36f17392cc7367db63c650c2ce21433db",
-        "856fdc91e853ddb951a72470349006ba551296e902375d858ad83fd3c7527f8f",
-        "0718e78c76396a1913fb3a43bfde9535a9887b2629bead2181cc006a6144e6a6",
-        "f4c66fb1cea588567329a204bcb873286e68fa9d1e35aed8bca77828adbdde9d",
-        "458b017769b0a481845b6f62eef95c6c37e5c722a39323a56c114b5ddaa4fa18",
-        "f95d22575d915617555abe73b04444d31fa3da9620f13952e030b19e8a1dd750",
-        "870169b475d5daa48858ea8811036223de6953288b87e90ab379e4fd63fd9a9f",
-        "ea837a35ef1c3068ea0760771cb54803ff8964d3dcc8bf921bb84f0273ca560c",
-        "ed0c58fdd0dcfee81f77bef8810640e8a1b7ce7e745727a75e909a3574bda7f2",
-        "0b50d9bd8863ca8cc8ffc37cc2296f6041a905a3854f249bb22bcf5b145dcdc4",
-        "23e9a556fcc8eca6f5b25893250ce4d20afafd823d75a510fcb235296c4963cc",
-        "afe67e5b8c4ced9fee0f7ffaed13031dacf42e8c31db68cee68d312db24e4117",
-        "e5eb5a14d912662847ee6ee4afadd60fa95b4d26591714221b84555d644bc363",
-        "46383d76422e24a7ed52bbcf9708c5e1837ab00d19ed788831c35f2bf9bbc10a",
-        "97cd4319951e65f22bfac3a68052133948718fd4596c814b7af5605a954c7211",
-        "98e02130d9252b1f38b5550878ead7ae170ddb88447e481b6843962a5d664769",
-        "21205315953a4ee7448debd3eae7cb9b65fdbfc6fc5d309277782c4c7d41cae5",
-        "069850e74032a294dd9f9ca236cc848d18369b80b49712b5d85bdddf982c2708",
-        "cd21a0b15986a3da8947a66ec41de52e49db7d6210a901dc43ff6b158d4d4132",
-        "a8a1c03ab3f896f621810e6a6824612bcef37a25c6fbbbca1abe4aa919ad16f1",
-        "683227417ad76c06c7ebcb50dc0fb06ce5e1bd03ff8ab6fbfaf835569b912b1f"
+        "be60471992300f9b51ba720b40caeb2cb8c5abda4ae9eace86ba786c2511f979",
+        "0211257aa153cfe9c6fa3679b2b0bd09362bb2c664eae64980efb52faf612018",
+        "0a16545425716af140a50a34a8b84b903107d6a778b89a75d5870382dc5cc967",
+        "682399ccf0a83032f9befb2d1657c8e98c68ec106195ac7be8e7219111dd4861",
+        "311f4f7bd5068f574a29a6a8b1be590d04f570fb6ff810d49a83fb7e942ebdb2",
+        "05f28e4a3f9c3d46b59cc275a16b2ccd59ad3600fa9b7d8ae5455bd568414df5",
+        "eb2840a9f514945b27f1ea84b536b17ac1f327c28061866b75e27541a17f893e",
+        "1bea27bf1e81c2c8d1a166e7633fc9f7d798621add09aa6a71c3d290ff1b9b80",
+        "09e8f812d9e7297c5cbf844e8b972adb1f2bf511e827637dbd3de3bb37b7bcdf",
+        "c5264fc5795df7009bb792239c687af4d065780f52e652d479300af6410756df",
+        "4a4d0de7216ae0b670b051200f36c1b4f66293a7d85b9c23a1e1cace204a7780",
+        "d0a53626382b590c181542a82d4208843b849f4d18b174df7658bc3842e6ca9f",
+        "0971218f548dc5e528851195cfea5ee6eb4f53e32f3a3cce96e9a77afebdd8e6",
+        "d0c73f3ab3077ad22cf82c90baf7c651243118996ed3a4ed2a5b97765f8af3e5",
+        "f232894dab7864695d6e401647d6a23f82db70b079eefb41379711fe8f74e2a5",
+        "37be4fd550f39ef6b78246d754ad06fa4933c0c2a1cb4a05420534373980b079",
+        "df49c087193c731be8748d2959779076ce1ab0621b9acb9589b77042eb8ab2e7",
+        "416ce62bffc21e8fc1951a1492d083e17ce5173af0a75e960bd3c08ddd4a3389",
+        "e0e1ef3fb9ca67d46167992d3d2016b48b232bbe483091d36f09b78a276bfcb0",
+        "d58b723de4ccf35a4d87e996c3c1cba898deeb284e2669a8b20f57c827eb26e5",
+        "c88dc68b24c2c2fd8193ab330f4af56f00f1d39f1edcf3409993273be356b7fb",
+        "19e944b2a833a5e7b63a42dd6b044d77850985573511c187984251ea5e956984",
+        "259d895021e2de70b864c204e3be422b00e55800a2520ec76692afa53c79578c",
+        "4131f2d7e3f9c3e8209b6c9241218d65527d21f83ab0cbf66e775c7a3262ddee",
+        "a91564ce03c21c12002f2ab271860e70d79c8e39887d786c4f317b47bf8d0946",
+        "e958d09db409910b66d866d419bb7c7132c6c682c4f8e5e912ea78466fec90ce",
+        "91d87d53bfc867c1129eb6977ead0cbf2e4644f24be572ab8fc7936d88a8f029",
+        "36aa7b02679c79ad0f3bb1f54f83be3c57b6eacf536d9b5b42b1725777519992",
+        "6dd5db3833e72756c32d2e0ef78d3005f73700db9ee7b388c01341c11634c37d"
       ]
     },
     "2 - Source Material/Books/suselinuxenterpriseserver16officialadministrationguide.pdf": {
@@ -2394,6 +2655,16 @@
         "a3bbd2afed2424fa61e5a15cc954f34fb11514196f9075ff456d75558ac2dba1"
       ]
     },
+    "3 - Tags/Agentic AI for DevOps.md": {
+      "sourceHash": "7e2f2a45c6c20c8c5babfff63254d93b286757c08265cdcaec11b3edba751583",
+      "sourceType": "markdown",
+      "fileName": "Agentic AI for DevOps.md",
+      "title": "Agentic AI for DevOps",
+      "chunkCount": 10,
+      "objectHashes": [
+        "b6cbb1c4d64d52f0b3b217c50cd50b1ff818826c3b12eb6b30f65ba74d131fd6"
+      ]
+    },
     "3 - Tags/Aggregate Consistency and Persistence.md": {
       "sourceHash": "2b69c2969aba44022c1fce6a15c124b6678ae512d9c6d797fd0eaf7afcd78455",
       "sourceType": "markdown",
@@ -2432,6 +2703,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "68dd5d205505d48ebd446b9df290284f0414c6b4a1ea239ebd5a47af4ff5fb4d"
+      ]
+    },
+    "3 - Tags/AI Agent Observability and Evaluation.md": {
+      "sourceHash": "e404b3081c1b4a619427a98102effc3af2dece71a02815a2bfa95178666bba84",
+      "sourceType": "markdown",
+      "fileName": "AI Agent Observability and Evaluation.md",
+      "title": "AI Agent Observability and Evaluation",
+      "chunkCount": 2,
+      "objectHashes": [
+        "20944ed1302d50df251f31e23950eeba013ab7b97bac610ac37bd3d7b5ec1ed8"
       ]
     },
     "3 - Tags/AI Ethics.md": {
@@ -2474,6 +2755,16 @@
         "40156e62fe45d5f896be432b2b601b7e6858ea0d9fd29eab7e4356a679a34b89"
       ]
     },
+    "3 - Tags/AI Pipeline Engineering.md": {
+      "sourceHash": "c50c2619601e7356527bfeacb4cb2224731e449817fc9403210d637677fcde7b",
+      "sourceType": "markdown",
+      "fileName": "AI Pipeline Engineering.md",
+      "title": "AI Pipeline Engineering",
+      "chunkCount": 2,
+      "objectHashes": [
+        "bc791d7bba5f61f1b1da060b9c95a7bd0b1daf163f3ab6f8a73a752a1fdb3d07"
+      ]
+    },
     "3 - Tags/AI Responsibility and Explainability.md": {
       "sourceHash": "29f3065d7e9997e1e55809eda6042d7bfb6ca32b13d549e6b5e9441621d97c4c",
       "sourceType": "markdown",
@@ -2482,6 +2773,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "a64663d8284cb6a1bd35d4f37183b1ef53c697d0da2aea34677b7f95e022e9c8"
+      ]
+    },
+    "3 - Tags/AI-Assisted DevOps Practice.md": {
+      "sourceHash": "f218788c8039245f48b73eedf42a7f3578a7eb0f5f02a692e95d6b172f182421",
+      "sourceType": "markdown",
+      "fileName": "AI-Assisted DevOps Practice.md",
+      "title": "AI-Assisted DevOps Practice",
+      "chunkCount": 2,
+      "objectHashes": [
+        "7869b9da609144f2a6ba90cae95f7d9497acef9e0b8032a69e0531508303e5bb"
       ]
     },
     "3 - Tags/Aircraft Airworthiness and Resource Planning.md": {
@@ -4774,6 +5075,36 @@
         "0cdc0819180c88177996f888ec8fe9070f3c2171a7641eb2db6de265c45e6b1b"
       ]
     },
+    "3 - Tags/DevOps Agent Memory and MCP.md": {
+      "sourceHash": "103f1434fd674aa5c572ac9a4bef5da96be8847c804772f3e8ad1fccf17ecc4c",
+      "sourceType": "markdown",
+      "fileName": "DevOps Agent Memory and MCP.md",
+      "title": "DevOps Agent Memory and MCP",
+      "chunkCount": 2,
+      "objectHashes": [
+        "4d9acaa0a81b56f825bbdfa06009034ade03c6032f7abe2b6f82213da12360be"
+      ]
+    },
+    "3 - Tags/DevOps Agent Safety and Autonomy.md": {
+      "sourceHash": "c78bd13b33bdbce8a6e7781125d400a30c74bd4dad9a43a3dff6d33374440ca5",
+      "sourceType": "markdown",
+      "fileName": "DevOps Agent Safety and Autonomy.md",
+      "title": "DevOps Agent Safety and Autonomy",
+      "chunkCount": 2,
+      "objectHashes": [
+        "5d26ba7a22adcba758223d81d8aa4bf5a1b8f54fdf7c81665629cbde37a6a769"
+      ]
+    },
+    "3 - Tags/DevOps AI Governance.md": {
+      "sourceHash": "8abbbb5fb0d3b3571ef147f34d4b3fba994dd4bd48c742f470bacc0941b050c2",
+      "sourceType": "markdown",
+      "fileName": "DevOps AI Governance.md",
+      "title": "DevOps AI Governance",
+      "chunkCount": 2,
+      "objectHashes": [
+        "e48507680fea52c3df78b65a759f5ad82bdcc03e68ca36e5b33168801c7cf437"
+      ]
+    },
     "3 - Tags/Dialog Management Systems.md": {
       "sourceHash": "caffb2dae41f2313bd59b3ad7e1438443c12d7bddcbe6356602b121a176cdb25",
       "sourceType": "markdown",
@@ -6762,6 +7093,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "53f0a256bec4ec313a0256dc86d4b95291f891062541d88a7d57658046a926b3"
+      ]
+    },
+    "3 - Tags/Multi-Agent Incident Response.md": {
+      "sourceHash": "e62a196acba43e757a05cafac176ff64ac11b6b7c10989e0c410ccf4baaa2c0a",
+      "sourceType": "markdown",
+      "fileName": "Multi-Agent Incident Response.md",
+      "title": "Multi-Agent Incident Response",
+      "chunkCount": 2,
+      "objectHashes": [
+        "9cad05010f64109d1a518a071ed06a4f0fc33d4e44089327273119c6df2e0337"
       ]
     },
     "3 - Tags/Multilayer Network Analysis.md": {
@@ -9224,6 +9565,16 @@
         "f3f21323fc33edcce30b9a86fb39742591c35460ed780bad7085ac6bddf86707"
       ]
     },
+    "6 - Full Notes/Acceptance Criterion.md": {
+      "sourceHash": "c46894eac2bc880a4927b61fd1e5afab12ced301ad9ccfff0e7681925ff39012",
+      "sourceType": "markdown",
+      "fileName": "Acceptance Criterion.md",
+      "title": "Acceptance Criterion",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2d391aa5fc7af42418faf24e01ce27d6d884dda0bfe2448e3cbe588c1d1b5d60"
+      ]
+    },
     "6 - Full Notes/Access Control.md": {
       "sourceHash": "daec2d4911d68c66cbdfcef6cb9d110e090570cc8f642f0c2cd2c3f570de1feb",
       "sourceType": "markdown",
@@ -9854,6 +10205,46 @@
         "95b2e73cb7b13a47845043422ff23d79b0379267f5828493eb33f459a42a1055"
       ]
     },
+    "6 - Full Notes/Agent Monitoring and Evaluation Distinction.md": {
+      "sourceHash": "4d3d783cdd22e2ce219d2b3679502e15a2b28c0dbf8be42010f748e105a6f011",
+      "sourceType": "markdown",
+      "fileName": "Agent Monitoring and Evaluation Distinction.md",
+      "title": "Agent Monitoring and Evaluation Distinction",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d0cd8027b635cdacca37c9624d1dddb850d0fcf58806d27ecf6b428f645fda73"
+      ]
+    },
+    "6 - Full Notes/Agent Promotion Evidence.md": {
+      "sourceHash": "050780635d8f472564214032411f84b43f2842d825d4c6e50877b2b5bc6613ee",
+      "sourceType": "markdown",
+      "fileName": "Agent Promotion Evidence.md",
+      "title": "Agent Promotion Evidence",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e4fe17c33cdfd6aee3f36e1f850cf471898951404ceafd36f82bc45c489ba45e"
+      ]
+    },
+    "6 - Full Notes/Agent Trace Context.md": {
+      "sourceHash": "a14566ba06aba77e4b712ebbcf2b86d45fcdbc4dcf7b7a457648a6f72b18aeaf",
+      "sourceType": "markdown",
+      "fileName": "Agent Trace Context.md",
+      "title": "Agent Trace Context",
+      "chunkCount": 3,
+      "objectHashes": [
+        "916c5adb3d82dbe5a5770ca70ef83625e18483aeac3ecb957c4ad8114c1d2eba"
+      ]
+    },
+    "6 - Full Notes/Agent Traces Logs and Metrics.md": {
+      "sourceHash": "ba1f51615b4be9def3430eec3fb2da28fedeaa82214b488a21d11a88c92fa432",
+      "sourceType": "markdown",
+      "fileName": "Agent Traces Logs and Metrics.md",
+      "title": "Agent Traces Logs and Metrics",
+      "chunkCount": 3,
+      "objectHashes": [
+        "64ec8d79a721025f9ebec055f1503004279f2be43416f5948c6614dfe2f04929"
+      ]
+    },
     "6 - Full Notes/Agglomerative Clustering.md": {
       "sourceHash": "f885024634afc26b19abc654e3a77d0254fa8481161d216f35326439f1974a4d",
       "sourceType": "markdown",
@@ -9964,6 +10355,16 @@
         "4e52a96f4df13478e6c6c38db9ffed60656df70b8d6115a261e0ecede43cd4c3"
       ]
     },
+    "6 - Full Notes/AI Adoption Maturity Model.md": {
+      "sourceHash": "3dd328866627da16adb88af36722cf9b268ff95097b155c4966c64de8ac2e7b1",
+      "sourceType": "markdown",
+      "fileName": "AI Adoption Maturity Model.md",
+      "title": "AI Adoption Maturity Model",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6d11008e21463d5165e2ce016f4852b39f935be96feb71dc9cb22d00de6a0fb5"
+      ]
+    },
     "6 - Full Notes/AI and Economic Inequality.md": {
       "sourceHash": "ec52d970d144e25f86c7bbe51233bb91657e7b67c51731982a45002f465374a6",
       "sourceType": "markdown",
@@ -9972,6 +10373,46 @@
       "chunkCount": 3,
       "objectHashes": [
         "ef50f2b1a072d21dacd53b8429c254e1cb9cdb65f858eabd4db2da094a51e408"
+      ]
+    },
+    "6 - Full Notes/AI API Retry and Backoff.md": {
+      "sourceHash": "2fe72e14e7037787ed630157785bef26d5aa74ec18373ecd2e877b2bcd50a8f6",
+      "sourceType": "markdown",
+      "fileName": "AI API Retry and Backoff.md",
+      "title": "AI API Retry and Backoff",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e42ae800941a04050376e09400312807c150efed566058b6265115b351690a56"
+      ]
+    },
+    "6 - Full Notes/AI Artifact Traceability.md": {
+      "sourceHash": "4e8f2bcb3fc6e43fd294c22461be4b9525da698b785ff6c5d0fe5035c7f1cf78",
+      "sourceType": "markdown",
+      "fileName": "AI Artifact Traceability.md",
+      "title": "AI Artifact Traceability",
+      "chunkCount": 3,
+      "objectHashes": [
+        "34d98727da211507977c5a74c294d559d6ef3e79a4b944368f8b77ac9451008e"
+      ]
+    },
+    "6 - Full Notes/AI as a Pipeline Dependency.md": {
+      "sourceHash": "89e35ca1fc5a893c12206e02c6980a23418e041745b18b6da925f1ff38e268f0",
+      "sourceType": "markdown",
+      "fileName": "AI as a Pipeline Dependency.md",
+      "title": "AI as a Pipeline Dependency",
+      "chunkCount": 3,
+      "objectHashes": [
+        "00c79c6d3b0ee905d77e209a0d40f57fb1bd35611e5fe4952979da057ff24ac4"
+      ]
+    },
+    "6 - Full Notes/AI Assistance and Deterministic Automation.md": {
+      "sourceHash": "c7eaa55328cac816228f7773228ada72f96bf85e897140933f3fb1cbeb4b1b07",
+      "sourceType": "markdown",
+      "fileName": "AI Assistance and Deterministic Automation.md",
+      "title": "AI Assistance and Deterministic Automation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d0596b6993fa20c546ae65dc20914dcfd4b5d0e4609b690d5bf5de890ede269a"
       ]
     },
     "6 - Full Notes/AI Black Box.md": {
@@ -10114,6 +10555,26 @@
         "a4236afd8f1ee8d9f531ca9a1e8c2d8d851f3cb8660863dafd129f1aed1d9680"
       ]
     },
+    "6 - Full Notes/AI Pipeline Cost Controls.md": {
+      "sourceHash": "8ca541f0f463211a2b317f37c30c39d5dc1cf23905e3b3f3e2d056ac6b89a7a4",
+      "sourceType": "markdown",
+      "fileName": "AI Pipeline Cost Controls.md",
+      "title": "AI Pipeline Cost Controls",
+      "chunkCount": 3,
+      "objectHashes": [
+        "cf729f9a0b88ff12c3c83bb2d69ec4ec60744163bba903d626ed729af6a1644f"
+      ]
+    },
+    "6 - Full Notes/AI Pipeline Telemetry.md": {
+      "sourceHash": "19069922c7475f2f5b7861e71d1d2314b139ef1c49cc191b1c2b8722e0c9444e",
+      "sourceType": "markdown",
+      "fileName": "AI Pipeline Telemetry.md",
+      "title": "AI Pipeline Telemetry",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ea21c40649b491d71e91595e1c493db05d2171612dc20a076d97c63edc0288e0"
+      ]
+    },
     "6 - Full Notes/AI Product Liability.md": {
       "sourceHash": "78256257d4a5f6b15c07918154f0a54ecbe8f40c28f3ba2fc4e96b1d21dd0280",
       "sourceType": "markdown",
@@ -10202,6 +10663,46 @@
       "chunkCount": 3,
       "objectHashes": [
         "c42317caee01d06b03811029088e04c82ec7dbb0156fe781e54db46bef64e6ec"
+      ]
+    },
+    "6 - Full Notes/AI-Assisted CI Pipeline Authoring.md": {
+      "sourceHash": "ea41f6cb3bf4659b143b01d0b62b04e0beffa402e1d07bd5dd346e46f52077cd",
+      "sourceType": "markdown",
+      "fileName": "AI-Assisted CI Pipeline Authoring.md",
+      "title": "AI-Assisted CI Pipeline Authoring",
+      "chunkCount": 3,
+      "objectHashes": [
+        "40fa9d18f52ad6b1a57343e869c7913116d028094040b3513d03c4ce20a6ef84"
+      ]
+    },
+    "6 - Full Notes/AI-Assisted Incident Triage.md": {
+      "sourceHash": "7f1046c955a301916832f3ea35b182cf4c4197d7620e70aed6040492fad8bc16",
+      "sourceType": "markdown",
+      "fileName": "AI-Assisted Incident Triage.md",
+      "title": "AI-Assisted Incident Triage",
+      "chunkCount": 3,
+      "objectHashes": [
+        "98fa895fd3b9e439fee64af3170cc1c2854b920e284a46e244035fc74eff37c6"
+      ]
+    },
+    "6 - Full Notes/AI-Assisted Infrastructure as Code.md": {
+      "sourceHash": "11cb677b969f12b815c38c597d190b6fa73b99330451c17f5564ab837a6e955f",
+      "sourceType": "markdown",
+      "fileName": "AI-Assisted Infrastructure as Code.md",
+      "title": "AI-Assisted Infrastructure as Code",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2bd58f9b2ee6ae757a6d78866769e96198b69abd4afa95f97bd1c8f77d8fa0d7"
+      ]
+    },
+    "6 - Full Notes/AI-Assisted Pull Request Review.md": {
+      "sourceHash": "01a331a4bfc456e0d7e58a3ed5b3262a68a855bcfd42213e90cee051317daaea",
+      "sourceType": "markdown",
+      "fileName": "AI-Assisted Pull Request Review.md",
+      "title": "AI-Assisted Pull Request Review",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0fea79ef4928d7b4423850c2cffa5604b43dbf308ed5249ec919e3b03b287b33"
       ]
     },
     "6 - Full Notes/Aiming Reticle.md": {
@@ -12215,13 +12716,13 @@
       ]
     },
     "6 - Full Notes/ASP.NET Core Action Filters.md": {
-      "sourceHash": "4a73537831cb658ab9fd548bb7644301403cd46565a11650b9929e004376061a",
+      "sourceHash": "ed3b165a9742a6ce5c978c1b727c6c2cd631754a249107cae3120b75bbcfa4c3",
       "sourceType": "markdown",
       "fileName": "ASP.NET Core Action Filters.md",
       "title": "ASP.NET Core Action Filters",
       "chunkCount": 3,
       "objectHashes": [
-        "3b9b29ad90f1c55b72ccfc51fe735a84f667b92fae33b1caf2c366f772b989ae"
+        "912b2d834b2f05f572373f47b7d3438e0228a24e2dd7354d6116d9c94b2b9888"
       ]
     },
     "6 - Full Notes/ASP.NET Core ApiController Attribute.md": {
@@ -12232,6 +12733,36 @@
       "chunkCount": 3,
       "objectHashes": [
         "8a476ed27095a7067a36fc5993b17886bbe090291046a64b48efacaeb43d6efa"
+      ]
+    },
+    "6 - Full Notes/ASP.NET Core Asynchronous Filter.md": {
+      "sourceHash": "f37149ad30ff4edeae92e204c3c2bada08141c8e0eefc5b7d726d771b6301a74",
+      "sourceType": "markdown",
+      "fileName": "ASP.NET Core Asynchronous Filter.md",
+      "title": "ASP.NET Core Asynchronous Filter",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e98953d6f138676e353a55fe747f8be63871c07c15e3c9efff23062ef41e6488"
+      ]
+    },
+    "6 - Full Notes/ASP.NET Core Class-Based Middleware.md": {
+      "sourceHash": "f4e1d2b35ca27065d53c35deac4be7a5182c966635ddb54e3aafd69f388c3de2",
+      "sourceType": "markdown",
+      "fileName": "ASP.NET Core Class-Based Middleware.md",
+      "title": "ASP.NET Core Class-Based Middleware",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8de2a71ea91d41c758225d9e61a47ad591e5633aebd7a80584ece30c0039a4b9"
+      ]
+    },
+    "6 - Full Notes/ASP.NET Core Conditional Pipeline.md": {
+      "sourceHash": "d4a62f1a5f2f3e6812a01464fdbfff74fefd59b8a04ac6d25d79abb57e765f23",
+      "sourceType": "markdown",
+      "fileName": "ASP.NET Core Conditional Pipeline.md",
+      "title": "ASP.NET Core Conditional Pipeline",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0f81dd792eea7f3b08eed7ce9a4100724111789696fa23e6c306beb176465a62"
       ]
     },
     "6 - Full Notes/ASP.NET Core CORS Policy.md": {
@@ -12252,6 +12783,26 @@
       "chunkCount": 3,
       "objectHashes": [
         "be8cb4f83ae4cbf52fffeedf2667da6fd4031b4ee158cfd546fce4a6416d4f5e"
+      ]
+    },
+    "6 - Full Notes/ASP.NET Core Filter Pipeline.md": {
+      "sourceHash": "b41eedb54414d1c404456e7963b8e6ab4b8b1e3f0afb34aa3ae07bbac467e876",
+      "sourceType": "markdown",
+      "fileName": "ASP.NET Core Filter Pipeline.md",
+      "title": "ASP.NET Core Filter Pipeline",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d41e462be3e43bf34433ede9c9ae2ad3454498dda2d2da059e5c5de19384b2bb"
+      ]
+    },
+    "6 - Full Notes/ASP.NET Core Filter Scope.md": {
+      "sourceHash": "c411543e819840c4db9aa50b69d6536df5f0f7c3a67e53e349edb5559741826e",
+      "sourceType": "markdown",
+      "fileName": "ASP.NET Core Filter Scope.md",
+      "title": "ASP.NET Core Filter Scope",
+      "chunkCount": 3,
+      "objectHashes": [
+        "3d88a442c5f52859af0e6e1b997e82a403b5c348ae64fdf6c61267bddd8c0b15"
       ]
     },
     "6 - Full Notes/ASP.NET Core Health Checks.md": {
@@ -12342,6 +12893,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "dcfa91c2f13aee6fada2384052f2aef6f6ad7c146ed8f84637e60f4fe6fac0c4"
+      ]
+    },
+    "6 - Full Notes/ASP.NET Core Route Constraint.md": {
+      "sourceHash": "00ea0b3e4554f24076937f19bc72095ebcf41bc497fa30986612351ab9e75c0d",
+      "sourceType": "markdown",
+      "fileName": "ASP.NET Core Route Constraint.md",
+      "title": "ASP.NET Core Route Constraint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5792a0a2b35e362a6148c8a7f5b4fa671af728504d99f16a299b75ea1b51fd45"
       ]
     },
     "6 - Full Notes/ASP.NET Core Static and Default Files.md": {
@@ -12742,6 +13303,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "d44ef60940d5ef95d8afe5364c52e3a8747e65813b612e4a9eee83e43f24dc08"
+      ]
+    },
+    "6 - Full Notes/Attribute Routing.md": {
+      "sourceHash": "862119e6f499733ccbccc973584826dff0c3c582489d42157703e8c2ec47884f",
+      "sourceType": "markdown",
+      "fileName": "Attribute Routing.md",
+      "title": "Attribute Routing",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5e6d48669b0dc30f2e561aa7ae0767feeddda660639451e04e2cdb76d0824144"
       ]
     },
     "6 - Full Notes/Attribute Selection as Domain Choice.md": {
@@ -13265,13 +13836,13 @@
       ]
     },
     "6 - Full Notes/Automation.md": {
-      "sourceHash": "67e2326b368a3e091cd1e3606a4c6c5d96e8b95104c4df74d4a54052bb8e5278",
+      "sourceHash": "f8a81f22368df37464da32f108731861a52a14bd5c85eac71e88049e7ba5f3bb",
       "sourceType": "markdown",
       "fileName": "Automation.md",
       "title": "Automation",
       "chunkCount": 3,
       "objectHashes": [
-        "ca7a7648682132c31092c2101db84c820f88fdfe63ce0667794bfafe7e626344"
+        "7d4bff8ada83dea61038368bab5eecea7369c377e522f1b5c1b488225cfa87b4"
       ]
     },
     "6 - Full Notes/Automotive GPS Navigation.md": {
@@ -13932,6 +14503,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "cb3714837e8ff10f8ba6e248f210bd7a2772b6432aa3b12259367b3febf0352e"
+      ]
+    },
+    "6 - Full Notes/BackgroundService.md": {
+      "sourceHash": "5a7310f973cb52b62c2b20095ec6dbbe56373050d4600f9c34ef231016648555",
+      "sourceType": "markdown",
+      "fileName": "BackgroundService.md",
+      "title": "BackgroundService",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7f355918f3b37faae2d9689c1581671bc1496ea3e6f9b8a56601b02577053fe2"
       ]
     },
     "6 - Full Notes/Backlink.md": {
@@ -18774,6 +19355,16 @@
         "b7ed6f684ee43928d1fdfa60a5c0e86f1122cb45f9f69001bc4620a37a768867"
       ]
     },
+    "6 - Full Notes/Branch Policy.md": {
+      "sourceHash": "0002b772e5785bb66c1159fce17b2dffb52294b43ef6aecd3ef828bc4ae0c5ea",
+      "sourceType": "markdown",
+      "fileName": "Branch Policy.md",
+      "title": "Branch Policy",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f0ecda36d6c7ab3464466ebda303f31564767fa8ce95c0b1a65a90c959bc9785"
+      ]
+    },
     "6 - Full Notes/Branching Story.md": {
       "sourceHash": "7e53fa8d476fc8a1754b3c96a00ef782cd96721b8d0a95483b94888b26fd418d",
       "sourceType": "markdown",
@@ -18915,13 +19506,13 @@
       ]
     },
     "6 - Full Notes/Build Pipeline.md": {
-      "sourceHash": "4f2b03cdc7df2fbd25aaf939d530f6aca8add2d0095e9dd60c6239578a196f28",
+      "sourceHash": "5a4142e26dcd3f56c404595426c97953dbb2620f2bd713606b5d85081c78157f",
       "sourceType": "markdown",
       "fileName": "Build Pipeline.md",
       "title": "Build Pipeline",
       "chunkCount": 3,
       "objectHashes": [
-        "0788621dcd5b90a86f11497f2fa5e2d2281ed25905e4e95741c6dda936a4502d"
+        "52b491de41f26d7b2436c9f754251366e84e9fc5fe01d95ad823e6e09331fe5a"
       ]
     },
     "6 - Full Notes/Builder Pattern.md": {
@@ -24634,6 +25225,16 @@
         "3ba56d3be5ca1cd68dd58c9d95552a25d4e71b3af546292a205c1eea56642b07"
       ]
     },
+    "6 - Full Notes/Concurrent Specialist Analysis.md": {
+      "sourceHash": "9dc0816206a9a74252f8386acb2097234741072062b205956df3161d651305b4",
+      "sourceType": "markdown",
+      "fileName": "Concurrent Specialist Analysis.md",
+      "title": "Concurrent Specialist Analysis",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7b2a6881360a813b13ced13e5c6ae409b9fa05b05459df96c08744bc8e0637de"
+      ]
+    },
     "6 - Full Notes/ConcurrentBag.md": {
       "sourceHash": "6f5f5aa5e632f119207784421b97b960943358eda2ce152889b45d7fbc881ff5",
       "sourceType": "markdown",
@@ -25334,6 +25935,16 @@
         "bfbfd86554b283bc5212d0a2e2415d42c0d259ce87309a2a20542f2ba8fbe691"
       ]
     },
+    "6 - Full Notes/Context Minimization for Pipeline AI.md": {
+      "sourceHash": "3a0b50b42ddcdbd9f3ff89fa25cd318fbba658160c8f86aa5bf1b9beaf5c513c",
+      "sourceType": "markdown",
+      "fileName": "Context Minimization for Pipeline AI.md",
+      "title": "Context Minimization for Pipeline AI",
+      "chunkCount": 3,
+      "objectHashes": [
+        "fb3d459d281e2aeaaadedeba4d7f6a53b3a42f3bfed4ffd09daa6239cb653e7a"
+      ]
+    },
     "6 - Full Notes/Context-Content Coupling.md": {
       "sourceHash": "e7565e6b72f2e33b64f96c8dba5e59cbcf3844fb6a7be269fdd5c15cad0e64a5",
       "sourceType": "markdown",
@@ -25454,6 +26065,16 @@
         "5ca4757f0049da824505f9c2e9f784625999736011df1c67d6a7cebc1ff75f99"
       ]
     },
+    "6 - Full Notes/Continuous Deployment Readiness.md": {
+      "sourceHash": "74670fccaee62a8ac87e1e6798c3b205f890a8edcfe7462f248d3cea2b8e7fdf",
+      "sourceType": "markdown",
+      "fileName": "Continuous Deployment Readiness.md",
+      "title": "Continuous Deployment Readiness",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2347c5200c7afbcdf2cecab4c8a2a73961f009995c342282cfb52540b16369e7"
+      ]
+    },
     "6 - Full Notes/Continuous Deployment.md": {
       "sourceHash": "6aaafbf3515c3686805711d8111ffaab198d91c7d106661a34e971aa44f86dfa",
       "sourceType": "markdown",
@@ -25482,6 +26103,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "4621a0c65033156b4a10c4d9c4b4e4b9b26052355ffe144e44b10262020c0a4e"
+      ]
+    },
+    "6 - Full Notes/Continuous Production Deployment.md": {
+      "sourceHash": "9f67b202a22d11784cf444b800fb6ed7d70a91fe52f1ef00446b573f084ed007",
+      "sourceType": "markdown",
+      "fileName": "Continuous Production Deployment.md",
+      "title": "Continuous Production Deployment",
+      "chunkCount": 3,
+      "objectHashes": [
+        "1020e77df71ef4560c51ef20477faa4940d609d67d33efa84fbea658c800a4f9"
       ]
     },
     "6 - Full Notes/Continuous Speech Recognition.md": {
@@ -25662,6 +26293,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "9a8bb5cad526089d91c4d87d5764e5cbd746d2baf9259a7a58e4729665312da5"
+      ]
+    },
+    "6 - Full Notes/Conventional Routing.md": {
+      "sourceHash": "03554ba1ffd8457c8ed4ede4a9233cc961540079a54c7f21f99723ff11b3e0c1",
+      "sourceType": "markdown",
+      "fileName": "Conventional Routing.md",
+      "title": "Conventional Routing",
+      "chunkCount": 3,
+      "objectHashes": [
+        "3c74bc659e1ec8889e5d9523ef1365e6f9e5913f56c6b06a7667ca334a7ec1b8"
       ]
     },
     "6 - Full Notes/Converged Networked Storage.md": {
@@ -30644,6 +31285,16 @@
         "e163aa21804200a64f9d5192780ce359bfd436d4a57e6e810dcf45ff1d973116"
       ]
     },
+    "6 - Full Notes/Deployment Risk.md": {
+      "sourceHash": "46c7089f50c2384f4b61311127afbb78c1f39a0c9e9f87467262059ee580f042",
+      "sourceType": "markdown",
+      "fileName": "Deployment Risk.md",
+      "title": "Deployment Risk",
+      "chunkCount": 3,
+      "objectHashes": [
+        "3b506820dd5943d0509afc548de1e15bd9897779b7d331d360a146067387d28d"
+      ]
+    },
     "6 - Full Notes/Deployment Stage.md": {
       "sourceHash": "8e48b2c619c7742533b47eaf83b403df266064b50e1b40ed4e83bae22c29600c",
       "sourceType": "markdown",
@@ -30652,6 +31303,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "9bb973fd27c8462671e24784a69161d2179ebe97c2a44bd02a6caa26811aa4fb"
+      ]
+    },
+    "6 - Full Notes/Deployment Window.md": {
+      "sourceHash": "c404193dcd3802d31bdbd3c84224c24bb6c5995c453b52b19911e5284151249e",
+      "sourceType": "markdown",
+      "fileName": "Deployment Window.md",
+      "title": "Deployment Window",
+      "chunkCount": 3,
+      "objectHashes": [
+        "91693ce5afb26506c4d3799b469ad81a7d28bee1f703fb6e12afce48de09fecf"
       ]
     },
     "6 - Full Notes/Depth Cue.md": {
@@ -30904,6 +31565,16 @@
         "202a11b7b839fcb1c1e1810d56d1ab1e35960e46dcadb4487b5fcffb3f4363bd"
       ]
     },
+    "6 - Full Notes/Design Thinking.md": {
+      "sourceHash": "07cf54b2f7323d535a0b960caf71a66d1e03b6ea6ca32d3da87d52b73032a1ea",
+      "sourceType": "markdown",
+      "fileName": "Design Thinking.md",
+      "title": "Design Thinking",
+      "chunkCount": 3,
+      "objectHashes": [
+        "28f57fe741623968b88526bb03bdbb503e35e760542de036ad06cca15656ce38"
+      ]
+    },
     "6 - Full Notes/Design Value Alignment.md": {
       "sourceHash": "ac1fe35d3fea620f16422fb52bdf9c59887c5414c53e38338587f756eaad8364",
       "sourceType": "markdown",
@@ -30984,6 +31655,26 @@
         "ec32270dc6e1f2998b4f4c144150617be51f7db6cbba249d22fae53a0115e1fc"
       ]
     },
+    "6 - Full Notes/Deterministic Agent Guardrails.md": {
+      "sourceHash": "8e559b97177e68b51a557bb4635080f80473b9d473c4a073106e33b882c92584",
+      "sourceType": "markdown",
+      "fileName": "Deterministic Agent Guardrails.md",
+      "title": "Deterministic Agent Guardrails",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0e4d323890128d20b154da05bd0611827ab413a7881ca7c55c5b5135b4e7aa65"
+      ]
+    },
+    "6 - Full Notes/Deterministic Agent Output Scoring.md": {
+      "sourceHash": "ca77c6f0e129db6cfd4236981be56688cbd0781d49371417ba82c74eb18f3178",
+      "sourceType": "markdown",
+      "fileName": "Deterministic Agent Output Scoring.md",
+      "title": "Deterministic Agent Output Scoring",
+      "chunkCount": 3,
+      "objectHashes": [
+        "fa4ac6bdb26acad23f3261ab767928dd70829288749013ee80e8b6b57cb11f3a"
+      ]
+    },
     "6 - Full Notes/Deterministic Context-Free Language.md": {
       "sourceHash": "3b938f90fd50bf3c8c063a35edd5f5741c453b1f138e0dcb7adc8c202f53bb1c",
       "sourceType": "markdown",
@@ -31004,6 +31695,16 @@
         "0b36d9efecfbc777fe7586859be672cffbde761174297c59bd9cbfe1868becc7"
       ]
     },
+    "6 - Full Notes/Deterministic Policy Enforcement for AI.md": {
+      "sourceHash": "1fc1756cb77145d3d3f1be7943d8f6ee5b66fa528b83e93dc956af03da7da0f0",
+      "sourceType": "markdown",
+      "fileName": "Deterministic Policy Enforcement for AI.md",
+      "title": "Deterministic Policy Enforcement for AI",
+      "chunkCount": 3,
+      "objectHashes": [
+        "cc82d7b5cd482f0f1f0ff68db71530c78d47a6c84a167f7ab2461e7c1324ddd4"
+      ]
+    },
     "6 - Full Notes/Deterministic Resource Disposal.md": {
       "sourceHash": "ce74ff96d9e23502d5203f7c161fe82c35378c3a7d4c2b4d48720ff7db093d5c",
       "sourceType": "markdown",
@@ -31012,6 +31713,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "915dc37f890df53c8f8683b01ddf6432a5851e0091848252add97f736fc4a618"
+      ]
+    },
+    "6 - Full Notes/Deterministic Validation of AI Output.md": {
+      "sourceHash": "bf559346c8db40a4ed144c90c9c3c1fe9d97388cc52674ca39260efd85a1697f",
+      "sourceType": "markdown",
+      "fileName": "Deterministic Validation of AI Output.md",
+      "title": "Deterministic Validation of AI Output",
+      "chunkCount": 3,
+      "objectHashes": [
+        "751cba3faaa2adc2f3a097a560dcdd52f8b4df300e5ae2556eb0ee66a9d064de"
       ]
     },
     "6 - Full Notes/Detrended Gene Expression.md": {
@@ -31072,6 +31783,56 @@
       "chunkCount": 3,
       "objectHashes": [
         "805be9a5346085228fcbd02162fe5527e30038c84e86dcdc086354f5060bf197"
+      ]
+    },
+    "6 - Full Notes/DevOps Agent Architecture.md": {
+      "sourceHash": "a5986cce81ac4a3d194c843b96a6e43220cc561f07bc5768d5896d88d7f85eef",
+      "sourceType": "markdown",
+      "fileName": "DevOps Agent Architecture.md",
+      "title": "DevOps Agent Architecture",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ccb1f221ce86b3311eb739ba21561ebdb6274d7d4607e077a082f886f5828415"
+      ]
+    },
+    "6 - Full Notes/DevOps Agent Evaluation Criteria.md": {
+      "sourceHash": "efb3df623154e53585c691e81e82769d144e00171d8244e8e8517c8a94dabe05",
+      "sourceType": "markdown",
+      "fileName": "DevOps Agent Evaluation Criteria.md",
+      "title": "DevOps Agent Evaluation Criteria",
+      "chunkCount": 3,
+      "objectHashes": [
+        "97e400de86dba00b4c91e8e6e82e377dde7403ffa9200a38eb3c9e67bf5ab394"
+      ]
+    },
+    "6 - Full Notes/DevOps Agent Memory Types.md": {
+      "sourceHash": "13d0cd484fe38f6891d044789ebc1e8e08176ee30dc1ab5361609c459234bd7d",
+      "sourceType": "markdown",
+      "fileName": "DevOps Agent Memory Types.md",
+      "title": "DevOps Agent Memory Types",
+      "chunkCount": 3,
+      "objectHashes": [
+        "80946d513b36ec5d78dc9f3fb6a41c2280ff6890c950d2b4f3f266bc15009d89"
+      ]
+    },
+    "6 - Full Notes/DevOps AI Return on Investment.md": {
+      "sourceHash": "82cdc90fd59a35e40ea71e07947fcad27a1669e876b666f66e636d7cfaca3d31",
+      "sourceType": "markdown",
+      "fileName": "DevOps AI Return on Investment.md",
+      "title": "DevOps AI Return on Investment",
+      "chunkCount": 3,
+      "objectHashes": [
+        "659cb4a5a52b1bd5c6e339e4a5c333727a53a98d6026d33f266e0f3c4718d9a8"
+      ]
+    },
+    "6 - Full Notes/DevOps AI Tool Risk Layers.md": {
+      "sourceHash": "b85e3a54ee1444ade0cb510e0f603f2bb58ecafd8bcd8044eb0d2e2d3550b8ca",
+      "sourceType": "markdown",
+      "fileName": "DevOps AI Tool Risk Layers.md",
+      "title": "DevOps AI Tool Risk Layers",
+      "chunkCount": 3,
+      "objectHashes": [
+        "61846a8a88a828c9dc4450eb32fb39a9cd92d827d20e001ee0ddd0c1aee919dc"
       ]
     },
     "6 - Full Notes/Dew Point and Cloud-Base Estimation.md": {
@@ -32754,6 +33515,26 @@
         "7a335c4cf5f92def64635b118af7695c64d7aa5e24dfa49cd27d4554af4e404d"
       ]
     },
+    "6 - Full Notes/Durable Agent Observability Backend.md": {
+      "sourceHash": "0bdc8e12b3209f7ff3547f5ca105352e6f07094af575836f9665126b5ee1c2f1",
+      "sourceType": "markdown",
+      "fileName": "Durable Agent Observability Backend.md",
+      "title": "Durable Agent Observability Backend",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d9e4c22b3d64d58e4963f321ee3f49d4e696e4fde63348bd085623ae177ba9a2"
+      ]
+    },
+    "6 - Full Notes/Durable Memory Selection.md": {
+      "sourceHash": "bf547ef82a35ed9595e0d5996b6267fc475c915a1875d5a10be9a55c9ee039ca",
+      "sourceType": "markdown",
+      "fileName": "Durable Memory Selection.md",
+      "title": "Durable Memory Selection",
+      "chunkCount": 3,
+      "objectHashes": [
+        "ed20e8e5db8bcb9b96ca9fcafcab25ceb695fed3622388ffeed455e15afc58fd"
+      ]
+    },
     "6 - Full Notes/Dynamic and Kinematic Viscosity Units.md": {
       "sourceHash": "41e7c89fd6218145598881baf4a66ca43a657f31d953c0338ab7cff3a7b4bd1c",
       "sourceType": "markdown",
@@ -33905,13 +34686,13 @@
       ]
     },
     "6 - Full Notes/Endpoint Routing.md": {
-      "sourceHash": "5a3ec831a1071af7b8f81210e4e5ad8cd4ab986e6dc15e6a65d02f7080872ea4",
+      "sourceHash": "7033540c30f55c65d2143974c7113458718b956a5551323d9d1c50f38730ab63",
       "sourceType": "markdown",
       "fileName": "Endpoint Routing.md",
       "title": "Endpoint Routing",
       "chunkCount": 3,
       "objectHashes": [
-        "8af622b4cefb5e1d10f83c0aa9beeb98cd7b9a185e68ec16bfe78b9a92f648eb"
+        "a48d06724ec09848a52fe93a94bf292294d28b9c7e25437080a3283bababd531"
       ]
     },
     "6 - Full Notes/Energy Benefit-Cost Ratio.md": {
@@ -34122,6 +34903,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "6defe25c203fc7d65077040c51342688e89b8bc208d1da80c4caf88253045998"
+      ]
+    },
+    "6 - Full Notes/Enterprise AI Adoption Playbook.md": {
+      "sourceHash": "6ea7dae695f21a763f8ed74fb9ae11317d85f56222324061b2cab69d5ee608a1",
+      "sourceType": "markdown",
+      "fileName": "Enterprise AI Adoption Playbook.md",
+      "title": "Enterprise AI Adoption Playbook",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d68ab529eeba029b552d78a100cc1f30fec6c9922637e00d68d2c9244a41744f"
       ]
     },
     "6 - Full Notes/Enterprise Service Bus.md": {
@@ -34604,6 +35395,16 @@
         "1a112c38b1b0168cc1c3da6477af2fdf80a0aa10c0a347302674069d45e3625b"
       ]
     },
+    "6 - Full Notes/Evaluation Across the Agent Lifecycle.md": {
+      "sourceHash": "a188e07a6c984269077525cd8470c3117a70799608a571c5e5d3871cc84f9743",
+      "sourceType": "markdown",
+      "fileName": "Evaluation Across the Agent Lifecycle.md",
+      "title": "Evaluation Across the Agent Lifecycle",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4a72df5161a61ed08a3c82b003bff48d97ee9a8f87434061d95b08d7197fc88f"
+      ]
+    },
     "6 - Full Notes/Evaluation as Design Diagnosis.md": {
       "sourceHash": "50c697e4e32ba034a81b4ad664f42eecdf76a3c3d6f18fca235417eaab739ce8",
       "sourceType": "markdown",
@@ -34642,6 +35443,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "d9a69fe56cbd54b701c7a3264a563d2c1008459936257ba3752962117ce1abc1"
+      ]
+    },
+    "6 - Full Notes/Event Publisher.md": {
+      "sourceHash": "166dce043c072784bb855e8dc3d4a5d2f7b94905ddc982ba5e36e75df6799765",
+      "sourceType": "markdown",
+      "fileName": "Event Publisher.md",
+      "title": "Event Publisher",
+      "chunkCount": 3,
+      "objectHashes": [
+        "fefb3a329928bdce151e3ddb33ecf000e5a07ca1554feaffd6f8a80a225c8dbd"
       ]
     },
     "6 - Full Notes/Event Sourcing.md": {
@@ -34712,6 +35523,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "39d812ddd47936c050d80d1246c116fdce4c96f502c509097672d6a819a3326c"
+      ]
+    },
+    "6 - Full Notes/Event-Driven Agent Pattern.md": {
+      "sourceHash": "dea02924b4f6fcbcfaa40a22a48f29f1fba3de6e4b8a16c459327820615fc806",
+      "sourceType": "markdown",
+      "fileName": "Event-Driven Agent Pattern.md",
+      "title": "Event-Driven Agent Pattern",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d0a02669584ab459433b525b065c9e6c2f57fc4df0b5429247336158b639b772"
       ]
     },
     "6 - Full Notes/Event-Driven Architecture.md": {
@@ -35824,6 +36645,16 @@
         "984547f9430fd957a7c5f203f1f4a7adf20c3211bdc896f5820d33cd168a2ad5"
       ]
     },
+    "6 - Full Notes/Failure Triage Agent.md": {
+      "sourceHash": "c8eaa3a6526cc7a6056bda7cde968fcc2a5e473a0562ba8bc0da37d67545712c",
+      "sourceType": "markdown",
+      "fileName": "Failure Triage Agent.md",
+      "title": "Failure Triage Agent",
+      "chunkCount": 3,
+      "objectHashes": [
+        "eb516247dd87aa3aca1a50f10d50f1ac14aae88796f8655a127dbbcacc74cfb3"
+      ]
+    },
     "6 - Full Notes/Fairness Through Unawareness.md": {
       "sourceHash": "f0d30a95cf7a1ef52261d7a0f8dea091c16aabf2dad074c8300bbe8060c863e9",
       "sourceType": "markdown",
@@ -35912,6 +36743,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "d44a9effce314e9e5660e2a9a01cc9eaff797f85c4d802811e90738d24895b2c"
+      ]
+    },
+    "6 - Full Notes/Fan-In Incident Synthesis.md": {
+      "sourceHash": "fbc607384ddf5a5f8bac581c6cedffc8457118df6c67bb8c0c1ea65910358f4e",
+      "sourceType": "markdown",
+      "fileName": "Fan-In Incident Synthesis.md",
+      "title": "Fan-In Incident Synthesis",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f935371ee2a5618d64aa3084d587f0c031a061e7acb86c5be3fd8c67db9c1ea2"
       ]
     },
     "6 - Full Notes/Far-Field Speech Recognition.md": {
@@ -36012,6 +36853,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "ebf7ad375a77922224575fcf9d682afe35291d9b455caea5b1f7c1e6b3af013b"
+      ]
+    },
+    "6 - Full Notes/Feature Flag.md": {
+      "sourceHash": "a6221ca5c15ac339a6eedcbf1fe891f8ee617a1f45f6f3eba31c33100085f532",
+      "sourceType": "markdown",
+      "fileName": "Feature Flag.md",
+      "title": "Feature Flag",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5e928ee12673b7a7be9dbdc1aebabc47661545555b480b57707905252053e54d"
       ]
     },
     "6 - Full Notes/Feature Generation.md": {
@@ -39704,6 +40555,16 @@
         "f016a3dd2aa45135e7776613e7c00d2135af36b7106c102fbd1bd4fd0329ddb0"
       ]
     },
+    "6 - Full Notes/Generate Validate and Monitor Lifecycle.md": {
+      "sourceHash": "cef5f8a8810b8a08018b566777e878b73b8152aa6e7edcbd3e4e9d3afbc5d134",
+      "sourceType": "markdown",
+      "fileName": "Generate Validate and Monitor Lifecycle.md",
+      "title": "Generate Validate and Monitor Lifecycle",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2ccdfe6e61580d62c393a5f46e8fb73e45a980143a6f029812cd282610580e70"
+      ]
+    },
     "6 - Full Notes/Generated Ideal.md": {
       "sourceHash": "efe00997a49234af50b06f2eac2e54e821f0667da7532af9cd3c3c70ecf3e6f6",
       "sourceType": "markdown",
@@ -42804,6 +43665,16 @@
         "0fe84e8cb56b4629d61b9b959f059bd2e05affd059cf445723398a80ab90e0a6"
       ]
     },
+    "6 - Full Notes/Hosted Service Lifecycle.md": {
+      "sourceHash": "6649dc018c29cd7ee3dc809ac9cbdffeab1ddbb39dd2019e00afb4ae330b69c3",
+      "sourceType": "markdown",
+      "fileName": "Hosted Service Lifecycle.md",
+      "title": "Hosted Service Lifecycle",
+      "chunkCount": 3,
+      "objectHashes": [
+        "15d8e0a7f4e52d4082b41a4019b61a6c7d2e27f858a16ee8abd5dc9f52427668"
+      ]
+    },
     "6 - Full Notes/Hostname Resolution.md": {
       "sourceHash": "bb1bfb2cacaab91621bc1643f64c22d05fdde88644378926705d06b6559fecb4",
       "sourceType": "markdown",
@@ -43102,6 +43973,26 @@
       "chunkCount": 3,
       "objectHashes": [
         "b4113d569daeb0a2173949c36ab1659cad4e12b4d4442bdc262ccecab85019e9"
+      ]
+    },
+    "6 - Full Notes/Human Accountability in AI DevOps.md": {
+      "sourceHash": "211f769eab6b6acb63738184e3c5aef22e8535bb41eb690a2f9ba0ede30a3f25",
+      "sourceType": "markdown",
+      "fileName": "Human Accountability in AI DevOps.md",
+      "title": "Human Accountability in AI DevOps",
+      "chunkCount": 3,
+      "objectHashes": [
+        "01e375ed361896789d6fee0c3d2c5827fb5614c51eb53a9d19efd5df5bf0333e"
+      ]
+    },
+    "6 - Full Notes/Human Approval Gate for Agentic Incidents.md": {
+      "sourceHash": "91f5cdaec04b0a250a8af9209edc23cac046c945d28cda1fd9126f203b0b4c20",
+      "sourceType": "markdown",
+      "fileName": "Human Approval Gate for Agentic Incidents.md",
+      "title": "Human Approval Gate for Agentic Incidents",
+      "chunkCount": 3,
+      "objectHashes": [
+        "42c27963c21ab432de6aa21ab5f059fafb885309cdae238a51d888e78f0b3450"
       ]
     },
     "6 - Full Notes/Human Cell Donation Consent.md": {
@@ -44184,14 +45075,24 @@
         "9037a28316e25cdfb02f0ea1469655fb9c2d24dd128bea18bb28df7bc8d53835"
       ]
     },
+    "6 - Full Notes/Incident Response Agent Roles.md": {
+      "sourceHash": "729fe70271da9ea2ecfe7a375cb9e992a78284939477dbe54adb54ed1300cd5a",
+      "sourceType": "markdown",
+      "fileName": "Incident Response Agent Roles.md",
+      "title": "Incident Response Agent Roles",
+      "chunkCount": 3,
+      "objectHashes": [
+        "233eb3244514b658155dc2b92251103c81e32c8a05bbf3fdd8880c70f91c51d1"
+      ]
+    },
     "6 - Full Notes/Incident Retrospective.md": {
-      "sourceHash": "a8b00ac6f3b661a39f3b023b2650c96440b7fce81c6fd2c2ebc81756d1095367",
+      "sourceHash": "fc548ed705e2f8bc70c581563e418b342333054d4208179072113707195e1537",
       "sourceType": "markdown",
       "fileName": "Incident Retrospective.md",
       "title": "Incident Retrospective",
       "chunkCount": 3,
       "objectHashes": [
-        "57c1d2a82a5c0b3f43dff8cba01f38cb2ba63f11b43e3a1306d749339abdcdc5"
+        "5474834ed53b4be3d97ced57b65bcd23b0ec60e99b6b3fb6c454701f7d9fadb0"
       ]
     },
     "6 - Full Notes/Inclusive AI Development.md": {
@@ -44224,6 +45125,16 @@
         "9cdca7cc741799b0f450b3aad079c638e636466662564890f27ab4ebda6f6a68"
       ]
     },
+    "6 - Full Notes/Incomplete Feature Isolation.md": {
+      "sourceHash": "c7fd8e4d12d06e5f0ab9aac57f024db401a2263968c0bc4a974773cf8c87bd68",
+      "sourceType": "markdown",
+      "fileName": "Incomplete Feature Isolation.md",
+      "title": "Incomplete Feature Isolation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "c66f8431d3790e8994752bca8a498b8a8131cecb7103638c4f039a0fdd34c823"
+      ]
+    },
     "6 - Full Notes/Incompressible Flow.md": {
       "sourceHash": "dae41149149c3865e3e4f47b240573b79281d5872537246902dbedc7351a2016",
       "sourceType": "markdown",
@@ -44242,6 +45153,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "d39229c79666df644a7d8a89a6bc02979a35517adb958acbbab41ac275e86bf2"
+      ]
+    },
+    "6 - Full Notes/Incremental AI Scaffolding.md": {
+      "sourceHash": "97bf155d08c9c8b56f43a61d746791c1cd908f01267243d7b9634426d08046c1",
+      "sourceType": "markdown",
+      "fileName": "Incremental AI Scaffolding.md",
+      "title": "Incremental AI Scaffolding",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7159d3c8518de2be4c4fe4cb80d826ac5729091e5811ebed5b74b305ef8568fe"
       ]
     },
     "6 - Full Notes/Incremental Backup.md": {
@@ -45022,6 +45943,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "42dbfcd914f10ab1d91d742719f7c514fb09776fe98075bb2f36a2675a4c01d0"
+      ]
+    },
+    "6 - Full Notes/Integration Event.md": {
+      "sourceHash": "4178f181a529dc75aa8e6494c1a8d14f4a3eb5407280717fd9e42d418b8ced94",
+      "sourceType": "markdown",
+      "fileName": "Integration Event.md",
+      "title": "Integration Event",
+      "chunkCount": 3,
+      "objectHashes": [
+        "92e6b32b43d0f14d34efc41f885bd2d55345abb0ae77e5fba2c1ed8deb9902cb"
       ]
     },
     "6 - Full Notes/Integration Team.md": {
@@ -47032,6 +47963,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "2c2415f0a55285192a48ff884281357149f8fd3145673f431ddda884a6e0b978"
+      ]
+    },
+    "6 - Full Notes/Knowledge-Heavy DevOps Stages.md": {
+      "sourceHash": "528dea1b561b2c92a7b82d6c1aeeb7d4f3b3422fecb55cb95353fb93d70b3ae5",
+      "sourceType": "markdown",
+      "fileName": "Knowledge-Heavy DevOps Stages.md",
+      "title": "Knowledge-Heavy DevOps Stages",
+      "chunkCount": 3,
+      "objectHashes": [
+        "19340570c089927aec6203120eb256a1ee3897e9e4cdd43dd02604578233d828"
       ]
     },
     "6 - Full Notes/Known Batch Covariate Adjustment.md": {
@@ -50134,6 +51075,16 @@
         "0a7d0b3d02d941e29531f91f7fa33907a32f4abbb3cd5f0d20aba4a678c4a4fa"
       ]
     },
+    "6 - Full Notes/Manual Deployment Approval.md": {
+      "sourceHash": "d5238e25e64003ac875367d384fe5438fefb840feaba2b624af2a89c4280d791",
+      "sourceType": "markdown",
+      "fileName": "Manual Deployment Approval.md",
+      "title": "Manual Deployment Approval",
+      "chunkCount": 3,
+      "objectHashes": [
+        "bb62abd9f5a71caa3f12099aece0fad46c7121614526f8a85f6ecb504176e408"
+      ]
+    },
     "6 - Full Notes/Manual Model Selection.md": {
       "sourceHash": "323f459fa55f9267ee514eba4e9cb66ec5325759967ecab478d15a1188dedc20",
       "sourceType": "markdown",
@@ -50844,6 +51795,26 @@
         "8d799d2d4a2da51d17b70fc161e268ba1295827a2f57088ee780e168ffa280cb"
       ]
     },
+    "6 - Full Notes/MCP Tool Contract Testing.md": {
+      "sourceHash": "532cc08504b9de5daabfc2e15fcde238efbee3bfa9a546429f49446da4d31fd4",
+      "sourceType": "markdown",
+      "fileName": "MCP Tool Contract Testing.md",
+      "title": "MCP Tool Contract Testing",
+      "chunkCount": 3,
+      "objectHashes": [
+        "9d03b5efcb2aa3c3cca4030c12352f58858ce8b65541298f0b852b7f56c9da78"
+      ]
+    },
+    "6 - Full Notes/MCP-Backed Pull Request Analysis.md": {
+      "sourceHash": "65f3663ef5f278717e78e106c2befd0c60a31167edd147a4989947b738a9f627",
+      "sourceType": "markdown",
+      "fileName": "MCP-Backed Pull Request Analysis.md",
+      "title": "MCP-Backed Pull Request Analysis",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f3693e9cd62f4491a77a1c428b2f8d4e5e6a65904dd0dcec5be969e48bae1b24"
+      ]
+    },
     "6 - Full Notes/Mean Time Between Failures.md": {
       "sourceHash": "b832a15903b30eb888e98ffaf07699da062ddc7eb7cec5722afd018b95ab0503",
       "sourceType": "markdown",
@@ -50994,6 +51965,16 @@
         "09ebf593a467070489b01d4f89033a82b9eb935160e3b248b1bcb6c040f183eb"
       ]
     },
+    "6 - Full Notes/Mediator Pattern.md": {
+      "sourceHash": "f257c51b700f60e752a46fe5e9c31ec71f2f8eb67de6b807ab187c23096dcf2d",
+      "sourceType": "markdown",
+      "fileName": "Mediator Pattern.md",
+      "title": "Mediator Pattern",
+      "chunkCount": 3,
+      "objectHashes": [
+        "202c5745ba44464f3df286c562032e6d69ed448992f004d1210489d9326ee6a8"
+      ]
+    },
     "6 - Full Notes/Medical Ultrasound Imaging.md": {
       "sourceHash": "1197c319f3da3218242edcd0d3331d4636bbdd0eb6451237103e22f1e86adef3",
       "sourceType": "markdown",
@@ -51024,6 +52005,16 @@
         "748dbcb2dac0cc792267eb21a5478f338f8385959f9bba5bee1c8f70679cb6db"
       ]
     },
+    "6 - Full Notes/Memory Provenance and Retention.md": {
+      "sourceHash": "a99e0bed7a9507f259e9d2505c3bbeca1e86260af745de7e38bcf4823c0d0612",
+      "sourceType": "markdown",
+      "fileName": "Memory Provenance and Retention.md",
+      "title": "Memory Provenance and Retention",
+      "chunkCount": 3,
+      "objectHashes": [
+        "58daca165103973e7e6cf0c1203171341ad4511e263a42b658d48d4b5e484ff4"
+      ]
+    },
     "6 - Full Notes/Memory Reordering and Barriers.md": {
       "sourceHash": "e8c8b9ba4ff9f7eb300395615dd58b23253700347f03a2ec97bb4456bdec2cf7",
       "sourceType": "markdown",
@@ -51032,6 +52023,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "22b8ae93e999d6857a281c5b1c59cdcc5aab4266772c9b3341b3620606549707"
+      ]
+    },
+    "6 - Full Notes/Memory Write Guardrails.md": {
+      "sourceHash": "6487b0edf4fdffd0b0889318fa07cd563e5233cb8bef1e68f5693c48550a80f4",
+      "sourceType": "markdown",
+      "fileName": "Memory Write Guardrails.md",
+      "title": "Memory Write Guardrails",
+      "chunkCount": 3,
+      "objectHashes": [
+        "999d2d2eda95c9fdf9182bd1b175b5f3df6468296a380bfad59f647268929399"
       ]
     },
     "6 - Full Notes/Memory-Based Collaborative Filtering.md": {
@@ -51214,6 +52215,16 @@
         "0cd69c9c616e2c0a20b91348384746bc683b1a25577137945d37d74d763172fd"
       ]
     },
+    "6 - Full Notes/Message Consumer Handler.md": {
+      "sourceHash": "989313e27c2c8437bf0903c8e78ee8bde428bb8a1e1b2e8672c9dd14c61f4fc9",
+      "sourceType": "markdown",
+      "fileName": "Message Consumer Handler.md",
+      "title": "Message Consumer Handler",
+      "chunkCount": 3,
+      "objectHashes": [
+        "26db922539b6eb369b0537c68fb68f160e7a91043e8798904258b72d230ff716"
+      ]
+    },
     "6 - Full Notes/Message Correlation Identifier.md": {
       "sourceHash": "b6ecf3ce95f92e383d404130ce4916707bfb7c531448c13d28901200da1ee9aa",
       "sourceType": "markdown",
@@ -51292,6 +52303,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "fc9c70a71972c47c975b68615bb5b3a4f9242778957706cda2d1ca756f9c60d7"
+      ]
+    },
+    "6 - Full Notes/Metadata-Grounded Release Notes.md": {
+      "sourceHash": "d4f58aee444ed59ae5bd99e36e2a3cf6ed6294ee5bac4e2ef53a8dd1b3043e24",
+      "sourceType": "markdown",
+      "fileName": "Metadata-Grounded Release Notes.md",
+      "title": "Metadata-Grounded Release Notes",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f49a3cbfc54c05fce1410889a29bb13ff6d57f5343baaf978e659bce1ba54137"
       ]
     },
     "6 - Full Notes/Metagaming.md": {
@@ -51554,6 +52575,16 @@
         "6897fd33d409984890e2b527f0ef61d9463e778342d0e078eeb4175a6c1943f9"
       ]
     },
+    "6 - Full Notes/Middleware Short-Circuiting.md": {
+      "sourceHash": "7cd5fe3af6e619074f75a022c0fb3d94b3f8d4ee0256ad183b061de5f6e7bd89",
+      "sourceType": "markdown",
+      "fileName": "Middleware Short-Circuiting.md",
+      "title": "Middleware Short-Circuiting",
+      "chunkCount": 3,
+      "objectHashes": [
+        "984e6c7e49af8c74bcc7aada857fb0b2bf54e3f3de933e9431c659f0a40e6756"
+      ]
+    },
     "6 - Full Notes/Middleware.md": {
       "sourceHash": "07bcddac18d7c1c3e7b2621fd44d17073db6d1c1ceb8de9c3eeddd5e7b469223",
       "sourceType": "markdown",
@@ -51592,6 +52623,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "3445131b7ba7015dcc4646006ffdc1ec225b60d06984fb8d09da2930731db967"
+      ]
+    },
+    "6 - Full Notes/Minimal MCP Tool Surface.md": {
+      "sourceHash": "332b963b54af975ee777597fc2456d770f4832c4d8809178b8952cfc88279a11",
+      "sourceType": "markdown",
+      "fileName": "Minimal MCP Tool Surface.md",
+      "title": "Minimal MCP Tool Surface",
+      "chunkCount": 3,
+      "objectHashes": [
+        "714322ee4c379eb53b74e358ed11945ff5210b22753414bd60ac6d41539756d0"
       ]
     },
     "6 - Full Notes/Minimal Polynomial.md": {
@@ -52102,6 +53143,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "515cf5376e4bc347ac67f313e07fa27a77217a16fa1f902d8d890d48cdff57f9"
+      ]
+    },
+    "6 - Full Notes/Model Context Protocol Tool Boundary.md": {
+      "sourceHash": "e19a09517eb96ac84ae8c0b81925f3b5acbe333f2e015519db0d35157b2de167",
+      "sourceType": "markdown",
+      "fileName": "Model Context Protocol Tool Boundary.md",
+      "title": "Model Context Protocol Tool Boundary",
+      "chunkCount": 3,
+      "objectHashes": [
+        "eef339a7da62e0eec8a2460a9302359a912e0a9073377f02f5b9a3695df72a42"
       ]
     },
     "6 - Full Notes/Model Deployment Workflow.md": {
@@ -52804,6 +53855,16 @@
         "04cbb15912d006bdae34595bb71c1bb0f8048a5fc21e9b0fbce5edad84944149"
       ]
     },
+    "6 - Full Notes/Multi-Agent Specialization Threshold.md": {
+      "sourceHash": "aadc12db7f24acbfbcbb631b052be2f19d98a9e4c0a9274791d160ade25687b6",
+      "sourceType": "markdown",
+      "fileName": "Multi-Agent Specialization Threshold.md",
+      "title": "Multi-Agent Specialization Threshold",
+      "chunkCount": 3,
+      "objectHashes": [
+        "14f35e8d92cb0c19017ea65c22b98d03bf62f0a1f0f5c8f491890a64f796ba43"
+      ]
+    },
     "6 - Full Notes/Multi-Campaign Independent Cascade Model.md": {
       "sourceHash": "b3ac0b29d9bc05e0c2101d11a737580476c2dc884ddde83a63675b5bdf7159c4",
       "sourceType": "markdown",
@@ -53322,6 +54383,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "fe5a4edd11f5eb0278cafefa447d57b762541e7ea56f02d4b43e21bd4104e1a0"
+      ]
+    },
+    "6 - Full Notes/Multistage Deployment Environment.md": {
+      "sourceHash": "46728b9ae43793c73070cccebb08072fd7248d6a51594caa6ea03363f8294134",
+      "sourceType": "markdown",
+      "fileName": "Multistage Deployment Environment.md",
+      "title": "Multistage Deployment Environment",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8af46e15bd080c6549ea269f322024623b3c615d0a4e78a3d7b92cd05f6b526d"
       ]
     },
     "6 - Full Notes/Multistage FEM Data Transfer.md": {
@@ -54474,6 +55545,16 @@
         "10b2bd1af805a761910c007102222fbdd02236152391c40afa810f6c56f6aec1"
       ]
     },
+    "6 - Full Notes/Nonfunctional Requirement.md": {
+      "sourceHash": "4f317770c475457de9aafa515c12b82d86e25597b7d036b44ae69b792e627f53",
+      "sourceType": "markdown",
+      "fileName": "Nonfunctional Requirement.md",
+      "title": "Nonfunctional Requirement",
+      "chunkCount": 3,
+      "objectHashes": [
+        "66a6bfd9f8304502106d9fd3a4caa336c19be96fb51ccb81afa05f4d2fbe8dc8"
+      ]
+    },
     "6 - Full Notes/Nonhomogeneous Linear System.md": {
       "sourceHash": "758679e960e94733582c9cea2c0dcbf40aac66f273dc189cb3adc68e976bdd8f",
       "sourceType": "markdown",
@@ -55612,6 +56693,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "836dca39bb3c9365227a0d0dcbff9d27b4e02acd69f9461790b5a392bc515ec8"
+      ]
+    },
+    "6 - Full Notes/OpenTelemetry Instrumentation for Agents.md": {
+      "sourceHash": "961fd6cb9deeee4be17be88609d29c6244407e774575c2468ed9de623ef16a82",
+      "sourceType": "markdown",
+      "fileName": "OpenTelemetry Instrumentation for Agents.md",
+      "title": "OpenTelemetry Instrumentation for Agents",
+      "chunkCount": 3,
+      "objectHashes": [
+        "67183411915b2491b4558112ae4b8e3b3eada3defcd6e698eeef603529f2aa1f"
       ]
     },
     "6 - Full Notes/Operating Expenditure.md": {
@@ -57182,6 +58273,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "453a85e000962fff82ecba648e40cbb2f96a62a450583c3371b11ff7359ea986"
+      ]
+    },
+    "6 - Full Notes/Peer Code Review.md": {
+      "sourceHash": "23220b43b76a107b489c6967c0d5e8b5099f35a4baca51ed0c9eeeb32f99db86",
+      "sourceType": "markdown",
+      "fileName": "Peer Code Review.md",
+      "title": "Peer Code Review",
+      "chunkCount": 3,
+      "objectHashes": [
+        "907ab26ca3df0c4f893efbc531884ec797d4edf4561a1933449f7735e9650bb9"
       ]
     },
     "6 - Full Notes/Peer-to-Peer Game Topology.md": {
@@ -59224,6 +60325,16 @@
         "4a9b3a9adb829c5e0d5e09f0f8fac4217dcf206c1583537c7b1b64fa3e2acd68"
       ]
     },
+    "6 - Full Notes/PR Quality Assessment Agent.md": {
+      "sourceHash": "62602a09eb1fc41b26798c4493e7400fc6c0aaf7d3070951a36cc3792c026242",
+      "sourceType": "markdown",
+      "fileName": "PR Quality Assessment Agent.md",
+      "title": "PR Quality Assessment Agent",
+      "chunkCount": 3,
+      "objectHashes": [
+        "3a382ba44596a860574d98353bb02e2e72abb2784b0126a8e1f37248c34c05df"
+      ]
+    },
     "6 - Full Notes/Practical Boundary of Automation.md": {
       "sourceHash": "17c755070b11009eec8936aa606a184e8fb0958a1217f3f6026a288028cd8733",
       "sourceType": "markdown",
@@ -60174,6 +61285,16 @@
         "82bef0b26acdf4a2557211002c1899756991bae173f76a275ba1fce929091c4e"
       ]
     },
+    "6 - Full Notes/Production Agent Failure Modes.md": {
+      "sourceHash": "0433726f0b5ad2bbd0c5d946a76cd70453f2808e73def311643d973fae35bb38",
+      "sourceType": "markdown",
+      "fileName": "Production Agent Failure Modes.md",
+      "title": "Production Agent Failure Modes",
+      "chunkCount": 3,
+      "objectHashes": [
+        "53ed40e772ebd9027a21693a3733277d381ee9a679915d89f867eb666dad8279"
+      ]
+    },
     "6 - Full Notes/Production Debt.md": {
       "sourceHash": "881054c6710dc517eeb97c921f28bc5e3feb4309fc63587213fc4c72a3da6bab",
       "sourceType": "markdown",
@@ -60182,6 +61303,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "1a488e16de73e4564c6c553abb03165c62bb1798e55668896aa8cb72ac21c451"
+      ]
+    },
+    "6 - Full Notes/Production Deployment Safeguard.md": {
+      "sourceHash": "5b63dd7d79deae809f74841fd4f5c1a4a56f2861e9fea45d8d03be70a7542067",
+      "sourceType": "markdown",
+      "fileName": "Production Deployment Safeguard.md",
+      "title": "Production Deployment Safeguard",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f0f148ef20ef3085d9c1f41af8d221b4b436148ab2208b582ac0587da1715089"
       ]
     },
     "6 - Full Notes/Production Deployment.md": {
@@ -60444,6 +61575,16 @@
         "990ac27a1ce5ed21f9cae08737e9f214a569b75a79edbfcd460b45b290931a41"
       ]
     },
+    "6 - Full Notes/Progressive Agent Autonomy.md": {
+      "sourceHash": "0af3039c12923d7ed140013ce0083ab15d3dadd2f2457f85eb26ec9c706616c3",
+      "sourceType": "markdown",
+      "fileName": "Progressive Agent Autonomy.md",
+      "title": "Progressive Agent Autonomy",
+      "chunkCount": 3,
+      "objectHashes": [
+        "11478285581344791a7523ecaef8f6d73b16947db51464758036ecb72ac1009f"
+      ]
+    },
     "6 - Full Notes/Progressive Refinement.md": {
       "sourceHash": "d0e533c67174891fbd20d0026bff7fe7b3af77e05fb2409c980a36387ab89875",
       "sourceType": "markdown",
@@ -60634,14 +61775,24 @@
         "dfe3b6fad1d506e46542f4d9607206e91317c0af38a5b2dd6295f9e3c5751c94"
       ]
     },
+    "6 - Full Notes/Prompt Injection Defense in DevOps.md": {
+      "sourceHash": "3c33e9ab1894754a59c8e8f9a07efa8423446dd1ca6ade828a9ee4e2b818e99e",
+      "sourceType": "markdown",
+      "fileName": "Prompt Injection Defense in DevOps.md",
+      "title": "Prompt Injection Defense in DevOps",
+      "chunkCount": 3,
+      "objectHashes": [
+        "46d6fa0c42e47fd0f8c4df0ffdd640c3a40bbb7c050e5e138265e3a37d98ae7e"
+      ]
+    },
     "6 - Full Notes/Prompt Repository.md": {
-      "sourceHash": "771cdfbd6a4a3af3735b4a844b17a74081fe15c39f02c682221edb54386efa63",
+      "sourceHash": "1ba1de2640c54a438e2db15e60ea5c5762a47378ff52c212b58bd761bdbdf29a",
       "sourceType": "markdown",
       "fileName": "Prompt Repository.md",
       "title": "Prompt Repository",
       "chunkCount": 3,
       "objectHashes": [
-        "a5ed1dfbec77a4c10ec2221677409338d399eb83317b9518deac91f5d6ff3956"
+        "1e8519665f84ece1a00502cab02d5e2ac3991a300ecaa8bbc3759a3b0abb24a3"
       ]
     },
     "6 - Full Notes/Prompt Tapering.md": {
@@ -61055,13 +62206,13 @@
       ]
     },
     "6 - Full Notes/Pull Request.md": {
-      "sourceHash": "e8b35ec6a4db4c4c165e007b9bb0e32ed3d97c4b56e1fe851c496126e587a460",
+      "sourceHash": "e5b44c7cb3c39593f1e88ab2c341d6a68118353fb013a06d1eb193685f3cf4d5",
       "sourceType": "markdown",
       "fileName": "Pull Request.md",
       "title": "Pull Request",
       "chunkCount": 3,
       "objectHashes": [
-        "6b76416f910e8144f01803e21080707db74db3e30c76be858c5e98047b8749c2"
+        "9824ab3353d43a19fc351386e04d132aa7838c4a78f5b9a1118a0198a7fbe9eb"
       ]
     },
     "6 - Full Notes/Pull System.md": {
@@ -61852,6 +63003,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "770cc714b1d5a6cf12906d4ff52e021eb69375c1fcee31ecd0ef617e163db19e"
+      ]
+    },
+    "6 - Full Notes/RabbitMQ Event Bus.md": {
+      "sourceHash": "2445b10f52d3910e8d3a2f9ae01e727cf38854fe8cafc915b05e3c7e4e6e57cf",
+      "sourceType": "markdown",
+      "fileName": "RabbitMQ Event Bus.md",
+      "title": "RabbitMQ Event Bus",
+      "chunkCount": 3,
+      "objectHashes": [
+        "86e003a4438d0d64ce8ec9db901662d13cb6e98ff722653b33c9e9efa66658f3"
       ]
     },
     "6 - Full Notes/Race Condition.md": {
@@ -62702,6 +63863,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "7e86611ee50f8b77373a238f654f42c638596433966b9ea6e137bb25d2d4e923"
+      ]
+    },
+    "6 - Full Notes/Read-Only Multi-Agent Safety Boundary.md": {
+      "sourceHash": "9e3a24adac1a8fee892f10f9b3bf30087f2fd2137dd5cf32cfba0beaf0f799ad",
+      "sourceType": "markdown",
+      "fileName": "Read-Only Multi-Agent Safety Boundary.md",
+      "title": "Read-Only Multi-Agent Safety Boundary",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b7fe522da870483886095ae166ccd22f01a3407e5365e6a6e3265288bc0f6d43"
       ]
     },
     "6 - Full Notes/Read-to-Write Mismatch.md": {
@@ -63734,14 +64905,34 @@
         "b8fe4123bbb8e63b56dc24a81b6867fc2ae685b2b04a461db0dff6ecba00a656"
       ]
     },
+    "6 - Full Notes/Release Approval Gate.md": {
+      "sourceHash": "6ea3803b3f5f2a0bc1f298df2779449765b303b4490d3b86ec039480edddd285",
+      "sourceType": "markdown",
+      "fileName": "Release Approval Gate.md",
+      "title": "Release Approval Gate",
+      "chunkCount": 3,
+      "objectHashes": [
+        "94c2b68c130df0d9118a29698dd4870f7df33daf19d38f5859ed4d6fc7a6bd70"
+      ]
+    },
+    "6 - Full Notes/Release Artifact Promotion.md": {
+      "sourceHash": "19b1ec48c358fc9f2b935d0f680b36fc78ef4f701a949a20d2237be416ef715f",
+      "sourceType": "markdown",
+      "fileName": "Release Artifact Promotion.md",
+      "title": "Release Artifact Promotion",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f0c8a91d1098561cc121bb71ff8be5d3f559762ba2d5356e8825f466495a89b9"
+      ]
+    },
     "6 - Full Notes/Release Pipeline.md": {
-      "sourceHash": "7e3ba4ca5ce34387ef282caff0718395e6581d4c389dd34c290e8dba641913a3",
+      "sourceHash": "34f6991faf9edb8513e25b9ff3ca68760e2820076850662ed6978902f56faa07",
       "sourceType": "markdown",
       "fileName": "Release Pipeline.md",
       "title": "Release Pipeline",
       "chunkCount": 3,
       "objectHashes": [
-        "88c8f67800a65a3ffc73e51e94e4a642a6c6d281d00fdedc20d2eee149b2a3f8"
+        "7aa5f229b1a9e9e912b6b712c8dfbe7dcc63a966a4b0d888b703f181b4bc596f"
       ]
     },
     "6 - Full Notes/Release Planning.md": {
@@ -63984,6 +65175,26 @@
         "a3f731231038be8987654520496ed5d721da897b4e4a0e968ce2396ff28e9973"
       ]
     },
+    "6 - Full Notes/Requirement Prioritization.md": {
+      "sourceHash": "012e75a6c7a4547b3c02ec7ae28db65afe0158ea19a00a05d865e7fe514aa9e4",
+      "sourceType": "markdown",
+      "fileName": "Requirement Prioritization.md",
+      "title": "Requirement Prioritization",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f2f77fc87c4b185f3be6ef524eb29621345c2062819fd19f65dc786086813ace"
+      ]
+    },
+    "6 - Full Notes/Requirement Traceability.md": {
+      "sourceHash": "1171e13e60f2a8082c415c7d9070b307f4185fdd58801cf1b4e94cd5288bb099",
+      "sourceType": "markdown",
+      "fileName": "Requirement Traceability.md",
+      "title": "Requirement Traceability",
+      "chunkCount": 3,
+      "objectHashes": [
+        "49e2c3ce280a5abf9200fa7406b586391c00a7232c2e36366ac80ca3bc7d5f24"
+      ]
+    },
     "6 - Full Notes/Requirements Analysis.md": {
       "sourceHash": "6f7c15f4519e274db747e40fb8111454a21bd02dd3a1f1fe6766511c6f6e1233",
       "sourceType": "markdown",
@@ -64004,6 +65215,16 @@
         "2fdcdfda06ac04034bc872fe60dd01f024eb48b85dd7eb78951c722126580204"
       ]
     },
+    "6 - Full Notes/Requirements Review.md": {
+      "sourceHash": "0266184d5203bb0ca55d3a8ab30729aecf6b0c1177edf7e33e8537075755f8f5",
+      "sourceType": "markdown",
+      "fileName": "Requirements Review.md",
+      "title": "Requirements Review",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e8b957f11aebf021daf3b94d9da455df5e98a4e73df5558686f2d77aa7412029"
+      ]
+    },
     "6 - Full Notes/Requirements Specification.md": {
       "sourceHash": "95a6e8dd97c3b764b7122f1b61f1097102e4d0993a8080acaa29ac2f5db6979c",
       "sourceType": "markdown",
@@ -64012,6 +65233,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "bdeeac76ed6a377c1a144d97cf59be66663de4f41198d4e66e6d7f22495c3469"
+      ]
+    },
+    "6 - Full Notes/Requirements Validation.md": {
+      "sourceHash": "ad34df7018de0332e891d1541fb3b0d2c92c275709646e6e86873032846dd209",
+      "sourceType": "markdown",
+      "fileName": "Requirements Validation.md",
+      "title": "Requirements Validation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2ce9a07c63c96e334481956518dc92112c00a159914e0919cc78ada7969a65ef"
       ]
     },
     "6 - Full Notes/Resampling Periodicity.md": {
@@ -64332,6 +65563,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "e297bad0f123996a0d09ba16e3c56314d49f7d48a19b17114db2a18a7c0003d9"
+      ]
+    },
+    "6 - Full Notes/Reusable Model Call Action.md": {
+      "sourceHash": "bb885584d9980af1ce5380998085e4a2625854d912a9a454ff189d13c0ead42c",
+      "sourceType": "markdown",
+      "fileName": "Reusable Model Call Action.md",
+      "title": "Reusable Model Call Action",
+      "chunkCount": 3,
+      "objectHashes": [
+        "23e7370b548e5a3ad1c235e8e05014860cd5cfdc8cbfd102c974b7455c90ef74"
       ]
     },
     "6 - Full Notes/Reverse Image Search Limitation.md": {
@@ -65134,6 +66375,16 @@
         "ef24c024536283985761de83f634347d6a3ed2f56ec0852a9afd8607e6295d67"
       ]
     },
+    "6 - Full Notes/Safe and Unsafe Agent Actions.md": {
+      "sourceHash": "43dfc1dd9c84d3f3027c3f0410a2518e0adc943ebdbf7d1f73d5d71a2607702a",
+      "sourceType": "markdown",
+      "fileName": "Safe and Unsafe Agent Actions.md",
+      "title": "Safe and Unsafe Agent Actions",
+      "chunkCount": 3,
+      "objectHashes": [
+        "97dcfafc68b7a31b15a85db4763582aa7a58fbd14009db8cf041723d2c4ff901"
+      ]
+    },
     "6 - Full Notes/SAGE Air Defense System.md": {
       "sourceHash": "1995d5184c63f57e0465c4423f199b06e0fcc12e1bcd40c3b94fd0753e8aced7",
       "sourceType": "markdown",
@@ -65474,6 +66725,16 @@
         "1d695026f58f04b8fb6d9697bf5423253852dc9e182eda472988db9aec512e2e"
       ]
     },
+    "6 - Full Notes/Scope Containment for DevOps AI.md": {
+      "sourceHash": "65db85a5e752486b5a429315995a226fd22779016602e8dabb3d27c15cc74e9f",
+      "sourceType": "markdown",
+      "fileName": "Scope Containment for DevOps AI.md",
+      "title": "Scope Containment for DevOps AI",
+      "chunkCount": 3,
+      "objectHashes": [
+        "30553d73b7f1b046eaea041f7e79f16a710e6e63541f2daece9c3ce54b0a274a"
+      ]
+    },
     "6 - Full Notes/Scope Creep.md": {
       "sourceHash": "c7efe812e94efdede98a9f252f38595df4e4822f274ed4acfa828a2e89b3b700",
       "sourceType": "markdown",
@@ -65742,6 +67003,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "e09e659da9da3c1b36c7b9aa4d0880ae2ea7a06ec16ef5462c48315b41ce3fb4"
+      ]
+    },
+    "6 - Full Notes/Secure AI ChatOps.md": {
+      "sourceHash": "5e8ae3ed80af0e08248118df7b10167f71928b1a6e2007254b4c7fcf6e18add9",
+      "sourceType": "markdown",
+      "fileName": "Secure AI ChatOps.md",
+      "title": "Secure AI ChatOps",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6b8ea8c3e878a5553e8310376bedc5afc2b4577496c19d50a7b623edb3cab3a5"
       ]
     },
     "6 - Full Notes/Secure File Transfer Protocol.md": {
@@ -66194,6 +67465,26 @@
         "196e77c84a06c2c7f3b846564f00d5eb709e9cb607b697b4d194049d0db3636a"
       ]
     },
+    "6 - Full Notes/Sensitive Agent Telemetry.md": {
+      "sourceHash": "993d409788e4acb8a381206e68857bdf20d0c8150e62273906a614f5a7895a27",
+      "sourceType": "markdown",
+      "fileName": "Sensitive Agent Telemetry.md",
+      "title": "Sensitive Agent Telemetry",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b72208e2491752809dcd95b74f052b375f2912ec3797d77fbf41195a477c3b78"
+      ]
+    },
+    "6 - Full Notes/Sensitive Data Filtering for AI Workflows.md": {
+      "sourceHash": "32e17b721011091ea9554db261f2b68e812a29f96394526f71c34cc7228ce595",
+      "sourceType": "markdown",
+      "fileName": "Sensitive Data Filtering for AI Workflows.md",
+      "title": "Sensitive Data Filtering for AI Workflows",
+      "chunkCount": 3,
+      "objectHashes": [
+        "979e5a89605a12fe290cfee17a96533b1f838a5f7a71795fdd6605c8e86f0ac0"
+      ]
+    },
     "6 - Full Notes/Sensitive Data Inference.md": {
       "sourceHash": "a19a3b0fc312b2d057b3a7c32cfca9abd8eae7f0fe0b0ff086d49256cf55109f",
       "sourceType": "markdown",
@@ -66382,6 +67673,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "81b6cd0724896f4253684db509a4be08199b6e1a5f55855478c14e23a4cff09b"
+      ]
+    },
+    "6 - Full Notes/Sequential Concurrent and Hybrid Orchestration.md": {
+      "sourceHash": "1e9ce6c7f2745e0064e959a1a98546c0ce3178b55fc4488cc4cb09574407429e",
+      "sourceType": "markdown",
+      "fileName": "Sequential Concurrent and Hybrid Orchestration.md",
+      "title": "Sequential Concurrent and Hybrid Orchestration",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0f1fa88deeff3ede82297daa6b3fdef9bd74b49e78af36724adde470ab7a1e19"
       ]
     },
     "6 - Full Notes/Sequential Pattern Feature Mining.md": {
@@ -66782,6 +68083,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "2c5d2017c3ee335c65b0a8d74d7a3e7fe51248aaf6273a3eabb02540abb2b520"
+      ]
+    },
+    "6 - Full Notes/Shared Incident Evidence Packet.md": {
+      "sourceHash": "772d15c6d030cded029b5c5b95c046c74ad8230696d98577127a8ed72befa7a9",
+      "sourceType": "markdown",
+      "fileName": "Shared Incident Evidence Packet.md",
+      "title": "Shared Incident Evidence Packet",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a26d2017ba569020b13332499f5220bf4e2a2feeb13fff5862b32683b3715771"
       ]
     },
     "6 - Full Notes/Shared Memory Model.md": {
@@ -67992,6 +69303,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "f9ee4b137681713131fb0bc029555ddbbec564a17e3a916a42776066c9613f6d"
+      ]
+    },
+    "6 - Full Notes/Software Architecture Constraint.md": {
+      "sourceHash": "83e34f4fcb574c33e30425d7d0bc1d8fc147c62b5cd557531b4e116dec5044f3",
+      "sourceType": "markdown",
+      "fileName": "Software Architecture Constraint.md",
+      "title": "Software Architecture Constraint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "487e654854c21ae7fb648367612ed7c5e7d6a7055c8e3386331a633de524c7de"
       ]
     },
     "6 - Full Notes/Software Architecture Mirrors Organizations.md": {
@@ -69284,6 +70605,16 @@
         "1b38ec46a75ca85b63a9871c29f08a8f33676da58c9c19c16b10480ae0a93258"
       ]
     },
+    "6 - Full Notes/Specialist Prompt Contracts.md": {
+      "sourceHash": "6e79aaf2e2fdeab9be2e97c46fc0b9b5364313f30a224f5434230425351328a9",
+      "sourceType": "markdown",
+      "fileName": "Specialist Prompt Contracts.md",
+      "title": "Specialist Prompt Contracts",
+      "chunkCount": 3,
+      "objectHashes": [
+        "06dd057ea2d642c25b7dfffcc01d35c6f48f266dd5b298ef9b05afd3fc8b298f"
+      ]
+    },
     "6 - Full Notes/Specific Heat Capacity.md": {
       "sourceHash": "d51f7ef7c813915e2e11cc1c6dbee7a6691d999710ebfa6b7f61fe6d423486c2",
       "sourceType": "markdown",
@@ -69944,6 +71275,26 @@
         "f15daf0ea6f35200bc2fd092a3a8c307587df12f38037f4a9d6aaa30cdeee540"
       ]
     },
+    "6 - Full Notes/Staging Validation.md": {
+      "sourceHash": "803bda36020b04fd305826f029effcb84265c1473c858b4fa186822e2b505cae",
+      "sourceType": "markdown",
+      "fileName": "Staging Validation.md",
+      "title": "Staging Validation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "48d9a9160dfb5e5896dc932d3a0986963f882fb626941066d6a23498042bb892"
+      ]
+    },
+    "6 - Full Notes/Stakeholder Need Elicitation.md": {
+      "sourceHash": "7a05348fd50129e6471b4a7b4108efbee6ca8bee062f12c4566b34a32ad05e8b",
+      "sourceType": "markdown",
+      "fileName": "Stakeholder Need Elicitation.md",
+      "title": "Stakeholder Need Elicitation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "1c3ebd48a16d16a03a8ff908ef6fa5d3d0f24e7fc179a832f636dafda422f119"
+      ]
+    },
     "6 - Full Notes/Stakeholder Participation in AI Governance.md": {
       "sourceHash": "912bc6f1501409fbf2a112015acf7cfa2f15d085d20c19ad116af9d465ecd60a",
       "sourceType": "markdown",
@@ -70302,6 +71653,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "c91446f6dbc6e1c0249791727b097a74e8f7356e453723fa80dc317b503f2347"
+      ]
+    },
+    "6 - Full Notes/Stdio MCP Server Boundary.md": {
+      "sourceHash": "ad42f5227cfd2551d06b3aaca8aa6f1aa3b39aa7de579cb6e4f8552f0160e479",
+      "sourceType": "markdown",
+      "fileName": "Stdio MCP Server Boundary.md",
+      "title": "Stdio MCP Server Boundary",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2949c20ce9472c4355145d33f90f5adc80b9f2ab382469dab6e38bca7b6c8a19"
       ]
     },
     "6 - Full Notes/Steady and Transient Thermal Behavior.md": {
@@ -71082,6 +72443,26 @@
       "chunkCount": 3,
       "objectHashes": [
         "b44f136706c9881b854d0ea80cd551d35c6cc6701617d57ab45fb3c83f90ba8c"
+      ]
+    },
+    "6 - Full Notes/Structured Agent Fallback Output.md": {
+      "sourceHash": "d597c2079893e67e8ae8f3358f2face1cdb10b875fae8007c517bae116ae0361",
+      "sourceType": "markdown",
+      "fileName": "Structured Agent Fallback Output.md",
+      "title": "Structured Agent Fallback Output",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7af69e137c38b3017a94f7804d7a46a7b9de109a37fb237c7fbd353b54757712"
+      ]
+    },
+    "6 - Full Notes/Structured Context Handoff.md": {
+      "sourceHash": "5cea21de414f2044d42793f8ee50f529b93d41b7dd7624b89ac216d67f645816",
+      "sourceType": "markdown",
+      "fileName": "Structured Context Handoff.md",
+      "title": "Structured Context Handoff",
+      "chunkCount": 3,
+      "objectHashes": [
+        "04fe2768feecc7f4c56251f657d6e43660f1df786125f198e95610a125a212d8"
       ]
     },
     "6 - Full Notes/Structured Data Storage.md": {
@@ -71954,6 +73335,16 @@
         "6b2cfdfd843e51abfb737d4623349f8055d7b1c4ac4cd8e89bc8baf837639fd7"
       ]
     },
+    "6 - Full Notes/System Requirement.md": {
+      "sourceHash": "7ef33ad56d5bcb810211ec259f39b9b0cddf0f0c60952c590616b820706d7e3d",
+      "sourceType": "markdown",
+      "fileName": "System Requirement.md",
+      "title": "System Requirement",
+      "chunkCount": 3,
+      "objectHashes": [
+        "642e199c83568fe74c8adaea92703499b54ef2d6999e89ad4e074d46e0c91c96"
+      ]
+    },
     "6 - Full Notes/System Sink.md": {
       "sourceHash": "cd7de27cb03fa901fd8e81ad80fc59cceaefebe3d6d4cbea489a09d1be4337e4",
       "sourceType": "markdown",
@@ -72492,6 +73883,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "308dcbd8bd63561a0e18fa133bf625a6467bc064126114d8f7f8d121cda91b0b"
+      ]
+    },
+    "6 - Full Notes/Telemetry Before Autonomy.md": {
+      "sourceHash": "1bafdb7a384e65e8517cd9a6bc17374298e5992e3b15d08d43a7328f08925377",
+      "sourceType": "markdown",
+      "fileName": "Telemetry Before Autonomy.md",
+      "title": "Telemetry Before Autonomy",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a7bb33ec9ec5f97a6ff02907a53d8f40a238d295955b6e92d39a99151d2cfa77"
       ]
     },
     "6 - Full Notes/Telepresence.md": {
@@ -74224,6 +75625,16 @@
         "bce8e430e3f676e23fbbb3f0edb8e9f8e2bd55e0f8b7e8874f6e0a22b34208c3"
       ]
     },
+    "6 - Full Notes/Tool Safeguards for DevOps AI.md": {
+      "sourceHash": "55e459d4974804bbfe048094d03478a2dbcc08f6965a50c0fe696523cdb886b1",
+      "sourceType": "markdown",
+      "fileName": "Tool Safeguards for DevOps AI.md",
+      "title": "Tool Safeguards for DevOps AI",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5fb2c41919e58f85828cb7913fdd7c1ad92c0fb435211d931d861623d77130bb"
+      ]
+    },
     "6 - Full Notes/Top-of-Descent Rule of Three.md": {
       "sourceHash": "1f57ea5da2760d1a164240ff11eed7812621a2f28ded8dbbc20c6d9565c6f404",
       "sourceType": "markdown",
@@ -75564,6 +76975,26 @@
         "f9571fcacbe7f41f67fc46802d847f410dd0b7d4e462302f6f0520cfb01bddda"
       ]
     },
+    "6 - Full Notes/Typed HTTP Client.md": {
+      "sourceHash": "6df0b26771f315eccdb35a00ee0708011f5ec088baa53c2ea02390cea0df9085",
+      "sourceType": "markdown",
+      "fileName": "Typed HTTP Client.md",
+      "title": "Typed HTTP Client",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a69503db076d59eafb8f6f22e386dc0ac6ad2c58c40da34c433ea68277510621"
+      ]
+    },
+    "6 - Full Notes/Typed Incident Commander Output.md": {
+      "sourceHash": "21df712ddd0c678263d44ec824886e5de395c41632f41dc4c21cfd19ed5aa93b",
+      "sourceType": "markdown",
+      "fileName": "Typed Incident Commander Output.md",
+      "title": "Typed Incident Commander Output",
+      "chunkCount": 3,
+      "objectHashes": [
+        "3d220c5baff5408953894b7b99ff6ba644a32636cc4f72eea843e0f268890f25"
+      ]
+    },
     "6 - Full Notes/Types of Play.md": {
       "sourceHash": "b7d4100fd7551e6bfb2c4d1424583dead5f5a79ae56d8376ea435e51b6bae0ba",
       "sourceType": "markdown",
@@ -76794,6 +78225,16 @@
         "8a333374bd8727d9856cbc9acbf3f29a8966cb2acef6b4f5b910d74cb2b2fd27"
       ]
     },
+    "6 - Full Notes/Validated Memory Ledger.md": {
+      "sourceHash": "ca75d4fca3dd1bdcec8aa418bc617bf24dc5627310b7d460e96a35dc612e1cc5",
+      "sourceType": "markdown",
+      "fileName": "Validated Memory Ledger.md",
+      "title": "Validated Memory Ledger",
+      "chunkCount": 3,
+      "objectHashes": [
+        "bf4380cf3e8751d12cd41f1d1bf5de39eaad5870d72b24fdf33aa79e14080584"
+      ]
+    },
     "6 - Full Notes/Validation Dataset.md": {
       "sourceHash": "1dfd9a05ae92a5ee2763dcf84e3790ce019d64e6374389fa0f8510b61905be9b",
       "sourceType": "markdown",
@@ -77302,6 +78743,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "5420844ad5cf080beab28804e5e2e0e8f1bd8fee74c5eaed8336474da816144c"
+      ]
+    },
+    "6 - Full Notes/Versioned Prompt Contracts.md": {
+      "sourceHash": "c8e0042580e8c34676e8f1100bb1c0948b3fc1646a3a0db96a472fa876a430a3",
+      "sourceType": "markdown",
+      "fileName": "Versioned Prompt Contracts.md",
+      "title": "Versioned Prompt Contracts",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d71af472bf0fceb600df1423a771957e3611027af33722cb0615f0dafd026bc3"
       ]
     },
     "6 - Full Notes/Vertex Array Object.md": {
@@ -78924,14 +80375,34 @@
         "5743d1dfae20dccd019770ad23722dc63d0ea2fbc6be7a68b4307ed8557be967"
       ]
     },
+    "6 - Full Notes/Worker Service Hosting Model.md": {
+      "sourceHash": "c851bdc3412fa199ea14407831d12e788ecc3fe85703a685482a7972a589cfb1",
+      "sourceType": "markdown",
+      "fileName": "Worker Service Hosting Model.md",
+      "title": "Worker Service Hosting Model",
+      "chunkCount": 3,
+      "objectHashes": [
+        "cd10a8181d502f2e66971b77848867d38d62beaf3bb14845cf6a268faf922b07"
+      ]
+    },
+    "6 - Full Notes/Worker Service.md": {
+      "sourceHash": "2f31dfe72d2c8c1013d6e8bb01dbce757d0348200df47e39475113a6ba281bcf",
+      "sourceType": "markdown",
+      "fileName": "Worker Service.md",
+      "title": "Worker Service",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b4ba3825c594f0d7fde28d356102170b627e8987a660d309a7aaac5c44df07fe"
+      ]
+    },
     "6 - Full Notes/Workflow Automation.md": {
-      "sourceHash": "55b6b5fef4a1a936babb04597cbad2749d1aa51490842c9fbc05604c70cec202",
+      "sourceHash": "a6d74e92a5e889458fdd78158765f93211be8cc1d5eac25c65efc91c6c7733ce",
       "sourceType": "markdown",
       "fileName": "Workflow Automation.md",
       "title": "Workflow Automation",
       "chunkCount": 3,
       "objectHashes": [
-        "af232b4a8a852e72bedb6331987310150a6f78bef2c92ba98214ed4c5fe8fabb"
+        "9c6f16acc124e6688854d2898c60b0041e331072f8a1d06058da1549c217bd07"
       ]
     },
     "6 - Full Notes/Workflow Buffer.md": {

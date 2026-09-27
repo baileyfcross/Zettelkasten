@@ -6,7 +6,7 @@
   "showModelReasoning": true,
   "lectureModel": "gpt-oss:20b",
   "lectureThinking": false,
-  "lectureRetrievalChunks": 8,
+  "lectureRetrievalChunks": 10,
   "lectureSourceCharacterBudget": 12000,
   "lectureHistoryCharacterBudget": 2000,
   "generationCpuThreads": 4,
@@ -22,10 +22,10 @@
   "pdfPageConcurrency": 12,
   "embeddingBatchSize": 64,
   "embeddingConcurrency": 2,
-  "topK": 8,
+  "topK": 14,
   "hybridTextWeight": 0.45,
   "hybridVectorWeight": 0.55,
   "minVectorSimilarity": 0.35,
-  "vaultOnly": true,
+  "vaultOnly": false,
   "modifyDebounceMs": 1400
 }

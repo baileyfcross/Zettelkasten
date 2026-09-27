@@ -10,7 +10,11 @@ Automation uses a machine to perform or control a process with minimal human int
 
 Automation is limited by what can be specified, computed, and safely delegated. A system may assist judgment without automating it, and deciding what should be automated remains a human and social question.
 
+Generative AI sharpens this boundary because it proposes context-dependent outputs rather than executing fixed rules. In delivery systems, probabilistic suggestions should remain upstream of deterministic validation and approved execution.
+
 # References
 
 [[computationalthinking.epub]]
 [[computing.epub]]
+
+[[agenticaifordevopsengineers.pdf]]

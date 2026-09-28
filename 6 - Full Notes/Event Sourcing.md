@@ -10,8 +10,12 @@ Event Sourcing persists the ordered [[Domain Event]]s produced by an aggregate i
 
 The architecture chapter presents event sourcing as persistence of the sequence of domain changes rather than only the latest entity state. Replaying events can reconstruct current state and preserve an audit history, with added complexity in versioning and projections.
 
+The Azure architecture map connects event sourcing to CQRS by treating committed events as the basis for derived read models and integrations. Azure messaging and change feeds can distribute changes, but they do not by themselves create a correct event store. Event identity, per-stream ordering, optimistic concurrency, immutable schemas, snapshots, replay behavior, and protection of sensitive historical facts remain application-level responsibilities.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

@@ -10,8 +10,12 @@ Azure Cosmos DB is the managed document-oriented database used by the book's tas
 
 Managed hosting transfers infrastructure, failover, and geographic scaling work to the provider, but it also introduces usage-based cost and configuration choices. Location, replication, write regions, API selection, collection capacity, and connection information all affect how the application behaves.
 
+Within a modern Azure data platform, Cosmos DB can remain the operational store while its change feed supports event-driven processing and Azure Synapse Link exposes an analytical representation without running warehouse-style scans against transactional access paths. Partition-key choice, consistency, request-unit cost, multi-region behavior, and analytical freshness remain coupled design decisions even when operational and analytical serving are separated.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

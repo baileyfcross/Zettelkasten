@@ -10,7 +10,10 @@ A CQRS query model supplies data without changing application state. The book mo
 
 Query models should be shaped around the information a user or external system needs to make a decision. They can join information from multiple aggregates, use a [[Read Model Ubiquitous Language]], and return the stored representation directly. This avoids loading behavioral aggregates solely to display data.
 
+In the Azure architecture map, the query side can be projected into a read-optimized service or store and scaled independently from command processing. Events synchronize that representation, so the API must tolerate a defined lag between an accepted command and a visible query result. The read model should be designed from consumer access patterns and rebuilt from an authoritative stream when the chosen event architecture supports replay.
+
 # References
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

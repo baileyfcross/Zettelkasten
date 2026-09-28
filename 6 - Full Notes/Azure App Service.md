@@ -12,6 +12,8 @@ Managed hosting supplies the execution environment, while the application still 
 
 The web-research and bot projects use App Service as the managed destination for ASP.NET Core applications. Visual Studio can create or select the resource during publishing, while application settings configured in the service can override file-based values so secrets need not remain in source.
 
+The Azure architecture map positions App Service and Web App for Containers as managed application hosting choices between raw container execution and full orchestration. Deployment slots, autoscaling, custom domains, certificates, managed identity, networking, and platform diagnostics reduce infrastructure work for HTTP applications. The fit weakens when a workload requires Kubernetes-native APIs, custom cluster components, or coordination patterns beyond what the managed web platform exposes.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -20,3 +22,5 @@ The web-research and bot projects use App Service as the managed destination for
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

@@ -10,6 +10,10 @@ A Kubernetes deployment declares how an application workload should run, includi
 
 The sales-order deployment refers to the image stored in Azure Container Registry and exposes its replica count as configuration. Updating the file and applying it provides a repeatable scale or rollout operation.
 
+For AKS, declarative deployment extends beyond an individual manifest to a controlled delivery model. GitOps reconciliation can make a repository the desired-state source, while progressive rollout, health probes, resource requests, policy, and rollback determine whether a new version is introduced safely. A deployment definition is therefore only one layer of the release system; image provenance and environment configuration must be governed alongside it.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

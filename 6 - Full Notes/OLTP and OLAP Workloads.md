@@ -14,9 +14,13 @@ The design-patterns source contrasts an operational database optimized for frequ
 
 The AWS database-selection source applies the distinction to service choice. RDS, Aurora, and DynamoDB serve operational access patterns, while Redshift is designed for analytical scans and aggregation. Redshift Spectrum and a data lake can extend analysis beyond warehouse storage, but the operational system should not become the reporting engine merely because both support queries.
 
+The Azure architecture map adds hybrid transactional and analytical processing as a bridge between the two workload classes. Features such as Azure Synapse Link can expose an analytical representation of operational data with less interference than querying the transactional store directly. This reduces movement and freshness delay, but it does not erase modeling differences: analytical consumers still need deliberate serving structures, governance, cost controls, and an understood consistency boundary.
+
 # References
 
 [[datascience_mit.epub]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[awsforsolutionsarchitectsthirdedition.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

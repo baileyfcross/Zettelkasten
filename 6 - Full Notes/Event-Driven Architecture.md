@@ -12,6 +12,8 @@ Azure Functions in the case study react to queue events instead of polling or re
 
 The AWS architecture source separates queue, publish-subscribe, and stream models. A queue distributes buffered work to consumers, publish-subscribe fans one event to several interested consumers, and a stream retains an ordered history that independent consumers can replay. Choosing among them requires explicit decisions about recipient count, ordering, retention, replay, and backpressure.
 
+The Azure architecture map uses Event Hubs for high-volume ingestion, Service Bus topics for filtered enterprise messaging, and Functions or Stream Analytics for event processing. These services occupy different semantic roles: a retained event stream supports independent offsets and replay, while a brokered topic supplies subscriptions, delivery controls, and routing filters. The workload’s ordering, retention, fan-out, transaction, and failure requirements should select the mechanism.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -20,3 +22,5 @@ The AWS architecture source separates queue, publish-subscribe, and stream model
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 
 [[awsforsolutionsarchitectsthirdedition.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

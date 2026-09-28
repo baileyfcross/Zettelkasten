@@ -2,7 +2,7 @@
 
 Parent topic: [[C Sharp and .NET Development]]
 
-Azure Cloud Application Development is the chapter-level topic for managed databases, real-time services, workflow automation, identity, storage, containerized microservices, Kubernetes, cognitive vision, and bot applications built with the 2019-era Microsoft Azure and .NET ecosystem. Full Notes should link to a focused child topic rather than directly to this chapter tag.
+Azure Cloud Application Development is the chapter-level topic for Azure architecture practice, solution and infrastructure design, managed data, application integration, containers, artificial intelligence, identity, security, and cloud operations. Full Notes should link to a focused child topic rather than directly to this chapter tag.
 
 ## Overview Chapter
 
@@ -53,6 +53,54 @@ In the Xamarin.Forms client, a media plugin obtains an image from the device cam
 Conversational access builds on similar boundaries in [[Microsoft Bot Framework Applications]]. The Bot Framework represents user interactions as activities arranged into conversation turns. An echo bot demonstrates the basic loop: receive an activity, inspect its text, and send a response. The emulator lets a developer inspect that exchange locally, including the raw activity payload and conversation transcript. More capable bots can map an identified intent to a response entry, invoke application services, and preserve suitable conversational state.
 
 Language understanding is supplied by a related child topic, [[Natural Language Understanding Systems]]. A LUIS application groups example utterances under intents, trains a model, and publishes an endpoint that predicts which intent best matches new text. The bot can use that prediction to select an action or response. As with vision scores, the prediction is uncertain and should have a fallback when confidence is inadequate or the utterance lies outside the model's learned categories. Bot registration then connects the hosted application to channels. App credentials identify the bot to the service, Direct Line supports a custom client, and Web Chat supplies a browser-oriented channel. A UWP application can wrap the same channel through its API, showing how one bot service can serve several interfaces without duplicating its conversational core.
+
+### Architecture roles connect strategy to implementable views
+
+[[Azure Architecture Practice and Cloud Strategy]] treats architecture as a collaboration among scopes rather than a single job title. Enterprise architects align the whole technology landscape with business direction, domain architects own a broad field such as cloud, and solution architects assemble building blocks around a particular business outcome and its non-functional requirements. Data, security, infrastructure, platform, application, and technical architects then contribute deeper views whose boundaries overlap without becoming interchangeable.
+
+Azure architecture maps support that collaboration by organizing a domain into concerns, alternatives, possible solutions, and explicit trade-off points. A map is a decision aid rather than an approved-product list: its branches show where questions arise, not which leaf must always be selected. This preserves the distinction between an enterprise principle, a reference architecture, a platform standard, and a workload-specific choice.
+
+### Workload models keep a reference architecture tied to intent
+
+[[Azure Solution Architecture and Workload Models]] classifies services by the role they play in a system. Systems of engagement provide channels to people, systems of record hold authoritative state, systems of insight analyze historical data, systems of intelligence support near-real-time decisions, and systems of integration connect otherwise separate applications. These categories make it easier to challenge a design in terms of responsibility instead of comparing unrelated products.
+
+Monitoring, delivery factories, identity, security, networking, and governance cut across every workload category. The source recommends staging these non-functional concerns through maturity levels and a roadmap instead of pretending every control can reach its final state on day one. A target reference architecture should trace business keywords to building blocks, add the relevant cross-cutting views, and record gaps that remain. It must also acknowledge service retirement so a diagram does not become a permanent claim about an evolving platform.
+
+### Networks and recovery expose failure and trust boundaries
+
+[[Azure Network and Resilience Architecture]] begins with hybrid connectivity and hub-and-spoke topology. ExpressRoute provides private connectivity with planned bandwidth and resilience; VPNs use encrypted tunnels over public networks. A hub can centralize shared routing, DNS, and inspection, while a double-hub design separates internet ingress from hybrid connectivity to reduce duties and blast radius. Virtual WAN secured hubs, routing intent, Route Server, and Virtual Network Manager automate different portions of route distribution and policy.
+
+Private Link places a private endpoint for a managed service inside a virtual network, which changes both routing and name resolution. DNS Private Resolver and private DNS zones bridge Azure and on-premises domains without exposing a public path. Availability and disaster recovery then require explicit objectives: RTO and RPO state acceptable recovery targets, while RTA and RPA record what an exercise or outage actually achieved. Multi-region designs add failover and data-replication complexity, so “two regions” is not itself a complete resilience plan.
+
+### Container selection is a management-boundary decision
+
+[[Azure Container Platform Selection]] compares Azure Container Instances, Web App for Containers, Function containers, Red Hat OpenShift, Container Apps, and AKS by built-in behavior and operational work. ACI suits isolated or short-lived containers; App Service offers a managed web-hosting model; Function containers package an event-driven runtime; OpenShift supplies an opinionated enterprise Kubernetes platform; and Container Apps exposes serverless microservice and event-driven capabilities over managed Kubernetes foundations.
+
+Architecture style and quality attributes matter more than the presence of a container image. Microservices, service-oriented systems, N-tier applications, event-driven processing, and resource-intensive batch jobs need different combinations of networking, autoscaling, deployment control, state, and observability. Container Apps integrates revisions, KEDA, and Dapr while hiding most cluster administration. AKS or OpenShift exposes more control but transfers more lifecycle, isolation, policy, and platform-engineering work to the customer.
+
+### Cloud-native applications use platform capabilities as code-level boundaries
+
+[[Azure Cloud-Native Application Architecture]] broadens development beyond application source code to identities, deployment, configuration, diagnostics, and managed service behavior. Managed identities remove stored Azure credentials; system-assigned identities follow one resource’s lifecycle, while user-assigned identities can be shared. Workload identity federation exchanges an external issuer’s token for an Entra token without distributing a client secret.
+
+API Management centralizes API versioning, products, policies, validation, throttling, and transformations. App Configuration separates runtime settings from deployment artifacts, while Key Vault references let supported services resolve secrets without custom retrieval code. Service Bus topics and subscription filters distribute one message to selected consumers. These conveniences reduce custom plumbing only when their policies, message metadata, retry behavior, permissions, and failure modes remain part of the application design.
+
+### Data platforms separate ingestion, computation, and consumption
+
+[[Azure Data Platform Architecture]] maps ingestion, processing, raw storage, serving, and visualization to distinct capabilities. Event Hubs and IoT Hub ingest high-volume streams, Stream Analytics performs managed near-real-time transformations, Data Explorer specializes in fast telemetry analysis, and Databricks or Synapse spans several analytical workloads. The service boundary should follow latency, data shape, skill set, governance, and workload scale rather than a desire to standardize every stage on one engine.
+
+Lambda architecture maintains batch and speed paths, while Kappa emphasizes streaming and a serving layer. Medallion architecture moves data through increasingly refined bronze, silver, and gold representations. Hybrid transactional/analytical processing instead asks whether live operational data can serve analytics without a duplicate pipeline; Synapse Link for Cosmos DB is the source’s Azure-native example. Each pattern changes freshness, replay, consistency, transformation ownership, and the number of stored copies.
+
+### AI architecture separates knowledge, action, and model access
+
+[[Azure AI Application Architecture]] connects foundation models to application data and tools. Embeddings encode semantic similarity, vector stores retain those representations, and hybrid search combines vector relevance with keyword matching. Retrieval-augmented generation supplies selected external context to a model, cache-augmented generation keeps a smaller body of knowledge directly in prompt context, and tool-augmented generation lets a model request actions through described functions.
+
+Agentic systems add planning and autonomous task execution, which makes tool permissions, state, observation, and human approval more important. An AI gateway built with API Management shields model endpoints and can apply token validation, load balancing, rate limits, model routing, semantic caching, and message logging. The gateway governs access and consumption; it does not determine whether a generated answer or selected action is correct.
+
+### Security joins identity, posture, workloads, and response
+
+[[Azure Security Architecture and Operations]] treats identity as a central cloud perimeter while retaining layered network and data controls. Conditional Access evaluates contextual signals, Privileged Identity Management makes elevated roles temporary, and Continuous Access Evaluation lets aware applications react to critical identity events before a token’s normal expiry. Data protection distinguishes Microsoft-managed keys, bring-your-own-key control, hold-your-own-key custody, and key-encryption-key hierarchies; Purview adds cataloging, lineage, and broad governance.
+
+Cloud Security Posture Management evaluates configuration and compliance before an attack, whereas Cloud Workload Protection detects threats in running resources. Defender for Cloud participates in both areas through different plans, and Microsoft Sentinel aggregates security data into SIEM and automates response as SOAR. DevSecOps moves scanning, policy, approvals, and quality gates into the delivery workflow. Azure Firewall TLS inspection can expose encrypted application traffic to controls, but it requires callers to trust a private certificate authority and adds performance and compatibility costs.
 
 ### One cloud system, many explicit contracts
 

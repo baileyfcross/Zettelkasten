@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-27T22:40:19.008Z",
+  "updatedAt": "2026-09-28T07:04:49.371Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -19465,6 +19465,16 @@
         "f2f0fca3239b812a333207587cbc5100abca3a478bd9d040bb069d17afecc86d"
       ]
     },
+    "6 - Full Notes/Braille Tactile Reading.md": {
+      "sourceHash": "8764c66333d4e0f386b5f6787f90c4642e1f2bb85142c9429e26caf612108a53",
+      "sourceType": "markdown",
+      "fileName": "Braille Tactile Reading.md",
+      "title": "Braille Tactile Reading",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e2a5318bef19ad45ddf2fe6666ee449f2aca3519a8b1d7cb945b67fe1818250a"
+      ]
+    },
     "6 - Full Notes/Braking Engine.md": {
       "sourceHash": "966b476512433edfe47239bb8cc32d81e40acee44d792940cdf9c092fa511b3b",
       "sourceType": "markdown",
@@ -32813,6 +32823,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "4a9b064281d440e7640715e0c24106029e2dadc1f976286a415e7b2b2f1ec11d"
+      ]
+    },
+    "6 - Full Notes/Distal Attribution.md": {
+      "sourceHash": "7b1ddc008959b8dca000f899119e819662091573a3debe6514459ea6269a6067",
+      "sourceType": "markdown",
+      "fileName": "Distal Attribution.md",
+      "title": "Distal Attribution",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2194fbdb90ba94346144bef05375ab897f5c6b8cfe55ed4c543d618ec7ce3b8c"
       ]
     },
     "6 - Full Notes/Distance Attenuation.md": {
@@ -57345,6 +57365,16 @@
         "11594f60d7d2ce8e16e6e529e91d86e32b8907e1d0876aa01b5b81fd82ced84d"
       ]
     },
+    "6 - Full Notes/Optical-to-Tactile Converter.md": {
+      "sourceHash": "6fe4d6fa7af642638aabd0117a7955063f9abc95d4c2476a4eab3a0f73b73107",
+      "sourceType": "markdown",
+      "fileName": "Optical-to-Tactile Converter.md",
+      "title": "Optical-to-Tactile Converter",
+      "chunkCount": 3,
+      "objectHashes": [
+        "702733a316803552d726ff972cd514632cb9a07e075e2776c9647afb0633a978"
+      ]
+    },
     "6 - Full Notes/OPTICS Reachability Ordering.md": {
       "sourceHash": "1707cac47bf0208864b35394bf8d8b9d21753ba2941d48ca9343078d2c5af2a4",
       "sourceType": "markdown",
@@ -65065,6 +65095,16 @@
         "5b689d4d472d48cf8eb7c91674c7d803c005a8bdc142692977c664b8aee4c5f2"
       ]
     },
+    "6 - Full Notes/Refreshable Braille Display.md": {
+      "sourceHash": "da4731458d7b5d60979b4e47c10dc40e8553a521302f6393a6b8dcce2d2416b1",
+      "sourceType": "markdown",
+      "fileName": "Refreshable Braille Display.md",
+      "title": "Refreshable Braille Display",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0ce1e5f0c635cabab8bc53cf1f0466af7bce450dbd0510bf5a6388e5a3dc8837"
+      ]
+    },
     "6 - Full Notes/Regenerative Fuel Cell.md": {
       "sourceHash": "a60589c42a57da4bcffb26ded971ed5115566c89b65d3bbfed9867ca604b6f2d",
       "sourceType": "markdown",
@@ -68113,6 +68153,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "32c5dfcb6c29d61975e4c57405df01eef4f37436744993cc9b2b830345c6869e"
+      ]
+    },
+    "6 - Full Notes/Sensory Substitution.md": {
+      "sourceHash": "7574c55ac5a92197e7b610732441d9f75bfe53625133a6b2a9a55112a917be79",
+      "sourceType": "markdown",
+      "fileName": "Sensory Substitution.md",
+      "title": "Sensory Substitution",
+      "chunkCount": 3,
+      "objectHashes": [
+        "3c2d450d532959d5ac0e37db1e983fdcb4d37291b7c12012425b9cb111c808e6"
       ]
     },
     "6 - Full Notes/Sentence Planner.md": {
@@ -74123,6 +74173,36 @@
       "chunkCount": 3,
       "objectHashes": [
         "37257c7c0561c170ac159129ba65a3087c877ea7fb472faa9b4d2427ee055444"
+      ]
+    },
+    "6 - Full Notes/Tactile Auditory Substitution.md": {
+      "sourceHash": "842da37641185b90aebe3da769c8f30b490f2b2684b3b07924a1fa7dfb081e0e",
+      "sourceType": "markdown",
+      "fileName": "Tactile Auditory Substitution.md",
+      "title": "Tactile Auditory Substitution",
+      "chunkCount": 3,
+      "objectHashes": [
+        "b9520243020418de5c34a82271bf8ebdb77c15f92209ffab687fa2b71f859e96"
+      ]
+    },
+    "6 - Full Notes/Tactile Vision Substitution System.md": {
+      "sourceHash": "2406414aa2fab78ead163a1b52575649a5d7949b4e29b4d0ab2cb4efa6c2cb08",
+      "sourceType": "markdown",
+      "fileName": "Tactile Vision Substitution System.md",
+      "title": "Tactile Vision Substitution System",
+      "chunkCount": 3,
+      "objectHashes": [
+        "9e0d8c7987c80f0e3ff28b704ab5d1f411b78d724e932e748b087649b01394bb"
+      ]
+    },
+    "6 - Full Notes/Tadoma.md": {
+      "sourceHash": "177994901dd8ee57a24a7db5a31605fc5e6ad1e3a588f6d2468443700ef3d597",
+      "sourceType": "markdown",
+      "fileName": "Tadoma.md",
+      "title": "Tadoma",
+      "chunkCount": 3,
+      "objectHashes": [
+        "51c74928c06f3d9e01459df1466c320b0593c7f24ca85be68eb50f28072ec017"
       ]
     },
     "6 - Full Notes/Takeoff and Landing Performance Planning.md": {

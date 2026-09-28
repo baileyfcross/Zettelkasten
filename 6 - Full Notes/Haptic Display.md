@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Display Systems]]
+Tags: [[XR Display Systems]] [[Haptic Display Technology]]
 
 # Haptic Display
 
@@ -14,7 +14,10 @@ Important characteristics include [[Spatial Resolution]], temporal resolution, r
 
 AR haptics can exploit contact with real objects as passive feedback or add active tactile and force effects. Because the physical environment already resists motion, a design must align generated feedback with visible and tangible surfaces rather than treating touch as an independent channel.
 
+A haptic display differs from a skin-only [[Tactile Display]] because it engages both touch and [[Kinesthesia]] in a bidirectional exchange. The device measures user position or force and returns a corresponding force or position from a real or simulated environment. Its usefulness depends on workspace, mass, friction, force bandwidth, dynamic range, and [[Haptic Device Backdrivability]], not on peak force alone.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
+[[haptics.epub]]

@@ -12,7 +12,11 @@ A warehouse and data cube can make predefined summaries quick to slice, pivot, a
 
 The design-patterns source contrasts an operational database optimized for frequent insert, update, and delete statements with an analytical store optimized for selections and aggregation. Indexes and other table structures accelerate reads but add maintenance cost to each write. A separate read store can protect transactional throughput while serving reporting needs, though it must be kept in sync with its source.
 
+The AWS database-selection source applies the distinction to service choice. RDS, Aurora, and DynamoDB serve operational access patterns, while Redshift is designed for analytical scans and aggregation. Redshift Spectrum and a data lake can extend analysis beyond warehouse storage, but the operational system should not become the reporting engine merely because both support queries.
+
 # References
 
 [[datascience_mit.epub]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[awsforsolutionsarchitectsthirdedition.pdf]]

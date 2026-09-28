@@ -10,6 +10,10 @@ Amazon SageMaker AI is a managed platform for preparing data, building or select
 
 Unlike task-specific AI services such as [[Amazon Rekognition]] or [[Amazon Comprehend]], SageMaker supports teams that need more control over models and training workflows. Data quality, evaluation, monitoring, security, and cost remain essential even when the infrastructure is managed.
 
+The source maps SageMaker across preparation, training, tuning, deployment, and monitoring. Real-time endpoints serve sustained low-latency requests, batch transform processes stored datasets, and serverless inference fits intermittent traffic by provisioning capacity on demand. Deployment mode should follow latency, throughput, traffic predictability, and cost rather than model type alone.
+
 # References
 
 [[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]
+
+[[awsforsolutionsarchitectsthirdedition.pdf]]

@@ -10,9 +10,13 @@ Event-driven architecture reacts to facts that have occurred, such as a customer
 
 Azure Functions in the case study react to queue events instead of polling or remaining continuously active. This makes triggers and message contracts the architecture boundary between producers and independently scaled computation.
 
+The AWS architecture source separates queue, publish-subscribe, and stream models. A queue distributes buffered work to consumers, publish-subscribe fans one event to several interested consumers, and a stream retains an ordered history that independent consumers can replay. Choosing among them requires explicit decisions about recipient count, ordering, retention, replay, and backpressure.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[awsforsolutionsarchitectsthirdedition.pdf]]

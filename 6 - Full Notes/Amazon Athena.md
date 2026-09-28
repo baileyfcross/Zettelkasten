@@ -10,6 +10,10 @@ Amazon Athena is a serverless interactive query service that uses SQL to analyze
 
 Athena is well suited to ad hoc analysis, logs, and data-lake exploration. Query cost and speed depend partly on the volume scanned, so partitioning data and using efficient columnar formats can reduce unnecessary reads.
 
+Workgroups add usage and configuration boundaries for teams or applications. Within a dataset, partition pruning, compression, and columnar formats such as Parquet reduce unnecessary reads, while avoiding `SELECT *` limits columns scanned. These physical data choices are part of query design because Athena charges according to data processed.
+
 # References
 
 [[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]
+
+[[awsforsolutionsarchitectsthirdedition.pdf]]

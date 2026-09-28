@@ -14,6 +14,8 @@ For cluster analysis, quality is inseparable from representation. Unrelated feat
 
 For evidence-based decisions, quality also connects the processing pipeline to the decision context. Veracity, provenance, and adequate cleaning determine whether a pattern can be treated as credible evidence rather than merely as a computable result.
 
+In an AWS data lake, quality controls should operate at zone transitions rather than only at the final report. Completeness, validity, uniqueness, consistency, and timeliness metrics can quarantine bad arrivals, prevent invalid data from entering curated zones, and expose whether a published data product meets its contract.
+
 # References
 
 [[bigdatamanagementandprocessing.pdf]]
@@ -21,3 +23,5 @@ For evidence-based decisions, quality also connects the processing pipeline to t
 [[clusteranalysisanddatamining.pdf]]
 
 [[frontiersofdatascience.pdf]]
+
+[[awsforsolutionsarchitectsthirdedition.pdf]]

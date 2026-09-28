@@ -30,6 +30,12 @@ S3 can host static web content and accelerate long-distance transfers, but appli
 
 VPC peering directly connects two networks without providing transitive routing. Transit Gateway uses a hub-and-spoke model when many VPCs and sites must communicate. Site-to-Site VPN crosses the public internet through encrypted tunnels, while Direct Connect supplies dedicated private connectivity. A bastion pattern provides controlled administrative entry, and a three-tier VPC design separates load balancing, compute, and databases so each layer has only the reachability it requires.
 
+### Migration turns a portfolio into explicit disposition decisions
+
+[[AWS Migration and Transformation Strategy]] separates moving workloads from transforming them. The seven migration strategies give each application a disposition: rehost it with minimal change, replatform selected infrastructure, refactor it around cloud-native capabilities, repurchase a replacement product, relocate an intact environment, retain it where it is, or retire it. Those decisions should follow discovery and readiness analysis rather than a blanket mandate to move everything the same way.
+
+AWS organizes execution into assess, mobilize, and migrate-and-modernize phases. Assessment builds an inventory and business case; mobilization closes skills, governance, account, landing-zone, and dependency gaps; migration moves workload waves and then improves them. Application Migration Service, Application Discovery Service, Migration Hub, and the Migration Acceleration Program support different portions of that lifecycle. This makes migration a coordinated portfolio program whose technical move, organizational readiness, and modernization path remain distinguishable.
+
 ### Compute choices move the management boundary
 
 [[AWS Compute and Serverless Services]] ranges from virtual machines to managed orchestration and functions. EC2 instances launch from machine images into hardware families selected for compute, memory, storage, or network characteristics. EBS supplies persistent block volumes, instance store provides host-attached temporary storage, EFS supplies a managed shared filesystem, and FSx offers managed filesystems such as Windows File Server.
@@ -59,6 +65,30 @@ Analytics services follow data from arrival to interpretation. Kinesis Data Stre
 [[AWS AI and Infrastructure Automation]] includes task-specific AI services and deployment tools. Rekognition analyzes images and video; Polly synthesizes speech; Transcribe produces text from audio; Translate converts languages; Textract extracts text and structure from documents; Comprehend analyzes language; SageMaker supports custom model building and operation. These services package complex capabilities behind APIs while leaving customers responsible for lawful data use and application decisions.
 
 Elastic Beanstalk deploys application code onto managed infrastructure. CloudFormation describes resources in JSON or YAML templates and applies them as stacks, with change sets previewing updates. CodeCommit, CodeBuild, CodeDeploy, and CodePipeline support source, build, deployment, and delivery stages, while Amazon Q supplies generative assistance. Automation improves repeatability only when templates, artifacts, permissions, and change previews are versioned and reviewed.
+
+### Platform engineering turns standards into reusable paths
+
+[[AWS Cloud Operations and Platform Engineering]] treats operations as a designed system rather than a collection of console actions. A CloudOps model combines governance, compliance, provisioning, observation, and centralized operations. Service Catalog publishes approved products and portfolios, while AppRegistry associates resources with the applications, owners, and purposes they serve. Proton can expose standardized infrastructure and deployment templates to application teams without transferring every platform concern to them.
+
+The Cloud Development Kit expresses infrastructure through reusable constructs that synthesize CloudFormation, and Amplify supplies an opinionated path for web and mobile delivery. Landing Zone Accelerator extends a secure multi-account baseline, while Systems Manager host management inventories and controls fleets. Together these mechanisms create paved roads: developers receive self-service interfaces, and platform teams retain versioned controls, ownership metadata, and operational visibility.
+
+### Data engineering connects arrival, transformation, query, and ownership
+
+[[AWS Data Engineering and Analytics Optimization]] follows data through a managed pipeline. MSK operates Apache Kafka workloads; Glue crawlers and jobs discover and transform datasets; EMR runs distributed frameworks; Redshift supplies a warehouse; Athena queries objects in place; QuickSight serves interactive analysis; and MWAA coordinates scheduled workflows. Serverless variants move capacity management to AWS when workload demand is intermittent or difficult to predict.
+
+Optimization remains specific to each layer. Partition pruning reduces scanned data, workgroups separate Athena usage and controls, SPICE accelerates concurrent QuickSight analysis, and Spectrum extends Redshift queries into S3. DataZone adds discovery and governed sharing so datasets have visible producers, consumers, and business context. The result is not one monolithic analytics product but a chain whose schemas, partitions, schedules, ownership, performance, and costs must align.
+
+### Generative AI joins model behavior to specialized infrastructure
+
+[[AWS Generative AI and ML Infrastructure]] spans managed foundation-model APIs and the hardware beneath large training and inference workloads. Bedrock exposes multiple foundation models and adds guardrails, multi-agent collaboration, prompt routing, and prompt caching. These controls address different concerns: safety policy, task delegation, model selection, latency, and cost. They do not remove the need to evaluate output quality or control the data supplied to a model.
+
+Trainium targets model training, while Inferentia targets inference. UltraCluster joins many accelerators with high-performance networking, and SageMaker HyperPod adds resilient large-scale training infrastructure. AWS Transform applies agentic assistance to modernization work. Selecting among these layers depends on whether a team wants a managed model API, a managed machine-learning workflow, or direct control over specialized distributed compute.
+
+### Data lakes separate preservation, preparation, consumption, and governance
+
+[[AWS Data Lake Architecture and Governance]] divides a lake into zones with distinct contracts. Raw storage preserves original inputs; landing performs initial checks; staging integrates and transforms; analytics organizes data for exploration; data marts curate business-specific subsets; and archive storage retains inactive history. The labels may vary, but separating these responsibilities makes retention, access, quality, and format transitions visible instead of allowing an S3 bucket to become an undifferentiated dump.
+
+Lake Formation centralizes permissions and governed sharing around cataloged data. A lakehouse combines the scale and openness of a data lake with warehouse-like structure and query behavior, while a data mesh decentralizes ownership to domain teams under common governance. These are architectural choices about responsibility and access, not merely storage formats. A durable lake therefore joins physical zones to cataloging, lineage, quality controls, security policy, ownership, and cost-aware lifecycle management.
 
 ### Operations and security require continuous evidence
 

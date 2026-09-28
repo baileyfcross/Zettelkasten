@@ -26,6 +26,6 @@
   "hybridTextWeight": 0.45,
   "hybridVectorWeight": 0.55,
   "minVectorSimilarity": 0.35,
-  "vaultOnly": false,
+  "vaultOnly": true,
   "modifyDebounceMs": 1400
 }

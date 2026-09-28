@@ -11,10 +11,10 @@
             "id": "acdaa422385c6d4e",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -192,7 +192,7 @@
       "local-vault-ai:Open Local Vault AI": false
     }
   },
-  "active": "ef90bf97bd567075",
+  "active": "acdaa422385c6d4e",
   "lastOpenFiles": [
     "6 - Full Notes/Myoelectric Hand Prosthesis.md",
     "6 - Full Notes/Body-Powered Hand Prosthesis.md",

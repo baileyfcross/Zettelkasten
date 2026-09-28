@@ -10,6 +10,9 @@ A service level agreement is the contract between a service consumer and supplie
 
 An SLA should express outcomes that matter to the consumer rather than exposing every internal infrastructure metric. More specific [[Service Level Objective]]s give the provider measurable targets that support the overall agreement.
 
+The agreement is an external commitment and may define consequences when the promise is missed. This distinguishes it from an internal objective used to steer engineering. A useful chain therefore runs from a measured [[Service Level Indicator]], to a target SLO, to the subset of promises and remedies formalized in the SLA.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+[[clouddevopsengineersguide.pdf]]

@@ -10,6 +10,9 @@ A recovery time objective is the maximum targeted interval between a service dis
 
 The objective should appear in continuity planning and service commitments so recovery capability can be designed and tested. A short recovery time may require ready secondary capacity, automation, and practiced failover rather than relying only on stored backups.
 
+RTO influences the choice among backup-and-restore, pilot light, warm standby, and active multi-site recovery. A shorter target generally increases the capacity and automation maintained before an incident. Measurement should begin at the agreed disruption point and end only when the service is usable, not merely when infrastructure has started.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+[[clouddevopsengineersguide.pdf]]

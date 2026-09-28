@@ -16,6 +16,8 @@ The design-patterns source describes development, user-acceptance testing, and p
 
 The source extends successful integration into a multistage path where a versioned artifact can be promoted through test and staging toward production. Delivery means the release is ready and repeatable even when final production approval remains manual.
 
+A cloud delivery pipeline preserves the same tested artifact while changing the controls around promotion. Infrastructure plans, security scans, environment checks, and a [[Manual Deployment Approval]] can sit between build and production without turning the release into a manually reconstructed procedure. The deployable state is maintained continuously even when the business chooses the release time.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -23,3 +25,4 @@ The source extends successful integration into a multistage path where a version
 [[agilegamedevelopment2e.pdf]]
 [[aspnetcore3andreact.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+[[clouddevopsengineersguide.pdf]]

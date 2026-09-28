@@ -2,7 +2,7 @@
 
 Parent topic: [[Amazon Web Services]]
 
-AWS consumption pricing, planning and migration estimates, spend analysis, allocation, budgets, billing views, commitment discounts, and continuous cost optimization.
+AWS consumption pricing, FinOps collaboration, planning and migration estimates, spend analysis, allocation, budgets, anomaly detection, right-sizing, commitment discounts, and continuous cost optimization.
 
 ## Directly Linked Full Notes
 

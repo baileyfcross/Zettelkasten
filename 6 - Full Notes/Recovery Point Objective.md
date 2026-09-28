@@ -10,6 +10,9 @@ A recovery point objective is the maximum targeted age of data that may be lost 
 
 The objective determines how frequently data must be replicated or backed up. It is distinct from [[Recovery Time Objective]], which measures the acceptable duration of the outage rather than the acceptable amount of lost history.
 
+A smaller RPO requires more frequent capture or continuous replication, but replication can copy corruption as readily as valid changes. Recovery design therefore combines replication with versioned or isolated backups and proves restoration from a known point. Different data sets may justify different objectives according to business impact.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+[[clouddevopsengineersguide.pdf]]

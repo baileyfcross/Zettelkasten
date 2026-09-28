@@ -10,6 +10,8 @@ Application telemetry is operational data emitted by running software, such as r
 
 Application Insights supplies the DevOps feedback loop in the case study by reporting runtime usage, failures, performance, and diagnostics after deployment. That evidence informs both technical correction and product adaptation.
 
+The cloud-native observability model separates three complementary forms of telemetry. Logs preserve discrete events and context, metrics summarize behavior as numerical time series, and traces follow a request across service boundaries. Their value comes from correlation: a metric can reveal that latency changed, a trace can locate the slow span, and structured logs can explain what happened inside it.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -20,3 +22,4 @@ Application Insights supplies the DevOps feedback loop in the case study by repo
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[clouddevopsengineersguide.pdf]]

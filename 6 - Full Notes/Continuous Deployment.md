@@ -14,8 +14,11 @@ An Azure DevOps pipeline can remove routine manual execution by triggering a bui
 
 The design-patterns source describes different promotion triggers for development, user-acceptance testing, and production. Automated build and test gates can move a change toward release, but an explicit human sign-off before production makes that final stage continuous delivery rather than automatic deployment.
 
+Automatic production promotion increases the importance of small batches, observable health signals, and a tested rollback path. A passing pipeline establishes that its encoded checks succeeded; it cannot establish that users will experience no regression. Progressive exposure and post-deployment monitoring contain the impact when automated evidence is incomplete.
+
 # References
 
 [[agilegamedevelopment2e.pdf]]
 [[aspnetcore3andreact.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+[[clouddevopsengineersguide.pdf]]

@@ -10,6 +10,9 @@ The AWS shared responsibility model divides security and compliance duties betwe
 
 The boundary changes with the service model. A customer manages more of the operating system and software on EC2 than in a managed database or serverless service, but responsibility for data classification, identities, permissions, and appropriate configuration never disappears.
 
+This shifting boundary makes service selection a security decision as well as an operational one. Moving from self-managed compute to a managed platform can transfer patching and infrastructure duties to AWS, but the customer still chooses network exposure, identity permissions, application behavior, and the data placed in the service.
+
 # References
 
 [[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]
+[[clouddevopsengineersguide.pdf]]

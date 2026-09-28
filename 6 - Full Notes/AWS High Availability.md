@@ -10,6 +10,9 @@ High availability is the ability of a workload to remain accessible despite ordi
 
 Availability is a design property rather than a feature that can be switched on. Dependencies, data stores, health checks, recovery procedures, and the geographic scope of failure all determine whether redundancy actually keeps the service usable.
 
+An Application Load Balancer and an Auto Scaling group can distribute requests and replace unhealthy instances across zones, but they do not make a stateful dependency highly available by themselves. The architecture must remove single points of failure through every request path and test behavior when a zone, instance, or dependency is unavailable.
+
 # References
 
 [[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]
+[[clouddevopsengineersguide.pdf]]

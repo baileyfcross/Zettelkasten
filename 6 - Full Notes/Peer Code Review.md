@@ -10,6 +10,9 @@ Peer code review asks another developer to examine a proposed change for correct
 
 Review should concentrate on material risk and shared learning rather than formatting that automation can enforce. Small changes and explicit context make defects and unintended consequences easier to detect.
 
+The reviewer should be able to see the exact diff, the purpose of the change, and the results of automated checks in the [[Pull Request]]. Approval remains a human judgment; static analysis can find repeatable patterns and AI can summarize a change, but neither carries responsibility for architecture, hidden assumptions, or acceptable operational risk.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+[[clouddevopsengineersguide.pdf]]

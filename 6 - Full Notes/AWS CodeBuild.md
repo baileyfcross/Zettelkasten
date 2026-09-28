@@ -10,6 +10,9 @@ AWS CodeBuild is a managed build service that runs commands defined for a softwa
 
 CodeBuild removes the need to maintain a permanent fleet of build servers. Within an [[AWS CodePipeline]], its result can act as a quality gate before artifacts proceed to deployment.
 
+The project can take source and dependencies, follow commands in a build specification, publish versioned artifacts, and stream output to operational logs. Its execution role should have only the permissions needed for inputs, outputs, and deployment preparation. A reproducible build must not rely on undeclared state left behind by an earlier ephemeral worker.
+
 # References
 
 [[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]
+[[clouddevopsengineersguide.pdf]]

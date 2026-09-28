@@ -2,7 +2,7 @@
 
 Parent topics: [[Software Engineering]] · [[Game Production]]
 
-Short technical feedback loops, automated testing, integrated quality work, and completion standards.
+Short technical feedback loops, automated testing, integrated quality work, blameless learning, delivery performance, and completion standards.
 
 ## Linked Full Notes
 

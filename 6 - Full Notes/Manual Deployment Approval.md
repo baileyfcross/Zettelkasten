@@ -10,6 +10,9 @@ Manual deployment approval requires a named person or group to authorize a relea
 
 The approval should record who decided, what artifact was approved, and which evidence was considered. Adding a person who merely clicks through every release increases delay without reducing risk.
 
+For infrastructure delivery, the approval can bind a reviewed [[Terraform Plan]] to the later apply step so the approver sees additions, changes, and deletions before production mutation. The pipeline should invalidate or regenerate approval when the plan or configuration changes; otherwise the person may authorize evidence that no longer describes the deployment.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+[[clouddevopsengineersguide.pdf]]

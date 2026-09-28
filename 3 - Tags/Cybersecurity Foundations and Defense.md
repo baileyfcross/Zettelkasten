@@ -22,6 +22,8 @@ Security appears in ordinary technology through [[Everyday Cybersecurity Applica
 
 [[Adaptive and Outcome-Based Cyber Defense]] looks beyond fixed attack signatures. Computer immunology models a system as distinguishing legitimate self from dangerous nonself, remembering earlier infections, detecting novel behavior, and protecting its own defensive mechanisms. Outcome-based defense assumes attacks may occur and focuses resources on preventing denial of service, data theft, or deception that would defeat the system's mission. Behavioral baselines, anomaly detection, extrusion detection, and preserved multi-day context support responses to changing and persistent threats.
 
+[[Cloud-Native DevSecOps Controls]] carries secure development into an automated delivery system. Static analysis examines source without executing it, dynamic testing probes a running application, and dependency, container-image, and infrastructure scans examine other layers of the software supply chain. Repository secret scanning detects exposed credentials, while external secret systems reduce the need for long-lived values in code. Pipeline gates make these findings actionable before release, but thresholds and exceptions still need accountable review so security automation blocks material risk without becoming meaningless noise.
+
 Together, these topics connect security objectives to concrete controls and observable attack behavior. Trust is not produced by one device or algorithm: it emerges from protected identities and keys, constrained execution, layered monitoring, secure development, risk-informed priorities, informed users, and recovery mechanisms aligned with the outcomes a system exists to deliver.
 
 ## Directly Referenced Tags

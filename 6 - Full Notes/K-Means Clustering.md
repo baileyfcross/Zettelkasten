@@ -12,8 +12,12 @@ At scale, points can remain cached on distributed workers while partial centroid
 
 The source distinguishes update variants: MacQueen updates centroids after each reallocation, while Forgy holds seeds fixed for a full allocation pass and then recomputes centers. All can converge to a local optimum determined by the initial partition, so repeated starts and comparison of final squared-error values are part of responsible use.
 
+Its repeated distance, assignment, and centroid-reduction operations also expose parallel hardware kernels. A [[Multi-Algorithm FPGA Accelerator]] can share vector-distance and accumulation units with related clustering methods, although irregular data movement and limited device resources determine the realized speedup.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
 
 [[clusteranalysisanddatamining.pdf]]
+
+[[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]

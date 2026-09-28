@@ -10,6 +10,10 @@ Next-generation genomic sequencing produces large numbers of short sequence read
 
 The technology expands what can be observed beyond a fixed microarray probe set, but it moves complexity into the data pipeline. Read quality, coverage, ambiguous mapping, library preparation, and reference choice all affect the final measurement. The derived feature table should therefore remain traceable to these upstream decisions.
 
+Hardware acceleration targets a narrow portion of this pipeline rather than replacing it. A [[Gene Sequencing Accelerator]] can speed sequence matching, while preprocessing, reference indexing, transfer, and biological interpretation remain separate stages.
+
 # References
 
 [[healthcaredataanalytics.pdf]]
+
+[[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]

@@ -10,6 +10,10 @@ K-nearest neighbors predicts from the labels or outcomes of the $k$ training obs
 
 Small $k$ creates a flexible, variable boundary, while large $k$ smooths across broader neighborhoods and can hide local structure. Feature scale and [[Dimension Reduction]] affect which observations count as nearby.
 
+A weighted variant assigns each class the summed similarity of its members among the selected neighbors rather than using an unweighted vote. The repeated vector comparison can use a [[Reconfigurable Similarity Engine]], but storing the training set and searching it at prediction time remain the cost of this lazy-learning method.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]

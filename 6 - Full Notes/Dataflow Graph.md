@@ -12,8 +12,12 @@ The graph makes the pipeline inspectable and reconfigurable. Cycles, differing u
 
 In large-scale data processing, a compiler can translate a high-level script into successive logical and physical dataflow graphs. Operators form the nodes, directed dependencies determine execution order, and optimization rewrites the graph before distributed jobs are generated.
 
+A [[Controllable Dataflow Model]] attaches execution semantics to the edges. Static or streaming generation, persistence, caching, iteration, and immediate propagation can then change how the same computational vertices execute without rebuilding the application logic.
+
 # References
 
 [[augmentedreality_pearson.pdf]]
 
 [[bigdataincomplexandsocialnetworks.pdf]]
+
+[[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]

@@ -12,8 +12,12 @@ In a co-purchase recommender, transaction relationships provide the training sig
 
 At large scale, matrix factorization summarizes a sparse user-item matrix with [[Latent Factor Model]] representations. [[Alternating Least Squares]] can fit those factors by switching between user and item updates, a structure that supports parallel execution.
 
+The same recommendation formulation can model a [[Drug-Target Interaction Matrix]]. A logistic factorization maps drugs and proteins into a shared latent space, then adds confidence weighting and neighborhood constraints because verified interactions are more reliable than unobserved pairs.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[frontiersofdatascience.pdf]]
+
+[[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]

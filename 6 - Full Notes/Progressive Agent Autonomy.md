@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[DevOps Agent Safety and Autonomy]]
+Tags: [[DevOps Agent Safety and Autonomy]] [[Production Network Agent Operations]]
 
 # Progressive Agent Autonomy
 
@@ -10,6 +10,10 @@ Progressive autonomy grants authority in stages. At observe level, an agent anal
 
 Authority remains revocable and bounded at every stage. Most implementations should stop at controlled action because production changes, security policy, and final merges carry consequences that require explicit human accountability.
 
+The network-agent rollout applies these stages as local lab, internal demo, approved read-only pilot, recommendation mode, approval-gated action, and only then expanded production scope. Each stage has exit evidence: reviewable tool output, working access controls and logs, trusted recommendations, or complete approvals and rollback records. Capability grows from demonstrated behavior rather than from the model’s apparent confidence.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
+
+[[buildingaiagentsfornetworkoperations.pdf]]

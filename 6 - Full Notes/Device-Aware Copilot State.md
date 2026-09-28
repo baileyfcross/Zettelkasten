@@ -10,6 +10,10 @@ Device-aware copilot state records which router, switch, or firewall is the curr
 
 The state must be explicit and changeable because an unnoticed device switch can apply correct syntax to the wrong target. Before presenting commands, the copilot should identify the device context it used. Inventory remains authoritative; conversational selection only points to the relevant record.
 
+In a troubleshooting agent, remembered device context can carry a leaf switch or BGP neighbor across follow-up questions, but every tool call still validates the current target against an approved inventory. Reset behavior clears an old case, and the evidence record names the target explicitly. This prevents conversational continuity from becoming permission to act on a stale or invented hostname.
+
 # References
 
 [[ainetworkingcookbook.pdf]]
+
+[[buildingaiagentsfornetworkoperations.pdf]]

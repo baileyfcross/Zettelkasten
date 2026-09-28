@@ -10,6 +10,10 @@ A reusable network prompt template defines stable instructions with explicit var
 
 Template variables should be validated and clearly delimited so configuration text is not confused with instructions. Versioning the template makes behavioral changes inspectable. Reuse improves consistency, while task-specific templates prevent one oversized prompt from mixing security, optimization, and documentation requirements that need different evaluation criteria.
 
+The network-agent workflow treats prompts as software assets: each template records a role, anchor examples, required context, exact output rules, and a defined response when validation fails. Parser, alert-triage, documentation, and change-risk prompts remain separate because they have different schemas and evaluation criteria. Edge cases and messy source data should be part of prompt regression testing.
+
 # References
 
 [[ainetworkingcookbook.pdf]]
+
+[[buildingaiagentsfornetworkoperations.pdf]]

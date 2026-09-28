@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[DevOps Agent Memory and MCP]]
+Tags: [[DevOps Agent Memory and MCP]] [[Network MCP Tool Architecture]]
 
 # Model Context Protocol Tool Boundary
 
@@ -12,8 +12,12 @@ This boundary lets multiple agents reuse approved integrations without embedding
 
 The Azure AI architecture map situates MCP within tool-augmented and agentic systems as a standard connection boundary rather than an autonomous security mechanism. A model can discover and select an MCP tool, but a trusted application still decides which servers are reachable, which identity is used, what arguments are valid, and whether a proposed action requires approval. That separation is essential when retrieved content can attempt prompt injection or tool misuse.
 
+The network-agent implementation sharpens this boundary by keeping backend access behind safe wrappers and publishing only approved wrapper contracts through the MCP server. A browser reaches those contracts through an HTTP bridge acting as an MCP client. MCP enables reuse across clients, while device allowlists, read-only command policy, structured errors, authentication, logging, and approvals remain responsibilities of the surrounding layers.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
 
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
+
+[[buildingaiagentsfornetworkoperations.pdf]]

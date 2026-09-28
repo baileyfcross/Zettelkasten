@@ -50,6 +50,30 @@ The Model Context Protocol can expose health resources, forecast resources, and 
 
 Firewall logs from different vendors need normalization before patterns can be compared. Network context and threat intelligence can enrich blocked-connection and suspicious-source evidence, and a structured report can state affected assets, indicators, severity, and recommended actions. Incident-response prompts may produce scripts for isolation, blocking, and evidence collection, but speed is not permission. Generated security automation must be reviewed for scope, tested against representative scenarios, constrained by least privilege, and protected by human approval before it can alter a live network.
 
+### Parsing turns network text into checked evidence
+
+[[AI-Assisted Network Output Parsing]] treats a model response as a candidate transformation rather than trusted network state. Raw interface, BGP, log, or inventory text enters with a narrowly defined output schema. The application parses the proposed JSON, checks required fields, types, allowed values, and source grounding, and only then makes the result available to another workflow. Unknown or malformed input remains explicit instead of being completed with plausible values.
+
+This pattern is strongest when network meaning is consistent but vendor presentation differs. A language model can normalize Cisco, Arista, and Juniper-style interface output into one operational shape, while deterministic code performs filtering and policy decisions. Native JSON, mature TextFSM templates, and stable formats should still use conventional parsers. Flexibility belongs to the language layer; trust remains with validation, raw-evidence retention, and controlled failure handling.
+
+### Troubleshooting separates facts from hypotheses
+
+[[Evidence-Based Network Agent Troubleshooting]] organizes an investigation as a controlled sequence of observations. Device reachability, interface state, BGP peers, topology, and bounded ping results answer different questions, so a healthy device record cannot by itself prove healthy routing. The agent chooses approved read-only tools, but the application records their results and can deterministically flag contradictions such as one established peer out of two or a zero-prefix neighbor.
+
+A useful report states the finding, the supporting evidence, a carefully qualified likely cause, the next checks, and the remaining unknowns. This structure prevents a reachability symptom from becoming unsupported proof of a routing cause. Mocked scenarios make the sequence repeatable during development, and visible evidence lets an engineer correct fluent conclusions that disagree with tool output.
+
+### MCP makes safe tools reusable across clients
+
+[[Network MCP Tool Architecture]] separates network business logic from protocol and interface concerns. Safe wrappers validate devices, bound arguments, allow only approved read operations, and return structured results. An MCP server publishes those wrappers as discoverable tools, while stdio or SSE transports connect different client arrangements. A browser may use an HTTP-to-MCP bridge rather than coupling directly to the tool implementation.
+
+Reuse makes contract quality more important. Tool names, arguments, result shapes, errors, and compatibility expectations become dependencies for every client. Wrapper tests should pass before transport tests, and each layer should be diagnosable independently. MCP standardizes discovery and invocation; authentication, authorization, audit logging, rate limits, secrets, and approval policy still belong to the surrounding system.
+
+### Production begins with bounded observation
+
+[[Production Network Agent Operations]] defines the path from an impressive demonstration to a supportable read-only pilot. The production boundary includes the caller, agent application, authorization layer, tool server, approved wrappers, network backend, logs, monitoring, and approval path. Each part owns a distinct control: the model may reason, but code enforces policy and the tool layer validates execution.
+
+The first pilot restricts users, devices, commands, and data volume while recording every tool decision. Review packets, failure tests, runbooks, owners, measurable acceptance criteria, feature flags, and a tested kill switch make the system operable by a team rather than its original builder. Autonomy expands only when evidence supports the next stage. If a failure cannot be detected, explained, stopped, and reviewed from logged tool evidence, the agent remains read-only or stays in the lab.
+
 Together, these topics describe an engineering discipline rather than a collection of model demonstrations. The recurring principles are bounded context, protected credentials, task-specific evaluation, structured output, deterministic validation, observable evidence, reversible change, and human accountability. Models and frameworks will change quickly; these controls preserve the distinction between a useful assistant and an ungoverned network operator.
 
 ## Directly Referenced Tags

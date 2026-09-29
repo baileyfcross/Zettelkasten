@@ -13,3 +13,4 @@ Paper is especially useful for clarifying the player's role, the information tha
 # References
 
 [[gamesdesignandplay.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

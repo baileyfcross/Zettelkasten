@@ -13,3 +13,4 @@ Designers usually reason from mechanics through dynamics to aesthetics, while pl
 # References
 
 [[advancedgamedesign.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

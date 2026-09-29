@@ -13,3 +13,4 @@ Moderate negative feedback can sustain uncertainty and recovery. If it is too st
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

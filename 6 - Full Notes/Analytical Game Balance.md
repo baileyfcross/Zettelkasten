@@ -13,4 +13,4 @@ The method requires a playable game and a sufficiently representative sample. An
 # References
 
 [[advancedgamedesign.pdf]]
-
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

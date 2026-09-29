@@ -16,3 +16,4 @@ In scene design, chance is most useful for generating combinations among already
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

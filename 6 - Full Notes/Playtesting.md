@@ -20,3 +20,4 @@ Agile teams involve players throughout development rather than waiting for a sep
 [[agamedesignvocabulary.pdf]]
 [[agilegamedevelopment2e.pdf]]
 [[gamesdesignandplay.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

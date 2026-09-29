@@ -13,3 +13,4 @@ Naming conventions communicate scope and role: local variables and private field
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

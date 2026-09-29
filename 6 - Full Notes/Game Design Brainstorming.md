@@ -14,3 +14,4 @@ Separating generation from evaluation protects momentum and participation. After
 
 [[fundamentalsofgamedesign3e.pdf]]
 [[gamesdesignandplay.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

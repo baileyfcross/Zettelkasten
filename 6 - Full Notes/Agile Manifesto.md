@@ -13,3 +13,4 @@ The items on the right still have value. The preference means that when they con
 # References
 
 [[agilegamedevelopment2e.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

@@ -17,3 +17,4 @@ The source distinguishes competitive balance from player-versus-environment diff
 [[advancedgamedesign.pdf]]
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

@@ -13,3 +13,4 @@ A [[Game]] is one organized form of play. It adds a pretended context, at least 
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

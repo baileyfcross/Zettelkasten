@@ -13,3 +13,4 @@ The approach is a design paradigm rather than a language or tool. In C#, [[Encap
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

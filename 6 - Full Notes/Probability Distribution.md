@@ -17,3 +17,4 @@ In Bayesian reasoning, a probability distribution assigns normalized plausibilit
 [[advancedgamedesign.pdf]]
 
 [[bayesianprogramming.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

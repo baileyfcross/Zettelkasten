@@ -17,3 +17,4 @@ A class acts as a reusable definition of state and behavior; an object is one in
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

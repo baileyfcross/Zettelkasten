@@ -13,3 +13,4 @@ Scrum does not prescribe the engineering or creative techniques used inside a Sp
 # References
 
 [[agilegamedevelopment2e.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

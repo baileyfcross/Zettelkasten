@@ -22,3 +22,4 @@ In an agile backlog, a timeboxed [[Spike]] can use a prototype to remove uncerta
 [[advancedgamedesign.pdf]]
 [[agilegamedevelopment2e.pdf]]
 [[gamesdesignandplay.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

@@ -10,6 +10,10 @@ Cross-validation divides training observations into folds, fits the model on all
 
 The resulting error estimate supports [[Hyperparameter]] selection without treating resubstitution performance as generalization. All preprocessing and feature selection that learn from data must occur within each training fold to prevent information leakage.
 
+For estimator selection, $V$-fold cross-validation fits every candidate on $V$ partial datasets and chooses the one with the smallest held-out prediction error. Larger $V$ increases computational cost, while very small $V$ reduces the stabilizing effect of repeated subsampling. In high-dimensional small-sample problems, partial-sample fits can be unstable and general finite-sample guarantees are difficult, motivating alternatives such as [[Complexity-Based Estimator Selection]].
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[introductiontohigh-dimensionalstatistics.pdf]]

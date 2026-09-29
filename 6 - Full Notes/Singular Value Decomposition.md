@@ -12,8 +12,12 @@ Unlike eigenvalue decomposition, SVD applies to rectangular matrices. It exposes
 
 For high-dimensional data, the source orders the transformed directions by decreasing sum of squares. Retaining the leading directions creates a lower-dimensional approximation that preserves dominant variation and often preserves much of the pairwise distance among samples.
 
+Truncating the decomposition after rank $r$ gives the closest rank-at-most-$r$ matrix in Frobenius norm, with approximation error equal to the sum of squared discarded singular values. In [[Low-Rank Multivariate Regression]], one SVD of the response projected onto the design space produces all rank-constrained candidate fits.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[introductiontohigh-dimensionalstatistics.pdf]]

@@ -10,6 +10,10 @@ A p-value is the probability, under a specified [[Null Hypothesis]], of obtainin
 
 The value is itself a [[Random Variable]] across repeated studies. It should be reported with an [[Effect Size]] and uncertainty because statistical significance alone does not establish scientific importance.
 
+Under a continuous true null, a properly calibrated p-value is uniformly distributed. Multiple-testing procedures use this distributional property jointly across many hypotheses, so the dependence among p-values can determine which false-discovery guarantees remain valid.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[introductiontohigh-dimensionalstatistics.pdf]]

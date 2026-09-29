@@ -12,7 +12,10 @@ Linear, polynomial, exponential, logistic, piecewise-linear, and hand-crafted cu
 
 Perceived challenge may follow a zigzag rather than a smooth rise. A new demand can temporarily push the player toward frustration, while mastery and a quieter section create a plateau before the next development.
 
+Exponential growth is useful when equal additions would make later advancement feel negligible: each step multiplies the prior value, so absolute gains grow while their relative effect stays meaningful. Diminishing returns uses the inverse relationship when improvement should remain possible but each additional investment should yield less. The chosen chart should be treated as a high-level system constraint and tested against the rest of the game's hierarchy.
+
 # References
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+[[introductiontogamesystemdesign.pdf]]

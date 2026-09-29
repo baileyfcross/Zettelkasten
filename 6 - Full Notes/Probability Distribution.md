@@ -12,9 +12,12 @@ The distribution's mean, mode, median, and range describe different aspects of i
 
 In Bayesian reasoning, a probability distribution assigns normalized plausibility across the alternatives of a variable. Joint distributions describe several variables together, conditional distributions incorporate known information, and marginal distributions remove variables that are not part of the question.
 
+In game systems, combining events changes the shape of the distribution. One fair die is uniform, while the sum of two dice clusters around the middle because more combinations produce those totals. Designers should distinguish independent events from dependent or mutually exclusive events and inspect the full outcome space rather than assuming that visible randomness implies equal likelihood.
+
 # References
 
 [[advancedgamedesign.pdf]]
 
 [[bayesianprogramming.pdf]]
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+[[introductiontogamesystemdesign.pdf]]

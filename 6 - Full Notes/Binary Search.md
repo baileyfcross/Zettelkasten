@@ -10,6 +10,9 @@ Binary search locates a target in ordered data by examining the middle item. A m
 
 Repeated halving gives [[Logarithmic Time Complexity]], $O(\log n)$, and makes extremely large ordered collections searchable with few probes. The algorithm also reports failure when its [[Search Space]] becomes empty. Implementations must calculate the midpoint without causing [[Integer Overflow]].
 
+The same method can tune a game value when testing supplies “too high” or “too low” feedback. A designer brackets a [[Viable Balance Range]], tests its midpoint, discards the unsuitable half, and repeats. If no initial bounds are known, doubling or halving a provisional value until it crosses the desired behavior can establish the interval first.
+
 # References
 
 [[algorithms.epub]]
+[[introductiontogamesystemdesign.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]], [[Continuous Integration and Delivery]] [[Cloud Messaging Caching and Operations Patterns]]
+Tags: [[Agile Engineering and Quality]], [[Continuous Integration and Delivery]] [[Cloud Messaging Caching and Operations Patterns]], [[Reproducible Scientific Software]]
 
 # Continuous Integration
 
@@ -18,6 +18,8 @@ The DevOps chapters define CI as building and testing every integrated commit so
 
 A GitHub Actions workflow expresses this feedback loop as event-triggered jobs and steps on isolated runners. Dependency caching and parallel jobs can shorten the loop, but a cache is an optimization rather than a build input: a clean runner must still be able to reproduce the result. Secrets should be injected only into jobs that require them and never printed to logs.
 
+In scientific software, continuous integration can build and test each accepted change across multiple platforms and publish the results on a shared dashboard. Linking a newly failing test to the responsible revision makes software quality visible to the research community and catches environment-specific regressions before they silently alter later analyses.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -26,3 +28,5 @@ A GitHub Actions workflow expresses this feedback loop as event-triggered jobs a
 [[aspnetcore3andreact.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[clouddevopsengineersguide.pdf]]
+
+[[implementingreproducableresearch.pdf]]

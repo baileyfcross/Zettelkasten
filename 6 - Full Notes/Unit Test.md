@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]] [[ASP.NET Core API Integration Testing]] [[Test-Driven Development and Unit Test Design]]
+Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]] [[ASP.NET Core API Integration Testing]] [[Test-Driven Development and Unit Test Design]] [[Reproducible Scientific Software]]
 
 # Unit Test
 
@@ -16,6 +16,8 @@ In a full-stack web application, unit tests can isolate ASP.NET Core controller 
 
 The web-research chapter emphasizes that test code has a maintenance cost and should prove a useful behavior. Its controller/database example spans multiple components and is therefore described cautiously rather than being labeled a pure single-unit test.
 
+For research software, writing a small test as a scientific component is developed localizes defects near their introduction. Automated execution across supported systems then distinguishes failures caused by a proposed change from failures caused by platform differences, strengthening confidence in the software used to produce scientific results.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -26,3 +28,5 @@ The web-research chapter emphasizes that test code has a maintenance cost and sh
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
+[[implementingreproducableresearch.pdf]]

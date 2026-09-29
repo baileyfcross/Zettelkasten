@@ -2,7 +2,7 @@
   "id": "6d411b10-bfc4-4f30-aab6-6e414580f9bb",
   "title": "what would be a good way to talk about proofs...",
   "createdAt": "2026-09-28T03:01:11.319Z",
-  "updatedAt": "2026-09-28T04:55:39.490Z",
+  "updatedAt": "2026-09-28T23:57:21.150Z",
   "messages": [
     {
       "id": "edb39ec9-8fd1-4b96-8195-c065fc7706be",
@@ -381,6 +381,328 @@
         "answeringMs": 474044.2999999821,
         "modelStartupMs": 23387.031255,
         "promptProcessingMs": 534137.718
+      }
+    },
+    {
+      "id": "c2223dbb-711f-48e3-abe9-f80acda48405",
+      "role": "user",
+      "content": "Tell me about quantum physics",
+      "createdAt": "2026-09-28T23:55:36.209Z",
+      "requestState": "error"
+    },
+    {
+      "id": "c1efe2f5-0ec4-404b-a1ba-a6725185c483",
+      "role": "assistant",
+      "content": "**Request failed.**\n\nThe request did not complete. The error has been saved here so it can be reviewed later.\n\n**Error**\n\n```text\nStreaming chat request failed for model \"gpt-oss:20b\". socket hang up\n```",
+      "createdAt": "2026-09-28T23:56:16.134Z",
+      "sources": [
+        {
+          "filePath": "6 - Full Notes/Inference Complexity.md",
+          "heading": "Inference Complexity",
+          "score": 0.7875496504643623,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Inference Complexity.md",
+          "heading": "Document",
+          "score": 0.7694302374005078,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Symbolic Inference.md",
+          "heading": "Symbolic Inference",
+          "score": 0.7459318606091077,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Symbolic Inference.md",
+          "heading": "Document",
+          "score": 0.7403682200634568,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Inference Complexity.md",
+          "heading": "References",
+          "score": 0.7245297092468376,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Theory of Computation.md",
+          "heading": "Theory of Computation > Overview Chapter",
+          "score": 0.7158749514839169,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Symbolic Inference.md",
+          "heading": "References",
+          "score": 0.6758654030037621,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Physics.md",
+          "heading": "Physics > Overview Chapter",
+          "score": 0.6711182455625252,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Causal Inference Philosophy.md",
+          "heading": "Causal Inference Philosophy > Linked Full Notes",
+          "score": 0.6557919990168689,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "2 - Source Material/Books/bayesianprogramming.pdf",
+          "heading": "12.15 Inference",
+          "score": 0.6387435489463599,
+          "sourceType": "pdf",
+          "pageStart": 225,
+          "pageEnd": 227,
+          "sectionNumber": "12.15",
+          "sectionTitle": "Inference"
+        },
+        {
+          "filePath": "2 - Source Material/Books/foundationsofphysics.pdf",
+          "heading": "27.5 Interpretations of Quantum Theory",
+          "score": 0.6345251241007448,
+          "sourceType": "pdf",
+          "pageStart": 604,
+          "pageEnd": 604,
+          "sectionNumber": "27.5",
+          "sectionTitle": "Interpretations of Quantum Theory"
+        },
+        {
+          "filePath": "2 - Source Material/Books/foundationsofphysics.pdf",
+          "heading": "QUANTUM THEORY",
+          "score": 0.6326705822401969,
+          "sourceType": "pdf",
+          "pageStart": 578,
+          "pageEnd": 578,
+          "sectionNumber": "26.5",
+          "sectionTitle": "Exercises"
+        },
+        {
+          "filePath": "2 - Source Material/Books/healthcaredataanalytics.pdf",
+          "heading": "19.3.1.2 Inference Engine",
+          "score": 0.6323892583159816,
+          "sourceType": "pdf",
+          "pageStart": 661,
+          "pageEnd": 662,
+          "sectionNumber": "19.3.1.2",
+          "sectionTitle": "Inference Engine"
+        },
+        {
+          "filePath": "6 - Full Notes/Bayesian Inference.md",
+          "heading": "Document",
+          "score": 0.6276927743786852,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        }
+      ],
+      "requestState": "error",
+      "errorMessage": "Streaming chat request failed for model \"gpt-oss:20b\". socket hang up",
+      "generationDurationMs": 39708,
+      "stageTimings": {
+        "retrievalMs": 2187.0999999940395
+      }
+    },
+    {
+      "id": "6183cf9e-674f-40ce-93e8-fa6e95001443",
+      "role": "user",
+      "content": "Tell me about quantum physics",
+      "createdAt": "2026-09-28T23:56:46.131Z",
+      "requestState": "error"
+    },
+    {
+      "id": "5c321435-8397-4dca-8d74-cbf73134d2f4",
+      "role": "assistant",
+      "content": "**Request failed.**\n\nThe request did not complete. The error has been saved here so it can be reviewed later.\n\n**Error**\n\n```text\nStreaming chat request failed for model \"gpt-oss:20b\". Ollama returned HTTP 500. {\"error\":\"llama-server process has terminated: signal: killed\"}\n```",
+      "createdAt": "2026-09-28T23:57:21.145Z",
+      "sources": [
+        {
+          "filePath": "6 - Full Notes/Inference Complexity.md",
+          "heading": "Inference Complexity",
+          "score": 0.7875496504643623,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Inference Complexity.md",
+          "heading": "Document",
+          "score": 0.7694302374005078,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Symbolic Inference.md",
+          "heading": "Symbolic Inference",
+          "score": 0.7459318606091077,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Symbolic Inference.md",
+          "heading": "Document",
+          "score": 0.7403682200634568,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Inference Complexity.md",
+          "heading": "References",
+          "score": 0.7245297092468376,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Theory of Computation.md",
+          "heading": "Theory of Computation > Overview Chapter",
+          "score": 0.7158749514839169,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "6 - Full Notes/Symbolic Inference.md",
+          "heading": "References",
+          "score": 0.6758654030037621,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Physics.md",
+          "heading": "Physics > Overview Chapter",
+          "score": 0.6711182455625252,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "3 - Tags/Causal Inference Philosophy.md",
+          "heading": "Causal Inference Philosophy > Linked Full Notes",
+          "score": 0.6557919990168689,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        },
+        {
+          "filePath": "2 - Source Material/Books/bayesianprogramming.pdf",
+          "heading": "12.15 Inference",
+          "score": 0.6387435489463599,
+          "sourceType": "pdf",
+          "pageStart": 225,
+          "pageEnd": 227,
+          "sectionNumber": "12.15",
+          "sectionTitle": "Inference"
+        },
+        {
+          "filePath": "2 - Source Material/Books/foundationsofphysics.pdf",
+          "heading": "27.5 Interpretations of Quantum Theory",
+          "score": 0.6345251241007448,
+          "sourceType": "pdf",
+          "pageStart": 604,
+          "pageEnd": 604,
+          "sectionNumber": "27.5",
+          "sectionTitle": "Interpretations of Quantum Theory"
+        },
+        {
+          "filePath": "2 - Source Material/Books/foundationsofphysics.pdf",
+          "heading": "QUANTUM THEORY",
+          "score": 0.6326705822401969,
+          "sourceType": "pdf",
+          "pageStart": 578,
+          "pageEnd": 578,
+          "sectionNumber": "26.5",
+          "sectionTitle": "Exercises"
+        },
+        {
+          "filePath": "2 - Source Material/Books/healthcaredataanalytics.pdf",
+          "heading": "19.3.1.2 Inference Engine",
+          "score": 0.6323892583159816,
+          "sourceType": "pdf",
+          "pageStart": 661,
+          "pageEnd": 662,
+          "sectionNumber": "19.3.1.2",
+          "sectionTitle": "Inference Engine"
+        },
+        {
+          "filePath": "6 - Full Notes/Bayesian Inference.md",
+          "heading": "Document",
+          "score": 0.6276927743786852,
+          "sourceType": "markdown",
+          "pageStart": 0,
+          "pageEnd": 0,
+          "sectionNumber": "",
+          "sectionTitle": ""
+        }
+      ],
+      "requestState": "error",
+      "errorMessage": "Streaming chat request failed for model \"gpt-oss:20b\". Ollama returned HTTP 500. {\"error\":\"llama-server process has terminated: signal: killed\"}",
+      "generationDurationMs": 35008,
+      "stageTimings": {
+        "retrievalMs": 1677.9000000059605
       }
     }
   ]

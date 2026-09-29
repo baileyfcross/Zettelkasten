@@ -17,3 +17,5 @@ At the core-code level, each editor instance stores persistent data through a [[
 [[blenderfordummies4thedition.pdf]]
 
 [[coreblenderdevelopment.pdf]]
+
+[[introductiontoblender30.pdf]]

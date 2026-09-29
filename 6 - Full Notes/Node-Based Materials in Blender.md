@@ -13,3 +13,5 @@ A basic material connects a Principled BSDF shader to Material Output. The outpu
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

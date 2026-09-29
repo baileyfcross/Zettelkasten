@@ -13,3 +13,5 @@ Collections provide another form of organization by grouping scene elements for 
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

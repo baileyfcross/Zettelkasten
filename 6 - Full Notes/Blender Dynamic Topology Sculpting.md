@@ -13,3 +13,5 @@ Dyntopo favors freeform creation over clean production topology. Its result ofte
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

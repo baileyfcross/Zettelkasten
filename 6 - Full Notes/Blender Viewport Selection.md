@@ -13,3 +13,5 @@ The last object selected is the active object, a distinction that matters for op
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

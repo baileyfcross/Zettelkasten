@@ -13,3 +13,5 @@ Although the node looks complex, its purpose is consistency and shareability. A 
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

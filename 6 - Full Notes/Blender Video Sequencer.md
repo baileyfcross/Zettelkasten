@@ -13,3 +13,5 @@ The Video Editing workspace combines the Sequencer with previews, file access, p
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

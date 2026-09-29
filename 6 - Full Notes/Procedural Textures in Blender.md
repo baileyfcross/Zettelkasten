@@ -13,3 +13,5 @@ Procedural data can serve materials as well as brushes used for painting, sculpt
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

@@ -17,3 +17,5 @@ A production-ready layout also avoids unintended overlaps, preserves padding for
 [[blenderfordummies4thedition.pdf]]
 
 [[creatinggameenvironmentsinblender3d.pdf]]
+
+[[introductiontoblender30.pdf]]

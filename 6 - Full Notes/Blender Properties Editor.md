@@ -13,3 +13,5 @@ Available contexts depend on the active selection. A camera, mesh, material, or 
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

@@ -14,3 +14,4 @@ Angle limit, island margin, area weighting, and aspect correction affect the res
 
 [[creatinggameenvironmentsinblender3d.pdf]]
 
+[[introductiontoblender30.pdf]]

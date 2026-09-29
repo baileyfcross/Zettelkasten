@@ -13,3 +13,5 @@ The Tab key commonly switches between the modes, and the Modeling workspace can 
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

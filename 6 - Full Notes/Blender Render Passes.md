@@ -16,3 +16,5 @@ Gress's visual-effects examples extend this principle to independent color, diff
 
 [[blenderfordummies4thedition.pdf]]
 [[digitalvisualeffectsandcompositing.pdf]]
+
+[[introductiontoblender30.pdf]]

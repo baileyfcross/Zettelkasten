@@ -13,3 +13,5 @@ This reduces memory and keeps repeated forms synchronized. It is appropriate for
 # References
 
 [[howtocheatinblender27x.pdf]]
+
+[[introductiontoblender30.pdf]]

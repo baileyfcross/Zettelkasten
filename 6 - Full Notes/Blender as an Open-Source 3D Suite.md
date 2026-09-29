@@ -13,3 +13,5 @@ Open source means that the program's code can be inspected and modified rather t
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

@@ -13,3 +13,5 @@ Reuse saves modeling time but does not erase provenance. The artist must verify 
 # References
 
 [[howtocheatinblender27x.pdf]]
+
+[[introductiontoblender30.pdf]]

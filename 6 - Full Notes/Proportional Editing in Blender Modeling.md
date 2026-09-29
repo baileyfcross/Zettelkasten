@@ -14,3 +14,4 @@ Falloff shape and influence radius determine the character of the change, while 
 
 [[creatinggameenvironmentsinblender3d.pdf]]
 
+[[introductiontoblender30.pdf]]

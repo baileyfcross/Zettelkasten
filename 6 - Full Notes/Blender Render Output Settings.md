@@ -13,3 +13,5 @@ Blender retains a render internally at high quality and applies the chosen file 
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

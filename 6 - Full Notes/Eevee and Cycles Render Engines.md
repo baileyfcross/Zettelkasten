@@ -13,3 +13,5 @@ Cycles uses a more complete model of light transport and can handle lighting sit
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

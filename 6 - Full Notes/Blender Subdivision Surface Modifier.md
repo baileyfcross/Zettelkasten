@@ -13,3 +13,5 @@ Keeping subdivision procedural separates shape control from display detail. View
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

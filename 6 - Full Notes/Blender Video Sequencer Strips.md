@@ -13,3 +13,5 @@ Sidebar controls set a strip's name, start frame, channel, blend behavior, crop,
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

@@ -13,3 +13,5 @@ Choosing the right preset reduces repeated setup. A modeling workspace can expos
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

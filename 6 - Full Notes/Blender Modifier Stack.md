@@ -13,3 +13,5 @@ Modifiers form an ordered stack. Each one operates on the output of the modifier
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

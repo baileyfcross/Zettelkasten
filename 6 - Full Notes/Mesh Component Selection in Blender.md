@@ -17,3 +17,5 @@ In Blender 2.7x, more than one component-selection mode could be active at once,
 [[blenderfordummies4thedition.pdf]]
 
 [[howtocheatinblender27x.pdf]]
+
+[[introductiontoblender30.pdf]]

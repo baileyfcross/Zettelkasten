@@ -13,3 +13,5 @@ This creates discrete surface regions without splitting the object. Because the 
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

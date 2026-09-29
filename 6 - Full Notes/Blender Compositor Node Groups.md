@@ -13,3 +13,5 @@ Groups also become available from the node Add menu. A useful effect can therefo
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

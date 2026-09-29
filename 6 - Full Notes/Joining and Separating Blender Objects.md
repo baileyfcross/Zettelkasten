@@ -13,3 +13,5 @@ When geometry is separated, its origin may remain at the source object's origin.
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

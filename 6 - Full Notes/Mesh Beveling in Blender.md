@@ -13,3 +13,5 @@ The Bevel tool works on selected components and can vary the width and segmentat
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

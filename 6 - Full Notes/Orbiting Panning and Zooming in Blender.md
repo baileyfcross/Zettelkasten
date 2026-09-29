@@ -13,3 +13,5 @@ Thinking of the scene as moving in front of the viewer clarifies these controls.
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

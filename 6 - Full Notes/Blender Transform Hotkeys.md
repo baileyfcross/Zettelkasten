@@ -13,3 +13,5 @@ The same interaction pattern appears in editors beyond the 3D Viewport, includin
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

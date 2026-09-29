@@ -13,3 +13,5 @@ The Snap menu connects the cursor to exact placement. Objects can snap to the cu
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

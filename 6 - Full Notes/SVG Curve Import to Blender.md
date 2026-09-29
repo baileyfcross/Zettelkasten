@@ -13,3 +13,5 @@ Conversion produces triangles or quads that follow the visual shape but may not 
 # References
 
 [[howtocheatinblender27x.pdf]]
+
+[[introductiontoblender30.pdf]]

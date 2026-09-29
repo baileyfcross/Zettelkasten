@@ -13,3 +13,5 @@ Inset geometry prepares a surface for later extrusion, deletion, or detail work.
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

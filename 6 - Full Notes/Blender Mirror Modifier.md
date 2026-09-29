@@ -13,3 +13,5 @@ Because the reflection remains procedural, an artist can build one side of a sym
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

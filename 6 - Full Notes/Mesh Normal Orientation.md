@@ -13,3 +13,5 @@ Flat shading retains distinct face normals for hard boundaries, while smooth sha
 # References
 
 [[blenderpythonapi.pdf]]
+
+[[introductiontoblender30.pdf]]

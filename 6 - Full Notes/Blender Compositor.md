@@ -13,3 +13,5 @@ The Compositing workspace begins with a Render Layers input connected to a Compo
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

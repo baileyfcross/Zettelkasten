@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[JPEG Compression Forensics]]
+Tags: [[JPEG Compression Forensics]] [[JPEG Encoding and Optimization]]
 
 # JPEG Decoding Pipeline
 
@@ -10,6 +10,9 @@ The JPEG decoding pipeline reverses the lossless coding steps, restores quantize
 
 It cannot undo the rounding performed during encoding. Missing coefficients are estimated only through the stored quantized values, which is why successive saves can accumulate distortion and why prior quantization may remain detectable after a second compression.
 
+Decoding also has a runtime cost separate from transfer size. The browser must reconstruct full component planes and color for display, so a small compressed file can still consume significant CPU time and [[Decoded Image Memory Footprint|decoded memory]].
+
 # References
 
 [[fakephotos.epub]]
+[[highperformanceimages.pdf]]

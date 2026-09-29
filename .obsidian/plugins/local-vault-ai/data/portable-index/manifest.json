@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-28T07:04:49.371Z",
+  "updatedAt": "2026-09-28T21:59:20.106Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -9623,6 +9623,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "4ae60b70519ef8247b87efdc8094bfa6c6c8268560f9b9e0d980e5db07ddb834"
+      ]
+    },
+    "6 - Full Notes/Accept-CH Opt-In.md": {
+      "sourceHash": "1b643a4a31ca0f750c742c842974339824c41944339904d2015d9e37ac48d395",
+      "sourceType": "markdown",
+      "fileName": "Accept-CH Opt-In.md",
+      "title": "Accept-CH Opt-In",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d43cd9702f14ec0c9761a23741db69bb91f2e3134f91948e90a19c02bf41ccfd"
       ]
     },
     "6 - Full Notes/Acceptable Use Policy.md": {
@@ -20415,6 +20425,16 @@
         "f11d50301bd1f7860c35f975a4948aa8bf8a538a56882f048efd696a9abacdd0"
       ]
     },
+    "6 - Full Notes/Cache-Control for Image Intermediaries.md": {
+      "sourceHash": "5680bf63739a79d6b850edaf63e0a003e0f6aea3e285d5ae3388a41698ed28f8",
+      "sourceType": "markdown",
+      "fileName": "Cache-Control for Image Intermediaries.md",
+      "title": "Cache-Control for Image Intermediaries",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a8e9a0e817856a6f52750dca88572981b609c37f4318d645db6f4dd7a29f8c14"
+      ]
+    },
     "6 - Full Notes/Cache-Control Header.md": {
       "sourceHash": "d1f146153c7302981bf15be728c30e7ec724ef2d6c473945ee7e5c1c9e873046",
       "sourceType": "markdown",
@@ -21003,6 +21023,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "e4f084580c8c941d6044f0feed9f15df967992a1309ca94ca8bf2fd8b79c17cf"
+      ]
+    },
+    "6 - Full Notes/CDN Variant Cache Fragmentation.md": {
+      "sourceHash": "ef8307ca502a122b1fe281bbf38b2bfb9bad26fe11b2c4b8d002cb4ec765e5bf",
+      "sourceType": "markdown",
+      "fileName": "CDN Variant Cache Fragmentation.md",
+      "title": "CDN Variant Cache Fragmentation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "34a8a6164b4860fb52e9d8922ab352577ea7f1ee1a0a2db2825ad7746dd11d28"
       ]
     },
     "6 - Full Notes/Cech Complex.md": {
@@ -21913,6 +21943,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "15f567867d9b1b77a21342d8155f2feda91e1d9a54640d6e591bd4674b0e0dd0"
+      ]
+    },
+    "6 - Full Notes/Client Hints Image Negotiation.md": {
+      "sourceHash": "9827a21646eade836e3f828841303b012262a757daac0e110e94778ba7dd6b15",
+      "sourceType": "markdown",
+      "fileName": "Client Hints Image Negotiation.md",
+      "title": "Client Hints Image Negotiation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f9eda3a52f3db294bd431dc3e11c0ce943d054da06a3efa0558dacaada036228"
       ]
     },
     "6 - Full Notes/Client-Server Evolution from Time-Sharing.md": {
@@ -26063,6 +26103,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "6c8b1695a3e67e3c8581b166e5aad1654f852145e45974ef66257ddfe61d87ea"
+      ]
+    },
+    "6 - Full Notes/Content-DPR Response Header.md": {
+      "sourceHash": "09b9272465f32e9eed1c3cf2d34700cbd1f6c035638a455af6cb83200b3a9e3e",
+      "sourceType": "markdown",
+      "fileName": "Content-DPR Response Header.md",
+      "title": "Content-DPR Response Header",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0b5792512b09ec9fa763eba40ff6526a72b94b6843c76d7e580d76b23418240d"
       ]
     },
     "6 - Full Notes/Content-Driven Game.md": {
@@ -31995,6 +32045,16 @@
         "7e1d75c2d6df376928a0dae221838c3a555c4d9a4c43e7243fff78afccc91732"
       ]
     },
+    "6 - Full Notes/Device-Pixel-Ratio Client Hint.md": {
+      "sourceHash": "e2754ec06c9c801a255b12fcea54e9adccadaf2e8237d1832cb78e651813add5",
+      "sourceType": "markdown",
+      "fileName": "Device-Pixel-Ratio Client Hint.md",
+      "title": "Device-Pixel-Ratio Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e8dddf7a65711231bfaef30ea4ea98997ef633de0feeb873c767b08d288938e8"
+      ]
+    },
     "6 - Full Notes/DevOps Agent Architecture.md": {
       "sourceHash": "a5986cce81ac4a3d194c843b96a6e43220cc561f07bc5768d5896d88d7f85eef",
       "sourceType": "markdown",
@@ -33573,6 +33633,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "aa688650d3e3afd61c3da5a620d0c13cd717a0eebdb9739f252d22ced2d50c4e"
+      ]
+    },
+    "6 - Full Notes/Downlink Client Hint.md": {
+      "sourceHash": "9bc0998c43e4ab9b60e36ef866c28211edafbb810e9439dc8e03731fa2240ca6",
+      "sourceType": "markdown",
+      "fileName": "Downlink Client Hint.md",
+      "title": "Downlink Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f3872326fa20251f6e05b359d4d50f467b185d77344574685a9ddd283c2c663b"
       ]
     },
     "6 - Full Notes/Downward Causality.md": {
@@ -45015,6 +45085,16 @@
         "0886f096cdce59cf07c265cfc1e26637a56e323c6f3c791f1a72543a93c9dc48"
       ]
     },
+    "6 - Full Notes/Image Domain Sharding Under HTTP2.md": {
+      "sourceHash": "14fd4ef38da85b02604d38eb6315bf153648e3931774579045e0294ebad21cde",
+      "sourceType": "markdown",
+      "fileName": "Image Domain Sharding Under HTTP2.md",
+      "title": "Image Domain Sharding Under HTTP2",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d1811ad432e7693e1e39a539ed049aacfd0d357a0d15ff4652ac67d2c5b3f2e4"
+      ]
+    },
     "6 - Full Notes/Image Forensics Countermeasure.md": {
       "sourceHash": "3d4d9462a638a771c82ad9e8c529fa3709f009ffeec1cac285e56952248aadb4",
       "sourceType": "markdown",
@@ -45065,6 +45145,16 @@
         "3b3842af8ca6ac3594d14fc9f16ae091c9d5605942cb3d10b7cef28dcd0ed032"
       ]
     },
+    "6 - Full Notes/Image Quality Tier Selection.md": {
+      "sourceHash": "5fb95bd58f65a2567db6f4b192f7795edc895366298481c2fcef9cfa039e6a2d",
+      "sourceType": "markdown",
+      "fileName": "Image Quality Tier Selection.md",
+      "title": "Image Quality Tier Selection",
+      "chunkCount": 3,
+      "objectHashes": [
+        "21a5c5608a00fa18d834d9670c456fb828bdb007dc9ba3b4be8b9c75f945c669"
+      ]
+    },
     "6 - Full Notes/Image Recognition.md": {
       "sourceHash": "3e2c0fb84b8225ac3c126bce65f2a1bebb971355d281387c23b009b5ecaf994d",
       "sourceType": "markdown",
@@ -45093,6 +45183,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "a2f51aaa32ff6b783146f23b48103ed8384d3ee73867b94fca6efb4ad8d62eb0"
+      ]
+    },
+    "6 - Full Notes/Image Width Breakpoint Budget.md": {
+      "sourceHash": "7104865c6a65c4f6f29720c10cfea6a56f6bd8599fcd3a108a13626989053581",
+      "sourceType": "markdown",
+      "fileName": "Image Width Breakpoint Budget.md",
+      "title": "Image Width Breakpoint Budget",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2f62e26b7ebc43cbdd0124e20ac02d643bac4c47dd7b2a913dc7f42b67e7424a"
       ]
     },
     "6 - Full Notes/Image-Based Lighting.md": {
@@ -65975,6 +66075,16 @@
         "97a9fd42101c10ddc844ffafdfd90cb4d829f4941d99d0b32d46fb6b74043379"
       ]
     },
+    "6 - Full Notes/Resource Width Client Hint.md": {
+      "sourceHash": "cebc55da66e2669da563c90b1e451b6778a3fc2cb1bd9a81ab0945a793580412",
+      "sourceType": "markdown",
+      "fileName": "Resource Width Client Hint.md",
+      "title": "Resource Width Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "9318cdef5ca236c58dbd2793b4b48830cf3c2e96f00eaa025dbc9979a40dabc6"
+      ]
+    },
     "6 - Full Notes/Resource.md": {
       "sourceHash": "b83fac69d5ec58432e7145fa5c49e8dacf3a94636db8b9131bfcef87e9a0bdc0",
       "sourceType": "markdown",
@@ -67113,6 +67223,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "01e48d73e34371704e90a3ff6870a826a326b6efa5a93c1f571b080c02b8cfa1"
+      ]
+    },
+    "6 - Full Notes/Save-Data Client Hint.md": {
+      "sourceHash": "e07e27fe1bf8c99b2a721d5235dcbec4bf06684d1f7b771ee6fe38134cd4db31",
+      "sourceType": "markdown",
+      "fileName": "Save-Data Client Hint.md",
+      "title": "Save-Data Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8b2dcdc60ab40e6579d873736b68025a383aa273417dfa846b5957c6b24d4317"
       ]
     },
     "6 - Full Notes/Saving Painted Textures in Blender.md": {
@@ -69293,6 +69413,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "70e48fd60f454fa4029778cf9e8066d9ee47cd337d1c6ce86704c1e9340af85d"
+      ]
+    },
+    "6 - Full Notes/Single URL Versus Image Variant URLs.md": {
+      "sourceHash": "920297baaf6977da0898e8194e3057f7c143414463255cd87be5b6c793d3246e",
+      "sourceType": "markdown",
+      "fileName": "Single URL Versus Image Variant URLs.md",
+      "title": "Single URL Versus Image Variant URLs",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6e4c6f803d670b419611c5afe6c4523ec259352a806b684be85858abbccc8be1"
       ]
     },
     "6 - Full Notes/Single-Image Depth Ambiguity.md": {
@@ -79215,6 +79345,16 @@
         "dffcdce52bb419a4e990072cde0c1d3c00d0f315f8a8a6b762fa3fbae7521ba1"
       ]
     },
+    "6 - Full Notes/Vary Header for Image Variants.md": {
+      "sourceHash": "b1c64c702495f5db207a1d867816df13142003cc2d5d2d0f000094559bd19482",
+      "sourceType": "markdown",
+      "fileName": "Vary Header for Image Variants.md",
+      "title": "Vary Header for Image Variants",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4abcfe0632e1ec80c0e4352d6e1f736192bd90a26befb221427938c7af5d51fb"
+      ]
+    },
     "6 - Full Notes/Varying Cross-Section Bar.md": {
       "sourceHash": "03ef66c1ca640bd5b8b6685b044097e222c4d2dd9a3749c04fb2c13a9404a3f9",
       "sourceType": "markdown",
@@ -79793,6 +79933,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "a9fddae4e2f1fb765686873cc15bd7504be240478c9c05281b3acc8eff41c916"
+      ]
+    },
+    "6 - Full Notes/Viewport-Width Client Hint.md": {
+      "sourceHash": "4922d6b6d15b606381ecc1d0882359289661a3c223bc5c79c21ea9f612114203",
+      "sourceType": "markdown",
+      "fileName": "Viewport-Width Client Hint.md",
+      "title": "Viewport-Width Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5d7dfdc4ef0515e4a38bc58f8130932da168e29b10de6340a085641195f7aa82"
       ]
     },
     "6 - Full Notes/Vignetting.md": {

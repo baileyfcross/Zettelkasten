@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[JPEG Compression Forensics]]
+Tags: [[JPEG Compression Forensics]] [[JPEG Encoding and Optimization]]
 
 # JPEG Compression
 
@@ -10,6 +10,9 @@ JPEG compression reduces image storage by preserving visual information to which
 
 The scheme is lossy: lower quality produces smaller files but greater distortion. Because its block structure and quantization leave predictable traces, JPEG is both a source of ordinary artifacts and a record of encoding history used by forensic methods.
 
+For web performance, the same pipeline exposes several independent controls: chroma sampling, coefficient quantization, scan organization, metadata, and entropy tables. Choosing among them is more precise than treating a single encoder quality number as the whole optimization policy.
+
 # References
 
 [[fakephotos.epub]]
+[[highperformanceimages.pdf]]

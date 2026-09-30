@@ -50,6 +50,10 @@ Admission policy cannot see every action taken after a container starts. KubeArm
 
 The mesh introduces its own default and evaluation semantics. A deny match blocks a request, and once allow policies select a workload, requests that match no allow rule are also denied. Kiali visualizes mesh topology, traffic, and configuration, but it depends on the same underlying telemetry and access controls as the rest of the observability stack. A service mesh is therefore not a replacement for Kubernetes networking or application authorization; it is an additional policy and visibility layer whose configuration must agree with both.
 
+### Accelerator-intensive generative-AI platforms
+
+[[Kubernetes Generative AI Operations]] specializes the platform model for workloads whose behavior depends on large model artifacts, retrieval data, probabilistic evaluation, and scarce accelerators. It connects model adaptation and RAG to containerized training and inference, event- and GPU-aware autoscaling, workload cost allocation, high-performance networking, secure endpoints, GPU partitioning, reproducible GenAIOps pipelines, LLM-specific traces, and recovery across zones or clusters. The same enterprise controls still apply, but their unit of operation expands from a pod or service to a feedback loop joining data, model versions, vector stores, serving endpoints, and evaluation evidence.
+
 Across these topics, the enterprise pattern is consistent: stable interfaces sit in front of replaceable components, desired state is reviewed and reconciled, identity is separated from permission, prevention is paired with runtime evidence, and every recovery claim is tested. Kubernetes becomes a platform when those relationships are packaged into repeatable paths that teams can use without receiving unrestricted cluster authority.
 
 ## Directly Referenced Tags
@@ -57,4 +61,3 @@ Across these topics, the enterprise pattern is consistent: stable interfaces sit
 ```query
 path:"3 - Tags" "[[Kubernetes Enterprise Operations]]"
 ```
-

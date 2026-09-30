@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]] [[Linux Kernel Locking]]
 
 # Mutual Exclusion Lock
 
@@ -12,7 +12,10 @@ The protected region should be small, and all accesses to the shared invariant m
 
 A monitor-backed C# lock is process-local, while a named mutex can coordinate ownership across process boundaries at greater operating-system cost. The scope of the protected resource determines which form of mutual exclusion is appropriate.
 
+A Linux kernel mutex is a sleeping lock for process context: contention can deschedule the waiter, and only the owner may unlock it. It cannot be acquired in interrupt or other atomic context, where a [[SpinLock]] or a lock-free technique must protect the state without sleeping.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+[[linuxkernelprogramming_secondedition.pdf]]

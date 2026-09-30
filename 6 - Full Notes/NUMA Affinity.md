@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Data Center Storage Networking]]
+Tags: [[Data Center Storage Networking]] [[Linux CPU Scheduling and Control Groups]]
 
 # NUMA Affinity
 
@@ -10,6 +10,9 @@ NUMA affinity places a thread and the memory or device queues it frequently acce
 
 For a high-rate storage path, interrupt handling, buffers, worker threads, and network interfaces should be assigned with the machine's memory topology in mind.
 
+Linux expresses eligible processors through a [[CPU Affinity Mask]]. Keeping a task near its allocated NUMA node can reduce remote memory traffic, but scheduler load balancing, cpusets, and changing workloads mean that pinning should preserve enough placement flexibility to avoid creating idle CPUs beside overloaded ones.
+
 # References
 
 [[bigdatamanagementandprocessing.pdf]]
+[[linuxkernelprogramming_secondedition.pdf]]

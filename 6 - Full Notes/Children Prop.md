@@ -10,6 +10,10 @@ The React children prop contains the nodes nested inside a component by its cons
 
 Function-component typing makes this prop available without requiring every props interface to declare it separately. A page component can therefore own width and title styling while accepting arbitrary nested page content.
 
+React builds a component tree by placing nested element descriptions in `props.children`. A reusable list, layout, or route template can establish the surrounding structure and render its children at the intended insertion point, allowing the caller to supply content without duplicating the wrapper.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
+
+[[learningreact1.pdf]]

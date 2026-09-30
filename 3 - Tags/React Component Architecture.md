@@ -2,7 +2,7 @@
 
 Parent topic: [[Full-Stack Web Application Development]]
 
-React elements, function components, props, state, hooks, events, rendering, and component styling.
+React elements, JSX, function and class components, props, children, refs, validation, default inputs, and component styling.
 
 ## Linked Full Notes
 

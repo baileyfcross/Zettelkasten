@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[Test-Driven Development and Unit Test Design]]
+Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[Test-Driven Development and Unit Test Design]] [[React Testing Practice]]
 
 # Test-Driven Development
 
@@ -16,6 +16,8 @@ The inventory project uses tests around commands, factories, and the shared repo
 
 The red-green-refactor loop treats the initial failing test as evidence that the new behavior is absent, implements only enough to satisfy it, and then improves the design while the full suite remains green.
 
+The React and Redux source applies the cycle especially to pure reducers: state and an action define the input, the expected next state defines the contract, and the initial failure becomes a precise implementation task. It distinguishes this behavior-first cycle from merely adding tests after code already exists.
+
 # References
 
 [[agilegamedevelopment2e.pdf]]
@@ -23,3 +25,5 @@ The red-green-refactor loop treats the initial failing test as evidence that the
 [[aspnetcore3andangular9_3ed.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
+[[learningreact1.pdf]]

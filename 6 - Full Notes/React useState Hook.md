@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[React Component Architecture]]
+Tags: [[React Component Lifecycle and Integration]]
 
 # React useState Hook
 

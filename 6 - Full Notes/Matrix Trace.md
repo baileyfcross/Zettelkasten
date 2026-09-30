@@ -10,7 +10,10 @@ The trace of a square matrix is the sum of its main-diagonal entries: $\operator
 
 Trace is unchanged by transposition and similarity transformations, and $\operatorname{tr}(AB)=\operatorname{tr}(BA)$ when both products are defined. Counting multiplicity, it also equals the sum of a matrix's eigenvalues.
 
+Because similar matrices represent the same operator in different bases, trace defines a basis-independent invariant of a linear operator. Its cyclic property extends to longer compatible products, allowing factors to be rotated inside the trace.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

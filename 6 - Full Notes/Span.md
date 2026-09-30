@@ -10,7 +10,10 @@ The span of a set of vectors is the collection of all their [[Linear Combination
 
 A set spans a vector space when every vector in the space can be expressed from it. A spanning set that is also linearly independent is a [[Basis]].
 
+If a spanning list contains a vector that is already a linear combination of the others, removing that vector does not change the span. Repeating this deletion produces a basis from any finite spanning set.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

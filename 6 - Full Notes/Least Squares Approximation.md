@@ -10,7 +10,10 @@ Least squares approximation chooses model parameters that minimize the sum of sq
 
 Unlike [[Interpolation]], the fitted function need not pass through every data point. This makes the method suitable for experimental observations containing error and for [[Overdetermined Linear System|overdetermined systems]] with no exact solution.
 
+In matrix form, minimizing $\|Ax-b\|^2$ asks for the point in the column space of $A$ closest to $b$. The residual at a minimizer is orthogonal to every column of $A$, producing the [[Normal Equation]].
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

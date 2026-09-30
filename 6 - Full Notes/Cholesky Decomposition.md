@@ -10,7 +10,10 @@ Cholesky decomposition factors a real [[Positive-Definite Matrix|symmetric posit
 
 The symmetry eliminates the need to store two unrelated triangular factors. Solving $Ax=b$ becomes the successive systems $Ly=b$ and $L^Tx=y$.
 
+The positive diagonal convention makes the factor unique. Cholesky can also be viewed as a Gram-type factorization, since $x^TAx=\|L^Tx\|^2$ directly displays positive definiteness.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

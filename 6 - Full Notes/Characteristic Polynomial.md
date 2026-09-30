@@ -10,7 +10,10 @@ The characteristic polynomial is $p(\lambda)=\det(A-\lambda I)$. Its degree equa
 
 Its coefficients connect eigenvalues to matrix invariants: the sum of eigenvalues equals the [[Matrix Trace]], while their product is related to the [[Determinant]].
 
+The [[Cayley-Hamilton Theorem]] states that the matrix satisfies its own characteristic polynomial. The minimal polynomial therefore divides the characteristic polynomial while retaining exactly the polynomial information needed to annihilate the operator.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

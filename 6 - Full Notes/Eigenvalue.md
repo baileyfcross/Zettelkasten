@@ -12,8 +12,12 @@ The stable PageRank vector has eigenvalue one under the Google matrix because on
 
 For a square matrix $A$, possible eigenvalues are the roots of the [[Characteristic Equation]] $\det(A-\lambda I)=0$. Their sum equals the [[Matrix Trace]] and their product is related to the [[Determinant]], counted with multiplicity.
 
+More generally, an eigenvalue belongs to a linear operator whenever $T-\lambda I$ has a nontrivial kernel. Over an algebraically closed field the characteristic polynomial splits, but over other fields an operator need not have any eigenvalue in the field.
+
 # References
 
 [[algorithms.epub]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[linearalgebra.pdf]]

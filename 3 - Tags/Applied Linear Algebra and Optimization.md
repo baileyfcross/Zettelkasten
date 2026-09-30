@@ -30,6 +30,16 @@ Every computed answer must be interpreted through [[Numerical Error and Conditio
 
 The abstractions underneath these methods are organized in [[Vector Space Geometry]]. Linear combinations, span, independence, bases, dimension, and subspaces explain rank, null spaces, coordinate changes, and eigenspaces. Inner products add length and orthogonality, producing orthonormal bases and orthogonal matrices. [[Complex Linear Algebra]] extends this geometry when entries and eigenvalues are complex: conjugation replaces ordinary transposition in inner products and Hermitian matrices generalize real symmetric matrices.
 
+[[Linear Transformation Structure]] makes the passage from abstract spaces to matrices explicit. A linear transformation preserves addition and scalar multiplication; its kernel measures collapsed directions, its image measures attainable outputs, and rank-nullity balances both against the dimension of the domain. Ordered bases turn the map into a matrix, while a change of basis replaces that matrix by a similar coordinate representation without changing the underlying operator.
+
+Two geometric extensions broaden that picture. [[Affine and Projective Transformations]] adds translations through homogeneous coordinates and treats perspective points as equivalence classes of nonzero coordinate vectors. Affine maps preserve lines and parallelism, rigid motions combine rotations with translations, and projective maps preserve incidence and other projective invariants even when lengths and angles are not meaningful.
+
+[[Matrix Canonical Forms]] asks how simple an operator can become after an appropriate basis change. The minimal polynomial and Cayley-Hamilton theorem constrain every operator, invariant subspaces split a problem into smaller parts, and Jordan blocks describe the residual coupling when diagonalization fails. Companion matrices and matrix pencils convert polynomial root and rank questions into eigenvalue problems.
+
+The same vector-space machinery supports reliable communication in [[Linear Coding Theory]]. Generator matrices map message vectors into codewords, parity-check matrices test whether a received vector belongs to the code, and a nonzero syndrome can locate a single corrupted coordinate. Hamming and Golay codes illustrate how dimension, minimum distance, and duality determine the balance between redundancy and correction.
+
+[[Orthogonal Bases and Projections]] equips vector spaces with metric structure. Gram-Schmidt constructs orthogonal coordinates, orthogonal complements split a space into fitted and residual components, and projection gives the unique closest point in a subspace. Reflection matrices, Householder transformations, spectral decomposition, QR factorization, and singular value decomposition all exploit orthogonality to simplify computation while preserving geometric information.
+
 Finally, [[MATLAB Numerical Computing]] turns the mathematics into an executable workflow. Its command window and workspace support interactive exploration, while matrix syntax, colon-based indexing, element-wise operators, plotting, and function files express reusable algorithms. The software does not replace the mathematics: selecting matrix multiplication instead of element-wise multiplication, checking dimensions, inspecting conditioning, and choosing an appropriate solver all depend on understanding the structures represented in the code.
 
 Together, these topics form a continuous chain. Vector-space structure gives matrices meaning; matrix structure determines solving strategies; eigenvalues and factorizations reveal transformations; interpolation and least squares reconstruct functions from data; optimization selects among alternatives; and error analysis establishes how much confidence a numerical result deserves.
@@ -39,4 +49,3 @@ Together, these topics form a continuous chain. Vector-space structure gives mat
 ```query
 path:"3 - Tags" "[[Applied Linear Algebra and Optimization]]"
 ```
-

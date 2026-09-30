@@ -10,7 +10,10 @@ The Gauss-Seidel method updates the components of an approximate solution sequen
 
 This often converges faster than the [[Jacobi Method]], though convergence is still not automatic. It is the special case $\omega=1$ of [[Successive Over-Relaxation]].
 
+With the splitting $A=D+L+U$, the matrix form is $(D+L)x^{(k+1)}=b-Ux^{(k)}$. The triangular solve explains how each freshly computed component enters the remaining updates immediately.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

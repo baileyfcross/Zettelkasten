@@ -10,7 +10,10 @@ A basis is a set of linearly independent vectors that spans a [[Vector Space]]. 
 
 Changing basis changes coordinate descriptions while preserving the underlying vectors and transformations. Eigenvectors can form a basis when a matrix is [[Diagonalizable Matrix|diagonalizable]].
 
+An ordered basis also fixes the order of coordinates. Once bases are chosen for the domain and codomain, a linear transformation is represented by a unique matrix whose columns are the coordinates of the images of the domain basis vectors.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

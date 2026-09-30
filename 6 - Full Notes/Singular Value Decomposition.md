@@ -14,6 +14,8 @@ For high-dimensional data, the source orders the transformed directions by decre
 
 Truncating the decomposition after rank $r$ gives the closest rank-at-most-$r$ matrix in Frobenius norm, with approximation error equal to the sum of squared discarded singular values. In [[Low-Rank Multivariate Regression]], one SVD of the response projected onto the design space produces all rank-constrained candidate fits.
 
+The nonzero singular values are the square roots of the nonzero eigenvalues of $A^TA$ and $AA^T$. Their corresponding right and left singular vectors describe the input directions and output directions through which the matrix acts as independent scalar stretches.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
@@ -21,3 +23,5 @@ Truncating the decomposition after rank $r$ gives the closest rank-at-most-$r$ m
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[introductiontohigh-dimensionalstatistics.pdf]]
+
+[[linearalgebra.pdf]]

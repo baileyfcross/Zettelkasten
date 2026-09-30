@@ -12,8 +12,12 @@ If the columns of $A$ are linearly independent, the equation has the unique solu
 
 For the source's linear-model notation, the equation is $X^T X\hat\beta=X^T Y$. It explains the mathematics behind R's `lm` result while also showing why production implementations do not need to form the displayed inverse directly.
 
+Geometrically, $A\hat x$ is the orthogonal projection of $b$ onto the column space of $A$. The normal equation follows because the residual must lie in the orthogonal complement of that column space.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[linearalgebra.pdf]]

@@ -10,7 +10,10 @@ The Jacobi method rearranges each equation of a [[Linear System]] to solve for o
 
 Because its updates are simultaneous, it is simple but may converge slowly or diverge. [[Strict Diagonal Dominance]] is a useful sufficient condition for convergence.
 
+Writing $A=D+L+U$ with diagonal part $D$ gives the iteration $x^{(k+1)}=D^{-1}(b-(L+U)x^{(k)})$. Convergence from every initial guess occurs when the iteration matrix has spectral radius below one.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

@@ -10,6 +10,10 @@ An adjacency matrix represents a [[Graph]] with one row and one column for every
 
 For a [[Directed Graph]], the row and column order preserves edge direction. This matrix supplies the link structure from which PageRank constructs a normalized [[Hyperlink Matrix]].
 
+Matrix powers encode longer connectivity: the $(i,j)$ entry of $A^k$ counts length-$k$ walks from vertex $i$ to vertex $j$ under the chosen row-column convention. Degree information from $A$ also feeds the [[Graph Laplacian]].
+
 # References
 
 [[algorithms.epub]]
+
+[[linearalgebra.pdf]]

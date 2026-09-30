@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-28T21:59:20.106Z",
+  "updatedAt": "2026-09-30T02:10:27.725Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -4246,13 +4246,13 @@
       ]
     },
     "3 - Tags/Cloud Computing.md": {
-      "sourceHash": "59a8e974b56307f3fb0bb6499644b616c78c129a0c7e0dd90179422a56030500",
+      "sourceHash": "c8f918ae4537bff84926c7b52b5dd5d14a5d79d341f34e62714d52dfefb55c64",
       "sourceType": "markdown",
       "fileName": "Cloud Computing.md",
       "title": "Cloud Computing",
-      "chunkCount": 10,
+      "chunkCount": 12,
       "objectHashes": [
-        "0f7dc0e6934977ec70c3ea99ea640cfd37ad0f88bc73e510728d219b48d89eec"
+        "a064c93dcfce18f47c78ea971ae1a6a337383dcb6919829d883735cdae218a98"
       ]
     },
     "3 - Tags/Cloud Data Storage Selection and Consistency.md": {
@@ -6615,6 +6615,16 @@
         "ad4544066e01bf758ca4155216e5715dc9701a14a80e33e355a5dc1433d708b0"
       ]
     },
+    "3 - Tags/Istio Service Mesh Operations.md": {
+      "sourceHash": "29ab1e0c1d65ee8b9f05e65d3b8c40c44c5580920130b905474d31f85cc812f0",
+      "sourceType": "markdown",
+      "fileName": "Istio Service Mesh Operations.md",
+      "title": "Istio Service Mesh Operations",
+      "chunkCount": 2,
+      "objectHashes": [
+        "fcdfa90160854bd842943a3a7ba877d1365f682c58095b6a54b6abfd122683f1"
+      ]
+    },
     "3 - Tags/Iterative Game Design Cycle.md": {
       "sourceHash": "0ec0214395d5c2a11b0a4f419c65af3f14dd20f0f92221a6b3b79dc1cb1c556b",
       "sourceType": "markdown",
@@ -6673,6 +6683,86 @@
       "chunkCount": 2,
       "objectHashes": [
         "f533bf2a48dbb8a270c3f97a6b8744326a74d22c3040472a1390e00d87467fd7"
+      ]
+    },
+    "3 - Tags/Kubernetes Backup and Restore Operations.md": {
+      "sourceHash": "cd692e491ff33a49af7db42fd991617380f4c71eea38b163a36d28e4faa5d206",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Backup and Restore Operations.md",
+      "title": "Kubernetes Backup and Restore Operations",
+      "chunkCount": 2,
+      "objectHashes": [
+        "fbaca62d70ea3c4f616d22ff7963e4983ba8b30767ca2c24da0f5b00fb63449d"
+      ]
+    },
+    "3 - Tags/Kubernetes Cluster Architecture and Resources.md": {
+      "sourceHash": "e35217e2dbdd74cdd9251b040b14c0863fd6ac6549d3e2e9befdede8cd9f2c07",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Cluster Architecture and Resources.md",
+      "title": "Kubernetes Cluster Architecture and Resources",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6dab22f1b999317974db149c256c7d846ff7f1edc47b81901641a9c09e6d0c8c"
+      ]
+    },
+    "3 - Tags/Kubernetes Enterprise Operations.md": {
+      "sourceHash": "21fb242eeea7303b7daca832ed73380bcf17c9f76ee77683beb21cc9aa26d0d8",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Enterprise Operations.md",
+      "title": "Kubernetes Enterprise Operations",
+      "chunkCount": 10,
+      "objectHashes": [
+        "18152c5b4d5aa954dbe23a8d9eb77c7d660c5f4588a629f3688148299d148a42"
+      ]
+    },
+    "3 - Tags/Kubernetes Identity Access and Secrets.md": {
+      "sourceHash": "5f3c85222579d01cd97e9eda76c0224ff3fde73563ebe2bcdbff08e8198f6742",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Identity Access and Secrets.md",
+      "title": "Kubernetes Identity Access and Secrets",
+      "chunkCount": 2,
+      "objectHashes": [
+        "7d417c14c5e2ae226b8024581dfc1e9e1157c0fb77a9a7377ada37f5fa6df5c7"
+      ]
+    },
+    "3 - Tags/Kubernetes Monitoring and Log Operations.md": {
+      "sourceHash": "0998c196b1eb4c394376cfe2b10955bf29c9133dca6f1d137b12409860b26d89",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Monitoring and Log Operations.md",
+      "title": "Kubernetes Monitoring and Log Operations",
+      "chunkCount": 2,
+      "objectHashes": [
+        "66abe0729df56c6da9f921564f1bf2d4bbcbe4f7ca3c6594c1e75eb7e2cdeb75"
+      ]
+    },
+    "3 - Tags/Kubernetes Multitenancy and Secure Interfaces.md": {
+      "sourceHash": "40c0dfba99088c7de3b739813fd0a0f3596a08f1b4d80535060dd50b002ef34e",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Multitenancy and Secure Interfaces.md",
+      "title": "Kubernetes Multitenancy and Secure Interfaces",
+      "chunkCount": 2,
+      "objectHashes": [
+        "c976af51522414cbfd1d1de86ffcaf5ff4b5a66aef0143f506b7179e80cfd771"
+      ]
+    },
+    "3 - Tags/Kubernetes Policy and Runtime Security.md": {
+      "sourceHash": "a0ca6d3aa50892953ff2537eec2aea8a232442407032339a373f4df16da14a79",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Policy and Runtime Security.md",
+      "title": "Kubernetes Policy and Runtime Security",
+      "chunkCount": 2,
+      "objectHashes": [
+        "ff5ef00b8b44e7fbf9fdb004f6c0e40fb60207a2b977b165d1a9f032d40d9d78"
+      ]
+    },
+    "3 - Tags/Kubernetes Service Networking and Traffic.md": {
+      "sourceHash": "98229d8c2b9edc47e57a36c717536ebca5e348cedb2db7e0d404c3a10ee916fd",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Service Networking and Traffic.md",
+      "title": "Kubernetes Service Networking and Traffic",
+      "chunkCount": 2,
+      "objectHashes": [
+        "8032af614f448de3f1588f5c52fda96da034254bcbef5535394ff0738e3cb144"
       ]
     },
     "3 - Tags/Language and Speech Generation.md": {

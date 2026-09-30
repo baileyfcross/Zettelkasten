@@ -12,7 +12,10 @@ Defining a plane requires three solved markers with bundles that cover the solve
 
 The broader matchmove workflow in Gress's book likewise treats scene origin and orientation as necessary steps after a camera path and point cloud have been calculated. A test object should remain locked to the physical scene before a finished CG element is placed. See [[3D Camera Solve from Feature Tracks]].
 
+After defining a floor from three solved markers, two markers with a known physical separation can establish scene scale. The camera and point cloud may then be rotated and translated around a meaningful origin so a character placed at that origin aligns with the recorded ground throughout the shot.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[digitalvisualeffectsandcompositing.pdf]]
+[[learningblender3e.pdf]]

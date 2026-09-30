@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-30T02:10:27.725Z",
+  "updatedAt": "2026-09-30T03:10:27.482Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -2565,6 +2565,16 @@
         "9d2276aa45454affc4fb7e9cc40dd2f726fd98ad47bbaa8230b686c004c0dd3b"
       ]
     },
+    "3 - Tags/3D Character Preproduction and Design.md": {
+      "sourceHash": "9fe928f6dcf1150ca20435947fc99f439d640f6155f24b582d7dcc0c3b44cafa",
+      "sourceType": "markdown",
+      "fileName": "3D Character Preproduction and Design.md",
+      "title": "3D Character Preproduction and Design",
+      "chunkCount": 2,
+      "objectHashes": [
+        "1df7a2eefbaf60c681cbed8d3908db740b742d4ee484cc53079b57ce23870004"
+      ]
+    },
     "3 - Tags/3D Game Rendering.md": {
       "sourceHash": "c19304c22d3c490bfed2263bff634c6f2e7ad965a6125e4a456f0c1e61855af7",
       "sourceType": "markdown",
@@ -3605,6 +3615,36 @@
         "86fa13c6ce4a80c9811b3ebc418ffd051d45a5d70a8ec262cfb787811efb9348"
       ]
     },
+    "3 - Tags/Blender Character Animation Workflow.md": {
+      "sourceHash": "ac890236062904e2395719e7bf1cfa160f24573e0000e4daae802648c5d3c2ae",
+      "sourceType": "markdown",
+      "fileName": "Blender Character Animation Workflow.md",
+      "title": "Blender Character Animation Workflow",
+      "chunkCount": 2,
+      "objectHashes": [
+        "3c77fd0b95c325ca07bd8055a87ccbc7315780b5625de263a7963aa54493f749"
+      ]
+    },
+    "3 - Tags/Blender Character Rigging and Deformation.md": {
+      "sourceHash": "8ac5dada3038a735280735c152ba0a6a87d033216c8e86f3b343266c6992f157",
+      "sourceType": "markdown",
+      "fileName": "Blender Character Rigging and Deformation.md",
+      "title": "Blender Character Rigging and Deformation",
+      "chunkCount": 2,
+      "objectHashes": [
+        "f78f14b73f0cce83f793b3821628d9548dec7f5dfde1620a8fa9ebdc09cb5cab"
+      ]
+    },
+    "3 - Tags/Blender Character Surface Development.md": {
+      "sourceHash": "2c2f9dc2b30aff734426b45693209626431c45955467d25d1c4bde8fd2b92b8a",
+      "sourceType": "markdown",
+      "fileName": "Blender Character Surface Development.md",
+      "title": "Blender Character Surface Development",
+      "chunkCount": 2,
+      "objectHashes": [
+        "21bad9d5dcd4dd640175cd616d7aa449fae66f37419482bf32221c3a0a3f3aff"
+      ]
+    },
     "3 - Tags/Blender Core Source Architecture.md": {
       "sourceHash": "263f4bb5a8937b5f1be52de336d63784e61c6b2829f1a0e00eca8232509bcf54",
       "sourceType": "markdown",
@@ -4155,6 +4195,16 @@
         "e2fd411a086f5d09d41651abec525c98361a9bec48f95d990c7ac576b00ce1aa"
       ]
     },
+    "3 - Tags/Character Topology and Modeling.md": {
+      "sourceHash": "b5b577537f8cd920592a10a1f0fa66ab942346c25a86c825f23c78688b2bc53c",
+      "sourceType": "markdown",
+      "fileName": "Character Topology and Modeling.md",
+      "title": "Character Topology and Modeling",
+      "chunkCount": 2,
+      "objectHashes": [
+        "1179c9efa25b0865cf6e3c079007272d736129afa28751f500b39dbb05ed69ca"
+      ]
+    },
     "3 - Tags/Chinese Healthcare Big Data.md": {
       "sourceHash": "ea64aa040d7940dd75705abac0c89ee6a413fdca812e728c6075026c73554aba",
       "sourceType": "markdown",
@@ -4246,13 +4296,13 @@
       ]
     },
     "3 - Tags/Cloud Computing.md": {
-      "sourceHash": "c8f918ae4537bff84926c7b52b5dd5d14a5d79d341f34e62714d52dfefb55c64",
+      "sourceHash": "59a8e974b56307f3fb0bb6499644b616c78c129a0c7e0dd90179422a56030500",
       "sourceType": "markdown",
       "fileName": "Cloud Computing.md",
       "title": "Cloud Computing",
-      "chunkCount": 12,
+      "chunkCount": 10,
       "objectHashes": [
-        "a064c93dcfce18f47c78ea971ae1a6a337383dcb6919829d883735cdae218a98"
+        "0f7dc0e6934977ec70c3ea99ea640cfd37ad0f88bc73e510728d219b48d89eec"
       ]
     },
     "3 - Tags/Cloud Data Storage Selection and Consistency.md": {

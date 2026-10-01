@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human Cognition]]
+Tags: [[Human Cognition]] [[Modern Software Delivery Foundations]]
 
 # Cognitive Load
 
@@ -14,7 +14,11 @@ Evaluation can combine subjective workload ratings with task-performance or phys
 
 In games, [[Articulatory Distance]] adds effort between intention and input, while [[Semantic Distance]] adds effort between feedback and understanding. These demands consume a finite [[Interactivity Budget]], so simultaneous fast action and complex reflection can overwhelm a player even when each demand is manageable alone.
 
+In platform engineering, excessive cognitive load appears when delivery teams must understand the implementation details of every infrastructure and tool integration. A platform reduces that burden by encapsulating complexity behind documented self-service contracts while still exposing the operational information users need.
+
 # References
+
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[3duserinterfaces2ande.pdf]]
 [[advancedgamedesign.pdf]]

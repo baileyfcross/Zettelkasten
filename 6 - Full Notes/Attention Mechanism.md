@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]]
+Tags: [[Machine Learning and Neural Networks]] [[Large Language Model Foundations]]
 
 # Attention Mechanism
 
@@ -12,7 +12,11 @@ In an [[Encoder-Decoder Network]], attention helps align an output word or symbo
 
 Kelleher presents attention-centered transformer models as an alternative to relying on one fixed sentence vector: the model can dynamically focus on selected input parts while generating an output. He also describes BERT's use of an unlabeled-data pretraining stage followed by smaller task-specific supervised tuning. These were developments discussed in the book's 2019 outlook, not a claim about which architecture currently leads every task.
 
+Transformer attention learns query, key, and value projections so a token can weight information from other positions according to the current context. [[Scaled Dot-Product Attention]] supplies the core calculation, while [[Multi-Head Attention]] learns several relationship spaces in parallel.
+
 # References
+
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[aiassistants.epub]]
 

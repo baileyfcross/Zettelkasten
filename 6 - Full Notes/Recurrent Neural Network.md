@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Recurrent Sequence Architecture]]
+Tags: [[Recurrent Sequence Architecture]] [[Large Language Model Foundations]]
 
 # Recurrent Neural Network
 
@@ -12,7 +12,11 @@ This structure fits speech and language, where word or sound interpretation depe
 
 Kelleher depicts the network's [[Recurrent Hidden State|hidden state]] as a memory buffer whose activations are fed into the next step along with its new input. [[Time-Unrolled Recurrent Network|Unrolling]] the loop shows how one set of [[Recurrent Weight Sharing Across Time|shared recurrent weights]] is reused through a sequence. Training with [[Backpropagation Through Time]] then has to propagate error through those steps, which can make long-range dependencies difficult to learn.
 
+In early neural language modeling, the recurrent hidden state let prior tokens influence later predictions with shared parameters across sequence positions. Sequential computation limited parallel training, and long dependency paths made gradients unstable, motivating [[Long Short-Term Memory]] and later the [[Transformer Architecture]].
+
 # References
+
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[aiassistants.epub]]
 

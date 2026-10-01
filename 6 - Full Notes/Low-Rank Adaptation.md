@@ -10,7 +10,10 @@ Low-Rank Adaptation, or LoRA, freezes the original model weights and learns smal
 
 The resulting adapter is meaningful only with its compatible base model and target layers. Choosing a rank that is too small can limit adaptation, while a larger rank increases memory and computation, so validation should compare quality against the resource savings.
 
+LoRA represents a weight change as the product of two smaller matrices and adds that update to selected frozen layers during the forward pass. The rank controls adaptation capacity, while the scaling and target-module choices determine how strongly and where the task-specific change acts.
+
 # References
 
-[[kubernetesforgenerativeaisolutions.pdf]]
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
+[[kubernetesforgenerativeaisolutions.pdf]]

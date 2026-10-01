@@ -10,7 +10,10 @@ Parameter-efficient fine-tuning adapts a pretrained model by updating a small su
 
 PEFT is useful when a domain has limited labeled data or compute, but it does not remove the need for evaluation. The adapter, base-model version, tokenizer, data, and training configuration must remain associated so the adapted model can be reproduced and served correctly.
 
+Adapter, prefix, low-rank, and representation-based approaches place the trainable capacity in different parts of the computation. Selecting among them requires comparing task quality with memory, compute, storage, serving complexity, and the amount of available domain data.
+
 # References
 
-[[kubernetesforgenerativeaisolutions.pdf]]
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
+[[kubernetesforgenerativeaisolutions.pdf]]

@@ -10,7 +10,10 @@ Quantized Low-Rank Adaptation, or QLoRA, combines low-rank adapter training with
 
 Quantization introduces a fidelity tradeoff, while the adapter still needs higher-precision computation for effective training. The selected bit width, quantization scheme, adapter configuration, and task evaluation together determine whether the memory reduction is acceptable.
 
+QLoRA can store the frozen base in four-bit [[NormalFloat Quantization|NormalFloat]] blocks while performing adapter computation at a higher precision. [[Blockwise Quantization]] and secondary quantization of scale information reduce memory further, but evaluation must confirm that the compressed base remains adequate for the task.
+
 # References
 
-[[kubernetesforgenerativeaisolutions.pdf]]
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
+[[kubernetesforgenerativeaisolutions.pdf]]

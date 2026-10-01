@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Generative AI Model Adaptation and Serving]]
+Tags: [[Generative AI Model Adaptation and Serving]] [[Enterprise RAG and Multi-Agent Applications]]
 
 # Vector Similarity Retrieval
 
@@ -10,7 +10,10 @@ Vector similarity retrieval converts documents and queries into high-dimensional
 
 Semantic proximity is not the same as authority or truth. Retrieval design must preserve document identity, freshness, tenant access, and relevance thresholds so a RAG system does not return a plausible but unauthorized or obsolete context passage.
 
+In enterprise RAG, both document chunks and the incoming query are embedded in a compatible space before nearest candidates are selected and reranked. Semantic similarity improves recall for different wording, but metadata, keyword evidence, and access filters are still needed to control relevance and authorization.
+
 # References
 
-[[kubernetesforgenerativeaisolutions.pdf]]
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
+[[kubernetesforgenerativeaisolutions.pdf]]

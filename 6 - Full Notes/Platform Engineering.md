@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[AWS Cloud Operations and Platform Engineering]]
+Tags: [[AWS Cloud Operations and Platform Engineering]] [[Modern Software Delivery Foundations]]
 
 # Platform Engineering
 
@@ -10,6 +10,10 @@ Platform engineering builds reusable internal capabilities that let product team
 
 An [[Internal Developer Platform]] may combine provisioning, delivery, observability, security, and documentation behind self-service interfaces. The platform should reduce cognitive load without hiding every operational constraint. Its success is measured by safer, faster delivery and a better developer experience, not merely by the number of tools centralized.
 
+The book organizes platform responsibility across construction, services, operations, assurance, and the platform team. This makes the platform an operating capability as well as a tool surface: it must be planned, built, secured, measured, supported, and improved throughout its lifecycle.
+
 # References
+
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[clouddevopsengineersguide.pdf]]

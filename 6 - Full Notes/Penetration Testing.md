@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]] [[Layered Cyber Defense and Secure Development]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[Layered Cyber Defense and Secure Development]] [[LLM-Assisted Software Testing]]
 
 # Penetration Testing
 
@@ -12,7 +12,11 @@ Cloud services can schedule penetration tests as part of proactive monitoring an
 
 Penetration testing belongs throughout a [[Secure Software Development Lifecycle]] rather than only after construction. Used alongside [[Security Code Review]] and [[Security Architecture Analysis]], it can reveal exploitable behavior early enough to change the design as well as the deployment.
 
+As a dynamic testing technique, penetration testing interacts with a running target to find and validate exploitable weaknesses. LLMs can assist planning, payload variation, and result explanation, but authorization, isolation, scope, and human control are essential because the actions can disrupt or compromise systems.
+
 # References
+
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[cloudcomputing_mit.epub]]
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Natural Language Understanding Systems]] · [[Deep Feature Representation]]
+Tags: [[Natural Language Understanding Systems]] · [[Deep Feature Representation]] [[Large Language Model Foundations]]
 
 # Word Embedding
 
@@ -14,7 +14,11 @@ Kelleher describes word2vec as learning vectors from neighboring-word co-occurre
 
 Deep feature engineering uses these learned vectors as distributed representations rather than sparse word identities. Recurrent, gated, and other sequence models can then operate on dense inputs whose geometry reflects corpus context.
 
+In a transformer, token embeddings provide the learned content vectors to which [[Positional Encoding]] is added. Training moves tokens used in related contexts into useful geometric relationships, but the initial embedding is only a starting representation; attention layers make it context dependent.
+
 # References
+
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[aiassistants.epub]]
 

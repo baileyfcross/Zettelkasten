@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]] [[TLS Authentication and Secure Remote Access]]
+Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]] [[TLS Authentication and Secure Remote Access]] [[Microsoft Entra Identity and Authentication]]
 
 # Authentication
 
@@ -18,6 +18,8 @@ Authentication is one of the six security goals in the source's [[Cybersecurity 
 
 The inventory web application adds a login boundary before restricted product operations, while the cloud chapter describes delegating identity proof to a provider and accepting its token. In both cases, establishing identity is only the first step; the server still has to enforce permissions for each protected operation.
 
+Microsoft Entra places authentication within an identity, authentication, authorization, and accountability sequence. A claimed identity can be verified with passwords, possession factors, biometrics, certificates, passkeys, or federation, after which Conditional Access can evaluate contextual signals before a token is issued. The resulting sign-in and audit records provide the accountability needed to investigate how the identity was used.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -31,3 +33,5 @@ The inventory web application adds a login boundary before restricted product op
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+
+[[masteringmicrosoftentraid.pdf]]

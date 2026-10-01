@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]] [[TLS Authentication and Secure Remote Access]]
+Tags: [[Web Identity and Access Control]] [[.NET Cryptography and Access Control]] [[Cloud Security and Data Protection]] [[Cybersecurity Goals and Trust]] [[TLS Authentication and Secure Remote Access]] [[Microsoft Entra Identity and Authentication]]
 
 # Authorization
 
@@ -18,6 +18,8 @@ The cybersecurity model distinguishes authorization from authentication: proving
 
 The design-patterns source extends the inventory web application so logged-in users are not automatically permitted to perform every product action. Restricted pages and operations require a role or policy check on the server; the cloud discussion makes the same distinction when an external identity provider supplies a token but the application retains its own access rules.
 
+In Microsoft Entra, authorization is expressed through directory roles, Azure resource roles, application roles, group membership, scopes, and claims. The security principal identifies the user or workload, the role definition states permitted operations, and the assignment binds that authority to a scope. Conditional Access can decide whether a session may begin, but the receiving service must still enforce what the authenticated principal is allowed to do.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -31,3 +33,5 @@ The design-patterns source extends the inventory web application so logged-in us
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+
+[[masteringmicrosoftentraid.pdf]]

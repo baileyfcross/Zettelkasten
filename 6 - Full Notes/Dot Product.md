@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cartesian Analytic Geometry]]
+Tags: [[Cartesian Analytic Geometry]] · [[Vector Algebra and Geometry]]
 
 # Dot Product
 
@@ -10,8 +10,12 @@ For planar vectors $u=(u_1,u_2)$ and $v=(v_1,v_2)$, the dot product is $u\cdot v
 
 With normalized vectors, a game can use the dot product directly as the cosine of the angle between directions. The sign quickly distinguishes whether a target is generally in front of, beside, or behind an object's facing direction.
 
+In component form the dot product is the sum of paired component products in an orthonormal basis. Its geometric form makes it useful for extracting a component along a direction and for testing orthogonality without constructing the angle explicitly.
+
 # References
 
 [[gameprogrammingincplusplus.pdf]]
 [[foundationsofmath.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[mathematicalphysics.pdf]]

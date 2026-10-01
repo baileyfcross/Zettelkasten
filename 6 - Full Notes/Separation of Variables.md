@@ -10,6 +10,10 @@ Separation of variables seeks a multivariable solution as a product of functions
 
 The original equation becomes a set of ordinary differential equations linked by those constants. Boundary conditions select discrete eigenvalues and eigenfunctions, and superposition then combines separated modes to match general initial or boundary data.
 
+For a string fixed at both ends, separation writes displacement as a spatial factor times a temporal factor. The endpoint conditions admit only selected spatial wavelengths, so the allowed eigenfunctions become the string's normal modes and their coefficients are fixed by the initial shape and velocity.
+
 # References
 
 [[mathematicalmethodsforphysics.pdf]]
+
+[[mathematicalphysics.pdf]]

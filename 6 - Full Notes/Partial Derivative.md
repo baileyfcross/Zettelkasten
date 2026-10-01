@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Optimization and Differentiation]]
+Tags: [[Optimization and Differentiation]] · [[Multivariable Differential Calculus]]
 
 # Partial Derivative
 
@@ -12,8 +12,12 @@ For a neural network, the variables include its many weights and biases and the 
 
 Second partial derivatives describe how these first-order rates change. Arranging every second and mixed partial derivative into a square array produces the [[Hessian Matrix]], which supports curvature tests and Newton-type optimization.
 
+Geometrically, holding one coordinate fixed cuts the graph surface by a coordinate plane. The corresponding partial derivative is the slope of that cross-sectional curve, and sufficiently smooth mixed partial derivatives are independent of the order in which the two differentiations are taken.
+
 # References
 
 [[algorithms.epub]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[mathematicalphysics.pdf]]

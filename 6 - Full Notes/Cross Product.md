@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spherical Trigonometry and Spatial Vectors]]
+Tags: [[Spherical Trigonometry and Spatial Vectors]] · [[Vector Algebra and Geometry]]
 
 # Cross Product
 
@@ -10,8 +10,12 @@ The cross product $u\times v$ is a vector perpendicular to the plane spanned by 
 
 Game code uses the cross product to construct perpendicular basis directions and surface normals. Operand order matters because reversing the vectors reverses the direction of the result.
 
+The component formula can be organized as a determinant built from the basis vectors and the two input vectors. Its magnitude gives the parallelogram area, so half that magnitude gives the area of the triangle spanned by the same sides.
+
 # References
 
 [[gameprogrammingincplusplus.pdf]]
 [[foundationsofmath.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[mathematicalphysics.pdf]]

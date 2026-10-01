@@ -1,6 +1,6 @@
 # Gravitation and Relativity
 
-Parent topic: [[Physics]]
+Parent topics: [[Physics]] · [[Mathematical Methods in Theoretical Physics]]
 
 Newtonian gravitational fields and orbits, equivalence, spacetime, and relativistic measurements.
 

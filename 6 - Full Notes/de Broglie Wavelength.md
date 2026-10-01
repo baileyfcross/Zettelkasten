@@ -12,6 +12,10 @@ $$\lambda=\frac{h}{p}.$$
 
 For a nonrelativistic particle, $p=mv$. Greater momentum produces shorter wavelength, so wave effects are readily observed for microscopic particles but become negligibly small for everyday objects.
 
+With relativistic momentum $p=\gamma mv$, the same inverse relationship remains valid. Combining $E=\hbar\omega$ and $p=\hbar k$ with the relativistic energy-momentum relation distinguishes a superluminal phase velocity from the subluminal group velocity associated with particle transport.
+
 # References
 
 [[foundationsofphysics.pdf]]
+
+[[mathematicalmethodsforphysics.pdf]]

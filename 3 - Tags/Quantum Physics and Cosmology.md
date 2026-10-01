@@ -1,6 +1,6 @@
 # Quantum Physics and Cosmology
 
-Parent topic: [[Physics]]
+Parent topics: [[Physics]] · [[Mathematical Methods in Theoretical Physics]]
 
 Quantum evidence and models, atomic quantization, uncertainty, cosmic expansion, and the hot early universe.
 

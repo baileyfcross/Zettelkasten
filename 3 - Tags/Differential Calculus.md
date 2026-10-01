@@ -1,6 +1,6 @@
 # Differential Calculus
 
-Parent topic: [[Foundations of Mathematics]]
+Parent topics: [[Foundations of Mathematics]] · [[Mathematical Methods in Theoretical Physics]]
 
 Derivatives as local linear change, differentiation notation and rules, and standard exponential and logarithmic derivatives.
 

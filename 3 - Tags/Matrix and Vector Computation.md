@@ -1,6 +1,6 @@
 # Matrix and Vector Computation
 
-Parent topics: [[Algorithmic Methods]] · [[Mathematics]] · [[Applied Linear Algebra and Optimization]]
+Parent topics: [[Algorithmic Methods]] · [[Mathematics]] · [[Applied Linear Algebra and Optimization]] · [[Mathematical Methods in Theoretical Physics]]
 
 Matrix and vector representations used to express and efficiently compute transformations over structured data.
 

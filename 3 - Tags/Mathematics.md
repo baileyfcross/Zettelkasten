@@ -26,6 +26,8 @@ This structural viewpoint connects symbolic computation with geometry. Gröbner 
 
 [[Foundations of Mathematics]] connects elementary real-number algebra with analytic and Euclidean geometry, polynomial equations, functions, trigonometry, limits, derivatives, and spherical geometry. Its progression shows how arithmetic laws justify symbolic transformations, coordinates translate figures into equations, functions express dependence, limits control approximation, and derivatives describe local change. The final spatial topics use vector products and great-circle geometry to contrast plane results with triangles drawn on a sphere.
 
+[[Mathematical Methods in Theoretical Physics]] extends those foundations into field operators, differential equations, orthogonal functions, Fourier and Laplace transforms, complex contour methods, analytical dynamics, statistical ensembles, and relativistic geometry. These techniques show how coordinate choice, boundary conditions, symmetry, and transformation can turn a physical law into a solvable mathematical problem without discarding its physical meaning.
+
 ### Measurement and unit relationships
 
 [[Unit Algebra and Measurement Precision]] treats a measured quantity as a number together with a unit, then uses base and derived dimensions to check whether a calculation is coherent. Conversion factors act as ratios equal to one: their orientation is chosen so unwanted units cancel. A reported conversion must also reflect the measurement's meaningful digits rather than the length of a calculator display. Even a dimensionally correct ratio can be wrong if a similarly named unit, such as a dry or liquid measure, has been chosen from the wrong convention.

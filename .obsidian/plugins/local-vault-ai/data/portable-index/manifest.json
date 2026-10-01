@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-30T03:10:27.482Z",
+  "updatedAt": "2026-10-01T04:05:42.689Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -2955,6 +2955,16 @@
         "5e20d63f2271e42d2371af868843c16253d2b2661d363a518ab85833d3cac1e1"
       ]
     },
+    "3 - Tags/Analytical Mechanics and Chaotic Dynamics.md": {
+      "sourceHash": "9ffd966704cb42843559db4c22b17b730c0a227b69b32234084d68d8a19add18",
+      "sourceType": "markdown",
+      "fileName": "Analytical Mechanics and Chaotic Dynamics.md",
+      "title": "Analytical Mechanics and Chaotic Dynamics",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6c044312fb04f5cd928e44c98e47736e9c07a01497bb49873ce56b3691ce092a"
+      ]
+    },
     "3 - Tags/Angular Application Architecture.md": {
       "sourceHash": "265bf977f049a7db7b52a958ff24d9e07b0a240b65bdb4b275f445307224de5d",
       "sourceType": "markdown",
@@ -4505,6 +4515,16 @@
         "c7f8f2338b92d0aacee6502fe6e92ba2d6953bb15d356bf997bc7dd0adccd72d"
       ]
     },
+    "3 - Tags/Complex Analysis and Conformal Mapping.md": {
+      "sourceHash": "190f8af29f41746dcfb784966e122b878fd039738cd69798e8e88b0477fb792c",
+      "sourceType": "markdown",
+      "fileName": "Complex Analysis and Conformal Mapping.md",
+      "title": "Complex Analysis and Conformal Mapping",
+      "chunkCount": 2,
+      "objectHashes": [
+        "bfedf830c01c1437eb822f72c7f2d7b3ba9cc191b9236e2a8d0898ff5b70f63f"
+      ]
+    },
     "3 - Tags/Complex Linear Algebra.md": {
       "sourceHash": "152b0e8d9f03f98220b3d5fdc231afd81284eeb19bc98efb69967c6a366f6f82",
       "sourceType": "markdown",
@@ -5745,6 +5765,16 @@
         "a4cf33b2ea71893918c0ad26f78679e4c78d2bf7c3cfc1733bd3707fae4e75df"
       ]
     },
+    "3 - Tags/Fourier Series and Integral Transforms.md": {
+      "sourceHash": "73b3740c88c6de6b87c55c596ef2197b74254f7acdd2764631373ccdefdfa968",
+      "sourceType": "markdown",
+      "fileName": "Fourier Series and Integral Transforms.md",
+      "title": "Fourier Series and Integral Transforms",
+      "chunkCount": 2,
+      "objectHashes": [
+        "0c10a96f73763ce194913f7e0bf654f0e962dd40792ebb90a0d9639bc3822635"
+      ]
+    },
     "3 - Tags/Fractions and Decimal Forms.md": {
       "sourceHash": "2b90f0407ba3d83dacc0b616e709fd233b25a1ed1b3cbf24a41ef359f46fb44f",
       "sourceType": "markdown",
@@ -6585,6 +6615,16 @@
         "9babe276e6a9d2fa787b6564378bce1a07f38f8da3fc5e39dc7b49bb7fd5196c"
       ]
     },
+    "3 - Tags/Integral Calculus and Series.md": {
+      "sourceHash": "f469a173e2943cf5b060cef6396be650abf36671320cb1d1a4e62429fe27b679",
+      "sourceType": "markdown",
+      "fileName": "Integral Calculus and Series.md",
+      "title": "Integral Calculus and Series",
+      "chunkCount": 2,
+      "objectHashes": [
+        "4b744d371c71919344494b2858290d87eb1f10f668ce3c0a7547649cfcd54680"
+      ]
+    },
     "3 - Tags/Integral Domains and Ring Characteristic.md": {
       "sourceHash": "1bcdd6272c0a64c54dffc68d1a78b03832e57cf04aec2e8a9fc43088f05fcad6",
       "sourceType": "markdown",
@@ -7095,6 +7135,16 @@
         "78164b81f21d11261425c7e43f08a1b9c5bfab6179d95de49f7b9813055c7677"
       ]
     },
+    "3 - Tags/Mathematical Methods in Theoretical Physics.md": {
+      "sourceHash": "c36e3b252c6c67d49fb6bab0f8902be37f0e1b11f9426be329c1e570e320f131",
+      "sourceType": "markdown",
+      "fileName": "Mathematical Methods in Theoretical Physics.md",
+      "title": "Mathematical Methods in Theoretical Physics",
+      "chunkCount": 5,
+      "objectHashes": [
+        "3ed6b2e1994777c18b406348ea790dba70e2dd422cc736cad36600075846c4f5"
+      ]
+    },
     "3 - Tags/Mathematics.md": {
       "sourceHash": "06189004bfceae928b0368e105b0fbf785b1b70a7439f9098f552719ffa42ddc",
       "sourceType": "markdown",
@@ -7545,6 +7595,16 @@
         "8aebb8b1f51136c803975209665e8653f7bf7da51cd5f4e8baf7fb5b7a0ccd41"
       ]
     },
+    "3 - Tags/Ordinary Differential Equations and Phase Space.md": {
+      "sourceHash": "617eaae1834190826d549efa16e171e5a6df7bf2f2ae32753cf8d7a0356bd00d",
+      "sourceType": "markdown",
+      "fileName": "Ordinary Differential Equations and Phase Space.md",
+      "title": "Ordinary Differential Equations and Phase Space",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6c909e326757bc6b3abeb09428fa7490f13ebb0205328b14c5d4b664d434d89e"
+      ]
+    },
     "3 - Tags/Organ-on-a-Chip Systems.md": {
       "sourceHash": "51beee48fad28b583fcc346beff930b36ad151131b25e210a20a3a90cf5ae123",
       "sourceType": "markdown",
@@ -7623,6 +7683,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "dafbbc7cee97a6c3ac8b50079093dacea1d90b96a75c94bbb1cb2fc56a5ac615"
+      ]
+    },
+    "3 - Tags/Partial Differential Equations and Separation Methods.md": {
+      "sourceHash": "8b53a1a5181d4d3974eb9998482a744310ec0752e2e190f001f90cb48c3c639a",
+      "sourceType": "markdown",
+      "fileName": "Partial Differential Equations and Separation Methods.md",
+      "title": "Partial Differential Equations and Separation Methods",
+      "chunkCount": 2,
+      "objectHashes": [
+        "130cefdf8dccf71f71f8a30133005e81b4d175396ccd00b2681004df46f5f680"
       ]
     },
     "3 - Tags/Particle and Destruction VFX.md": {
@@ -8285,6 +8355,16 @@
         "a856c639975bacecd20d2a48c190487d4c20b9069fd5c165ed8908e9df4427d6"
       ]
     },
+    "3 - Tags/Relativistic Quantum Mechanics.md": {
+      "sourceHash": "ce4fa2d4e4a33e944238ee80f30b2471f06ebead9face0c3619c102702a55780",
+      "sourceType": "markdown",
+      "fileName": "Relativistic Quantum Mechanics.md",
+      "title": "Relativistic Quantum Mechanics",
+      "chunkCount": 2,
+      "objectHashes": [
+        "168004690c2637f7be2ce5180121f913cfa576fd3255c131890c68d814750fe1"
+      ]
+    },
     "3 - Tags/Reproducible R Programming.md": {
       "sourceHash": "85e339254d209df6ff7fa986aa16502b56086610cd25676df7fa97fb2394170a",
       "sourceType": "markdown",
@@ -8723,6 +8803,16 @@
       "chunkCount": 4,
       "objectHashes": [
         "0d8a258c7735ac880ea2021ec481e94b551110130773590715ff34dc92d57098"
+      ]
+    },
+    "3 - Tags/Special Functions and Orthogonal Expansions.md": {
+      "sourceHash": "5794d31ba8f8fbc538b01ac81cb8aa18cb4c405e47c6c6f74d6e15ea9f8005e5",
+      "sourceType": "markdown",
+      "fileName": "Special Functions and Orthogonal Expansions.md",
+      "title": "Special Functions and Orthogonal Expansions",
+      "chunkCount": 2,
+      "objectHashes": [
+        "f12a8a590eb8bef1d1fa26ff0c6e0539b9a2f859f67cb075799c0f05f495c93f"
       ]
     },
     "3 - Tags/Speech and Acoustic Modeling.md": {
@@ -9193,6 +9283,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "0c63b01a8419f7b2c280e7dabbf749d808cfeb47f2cf0a944b1119ce961df94b"
+      ]
+    },
+    "3 - Tags/Vector Calculus and Integral Theorems.md": {
+      "sourceHash": "d5c0f726cca457a934de1bcd21625bba43f2954bd3fad9181431eb84cbf16354",
+      "sourceType": "markdown",
+      "fileName": "Vector Calculus and Integral Theorems.md",
+      "title": "Vector Calculus and Integral Theorems",
+      "chunkCount": 2,
+      "objectHashes": [
+        "b5debb316febd2b6eb42bdca4c5fcf4ca40430b2920f9c4bc4d6f42c45e4ed75"
       ]
     },
     "3 - Tags/Vector Space Geometry.md": {

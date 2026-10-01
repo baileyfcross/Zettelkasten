@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Natural Language Understanding Systems]] · [[Deep Feature Representation]] [[Large Language Model Foundations]]
+Tags: [[Natural Language Understanding Systems]] · [[Deep Feature Representation]] · [[Large Language Model Foundations]] · [[Machine Translation Architectures]]
 
 # Word Embedding
 
@@ -18,6 +18,8 @@ In a transformer, token embeddings provide the learned content vectors to which 
 
 Alpaydin uses word2vec to show that shared contexts can preserve relations as well as proximity. City names can cluster together, country adjectives can form another region, and similar city-to-country offsets permit vector analogies. This arithmetic reflects regularities of the training corpus; it is evidence of a learned representation, not a logical dictionary of meaning.
 
+In neural translation, embeddings give words continuous rather than isolated identities. A rare word can inherit useful evidence from words that appear in similar contexts, and an ambiguous word can receive different effective interpretations through the surrounding sentence. The geometry improves generalization, but it remains learned from corpus use and does not by itself guarantee a complete semantic representation.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -29,3 +31,5 @@ Alpaydin uses word2vec to show that shared contexts can preserve relations as we
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
 
 [[machinelearning_mit.epub]]
+
+[[machinetranslation.epub]]

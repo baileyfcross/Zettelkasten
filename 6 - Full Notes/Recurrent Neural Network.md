@@ -14,6 +14,8 @@ Kelleher depicts the network's [[Recurrent Hidden State|hidden state]] as a memo
 
 In early neural language modeling, the recurrent hidden state let prior tokens influence later predictions with shared parameters across sequence positions. Sequential computation limited parallel training, and long dependency paths made gradients unstable, motivating [[Long Short-Term Memory]] and later the [[Transformer Architecture]].
 
+A recurrent connection introduces a delay, so the current state combines the new input with information produced at the preceding step. Repeating this operation lets earlier inputs influence the present through a condensed state. The architecture determines how far and in what form that history survives; recurrence supplies memory but does not guarantee that every old detail remains available.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,5 @@ In early neural language modeling, the recurrent hidden state let prior tokens i
 [[aiassistants.epub]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

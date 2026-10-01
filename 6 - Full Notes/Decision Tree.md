@@ -12,8 +12,12 @@ Every root-to-leaf path can be read as an if-then rule. Tree depth and branching
 
 The book fits a classification tree as an interpretable baseline, examines its splits and variable importance, and applies it to held-out data. The contrast between training and validation results shows why readable structure does not eliminate the need for independent evaluation.
 
+Each split directs an input toward a more homogeneous region, and a leaf predicts from the similar training cases that reach it. The learned structure grows with the task rather than requiring a fixed global equation. Because every path is a conjunction of tests, the fitted tree can be translated into a rule base that exposes the conditions behind a decision.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[machinelearning_mit.epub]]

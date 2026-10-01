@@ -12,8 +12,12 @@ Feedforward computation produces predictions, while backpropagation and gradient
 
 Kelleher uses the transition from one-layer [[Perceptron|perceptrons]] to multilayer networks to explain the importance of hidden-unit credit assignment. [[Backpropagation]] can train those hidden weights when the network has activation functions with usable derivatives. Nonlinear layers overcome the one-line boundary limit illustrated by [[XOR Classification Problem|XOR]], though deep stacks also raise the [[Vanishing Gradient Problem|vanishing-gradient]] challenge.
 
+With enough hidden units, a multilayer perceptron can approximate a wide range of functions to a chosen accuracy. This expressive capability does not guarantee that training will find the needed parameters or that the resulting fit will generalize; architecture, data, initialization, and optimization remain separate questions.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

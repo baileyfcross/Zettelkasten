@@ -12,8 +12,12 @@ The architecture must avoid a trivial copy path if its representation is to be i
 
 As a feature learner, the encoder maps observations into a latent representation while the decoder supplies a reconstruction objective. Sparse, denoising, stacked, and variational variants constrain that representation in different ways.
 
+Because the target is the input itself, the basic network learns without external class labels. A narrow bottleneck forces the code to preserve information needed for reconstruction in fewer values, making the representation both a compression and a candidate abstraction. Multiple encoder and decoder layers can learn this compression hierarchically.
+
 # References
 
 [[deeplearning_mit.epub]]
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[machinelearning_mit.epub]]

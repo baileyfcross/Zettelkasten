@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]] · [[Data Ethics and Digital Power]] · [[ML.NET Recommendation Applications]]
+Tags: [[Machine Learning Foundations]] · [[Data Ethics and Digital Power]] · [[ML.NET Recommendation Applications]]
 
 # Machine Learning
 
@@ -18,6 +18,8 @@ The emotion-detector chapter contrasts training a custom model with consuming a 
 
 Kelleher frames learning as a search among candidate input-to-output functions using three ingredients: examples, a family of possible functions, and a measure of how well each candidate fits the examples. The search is an [[Ill-Posed Learning Problem|ill-posed problem]] when several functions agree with limited data. An [[Inductive Bias in Machine Learning|inductive bias]] supplies assumptions to resolve that ambiguity, but overly restrictive or permissive choices can lead to [[Model Underfitting|underfitting]] or [[Model Overfitting|overfitting]]. Deep networks make the candidate family flexible and can learn internal features as well as final predictions.
 
+Alpaydin defines learning operationally as improvement through experience: data provide the experience, a performance criterion defines “better,” and fitting changes [[Machine Learning Model Parameter|model parameters]] so later outputs score better. This distinguishes learning from a database lookup. The purpose is [[Generalization in Machine Learning|generalization]] to new cases drawn from the same process, not exact reproduction of the stored sample.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -31,3 +33,5 @@ Kelleher frames learning as a search among candidate input-to-output functions u
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

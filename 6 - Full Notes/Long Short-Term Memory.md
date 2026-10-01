@@ -14,6 +14,8 @@ In Kelleher's account, an [[LSTM Cell State|internal cell state]] is carried for
 
 For language sequences, the input, forget, and output gates regulate what enters, remains in, and leaves the memory cell. This improved long-range learning over a basic [[Recurrent Neural Network]], but processing still advances sequentially, whereas transformer attention creates direct and parallel relationships across positions.
 
+Selective memory lets the network keep information relevant much later while allowing intervening input to be ignored for that purpose. A sentence generator can preserve the subject's gender until it selects a later pronoun, for example, without requiring every intervening word to overwrite that context.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,5 @@ For language sequences, the input, forget, and output gates regulate what enters
 [[aiassistants.epub]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

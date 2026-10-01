@@ -10,7 +10,9 @@ Outlier detection identifies observations whose relationship to the rest of a da
 
 Detection is a screening step rather than automatic deletion. Suspected cases should be investigated because correcting an error and erasing a rare event have very different consequences.
 
+The same deviation can represent a fraudulent transaction, an intrusion, a tumor, a failed sensor, or a legitimate novel case. An outlier therefore means that an observation does not fit the learned account of what is typical; deciding whether it is error, danger, or opportunity requires domain evidence outside the anomaly score.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
-
+[[machinelearning_mit.epub]]

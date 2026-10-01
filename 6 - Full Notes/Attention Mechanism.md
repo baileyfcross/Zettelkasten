@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]] [[Large Language Model Foundations]]
+Tags: [[Large Language Model Foundations]]
 
 # Attention Mechanism
 

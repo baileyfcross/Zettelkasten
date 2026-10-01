@@ -10,7 +10,9 @@ Classification assigns an observation to one of a set of discrete classes. A mod
 
 When labels are supplied during learning, the task is supervised. Clustering differs because it attempts to discover the groups themselves.
 
+A classifier learns a discriminant that separates regions associated with different labels. The boundary may be expressed as a line, a collection of rules, a tree, or another model. Its operational value depends not only on how often it is correct but on the costs of the different errors and on whether the labeled sample represents later cases.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
-
+[[machinelearning_mit.epub]]

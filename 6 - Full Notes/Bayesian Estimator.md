@@ -10,6 +10,10 @@ A Bayesian estimator identifies a model by calculating a posterior probability d
 
 Predictions can marginalize the parameter instead of substituting one best value. This carries identification uncertainty into later questions and supports sequential updating as observations accumulate.
 
+The prior matters most when the sample is small; as evidence accumulates, the posterior typically concentrates more tightly around values supported by the data. When the posterior is too complicated to manipulate exactly, inference can use a tractable approximation or representative samples such as Markov chain Monte Carlo draws.
+
 # References
 
 [[bayesianprogramming.pdf]]
+
+[[machinelearning_mit.epub]]

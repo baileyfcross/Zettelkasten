@@ -12,8 +12,12 @@ Bayesian comparison can place prior probabilities on models and infer their post
 
 In high-dimensional regression, selection can be framed as choosing among subspace estimators. The benchmark is the [[Oracle Estimator]], whose unknown risk gives the best bias–variance tradeoff in the candidate collection. [[Penalized Model Selection]] estimates that choice from data while accounting for both model dimension and the multiplicity of alternatives. Exhaustive search is often computationally prohibitive, so the theory also guides convex relaxations and estimator-selection criteria.
 
+Selection precedes or surrounds parameter fitting because no parameter values can make an unsuitable family express the required relationship. A linear model may be clear and efficient yet fail when depreciation is geometric or when distinct kinds of vehicles follow different processes. Application knowledge helps choose the family, while unused data tests whether added flexibility improves [[Generalization in Machine Learning|generalization]] rather than merely training fit.
+
 # References
 
 [[bayesianprogramming.pdf]]
 
 [[introductiontohigh-dimensionalstatistics.pdf]]
+
+[[machinelearning_mit.epub]]

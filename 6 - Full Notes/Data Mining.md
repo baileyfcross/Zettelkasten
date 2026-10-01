@@ -10,7 +10,9 @@ Data mining applies algorithms from statistics, computer science, and machine le
 
 The algorithmic search is one stage within [[Knowledge Discovery in Databases]]. A pattern becomes useful knowledge only after it is checked for relevance and validity and connected to the goals and practices of its domain.
 
+Preparation precedes model fitting: relevant fields are selected, sources are merged, levels of detail are reconciled, and errors or missing values are handled before analysis. Interpretation follows fitting, using validation, visualization, and domain review to decide whether the discovered model is understandable and useful. Machine learning is therefore one stage of the mining process rather than its complete definition.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
-
+[[machinelearning_mit.epub]]

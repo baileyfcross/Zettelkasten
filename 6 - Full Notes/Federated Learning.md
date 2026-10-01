@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]]
+Tags: [[Machine Learning Foundations]]
 
 # Federated Learning
 
@@ -12,8 +12,12 @@ For assistants, this can reduce the amount of private speech or interaction data
 
 The book also describes the architecture for phones and hospitals contributing to a shared project: a local model learns from each site's records, and an aggregator combines updates to improve a central model. Sharing model changes rather than raw records reduces central collection but does not, by itself, settle every disclosure risk.
 
+Alpaydin places federated learning among privacy-preserving approaches: each participant trains its own model on local records and shares parameter updates with the others. The architecture changes what leaves the data holder, but the update channel still needs security and a privacy analysis; local retention is not equivalent to a guarantee that no information can leak.
+
 # References
 
 [[aiassistants.epub]]
 
 [[datascience_mit.epub]]
+
+[[machinelearning_mit.epub]]

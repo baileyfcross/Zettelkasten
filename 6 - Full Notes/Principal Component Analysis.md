@@ -12,8 +12,12 @@ The source connects PCA directly to [[Singular Value Decomposition]] and uses co
 
 For visual feature engineering, PCA can compress high-dimensional image descriptors into orthogonal coordinates that preserve as much variance as possible. It is a linear latent representation, so curved manifold structure may require nonlinear alternatives.
 
+Preserving high-variance directions makes differences among observations visible while discarding coordinates with little spread. This makes PCA an unsupervised extraction method: it does not use class labels, unlike a discriminant projection whose objective is to increase separation between known classes.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[machinelearning_mit.epub]]

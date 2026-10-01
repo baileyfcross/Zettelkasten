@@ -14,6 +14,8 @@ Networks commonly arrange neurons into an input layer, one or more [[Hidden Laye
 
 Kelleher emphasizes that each processing neuron performs two steps: a weighted sum of incoming values and an [[Activation Function]] applied to that sum. The network's function is built by [[Neural Model Composition|composing]] those small transformations. For a fully connected layer, the sums can be evaluated together as [[Layer Matrix Computation|vector–matrix multiplication]], with nonlinear activations applied afterward. This mathematical regularity helps explain the suitability of GPU-style matrix hardware for repeated network runs.
 
+The architecture separates simple local computation from distributed behavior. Neurons operate concurrently, while the connection pattern and weights store how one activation influences another. Biological neurons motivate this representation, but an engineered network is an abstract computational model rather than a literal simulation of the brain.
+
 # References
 
 [[aiassistants.epub]]
@@ -21,3 +23,5 @@ Kelleher emphasizes that each processing neuron performs two steps: a weighted s
 [[algorithms.epub]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

@@ -12,8 +12,12 @@ The final class is chosen by aggregate voting. Deep individual trees can fit com
 
 The book fits hundreds of randomized trees, monitors [[Out-of-Bag Error]], and examines variable importance before evaluating held-out probabilities. The gap between near-perfect training performance and weaker validation performance remains evidence that ensemble accuracy must be checked independently.
 
+Randomly varying the cases and features seen by each tree creates the diversity required for useful [[Ensemble Learning]]. Voting then combines their class decisions. The improvement comes from averaging models whose mistakes differ, not from assuming that any one deep tree is a reliable explanation.
+
 # References
 
 [[dataclassification.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[machinelearning_mit.epub]]

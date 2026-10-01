@@ -12,8 +12,12 @@ Although strongly associated with images, convolution can also find local struct
 
 Kelleher explains the image architecture through [[CNN Receptive Field|local receptive fields]], [[Convolutional Weight Sharing|shared weights]], and a learned [[Convolutional Kernel|kernel]] that produces a [[Convolutional Feature Map|feature map]] across positions. An activation function transforms the map, and a [[CNN Pooling Layer|pooling layer]] may downsample it. A [[CNN Filter Bank|bank of filters]] detects multiple patterns; later [[CNN Dense Layer Integration|dense layers]] can combine those responses for a whole-object decision. [[Residual Skip Connection|Skip connections]] are one extension used to train very deep versions of this architecture.
 
+Local connectivity encodes the assumption that nearby image values are related and that useful features can recur at different locations. Successive local layers expand the effective field of view, building edges into corners, shapes, and eventually whole-object evidence while using far fewer connections than an all-to-all image network.
+
 # References
 
 [[aiassistants.epub]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

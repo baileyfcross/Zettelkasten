@@ -14,6 +14,8 @@ Each [[Hidden Layer]] encodes a transformation of the representation produced be
 
 Kelleher counts [[Neural Depth Counting|depth]] by learned transformations: the hidden layers plus the output layer, or the number of weight matrices crossed. The input layer merely presents values. Additional depth increases representational flexibility, but it can also aggravate the [[Vanishing Gradient Problem]] unless the architecture and training setup support useful backward signals.
 
+Deep learning reduces the need to handcraft every feature by training a hierarchy from raw input to abstract representation and final output. That advantage relies on large, varied datasets and substantial computation, and architecture still contributes domain knowledge—for example, convolution supplies image locality rather than asking a dense network to discover the two-dimensional arrangement from scratch.
+
 # References
 
 [[aiassistants.epub]]
@@ -21,3 +23,5 @@ Kelleher counts [[Neural Depth Counting|depth]] by learned transformations: the 
 [[algorithms.epub]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

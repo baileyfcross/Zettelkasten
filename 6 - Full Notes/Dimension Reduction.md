@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Distance Geometry and Dimension Reduction]]
+Tags: [[Distance Geometry and Dimension Reduction]] · [[Feature Engineering Foundations]]
 
 # Dimension Reduction
 
@@ -10,6 +10,10 @@ Dimension reduction maps observations from many measured coordinates into a smal
 
 The preservation objective must be explicit: dominant variance, pairwise distance, class separation, and local neighborhoods are not identical goals. The source develops variance-ordered linear reduction through [[Singular Value Decomposition]].
 
+Reduction can lower training time and memory, avoid the cost of measuring unnecessary inputs, improve robustness on small samples, simplify interpretation, and permit visual inspection. [[Feature Selection]] retains a subset of original variables, while feature extraction synthesizes fewer coordinates. The appropriate choice depends on whether individual inputs are meaningful by themselves or only in combination.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[machinelearning_mit.epub]]

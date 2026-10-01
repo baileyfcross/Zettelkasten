@@ -14,6 +14,8 @@ Clustering illustrates the setup: observations are supplied without correct grou
 
 Kelleher also describes [[Autoencoder|autoencoders]] as a way to learn a representation by reconstructing inputs without task labels. Such representations can later support a supervised model. The book presents increased interest in these methods partly as a response to the expense of annotating ever larger datasets, not as a guarantee that unlabeled learning always replaces labeled evaluation.
 
+Alpaydin frames the objective as discovering what normally occurs in the input space. [[Clustering Analysis|Clustering]] finds recurring groups, latent-factor methods explain sparse observations through hidden causes, and learned encodings compress repeated structure. A discovered group may later receive a human label, but the grouping itself is produced from similarity and frequency rather than supplied classes.
+
 # References
 
 [[aiassistants.epub]]
@@ -21,3 +23,5 @@ Kelleher also describes [[Autoencoder|autoencoders]] as a way to learn a represe
 [[algorithms.epub]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

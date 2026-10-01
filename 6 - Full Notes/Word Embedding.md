@@ -16,6 +16,8 @@ Deep feature engineering uses these learned vectors as distributed representatio
 
 In a transformer, token embeddings provide the learned content vectors to which [[Positional Encoding]] is added. Training moves tokens used in related contexts into useful geometric relationships, but the initial embedding is only a starting representation; attention layers make it context dependent.
 
+Alpaydin uses word2vec to show that shared contexts can preserve relations as well as proximity. City names can cluster together, country adjectives can form another region, and similar city-to-country offsets permit vector analogies. This arithmetic reflects regularities of the training corpus; it is evidence of a learned representation, not a logical dictionary of meaning.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -25,3 +27,5 @@ In a transformer, token embeddings provide the learned content vectors to which 
 [[deeplearning_mit.epub]]
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[machinelearning_mit.epub]]

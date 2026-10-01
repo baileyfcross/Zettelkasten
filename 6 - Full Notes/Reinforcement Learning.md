@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]] · [[Automated Business Analytics]]
+Tags: [[Reinforcement Learning Methods]] · [[Automated Business Analytics]]
 
 # Reinforcement Learning
 
@@ -14,6 +14,8 @@ Kelleher describes a policy that maps an agent's observation and internal state 
 
 In automated business analytics, reinforcement learning can also guide a multistage forecasting procedure. The source combines it with generalized optimal wavelet decomposition so reward signals help select transformations and forecasting choices evaluated on data.
 
+Alpaydin formalizes the setting through [[Reinforcement Learning Agent-Environment Interaction|agent-environment interaction]]: an action changes the state and may return a reward, while a complete task often requires many actions before success can be observed. [[Temporal Difference Learning]] propagates later reward estimates to earlier choices, and a [[Policy Network]] or tabular policy uses those values to select behavior that maximizes expected cumulative reward.
+
 # References
 
 [[aiassistants.epub]]
@@ -21,3 +23,5 @@ In automated business analytics, reinforcement learning can also guide a multist
 [[deeplearning_mit.epub]]
 
 [[frontiersofdatascience.pdf]]
+
+[[machinelearning_mit.epub]]

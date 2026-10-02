@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[DevOps Agent Memory and MCP]] [[Network MCP Tool Architecture]]
+Tags: [[DevOps Agent Memory and MCP]] [[Network MCP Tool Architecture]] [[Microsoft Foundry Enterprise Agent Integrations]]
 
 # Model Context Protocol Tool Boundary
 
@@ -14,6 +14,8 @@ The Azure AI architecture map situates MCP within tool-augmented and agentic sys
 
 The network-agent implementation sharpens this boundary by keeping backend access behind safe wrappers and publishing only approved wrapper contracts through the MCP server. A browser reaches those contracts through an HTTP bridge acting as an MCP client. MCP enables reuse across clients, while device allowlists, read-only command policy, structured errors, authentication, logging, and approvals remain responsibilities of the surrounding layers.
 
+A Microsoft Foundry agent connected to Databricks Genie through MCP follows the same division. MCP exposes the Genie capability and schema, the agent chooses when and how to call it, and OAuth or managed identity controls downstream access. Schema preflight, least-privilege configuration, tool-call evaluation, and production monitoring remain necessary around the protocol boundary.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
@@ -21,3 +23,5 @@ The network-agent implementation sharpens this boundary by keeping backend acces
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
 
 [[buildingaiagentsfornetworkoperations.pdf]]
+
+[[microsoftfoundryinaction.pdf]]

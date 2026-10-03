@@ -10,6 +10,9 @@ An edge loop follows a connected path through mesh topology. A closed loop retur
 
 Loops make coherent surface regions easier to select and refine. Edge rings cross the mesh in the complementary direction, and loop cuts can introduce new rings whose position can be slid while preserving the broader form.
 
+The Blender Loop Cut tool can insert multiple rings, slide their factor, and apply smoothness with selectable falloff. Even mode matches an adjacent loop's shape, while flipping changes which neighboring loop supplies that reference. Offset Edge Loop Cut instead creates two parallel loops on opposite sides of a selected loop and can extend them around endpoints.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
+[[modelingandanimationusingblender.pdf]]

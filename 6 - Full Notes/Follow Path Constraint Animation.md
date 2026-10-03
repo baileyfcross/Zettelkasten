@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Keyframe Animation and Rigging]]
+Tags: [[Blender Keyframe Animation and Rigging]] [[Blender Constraint Systems]]
 
 # Follow Path Constraint Animation
 
@@ -10,6 +10,9 @@ A Follow Path constraint places an object on a curve and lets the curve's evalua
 
 Follow Curve can rotate the object along the path, and a forward-axis setting identifies which local direction should lead. This orientation setup is essential for vehicles or characters whose nose must follow the trajectory.
 
+Blender 2.80 also exposes an up axis, curve-radius scaling, frame offset, fixed-position behavior, and Influence. Animate Path can create the F-curve and start/end timing used by the curve. The constraint therefore separates the path's geometry, temporal evaluation, and the owner's orientation, allowing each aspect to be adjusted without manually rebuilding the trajectory.
+
 # References
 
 [[howtocheatinblender27x.pdf]]
+[[modelingandanimationusingblender.pdf]]

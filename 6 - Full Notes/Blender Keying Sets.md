@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Keyframe Animation and Rigging]] [[Blender Character Animation Workflow]]
+Tags: [[Blender Keyframe Animation and Rigging]] [[Blender Character Animation Workflow]] [[Blender Animation Editors and Timing]]
 
 # Blender Keying Sets
 
@@ -12,7 +12,10 @@ Custom keying sets can coordinate properties spread across objects, constraints,
 
 A whole-character set can key the rig without manually selecting every control, while a custom facial set can restrict a keying action to expression controls. The active set should match the current task so convenience does not produce dense, unrelated keys across the performance.
 
+In Blender's Timeline, the active keying set determines which properties the insert and delete key controls affect at the current frame. Auto-keyframing can also operate through that set. The set is therefore both a convenience and a recording boundary: it defines what a single timing decision means across otherwise separate animation channels.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[learningblender3e.pdf]]
+[[modelingandanimationusingblender.pdf]]

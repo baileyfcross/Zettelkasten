@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Keyframe Animation and Rigging]] [[Blender Character Animation Workflow]]
+Tags: [[Blender Keyframe Animation and Rigging]] [[Blender Character Animation Workflow]] [[Blender Animation Editors and Timing]]
 
 # Blender Keyframes
 
@@ -12,7 +12,10 @@ Keys can be inserted from the 3D Viewport or directly from many interface proper
 
 For a character, a key can record selected rig controls or a coordinated whole-character pose through a keying set. Frame position defines timing, so the animator can revise when a pose occurs independently from the values stored in that pose.
 
+Blender's interface distinguishes a property keyed on the current frame from an animated property whose value is currently interpolated or changed without a new key. Those color cues help reveal whether an edit has actually entered the animation. Semantic keyframe types such as Breakdown, Moving Hold, Extreme, and Jitter can further label the role a key plays without changing the value it stores.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[learningblender3e.pdf]]
+[[modelingandanimationusingblender.pdf]]

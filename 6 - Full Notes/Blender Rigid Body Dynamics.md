@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Simulation and Grease Pencil]]
+Tags: [[Blender Simulation and Grease Pencil]] [[Blender Particle and Physics Simulation]]
 
 # Blender Rigid Body Dynamics
 
@@ -12,7 +12,10 @@ This is more efficient and appropriate than making a soft body artificially stif
 
 Gress applies the same rigid-body idea to destruction: a model must first be fractured into pieces, then a collider and force can drive their motion. The result still needs suitable fragment shapes, timing, surfacing, and motion blur to read as a real collapse. See [[Rigid Body Fracture and Collision]].
 
+Blender integrates rigid bodies with ordinary animation, parenting, constraints, and drivers. Active bodies can be dynamic or animated, while collision shape, source geometry, mass, friction, bounciness, margin, and collision collections define solver behavior. Separate rigid-body constraints join two bodies through fixed, hinge, slider, piston, spring, generic, or motor relationships.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[digitalvisualeffectsandcompositing.pdf]]
+[[modelingandanimationusingblender.pdf]]

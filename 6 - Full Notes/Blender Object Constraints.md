@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Keyframe Animation and Rigging]] [[Blender Character Rigging and Deformation]]
+Tags: [[Blender Keyframe Animation and Rigging]] [[Blender Character Rigging and Deformation]] [[Blender Constraint Systems]]
 
 # Blender Object Constraints
 
@@ -12,7 +12,10 @@ Their influence can be adjusted or animated, so the relationship need not be abs
 
 Character rigs also apply constraints to individual pose bones, usually with another bone or object as a target. The active interaction mode matters: adding a constraint in Object Mode affects the armature container, whereas adding one in Pose Mode defines behavior for the selected bone.
 
+Blender 2.80 groups object constraints into motion-tracking, transform, tracking, and relationship categories. Each constraint has an owner and may require a target, coordinate space, affected axes, offset behavior, and influence value. Several constraints form an ordered stack, so reliable setups introduce and verify one relationship at a time rather than layering rules whose combined transforms are unclear.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[learningblender3e.pdf]]
+[[modelingandanimationusingblender.pdf]]

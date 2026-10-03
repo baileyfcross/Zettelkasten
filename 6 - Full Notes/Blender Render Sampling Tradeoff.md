@@ -10,6 +10,9 @@ Render samples trade computation time for a cleaner estimate of image lighting. 
 
 Sampling should be judged with the output scale and denoising workflow in mind rather than maximized blindly. Test renders can use fewer samples or reduced output percentage while preserving the final frame's proportions.
 
+Blender exposes sampling separately for viewport and final rendering because those activities tolerate different delays. A responsive viewport may use a modest count for interactive decisions, while a final image can spend more time reducing noise. The source also places sampling beside global simplify, film, and color-management controls, reinforcing that image quality emerges from a coordinated render configuration rather than sample count alone.
+
 # References
 
 [[introductiontoblender30.pdf]]
+[[modelingandanimationusingblender.pdf]]

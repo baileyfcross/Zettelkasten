@@ -13,3 +13,5 @@ The sign depends on the chosen orientation: outward flow is positive for a close
 # References
 
 [[mathematicalmethodsforphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

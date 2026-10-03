@@ -13,3 +13,5 @@ It is the linear part of the local change and therefore approximates $f(x+dx,y+d
 # References
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

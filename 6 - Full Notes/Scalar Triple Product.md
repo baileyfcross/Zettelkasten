@@ -15,3 +15,5 @@ In components, the scalar triple product equals the determinant whose rows or co
 [[foundationsofmath.pdf]]
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

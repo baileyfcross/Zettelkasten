@@ -10,6 +10,10 @@ The divergence theorem equates the outward flux of a vector field through a clos
 
 The theorem requires compatible smoothness and orientation, with the surface normal pointing outward. It underlies integral forms of conservation laws because changes within a volume can be related directly to transport across its boundary.
 
+In differential-form language it is the three-dimensional two-form case of the [[Generalized Stokes Theorem]]. The oriented boundary surface plays the same structural role that a closed boundary curve plays in lower dimensions.
+
 # References
 
 [[mathematicalmethodsforphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

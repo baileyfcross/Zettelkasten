@@ -19,3 +19,5 @@ The component formula can be organized as a determinant built from the basis vec
 [[gameprogrammingalgorithmsandtechniques.pdf]]
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

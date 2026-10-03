@@ -13,3 +13,5 @@ Moving within a level surface produces no first-order change in the field. Conse
 # References
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

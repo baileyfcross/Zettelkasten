@@ -10,6 +10,10 @@ An expression $a(x,y)dx+b(x,y)dy$ is exact when it equals the [[Total Differenti
 
 For sufficiently smooth functions on an appropriate region, exactness requires the cross derivatives to agree: $a_y=b_x$. Recovering $f$ then amounts to integrating one coefficient and using the other to determine the otherwise undetermined function of the remaining variable.
 
+Every exact form is a [[Closed Differential Form]] because applying the exterior derivative twice gives zero. On star-shaped domains the converse also holds, while a domain with holes can obstruct a global potential.
+
 # References
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

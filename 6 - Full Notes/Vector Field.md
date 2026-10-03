@@ -13,3 +13,5 @@ The field's local behavior is characterized by differential operators. Divergenc
 # References
 
 [[mathematicalmethodsforphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

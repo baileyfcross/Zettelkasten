@@ -17,3 +17,5 @@ For a surface, the directional derivative is the slope of the tangent taken alon
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

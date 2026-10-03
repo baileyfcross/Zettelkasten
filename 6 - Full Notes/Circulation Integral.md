@@ -13,3 +13,5 @@ The sign depends on the direction of traversal, and reversing the loop reverses 
 # References
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

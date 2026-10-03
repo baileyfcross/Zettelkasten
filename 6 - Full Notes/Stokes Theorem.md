@@ -10,6 +10,10 @@ Stokes theorem equates the circulation of a vector field around a closed boundar
 
 The curve and surface orientations must follow the right-hand rule. The result shows that, when the necessary conditions hold, changing the spanning surface does not change the boundary circulation because each surface has the same oriented edge.
 
+This familiar curl theorem is one realization of the [[Generalized Stokes Theorem]], whose differential-form statement equates the integral of a form over a boundary with the integral of its exterior derivative over the interior manifold.
+
 # References
 
 [[mathematicalmethodsforphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

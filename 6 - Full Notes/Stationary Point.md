@@ -17,3 +17,5 @@ For a function of two variables, a necessary condition is that both first partia
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

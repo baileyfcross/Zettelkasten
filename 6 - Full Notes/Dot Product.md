@@ -19,3 +19,5 @@ In component form the dot product is the sum of paired component products in an 
 [[gameprogrammingalgorithmsandtechniques.pdf]]
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

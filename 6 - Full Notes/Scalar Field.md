@@ -13,3 +13,5 @@ Spatial derivatives reveal how the field varies. In particular, the gradient of 
 # References
 
 [[mathematicalmethodsforphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

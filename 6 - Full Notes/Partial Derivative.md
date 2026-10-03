@@ -21,3 +21,5 @@ Geometrically, holding one coordinate fixed cuts the graph surface by a coordina
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[mathematicalphysics.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

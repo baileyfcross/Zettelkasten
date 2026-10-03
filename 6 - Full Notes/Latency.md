@@ -16,6 +16,8 @@ For AR, latency is also a [[Temporal Registration|temporal-registration]] error:
 
 In an online game, network latency delays the response to a remote player's command and may give faster connections a competitive advantage. Turn-based mechanics, regional or connection-quality matchmaking, prediction, and designs tolerant of timing variation can reduce its effect, but the acceptable delay depends on how precisely play must be synchronized.
 
+Game latency also accumulates outside the network through input sampling, simulation, a multithreaded render pipeline, vertical synchronization, display refresh, and pixel response. Network delay adds propagation, transmission, processing, and queuing components. [[Round-Trip Time]] measures a message and response together, while [[Network Jitter]] describes variation that can make a steady update stream arrive unevenly.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
@@ -24,3 +26,5 @@ In an online game, network latency delays the response to a remote player's comm
 [[fundamentalsofgamedesign3e.pdf]]
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+
+[[multiplayergameprogramming.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Networked Game Programming]]
+Tags: [[Game Network Transport and Serialization]]
 
 # Internet Control Message Protocol
 
@@ -10,6 +10,10 @@ Internet Control Message Protocol carries diagnostic and error information assoc
 
 ICMP is not the transport for gameplay state, but its responses can help diagnose connectivity. Firewalls may block or limit messages, so lack of an echo reply does not prove that a game service is unavailable.
 
+The protocol travels as an Internet Protocol payload and communicates network conditions rather than providing application ports. A multiplayer diagnostic can use it to investigate reachability or routing behavior, while the actual game still communicates through TCP or UDP sockets.
+
 # References
 
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[multiplayergameprogramming.pdf]]

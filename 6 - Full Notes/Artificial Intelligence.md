@@ -13,6 +13,8 @@ In a [[Virtual Assistant]], intelligence is distributed across specialized compo
 
 AI should also be understood as part of a sociotechnical system that includes data, infrastructure, organizations, users, and people affected without directly using it. Narrow systems can have broad ethical effects when institutions rely on their classifications or predictions. This is why [[AI Ethics]] addresses present design and deployment as well as speculative [[Artificial General Intelligence]].
 
+The infrastructure label “AI” is not specific enough to choose hardware. A fixed rule system can be artificial intelligence without learning from data, while a deep neural network may require large-scale parallel computation; the model, data path, execution mode, and performance objective determine whether acceleration is useful.
+
 Alpaydin distinguishes a manually programmed imitation of an expert from a system whose behavior emerges from the interaction of a learning procedure and data. Learning matters for intelligence in a changing environment because it lets behavior adapt when a designer cannot enumerate every future situation. Biological inspiration can suggest representations, but engineering need not reproduce the brain's physical implementation to reproduce a useful computational capability.
 
 # References
@@ -26,3 +28,5 @@ Alpaydin distinguishes a manually programmed imitation of an expert from a syste
 [[What is software development]]
 
 [[machinelearning_mit.epub]]
+
+[[nvidiagpuinfrastructurefundamentals.pdf]]

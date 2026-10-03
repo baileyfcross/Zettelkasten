@@ -12,5 +12,6 @@ Subtraction of nearly equal numbers can expose it through cancellation, and mult
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

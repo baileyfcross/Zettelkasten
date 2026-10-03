@@ -12,4 +12,6 @@ Initial data specify the starting distribution, while boundary conditions contro
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[mathematicalmethodsforphysics.pdf]]

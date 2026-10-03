@@ -12,5 +12,6 @@ Its coefficients in the [[Linear Objective Function]] measure value or cost, whi
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

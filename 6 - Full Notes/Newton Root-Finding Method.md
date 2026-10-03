@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Nonlinear Optimization Methods]]
+Tags: [[Numerical Root-Finding Methods]]
 
 # Newton Root-Finding Method
 
@@ -13,3 +13,5 @@ The method can converge rapidly near a simple root, but it requires derivatives 
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[numericalmethodsinengineeringandscience.pdf]]

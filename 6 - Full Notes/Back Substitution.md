@@ -12,5 +12,6 @@ It completes [[Gaussian Elimination]] and is also used after [[LU Decomposition]
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

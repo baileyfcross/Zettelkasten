@@ -12,4 +12,6 @@ Initial conditions specify the function or its derivatives at one value of the i
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[mathematicalphysics.pdf]]

@@ -12,4 +12,6 @@ Dominance makes the diagonal a natural part to isolate when deriving the [[Jacob
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[linearalgebra.pdf]]

@@ -12,5 +12,6 @@ Standard form supplies the algebraic structure used by the [[Simplex Method]] an
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

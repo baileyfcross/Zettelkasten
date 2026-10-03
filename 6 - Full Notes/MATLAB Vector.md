@@ -12,5 +12,6 @@ The [[MATLAB Colon Operator]] efficiently constructs regularly spaced vectors. V
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

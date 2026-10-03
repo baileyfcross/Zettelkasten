@@ -16,6 +16,8 @@ Geometrically, $A\hat x$ is the orthogonal projection of $b$ onto the column spa
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]

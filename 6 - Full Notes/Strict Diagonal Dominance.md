@@ -14,6 +14,8 @@ The nonsingularity proof selects a component of a hypothetical null vector havin
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[linearalgebra.pdf]]

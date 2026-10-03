@@ -14,6 +14,8 @@ Because a Householder matrix is symmetric, orthogonal, and its own inverse, it p
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[linearalgebra.pdf]]

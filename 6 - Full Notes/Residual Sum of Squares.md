@@ -12,5 +12,6 @@ Squaring prevents positive and negative residuals from cancelling and penalizes 
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

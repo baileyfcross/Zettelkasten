@@ -12,5 +12,6 @@ The feasible points form a polygon or higher-dimensional polyhedron, and an opti
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

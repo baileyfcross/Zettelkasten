@@ -12,5 +12,6 @@ Numbers that cannot be represented exactly must be rounded or chopped. The resul
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

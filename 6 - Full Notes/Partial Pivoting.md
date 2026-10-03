@@ -12,5 +12,6 @@ Used with [[Gaussian Elimination]], it avoids division by a zero pivot and usual
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

@@ -12,4 +12,6 @@ Slack variables often form the initial basis of a simplex tableau. A zero slack 
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

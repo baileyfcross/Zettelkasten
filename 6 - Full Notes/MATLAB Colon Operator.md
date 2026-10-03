@@ -12,4 +12,6 @@ Used inside parentheses, a colon can select every entry along a dimension. It th
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

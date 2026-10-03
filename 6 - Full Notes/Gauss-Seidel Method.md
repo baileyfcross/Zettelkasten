@@ -14,6 +14,8 @@ With the splitting $A=D+L+U$, the matrix form is $(D+L)x^{(k+1)}=b-Ux^{(k)}$. Th
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[linearalgebra.pdf]]

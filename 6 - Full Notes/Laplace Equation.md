@@ -12,4 +12,6 @@ Boundary conditions determine the solution inside a region, and harmonic functio
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[mathematicalmethodsforphysics.pdf]]

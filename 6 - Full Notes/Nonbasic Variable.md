@@ -12,5 +12,6 @@ A simplex pivot selects an entering nonbasic variable and a leaving [[Basic Vari
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

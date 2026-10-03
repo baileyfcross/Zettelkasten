@@ -12,5 +12,6 @@ Weak duality bounds any primal feasible value by any dual feasible value. When o
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

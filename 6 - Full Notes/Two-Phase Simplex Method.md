@@ -12,5 +12,6 @@ Separating feasibility from optimization avoids choosing an arbitrary large pena
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

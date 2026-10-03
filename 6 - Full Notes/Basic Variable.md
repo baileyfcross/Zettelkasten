@@ -12,5 +12,6 @@ Changing the basis exchanges one basic and one [[Nonbasic Variable|nonbasic vari
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

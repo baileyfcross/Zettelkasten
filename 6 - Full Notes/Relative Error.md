@@ -12,5 +12,6 @@ It expresses error as a proportion of the quantity being approximated. Multiplyi
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

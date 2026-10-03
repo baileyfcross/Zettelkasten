@@ -12,5 +12,6 @@ Labels, axes, markers, multiple curves, and subplots provide context. The numeri
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

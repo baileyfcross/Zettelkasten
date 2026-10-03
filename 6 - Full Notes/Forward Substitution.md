@@ -12,5 +12,6 @@ It is the first solve after [[LU Decomposition]]: one finds $y$ from $Ly=b$, the
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

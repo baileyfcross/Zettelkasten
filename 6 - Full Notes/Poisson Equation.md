@@ -12,4 +12,6 @@ A complete solution combines the influence of the sources with conditions impose
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[mathematicalmethodsforphysics.pdf]]

@@ -14,6 +14,8 @@ The source applies least squares to outcome vector $Y$ and design matrix $X$, ch
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]

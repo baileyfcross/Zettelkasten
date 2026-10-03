@@ -12,4 +12,6 @@ Solutions require appropriate initial displacement and velocity data along with 
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[mathematicalmethodsforphysics.pdf]]

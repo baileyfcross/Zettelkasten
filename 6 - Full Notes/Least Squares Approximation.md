@@ -14,6 +14,8 @@ In matrix form, minimizing $\|Ax-b\|^2$ asks for the point in the column space o
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[linearalgebra.pdf]]

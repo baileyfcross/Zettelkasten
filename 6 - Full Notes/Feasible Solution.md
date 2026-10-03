@@ -12,5 +12,6 @@ Feasibility is separate from quality: a feasible point need not be an [[Optimal 
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

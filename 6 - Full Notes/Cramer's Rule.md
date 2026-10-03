@@ -12,5 +12,6 @@ The rule clearly connects uniqueness to the [[Determinant]], but repeated determ
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

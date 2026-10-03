@@ -12,5 +12,6 @@ It is simpler than [[Rounding]] but introduces a one-sided error whose magnitude
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

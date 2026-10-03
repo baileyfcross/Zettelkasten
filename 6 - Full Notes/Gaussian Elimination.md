@@ -14,6 +14,8 @@ After assembly and boundary-condition enforcement, a finite element model become
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[finiteelementanalysis_aprimer.pdf]]

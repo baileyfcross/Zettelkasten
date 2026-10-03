@@ -12,5 +12,6 @@ The method can expose a solution directly without [[Back Substitution]]. Applyin
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

@@ -14,6 +14,8 @@ Writing $A=D+L+U$ with diagonal part $D$ gives the iteration $x^{(k+1)}=D^{-1}(b
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[linearalgebra.pdf]]

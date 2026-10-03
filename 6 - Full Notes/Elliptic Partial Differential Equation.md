@@ -12,4 +12,6 @@ Elliptic equations usually describe equilibrium or steady spatial configurations
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[mathematicalmethodsforphysics.pdf]]

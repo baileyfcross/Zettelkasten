@@ -12,4 +12,6 @@ Separated solutions consist of spatial eigenfunctions multiplied by exponentiall
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[mathematicalmethodsforphysics.pdf]]

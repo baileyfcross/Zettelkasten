@@ -12,4 +12,6 @@ In one dimension, traveling profiles can move in either direction without changi
 
 # References
 
+[[numericalmethodsinengineeringandscience.pdf]]
+
 [[mathematicalmethodsforphysics.pdf]]

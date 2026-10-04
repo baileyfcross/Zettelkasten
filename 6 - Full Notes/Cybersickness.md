@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Environments]]
+Tags: [[XR Environments]] [[XR Human Factors and Safety]]
 
 # Cybersickness
 
@@ -12,6 +12,9 @@ A leading explanation is conflict among sensory signals. For example, a [[Visual
 
 Symptoms can include headache, blurred vision, dizziness, disorientation, and nausea. Because susceptibility differs among people, evaluation should measure user comfort and provide rest or stopping procedures rather than relying only on system performance.
 
+The broader term [[Sensory Conflict Theory]] describes the mismatch among visual, vestibular, and proprioceptive evidence, while [[Postural Instability Theory]] treats prolonged loss of stable posture as an alternative explanation. Display factors such as incorrect [[Interpupillary Distance]], a very wide [[Field of View]], optical distortion, flicker, and high pixel persistence can alter susceptibility. Symptoms can also outlast the session as a [[Simulator Aftereffect]], so a comfort check should extend beyond the moment the display is removed.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[practicalaugmentedreality.pdf]]

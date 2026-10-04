@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Environments]] [[Prosthetic and Robotic Haptic Systems]]
+Tags: [[XR Environments]] [[Prosthetic and Robotic Haptic Systems]] [[XR Training and Professional Practice]]
 
 # Telerobotics
 
@@ -12,7 +12,10 @@ The interface must map the user's input to remote movement and return sufficient
 
 Force-reflecting master devices can close the loop by returning loads measured at the remote mechanism to the operator's hand. This lets human perception, planning, and error correction guide a robot working in a hazardous, underwater, medical, or otherwise inaccessible environment. The mapping must remain stable and timely; delayed or distorted forces can misrepresent contact and destabilize control.
 
+Immersive viewing can couple the operator's head motion to a remote camera or robot viewpoint, producing [[Telepresence]] while leaving physical action to the machine. Space, undersea, terrestrial, airborne, and medical operations illustrate the same constraint: communication delay and limited feedback determine which motions can be directly teleoperated and which require local autonomy.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[haptics.epub]]
+[[practicalaugmentedreality.pdf]]

@@ -12,8 +12,11 @@ The measurements may differ in coordinate system, rate, latency, accuracy, and n
 
 A Bayesian fusion model treats the quantity being estimated as a hidden variable and conditions each sensor likelihood on it. Conditional independence offers a simple product of evidence, while explicit dependency, ancillary clues, and false-alarm variables prevent repeated or unreliable measurements from being counted as independent support.
 
+In XR tracking, fusion commonly uses rapid inertial updates to follow short-term motion and intermittent optical observations to restore environment-relative position and correct drift. The fused estimate is useful only if the observations refer to compatible coordinate frames and times; otherwise, combining individually reasonable measurements can create visible jitter or registration error.
+
 # References
 
 [[augmentedreality_pearson.pdf]]
 
 [[bayesianprogramming.pdf]]
+[[practicalaugmentedreality.pdf]]

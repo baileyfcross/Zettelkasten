@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Display Systems]] · [[Online Multiplayer and Persistent Worlds]] [[Distributed Network Caching Monitoring and Inspection]]
+Tags: [[XR Display Systems]] [[XR Human Factors and Safety]] · [[Online Multiplayer and Persistent Worlds]] [[Distributed Network Caching Monitoring and Inspection]]
 
 # Latency
 
@@ -14,6 +14,8 @@ Sources include sensing, processing, simulation, rendering, and display refresh.
 
 For AR, latency is also a [[Temporal Registration|temporal-registration]] error: the physical view reflects the present while a virtual object is rendered from an older pose. Motion prediction can estimate the viewpoint expected at display time, but variable delay and sudden changes limit how well prediction can compensate.
 
+In an immersive headset, the base motion-to-photon delay accumulates while sensors measure head pose, the application updates the viewpoint, two eye images are rendered, and the display scans out new pixels. That total can break agreement between proprioceptive motion and visible response, weakening [[Presence]] and increasing [[Cybersickness]] even when no individual stage appears exceptionally slow.
+
 In an online game, network latency delays the response to a remote player's command and may give faster connections a competitive advantage. Turn-based mechanics, regional or connection-quality matchmaking, prediction, and designs tolerant of timing variation can reduce its effect, but the acceptable delay depends on how precisely play must be synchronized.
 
 Game latency also accumulates outside the network through input sampling, simulation, a multithreaded render pipeline, vertical synchronization, display refresh, and pixel response. Network delay adds propagation, transmission, processing, and queuing components. [[Round-Trip Time]] measures a message and response together, while [[Network Jitter]] describes variation that can make a steady update stream arrive unevenly.
@@ -22,6 +24,7 @@ Game latency also accumulates outside the network through input sampling, simula
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
+[[practicalaugmentedreality.pdf]]
 
 [[fundamentalsofgamedesign3e.pdf]]
 

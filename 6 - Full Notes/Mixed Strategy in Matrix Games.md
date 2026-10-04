@@ -10,7 +10,10 @@ A mixed strategy assigns probabilities to two or more pure strategies and choose
 
 The row player chooses probabilities to maximize the minimum expected payoff, while the column player minimizes the maximum expected loss. At the optimal distributions, both quantities equal the [[Value of a Matrix Game]].
 
+At equilibrium, the opponent should be indifferent among the pure strategies that receive positive probability. [[Nash Equilibrium]] extends this reasoning to games whose payoffs are not strictly opposed, while an [[Intransitive Strategy System]] supplies a common design pattern that keeps several options viable.
+
 # References
 
 [[optimizationusinglinearprogramming.pdf]]
 
+[[playersmakingdecisions.pdf]]

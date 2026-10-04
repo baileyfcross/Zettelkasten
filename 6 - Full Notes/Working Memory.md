@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human Cognition]]
+Tags: [[Human Cognition]] [[Game Learning and Cognitive Design]]
 
 # Working Memory
 
@@ -12,6 +12,10 @@ Working-memory capacity differs among people. An interface that makes a user rem
 
 Working memory interacts with [[Long-Term Memory]], which supplies more durable knowledge, categories, procedures, and learned skills.
 
+The practical game-design constraint is only a few unfamiliar chunks at once, not a license to count every interface item as equally demanding. A concept already organized in a [[Player Knowledge Schema]] occupies less effective capacity than several new rules learned simultaneously.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+
+[[playersmakingdecisions.pdf]]

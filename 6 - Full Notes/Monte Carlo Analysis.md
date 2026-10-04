@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cluster Validity and Simulation]] · [[Statistical Inference and Resampling]]
+Tags: [[Cluster Validity and Simulation]] · [[Statistical Inference and Resampling]] [[Game Probability and Simulation]]
 
 # Monte Carlo Analysis
 
@@ -12,8 +12,12 @@ The simulation requires a reproducible random generator, explicit assumptions, a
 
 For statistical inference, repeated pseudo-random samples can approximate a sampling or null distribution and reveal how well an asymptotic theorem works at an actual sample size. The source uses this approach to compare central-limit and t-distribution approximations.
 
+For game design, Monte Carlo trials can test rule sequences that are difficult to solve analytically, compare inputs over a wide range, and expose [[Simulation Tail Risk|rare destructive outcomes]]. Results should be rerun until their summaries show [[Simulation Trial Convergence|convergence]] rather than depending on one convenient sample.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[playersmakingdecisions.pdf]]

@@ -1,12 +1,11 @@
 # Matrix Game Theory
 
-Parent topic: [[Linear Programming Methods]]
+Parent topics: [[Linear Programming Methods]] [[Game Design]]
 
-Two-person zero-sum games, payoff matrices, pure and mixed strategies, saddle points, dominance, graphical methods, and linear-programming solutions.
+Strategic interaction represented through payoff matrices, equilibrium concepts, sequential and repeated decisions, dominance, mixed strategies, and related solution methods.
 
 ## Directly Linked Full Notes
 
 ```query
 path:"6 - Full Notes" "[[Matrix Game Theory]]"
 ```
-

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Player Experience Design]] [[Level and Scene Design]]
+Tags: [[Player Experience Design]] [[Level and Scene Design]] [[Player Agency and Decision Design]]
 
 # Meaningful Decision
 
@@ -14,8 +14,12 @@ An interesting choice offers more than one valid option, gives each option meani
 
 Choices feel integrated when they are made through established [[Game Verb|verbs]] and relationships. A [[Reflective Choice]] may leave the game state unchanged while still making the player consider identity, values, or attitude.
 
+The complete choice also depends on its framing and aftermath. [[Game Choice Anatomy]] traces context, option communication, input, consequences, and feedback; a weakness at any stage can turn an intended decision into guesswork or an illusion of agency.
+
 # References
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[playersmakingdecisions.pdf]]

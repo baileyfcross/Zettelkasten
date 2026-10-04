@@ -14,6 +14,8 @@ Playtesting and iteration also reveal whether a game's expressive conversation p
 
 Agile teams involve players throughout development rather than waiting for a separate final phase. Informal sessions and more controlled studies reinforce the [[Definition of Done]], uncover usability and challenge problems, and give the Product Backlog evidence; they should not be expected to invent the game's breakthrough concept for the team.
 
+A useful session recreates normal play as closely as possible, avoids supplying explanations the released game will not include, and records behavior before attempting diagnosis. Methods such as the [[Think-Aloud Playtest]] and [[A-B Playtest]] answer different questions, while the [[Self-Playtesting Limit]] means designer-only testing cannot replace outside players.
+
 # References
 
 [[advancedgamedesign.pdf]]
@@ -21,3 +23,5 @@ Agile teams involve players throughout development rather than waiting for a sep
 [[agilegamedevelopment2e.pdf]]
 [[gamesdesignandplay.pdf]]
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[playersmakingdecisions.pdf]]

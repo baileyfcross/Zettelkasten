@@ -14,6 +14,8 @@ The experience of play comes from rules interacting rather than operating in iso
 
 A complete ruleset may specify required, permitted, and prohibited actions; sequence of play; challenges and actions; goals; termination conditions; the meanings of symbols; and metarules that govern whether another rule may change. Software can hide bookkeeping rules from a video-game player while still enforcing them precisely.
 
+Useful rules are clear, internally consistent, complete enough to resolve possible states, and economical enough for players to learn. Their purpose is not to constrain for its own sake but to create a structured space in which [[Game Verb|verbs]] and consequences become understandable.
+
 # References
 
 [[advancedgamedesign.pdf]]
@@ -21,3 +23,5 @@ A complete ruleset may specify required, permitted, and prohibited actions; sequ
 
 [[fundamentalsofgamedesign3e.pdf]]
 [[gamesdesignandplay.pdf]]
+
+[[playersmakingdecisions.pdf]]

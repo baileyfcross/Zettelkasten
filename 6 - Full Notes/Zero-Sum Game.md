@@ -10,7 +10,10 @@ A zero-sum game is a competitive situation in which the algebraic sum of all pla
 
 The row player is treated as the maximizer and the column player as the minimizer. Each knows the available strategies and payoffs but chooses without knowing the opponent's simultaneous choice.
 
+The minimax strategy protects each player against the worst response available to the opponent. Two-player zero-sum contests often lack a pure equilibrium, so unpredictability through a [[Mixed Strategy in Matrix Games|mixed strategy]] becomes central.
+
 # References
 
 [[optimizationusinglinearprogramming.pdf]]
 
+[[playersmakingdecisions.pdf]]

@@ -10,7 +10,10 @@ A payoff matrix lists the outcome for every combination of a row player's strate
 
 For a two-person [[Zero-Sum Game]], the minimizing player's matrix is the negative of this matrix. Row minima and column maxima provide the quantities used by the [[Maximin and Minimax Principle]].
 
+More generally, each cell can hold a tuple with one payoff for each player. This form supports non-zero-sum games such as the [[Prisoner's Dilemma]] and [[Stag Hunt]], where the players' interests overlap in some outcomes and conflict in others.
+
 # References
 
 [[optimizationusinglinearprogramming.pdf]]
 
+[[playersmakingdecisions.pdf]]

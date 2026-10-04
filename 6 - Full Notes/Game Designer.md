@@ -10,6 +10,10 @@ A game designer defines how a game should work and what experience its rules, in
 
 Designers work within a team rather than owning every decision. They must understand other disciplines well enough to coordinate constraints and preserve a coherent whole without replacing the specialists who implement art, code, audio, or writing.
 
+The role also requires systems thinking, advocacy for the player's perspective, humility when evidence contradicts an idea, and persistent communication of design goals to both collaborators and players. Because small teams leave disciplinary gaps, a designer benefits from [[Practical Philomathy]] rather than relying only on experience consuming games.
+
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+
+[[playersmakingdecisions.pdf]]

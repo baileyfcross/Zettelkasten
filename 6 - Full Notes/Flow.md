@@ -14,8 +14,12 @@ Flow requires goals that can be acted on, feedback that supports adjustment, and
 
 The same challenge-skill relationship can support creative work: excessive demand produces stress, insufficient demand produces boredom, and a demanding but attainable goal enables concentrated, productive absorption.
 
+For games, the three practical conditions are clear goals and progress, clear immediate feedback, and a perceived balance between challenge and skill. Difficulty can oscillate within this channel: an intense encounter may be followed by a low-demand recovery period before challenge rises with the player's mastery.
+
 # References
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
 [[agilegamedevelopment2e.pdf]]
+
+[[playersmakingdecisions.pdf]]

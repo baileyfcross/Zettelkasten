@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Analytics and Probability]] [[Game Balance and Progression]] [[Probability Foundations]]
+Tags: [[Game Analytics and Probability]] [[Game Balance and Progression]] [[Probability Foundations]] [[Game Probability and Simulation]]
 
 # Probability Distribution
 
@@ -14,6 +14,8 @@ In Bayesian reasoning, a probability distribution assigns normalized plausibilit
 
 In game systems, combining events changes the shape of the distribution. One fair die is uniform, while the sum of two dice clusters around the middle because more combinations produce those totals. Designers should distinguish independent events from dependent or mutually exclusive events and inspect the full outcome space rather than assuming that visible randomness implies equal likelihood.
 
+Enumerating cases makes that shape explicit. A [[Dice Sum Distribution]] is nonuniform even though every face on each die is equally likely, because different totals have different numbers of producing combinations.
+
 # References
 
 [[advancedgamedesign.pdf]]
@@ -21,3 +23,5 @@ In game systems, combining events changes the shape of the distribution. One fai
 [[bayesianprogramming.pdf]]
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
 [[introductiontogamesystemdesign.pdf]]
+
+[[playersmakingdecisions.pdf]]

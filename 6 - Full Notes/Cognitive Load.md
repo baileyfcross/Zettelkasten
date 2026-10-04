@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human Cognition]] [[Modern Software Delivery Foundations]] [[Developer Self-Service and Platform Experience]]
+Tags: [[Human Cognition]] [[Modern Software Delivery Foundations]] [[Developer Self-Service and Platform Experience]] [[Game Learning and Cognitive Design]]
 
 # Cognitive Load
 
@@ -18,6 +18,8 @@ In platform engineering, excessive cognitive load appears when delivery teams mu
 
 The platform should present each persona with the signal and control relevant to its responsibility. Hiding all infrastructure makes failures mysterious, while exposing every platform and tenant detail creates noise; effective abstraction preserves awareness of what affects the application without requiring developers to operate the shared substrate.
 
+For game learning, unfamiliar controls, goals, story terms, and system relationships all compete for a small working-memory capacity. Gradual introduction, [[Working Memory Chunking|chunking]], and [[Instructional Scaffolding|scaffolding]] let early concepts enter long-term memory before later demands are combined.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -26,3 +28,5 @@ The platform should present each persona with the signal and control relevant to
 [[advancedgamedesign.pdf]]
 
 [[platformengineeringforarchitects.pdf]]
+
+[[playersmakingdecisions.pdf]]

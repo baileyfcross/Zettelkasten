@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-10-01T04:05:42.689Z",
+  "updatedAt": "2026-10-04T18:58:15.718Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -36575,6 +36575,16 @@
         "f22baadbf6b4d17218c3a8e4ae4117ef5c474b2abb1754d720da3b5a81ac2d19"
       ]
     },
+    "6 - Full Notes/Explicit and Implicit Recommendation Feedback.md": {
+      "sourceHash": "3c139de53056f0fb4916cc22bed9b5419ed1209775551f2bef066e4e7368f351",
+      "sourceType": "markdown",
+      "fileName": "Explicit and Implicit Recommendation Feedback.md",
+      "title": "Explicit and Implicit Recommendation Feedback",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a41026550cd373cac639ba0026fef810677cdafcd6653bd7ce4bf38915e04ce4"
+      ]
+    },
     "6 - Full Notes/Explicit Challenge.md": {
       "sourceHash": "51bfbf1ca885fd9f6a8d7cd848eb83219d7f520259ed2c2b0674e382579157ad",
       "sourceType": "markdown",
@@ -64963,6 +64973,76 @@
       "chunkCount": 3,
       "objectHashes": [
         "8330417de45509232f72b5d69ddec224250df41d128de951d8e234af5a1df1bd"
+      ]
+    },
+    "6 - Full Notes/Recommendation Choice Architecture.md": {
+      "sourceHash": "c01864f32f3464af6ea2961912a177ff2ebe8bdb4045ba3e0dfb431fe58ad391",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Choice Architecture.md",
+      "title": "Recommendation Choice Architecture",
+      "chunkCount": 3,
+      "objectHashes": [
+        "17b259b3daeaa44066f1056ca55a99997dd2395de89f872ade303ad74d31e301"
+      ]
+    },
+    "6 - Full Notes/Recommendation Evaluation Objective.md": {
+      "sourceHash": "d4fd7442dbc70f00e13727d8572edf9cf302114ce6788852ecf3fff43f6f29f5",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Evaluation Objective.md",
+      "title": "Recommendation Evaluation Objective",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7614f8e37bb87fd8e2ffedb1661e091e6b176f6e605eac8a3d3fcb1ac9e4a229"
+      ]
+    },
+    "6 - Full Notes/Recommendation Filter Bubble.md": {
+      "sourceHash": "8d65e15a65c3ea48f54c1a658cdd74f644b06b9368457da742fc2349532d330c",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Filter Bubble.md",
+      "title": "Recommendation Filter Bubble",
+      "chunkCount": 3,
+      "objectHashes": [
+        "65dad736a531bc62379b1dbe67c8294ee94b29892785ce7700d10e3ffbc3951e"
+      ]
+    },
+    "6 - Full Notes/Recommendation Serendipity.md": {
+      "sourceHash": "268afc846888deae4a6f7036ad136bfc4fc6d7b0f451f81182d6bbc08e50367d",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Serendipity.md",
+      "title": "Recommendation Serendipity",
+      "chunkCount": 3,
+      "objectHashes": [
+        "56df46ac8c3d51515b627ff3de88789ada59af812de310182885cbfb4c9a5345"
+      ]
+    },
+    "6 - Full Notes/Recommendation Shilling Attack.md": {
+      "sourceHash": "6971a8deb6fa44bf98853ed024a6baa79fc46090d80100fbef737065fb01f46f",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Shilling Attack.md",
+      "title": "Recommendation Shilling Attack",
+      "chunkCount": 3,
+      "objectHashes": [
+        "fe04a4f8d3c9283ac92d5bd895d11ba936e227b64fb001e3b5d583b1d25bbb1c"
+      ]
+    },
+    "6 - Full Notes/Recommendation Utility Matrix.md": {
+      "sourceHash": "a4e28bfdf7223dab5ebab5033551aec4a141579e09c8dd9f4a4bfa54a5004865",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Utility Matrix.md",
+      "title": "Recommendation Utility Matrix",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6f14771d8bf35db13f1d6821f37001d714f92097872f1bb7f70d2ce19e3f91af"
+      ]
+    },
+    "6 - Full Notes/Recommender Cold Start.md": {
+      "sourceHash": "a3dc280b37e50e7c285e74a67c92ad80562bc96fa07e84eb29e88c0203eaf4b5",
+      "sourceType": "markdown",
+      "fileName": "Recommender Cold Start.md",
+      "title": "Recommender Cold Start",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d885d4c607863b328b167478468247946995a3b7598366d9a717220ae6501f50"
       ]
     },
     "6 - Full Notes/Recommender System.md": {

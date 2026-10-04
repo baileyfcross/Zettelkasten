@@ -16,6 +16,8 @@ The same recommendation formulation can model a [[Drug-Target Interaction Matrix
 
 For movie recommendations, factorization addresses a sparse matrix in which each viewer has rated few films and each film has been seen by few viewers. One factor matrix represents users as mixtures of hidden preferences and the other represents how those factors affect films. Their product predicts missing scores, and the factor count controls the complexity of the explanation even when the factors are not easy to name.
 
+[[Singular Value Decomposition]] explains the dimensionality-reduction intuition: decomposing a utility matrix can surface latent directions that retain useful preference structure in a denser representation. The user and item factors describe compatibility along those learned directions rather than requiring every factor to be a catalog attribute chosen in advance.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
@@ -25,3 +27,5 @@ For movie recommendations, factorization addresses a sparse matrix in which each
 [[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]
 
 [[machinelearning_mit.epub]]
+
+[[recommendationengines.epub]]

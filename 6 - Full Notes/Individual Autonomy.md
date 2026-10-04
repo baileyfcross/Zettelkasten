@@ -10,6 +10,10 @@ Individual autonomy is the capacity to form purposes and direct one's own life. 
 
 In a Big Data environment, autonomy can be affected even without direct coercion. Persistent profiling and prediction may shape options or behavior, so the legal question includes how information systems alter the conditions under which choices are made.
 
+Recommendation preserves autonomy only when advice remains optional in practice as well as name. A system can expand agency by surfacing understandable alternatives, or erode it through addictive defaults, hidden interests, and dependence that makes refusal costly. The relevant question is not simply whether the prediction is accurate, but whether its [[Recommendation Choice Architecture|choice architecture]] helps the person direct the decision.
+
 # References
 
 [[frontiersofdatascience.pdf]]
+
+[[recommendationengines.epub]]

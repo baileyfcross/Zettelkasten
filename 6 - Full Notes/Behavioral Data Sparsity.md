@@ -10,6 +10,10 @@ Behavioral data sparsity means that only a small fraction of possible user-item 
 
 Sparse data weakens direct similarity and parameter estimates. Social regularization, tensor structure, and cross-domain transfer add constraints or evidence without pretending that missing entries are observed rejections.
 
+In recommendation, sparsity also produces the [[Recommender Cold Start]] problem for a new user or item. Side data, content features, initial preference questions, and popularity can supply provisional evidence, but the empty cells must not be treated as dislikes merely because no interaction was recorded.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
+
+[[recommendationengines.epub]]

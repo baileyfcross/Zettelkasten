@@ -10,6 +10,10 @@ Data privacy governs information that identifies or can be linked to a person an
 
 Cloud services complicate privacy because providers, employees, applications, devices, and governments can occupy different legal jurisdictions. Encryption and access controls help protect data, while retention, anonymization, ownership, and lawful use require policy and contractual decisions.
 
+Personalization illustrates why privacy is also inferential. A recommender can combine clicks, dwell time, location, device, and time of day to infer preferences the person never explicitly disclosed. Meaningful consent must therefore address the conclusions and future uses enabled by combined behavioral traces, not only the collection of each field in isolation.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[recommendationengines.epub]]

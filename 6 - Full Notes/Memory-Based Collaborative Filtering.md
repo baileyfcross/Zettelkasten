@@ -12,8 +12,12 @@ The method is intuitive because predictions can be traced to observed neighbors.
 
 User-based and item-based variants orient the same sparse interaction matrix differently. Both repeatedly intersect rating vectors, compute a similarity, and combine neighborhood evidence; the regular statistical structure makes their shared kernels suitable for a [[Similarity Metric Accelerator]].
 
+Large, sparse matrices expose the method's main limitation: too few shared interactions make neighborhoods weak, while comparing a target against millions of users can be expensive. Item neighborhoods often scale better because their similarities can be calculated offline and reused across many requests.
+
 # References
 
 [[frontiersofdatascience.pdf]]
 
 [[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]
+
+[[recommendationengines.epub]]

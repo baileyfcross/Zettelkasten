@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[GitOps Deployment Operations]]
+Tags: [[GitOps Deployment Operations]] [[Platform Delivery and Artifact Automation]]
 
 # GitOps Operator
 
@@ -10,7 +10,10 @@ A GitOps operator is a trusted agent running inside a managed environment that w
 
 The operator repeatedly compares repository state with live state, applies approved differences, reports synchronization health, and can remove objects deleted from Git or reverse unauthorized manual changes. Its permissions are powerful but localized: it needs authority in the environment it reconciles, while the broader CI system can remain outside the production credential boundary.
 
+The operator can emit lifecycle notifications before, during, after, or upon failure of synchronization. Those events make the reconciliation step visible to release checks and application-lifecycle automation without giving the external build system direct deployment authority.
+
 # References
 
 [[clouddevopsengineersguide.pdf]]
 
+[[platformengineeringforarchitects.pdf]]

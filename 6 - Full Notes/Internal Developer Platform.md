@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[AWS Cloud Operations and Platform Engineering]] [[Modern Software Delivery Foundations]]
+Tags: [[AWS Cloud Operations and Platform Engineering]] [[Modern Software Delivery Foundations]] [[Developer Self-Service and Platform Experience]]
 
 # Internal Developer Platform
 
@@ -14,6 +14,8 @@ An internal platform can assemble planning, source management, build, test, rele
 
 The platform can also standardize telemetry collection, metadata, log levels, alert routing, and the delivery of operational insights. A portal alone is not the platform: the value comes from the automated capabilities, enforcement, and feedback behind the interface.
 
+The IDP should meet different personas through appropriate interfaces—a portal, API, CLI, IDE workflow, or declarative file—while all routes invoke the same governed capabilities. Multi-tenancy, quotas, ownership metadata, and tenant-aware observability turn convenience into bounded self-service rather than unrestricted infrastructure access.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,5 @@ The platform can also standardize telemetry collection, metadata, log levels, al
 [[clouddevopsengineersguide.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]
+
+[[platformengineeringforarchitects.pdf]]

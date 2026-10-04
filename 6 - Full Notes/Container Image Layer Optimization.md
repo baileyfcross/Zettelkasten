@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Containerized Microservice Architecture]]
+Tags: [[Containerized Microservice Architecture]] [[Buildah Container Image Construction]]
 
 # Container Image Layer Optimization
 
@@ -12,7 +12,10 @@ Smaller, reusable layers improve build and transfer time, but readability and co
 
 A `.dockerignore` file reduces the build context before any `COPY` instruction executes, while a multi-stage Dockerfile separates build dependencies from the runtime artifact. Together these controls improve cache stability and image size, but optimization should be verified against an image inspection and a clean rebuild rather than assumed from the number of instructions.
 
+The Podman toolchain exposes a further tradeoff between retaining and squashing layers. Retained layers improve cache reuse and deduplication among related images; squashing can simplify the merged filesystem and permanently omit files deleted in later layers, but it removes those sharing benefits. Layer count is therefore not a useful optimization target by itself.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[clouddevopsengineersguide.pdf]]
+[[podmanfordevopssecondedition.pdf]]

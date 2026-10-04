@@ -12,7 +12,10 @@ Cross-platform .NET makes the managed application portable, but filenames, casin
 
 At the Linux kernel level, namespaces isolate what containerized processes can see, while [[Linux Control Groups]] account for and constrain resources such as CPU time and memory. A container therefore combines several kernel mechanisms rather than representing a separate kernel or a single isolation primitive.
 
+Podman makes that combination concrete: an OCI runtime creates an isolated process against an image-provided filesystem while the process continues to share the host kernel. This is why a container is lighter than a virtual machine but also why namespace, capability, and mandatory-access-control boundaries all matter to its security.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[linuxkernelprogramming_secondedition.pdf]]
+[[podmanfordevopssecondedition.pdf]]

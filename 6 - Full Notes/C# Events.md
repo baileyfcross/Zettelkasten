@@ -14,8 +14,12 @@ An event lets a publisher notify subscribed handlers without hard-coding each do
 
 The conventional .NET handler shape receives the publishing object and an `EventArgs` value carrying event-specific data.
 
+The publisher owns the moment of invocation, while subscribers own their handlers and may attach or detach them independently. This division lets an event expose notification without exposing the underlying delegate for arbitrary outside calls.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

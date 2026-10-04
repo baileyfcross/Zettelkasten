@@ -14,6 +14,8 @@ The conference-counter example uses waiting customers to motivate nonblocking wo
 
 An asynchronous method should normally return `Task` or `Task<T>` rather than `void`, and the async chain should continue to a caller that can observe completion. Context capture is useful for thread-affine interfaces but can be disabled in reusable code that has no such dependency.
 
+File and network operations are representative uses because the program can yield while an external operation is incomplete. `await` composes that waiting without turning the call into parallel CPU execution; independent operations must still be started and coordinated deliberately if concurrency is intended.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
@@ -21,3 +23,5 @@ An asynchronous method should normally return `Task` or `Task<T>` rather than `v
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

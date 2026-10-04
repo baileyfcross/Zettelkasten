@@ -10,7 +10,11 @@ Garbage collection reclaims managed objects that are no longer reachable. Freque
 
 The book compares custom request parsing with ASP.NET Core model binding to reduce unnecessary object creation. Allocation changes should be measured under load because simpler code and lower allocation may matter more than hand-written parsing assumptions.
 
+The managed heap is organized into generations so short-lived objects can usually be collected without scanning every older object. Collection traces reachable objects, reclaims unreachable space, and may compact surviving objects; a finalizable object follows an additional path before its memory can be reclaimed.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

@@ -12,8 +12,12 @@ Hiding a member creates a separate compile-time choice and is not the same as ov
 
 Polymorphism lets code invoke a common contract while the runtime type supplies the concrete behavior. Overriding inherited operations and implementing abstract members are dynamic forms; method or operator overloading chooses among statically known signatures.
 
+That timing distinction prevents a common confusion: an overload is selected from the compile-time argument types, while an override is dispatched from the runtime object type. The two mechanisms can share a method name but solve different forms of variation.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

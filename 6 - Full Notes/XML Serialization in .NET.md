@@ -10,6 +10,10 @@ XML serialization converts object state into an XML representation that can be s
 
 Serialization is a boundary contract rather than a substitute for a domain model. Applications should choose stable data-transfer shapes, understand which members are included, and treat incoming XML as untrusted input before allowing reconstructed data to influence behavior.
 
+`XmlSerializer` uses public members by default and lets attributes adapt the contract. `XmlIgnore` excludes a member, while `XmlArray` and `XmlArrayItem` control how a collection and its elements appear without changing the in-memory member names.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Linear Programming Methods]]
+Tags: [[Simplex Algorithms and Basis Structure]]
 
 # Nonbasic Variable
 
@@ -10,8 +10,12 @@ A nonbasic variable is set to zero in the current basic solution of a linear pro
 
 A simplex pivot selects an entering nonbasic variable and a leaving [[Basic Variable]], then performs row operations to establish the new basis.
 
+At an optimum, a nonbasic variable's objective-row coefficient is also its reduced-cost signal: it measures whether allowing that activity to become positive can improve the objective.
+
 # References
 
 [[numericalmethodsinengineeringandscience.pdf]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[optimizationusinglinearprogramming.pdf]]

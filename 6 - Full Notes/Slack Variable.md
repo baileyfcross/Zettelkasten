@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Linear Programming Methods]]
+Tags: [[Simplex Algorithms and Basis Structure]]
 
 # Slack Variable
 
@@ -10,8 +10,12 @@ A slack variable converts a less-than-or-equal [[Linear Constraint]] into an equ
 
 Slack variables often form the initial basis of a simplex tableau. A zero slack value means the associated constraint is binding.
 
+Their unit columns make less-than resource constraints especially convenient starting rows for a canonical simplex basis.
+
 # References
 
 [[numericalmethodsinengineeringandscience.pdf]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[optimizationusinglinearprogramming.pdf]]

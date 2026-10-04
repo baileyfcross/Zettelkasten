@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Linear Programming Methods]]
+Tags: [[Simplex Algorithms and Basis Structure]]
 
 # Simplex Method
 
@@ -10,8 +10,12 @@ The simplex method solves a linear program by moving between basic feasible solu
 
 Pivot row operations update the basis. The process stops when the objective row shows that no permitted entering variable can improve the solution.
 
+The entering choice follows the objective condition, while the leaving choice follows the [[Minimum Ratio Test]] so that the new basic solution remains feasible.
+
 # References
 
 [[numericalmethodsinengineeringandscience.pdf]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[optimizationusinglinearprogramming.pdf]]

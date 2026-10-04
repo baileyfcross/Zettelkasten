@@ -10,6 +10,10 @@ Finite element electromagnetic analysis subdivides an electromagnetic domain int
 
 The method is well suited to complex geometry and inhomogeneous media. Electrostatic Poisson and Laplace equations, wave equations, transmission structures, and actuator fields can all be placed in this general workflow.
 
+For a three-dimensional microwave component, the workflow can combine tetrahedral meshing, conductive-wall boundary conditions, modal port solutions, and a frequency-domain sweep. The book uses the resulting field solution to produce internal electric-field slices as well as port-level [[Scattering Parameters]] and [[Voltage Standing Wave Ratio]].
+
 # References
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[rfmodule.pdf]]

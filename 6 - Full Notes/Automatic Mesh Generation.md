@@ -10,6 +10,10 @@ Automatic mesh generation creates node coordinates and element connectivity from
 
 Rectangular regions can be divided systematically into quadrilaterals and then triangles. Arbitrary domains can be decomposed into blocks, meshed separately, and connected by merging nodes with identical coordinates.
 
+Three-dimensional RF geometry can instead be filled with a free tetrahedral mesh. When the book changes a stub height, it rebuilds both the geometry and mesh before recomputing; the larger domain produces a corresponding increase in element count. This keeps the discretization synchronized with every parameterized variant.
+
 # References
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[rfmodule.pdf]]

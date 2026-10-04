@@ -12,8 +12,12 @@ Valid interpretation depends on the variable coding, residual behavior, and stud
 
 The source writes the full model as $Y=X\beta+\epsilon$, where the design matrix expresses the experimental comparison and least squares estimates the coefficient vector. This same formulation accommodates transformed predictors, several factors, and interaction terms without changing the core fitting principle.
 
+Regression can describe an association or generate predictions, but both uses require checks of residual pattern, variance, influential observations, and the domain over which the fitted form is credible. Extrapolation beyond observed predictor values adds structural assumptions that a small in-sample error cannot validate.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

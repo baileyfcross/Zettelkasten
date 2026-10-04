@@ -14,6 +14,8 @@ For statistical inference, repeated pseudo-random samples can approximate a samp
 
 For game design, Monte Carlo trials can test rule sequences that are difficult to solve analytically, compare inputs over a wide range, and expose [[Simulation Tail Risk|rare destructive outcomes]]. Results should be rerun until their summaries show [[Simulation Trial Convergence|convergence]] rather than depending on one convenient sample.
 
+Monte Carlo experiments can also compare alternative decisions by drawing inputs from explicitly specified distributions and summarizing outcomes across replications. The method is usually static: it samples uncertainty without representing a system's event-by-event evolution, which distinguishes it from [[Discrete-Event Simulation]].
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
@@ -21,3 +23,5 @@ For game design, Monte Carlo trials can test rule sequences that are difficult t
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[playersmakingdecisions.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

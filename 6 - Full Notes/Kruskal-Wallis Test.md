@@ -10,6 +10,10 @@ The Kruskal–Wallis test compares a continuous or ordinal response across three
 
 The omnibus statistic can establish that the group distributions are not all alike, but it does not identify the differing pairs. As with other rank tests, interpretation is clearest when the shapes of the group distributions are also examined.
 
+The procedure generalizes rank-based comparison beyond two independent groups. Its nonparametric label does not remove design assumptions: independent sampling and comparable distribution shapes remain important when the result is interpreted as a shift in location.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

@@ -10,6 +10,10 @@ An experimental unit is the entity to which a condition is applied and from whic
 
 Correct identification matters for independence and sample size. Several measurements from one unit are not automatically several independent units, even when they occupy separate data records.
 
+The unit also determines the level at which random assignment, matching, blocking, or control is meaningful. Treating lower-level observations as independently assigned units creates pseudoreplication and understates uncertainty, even when the total number of recorded measurements is large.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

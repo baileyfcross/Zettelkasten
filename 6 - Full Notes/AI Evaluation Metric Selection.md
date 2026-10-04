@@ -10,6 +10,10 @@ AI evaluation metrics should correspond to the application’s actual failure mo
 
 Selection begins with the behavior that matters, the consequence of failure, and the evidence each evaluator can provide. The resulting metric set should be small enough to interpret but broad enough to catch distinct risks. Operational latency and cost belong beside behavioral quality rather than substituting for it.
 
+For AIOps, response accuracy, guardrail executions, and personally identifiable information leakage are especially consequential because the system may act on production. Natural-language measures such as ROUGE or BERT can support evaluation, but dry runs, expected runbooks, a second model, and human judgment are needed to test whether an operational answer is actually safe and useful.
+
 # References
 
 [[microsoftfoundryinaction.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

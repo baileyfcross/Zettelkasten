@@ -12,8 +12,12 @@ The output is a starting hypothesis, not an automatic fix. An engineer checks it
 
 An operations workflow can assign an alert-receiver role to group related events, remove obvious false positives, classify impact, and forward the most urgent evidence to a planning role. Triage should preserve the original alerts and explain priority so downstream agents and engineers can audit the selection.
 
+Context-rich observability improves the triage by joining deployment history, component ownership, call and hosting dependencies, shared resources, and SLO impact. The AI can summarize that evidence quickly, but the responder remains responsible for validating the inferred cause and any write action.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[agenticaifordevopsengineers.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

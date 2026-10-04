@@ -12,8 +12,12 @@ Self-service does not mean unrestricted cloud access. An [[Internal Developer Pl
 
 Self-service is effective when the platform packages approved workflows, deployment rules, review, testing, and observability rather than merely exposing raw tools. This preserves standardization and security while letting a delivery team complete common work without waiting for a central operator.
 
+For observability, self-service can provide relevant dashboard links, recent critical logs, current SLOs, and automated hotspot analysis in the user's normal workflow. The platform centralizes specialist knowledge while access control and metadata ensure that teams see only the operational information appropriate to their responsibility.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

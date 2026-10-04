@@ -12,8 +12,12 @@ The distinction is practical rather than competitive. Monitoring can reveal that
 
 SRE-oriented observability designs logs, real-time monitoring, distributed traces, and metrics into the system so its internal behavior is measurable and analyzable. Shifting this requirement left is stronger than adding external black-box monitoring after implementation because services can emit the context needed for diagnosis.
 
+In dynamic cloud-native systems, this distinction also changes scale. Monitoring a known server against a fixed condition can remain useful, but understanding ephemeral workloads requires context-rich signals and relationships that support questions the operator did not predict when the alert was written.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

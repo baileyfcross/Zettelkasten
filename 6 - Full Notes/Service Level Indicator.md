@@ -10,6 +10,10 @@ A service level indicator is a quantitative measurement of a user-relevant aspec
 
 An SLI supplies the evidence used to evaluate a [[Service Level Objective]]. The indicator should reflect what users experience rather than only the health of an internal component; a running server is not a useful availability indicator if requests still fail. Consistent collection boundaries are essential because changing the measurement changes the meaning of the objective.
 
+A request-success SLI can divide successful responses by all valid requests and normalize the result to a percentage. This makes the measured behavior explicit and separates the indicator itself from the target and time window imposed by the objective.
+
 # References
 
 [[clouddevopsengineersguide.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

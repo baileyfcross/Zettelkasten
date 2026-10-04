@@ -12,6 +12,8 @@ Application Insights supplies the DevOps feedback loop in the case study by repo
 
 The cloud-native observability model separates three complementary forms of telemetry. Logs preserve discrete events and context, metrics summarize behavior as numerical time series, and traces follow a request across service boundaries. Their value comes from correlation: a metric can reveal that latency changed, a trace can locate the slow span, and structured logs can explain what happened inside it.
 
+Events, continuous profiles, real-user behavior, and security evidence extend this model beyond the traditional three signals. Collection should decide what to enrich, remove, retain, and connect so growing telemetry becomes usable information rather than an expensive archive of unrelated observations.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -23,3 +25,5 @@ The cloud-native observability model separates three complementary forms of tele
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[clouddevopsengineersguide.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

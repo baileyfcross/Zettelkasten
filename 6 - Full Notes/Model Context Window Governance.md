@@ -10,6 +10,10 @@ Model context window governance treats the amount of input a model can process a
 
 Sending more context simplifies some tasks but can expose more sensitive information and increase token cost. Fragmenting data limits each request's scope but can separate facts that must be interpreted together. The application should choose retrieval, chunking, and retention behavior according to task coherence, confidentiality, auditability, and the model's actual limits.
 
+Operational sessions can control growth through prompt compression, pruning of obsolete or irrelevant evidence, and compaction of long investigations into structured summaries. Token telemetry should show both spend and proximity to the context limit because exceeding that limit can cause forgetting and unreliable incident reasoning.
+
 # References
 
 [[microsoftfoundryinaction.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

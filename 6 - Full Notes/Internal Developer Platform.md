@@ -12,8 +12,12 @@ The platform commonly exposes a [[Golden Path]] through a portal, API, templates
 
 An internal platform can assemble planning, source management, build, test, release, operations, security, analytics, and service-marketplace capabilities around value-stream scenarios. Packaging these modules behind supported interfaces lets teams reuse domain expertise without exposing every tool detail.
 
+The platform can also standardize telemetry collection, metadata, log levels, alert routing, and the delivery of operational insights. A portal alone is not the platform: the value comes from the automated capabilities, enforcement, and feedback behind the interface.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

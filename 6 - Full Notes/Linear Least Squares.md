@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Least Squares Methods]] · [[Matrix Algebra for Statistical Models]]
+Tags: [[Least Squares Methods]] · [[Matrix Algebra for Statistical Models]] · [[R Matrix Systems and Scientific Models]] · [[R Probability Simulation and Curve Fitting]]
 
 # Linear Least Squares
 
@@ -12,6 +12,8 @@ Although the fitted model is a line, the method generalizes directly to several 
 
 The source applies least squares to outcome vector $Y$ and design matrix $X$, choosing coefficients that minimize the residual sum of squares. This formulation covers group comparisons, continuous predictors, polynomial terms, and interactions within the same matrix framework.
 
+The student companion derives a fitted line from the normal equations and later extends the same squared-error criterion to quadratic and multiple-predictor models. R's matrix operations make the parameter calculation explicit, while the overlaid curve shows whether the chosen form follows the data.
+
 # References
 
 [[numericalmethodsinengineeringandscience.pdf]]
@@ -19,3 +21,5 @@ The source applies least squares to outcome vector $Y$ and design matrix $X$, ch
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[rstudentcompanion.pdf]]

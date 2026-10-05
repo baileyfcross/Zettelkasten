@@ -14,6 +14,8 @@ The book uses explicit readers such as `read_csv` and then assigns the result to
 
 The primer treats import as a family of format-specific translations rather than a single command. Native R files, text, spreadsheets, statistical-system files, hierarchical exchange formats, HTML, and databases produce different object structures and therefore require format-aware readers followed by inspection.
 
+The student companion shows the complementary beginner workflow: place a rectangular data file in the known working directory, read it into a named data frame, inspect the returned rows and columns, and write derived results deliberately. Successful reading is followed by structural checks rather than assumed from the absence of an error.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
@@ -21,3 +23,5 @@ The primer treats import as a family of format-specific translations rather than
 [[essentialsofdatascience.pdf]]
 
 [[rprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

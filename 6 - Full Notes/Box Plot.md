@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]] · [[Exploratory Data Visualization in R]] · [[R Statistical Graphics and Export]]
+Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]] · [[Exploratory Data Visualization in R]] · [[R Statistical Graphics and Export]] · [[R Base Graphics Composition]]
 
 # Box Plot
 
@@ -16,6 +16,8 @@ The book places box plots beside [[Violin Plot|violin plots]] for grouped contin
 
 The primer uses R's formula interface for parallel group box plots and shows that orientation and whisker range are configurable. Extending whiskers to the observed minimum and maximum changes the conventional outlier display, so that option should be stated rather than mistaken for a standard modified box plot.
 
+The student companion uses single and side-by-side box plots to move from one-variable distribution review to group comparison. The shared scale lets medians and spreads be compared directly, while the compact display still needs the sample context supplied by points or numerical summaries.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
@@ -25,3 +27,5 @@ The primer uses R's formula interface for parallel group box plots and shows tha
 [[essentialsofdatascience.pdf]]
 
 [[rprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

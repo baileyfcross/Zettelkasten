@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Least Squares Methods]] · [[Matrix Algebra for Statistical Models]]
+Tags: [[Least Squares Methods]] · [[Matrix Algebra for Statistical Models]] · [[R Matrix Systems and Scientific Models]]
 
 # Normal Equation
 
@@ -14,6 +14,8 @@ For the source's linear-model notation, the equation is $X^T X\hat\beta=X^T Y$. 
 
 Geometrically, $A\hat x$ is the orthogonal projection of $b$ onto the column space of $A$. The normal equation follows because the residual must lie in the orthogonal complement of that column space.
 
+The student companion constructs the design matrix for a prediction line, transposes it in R, and solves $X^TXb=X^Ty$. Printing the fitted constants and overlaying the line on the data ties the matrix equation to an observable prediction task.
+
 # References
 
 [[numericalmethodsinengineeringandscience.pdf]]
@@ -23,3 +25,5 @@ Geometrically, $A\hat x$ is the orthogonal projection of $b$ onto the column spa
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[linearalgebra.pdf]]
+
+[[rstudentcompanion.pdf]]

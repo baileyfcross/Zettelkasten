@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]]
+Tags: [[Health Data Visualization]] · [[R Base Graphics Composition]]
 
 # Plot Legend
 
@@ -10,6 +10,10 @@ A plot legend maps visual encodings such as color, symbol, fill, or line type to
 
 Placement and scale should preserve the data region. When several lines are overlaid, the legend should repeat the same widths, colors, and line types used in the plot rather than rely on a separate default style.
 
+In base R, the legend is a separate annotation call whose keys must be supplied in the same order as the series. The student companion shows that an otherwise correct multi-series graph becomes ambiguous when this mapping is not encoded explicitly.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[rstudentcompanion.pdf]]

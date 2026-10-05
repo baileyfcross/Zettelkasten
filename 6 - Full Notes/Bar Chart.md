@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]] · [[Exploratory Data Visualization in R]] · [[R Statistical Graphics and Export]]
+Tags: [[Health Data Visualization]] · [[Exploratory Data Visualization in R]] · [[R Statistical Graphics and Export]] · [[R Base Graphics Composition]]
 
 # Bar Chart
 
@@ -14,6 +14,8 @@ The book compares ordinary, filled, dodged, stacked, and horizontal bar arrangem
 
 The primer distinguishes drawing bars from a vector of heights and plotting a precomputed table. Grouped and stacked forms depend on matrix orientation, while error bars require separate lower and upper values added to the bar positions; the bar heights alone do not define uncertainty.
 
+The student companion distinguishes supplying already summarized heights from first constructing a frequency table from categorical data. That separation prevents a bar command from being mistaken for the counting step and keeps category order visible in the plotted object.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
@@ -21,3 +23,5 @@ The primer distinguishes drawing bars from a vector of heights and plotting a pr
 [[essentialsofdatascience.pdf]]
 
 [[rprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

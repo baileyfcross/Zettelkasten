@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]]
 
 # Matrix Multiplication
 
@@ -16,6 +16,8 @@ In a linear model, multiplying the design matrix by the coefficient vector produ
 
 Finite element equations use matrix products to map nodal unknowns into loads, strains, stresses, gradients, and fluxes. The order of multiplication matters because coefficient, interpolation, and field vectors have specific compatible dimensions.
 
+The student companion uses R's matrix-product operator to combine an age-transition matrix with a population vector. Each output entry is the dot product for one future age class, and repeated products project the entire coupled population forward in time.
+
 # References
 
 [[algorithms.epub]]
@@ -25,3 +27,5 @@ Finite element equations use matrix products to map nodal unknowns into loads, s
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

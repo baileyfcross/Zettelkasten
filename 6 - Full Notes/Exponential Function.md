@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Function Analysis and Transformations]]
+Tags: [[Function Analysis and Transformations]] · [[R Mathematical Functions and Coordinates]]
 
 # Exponential Function
 
@@ -10,8 +10,12 @@ An exponential function has the form $f(x)=a^x$ for a positive base $a\ne1$. Its
 
 For the natural base, the exponential can be defined by the power series $e^x=1+x+x^2/2!+\cdots$. Differentiating the series term by term reproduces the same series, so the natural exponential is its own derivative and its growth is tied directly to its local value.
 
+The student companion uses R to evaluate real powers and explore $e$ through compound-growth expressions before applying the function to growth and decay. Vector input makes the smooth curve visible and allows the inverse relationship with the [[Natural Logarithm]] to be checked numerically.
+
 # References
 
 [[foundationsofmath.pdf]]
 
 [[mathematicalphysics.pdf]]
+
+[[rstudentcompanion.pdf]]

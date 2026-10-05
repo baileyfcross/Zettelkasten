@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[R Function Design]]
+Tags: [[R Function Design]] · [[R Scripts Functions and Debugging]]
 
 # Function Argument
 
@@ -10,7 +10,10 @@ A function argument is the value supplied to a parameter when an R function is c
 
 Validation near the function boundary can produce useful errors before invalid arguments contaminate later calculations.
 
+The student companion treats the names in a function definition as placeholders whose values are supplied by each call. Its molar-mass example accepts parallel vectors of atom counts and atomic weights, making the data that control the calculation explicit rather than reading them from the workspace.
+
 # References
 
 [[essentialsofdatascience.pdf]]
 
+[[rstudentcompanion.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]]
 
 # Matrix Transpose
 
@@ -14,6 +14,8 @@ The source uses transposition to form dot products, sums of squares, and the nor
 
 Transposes enter variational finite element expressions when gradient or interpolation vectors form quadratic energy terms and symmetric element matrices. They also reverse the order of products during derivations.
 
+The student companion uses R's transpose function to construct $X^TX$ and $X^Ty$ for a least-squares line. This turns observation rows into compatible products and makes the normal-equation dimensions visible in the code.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
@@ -21,3 +23,5 @@ Transposes enter variational finite element expressions when gradient or interpo
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

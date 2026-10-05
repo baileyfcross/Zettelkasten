@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]] · [[R Statistical Graphics and Export]]
+Tags: [[Health Data Visualization]] · [[R Statistical Graphics and Export]] · [[R Base Graphics Composition]]
 
 # Histogram
 
@@ -12,8 +12,12 @@ The choice of breaks can change the apparent shape, so it should be explored rat
 
 R can return the breakpoints and bin counts as well as draw the histogram, making the grouping rule inspectable. Frequency and density scales answer different questions; the density scale is required when a fitted distribution or kernel curve is overlaid for comparison.
 
+The student companion introduces the histogram beside strip and stem-and-leaf displays so the loss of individual values is explicit. Adjusting the number or location of breaks can reveal or conceal apparent clusters, making bin choice part of the graph rather than a neutral default.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[rprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

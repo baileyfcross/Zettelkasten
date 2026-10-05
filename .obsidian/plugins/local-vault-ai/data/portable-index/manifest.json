@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-10-05T02:20:40.672Z",
+  "updatedAt": "2026-10-05T02:57:02.430Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -8115,6 +8115,16 @@
         "383005de75870961c49fb891a29fce78d2861ad4be566ab5bdb8362411c142e3"
       ]
     },
+    "3 - Tags/R Base Graphics Composition.md": {
+      "sourceHash": "1f64fe8f3adea21f7112e62d5d56e9380db3bb2a2917057f0437caa7795bba14",
+      "sourceType": "markdown",
+      "fileName": "R Base Graphics Composition.md",
+      "title": "R Base Graphics Composition",
+      "chunkCount": 2,
+      "objectHashes": [
+        "600715cfe8f3cbed12784f77caee91799b5dc7d106197839c298eed2bbfd8228"
+      ]
+    },
     "3 - Tags/R Coding Style.md": {
       "sourceHash": "471825c827cbbe9d8c9b9511954a45a772b6470409b2e9f208b4078cbc29dd48",
       "sourceType": "markdown",
@@ -8165,6 +8175,36 @@
         "8da64289fa7a096c1736e8bc60c1401c005e1a34d63fe5352f06df9037c7c299"
       ]
     },
+    "3 - Tags/R Iteration Logic and Control Flow.md": {
+      "sourceHash": "374b12046a3753d1fe6008f4cf0185dbb6f9d70ead06de34678efb431313cab8",
+      "sourceType": "markdown",
+      "fileName": "R Iteration Logic and Control Flow.md",
+      "title": "R Iteration Logic and Control Flow",
+      "chunkCount": 2,
+      "objectHashes": [
+        "61edb33e8ce2d1fcbf82f95c0637184d356d72917be4fc89d4d5bbef40ffef76"
+      ]
+    },
+    "3 - Tags/R Mathematical Functions and Coordinates.md": {
+      "sourceHash": "809a158f78a3b8fb534eef6f1254ec0c9dfab5779457457c14d3fd544879afd9",
+      "sourceType": "markdown",
+      "fileName": "R Mathematical Functions and Coordinates.md",
+      "title": "R Mathematical Functions and Coordinates",
+      "chunkCount": 2,
+      "objectHashes": [
+        "088bab84585e9715f6000516e526dda37a40947f9c28d6a52826ac045c06e9fd"
+      ]
+    },
+    "3 - Tags/R Matrix Systems and Scientific Models.md": {
+      "sourceHash": "e3e8dfab2cfd7d7a7c73b4fef9e585b8e84463cfef10a8c003bda2ae0fe8a366",
+      "sourceType": "markdown",
+      "fileName": "R Matrix Systems and Scientific Models.md",
+      "title": "R Matrix Systems and Scientific Models",
+      "chunkCount": 2,
+      "objectHashes": [
+        "b2df2bf6878beac4795e4b435e62ca517242aa67daba74a4edaa4920c2789cc2"
+      ]
+    },
     "3 - Tags/R Multivariate Resampling and Survival Modeling.md": {
       "sourceHash": "d5c5a3972ef93e2399a98a08ce88f4f160ce39c6aa7d44b9ce850a1dc7603d9d",
       "sourceType": "markdown",
@@ -8185,6 +8225,16 @@
         "4a4d7f5976a45452fe789122140504b3e76e90c318f37ae13cda8ba3339a830c"
       ]
     },
+    "3 - Tags/R Probability Simulation and Curve Fitting.md": {
+      "sourceHash": "232d083ad0014cc42acf52c7ac37fa67b95c9cd93678815d921a3a1ee030f06c",
+      "sourceType": "markdown",
+      "fileName": "R Probability Simulation and Curve Fitting.md",
+      "title": "R Probability Simulation and Curve Fitting",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6db1c88a6867965b7b6ff3f0042ff0603aac8ad2b90a37309f23cab476d00f2c"
+      ]
+    },
     "3 - Tags/R Programming Environment.md": {
       "sourceHash": "04c44cb1d101a9a7a051facfecdd5a455c0a36cffc02326356f625bd27cb17e2",
       "sourceType": "markdown",
@@ -8203,6 +8253,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "47909360205201f4df4ba452c25985c6d3e3c1aab6add3fefeba5082797b5778"
+      ]
+    },
+    "3 - Tags/R Scripts Functions and Debugging.md": {
+      "sourceHash": "7f443cb415b446c9d327ed7dbbc2dce566d5e67f21a5c6108ddae2fd13ba1493",
+      "sourceType": "markdown",
+      "fileName": "R Scripts Functions and Debugging.md",
+      "title": "R Scripts Functions and Debugging",
+      "chunkCount": 2,
+      "objectHashes": [
+        "543593320d8842dfa8fb001e12ec20a322229d8e40b30da3d33bfa49c6849325"
       ]
     },
     "3 - Tags/R Spatial Data Structures.md": {
@@ -8533,6 +8593,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "3a748c902b65cd2bd8ed28edae931e0213eb96201c7ddaaba0748a5e0418e1b7"
+      ]
+    },
+    "3 - Tags/Scientific Computing with R.md": {
+      "sourceHash": "e5b8e3a3fbeb7fe9eb8c665fdaec8778cbe6c9f67a42c4f6ce9b5b4985bf5ca4",
+      "sourceType": "markdown",
+      "fileName": "Scientific Computing with R.md",
+      "title": "Scientific Computing with R",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4c4bbd9d618734391b6222ee4f0b0a28d5ec38b1e0e049914171274115b193ca"
       ]
     },
     "3 - Tags/Scrum and Agile Foundations.md": {

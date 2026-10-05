@@ -16,6 +16,8 @@ The book treats the data frame as the main interface among imported records, cle
 
 The primer describes a data frame as a list of equal-length vectors or factors in which each row represents an observation. That structure permits row and column subsetting, variable-wise or row-wise function application, keyed merging, stacking, and wide-to-long reshaping without losing the correspondence among variables.
 
+The student companion introduces the same structure through a classroom dataset, constructing columns of numeric and categorical observations and verifying that every row represents one student. This beginner example makes column meaning, equal length, and row identity prerequisites to any later graph or model.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
@@ -25,3 +27,5 @@ The primer describes a data frame as a list of equal-length vectors or factors i
 [[essentialsofdatascience.pdf]]
 
 [[rprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

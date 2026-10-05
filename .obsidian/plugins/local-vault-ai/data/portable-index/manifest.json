@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-10-05T02:57:02.430Z",
+  "updatedAt": "2026-10-05T03:24:08.690Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -7725,6 +7725,16 @@
         "c15110c3ded420c3c3fff306d0f337a6f359b7196474cc4df3cfc8c988d37b44"
       ]
     },
+    "3 - Tags/Personal Data Interpretation and Meaning.md": {
+      "sourceHash": "8a063f2afd0c3efa1f31265387669f4429c526ae7880c64b8205c89d8e721535",
+      "sourceType": "markdown",
+      "fileName": "Personal Data Interpretation and Meaning.md",
+      "title": "Personal Data Interpretation and Meaning",
+      "chunkCount": 2,
+      "objectHashes": [
+        "5ae925f077df3c15ef10d947f420da4d6c17bf537a44817ae2e9d636b829a6a6"
+      ]
+    },
     "3 - Tags/Photogrammetric Image Analysis.md": {
       "sourceHash": "226e134c6dc74688986554f1e2e8dc1a4240b7bd1fbbe7f031e4cee6ea1361ba",
       "sourceType": "markdown",
@@ -8633,6 +8643,46 @@
       "chunkCount": 2,
       "objectHashes": [
         "0fa3d5d5ae630ea4177435aba8663a030fc30f9268712ecf535e0c7d9f6fc0f7"
+      ]
+    },
+    "3 - Tags/Self-Tracking and Personal Data.md": {
+      "sourceHash": "27974fb8fda92d871b8b30659a99fce271c9f6ce5e8c9fb183047e82b5eca3da",
+      "sourceType": "markdown",
+      "fileName": "Self-Tracking and Personal Data.md",
+      "title": "Self-Tracking and Personal Data",
+      "chunkCount": 5,
+      "objectHashes": [
+        "4c13f9459569e39ee8244f09732c3fb7c40e65da82535c43b65b77b4190ab82b"
+      ]
+    },
+    "3 - Tags/Self-Tracking Data Rights and Privacy.md": {
+      "sourceHash": "e020bf6d8b6387db7c8d76d502b08824d5adf746cc18d6cec4c87cc23d8181f6",
+      "sourceType": "markdown",
+      "fileName": "Self-Tracking Data Rights and Privacy.md",
+      "title": "Self-Tracking Data Rights and Privacy",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6d28729323c7016bd61431fd6a1b61611bad555e3535f6b9d00fdcc15f0fd116"
+      ]
+    },
+    "3 - Tags/Self-Tracking Markets and Institutional Power.md": {
+      "sourceHash": "6e0cbc4203dde5bd59ee3203218896070c496eb2bf718826cb41ee8ca3534b1e",
+      "sourceType": "markdown",
+      "fileName": "Self-Tracking Markets and Institutional Power.md",
+      "title": "Self-Tracking Markets and Institutional Power",
+      "chunkCount": 2,
+      "objectHashes": [
+        "fcb346ec8866b3b5345d0c7a4f8c14eaabc1f12daecc2ce008be7db041f6f6f8"
+      ]
+    },
+    "3 - Tags/Self-Tracking Practices and Experiments.md": {
+      "sourceHash": "3800c60b781afb6906b2b277c702797b3649f3357397916f9ce5775b6cec2e9c",
+      "sourceType": "markdown",
+      "fileName": "Self-Tracking Practices and Experiments.md",
+      "title": "Self-Tracking Practices and Experiments",
+      "chunkCount": 2,
+      "objectHashes": [
+        "04c9cbf570bc6b06c176622c5a13cadb5f06ed51593df9062713024c7d3b5472"
       ]
     },
     "3 - Tags/Semiconductor and Integrated Circuit History.md": {
@@ -10233,6 +10283,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "8f6b58573654ed46e7a7849a41baeeec17b7224f9aa6f10ae2e855b3ffafeacd"
+      ]
+    },
+    "6 - Full Notes/Activity Tracker.md": {
+      "sourceHash": "6c9d82b2c191b44e58064bec2fb2f43b98d9d8aa35e79466804cafb469b9fcb5",
+      "sourceType": "markdown",
+      "fileName": "Activity Tracker.md",
+      "title": "Activity Tracker",
+      "chunkCount": 3,
+      "objectHashes": [
+        "78379aa366b2e8d48b7695eb064a0aedb233c7dd8246017f8378a4b0984e98ec"
       ]
     },
     "6 - Full Notes/Actor Component Model.md": {
@@ -68715,6 +68775,16 @@
         "9f0a2652e8b87e53ce7d50e253e4dbc88bf89837635b350eb0be47c810f4687c"
       ]
     },
+    "6 - Full Notes/Sensor Sampling Rate.md": {
+      "sourceHash": "140d60103e5087724858b5a9bda0d415b50d58bc944ef701ccdc92bf9659a00d",
+      "sourceType": "markdown",
+      "fileName": "Sensor Sampling Rate.md",
+      "title": "Sensor Sampling Rate",
+      "chunkCount": 3,
+      "objectHashes": [
+        "dc6fbf0fdafb052812d91c34e3d784604372b278533d8eafb335775d9d810705"
+      ]
+    },
     "6 - Full Notes/Sensor Selection for Correlation Clustering.md": {
       "sourceHash": "9e87468d73a2c89adc5a6e90a7fd0524fc0db192f640757ed4d052f664ab5999",
       "sourceType": "markdown",
@@ -81143,6 +81213,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "ac4362520bc5c3848d29c2973a51617824ca7969d181f4e1a433563477c23ecf"
+      ]
+    },
+    "6 - Full Notes/Wearable Device.md": {
+      "sourceHash": "506adb6cf60405951eb37808027b5b35370597e794285b08ea2d115191905ff6",
+      "sourceType": "markdown",
+      "fileName": "Wearable Device.md",
+      "title": "Wearable Device",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0162215f315d4bb1c71d73459823e93a342c8dcdbad4c2ca8943c01a5a1ccd02"
       ]
     },
     "6 - Full Notes/Web 4.0.md": {

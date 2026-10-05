@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Privacy Theory and Legal Limits]]
+Tags: [[Privacy Theory and Legal Limits]] · [[Self-Tracking Data Rights and Privacy]]
 
 # Data Anonymization
 
@@ -10,6 +10,10 @@ Data anonymization removes or obscures information that can connect a record to 
 
 Anonymization should therefore be assessed against the full set of available fields and likely external information. It is one control within a broader data practice that also limits collection, states the intended purpose, obtains consent for sharing, protects storage, and gives people access to correct or remove their data.
 
+Removing identifiers also does not answer every privacy concern. A person or community can experience a disclosure as a violation when data is moved into an unexpected setting, even if no record is directly reidentified. [[Contextual Integrity]] therefore asks whether the collection and flow fit the actors, purpose, and expectations of the original relationship.
+
 # References
 
 [[machinelearning_mit.epub]]
+
+[[self-tracking.epub]]

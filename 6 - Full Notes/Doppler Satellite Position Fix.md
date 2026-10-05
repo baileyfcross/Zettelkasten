@@ -2,13 +2,16 @@
 
 Status: #baby
 
-Tags: [[Satellite Navigation Principles]]
+Tags: [[Satellite Navigation Principles]] · [[Satellite Infrastructure and Orbital Services]]
 
 # Doppler Satellite Position Fix
 
 A Doppler satellite position fix compares the known transmitted frequency with the frequency received as a satellite approaches and recedes. If the satellite orbit is known, the shape and inflection of the frequency-shift curve constrain the receiver's location. Transit used this method for ships and submarines, but a useful fix required observing a pass and was difficult for fast-moving aircraft. GPS instead uses code travel time for rapid range measurements while still using Doppler-sensitive tracking for velocity and carrier acquisition.
 
+The navigation idea emerged by reversing the problem used to track Sputnik. Engineers first inferred the unknown orbit from a receiver at a known location; they realized that a receiver at an unknown location could instead use the signal from a well-known orbit. That inversion led directly to the Navy's Transit system.
+
 # References
 
 [[gps.epub]]
 
+[[spaceflight.epub]]

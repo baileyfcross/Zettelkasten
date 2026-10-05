@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-10-05T03:24:08.690Z",
+  "updatedAt": "2026-10-05T07:08:08.400Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -3165,6 +3165,16 @@
         "767efd082eae53bc075bcff2f7a7cfdf57d0b9f67f67094e6f1203720754f080"
       ]
     },
+    "3 - Tags/Astroculture and Planetary Imagination.md": {
+      "sourceHash": "6ef7e4dfb1380d6d50025a16f4f9ca8eb33ed4d66f14c1c882d3fa4ea6275abc",
+      "sourceType": "markdown",
+      "fileName": "Astroculture and Planetary Imagination.md",
+      "title": "Astroculture and Planetary Imagination",
+      "chunkCount": 2,
+      "objectHashes": [
+        "23b679a5d440e4a8246b66965ced84da13d716529690458fcfc20e993876161c"
+      ]
+    },
     "3 - Tags/Atmospheric Thermodynamics and Air Data.md": {
       "sourceHash": "7171b174cf6f60e090a12c532e62292e4d1a92dc9ff92cb36f87f040664517db",
       "sourceType": "markdown",
@@ -4463,6 +4473,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "3d18a951075e4cf97c5f5bb8659abe3d430f6f5a7992800fa64260a23d3cfa52"
+      ]
+    },
+    "3 - Tags/Cold War Space Programs and Prestige.md": {
+      "sourceHash": "066ae15472df4505a66f6bccd3050b1281291d75c6b662ff183acba0f35be020",
+      "sourceType": "markdown",
+      "fileName": "Cold War Space Programs and Prestige.md",
+      "title": "Cold War Space Programs and Prestige",
+      "chunkCount": 2,
+      "objectHashes": [
+        "5daccd4a822bd6c084ee5764b1e517356756e0c70767710f0b981a2d6de050cf"
       ]
     },
     "3 - Tags/Collaborative Augmented Reality.md": {
@@ -7915,6 +7935,16 @@
         "8babdb844a36e3b52ae01e14f362dcb46b2054ed46813bbcf5f1feff41421b10"
       ]
     },
+    "3 - Tags/Post-Cold-War Human Spaceflight and Commercialization.md": {
+      "sourceHash": "9e71a7ce8dcd3e535abe9c6deffbe0624e689722a0ed1ee2461f66ba132a3048",
+      "sourceType": "markdown",
+      "fileName": "Post-Cold-War Human Spaceflight and Commercialization.md",
+      "title": "Post-Cold-War Human Spaceflight and Commercialization",
+      "chunkCount": 2,
+      "objectHashes": [
+        "4c0c389d3ce3daa521863ac13a37a7af259807fb8a715051a824549968d3ad8a"
+      ]
+    },
     "3 - Tags/Power Plant Architectures.md": {
       "sourceHash": "521d2705f35c7976e7e28d0b4d849dd67efb91b2a5160e5f864954b7a1f414e7",
       "sourceType": "markdown",
@@ -8535,6 +8565,26 @@
         "5b237aabf9c2045de13d82ef95b918ce03381bf08428e4c67b6dd2693730f0a9"
       ]
     },
+    "3 - Tags/Robotic Space Science and Exploration.md": {
+      "sourceHash": "4956cb4d240f2aba662237b26120db57c8e99c6a2b0152831cae670a4a596e13",
+      "sourceType": "markdown",
+      "fileName": "Robotic Space Science and Exploration.md",
+      "title": "Robotic Space Science and Exploration",
+      "chunkCount": 2,
+      "objectHashes": [
+        "be59c3412a045a08dd718510b6c20c3010a146e4cedf56260b39ee872eeff400"
+      ]
+    },
+    "3 - Tags/Rocketry Origins and Military Development.md": {
+      "sourceHash": "06802d5d2bf12b1c0fed678d3f37e96c92edf573300e995a93efdf1fe74391e4",
+      "sourceType": "markdown",
+      "fileName": "Rocketry Origins and Military Development.md",
+      "title": "Rocketry Origins and Military Development",
+      "chunkCount": 2,
+      "objectHashes": [
+        "21578ca9162af22ea5a4b9b9e2e643462cfbb348f22b1d10a1358205b2921a23"
+      ]
+    },
     "3 - Tags/Rotoscopy and Motion Tracking.md": {
       "sourceHash": "1eaa65b5e2e85c43e3825869b49805b8f381386a55cc9c1ee1aa414445a326bb",
       "sourceType": "markdown",
@@ -8563,6 +8613,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "e434e50f341101a10399a59e5829ee6458a593571980ea13d045cd072227769d"
+      ]
+    },
+    "3 - Tags/Satellite Infrastructure and Orbital Services.md": {
+      "sourceHash": "ebacf8d273f2a0d6960e28a114f46d717c4ade7280d7622827b04032f039479e",
+      "sourceType": "markdown",
+      "fileName": "Satellite Infrastructure and Orbital Services.md",
+      "title": "Satellite Infrastructure and Orbital Services",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6e800ec90294855e6b71ba93b43c888622d4b0b6dd99f361a6e7aab6f92ad96c"
       ]
     },
     "3 - Tags/Satellite Navigation Principles.md": {
@@ -8923,6 +8983,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "cfd6cfb7f5aca8e6288a9e37103aeae417c8657f994c68add4c717a4b973b541"
+      ]
+    },
+    "3 - Tags/Spaceflight History Culture and Infrastructure.md": {
+      "sourceHash": "b5c182e59816fd6e9bd72e88c49783da5609d8959fe71125b740070ed144f2a3",
+      "sourceType": "markdown",
+      "fileName": "Spaceflight History Culture and Infrastructure.md",
+      "title": "Spaceflight History Culture and Infrastructure",
+      "chunkCount": 5,
+      "objectHashes": [
+        "cdb395159099733fb4675ca5ec3c93ff43e3d6a6f7241b16fdc35b8be4c268ed"
       ]
     },
     "3 - Tags/Spatial Data Visualization in R.md": {

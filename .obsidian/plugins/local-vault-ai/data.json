@@ -1,6 +1,6 @@
 {
   "ollamaUrl": "http://192.168.1.164:11434",
-  "chatModel": "qwen3.5:9b",
+  "chatModel": "gpt-oss:20b",
   "chatReasoningEffort": "low",
   "chatKeepAlive": "10m",
   "showModelReasoning": true,
@@ -26,6 +26,6 @@
   "hybridTextWeight": 0.45,
   "hybridVectorWeight": 0.55,
   "minVectorSimilarity": 0.35,
-  "vaultOnly": false,
+  "vaultOnly": true,
   "modifyDebounceMs": 1400
 }

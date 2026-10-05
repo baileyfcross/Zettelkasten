@@ -11,10 +11,12 @@
             "id": "589753612e0de9b6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "2 - Source Material/Books/researchmethodsforinformationsystems.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "researchmethodsforinformationsystems"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Full Notes/Foundations of Computation.md",
+                "file": "2 - Source Material/Books/researchmethodsforinformationsystems.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Foundations of Computation"
+              "title": "Backlinks"
             }
           },
           {
@@ -192,8 +194,17 @@
       "local-vault-ai:Open Local Vault AI": false
     }
   },
-  "active": "ef90bf97bd567075",
+  "active": "589753612e0de9b6",
   "lastOpenFiles": [
+    "6 - Full Notes/Null Hypothesis.md",
+    "6 - Full Notes/Null Distribution.md",
+    "2 - Source Material/Books/researchmethodsforinformationsystems.pdf",
+    "6 - Full Notes/Discrete-Event Simulation.md",
+    "3 - Tags/Information Systems Research Methods.md",
+    "6 - Full Notes/Survey Instrument Design.md",
+    "6 - Full Notes/Computing Research Method Portfolio.md",
+    "3 - Tags/Reproducible Computational Research.md",
+    "3 - Tags/Reproducible Scientific Software.md",
     "6 - Full Notes/Self-Service Healthcare Labor.md",
     "6 - Full Notes/Logic of Choice.md",
     "6 - Full Notes/Logic of Care.md",
@@ -212,14 +223,6 @@
     "6 - Full Notes/Workplace Self-Tracking.md",
     "6 - Full Notes/Self-Tracking as Luxury Good.md",
     "6 - Full Notes/Health-Wellness Boundary.md",
-    "6 - Full Notes/Self-Tracking Market Formation.md",
-    "6 - Full Notes/Self-Tracking Data Business Model.md",
-    "6 - Full Notes/Self-Tracking Interoperability.md",
-    "6 - Full Notes/Sensor Sampling Rate.md",
-    "6 - Full Notes/Activity Tracker.md",
-    "6 - Full Notes/Wearable Device.md",
-    "6 - Full Notes/Self-Tracking Goal and Feedback Loop.md",
-    "6 - Full Notes/Tracking Burden.md",
     "tmp/epubs/self-tracking.txt",
     "tmp/epubs/self-tracking/OEBPS/image/cover.jpg",
     "tmp/epubs/self-tracking/OEBPS/image/10421_003_fig_001.jpg",
@@ -234,7 +237,6 @@
     "tmp/epubs/self-tracking/OEBPS/css/idGeneratedStyles_9.css",
     "tmp/epubs/self-tracking/OEBPS/css/idGeneratedStyles_8.css",
     "tmp/epubs/self-tracking/OEBPS/css/idGeneratedStyles_7.css",
-    "tmp/epubs/self-tracking/OEBPS/css/idGeneratedStyles_6.css",
     "tmp/pdfs/rstudentcompanion-rendered/page-334.png",
     "tmp/pdfs/rstudentcompanion-rendered/page-316.png",
     "tmp/pdfs/rstudentcompanion-rendered/page-294.png",

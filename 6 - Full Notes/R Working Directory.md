@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[R Statistical Computing and Data Wrangling]]
+Tags: [[R Statistical Computing and Data Wrangling]] · [[R Package Workspace and System Operations]]
 
 # R Working Directory
 
@@ -10,6 +10,10 @@ The R working directory is the folder that file-reading and file-writing functio
 
 Relative paths make an analysis easier to move when its code and data share a stable project structure. An unexplained working directory, by contrast, can cause the same script to read or create files in an unintended location.
 
+The primer connects the working directory to listing files, selecting inputs, creating folders, and saving or loading workspace artifacts. Because all of those operations inherit the same path context, reporting the directory before a file mutation is a useful safeguard in an interactive session.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[rprimer.pdf]]

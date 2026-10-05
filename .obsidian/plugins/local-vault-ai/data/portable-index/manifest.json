@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-10-04T18:58:15.718Z",
+  "updatedAt": "2026-10-05T02:20:40.672Z",
   "sources": {
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
       "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
@@ -8135,6 +8135,26 @@
         "4e82a92aadcaa987cbf8e237eda1d4c0919d5818829f486a834193c160b8164c"
       ]
     },
+    "3 - Tags/R Data Interchange and External Formats.md": {
+      "sourceHash": "2ec48f9d731beea73c6606f05132c7c09cabbd187f3e8668f67dec6cae23fc3c",
+      "sourceType": "markdown",
+      "fileName": "R Data Interchange and External Formats.md",
+      "title": "R Data Interchange and External Formats",
+      "chunkCount": 2,
+      "objectHashes": [
+        "16111da03039ac39012000be0abc7bc6b77e881b19d7481247ca966a8f018e67"
+      ]
+    },
+    "3 - Tags/R Data Transformation and Reshaping.md": {
+      "sourceHash": "ba65ec29959c7cf69ef9295cb7051ddc0995a841ceff7f72df89936a9b7687e4",
+      "sourceType": "markdown",
+      "fileName": "R Data Transformation and Reshaping.md",
+      "title": "R Data Transformation and Reshaping",
+      "chunkCount": 2,
+      "objectHashes": [
+        "5be2bf4b832527646999860dd1dcc81944fea83ef2986c3f676f8df3c6ba85f3"
+      ]
+    },
     "3 - Tags/R Function Design.md": {
       "sourceHash": "8833db1eecc33fb9d67d3b8748be20e5eb141e159df2c9dd67cf9044d9acb2b6",
       "sourceType": "markdown",
@@ -8145,6 +8165,26 @@
         "8da64289fa7a096c1736e8bc60c1401c005e1a34d63fe5352f06df9037c7c299"
       ]
     },
+    "3 - Tags/R Multivariate Resampling and Survival Modeling.md": {
+      "sourceHash": "d5c5a3972ef93e2399a98a08ce88f4f160ce39c6aa7d44b9ce850a1dc7603d9d",
+      "sourceType": "markdown",
+      "fileName": "R Multivariate Resampling and Survival Modeling.md",
+      "title": "R Multivariate Resampling and Survival Modeling",
+      "chunkCount": 2,
+      "objectHashes": [
+        "3780f731dd5dbc389fe81ba64d90a045f708e97994ac75d0407685e78c115481"
+      ]
+    },
+    "3 - Tags/R Package Workspace and System Operations.md": {
+      "sourceHash": "af09c26640402735608dbf8b9759378891a0bee57917612c417abd5952720595",
+      "sourceType": "markdown",
+      "fileName": "R Package Workspace and System Operations.md",
+      "title": "R Package Workspace and System Operations",
+      "chunkCount": 2,
+      "objectHashes": [
+        "4a4d7f5976a45452fe789122140504b3e76e90c318f37ae13cda8ba3339a830c"
+      ]
+    },
     "3 - Tags/R Programming Environment.md": {
       "sourceHash": "04c44cb1d101a9a7a051facfecdd5a455c0a36cffc02326356f625bd27cb17e2",
       "sourceType": "markdown",
@@ -8153,6 +8193,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "50d02db8bc0e3426d8cf25ad7f519beb57af69f3db3db2ed9e9b672b30516daa"
+      ]
+    },
+    "3 - Tags/R Regression and Longitudinal Modeling.md": {
+      "sourceHash": "4f73c376a4b6ea56bae604933db32e44ac1f70d4b1f70292a2a72df4ca6eef8b",
+      "sourceType": "markdown",
+      "fileName": "R Regression and Longitudinal Modeling.md",
+      "title": "R Regression and Longitudinal Modeling",
+      "chunkCount": 2,
+      "objectHashes": [
+        "47909360205201f4df4ba452c25985c6d3e3c1aab6add3fefeba5082797b5778"
       ]
     },
     "3 - Tags/R Spatial Data Structures.md": {
@@ -8183,6 +8233,26 @@
       "chunkCount": 2,
       "objectHashes": [
         "32c4ace9a529dea441ed24d22d780a409251cc1c6cbf2b9a5f9b8bfdb02cce56"
+      ]
+    },
+    "3 - Tags/R Statistical Graphics and Export.md": {
+      "sourceHash": "095b9d4121309ae2e1bc81b81aea9f2989cd150568e293ecb9827f0bf7e9b079",
+      "sourceType": "markdown",
+      "fileName": "R Statistical Graphics and Export.md",
+      "title": "R Statistical Graphics and Export",
+      "chunkCount": 2,
+      "objectHashes": [
+        "0ad0432a949b3623b7cd06cb7bbc1f65a2df77bbec3785ce7999ec7bcecc9ffe"
+      ]
+    },
+    "3 - Tags/R Statistical Testing and Model Validation.md": {
+      "sourceHash": "02d4c9fd002bae23ec0ea8fa5e8e1cb7bf8694b03f5298062a4ea508e9790e0f",
+      "sourceType": "markdown",
+      "fileName": "R Statistical Testing and Model Validation.md",
+      "title": "R Statistical Testing and Model Validation",
+      "chunkCount": 2,
+      "objectHashes": [
+        "bb2a71c590a09783dc9255651830b652fec2792de4b729f92855d66f8c3dd9dd"
       ]
     },
     "3 - Tags/R Table and Figure Reporting.md": {

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Statistical Learning and Validation]]
+Tags: [[Statistical Learning and Validation]] · [[R Multivariate Resampling and Survival Modeling]]
 
 # Cross-Validation
 
@@ -12,8 +12,12 @@ The resulting error estimate supports [[Hyperparameter]] selection without treat
 
 For estimator selection, $V$-fold cross-validation fits every candidate on $V$ partial datasets and chooses the one with the smallest held-out prediction error. Larger $V$ increases computational cost, while very small $V$ reduces the stabilizing effect of repeated subsampling. In high-dimensional small-sample problems, partial-sample fits can be unstable and general finite-sample guarantees are difficult, motivating alternatives such as [[Complexity-Based Estimator Selection]].
 
+The R recipe makes the prediction function and loss calculation explicit: each held-out subset is scored by a model fitted without those observations, and the errors are aggregated across folds. That separation is what makes the estimate informative; evaluating on training responses would merely restate the fitted model's resubstitution error.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[introductiontohigh-dimensionalstatistics.pdf]]
+
+[[rprimer.pdf]]

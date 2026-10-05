@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]] · [[Exploratory Data Visualization in R]]
+Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]] · [[Exploratory Data Visualization in R]] · [[R Statistical Graphics and Export]]
 
 # Box Plot
 
@@ -14,6 +14,8 @@ The source defines the box through the 25th, 50th, and 75th percentiles and plac
 
 The book places box plots beside [[Violin Plot|violin plots]] for grouped continuous data. The compact quartile summary and the smoothed distribution view answer complementary questions about center, spread, skewness, and multiple modes.
 
+The primer uses R's formula interface for parallel group box plots and shows that orientation and whisker range are configurable. Extending whiskers to the observed minimum and maximum changes the conventional outlier display, so that option should be stated rather than mistaken for a standard modified box plot.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
@@ -21,3 +23,5 @@ The book places box plots beside [[Violin Plot|violin plots]] for grouped contin
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[rprimer.pdf]]

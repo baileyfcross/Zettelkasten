@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]] · [[R Data Ingestion and Review]]
+Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]] · [[R Data Ingestion and Review]] · [[R Data Transformation and Reshaping]]
 
 # R Data Frame
 
@@ -14,6 +14,8 @@ The life-science workflow in the source imports delimited tables as data frames 
 
 The book treats the data frame as the main interface among imported records, cleaning operations, visualizations, and predictive models. Reviewing its dimensions, names, classes, and sample rows makes the transition from external resource to analytic object explicit.
 
+The primer describes a data frame as a list of equal-length vectors or factors in which each row represents an observation. That structure permits row and column subsetting, variable-wise or row-wise function application, keyed merging, stacking, and wide-to-long reshaping without losing the correspondence among variables.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
@@ -21,3 +23,5 @@ The book treats the data frame as the main interface among imported records, cle
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[rprimer.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[R Programming Environment]]
+Tags: [[R Programming Environment]] · [[R Package Workspace and System Operations]]
 
 # R Help System
 
@@ -10,7 +10,10 @@ The R help system provides documentation for functions, packages, datasets, and 
 
 Consulting the installed documentation ties an analyst's understanding to the package version actually in use and supports careful interpretation of function behavior.
 
+The primer distinguishes direct topic help, keyword search, and approximate name search. Examples and package vignettes provide broader usage context, while the help page remains the authoritative local description of arguments and returned values for the installed version.
+
 # References
 
 [[essentialsofdatascience.pdf]]
 
+[[rprimer.pdf]]

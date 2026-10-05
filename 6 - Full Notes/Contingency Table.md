@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Descriptive Health Statistics]]
+Tags: [[Descriptive Health Statistics]] · [[R Statistical Testing and Model Validation]]
 
 # Contingency Table
 
@@ -10,6 +10,10 @@ A contingency table cross-classifies observations by the levels of two categoric
 
 The table supports inspection of sparse cells and calculation of [[Row Proportion|row]], [[Column Proportion|column]], and total proportions. It is also the data object on which tests such as the [[Pearson Chi-Squared Test]] and [[Fisher Exact Test]] operate.
 
+R can construct the table directly from categorical vectors and apply tests suited to nominal, ordinal, or paired layouts. Expected counts must be reviewed before relying on a chi-squared approximation; ordered categories or matched measurements carry structure that a generic independence test discards.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[rprimer.pdf]]

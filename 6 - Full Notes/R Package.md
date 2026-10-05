@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]] · [[R Programming Environment]]
+Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]] · [[R Programming Environment]] · [[R Package Workspace and System Operations]]
 
 # R Package
 
@@ -14,6 +14,8 @@ Installation and loading are separate operations: `install.packages` places a pa
 
 The book further distinguishes installing a package from making it available in a session. [[R Library Attachment]] exposes exported functions on the search path, while an explicit [[R Package Namespace]] can identify the provider without attaching it.
 
+The primer places a package within a lifecycle that includes repository installation, updating, inventory, documentation, attachment, detachment, and removal. Library paths determine where versions reside, while session information records which package environment actually contributed to a result.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
@@ -21,3 +23,5 @@ The book further distinguishes installing a package from making it available in 
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[rprimer.pdf]]

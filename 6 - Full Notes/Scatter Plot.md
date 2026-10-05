@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]] · [[Exploratory Data Visualization in R]]
+Tags: [[Health Data Visualization]] · [[Exploratory and Robust Data Analysis]] · [[Exploratory Data Visualization in R]] · [[R Statistical Graphics and Export]]
 
 # Scatter Plot
 
@@ -14,6 +14,8 @@ In the source's paired-height example, plotting every father-son observation rev
 
 The book implements scatter plots in an R grammar-of-graphics workflow, mapping variables to axes and optional color groups. Faceting, labels, and explicit export settings turn the exploratory display into a reproducible analytic artifact.
 
+The primer shows the base R construction in which the initial plot establishes axes and symbols and later calls can add lines, labels, or identified points. Formula and vector interfaces describe the same paired relationship, while color, symbol, and size can encode additional variables only if a readable legend explains them.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
@@ -21,3 +23,5 @@ The book implements scatter plots in an R grammar-of-graphics workflow, mapping 
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[rprimer.pdf]]

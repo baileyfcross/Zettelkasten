@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Distance Geometry and Dimension Reduction]] · [[Visual Feature Representation]]
+Tags: [[Distance Geometry and Dimension Reduction]] · [[Visual Feature Representation]] · [[R Multivariate Resampling and Survival Modeling]]
 
 # Principal Component Analysis
 
@@ -14,6 +14,8 @@ For visual feature engineering, PCA can compress high-dimensional image descript
 
 Preserving high-variance directions makes differences among observations visible while discarding coordinates with little spread. This makes PCA an unsupervised extraction method: it does not use class labels, unlike a discriminant projection whose objective is to increase separation between known classes.
 
+In R, the data are centered and may be scaled before component extraction, and summaries report the variance accounted for by successive components. Scores locate observations in component space while loadings describe variable contributions; both are needed to understand what a reduced display represents.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
@@ -21,3 +23,5 @@ Preserving high-variance directions makes differences among observations visible
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
 
 [[machinelearning_mit.epub]]
+
+[[rprimer.pdf]]

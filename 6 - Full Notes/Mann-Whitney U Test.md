@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Descriptive Health Statistics]]
+Tags: [[Descriptive Health Statistics]] · [[R Statistical Testing and Model Validation]]
 
 # Mann-Whitney U Test
 
@@ -12,8 +12,12 @@ Its null concerns the relative locations of the distributions under appropriate 
 
 Ranking reduces dependence on a particular measurement scale and normal model, but it also discards some magnitude information. The method is most informative when independence follows from the sampling design and the scientific question can genuinely be answered by relative ordering between the two groups.
 
+R implements the comparison through its Wilcoxon test interface, using either two numeric vectors or a response-by-group formula. Exact and asymptotic calculations depend on sample size and ties, so the reported method and continuity correction should accompany the result.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[researchmethodsforinformationsystems.pdf]]
+
+[[rprimer.pdf]]

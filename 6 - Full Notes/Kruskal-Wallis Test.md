@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Descriptive Health Statistics]]
+Tags: [[Descriptive Health Statistics]] · [[R Statistical Testing and Model Validation]]
 
 # Kruskal-Wallis Test
 
@@ -12,8 +12,12 @@ The omnibus statistic can establish that the group distributions are not all ali
 
 The procedure generalizes rank-based comparison beyond two independent groups. Its nonparametric label does not remove design assumptions: independent sampling and comparable distribution shapes remain important when the result is interpreted as a shift in location.
 
+In R, the response and group can be supplied through a formula, and the resulting rank-sum statistic is compared with its reference distribution. The group variable must be categorical; an accidental numeric interpretation can express a trend model instead of the intended omnibus comparison.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[researchmethodsforinformationsystems.pdf]]
+
+[[rprimer.pdf]]

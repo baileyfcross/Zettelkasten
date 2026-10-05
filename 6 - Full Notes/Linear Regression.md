@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Linear Regression Analysis]] · [[Linear Model Design and Contrasts]]
+Tags: [[Linear Regression Analysis]] · [[Linear Model Design and Contrasts]] · [[R Regression and Longitudinal Modeling]]
 
 # Linear Regression
 
@@ -14,6 +14,8 @@ The source writes the full model as $Y=X\beta+\epsilon$, where the design matrix
 
 Regression can describe an association or generate predictions, but both uses require checks of residual pattern, variance, influential observations, and the domain over which the fitted form is credible. Extrapolation beyond observed predictor values adds structural assumptions that a small in-sample error cannot validate.
 
+In R, `lm` combines a formula and data frame to fit the model, and `summary` exposes coefficients, their standard errors and tests, residual summaries, and fit statistics. The formula can omit the intercept, include transformed variables, or add interactions, but those syntactic choices change the model and must be interpreted rather than treated as formatting.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
@@ -21,3 +23,5 @@ Regression can describe an association or generate predictions, but both uses re
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[researchmethodsforinformationsystems.pdf]]
+
+[[rprimer.pdf]]

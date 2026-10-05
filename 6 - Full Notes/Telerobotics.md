@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Environments]] [[Prosthetic and Robotic Haptic Systems]] [[XR Training and Professional Practice]]
+Tags: [[XR Environments]] [[Prosthetic and Robotic Haptic Systems]] [[XR Training and Professional Practice]] [[Human-Robot Interaction and Augmentation]]
 
 # Telerobotics
 
@@ -14,8 +14,12 @@ Force-reflecting master devices can close the loop by returning loads measured a
 
 Immersive viewing can couple the operator's head motion to a remote camera or robot viewpoint, producing [[Telepresence]] while leaving physical action to the machine. Space, undersea, terrestrial, airborne, and medical operations illustrate the same constraint: communication delay and limited feedback determine which motions can be directly teleoperated and which require local autonomy.
 
+Remote embodiment also multiplies human presence: the operator can observe and act in a dangerous, distant, or inaccessible place without moving their body there. The complete system includes the robot, network, interface, operator, local environment, and any nearby people. Safe design must specify what the robot does when the link degrades and how authority transfers between direct control and local autonomy.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[haptics.epub]]
 [[practicalaugmentedreality.pdf]]
+
+[[robots.epub]]

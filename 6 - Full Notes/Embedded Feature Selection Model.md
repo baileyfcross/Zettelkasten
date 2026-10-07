@@ -14,6 +14,8 @@ Embedded methods can exploit the learning algorithm's internal structure while a
 
 That integration can be computationally favorable for large datasets because selection occurs during a fit that was already required. Scalability still depends on whether the learning algorithm itself can be distributed or adapted to streaming data.
 
+An embedded objective can be nondifferentiable yet remain convex, as in a regression loss with an L2,1 row penalty. In that case, optimization and selection proceed together: fitting the weight matrix drives whole predictor rows to zero while preserving a globally solvable objective.
+
 # References
 
 [[dataclassification.pdf]]
@@ -21,3 +23,5 @@ That integration can be computationally favorable for large datasets because sel
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
 
 [[frontiersofdatascience.pdf]]
+
+[[spectralfeatureselectionfordatamining.pdf]]

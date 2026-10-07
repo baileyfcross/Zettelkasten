@@ -14,6 +14,8 @@ Wrapper selection couples a search strategy with a model-based evaluator. Sequen
 
 The cost becomes a central limitation in Big Data because both the number of subsets and the expense of each model fit grow. Parallel execution can help, but it does not remove the need for an efficient search and careful validation.
 
+Unlike a filter such as SPEC, a wrapper estimates feature utility through the predetermined learner itself. This can yield subsets tailored to that learner, but it also couples the result to the learner's bias and requires repeated model evaluation during search.
+
 # References
 
 [[dataclassification.pdf]]
@@ -21,3 +23,5 @@ The cost becomes a central limitation in Big Data because both the number of sub
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
 
 [[frontiersofdatascience.pdf]]
+
+[[spectralfeatureselectionfordatamining.pdf]]

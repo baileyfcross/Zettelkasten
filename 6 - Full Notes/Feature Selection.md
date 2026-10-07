@@ -18,6 +18,8 @@ At Big Data scale, the exponential subset space, distributed storage, streaming 
 
 Alpaydin contrasts selection with extraction through the semantics of the inputs. Keeping or removing income, age, or profession remains interpretable because each field has a separate meaning. Individual pixels are less useful alone, so image tasks more naturally combine them into learned or projected features. A wrapper evaluates candidate subsets by repeatedly training and testing the downstream model.
 
+Feature selection methods can also be classified by degree of supervision, evaluator design, output form, source count, and computation scheme. A method may use labels, unlabeled structure, or both; operate as a filter, wrapper, or embedded objective; return weights or a subset; integrate one or several sources; and run centrally or in parallel. These axes describe different choices and should not be collapsed into a single taxonomy.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
@@ -29,3 +31,5 @@ Alpaydin contrasts selection with extraction through the semantics of the inputs
 [[frontiersofdatascience.pdf]]
 
 [[machinelearning_mit.epub]]
+
+[[spectralfeatureselectionfordatamining.pdf]]

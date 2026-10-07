@@ -16,6 +16,8 @@ Preserving high-variance directions makes differences among observations visible
 
 In R, the data are centered and may be scaled before component extraction, and summaries report the variance accounted for by successive components. Scores locate observations in component space while loadings describe variable contributions; both are needed to understand what a reduced display represents.
 
+PCA also has a least-squares reconstruction form. Sparsifying each loading separately can use different variables across components, whereas an L2,1 row penalty selects a common predictor subset for all retained components. That row-sparse formulation connects PCA-style extraction with [[Joint Feature Selection and Extraction]].
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
@@ -25,3 +27,5 @@ In R, the data are centered and may be scaled before component extraction, and s
 [[machinelearning_mit.epub]]
 
 [[rprimer.pdf]]
+
+[[spectralfeatureselectionfordatamining.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Gravitation and Relativity]]
+Tags: [[Gravitation and Relativity]] · [[Lorentz Transformations and Kinematics]]
 
 # Length Contraction
 
@@ -10,8 +10,12 @@ Length contraction reduces the measured dimension of an object parallel to its m
 
 The effect follows directly from Lorentz-coordinate differences evaluated at equal times in the measuring frame. Transverse dimensions are unchanged, and the proper length remains the endpoint separation in the object's rest frame rather than an absolute size shared by every observer.
 
+Because simultaneity is frame-dependent, contraction cannot be inferred by comparing endpoint positions measured at different times. It is reciprocal between inertial frames and appears only along the direction of relative motion. The [[Pole-and-Barn Paradox]] is resolved by applying this simultaneity requirement consistently.
+
 # References
 
 [[foundationsofphysics.pdf]]
 
 [[mathematicalmethodsforphysics.pdf]]
+
+[[specialtheoryofrelativity.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix Structure]]
+Tags: [[Matrix Structure]] · [[Mathematical Structures of Relativity]]
 
 # Symmetric Matrix
 
@@ -12,8 +12,12 @@ Symmetric matrices have real eigenvalues and admit an orthonormal set of eigenve
 
 The spectral theorem gives $A=QDQ^T$ with real diagonal $D$ and orthogonal $Q$. Consequently, eigenspaces for distinct eigenvalues are orthogonal and functions or powers of $A$ can be computed through the diagonal entries.
 
+In the source's matrix presentation of relativity, a two-dimensional boost generator is symmetric, and its exponential contains hyperbolic functions. This contrasts with the [[Skew-Symmetric Matrix|skew-symmetric]] generator of an ordinary Euclidean rotation and provides a compact way to distinguish time-space boosts from spatial rotations.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[linearalgebra.pdf]]
+
+[[specialtheoryofrelativity.pdf]]

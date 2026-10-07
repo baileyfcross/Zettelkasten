@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Electromagnetic Field Foundations]]
+Tags: [[Electromagnetic Field Foundations]] · [[Relativity and Electromagnetism]]
 
 # Maxwell's Equations
 
@@ -12,8 +12,12 @@ Together with material relations and boundary conditions, they define macroscopi
 
 The divergence equations relate electric flux to charge and require zero net magnetic flux, while the curl equations relate changing magnetic and electric fields to circulation and current. Taking another curl in a source-free region produces electromagnetic wave equations with propagation speed determined by permittivity and permeability.
 
+Their form is preserved by [[Lorentz Transformation|Lorentz transformations]], not by Galilean transformations. The displacement-current term added to Ampère's law makes charge continuity consistent and couples changing electric and magnetic fields into waves. In covariant notation, the equations can be assembled from the [[Electromagnetic Field Tensor]], its dual, and the [[Four-Current]].
+
 # References
 
 [[finiteelementanalysis_aprimer.pdf]]
 
 [[mathematicalmethodsforphysics.pdf]]
+
+[[specialtheoryofrelativity.pdf]]

@@ -2,3 +2,5 @@
 .obsidian/plugins/local-vault-ai/data/knowledge-index.json
 .obsidian/plugins/local-vault-ai/data/index-manifest.json
 .obsidian/plugins/local-vault-ai/data/conversations/
+.obsidian/graph.json
+.obsidian/workspace.json

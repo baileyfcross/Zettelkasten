@@ -10,8 +10,12 @@ Forward substitution solves a [[Lower Triangular Matrix|lower triangular]] syste
 
 It is the first solve after [[LU Decomposition]]: one finds $y$ from $Ly=b$, then uses [[Back Substitution]] to find $x$ from $Ux=y$.
 
+Each row uses only variables already obtained from earlier rows, so the method requires quadratic work for a dense triangular system. In a [[Banded Matrix]], the update can ignore coefficients known to lie outside the stored band.
+
 # References
 
 [[numericalmethodsinengineeringandscience.pdf]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

@@ -10,7 +10,10 @@ Machine epsilon is a small positive floating-point number that characterizes the
 
 It provides a scale for expected [[Round-Off Error]] and for numerical tolerance choices. A test should usually compare errors relative to problem magnitude rather than treating machine epsilon as a universal stopping threshold.
 
+The spacing implied by machine epsilon explains why adding a sufficiently small value to a much larger floating-point number can leave the stored value unchanged. Increasing precision reduces that local spacing but does not remove unstable formulations or [[Catastrophic Cancellation]].
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[statisticalcomputingincplusplusandr.pdf]]

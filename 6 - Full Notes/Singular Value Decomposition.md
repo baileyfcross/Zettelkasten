@@ -18,6 +18,8 @@ The nonzero singular values are the square roots of the nonzero eigenvalues of $
 
 For a sparse user-item utility matrix, a truncated decomposition supplies lower-dimensional user and item coordinates that expose latent preference structure. Two users can align along a hidden direction even without rating the same items, allowing recommendation evidence to survive the absence of direct neighborhood overlap.
 
+For least-squares computation, small singular values identify directions in which the data provide little numerical information. Dividing by those values can amplify noise and [[Round-Off Error]], while truncating or otherwise regularizing them trades exact fitting for a more stable solution.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
@@ -29,3 +31,5 @@ For a sparse user-item utility matrix, a truncated decomposition supplies lower-
 [[linearalgebra.pdf]]
 
 [[recommendationengines.epub]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

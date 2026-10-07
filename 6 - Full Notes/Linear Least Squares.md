@@ -14,6 +14,8 @@ The source applies least squares to outcome vector $Y$ and design matrix $X$, ch
 
 The student companion derives a fitted line from the normal equations and later extends the same squared-error criterion to quadratic and multiple-predictor models. R's matrix operations make the parameter calculation explicit, while the overlaid curve shows whether the chosen form follows the data.
 
+Solving the normal equations squares the condition number of the design matrix. Orthogonalization with the [[Gram-Schmidt Process]] or a [[Singular Value Decomposition]] can obtain the least-squares solution without relying on an explicit inverse of $X^TX$.
+
 # References
 
 [[numericalmethodsinengineeringandscience.pdf]]
@@ -23,3 +25,5 @@ The student companion derives a fitted line from the normal equations and later 
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[rstudentcompanion.pdf]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

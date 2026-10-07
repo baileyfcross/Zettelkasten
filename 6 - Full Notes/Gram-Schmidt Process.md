@@ -10,6 +10,10 @@ The Gram-Schmidt process converts a linearly independent sequence into an [[Orth
 
 Normalizing the results produces an [[Orthonormal Basis]]. Applied to the columns of a full-rank matrix, the process also yields a [[QR Decomposition]].
 
+Classical Gram-Schmidt forms all projections from the original input vector, which can lose orthogonality in finite precision. Modified Gram-Schmidt subtracts one projection at a time from the evolving residual and is generally more numerically stable while producing the same exact-arithmetic factorization.
+
 # References
 
 [[linearalgebra.pdf]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

@@ -12,6 +12,8 @@ This often converges faster than the [[Jacobi Method]], though convergence is st
 
 With the splitting $A=D+L+U$, the matrix form is $(D+L)x^{(k+1)}=b-Ux^{(k)}$. The triangular solve explains how each freshly computed component enters the remaining updates immediately.
 
+An implementation needs both a convergence test and an iteration limit. Diagonal dominance or suitable positive-definite structure can support convergence, but an arbitrary system may diverge even when each update can be calculated.
+
 # References
 
 [[numericalmethodsinengineeringandscience.pdf]]
@@ -19,3 +21,5 @@ With the splitting $A=D+L+U$, the matrix form is $(D+L)x^{(k+1)}=b-Ux^{(k)}$. Th
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[linearalgebra.pdf]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[React Testing Practice]] [[LLM-Assisted Software Testing]]
+Tags: [[React Testing Practice]] [[LLM-Assisted Software Testing]] [[R Software Testing]]
 
 # Code Coverage
 
@@ -12,8 +12,12 @@ A configured threshold can fail the suite when coverage drops below an agreed le
 
 Coverage provides feedback about which code structures a dynamic suite executed and can guide an LLM toward untested areas. It does not establish that assertions are meaningful or that all relevant input states were explored, so generated tests need behavioral review in addition to a higher percentage.
 
+For an R package, coverage tooling can report which code executed during the package tests and highlight exported functions that have no direct exercise. The result is most useful as a work queue: complicated functions warrant proportionally more cases, while pursuing 100 percent can cost more than the remaining risk justifies. Coverage complements an [[R Package Check]] but cannot establish that the executed expectations were correct.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[learningreact1.pdf]]
+
+[[testingrcode.pdf]]

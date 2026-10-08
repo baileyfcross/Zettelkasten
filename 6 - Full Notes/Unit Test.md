@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]] [[ASP.NET Core API Integration Testing]] [[Test-Driven Development and Unit Test Design]] [[Reproducible Scientific Software]]
+Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[C Sharp Functions Diagnostics and Testing]] [[ASP.NET Core API Integration Testing]] [[Test-Driven Development and Unit Test Design]] [[Reproducible Scientific Software]] [[R Software Testing]]
 
 # Unit Test
 
@@ -18,6 +18,8 @@ The web-research chapter emphasizes that test code has a maintenance cost and sh
 
 For research software, writing a small test as a scientific component is developed localizes defects near their introduction. Automated execution across supported systems then distinguishes failures caused by a proposed change from failures caused by platform differences, strengthening confidence in the software used to produce scientific results.
 
+In R, testthat gives a unit test a descriptive behavior statement and one or more [[R testthat Expectation|expectations]]. A common value test declares the expected result, computes the actual result, and compares them; error cases should also verify that the intended error occurred. Keeping these tests in files or package test directories makes it easy to rerun them after every function change, turning previously discovered edge cases into regression protection.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -30,3 +32,5 @@ For research software, writing a small test as a scientific component is develop
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[implementingreproducableresearch.pdf]]
+
+[[testingrcode.pdf]]

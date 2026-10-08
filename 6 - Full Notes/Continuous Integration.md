@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]], [[Continuous Integration and Delivery]] [[Cloud Messaging Caching and Operations Patterns]], [[Reproducible Scientific Software]]
+Tags: [[Agile Engineering and Quality]], [[Continuous Integration and Delivery]] [[Cloud Messaging Caching and Operations Patterns]], [[Reproducible Scientific Software]] [[R Software Testing]]
 
 # Continuous Integration
 
@@ -20,6 +20,8 @@ A GitHub Actions workflow expresses this feedback loop as event-triggered jobs a
 
 In scientific software, continuous integration can build and test each accepted change across multiple platforms and publish the results on a shared dashboard. Linking a newly failing test to the responsible revision makes software quality visible to the research community and catches environment-specific regressions before they silently alter later analyses.
 
+For an R package, a hosted integration service can run an [[R Package Check]] whenever changes reach the shared repository. Testing several R versions and operating systems matters because paths, locales, numerical precision, compiled code, and package dependencies can behave differently across environments. CI makes those compatibility checks repeatable, but its evidence is only as strong as the package tests and configuration it executes.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -30,3 +32,5 @@ In scientific software, continuous integration can build and test each accepted 
 [[clouddevopsengineersguide.pdf]]
 
 [[implementingreproducableresearch.pdf]]
+
+[[testingrcode.pdf]]

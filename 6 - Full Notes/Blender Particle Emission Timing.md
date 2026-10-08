@@ -10,6 +10,10 @@ Blender emitter particles are born between configured start and end frames and r
 
 Timing creates the population visible at any frame: a short emission interval with a long lifetime accumulates particles, while a short lifetime removes early particles as new ones appear. The source settings separately determine whether emission comes from vertices, faces, or volume and whether distribution is even, random, or jittered. Birth timing and spatial distribution should therefore be tuned as distinct controls.
 
+The source uses short start-to-end intervals to turn an effect into a burst and offsets those intervals to synchronize an aircraft and dome explosion. Comparing the particle lifetime with the overall Timeline range explains why fragments can disappear long before the animation itself reaches its final frame.
+
 # References
 
 [[modelingandanimationusingblender.pdf]]
+
+[[testdriveblender.pdf]]

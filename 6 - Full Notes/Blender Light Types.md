@@ -12,8 +12,12 @@ Cycles can also use emissive mesh geometry as a light source, while Eevee common
 
 Light objects carry illumination settings independently of visible mesh geometry. Light probes are related real-time scene objects that sample or approximate environmental lighting rather than directly emitting it, so both must be placed according to their distinct role.
 
+The source emphasizes that material color is perceived through illumination: lamp type, color, intensity, and placement change the reflected diffuse and specular result. Multiple lamps can contribute simultaneously, so a material preview must be interpreted together with the scene's lighting arrangement.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 
 [[creatinggameenvironmentsinblender3d.pdf]]
+
+[[testdriveblender.pdf]]

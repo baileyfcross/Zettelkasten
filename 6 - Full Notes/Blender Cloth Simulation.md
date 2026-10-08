@@ -12,7 +12,11 @@ Playback calculates and caches the changing shape. A complete cached pass gives 
 
 The material response is divided into tension, compression, shear, and bending stiffness and damping, with quality steps controlling solver effort. Pin groups anchor selected vertices, sewing pulls loose edges together, and object and self-collision settings control distance, friction, iterations, and impulse clamping. Property-weight groups can vary structural behavior across the same cloth mesh.
 
+The source's Blender 2.77 example turns a subdivided plane into cloth and gives a cube collision behavior, allowing gravity to drape the plane over it during playback. Subdivision is essential because the solver deforms the available mesh rather than creating arbitrary folds without supporting geometry.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[modelingandanimationusingblender.pdf]]
+
+[[testdriveblender.pdf]]

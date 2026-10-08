@@ -14,8 +14,12 @@ In Gress's broader VFX explanation, birth rate and total limit distinguish conti
 
 Blender 2.80 distinguishes Emitter and Hair systems. Both define parent count, random seed, source geometry, and distribution, but emitters add birth frames and lifetime while hair adds strand length and segments. A production workflow builds the emitter, tailors its settings and forces, shapes hair when applicable, evaluates the simulation, and finally bakes a stable cache for rendering.
 
+In the source's Blender 2.77 explosion workflow, emitted particles are not only visible points; they also drive mesh fragments through the [[Blender Explode Modifier]]. Initial velocity changes their direction, gravity changes their trajectory, and lifetime limits how long both the particles and resulting fragments remain active.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[digitalvisualeffectsandcompositing.pdf]]
 [[modelingandanimationusingblender.pdf]]
+
+[[testdriveblender.pdf]]

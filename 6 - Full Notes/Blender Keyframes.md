@@ -14,8 +14,12 @@ For a character, a key can record selected rig controls or a coordinated whole-c
 
 Blender's interface distinguishes a property keyed on the current frame from an animated property whose value is currently interpolated or changed without a new key. Those color cues help reveal whether an edit has actually entered the animation. Semantic keyframe types such as Breakdown, Moving Hold, Extreme, and Jitter can further label the role a key plays without changing the value it stores.
 
+The source's first animation records cube location at frames 1 and 60. Blender calculates the intervening positions, showing that the keys define selected states rather than every displayed frame. The same insertion mechanism can record location, rotation, scale, or another animatable property.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[learningblender3e.pdf]]
 [[modelingandanimationusingblender.pdf]]
+
+[[testdriveblender.pdf]]

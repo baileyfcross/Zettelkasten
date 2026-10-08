@@ -10,8 +10,12 @@ Perspective projection resembles ordinary vision: equal-sized objects appear sma
 
 Perspective is helpful for judging the final spatial impression, while orthographic views are useful for matching blueprints and controlling proportions. Blender can toggle between them and can jump directly to front, side, top, bottom, or camera views.
 
+The modeling exercises use top, front, and right orthographic views to make a selected profile, path, or vertex group move along known axes without perspective foreshortening. Perspective is then restored to judge the resulting three-dimensional form rather than to perform every precise edit.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 
 [[introductiontoblender30.pdf]]
+
+[[testdriveblender.pdf]]

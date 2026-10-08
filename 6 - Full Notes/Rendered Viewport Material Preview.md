@@ -10,6 +10,10 @@ Rendered viewport shading continuously evaluates scene lights, materials, gloss,
 
 The preview is computationally expensive. The book's Blender 2.7x workflow recommends hardware acceleration where supported and suggests dedicating a smaller secondary viewport to rendered shading so the main modeling view remains responsive.
 
+The beginner exercises reinforce the same boundary by keeping modeling and simulation setup in Solid or Wireframe and switching to Rendered shading only to inspect materials, image textures, smoke, or fire. Continuous rendered evaluation of a complex scene can make interaction slow or unstable even when a single final render succeeds.
+
 # References
 
 [[howtocheatinblender27x.pdf]]
+
+[[testdriveblender.pdf]]

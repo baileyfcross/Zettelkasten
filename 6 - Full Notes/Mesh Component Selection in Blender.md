@@ -12,6 +12,8 @@ Edit mode can select any of these component types. Wireframe or X-ray display ma
 
 In Blender 2.7x, more than one component-selection mode could be active at once, allowing vertices, edges, and faces to participate in the same selection. Hiding geometry also constrained later automated selections, which made visibility a practical filter for operations that would otherwise select throughout the mesh.
 
+The book's Blender 2.77 modeling example uses “Limit Selection to Visible” as the decisive switch when deleting one half of a sphere for mirroring. Leaving the restriction enabled would select only the front-facing components and leave unintended rear geometry behind.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
@@ -19,3 +21,5 @@ In Blender 2.7x, more than one component-selection mode could be active at once,
 [[howtocheatinblender27x.pdf]]
 
 [[introductiontoblender30.pdf]]
+
+[[testdriveblender.pdf]]

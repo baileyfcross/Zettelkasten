@@ -10,8 +10,12 @@ Extrusion extends selected mesh components while creating the geometry that conn
 
 A face extrusion can create a projecting volume, while edges or vertices can extend an open form. After extrusion begins, the new selection can be transformed, constrained, or canceled using the same interaction patterns as other Blender operations.
 
+The source makes the duplication step explicit: pressing Extrude creates a new selected component set connected to the old one, even when the new set has not yet visibly moved. Scaling or translating that selection then creates a ring, aircraft feature, or extended curve profile; leaving it superimposed can create duplicate geometry.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 
 [[introductiontoblender30.pdf]]
+
+[[testdriveblender.pdf]]

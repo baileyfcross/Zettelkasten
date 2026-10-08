@@ -10,8 +10,12 @@ The Properties editor modifies attributes of a scene and its elements. Its conte
 
 Available contexts depend on the active selection. A camera, mesh, material, or armature exposes different controls, so the editor acts as a context-sensitive view of the selected data rather than a fixed form.
 
+The source's Blender 2.77 examples repeatedly use this context sensitivity: selecting an object changes which material, particle, modifier, constraint, physics, or object-data panels are meaningful. A control edited while the wrong object is active therefore changes a different datablock or may disappear entirely.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 
 [[introductiontoblender30.pdf]]
+
+[[testdriveblender.pdf]]

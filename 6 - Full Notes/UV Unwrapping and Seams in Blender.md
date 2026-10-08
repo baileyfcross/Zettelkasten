@@ -12,6 +12,8 @@ Seams tell Blender where the surface may be cut open for flattening. A thoughtfu
 
 A production-ready layout also avoids unintended overlaps, preserves padding for mipmaps, uses the square texture area efficiently, and keeps island scale proportional to required detail. Hidden or naturally occurring object seams often provide the least visible cut locations.
 
+The source introduces unwrapping as flattening a mesh surface so a two-dimensional image can be placed on it and inspected in the UV/Image Editor. Its sphere example also shows that, in the Blender Internal workflow of the time, a material and UV layout were prepared before the image texture was made visible on the object.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
@@ -19,3 +21,5 @@ A production-ready layout also avoids unintended overlaps, preserves padding for
 [[creatinggameenvironmentsinblender3d.pdf]]
 
 [[introductiontoblender30.pdf]]
+
+[[testdriveblender.pdf]]

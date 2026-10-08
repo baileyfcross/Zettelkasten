@@ -12,7 +12,11 @@ Follow Curve can rotate the object along the path, and a forward-axis setting id
 
 Blender 2.80 also exposes an up axis, curve-radius scaling, frame offset, fixed-position behavior, and Influence. Animate Path can create the F-curve and start/end timing used by the curve. The constraint therefore separates the path's geometry, temporal evaluation, and the owner's orientation, allowing each aspect to be adjusted without manually rebuilding the trajectory.
 
+The source's aircraft example keyframes curve Evaluation Time from 0 to 100 percent and uses Follow Curve with explicit forward and up axes. The curve can then be reshaped in three dimensions without rebuilding the object's location keys, while timing remains controlled by the evaluation keys.
+
 # References
 
 [[howtocheatinblender27x.pdf]]
 [[modelingandanimationusingblender.pdf]]
+
+[[testdriveblender.pdf]]

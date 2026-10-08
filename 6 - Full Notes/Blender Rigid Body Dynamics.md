@@ -14,8 +14,12 @@ Gress applies the same rigid-body idea to destruction: a model must first be fra
 
 Blender integrates rigid bodies with ordinary animation, parenting, constraints, and drivers. Active bodies can be dynamic or animated, while collision shape, source geometry, mass, friction, bounciness, margin, and collision collections define solver behavior. Separate rigid-body constraints join two bodies through fixed, hinge, slider, piston, spring, generic, or motor relationships.
 
+The source contrasts passive floor and ramp objects with active cubes and a sphere. Giving the sphere an appropriate collision shape and increasing its mass changes the impact from a small nudge to a demolished stack, illustrating that participation type, collision representation, and mass each affect the solve.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[digitalvisualeffectsandcompositing.pdf]]
 [[modelingandanimationusingblender.pdf]]
+
+[[testdriveblender.pdf]]

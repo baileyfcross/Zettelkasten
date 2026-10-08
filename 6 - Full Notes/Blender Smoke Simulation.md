@@ -12,7 +12,11 @@ The simulated volume still requires a suitable material and render settings to b
 
 Blender 2.80 treats smoke as fluid motion sampled into voxel fields for density, heat, and velocity. A domain controls resolution, time scale, borders, vorticity, adaptive bounds, dissipation, flames, and high-resolution noise. Flow objects emit smoke, fire, both, or outflow from meshes or particles, while collision objects may be static, rigid, or animated.
 
+The source's [[Blender Quick Smoke Setup]] shows the older one-command starting point: a selected mesh becomes a flow source and an enclosing domain is added, after which the style can be smoke, fire, or both. The project delays ignition by changing the cache start frame rather than moving the source object.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 [[modelingandanimationusingblender.pdf]]
+
+[[testdriveblender.pdf]]

@@ -10,6 +10,10 @@ Gibbs sampling updates one variable at a time by drawing from its conditional di
 
 It avoids proposing a complete high-dimensional state at once. Correlated variables can nevertheless make the chain mix slowly, so early samples and strongly dependent runs require careful interpretation.
 
+In [[Latent Dirichlet Allocation]], a Gibbs sampler can reassign each word token to a topic conditional on the current assignments of the remaining tokens. Burn-in, retained iterations, thinning, and a recorded random seed make the resulting [[Gibbs-Sampled Topic Model]] interpretable and reproducible.
+
 # References
 
 [[bayesianprogramming.pdf]]
+
+[[textminingandvisualization.pdf]]

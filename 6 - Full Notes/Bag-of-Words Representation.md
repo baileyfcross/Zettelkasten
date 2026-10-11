@@ -12,8 +12,12 @@ This loss of structure is also the representation's strength: it is easy to cons
 
 In automated content analysis, [[Text Tokenization]] may be followed by stemming and the removal of punctuation, frequent function words, and very rare terms before a bag-of-words model is built. These reductions make large collections tractable, but [[Automated Content Analysis]] must validate that the discarded context is not essential to the research question.
 
+The representation is commonly materialized as a [[Document-Term Matrix]] and stored sparsely. Adding adjacent n-grams restores limited local order without abandoning the general vector model, but the larger vocabulary raises sparsity and overfitting risk.
+
 # References
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
 
 [[frontiersofdatascience.pdf]]
+
+[[textminingandvisualization.pdf]]

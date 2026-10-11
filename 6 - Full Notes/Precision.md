@@ -12,7 +12,11 @@ Precision depends on the selected threshold and class prevalence, so it should b
 
 In information retrieval, precision is the fraction of returned records that are relevant. Retrieving fewer, highly selective candidates can raise precision while leaving relevant records undiscovered, which is why the number is incomplete without recall.
 
+For binary sentiment classification, precision should be computed separately for the positive and negative labels because each choice defines a different set of false positives. Reporting both prevents a strong majority-class result from masking unreliable predictions for the other class.
+
 # References
 
 [[essentialsofdatascience.pdf]]
 [[machinelearning_mit.epub]]
+
+[[textminingandvisualization.pdf]]

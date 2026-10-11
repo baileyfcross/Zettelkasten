@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Self-Tracking Markets and Institutional Power]]
+Tags: [[Self-Tracking Markets and Institutional Power]] [[Consumer IoT and Smart Environments]]
 
 # Wearable Device
 
@@ -12,6 +12,9 @@ Wearability is social as well as technical. Miniaturized electronics, lower-powe
 
 A wearable may cross consumer, employment, and medical settings. Its physical form does not determine whether the collected data are harmless wellness information or consequential health and surveillance records.
 
+Within a consumer IoT ecosystem, a wearable often participates in a personal area network rather than operating alone. Its sensors collect movement or physiological signals, a phone supplies a richer interface and network gateway, and cloud services combine the stream with routes, environmental conditions, medical records, or social features. This division lets a small device remain convenient while making its value dependent on connectivity and the surrounding services.
+
 # References
 
 [[self-tracking.epub]]
+[[theinternetofthings_revised.epub]]

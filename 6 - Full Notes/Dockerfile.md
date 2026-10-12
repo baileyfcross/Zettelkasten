@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Containerized Microservice Architecture]] [[Buildah Container Image Construction]]
+Tags: [[Containerized Microservice Architecture]] [[Buildah Container Image Construction]] [[Docker Image Engineering]]
 
 # Dockerfile
 
@@ -16,7 +16,11 @@ Instruction order affects both security and build performance. Copying dependenc
 
 Podman and Buildah execute the same instruction model. Filesystem-changing instructions such as `RUN`, `COPY`, and `ADD` create image layers, while metadata instructions such as `CMD` update the image configuration. This distinction makes the file both a recipe and a record of how the final OCI image was assembled.
 
+The order of Dockerfile instructions determines how effectively the build cache can be reused. Stable dependency metadata should be copied and resolved before frequently changing source code, while a narrow build context and `.dockerignore` prevent irrelevant or sensitive files from entering cache keys and image layers.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 

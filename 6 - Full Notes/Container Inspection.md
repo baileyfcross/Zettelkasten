@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Podman Container Lifecycle and Storage]]
+Tags: [[Podman Container Lifecycle and Storage]] [[Docker Runtime and Container Lifecycle]]
 
 # Container Inspection
 
@@ -10,6 +10,10 @@ Container inspection returns the structured configuration and runtime state reco
 
 Inspection is evidence for both administration and troubleshooting. It can confirm whether a volume reached the intended destination, which port mapping was requested, or which process identifier should be used for [[nsenter Container Debugging]]. Because the output describes configured and observed state, it should be compared with application logs and live process behavior rather than treated as proof of health.
 
+Docker inspection exposes the resolved runtime configuration behind a container, including its image, environment, mounts, networking, state, and resource settings. Comparing that effective configuration with the declared build and run inputs helps distinguish image defects from host, network, or launch-time configuration problems.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[podmanfordevopssecondedition.pdf]]

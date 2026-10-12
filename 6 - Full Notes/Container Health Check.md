@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Podman Networking and Diagnostics]]
+Tags: [[Podman Networking and Diagnostics]] [[Docker Observability Operations]]
 
 # Container Health Check
 
@@ -10,6 +10,10 @@ A container health check periodically runs a command that tests whether the appl
 
 The probe should test a meaningful service behavior with low cost and deterministic exit status. Podman can report the state and optionally act on failure, but a health command does not repair the application or prove every dependency is correct. It supplies one operational signal to combine with [[Container Log Capture]] and external monitoring.
 
+A Docker health check tests whether the service inside a running container can perform a meaningful operation, not merely whether its main process exists. Compose can use that state to delay dependent startup, although robust clients should still tolerate restarts and transient unavailability.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[podmanfordevopssecondedition.pdf]]

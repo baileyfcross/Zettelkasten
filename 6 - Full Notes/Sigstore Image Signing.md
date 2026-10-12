@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Rootless Container and SELinux Security]]
+Tags: [[Rootless Container and SELinux Security]] [[Docker Container Security]]
 
 # Sigstore Image Signing
 
@@ -10,6 +10,10 @@ Sigstore image signing records a signature for a digest-addressed container imag
 
 Signing should occur after the final image content is known, ideally in a controlled build or promotion pipeline. Verification must be tested with altered or unsigned content; generating a signature without configuring enforcement leaves the consumer free to pull an untrusted image.
 
+Cosign can bind a signature and supporting attestations to a container image digest. Verification at promotion or admission time establishes that the precise image came through an approved identity and process; signing a mutable tag alone cannot provide that guarantee.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[podmanfordevopssecondedition.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Buildah Container Image Construction]]
+Tags: [[Buildah Container Image Construction]] [[Docker Image Engineering]]
 
 # Build Context
 
@@ -10,6 +10,10 @@ A build context is the directory tree made available to a container image build.
 
 The context should be narrow and filtered because local artifacts, credentials, and unrelated directories can otherwise become available to an instruction or invalidate useful caches. A Dockerfile or [[Containerfile]] describes the build, but the context supplies its local inputs; reproducibility depends on controlling both.
 
+Docker sends the selected build context to the builder, making context boundaries part of both performance and security. Keeping the context close to the required sources and maintaining `.dockerignore` reduces transfer cost, invalidated cache entries, and accidental inclusion of credentials or local artifacts.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[podmanfordevopssecondedition.pdf]]

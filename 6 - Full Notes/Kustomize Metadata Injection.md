@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Self-Service Observability Platforms]]
+Tags: [[Self-Service Observability Platforms]] [[GitOps Deployment Operations]]
 
 # Kustomize Metadata Injection
 
@@ -10,6 +10,10 @@ Kustomize metadata injection applies labels or annotations to selected Kubernete
 
 A platform team can use this mechanism to attach ownership, environment, priority, or routing context needed by the observability system. Centralized transformation reduces deployment failures and inconsistent telemetry caused by manual repetition.
 
+The same base-and-overlay model can vary container images, replica counts, configuration, and other manifest fields between environments without templating every resource. Reviewing the rendered result remains important because overlays can interact and obscure the effective object that Kubernetes receives.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]

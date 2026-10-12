@@ -18,6 +18,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parent.parent
 BOOKS = ROOT / "2 - Source Material" / "Books"
 MANIFEST = Path(__file__).resolve().parent / "manifest.json"
+PAPERS = ROOT / "2 - Source Material" / "Papers"
+PAPER_MANIFEST = Path(__file__).resolve().parent / "papers-manifest.json"
 FULL_NOTES = ROOT / "6 - Full Notes"
 TAGS = ROOT / "3 - Tags"
 TAG_REFERENCE_MINIMUM = 10
@@ -34,19 +36,19 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def inventory() -> None:
+def inventory_collection(source_root: Path, manifest_path: Path, source_root_label: str) -> None:
     previous = {}
-    if MANIFEST.exists():
-        data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    if manifest_path.exists():
+        data = json.loads(manifest_path.read_text(encoding="utf-8"))
         previous = {item["relative_path"].casefold(): item for item in data.get("sources", [])}
 
     files = sorted(
-        (path for path in BOOKS.rglob("*") if path.is_file()),
-        key=lambda path: path.relative_to(BOOKS).as_posix().casefold(),
+        (path for path in source_root.rglob("*") if path.is_file()),
+        key=lambda path: path.relative_to(source_root).as_posix().casefold(),
     )
     sources = []
     for position, path in enumerate(files, start=1):
-        relative_path = path.relative_to(BOOKS).as_posix()
+        relative_path = path.relative_to(source_root).as_posix()
         file_hash = sha256(path)
         old = previous.get(relative_path.casefold())
         unchanged = old is not None and old.get("sha256") == file_hash
@@ -76,20 +78,28 @@ def inventory() -> None:
     ]
     manifest = {
         "schema_version": 1,
-        "source_root": "2 - Source Material/Books",
+        "source_root": source_root_label,
         "order": "case-insensitive relative path",
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_count": len(sources),
         "missing_previously_processed_sources": sorted(missing, key=str.casefold),
         "sources": sources,
     }
-    MANIFEST.parent.mkdir(parents=True, exist_ok=True)
-    MANIFEST.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {MANIFEST} with {len(sources)} ordered sources")
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {manifest_path} with {len(sources)} ordered sources")
 
 
-def extract_pdf(relative_path: str, output: Path) -> None:
-    source = BOOKS / Path(relative_path)
+def inventory() -> None:
+    inventory_collection(BOOKS, MANIFEST, "2 - Source Material/Books")
+
+
+def inventory_papers() -> None:
+    inventory_collection(PAPERS, PAPER_MANIFEST, "2 - Source Material/Papers")
+
+
+def extract_pdf(relative_path: str, output: Path, source_root: Path = BOOKS) -> None:
+    source = source_root / Path(relative_path)
     reader = PdfReader(source)
     decryption = None
     if reader.is_encrypted:
@@ -138,8 +148,10 @@ def page_numbers(specification: str, page_count: int) -> list[int]:
     return sorted(numbers)
 
 
-def show_pdf_pages(relative_path: str, specification: str) -> None:
-    source = BOOKS / Path(relative_path)
+def show_pdf_pages(
+    relative_path: str, specification: str, source_root: Path = BOOKS
+) -> None:
+    source = source_root / Path(relative_path)
     reader = PdfReader(source)
     if reader.is_encrypted and not reader.decrypt(""):
         raise RuntimeError("PDF requires a password and could not be decrypted")
@@ -378,8 +390,12 @@ def validate_topics() -> dict:
     }
 
 
-def validate_source(relative_path: str) -> dict:
-    source = BOOKS / Path(relative_path)
+def validate_source(
+    relative_path: str,
+    source_root: Path = BOOKS,
+    manifest_path: Path = MANIFEST,
+) -> dict:
+    source = source_root / Path(relative_path)
     source_link = f"[[{source.name}]]"
     note_paths = sorted(
         (
@@ -439,7 +455,7 @@ def validate_source(relative_path: str) -> dict:
     if duplicates:
         warnings.extend("duplicate basename: " + "; ".join(paths) for paths in duplicates)
 
-    data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    data = json.loads(manifest_path.read_text(encoding="utf-8"))
     entry = next(
         item for item in data["sources"] if item["relative_path"].casefold() == relative_path.casefold()
     )
@@ -469,11 +485,15 @@ def validate_source(relative_path: str) -> dict:
     }
 
 
-def complete_source(relative_path: str) -> None:
-    validation = validate_source(relative_path)
+def complete_source(
+    relative_path: str,
+    source_root: Path = BOOKS,
+    manifest_path: Path = MANIFEST,
+) -> None:
+    validation = validate_source(relative_path, source_root, manifest_path)
     if validation["errors"]:
         raise RuntimeError(json.dumps(validation, indent=2))
-    data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    data = json.loads(manifest_path.read_text(encoding="utf-8"))
     entry = next(
         item for item in data["sources"] if item["relative_path"].casefold() == relative_path.casefold()
     )
@@ -491,17 +511,20 @@ def complete_source(relative_path: str) -> None:
         "errors": validation["errors"],
         "warnings": validation["warnings"],
     }
-    MANIFEST.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(validation, indent=2))
 
 
-def refresh_processed_validations() -> None:
-    data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+def refresh_processed_validations(
+    source_root: Path = BOOKS,
+    manifest_path: Path = MANIFEST,
+) -> None:
+    data = json.loads(manifest_path.read_text(encoding="utf-8"))
     refreshed = []
     for entry in data["sources"]:
         if entry.get("status") != "processed":
             continue
-        validation = validate_source(entry["relative_path"])
+        validation = validate_source(entry["relative_path"], source_root, manifest_path)
         if validation["errors"]:
             raise RuntimeError(json.dumps(validation, indent=2))
         entry["validation"] = {
@@ -512,7 +535,7 @@ def refresh_processed_validations() -> None:
             "warnings": validation["warnings"],
         }
         refreshed.append(entry["relative_path"])
-    MANIFEST.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"refreshed_processed_sources": refreshed}, indent=2))
 
 
@@ -520,34 +543,58 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="command", required=True)
     subparsers.add_parser("inventory")
+    subparsers.add_parser("inventory-papers")
     extract_parser = subparsers.add_parser("extract-pdf")
     extract_parser.add_argument("relative_path")
     extract_parser.add_argument("output", type=Path)
+    extract_paper_parser = subparsers.add_parser("extract-paper")
+    extract_paper_parser.add_argument("relative_path")
+    extract_paper_parser.add_argument("output", type=Path)
     show_parser = subparsers.add_parser("show-pdf-pages")
     show_parser.add_argument("relative_path")
     show_parser.add_argument("pages")
+    show_paper_parser = subparsers.add_parser("show-paper-pages")
+    show_paper_parser.add_argument("relative_path")
+    show_paper_parser.add_argument("pages")
     validate_parser = subparsers.add_parser("validate-source")
     validate_parser.add_argument("relative_path")
+    validate_paper_parser = subparsers.add_parser("validate-paper")
+    validate_paper_parser.add_argument("relative_path")
     complete_parser = subparsers.add_parser("complete-source")
     complete_parser.add_argument("relative_path")
+    complete_paper_parser = subparsers.add_parser("complete-paper")
+    complete_paper_parser.add_argument("relative_path")
     subparsers.add_parser("validate-topics")
     subparsers.add_parser("refresh-processed-validations")
+    subparsers.add_parser("refresh-processed-paper-validations")
     args = parser.parse_args()
 
     if args.command == "inventory":
         inventory()
+    elif args.command == "inventory-papers":
+        inventory_papers()
     elif args.command == "extract-pdf":
         extract_pdf(args.relative_path, args.output)
+    elif args.command == "extract-paper":
+        extract_pdf(args.relative_path, args.output, PAPERS)
     elif args.command == "show-pdf-pages":
         show_pdf_pages(args.relative_path, args.pages)
+    elif args.command == "show-paper-pages":
+        show_pdf_pages(args.relative_path, args.pages, PAPERS)
     elif args.command == "validate-source":
         print(json.dumps(validate_source(args.relative_path), indent=2))
+    elif args.command == "validate-paper":
+        print(json.dumps(validate_source(args.relative_path, PAPERS, PAPER_MANIFEST), indent=2))
     elif args.command == "complete-source":
         complete_source(args.relative_path)
+    elif args.command == "complete-paper":
+        complete_source(args.relative_path, PAPERS, PAPER_MANIFEST)
     elif args.command == "validate-topics":
         print(json.dumps(validate_topics(), indent=2))
     elif args.command == "refresh-processed-validations":
         refresh_processed_validations()
+    elif args.command == "refresh-processed-paper-validations":
+        refresh_processed_validations(PAPERS, PAPER_MANIFEST)
 
 
 if __name__ == "__main__":

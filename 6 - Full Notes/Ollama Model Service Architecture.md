@@ -10,6 +10,10 @@ An Ollama deployment can separate the model-serving container from a web-interfa
 
 Persistent volumes protect model data across container replacement, and an explicitly published port defines the client boundary. This arrangement is convenient for a lab, but production use still needs authentication, network exposure controls, image maintenance, and resource limits. The separation also lets scripts call the service directly without depending on the web interface.
 
+On Linux, Ollama can also run as a local daemon with a CLI and REST interface, using quantized GGUF-family model artifacts to reduce memory requirements. Its strength is simple local integration with shell tools, systemd services, and agents while keeping prompts on the host; workloads that need fine-grained batching, accelerator tuning, or large multi-tenant serving may require a more specialized runtime.
+
 # References
 
 [[ainetworkingcookbook.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

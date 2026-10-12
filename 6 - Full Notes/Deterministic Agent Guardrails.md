@@ -12,7 +12,11 @@ The guardrail code—not the agent's confidence—decides whether a workflow pas
 
 Microsoft Foundry adds configurable safety controls such as content filters and blocklists around the application path. These controls still need policy ownership, representative testing, threshold calibration, and a recovery experience. Their deterministic enforcement is valuable precisely because it remains separate from the model’s willingness or ability to follow a prompt.
 
+Operational guardrails are more durable when they evaluate machine-readable interfaces rather than localized human output. Stable fields from systemd, journal JSON, process columns, and Kubernetes JSON can feed schema validation and policy-as-code rules that inspect the tool, arguments, target path, risk level, and maintenance window. Each planned step is authorized independently, and the workflow stops at the first denial or unmet approval.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
 [[microsoftfoundryinaction.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

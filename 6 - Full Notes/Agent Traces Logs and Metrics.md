@@ -14,6 +14,8 @@ Network-agent operations should observe the agent, tool layer, and backend separ
 
 End-to-end agent traces can also include MCP tool names and arguments, model calls, token consumption, guardrail results, and downstream observability API requests. This makes it possible to compare models, locate a slow or failing step, and attribute the usage and cost created by an agentic workflow.
 
+Production Linux agents also need telemetry for approval latency, human interventions, task success, reasoning and validation quality, resource consumption, and emergency stops. A trace should continue through the policy decision, tool execution, and audit write; stopping at the model response leaves the consequential part of the workflow invisible during incident reconstruction.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
@@ -21,3 +23,5 @@ End-to-end agent traces can also include MCP tool names and arguments, model cal
 [[buildingaiagentsfornetworkoperations.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

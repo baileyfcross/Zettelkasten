@@ -12,8 +12,12 @@ Semantic proximity is not the same as authority or truth. Retrieval design must 
 
 In enterprise RAG, both document chunks and the incoming query are embedded in a compatible space before nearest candidates are selected and reranked. Semantic similarity improves recall for different wording, but metadata, keyword evidence, and access filters are still needed to control relevance and authorization.
 
+Operational systems should bound top-k retrieval so knowledge-base growth does not cause unbounded context consumption. Exact identifiers and rare error strings can still favor lexical search, making vector similarity one contributor to a hybrid rank rather than an exclusive definition of relevance.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[kubernetesforgenerativeaisolutions.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

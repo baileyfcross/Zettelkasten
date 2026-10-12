@@ -10,6 +10,10 @@ An AIOps dry run asks an agent what it would diagnose or do in a controlled scen
 
 Regular runs turn trust into accumulated evidence rather than a one-time demonstration. Programmatic scoring, a second model, and human review can each evaluate the response, while stored prompts, traces, and outcomes reveal drift across model, instruction, or environment changes.
 
+Dry-run should also be the safe default of write-capable action schemas. Omitting an execution flag must leave the system non-mutating, and an agent should have to request real execution explicitly after its proposed diff, target, and rollback path have passed policy and approval checks.
+
 # References
 
 [[observabilityintheai-nativeera.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

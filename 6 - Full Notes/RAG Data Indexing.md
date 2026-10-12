@@ -12,8 +12,12 @@ Index quality depends on document cleaning, chunk boundaries, embedding suitabil
 
 In the Foundry example, adding files to a Foundry IQ knowledge source triggers parsing, layout extraction, vectorization, and storage for retrieval. The resulting Ready status is only a pipeline status; representative queries must still confirm that citations resolve to the intended approved documents and that access settings exclude unapproved sources or external browsing.
 
+Operational RAG requires the same discipline for runbooks, incident summaries, configuration guidance, and system documentation. Sources should be reviewed, dated, assigned ownership, and retired when obsolete before their chunks enter the index; a larger collection of stale documents can reduce retrieval quality even when embeddings and storage work correctly.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[microsoftfoundryinaction.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

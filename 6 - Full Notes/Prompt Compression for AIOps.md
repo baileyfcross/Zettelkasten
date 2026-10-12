@@ -10,6 +10,10 @@ Prompt compression reduces the tokens in a request while preserving the informat
 
 A smaller model or gateway plugin can summarize and remove low-value text before the main model call. Compression should be evaluated against diagnostic accuracy because deleting a rare error, identifier, or sequence relationship can make the prompt cheaper while making its conclusion wrong.
 
+For Linux telemetry, parsing human-oriented command output into bounded structured fields is often safer than asking a model to summarize an entire transcript. Correlation identifiers, timestamps, error codes, host and service labels, and evidence provenance should survive compression so the final diagnosis can still be checked against the original observations.
+
 # References
 
 [[observabilityintheai-nativeera.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

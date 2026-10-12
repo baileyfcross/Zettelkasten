@@ -12,8 +12,12 @@ Authority remains revocable and bounded at every stage. Most implementations sho
 
 The network-agent rollout applies these stages as local lab, internal demo, approved read-only pilot, recommendation mode, approval-gated action, and only then expanded production scope. Each stage has exit evidence: reviewable tool output, working access controls and logs, trusted recommendations, or complete approvals and rollback records. Capability grows from demonstrated behavior rather than from the model’s apparent confidence.
 
+Autonomy can be tied to an operational error budget. When task failures, unsafe proposals, overrides, or policy violations consume the allowed budget, the platform increases human involvement or demotes the agent to a safer mode. A healthy record can justify a narrowly scoped promotion, but authority remains reversible rather than becoming a permanent reward.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
 
 [[buildingaiagentsfornetworkoperations.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

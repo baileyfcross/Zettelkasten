@@ -10,6 +10,10 @@ DevOps agents use several kinds of memory. Short-term memory holds the current t
 
 These categories serve different purposes and should not share one indiscriminate store. A temporary prompt context may be discarded, while a validated deployment convention can be durable. Making the category explicit helps define provenance, access, retention, and the risk of allowing that information to influence future decisions.
 
+A Linux operations agent can further distinguish working memory for the current episode, episodic memory for reviewed incident summaries and outcomes, and semantic memory for topology, dependencies, procedures, and policy. Older episodes can be compressed, while semantic knowledge is retrieved by relevance rather than loaded wholesale. Pruning before the context is exhausted—such as at a defined utilization threshold—reduces mid-task failures and discourages reliance on stale state.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

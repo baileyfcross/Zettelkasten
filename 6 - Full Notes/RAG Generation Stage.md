@@ -12,8 +12,12 @@ Generation remains probabilistic even when retrieval is accurate. A model can om
 
 A Foundry agent can reinforce this stage with a system prompt that forbids unsupported extrapolation, requires concise source-aware answers, and defines escalation when retrieved documents do not contain a clear answer. Output groundedness evaluation and guardrails then check whether the generation remained traceable to the evidence rather than merely sounding plausible.
 
+Production evaluation should distinguish context relevance, answer correctness, and faithfulness to the supplied evidence. These measures expose different defects: a generator cannot repair a missing document reliably, and a relevant document does not prevent the model from adding an unsupported conclusion.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[microsoftfoundryinaction.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

@@ -10,6 +10,10 @@ Local LLM hardware sizing matches model files and inference demand to storage, s
 
 Sizing from file size alone is insufficient because inference also consumes working memory and CPU or GPU cycles. The book's lab begins with a multi-core host, substantial RAM, and ample storage, then observes behavior under load. Measurements from the intended model and prompt length should guide capacity rather than a nominal minimum.
 
+The choice also depends on the role of the workload. CPUs suit preprocessing, orchestration, classical models, and some quantized inference; GPUs favor highly parallel training and high-throughput or low-latency inference; narrow accelerators can deliver efficient inference when their supported operations and deployment ecosystem match the model. Driver, framework, memory, and numerical-format compatibility belong in the capacity plan.
+
 # References
 
 [[ainetworkingcookbook.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

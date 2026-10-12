@@ -12,8 +12,12 @@ Defense requires both input shaping and an instruction hierarchy. The workflow t
 
 Prompt injection is an input-side attack that tries to make a model ignore trusted instructions, reveal data, or invoke unintended capabilities. Defensive prompting helps, but authorization and tool policy must be enforced outside the model so crafted language cannot grant itself access.
 
+The same distrust must extend to retrieved runbooks, command output, configuration files, and tool responses, because any of them can contain attacker-controlled instructions. A production defense combines input detection, delimited context, output schemas, stepwise policy checks, dry-run defaults, and a regression suite that turns every confirmed injection path into a release-blocking test.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[agenticaifordevopsengineers.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[SLES Installation and Shell Operations]]
+Tags: [[SLES Installation and Shell Operations]] [[Shell Pipelines and Redirection]]
 
 # Shell Redirection and Pipelines
 
@@ -10,6 +10,10 @@ Shell redirection chooses where a command reads input and writes its standard ou
 
 The distinction matters when automation is expected to be reliable. Output intended as data should not be confused with diagnostic errors, and overwriting a file is different from appending to it. [[Bash Control Flow for Administration]] can use pipeline results and exit statuses to decide whether a later administrative step should run.
 
+At the descriptor level, standard input, standard output, and standard error are separate channels numbered 0, 1, and 2. Redirection changes their source or destination, while a pipeline connects one command's standard output to another command's standard input. Preserving the separation prevents diagnostic messages from being misread as data.
+
 # References
+
+[[ultimatelinuxshellscriptingguide.pdf]]
 
 [[suselinuxenterpriseserver16officialadministrationguide.pdf]]

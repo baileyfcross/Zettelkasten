@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Editor and Scene Authoring]]
 
 # Unity Inspector
 
@@ -13,4 +13,6 @@ The Inspector is the bridge between code-defined structure and scene-specific co
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

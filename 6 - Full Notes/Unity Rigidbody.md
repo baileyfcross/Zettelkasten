@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Physics and Gameplay Interaction]]
 
 # Unity Rigidbody
 
@@ -13,4 +13,6 @@ The component can model gravity, drag, forces, and mass. Objects that must move 
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

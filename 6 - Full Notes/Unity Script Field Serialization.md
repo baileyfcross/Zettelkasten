@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Object Architecture and Scripting]]
 
 # Unity Script Field Serialization
 
@@ -13,4 +13,6 @@ Serialization turns a script into a designer-facing tool, but the saved Inspecto
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

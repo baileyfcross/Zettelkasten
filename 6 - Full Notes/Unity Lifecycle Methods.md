@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Object Architecture and Scripting]]
 
 # Unity Lifecycle Methods
 
@@ -13,4 +13,6 @@ The distinction prevents initialization from being repeated and separates frame-
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

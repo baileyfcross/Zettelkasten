@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Editor and Scene Authoring]]
 
 # Unity Tag and Layer
 
@@ -13,4 +13,6 @@ They should not be treated as interchangeable labels. Tags answer questions such
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

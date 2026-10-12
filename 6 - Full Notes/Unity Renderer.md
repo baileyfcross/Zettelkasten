@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Rendering and World Building]]
 
 # Unity Renderer
 
@@ -13,4 +13,6 @@ Rendering is separate from collision and physics. An object can be visible witho
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

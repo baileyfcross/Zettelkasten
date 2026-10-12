@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Prefab and Asset Workflow]]
 
 # Unity Prefab
 
@@ -13,4 +13,6 @@ Prefabs separate reusable construction from placement. A developer can assemble 
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

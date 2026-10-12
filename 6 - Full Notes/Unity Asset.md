@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Prefab and Asset Workflow]]
 
 # Unity Asset
 
@@ -13,4 +13,6 @@ The project's Assets folder mirrors files stored with the project, while install
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Editor and Scene Authoring]]
 
 # Unity Scene
 
@@ -13,4 +13,6 @@ A scene refers to project assets but does not contain every asset in the project
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

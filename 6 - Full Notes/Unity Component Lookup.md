@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Object Architecture and Scripting]]
 
 # Unity Component Lookup
 
@@ -13,4 +13,6 @@ Lookup makes composition usable but creates a dependency that should be checked 
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

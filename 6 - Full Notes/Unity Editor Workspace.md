@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Editor and Scene Authoring]]
 
 # Unity Editor Workspace
 
@@ -13,4 +13,6 @@ The panes are views over related project state rather than independent documents
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

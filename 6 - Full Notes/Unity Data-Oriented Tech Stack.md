@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Object Architecture and Scripting]]
 
 # Unity Data-Oriented Tech Stack
 

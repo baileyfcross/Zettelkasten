@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Object Architecture and Scripting]]
 
 # Unity Component
 
@@ -13,4 +13,6 @@ Component-oriented design favors small, reusable responsibilities over monolithi
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

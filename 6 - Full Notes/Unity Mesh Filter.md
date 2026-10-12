@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Rendering and World Building]]
 
 # Unity Mesh Filter
 
@@ -13,4 +13,6 @@ Visible geometry normally requires both a Mesh Filter and a [[Unity Renderer]], 
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

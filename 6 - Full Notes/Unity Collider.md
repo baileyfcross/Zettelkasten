@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Unity Game Development]]
+Tags: [[Unity Physics and Gameplay Interaction]]
 
 # Unity Collider
 
@@ -13,4 +13,6 @@ Collision shape should be only as detailed as gameplay requires. A collider with
 # References
 
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[unitygamedevelopmentin24hourssamsteachyourself4e.pdf]]
 

@@ -1,0 +1,26 @@
+2026-09-21 22:12
+
+Status: #baby
+
+Tags: [[Cloud Scalability and Resilience Patterns]] [[.NET Microservice Communication and Workers]]
+
+# Event-Driven Architecture
+
+Event-driven architecture reacts to facts that have occurred, such as a customer being created or an order being placed. A producer publishes the event without calling each consumer directly, allowing independently deployed services to respond through messaging. This loose coupling supports scale and change, but event meaning, delivery, ordering, retries, and consistency become explicit service contracts.
+
+Azure Functions in the case study react to queue events instead of polling or remaining continuously active. This makes triggers and message contracts the architecture boundary between producers and independently scaled computation.
+
+The AWS architecture source separates queue, publish-subscribe, and stream models. A queue distributes buffered work to consumers, publish-subscribe fans one event to several interested consumers, and a stream retains an ordered history that independent consumers can replay. Choosing among them requires explicit decisions about recipient count, ordering, retention, replay, and backpressure.
+
+The Azure architecture map uses Event Hubs for high-volume ingestion, Service Bus topics for filtered enterprise messaging, and Functions or Stream Analytics for event processing. These services occupy different semantic roles: a retained event stream supports independent offsets and replay, while a brokered topic supplies subscriptions, delivery controls, and routing filters. The workload’s ordering, retention, fan-out, transaction, and failure requirements should select the mechanism.
+
+# References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
+[[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[awsforsolutionsarchitectsthirdedition.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

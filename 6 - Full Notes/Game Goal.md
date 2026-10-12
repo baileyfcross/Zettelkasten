@@ -1,0 +1,20 @@
+2026-09-18 16:43
+
+Status: #baby
+
+Tags: [[Game Definition and Forms]] [[Play Design Elements]] [[Player Agency and Decision Design]]
+
+# Game Goal
+
+A game goal is a desired result or condition that a player works toward. A game may contain many nested goals, and a goal can organize activity even when it is difficult or impossible to complete.
+
+Goals must be nontrivial enough to require meaningful effort. Victory and loss conditions are special goal-related rules, but open-ended play can remain game-like without a final victory condition when players still pursue intermediate goals.
+
+Players learn a goal system by theorizing about rules, experimenting, evaluating feedback, and revising their understanding. Authored goals can direct this process, but the game cannot force the player to adopt them as personal purposes.
+
+# References
+
+[[fundamentalsofgamedesign3e.pdf]]
+[[gamesdesignandplay.pdf]]
+
+[[playersmakingdecisions.pdf]]

@@ -1,0 +1,27 @@
+2026-09-14 21:00
+
+Status: #baby
+
+Tags: [[Classification Feature Selection]] · [[Advanced Feature Selection]] · [[Big Data Preprocessing]]
+
+# Wrapper Feature Selection Model
+
+A wrapper feature selection model evaluates a candidate subset by training a predetermined classifier and measuring its predictive performance. The classifier therefore participates directly in the search for variables.
+
+Wrappers can discover subsets well matched to a learner's inductive bias, but repeated fitting makes them expensive when the number of candidate features is large. Their estimates also require careful validation so that subset search does not overfit the evaluation data.
+
+Wrapper selection couples a search strategy with a model-based evaluator. Sequential, randomized, or other subset searches trade coverage of the combinatorial space against the number of costly training runs.
+
+The cost becomes a central limitation in Big Data because both the number of subsets and the expense of each model fit grow. Parallel execution can help, but it does not remove the need for an efficient search and careful validation.
+
+Unlike a filter such as SPEC, a wrapper estimates feature utility through the predetermined learner itself. This can yield subsets tailored to that learner, but it also couples the result to the learner's bias and requires repeated model evaluation during search.
+
+# References
+
+[[dataclassification.pdf]]
+
+[[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[frontiersofdatascience.pdf]]
+
+[[spectralfeatureselectionfordatamining.pdf]]

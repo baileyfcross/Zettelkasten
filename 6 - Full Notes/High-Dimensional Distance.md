@@ -1,0 +1,19 @@
+2026-09-14 20:21
+
+Status: #baby
+
+Tags: [[Distance Geometry and Dimension Reduction]] · [[High-Dimensional Statistical Foundations]]
+
+# High-Dimensional Distance
+
+High-dimensional distance compares observations whose coordinates are many measured features. In gene-expression data, each sample can be treated as a point with one coordinate per gene, and ordinary [[Euclidean Distance]] extends by summing squared differences across all coordinates.
+
+The definition requires clarity about whether rows or columns are the points. Scale, noisy features, and the large number of dimensions can dominate the result, so preprocessing determines what similarity means.
+
+For points sampled uniformly in a high-dimensional cube, mean squared distance grows linearly with dimension while its relative fluctuation shrinks. Points become farther apart yet increasingly similar in distance, eroding the contrast required by nearest-neighbor and local-smoothing methods. This behavior is developed more specifically in [[Distance Concentration in High Dimensions]].
+
+# References
+
+[[dataanalysisforthelifescienceswithr.pdf]]
+
+[[introductiontohigh-dimensionalstatistics.pdf]]

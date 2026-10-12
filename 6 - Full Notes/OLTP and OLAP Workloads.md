@@ -1,0 +1,26 @@
+2026-09-15 09:10
+
+Status: #baby
+
+Tags: [[Data Science Infrastructure and Integration]] [[CQRS and Ledger Data Architecture]]
+
+# OLTP and OLAP Workloads
+
+Online transaction processing records operational events such as orders, payments, and customer contacts. Online analytical processing asks historical, aggregated questions across those events, often by region, product, or time period. The two workloads therefore organize data for different purposes.
+
+A warehouse and data cube can make predefined summaries quick to slice, pivot, and report. Those fixed dimensions also limit the questions the cube can express. OLAP supports exploration and reporting, but it does not itself learn a predictive model or discover every pattern the organization may need.
+
+The design-patterns source contrasts an operational database optimized for frequent insert, update, and delete statements with an analytical store optimized for selections and aggregation. Indexes and other table structures accelerate reads but add maintenance cost to each write. A separate read store can protect transactional throughput while serving reporting needs, though it must be kept in sync with its source.
+
+The AWS database-selection source applies the distinction to service choice. RDS, Aurora, and DynamoDB serve operational access patterns, while Redshift is designed for analytical scans and aggregation. Redshift Spectrum and a data lake can extend analysis beyond warehouse storage, but the operational system should not become the reporting engine merely because both support queries.
+
+The Azure architecture map adds hybrid transactional and analytical processing as a bridge between the two workload classes. Features such as Azure Synapse Link can expose an analytical representation of operational data with less interference than querying the transactional store directly. This reduces movement and freshness delay, but it does not erase modeling differences: analytical consumers still need deliberate serving structures, governance, cost controls, and an understood consistency boundary.
+
+# References
+
+[[datascience_mit.epub]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[awsforsolutionsarchitectsthirdedition.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

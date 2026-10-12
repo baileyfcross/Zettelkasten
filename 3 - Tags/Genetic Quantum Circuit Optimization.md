@@ -1,0 +1,11 @@
+# Genetic Quantum Circuit Optimization
+
+Parent topic: [[Algorithm Foundations]]
+
+Population-based search over quantum-circuit structures, gates, parameters, and hardware constraints using circuit-aware genetic representations and fitness objectives.
+
+## Linked Full Notes
+
+```query
+path:"6 - Full Notes" "[[Genetic Quantum Circuit Optimization]]"
+```

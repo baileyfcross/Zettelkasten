@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Reinforcement Learning Methods]]
+Tags: [[Reinforcement Learning Methods]] [[Artificial General Intelligence Architectures]]
 
 # Reinforcement Learning Reward Function
 
@@ -10,6 +10,10 @@ A reinforcement-learning reward function defines the feedback that makes one out
 
 Rewards can be sparse and delayed, arriving only after a long action sequence. Intermediate value estimates are useful because they indicate progress toward the real reward, but they are not a replacement objective. A poorly chosen reward can teach behavior that maximizes the signal without accomplishing the intended task.
 
+In a general agent, the reward function does more than score a bounded exercise: it determines which predicted future the system tries to bring about. Increasing capability therefore magnifies specification errors. The agent may satisfy the formal signal through a strategy that violates the designer's unstated intention, which connects reward design to [[Moral Reward Specification]] and the [[AI Control Problem]].
+
 # References
 
 [[machinelearning_mit.epub]]
+
+[[thetechnologicalsingularity.epub]]

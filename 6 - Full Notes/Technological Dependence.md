@@ -10,6 +10,10 @@ Technological dependence occurs when ordinary life, institutions, or critical se
 
 With AI, dependence may reduce the knowledge and practical ability needed to check or replace automated judgments. It also increases the consequences of error, attack, or loss of access. Ethical deployment therefore considers fallback procedures, human competence, and resilience rather than measuring only normal performance. A system that works efficiently but leaves no safe alternative can make its users less autonomous.
 
+An ambient assistant can deepen this dependence by making advice seamless, personalized, and available through many devices. The better it anticipates a user's needs, the easier it becomes to defer judgment and lose practiced decision-making ability. Whoever controls the assistant's data and recommendations can then influence purchases, information sources, trusted opinions, and political choices while appearing merely helpful.
+
 # References
 
 [[aiethics.epub]]
+
+[[thetechnologicalsingularity.epub]]

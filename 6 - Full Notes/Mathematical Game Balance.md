@@ -13,4 +13,4 @@ Models are tools rather than complete answers: they cannot decide the desired ex
 # References
 
 [[advancedgamedesign.pdf]]
-
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

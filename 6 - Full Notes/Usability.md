@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[UX Evaluation]]
+Tags: [[UX Evaluation]] [[Software Quality Attributes and Architecture Tradeoffs]]
 
 # Usability
 
@@ -14,6 +14,9 @@ Usability is the set of qualities of a system or artifact that affect a person's
 
 Learnability, retention, error rate, speed, ease of use, and comfort also contribute. Usability is part of [[User Experience]], but it is not the same as usefulness: a system can be easy to use yet provide no function that a person needs.
 
+As an architectural quality, usability can influence navigation, input order, selection mechanisms, validation feedback, and whether a long-running operation should be reorganized so the interface remains responsive.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

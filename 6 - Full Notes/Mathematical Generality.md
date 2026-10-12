@@ -17,3 +17,5 @@ In algebra, mathematical generality is achieved by replacing particular numbers 
 [[Mathematical_Generalization.pdf]]
 
 [[algebraessentials.pdf]]
+
+[[FoundationsOfComputation_2.3.2.pdf]]

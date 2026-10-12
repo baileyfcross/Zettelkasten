@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Vector Space Geometry]]
+Tags: [[Vector Space Geometry]] · [[Matrix Algebra for Statistical Models]] · [[Vector Algebra and Geometry]]
 
 # Linear Combination
 
@@ -10,6 +10,14 @@ A linear combination of vectors $v_1,\ldots,v_n$ is a weighted sum $c_1v_1+\cdot
 
 All linear combinations of a set form its [[Span]]. Whether a combination can equal the zero vector with nonzero coefficients determines [[Linear Independence]].
 
+A statistical model remains linear when the known predictor columns are combined with unknown scalar coefficients, even if a predictor itself contains a transformed quantity such as squared time. Linearity refers to the coefficient combination rather than the visual shape of the fitted curve.
+
+In component geometry, a chosen basis represents every vector in its span as a linear combination of the basis directions. Uniqueness of those coefficients depends on the basis vectors being linearly independent.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]
+
+[[mathematicalphysics.pdf]]

@@ -10,7 +10,10 @@ The dimension of a finite-dimensional vector space is the number of vectors in a
 
 Dimension counts independent directions, not the number of elements in the space. The dimension of a matrix's column space is its [[Matrix Rank]].
 
+For a finite-dimensional space, every linearly independent set can be extended to a basis and every spanning set can be reduced to one. These facts make dimension the boundary between independence and spanning.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

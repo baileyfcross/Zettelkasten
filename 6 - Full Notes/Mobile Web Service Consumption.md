@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Mobile Data Synchronization and Notifications]]
 
 # Mobile Web Service Consumption
 
@@ -13,3 +13,5 @@ Mobile clients must expect latency, intermittent connectivity, cancellation, and
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

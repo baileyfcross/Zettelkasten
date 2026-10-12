@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Speech and Acoustic Modeling]]
+Tags: [[Speech and Acoustic Modeling]] · [[Feature Engineering Foundations]]
 
 # Feature Vector
 
@@ -10,6 +10,14 @@ A feature vector is an ordered set of numerical measurements representing one ob
 
 A sequence of feature vectors is more compact and model-ready than the original waveform. The [[Acoustic Model]] uses the sequence to estimate which phonetic states most plausibly produced the signal.
 
+More generally, a feature vector assigns one value to each feature selected for a data object. Using a fixed feature set places heterogeneous objects into a common coordinate representation, allowing learning algorithms to compare, partition, or predict them.
+
+A content-based recommender can encode an item's genre, creator, price, or acoustic properties as a feature vector and aggregate vectors from preferred items into a user profile. Distance or angular similarity between the user and item vectors then turns descriptive attributes into ranked candidate recommendations.
+
 # References
 
 [[aiassistants.epub]]
+
+[[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[recommendationengines.epub]]

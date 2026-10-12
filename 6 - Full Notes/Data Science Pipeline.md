@@ -10,6 +10,10 @@ A data science pipeline is the sequence through which data are captured, cleaned
 
 Collection determines who becomes visible. Cleaning and selection decide which records count as errors or relevant evidence. Modeling chooses a target and a representation, while interpretation connects a statistical pattern to a real-world judgment. Because responsibility is distributed across this sequence, documenting transformations and decisions supports [[AI Traceability]] and makes hidden assumptions easier to challenge.
 
+The book's CRISP-DM account makes the sequence iterative. Business understanding, data understanding, preparation, modeling, evaluation, and deployment can send work back to an earlier decision when data quality, model behavior, or practical usefulness falls short. The pipeline ends in a decision process and its monitoring, not in a model file.
+
 # References
 
 [[aiethics.epub]]
+
+[[datascience_mit.epub]]

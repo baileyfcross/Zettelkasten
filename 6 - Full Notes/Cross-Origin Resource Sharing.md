@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Progressive Web Application Capabilities]]
+Tags: [[Progressive Web Application Capabilities]] [[ASP.NET Core API Security and Caching]]
 
 # Cross-Origin Resource Sharing
 
@@ -13,3 +13,4 @@ An ASP.NET Core application registers and applies a CORS policy in its middlewar
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

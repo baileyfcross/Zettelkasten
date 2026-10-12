@@ -13,3 +13,5 @@ Preset transitions include sound crossfades, visual crossfades, gamma-corrected 
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

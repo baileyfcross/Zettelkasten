@@ -14,3 +14,4 @@ In ASP.NET Core, [[MVC Controller|controller]] actions commonly implement these 
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

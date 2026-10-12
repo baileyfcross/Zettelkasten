@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Least Squares Methods]]
+Tags: [[Least Squares Methods]] · [[Matrix Algebra for Statistical Models]] · [[R Matrix Systems and Scientific Models]]
 
 # Normal Equation
 
@@ -10,7 +10,20 @@ For a least squares problem $Ax\approx b$, the normal equation is $A^TA\hat x=A^
 
 If the columns of $A$ are linearly independent, the equation has the unique solution $(A^TA)^{-1}A^Tb$. Forming $A^TA$ can worsen conditioning, so [[QR Decomposition]] or [[Singular Value Decomposition]] may be more stable.
 
+For the source's linear-model notation, the equation is $X^T X\hat\beta=X^T Y$. It explains the mathematics behind R's `lm` result while also showing why production implementations do not need to form the displayed inverse directly.
+
+Geometrically, $A\hat x$ is the orthogonal projection of $b$ onto the column space of $A$. The normal equation follows because the residual must lie in the orthogonal complement of that column space.
+
+The student companion constructs the design matrix for a prediction line, transposes it in R, and solves $X^TXb=X^Ty$. Printing the fitted constants and overlaying the line on the data ties the matrix equation to an observable prediction task.
+
 # References
+
+[[numericalmethodsinengineeringandscience.pdf]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[dataanalysisforthelifescienceswithr.pdf]]
+
+[[linearalgebra.pdf]]
+
+[[rstudentcompanion.pdf]]

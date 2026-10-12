@@ -12,7 +12,11 @@ This feature changes static analysis rather than the underlying runtime represen
 
 The desktop migration chapter shows the C# 8 feature as opt-in analysis that can be enabled for a file with `#nullable enable` or for a whole project in its project file. It uses constructor initialization and nullable annotations to distinguish values that must exist from those allowed to be absent.
 
+The book introduces nullable-reference analysis through the C# 8 preview's opt-in `#nullable enable` directive. A `string?` annotation states that null is permitted, while assigning null to an unannotated `string` produces a compiler warning under the enabled analysis.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 

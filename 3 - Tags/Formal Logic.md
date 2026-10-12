@@ -1,6 +1,6 @@
 # Formal Logic
 
-Parent topics: [[Computer Science]] · [[Mathematics]]
+Parent topics: [[Computer Science]] · [[Mathematics]] · [[Theory of Computation]]
 
 Formal systems for propositions, deduction, equivalence, and Boolean operations.
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[OAuth 2.0 and IdentityServer]]
+Tags: [[OAuth 2.0 and IdentityServer]] [[Operating System Security and Access Control]]
 
 # Role-Based Authorization
 
@@ -10,6 +10,10 @@ Role-based authorization grants or denies an operation according to a role assoc
 
 The stock checker separates read and update permissions so staff roles can expose only the operations each job requires. Server enforcement protects the API, while matching UI changes avoid presenting controls that the current user cannot successfully invoke.
 
+In an operating-system security model, role-based control groups permissions by user category, such as a general user or administrator. Changing the role changes the available operations without requiring an independent rule for every user-resource pair.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[cybersecurity.epub]]

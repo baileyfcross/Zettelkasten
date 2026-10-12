@@ -13,3 +13,4 @@ C# does not treat arbitrary integers or objects as implicit truth values. Requir
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

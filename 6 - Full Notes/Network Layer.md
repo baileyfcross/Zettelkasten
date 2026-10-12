@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Multilayer Network Analysis]]
+Tags: [[Multilayer Network Analysis]] [[OSI Layers Packets and Network Streams]]
 
 # Network Layer
 
@@ -13,3 +13,5 @@ Separating layers prevents distinct interactions from being collapsed into one e
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

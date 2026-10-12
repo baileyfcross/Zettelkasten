@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Pricing Models]]
+Tags: [[Cloud Pricing Models]] · [[Game Revenue and Markets]]
 
 # Freemium Pricing
 
@@ -10,6 +10,10 @@ Freemium pricing provides a usable service without charge and earns revenue thro
 
 The model fits [[Software as a Service]] because functionality can be limited or expanded centrally without distributing another application. The paid tier must offer enough added value to convert some free users while the free tier remains useful enough to sustain adoption.
 
+In games, freemium pricing commonly sells premium items or downloadable content inside a free base experience. The free game must remain enjoyable rather than becoming crippleware, and selling competitive power can turn the model into [[Pay-to-Win]].
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[fundamentalsofgamedesign3e.pdf]]

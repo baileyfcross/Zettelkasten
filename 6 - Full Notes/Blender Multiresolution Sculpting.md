@@ -13,3 +13,5 @@ This avoids permanently subdividing the entire base mesh at the outset. High lev
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

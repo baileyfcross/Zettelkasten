@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Data Ethics and Digital Power]]
+Tags: [[Data Ethics and Digital Power]] · [[Big Data Law and Individual Rights]]
 
 # Meaningful Digital Consent
 
@@ -10,6 +10,10 @@ Meaningful digital consent is permission based on a real understanding of what d
 
 AI makes consent harder because data can be combined, repurposed, and used to infer traits that were never directly supplied. Consent is therefore only one protection among others. Access rights, purpose limits, explanation, security, and the ability to object to automated decisions remain necessary when an individual cannot realistically negotiate the terms.
 
+Big-data processing also weakens notice when neither the collector nor the person can predict every later correlation. Consent remains relevant, but it cannot carry the entire burden of protecting individual and collective interests.
+
 # References
 
 [[aiethics.epub]]
+
+[[frontiersofdatascience.pdf]]

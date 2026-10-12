@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Software Engineering]] [[Game Design Methods]]
+Tags: [[Software Engineering]] [[Game Design Methods]] [[Game Design Documentation]]
 
 # Game Detailed Design Document
 
@@ -16,3 +16,4 @@ Detailed documentation is most reliable when it records knowledge demonstrated i
 
 [[advancedgamedesign.pdf]]
 [[agilegamedevelopment2e.pdf]]
+[[gamesdesignandplay.pdf]]

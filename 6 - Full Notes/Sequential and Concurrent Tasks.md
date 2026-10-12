@@ -13,3 +13,4 @@ Concurrency is useful only when the workload and dependencies permit it. Coordin
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

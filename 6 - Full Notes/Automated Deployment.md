@@ -10,6 +10,10 @@ Automated deployment encodes the repeatable operations that install an artifact 
 
 Automation reduces manual variation and makes frequent releases practical. Approval and promotion policy can remain deliberate even when the mechanical deployment steps are automated.
 
+The book connects deployment automation to service operation: repeatable infrastructure and application steps reduce manual variation, while approvals and staged validation retain control where production consequence requires judgment.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[aspnetcore3andreact.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Xamarin Navigation Layout and Data Binding]]
 
 # Xamarin.Forms Entry and Editor Controls
 
@@ -13,3 +13,5 @@ Input controls should bind to intentional view-model properties and account for 
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

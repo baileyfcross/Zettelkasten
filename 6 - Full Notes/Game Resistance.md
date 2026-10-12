@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Challenge Design]]
+Tags: [[Game Challenge Design]] [[Play Design Elements]]
 
 # Game Resistance
 
@@ -13,3 +13,4 @@ Resistance includes more than difficulty. It also includes how widely the game o
 # References
 
 [[agamedesignvocabulary.pdf]]
+[[gamesdesignandplay.pdf]]

@@ -10,7 +10,10 @@ A vector space is a nonempty set whose elements can be added and multiplied by s
 
 The familiar space $\mathbb{R}^n$ is one example, but vectors may also be polynomials or functions. [[Basis]] and dimension describe the independent directions available in the space.
 
+Matrices of a fixed size, polynomial spaces, and solution sets of homogeneous linear systems are further examples. The abstraction lets the same basis, dimension, and transformation arguments apply to objects that are not geometric arrows.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

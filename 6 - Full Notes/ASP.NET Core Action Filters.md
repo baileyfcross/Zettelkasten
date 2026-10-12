@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Page and MVC Development]]
+Tags: [[ASP.NET Core Page and MVC Development]] [[ASP.NET Core Request Pipeline Customization]]
 
 # ASP.NET Core Action Filters
 
@@ -13,3 +13,4 @@ Filters can be registered globally or applied to selected controllers and action
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

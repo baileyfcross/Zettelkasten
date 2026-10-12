@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Player Experience Design]]
+Tags: [[Player Experience Design]] [[Play Styles and Structures]]
 
 # Types of Play
 
@@ -13,3 +13,4 @@ The framework also places play on a continuum from ludus, which is structured by
 # References
 
 [[advancedgamedesign.pdf]]
+[[gamesdesignandplay.pdf]]

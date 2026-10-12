@@ -10,6 +10,14 @@ A release pipeline takes versioned build artifacts and installs them into one or
 
 Separating release from build means the same tested artifact can move between environments. Environment configuration and promotion conditions remain part of the release definition rather than the compiled package.
 
+The architecture case study configures release stages, environment settings, and a manual approval before production. The release pipeline consumes the build artifact rather than treating deployment as an unrecorded command from a workstation.
+
+AI can prepare metadata-grounded release documentation, but the generated notes should be validated and attached to a draft release. Human review preserves release authority while still reducing the effort of producing consistent communication.
+
 # References
 
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
 [[aspnetcore3andreact.pdf]]
+
+[[agenticaifordevopsengineers.pdf]]

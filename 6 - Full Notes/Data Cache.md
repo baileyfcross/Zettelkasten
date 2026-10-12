@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Performance and Scalability]]
+Tags: [[Web Performance and Scalability]] [[Distributed Network Caching Monitoring and Inspection]]
 
 # Data Cache
 
@@ -13,3 +13,5 @@ Caching introduces a freshness decision. The application needs a key, an expirat
 # References
 
 [[aspnetcore3andreact.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]

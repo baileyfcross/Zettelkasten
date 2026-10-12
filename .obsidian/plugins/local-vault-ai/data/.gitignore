@@ -1,0 +1,9 @@
+# BEGIN Local Vault AI generated runtime cache
+knowledge-index.json
+knowledge-index-shards/
+index-manifest.json
+index-rebuild-state.json
+local-embeddings/
+indexer-events.log
+indexer-events.1.log
+# END Local Vault AI generated runtime cache

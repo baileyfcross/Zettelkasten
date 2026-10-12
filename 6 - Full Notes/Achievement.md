@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Rewards and Consequences]]
+Tags: [[Game Rewards and Consequences]] [[Multiplayer Services and Dedicated Hosting]]
 
 # Achievement
 
@@ -10,6 +10,10 @@ An achievement is a recorded acknowledgment that a player has met a specified co
 
 An achievement is more meaningful when its condition highlights an interesting way to engage with the game. Conditions based only on routine progress, large quantities, or rote repetition can pull attention away from the relationships that make play distinctive.
 
+A gamer service stores the achievement against a platform identity and can unlock it after the game updates or retrieves the associated statistics. Keeping achievement identifiers and definitions in one authoritative table prevents service calls, local conditions, and displayed descriptions from drifting apart during development.
+
 # References
 
 [[agamedesignvocabulary.pdf]]
+
+[[multiplayergameprogramming.pdf]]

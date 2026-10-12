@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]]
 
 # Matrix Multiplication
 
@@ -12,8 +12,20 @@ The operation expresses many related calculations at once. PageRank uses repeate
 
 If $A$ has size $m\times n$ and $B$ has size $n\times p$, then $AB$ has size $m\times p$ and entry $(i,j)$ is the dot product of row $i$ of $A$ with column $j$ of $B$. Matrix multiplication is associative and distributive but generally not commutative: even when both products exist, $AB$ need not equal $BA$.
 
+In a linear model, multiplying the design matrix by the coefficient vector produces a fitted value for every experimental unit at once. R uses `%*%` for this operation, distinguishing it from element-wise multiplication.
+
+Finite element equations use matrix products to map nodal unknowns into loads, strains, stresses, gradients, and fluxes. The order of multiplication matters because coefficient, interpolation, and field vectors have specific compatible dimensions.
+
+The student companion uses R's matrix-product operator to combine an age-transition matrix with a population vector. Each output entry is the dot product for one future age class, and repeated products project the entire coupled population forward in time.
+
 # References
 
 [[algorithms.epub]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]
+
+[[finiteelementanalysis_aprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

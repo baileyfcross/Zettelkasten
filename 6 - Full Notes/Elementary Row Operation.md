@@ -12,5 +12,6 @@ Applied to an [[Augmented Matrix]], these operations preserve the solution set o
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

@@ -13,3 +13,5 @@ This relationship preserves the strengths of both layers: connectors and the des
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

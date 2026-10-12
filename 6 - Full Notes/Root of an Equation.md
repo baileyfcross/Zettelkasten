@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Nonlinear Optimization Methods]]
+Tags: [[Numerical Root-Finding Methods]]
 
 # Root of an Equation
 
@@ -14,3 +14,4 @@ A root of an equation $f(x)=0$ is a value of $x$ at which the function vanishes.
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[numericalmethodsinengineeringandscience.pdf]]

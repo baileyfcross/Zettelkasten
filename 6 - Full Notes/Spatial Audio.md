@@ -12,6 +12,9 @@ One approach records separate left- and right-ear signals in a real setting. Ano
 
 Spatial audio can support [[Wayfinding]], reveal off-screen events, and strengthen [[Presence]].
 
+A binaural display can be head-stabilized, so a sound turns with the listener, or position-stabilized, so tracking updates the signal and the source remains fixed in the environment. The latter is important for XR because the auditory scene should respond to head motion just as the visual scene does. Pinna shape and other listener-specific anatomy influence localization, so a generic recording or transfer function may not place every sound equally well for every listener.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[practicalaugmentedreality.pdf]]

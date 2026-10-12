@@ -10,6 +10,9 @@ Gesture interaction interprets a meaningful movement of the hand, body, or track
 
 Recognition must distinguish intentional input from ordinary movement and provide feedback about what was understood. Combining gesture with speech can let one modality name an action while the other supplies spatial arguments.
 
+Camera-based hand or body tracking can keep interaction touch-free when a worker is wearing gloves or cannot safely reach a conventional control. That benefit comes with a discoverability and fatigue cost: gestures need a clear activation convention, a comfortable movement range, and an alternate input path when occlusion, lighting, or recognition uncertainty prevents reliable interpretation.
+
 # References
 
 [[augmentedreality_pearson.pdf]]
+[[practicalaugmentedreality.pdf]]

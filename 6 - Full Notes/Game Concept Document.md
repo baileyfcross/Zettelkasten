@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Design Methods]]
+Tags: [[Game Design Methods]] · [[Game Concept Development]]
 
 # Game Concept Document
 
@@ -10,7 +10,10 @@ A game concept document is a short, high-level, persuasive description of a prop
 
 It is a living and preferably visual nexus for later documentation. Typical elements include a [[Concept Statement]], target audience, unique selling points, player fantasy, core loops, world, style, scope, and production considerations.
 
+The source's high concept document also identifies the player's role, primary gameplay mode, genre, target machine, revenue approach, licensed material, competition modes, progression, story direction, and game world. These choices make the proposal concrete enough for discussion while postponing detailed mechanics until elaboration.
+
 # References
 
 [[advancedgamedesign.pdf]]
 
+[[fundamentalsofgamedesign3e.pdf]]

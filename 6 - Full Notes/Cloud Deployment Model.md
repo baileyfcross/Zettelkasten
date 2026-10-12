@@ -10,6 +10,10 @@ A cloud deployment model describes the scope of the community allowed to consume
 
 The four models are [[Public Cloud]], [[Private Cloud]], [[Community Cloud]], and [[Hybrid Cloud]]. Any service abstraction can be offered through a suitable deployment model, so a service should be described by both dimensions when the distinction matters.
 
+Its architecture comparison separates where a cloud is operated and shared from the service abstraction being consumed. Public, private, community, and hybrid deployment choices therefore answer a different question from choosing IaaS, PaaS, or SaaS.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[cloudcomputing_mit.epub]]

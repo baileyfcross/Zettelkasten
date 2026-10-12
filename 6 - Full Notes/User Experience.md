@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human-Computer Interaction Foundations]] [[Player Experience Design]]
+Tags: [[Human-Computer Interaction Foundations]] [[Player Experience Design]] [[Player Experience Layers]]
 
 # User Experience
 
@@ -15,3 +15,4 @@ UX extends beyond the visible [[User Interface]] to include the system's social 
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[gamesdesignandplay.pdf]]

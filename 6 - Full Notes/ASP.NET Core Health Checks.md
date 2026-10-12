@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]]
+Tags: [[HTTP API Integration]] [[ASP.NET Core Web API Development]] [[Distributed Network Caching Monitoring and Inspection]] [[ASP.NET Core Service Observability and API Tooling]]
 
 # ASP.NET Core Health Checks
 
@@ -14,3 +14,6 @@ Because health-check middleware participates in the ordinary [[HTTP Request Pipe
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

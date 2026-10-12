@@ -10,6 +10,10 @@ Stepwise selection alternates between adding candidate covariates and reconsider
 
 This flexibility distinguishes it from strict [[Forward Selection]]. It does not eliminate specification uncertainty or guarantee the true model, so the process should remain constrained by a prespecified variable set, scientific reasoning, and transparent iteration records.
 
+Because entry and removal decisions are repeatedly made on the same sample, apparently decisive thresholds can conceal an unstable search path. The selected model should be treated as a candidate that still needs assumption checks and validation rather than as an objective consequence of the data alone.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

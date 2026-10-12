@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Optimization and Differentiation]]
+Tags: [[Optimization and Differentiation]] · [[Differential Calculus]]
 
 # Derivative
 
@@ -17,3 +17,5 @@ Formally, the derivative is the limit of the difference quotient $(f(x+h)-f(x))/
 [[algorithms.epub]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[foundationsofmath.pdf]]

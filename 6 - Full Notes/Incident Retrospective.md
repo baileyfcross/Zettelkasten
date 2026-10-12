@@ -10,6 +10,10 @@ An incident retrospective reconstructs the timeline, contributing conditions, av
 
 Useful outcomes include clearer detection, safer deployment, new tests, reduced response time, and changes to organizational conditions. The review turns operational failure into shared product knowledge.
 
+AI can draft a timeline or structured incident note from logs and workflow context, but the result must be checked against the original evidence before entering a knowledge base. A plausible summary is not a substitute for a verified cause.
+
 # References
 
 [[agilegamedevelopment2e.pdf]]
+
+[[agenticaifordevopsengineers.pdf]]

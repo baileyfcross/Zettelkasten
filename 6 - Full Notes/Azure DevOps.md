@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Continuous Integration and Delivery]]
+Tags: [[Continuous Integration and Delivery]] [[Azure DevOps Work Planning and Traceability]]
 
 # Azure DevOps
 
@@ -10,6 +10,9 @@ Azure DevOps is the service used in the book to host source code and automate th
 
 The service coordinates the workflow, but the pipeline definition supplies its actual guarantees. Compilation, tests, artifact boundaries, deployment settings, and promotion rules must all be made explicit.
 
+Beyond delivery automation, an Azure DevOps project joins boards and hierarchical work items with repositories, package feeds, test plans, and pipelines so requirements and sprint work can be traced to code and release evidence.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

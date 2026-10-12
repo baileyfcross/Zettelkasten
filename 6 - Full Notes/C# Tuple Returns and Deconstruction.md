@@ -10,6 +10,10 @@ C# tuple syntax groups several values into one lightweight result. Naming tuple 
 
 Deconstruction assigns the elements into separate variables in one statement, while discards ignore values the caller does not need. Tuples suit local combinations with little behavior; a dedicated type is clearer when the group needs validation, methods, or a stable public contract.
 
+A tuple groups values of potentially different types into one returnable result. Older `Tuple<...>` instances expose positional members such as `Item1`, while language-level tuples can name and deconstruct the returned elements more clearly.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

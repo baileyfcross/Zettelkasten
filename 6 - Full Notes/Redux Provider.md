@@ -10,6 +10,10 @@ A Redux provider places the store into React's component context so descendants 
 
 The provider supplies access, while connected components or hooks choose which state and dispatch operations they consume. This keeps the store shared without making every component depend on its entire contents.
 
+In the source's React Redux API, the provider wraps one root child and publishes the supplied store through context. It also causes the wrapped application to update after dispatch, while `connect` creates the narrower containers that map store state and operations into component props.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
+
+[[learningreact1.pdf]]

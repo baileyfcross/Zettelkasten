@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Analytic Data Preparation]] [[Web Forms and Validation]]
+Tags: [[Analytic Data Preparation]] [[Web Forms and Validation]] · [[Data Quality and Missing Data]]
 
 # Data Validation
 
@@ -12,8 +12,16 @@ Validation should be encoded in the workflow rather than performed only by visua
 
 In a web application, validation also checks form input before it changes persistent state. [[Client-Side Validation]] supplies immediate feedback, while [[Server-Side Validation]] remains authoritative because the browser can be bypassed. Rules that depend on stored values can be evaluated through an [[Asynchronous Validator]].
 
+The book validates imported data by checking dimensions, types, categorical levels, plausible values, missingness, and the target. These tests turn cleaning into an auditable sequence rather than a collection of silent corrections.
+
+In information-systems model construction, validation precedes variable or model selection. It asks whether the researcher has obtained the right data, whether values are specified correctly, and whether records from different sources are complete, accurate, and fit for the intended question. A model built before these checks can faithfully formalize the wrong evidence.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
+
+[[essentialsofdatascience.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

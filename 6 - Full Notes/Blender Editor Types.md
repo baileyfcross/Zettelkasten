@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Interface and Workflow]]
+Tags: [[Blender Interface and Workflow]] · [[Blender Editor Structure]]
 
 # Blender Editor Types
 
@@ -10,6 +10,16 @@ Blender can be understood as several specialized programs sharing one interface 
 
 Because an area's editor type can be changed, a layout is not tied permanently to one task. The artist can replace an editor when the work changes while leaving the rest of the window intact.
 
+At the core-code level, each editor instance stores persistent data through a [[Blender SpaceLink Structure]] derivative, while a [[Blender SpaceType Structure]] holds its runtime callbacks and supported regions. A [[Blender Screen Area Structure]] joins these two sides so the same visible area can retain layout state and select the behavior of its current editor type.
+
+The Blender 2.77 interface described in the source exposes sixteen editor types, including the 3D View, Timeline, Graph Editor, Dope Sheet, NLA Editor, UV/Image Editor, Video Sequence Editor, Movie Clip Editor, Node Editor, Logic Editor, Outliner, File Browser, Text Editor, and Python Console. Changing an area's editor type changes its task without discarding the surrounding screen arrangement.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[coreblenderdevelopment.pdf]]
+
+[[introductiontoblender30.pdf]]
+
+[[testdriveblender.pdf]]

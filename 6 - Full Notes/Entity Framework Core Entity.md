@@ -10,7 +10,15 @@ An Entity Framework Core entity is a typed class representing persistent, code-d
 
 Entity classes let a controller work with domain objects instead of raw rows. They should not automatically become the public API shape; a [[Data Transfer Object]] can expose only the values that a client needs.
 
+Entity properties can be scalar values mapped to columns or navigation properties representing relationships. A reference navigation points to one related entity, while a collection navigation represents multiple related entities.
+
+The source distinguishes persistence entities from presentation models and configures keys, scalar properties, navigation relationships, and collections so object state can be mapped without exposing database shapes directly to clients.
+
 # References
+
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Xamarin Application Architecture]]
 
 # Xamarin.Forms Dependency Service
 
@@ -13,3 +13,5 @@ Shared code depends on the abstraction rather than Android or iOS classes, prese
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Azure Kubernetes Service Operations]]
+Tags: [[Azure Kubernetes Service Operations]] [[Kubernetes Cluster Architecture and Resources]]
 
 # Kubernetes Deployment
 
@@ -10,6 +10,14 @@ A Kubernetes deployment declares how an application workload should run, includi
 
 The sales-order deployment refers to the image stored in Azure Container Registry and exposes its replica count as configuration. Updating the file and applying it provides a repeatable scale or rollout operation.
 
+For AKS, declarative deployment extends beyond an individual manifest to a controlled delivery model. GitOps reconciliation can make a repository the desired-state source, while progressive rollout, health probes, resource requests, policy, and rollback determine whether a new version is introduced safely. A deployment definition is therefore only one layer of the release system; image provenance and environment configuration must be governed alongside it.
+
+A Deployment owns ReplicaSets rather than creating replacement pods directly. Changing its pod template produces a new ReplicaSet and gradually transfers the desired replica count, preserving rollout history that can support pause, inspection, and rollback.
+
 # References
 
+[[ultimatedockercontainerbookfourthedition.pdf]]
+
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[azurecloudnativearchitecturemapbooksecondedition.pdf]]

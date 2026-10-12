@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Xamarin Navigation Layout and Data Binding]]
 
 # Xamarin.Forms INotifyPropertyChanged
 
@@ -13,3 +13,5 @@ A view model normally raises the event only after a value actually changes and u
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

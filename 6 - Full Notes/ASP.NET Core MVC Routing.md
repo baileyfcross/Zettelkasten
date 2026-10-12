@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Page and MVC Development]]
+Tags: [[ASP.NET Core Page and MVC Development]] [[ASP.NET Core Request Pipeline Customization]]
 
 # ASP.NET Core MVC Routing
 
@@ -10,6 +10,11 @@ MVC routing maps an incoming request's path and HTTP method to a controller acti
 
 Route design forms part of an application's public interface. Specific patterns, constraints, and ordering should avoid ambiguous matches and should produce stable, meaningful URLs independent of internal implementation details.
 
+The source shows routing as the boundary that maps incoming URL patterns to controller actions while separating public navigation structure from the internal classes that ultimately produce a response.
+
 # References
 
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

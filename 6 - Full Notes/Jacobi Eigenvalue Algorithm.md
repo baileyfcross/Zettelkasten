@@ -12,5 +12,6 @@ Each step produces an orthogonally similar matrix, preserving eigenvalues while 
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

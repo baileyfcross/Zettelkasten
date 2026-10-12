@@ -10,7 +10,10 @@ LU decomposition factors a matrix as $A=LU$, where $L$ is [[Lower Triangular Mat
 
 The factorization is especially useful when several right-hand sides share the same coefficient matrix. Pivoting may require a [[Permutation Matrix]], producing $PA=LU$.
 
+LU records Gaussian elimination: the entries below the diagonal in $L$ store elimination multipliers, while $U$ is the resulting row-echelon coefficient matrix. Without row exchanges, nonzero leading principal pivots provide a standard sufficient condition for the factorization.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

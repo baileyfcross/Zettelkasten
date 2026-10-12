@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Nonlinear Optimization Methods]]
+Tags: [[Numerical Root-Finding Methods]]
 
 # Fixed-Point Iteration
 
@@ -13,3 +13,5 @@ A sufficient local condition is that $g$ maps an interval into itself and has de
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[numericalmethodsinengineeringandscience.pdf]]

@@ -10,6 +10,10 @@ A many-core processor contains a large number of comparatively simple processing
 
 Backpropagation can exploit many cores across examples, neurons, or matrix operations, but its measured speedup depends on partitioning and synchronization overhead.
 
+Dedicated neural accelerators push the same idea further by replacing general cores with processing elements specialized for multiply-accumulate, buffering, or layer dataflow. The benefit still depends on keeping each element supplied with balanced work and local data.
+
 # References
 
 [[bigdatamanagementandprocessing.pdf]]
+
+[[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Agile Engineering and Quality]] [[Web Application Testing]]
+Tags: [[Agile Engineering and Quality]] [[Web Application Testing]] [[Test-Driven Development and Unit Test Design]] [[React Testing Practice]]
 
 # Test-Driven Development
 
@@ -12,8 +12,18 @@ The growing suite becomes a safety net for refactoring and change. TDD is most a
 
 ASP.NET Core and Angular tests apply the same cycle with different tools: xUnit.net and Moq isolate back-end behavior, while Jasmine, Karma, and TestBed exercise front-end components. [[Behavior-Driven Development]] provides a related emphasis on describing observable behavior.
 
+The inventory project uses tests around commands, factories, and the shared repository to make expected behavior visible while the design changes. In particular, tests expose a race in concurrent quantity updates and a lifetime error when each resolution builds a new dependency-injection provider. Passing tests measure the implemented behavior, not the completeness of user acceptance testing.
+
+The red-green-refactor loop treats the initial failing test as evidence that the new behavior is absent, implements only enough to satisfy it, and then improves the design while the full suite remains green.
+
+The React and Redux source applies the cycle especially to pure reducers: state and an action define the input, the expected next state defines the contract, and the initial failure becomes a precise implementation task. It distinguishes this behavior-first cycle from merely adding tests after code already exists.
+
 # References
 
 [[agilegamedevelopment2e.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
+[[learningreact1.pdf]]

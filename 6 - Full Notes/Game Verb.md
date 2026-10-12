@@ -10,6 +10,10 @@ A game verb is a [[Game Rule]] that gives the player liberty to act within the g
 
 Verbs are the player's side of the [[Game-Player System|game-player dialogue]]. They let the player test other rules, learn how [[Game Part|game objects]] behave, and make [[Meaningful Decision|meaningful decisions]]. A focused set of verbs gives a design a clearer interactive vocabulary.
 
+A verb should describe what the player does rather than the input device used to do it. Its value comes from relationships with goals, objects, and other rules; a large list of disconnected actions does not by itself create richer play.
+
 # References
 
 [[agamedesignvocabulary.pdf]]
+
+[[playersmakingdecisions.pdf]]

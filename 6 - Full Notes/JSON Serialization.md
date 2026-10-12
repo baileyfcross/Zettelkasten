@@ -14,6 +14,7 @@ The Azure projects serialize work items, queue messages, cognitive-service respo
 
 # References
 
+[[gameprogrammingincplusplus.pdf]]
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Network Requests Sockets and Streams]]
 
 # C# Async and Await
 
@@ -10,6 +10,18 @@ An `async` method can use `await` to pause its logical execution until an awaita
 
 Asynchronous code improves responsiveness and scalability for waiting-heavy operations, but it does not make CPU work inherently faster. Tasks should normally be awaited, exceptions must be observed, and cancellation should be propagated through the operation graph.
 
+The conference-counter example uses waiting customers to motivate nonblocking work. In an application, `await` yields while an asynchronous operation is incomplete instead of occupying a thread solely to wait; many requests can therefore make progress with fewer blocked workers.
+
+An asynchronous method should normally return `Task` or `Task<T>` rather than `void`, and the async chain should continue to a caller that can observe completion. Context capture is useful for thread-affine interfaces but can be disabled in reusable code that has no such dependency.
+
+File and network operations are representative uses because the program can yield while an external operation is incomplete. `await` composes that waiting without turning the call into parallel CPU execution; independent operations must still be started and coordinated deliberately if concurrency is intended.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[hands-onnetworkprogrammingwithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

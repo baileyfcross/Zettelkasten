@@ -13,3 +13,5 @@ API selection changes how the application communicates but not the underlying ma
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

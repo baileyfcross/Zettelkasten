@@ -12,7 +12,11 @@ With [[Entity Framework Core]], a [[Database Context]] assembles the model and a
 
 The web-research project describes EF Core 3 as effectively code-first: application classes and configuration are the continuing source for the database model. An existing database can seed that process through reverse engineering, but later schema evolution proceeds from code.
 
+In the code-first approach, entity classes and mapping configuration define the model from which the database schema is produced and evolved. Attributes or a fluent mapping API express details that conventions cannot infer.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 

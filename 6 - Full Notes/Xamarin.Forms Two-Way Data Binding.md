@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Xamarin Navigation Layout and Data Binding]]
 
 # Xamarin.Forms Two-Way Data Binding
 
@@ -13,3 +13,5 @@ The binding mode should match the actual flow of ownership because unnecessary t
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

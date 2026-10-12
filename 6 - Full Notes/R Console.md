@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Statistical Computing Workflows]]
+Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]] · [[R Programming Environment]] · [[R Scripts Functions and Debugging]]
 
 # R Console
 
@@ -10,6 +10,18 @@ The R console is the interactive window in which commands execute and textual re
 
 Because several kinds of output share the console, it is not automatically equivalent to a clean SAS log. Durable work should remain in scripts and documented objects; selected console evidence can be preserved when it helps explain an error or validate an analysis.
 
+For an introductory R workflow, the console also serves as the immediate place to request function help, load packages, and test commands before preserving them in a reproducible project. The source treats console familiarity as a prerequisite for following its statistical examples.
+
+In the book's RStudio workflow, the console provides immediate feedback while scripts preserve the analysis. Commands, warnings, and errors are inspected there, but repeatable work is moved into source files and functions.
+
+The student companion begins with the console as a scientific calculator and then uses it to test objects, call newly sourced functions, and inspect errors. This progression makes the console a feedback surface, while the evolving script remains the durable record of the calculation.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]
+
+[[essentialsofdatascience.pdf]]
+
+[[rstudentcompanion.pdf]]

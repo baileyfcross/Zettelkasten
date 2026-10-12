@@ -10,6 +10,9 @@ Camera solving converts the two-dimensional motion of many tracked features into
 
 The solve should follow camera and lens configuration and the removal of weak tracks. Its generated Empty objects represent tracked points in space and provide a bridge between the Movie Clip Editor and the 3D Viewport.
 
+Two key frames with substantially different perspectives and many markers in common anchor the reconstruction. Solve error summarizes disagreement between tracked image positions and the projected solution, but the decisive check is whether test geometry remains attached to the plate, especially near the surface where a rendered character will stand.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
+[[learningblender3e.pdf]]

@@ -12,5 +12,6 @@ Commands create variables in the [[MATLAB Workspace]]. Longer or reusable proced
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

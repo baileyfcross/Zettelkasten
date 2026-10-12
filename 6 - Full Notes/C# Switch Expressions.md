@@ -10,6 +10,10 @@ A C# switch expression maps an input value to a result through a sequence of pat
 
 Arms are considered in order, so specific patterns should precede broad ones. The discard pattern supplies a default result. Because the construct is an expression, it can initialize a variable directly and makes the common output of all branches visible.
 
+A switch expression places the input before `switch` and maps patterns to results with concise arms. The discard pattern `_` supplies the fallback arm, replacing the statement form's explicit `default` label when the goal is to compute a value.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

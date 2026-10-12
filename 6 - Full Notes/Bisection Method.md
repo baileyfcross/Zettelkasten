@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Nonlinear Optimization Methods]]
+Tags: [[Numerical Root-Finding Methods]]
 
 # Bisection Method
 
@@ -14,3 +14,4 @@ The method converges reliably under its assumptions and has a predictable error 
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[numericalmethodsinengineeringandscience.pdf]]

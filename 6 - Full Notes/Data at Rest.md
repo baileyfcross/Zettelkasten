@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security and Data Protection]]
+Tags: [[Cloud Security and Data Protection]] [[Everyday Cybersecurity Applications]]
 
 # Data at Rest
 
@@ -10,6 +10,10 @@ Data at rest is inactive or intermittently used data stored in a digital medium,
 
 Protection can include encryption, access control, retention limits, integrity verification, and secure destruction. Backup and archival copies must be included because protecting only the primary store leaves other copies exposed.
 
+The source distinguishes stored data from [[Data in Transit]] and [[Data in Process]]. At-rest protection can combine encryption with access control, but key management remains critical because a protected store becomes readable wherever its decryption keys are exposed.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[cybersecurity.epub]]

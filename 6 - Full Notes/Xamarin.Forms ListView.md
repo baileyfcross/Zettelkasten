@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Xamarin Navigation Layout and Data Binding]]
 
 # Xamarin.Forms ListView
 
@@ -13,3 +13,5 @@ The item source should expose changes when the list can update after binding, an
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

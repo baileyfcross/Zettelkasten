@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Polynomial and Rational Expressions]]
+Tags: [[Polynomial and Rational Expressions]] · [[Algebraic Manipulation and Inequalities]]
 
 # Rational Expression
 
@@ -15,3 +15,5 @@ It generalizes a numerical [[Fraction]] while retaining the restriction that its
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

@@ -12,8 +12,12 @@ Although loosely inspired by biology, the artificial neuron is a mathematical bu
 
 More precisely, each input is multiplied by a [[Neural Network Weight]], the products form a [[Weighted Input]], and a [[Neural Network Bias]] shifts that value before an [[Activation Function]] calculates the output. This makes the unit a small parameterized computation that can be simulated in ordinary software; no literal artificial cell is required.
 
+Kelleher's two-stage view distinguishes the weighted sum from the nonlinear activation applied afterward. A unit's output can be a final prediction or an intermediate learned feature passed to later units. He also shows that the bias can be represented as a weight on a constant input of one, making its calculation and training part of the same weighted-input structure.
+
 # References
 
 [[aiassistants.epub]]
 
 [[algorithms.epub]]
+
+[[deeplearning_mit.epub]]

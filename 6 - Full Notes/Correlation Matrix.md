@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Descriptive Health Statistics]]
+Tags: [[Descriptive Health Statistics]] · [[R Statistical Graphics and Export]]
 
 # Correlation Matrix
 
@@ -10,6 +10,10 @@ A correlation matrix arranges pairwise correlation coefficients for several vari
 
 Missing-data rules and the chosen correlation method affect every entry. A matrix can identify redundancy or possible [[Regression Collinearity]], but it cannot determine causation or replace examination of the underlying scatter plots.
 
+The primer visualizes the matrix with symbols whose size and color encode correlation magnitude and sign. Reordering variables can expose blocks of related measurements, but the display should retain a scale and labels so visual intensity can be traced back to actual coefficients.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[rprimer.pdf]]

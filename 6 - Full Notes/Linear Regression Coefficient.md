@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Linear Regression Analysis]]
+Tags: [[Linear Regression Analysis]] · [[Linear Model Design and Contrasts]]
 
 # Linear Regression Coefficient
 
@@ -10,6 +10,10 @@ A linear regression coefficient is the estimated change in a continuous outcome 
 
 Its sign gives direction and its magnitude remains in outcome units. The standard error, confidence interval, and p-value describe estimation uncertainty, while subject-matter context determines whether the change is important.
 
+The source emphasizes that a coefficient's meaning follows from its design-matrix column. With an indicator, it may represent a group difference; with a continuous predictor, a slope; and with a product column, an interaction adjustment to another effect.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]

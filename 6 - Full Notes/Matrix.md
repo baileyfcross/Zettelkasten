@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]]
 
 # Matrix
 
@@ -12,8 +12,20 @@ Matrices can represent graph connections, sales data, neural-network parameters,
 
 Matrix algebra also includes [[Matrix Addition]], [[Scalar Multiplication of a Matrix]], and [[Matrix Transpose]]. Shape and structure matter: a [[Square Matrix]] may have a [[Determinant]], [[Matrix Inverse]], eigenvalues, and factorizations, while a [[Rectangular Matrix]] naturally represents overdetermined or underdetermined systems.
 
+For statistical modeling, a matrix can place observations in rows and model terms in columns so one equation represents an entire dataset. This representation makes the relationship among a design, its coefficients, fitted values, and residuals explicit.
+
+Finite element formulations use matrix notation to collect element coefficients, nodal unknowns, and loads. Assembly ultimately produces a large simultaneous system in which rows and columns follow the ordering of global degrees of freedom.
+
+The student companion constructs matrices in R by reshaping or binding vectors, then accesses entries with row and column indexes. It uses the object both as a rectangular data structure and as an operator that advances a scientific state through matrix multiplication.
+
 # References
 
 [[algorithms.epub]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]
+
+[[finiteelementanalysis_aprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

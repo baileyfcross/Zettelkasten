@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Statistical Computing Workflows]]
+Tags: [[Statistical Computing Workflows]] · [[R Statistical Computing and Data Wrangling]] · [[R Data Ingestion and Review]] · [[R Data Transformation and Reshaping]]
 
 # R Data Frame
 
@@ -10,6 +10,22 @@ An R data frame is a rectangular object whose columns represent variables and wh
 
 Data frames are the principal R objects for health-data analysis. Analysts can select columns, subset rows, add recoded variables, pass the object into functions, and create revised copies as checkpoints. This object-centered workflow differs from the implicit row loop of the [[SAS Data Step]].
 
+The life-science workflow in the source imports delimited tables as data frames and then uses dplyr operations to select variables and filter experimental groups. Row and column alignment makes the object a natural interface between raw observations, graphics, and statistical models.
+
+The book treats the data frame as the main interface among imported records, cleaning operations, visualizations, and predictive models. Reviewing its dimensions, names, classes, and sample rows makes the transition from external resource to analytic object explicit.
+
+The primer describes a data frame as a list of equal-length vectors or factors in which each row represents an observation. That structure permits row and column subsetting, variable-wise or row-wise function application, keyed merging, stacking, and wide-to-long reshaping without losing the correspondence among variables.
+
+The student companion introduces the same structure through a classroom dataset, constructing columns of numeric and categorical observations and verifying that every row represents one student. This beginner example makes column meaning, equal length, and row identity prerequisites to any later graph or model.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]
+
+[[essentialsofdatascience.pdf]]
+
+[[rprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

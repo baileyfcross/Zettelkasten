@@ -10,6 +10,10 @@ A neural-network layer is a group of computational units occupying the same stag
 
 A [[Hidden Layer]] lies between the external input and output. Layers may be [[Dense Layer|densely connected]] so every neuron feeds every unit in the following layer, or use specialized patterns suited to a particular task.
 
+Kelleher notes that input-layer locations simply present stored values; they do not perform the learned weighted processing of later layers. In a dense network, all the neurons of the next layer can calculate their weighted sums together through [[Layer Matrix Computation|one vector–matrix operation]]. Counting only layers with learned weight matrices explains [[Neural Depth Counting|network depth]].
+
 # References
 
 [[algorithms.epub]]
+
+[[deeplearning_mit.epub]]

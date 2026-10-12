@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Xamarin.Forms Mobile Applications]]
+Tags: [[Xamarin Navigation Layout and Data Binding]]
 
 # Xamarin.Forms ContentPage
 
@@ -13,3 +13,5 @@ The page participates in navigation and provides lifecycle events for appearance
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[hands-onmobiledevelopmentwithnetcore.pdf]]

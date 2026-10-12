@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Application Architecture]]
+Tags: [[ASP.NET Core Application Architecture]] [[.NET Server Concurrency and Parallel Patterns]]
 
 # Kestrel
 
@@ -13,3 +13,4 @@ In Linux deployment, Kestrel commonly runs the application behind an [[Nginx]] [
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

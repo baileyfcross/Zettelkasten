@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[XR Display Systems]]
+Tags: [[XR Display Systems]] [[Haptic Display Technology]]
 
 # Spatial Resolution
 
@@ -14,7 +14,10 @@ Higher resolution can improve detail, but its value depends on the user, task, v
 
 For a near-eye AR display, angular resolution describes how much visual angle each resolvable element occupies. Increasing pixel count without considering field of view, optics, and eye position does not by itself determine how finely registered details can be perceived.
 
+For touch, useful spatial resolution also depends on the body site. Fingertips have dense receptors and small fields, while the forearm and torso resolve much wider spacing. A tactile array can therefore be physically dense yet present elements the user cannot distinguish; actuator spacing should be matched to [[Haptic Spatial Acuity]] at the intended contact location.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
+[[haptics.epub]]

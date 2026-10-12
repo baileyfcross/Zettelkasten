@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Application Architecture]]
+Tags: [[ASP.NET Core Application Architecture]] [[ASP.NET Core Request Pipeline Customization]]
 
 # Endpoint Routing
 
@@ -13,3 +13,4 @@ The endpoint middleware runs after earlier components such as static-file handli
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

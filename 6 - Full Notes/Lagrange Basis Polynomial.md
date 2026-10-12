@@ -12,5 +12,6 @@ These selector properties make the weighted sum in [[Lagrange Interpolation]] re
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

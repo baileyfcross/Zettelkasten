@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Number Systems and Arithmetic]]
+Tags: [[Number Systems and Arithmetic]] · [[Real Number Algebra and Arithmetic]]
 
 # Rational Number
 
@@ -15,3 +15,5 @@ Rational numbers include integers and positive or negative [[Fraction]]s. They a
 # References
 
 [[algebraessentials.pdf]]
+
+[[foundationsofmath.pdf]]

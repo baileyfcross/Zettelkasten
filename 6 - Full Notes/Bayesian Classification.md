@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Bayesian Information Fusion]]
+Tags: [[Bayesian Information Fusion]] · [[Classification and Decision Trees]] · [[Statistical Learning and Validation]]
 
 # Bayesian Classification
 
@@ -10,6 +10,18 @@ Bayesian classification estimates a class variable from observed attributes by c
 
 The full posterior preserves ambiguity among classes. A later decision can choose the most probable class or use costs that distinguish different kinds of classification error.
 
+For labeled data, the classifier combines class priors with feature likelihoods and selects the class with the largest posterior score. A naive Bayes implementation assumes conditional independence among attributes; this reduces computation but requires smoothing when an unseen feature-class combination would otherwise force a zero product.
+
+The source presents the general Bayes decision boundary: for a given predictor vector, assign the class with the largest conditional probability. Practical learning methods approximate this unknown probability from training data rather than observing the true boundary directly.
+
+Under zero–one loss, this rule is the Bayes classifier and has the smallest possible misclassification probability. Parametric methods model a finite-dimensional family for the joint distribution, semiparametric methods constrain only part of it, and nonparametric methods estimate the decision structure more flexibly. Each approach trades assumptions against the sample size needed for accurate approximation.
+
 # References
 
 [[bayesianprogramming.pdf]]
+
+[[clusteranalysisanddatamining.pdf]]
+
+[[dataanalysisforthelifescienceswithr.pdf]]
+
+[[introductiontohigh-dimensionalstatistics.pdf]]

@@ -2,7 +2,7 @@
 
 Parent topic: [[Azure Cloud Application Development]]
 
-Container orchestration, AKS clusters, nodes, pods, deployments, replicas, registries, self-healing, and load distribution.
+Container orchestration, AKS clusters, nodes, pods, deployments, services, reconciliation, rollouts, registries, self-healing, load distribution, and Helm packaging.
 
 ## Linked Full Notes
 

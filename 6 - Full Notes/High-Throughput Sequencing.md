@@ -10,6 +10,10 @@ High-throughput sequencing reads very large numbers of DNA fragments in parallel
 
 The raw output requires alignment or assembly, quality control, variant analysis, and substantial transfer and storage capacity before it becomes biological evidence.
 
+Sequence alignment and pattern matching can dominate parts of that computation. The book contrasts distributed, GPU, and [[FPGA Genome Sequencing]] platforms and implements KMP and BWA search kernels as FPGA IP cores under host control.
+
 # References
 
 [[bigdatamanagementandprocessing.pdf]]
+
+[[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]

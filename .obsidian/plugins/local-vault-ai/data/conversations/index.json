@@ -1,16 +1,10 @@
 {
   "conversations": [
     {
-      "id": "bb84e03a-908b-4c56-9c54-58f024a0964d",
-      "title": "How do I make a linked list?",
-      "createdAt": "2026-09-06T22:32:10.644Z",
-      "updatedAt": "2026-09-07T06:28:49.093Z"
-    },
-    {
-      "id": "c32b90cf-3caf-4c9a-85f0-0c5224160a5f",
+      "id": "0e61b0fa-beb7-4341-a1a5-9d0c63df81f5",
       "title": "New chat",
-      "createdAt": "2026-09-07T06:29:20.021Z",
-      "updatedAt": "2026-09-07T06:29:20.021Z"
+      "createdAt": "2026-10-05T06:53:40.916Z",
+      "updatedAt": "2026-10-05T06:53:40.916Z"
     }
   ]
 }

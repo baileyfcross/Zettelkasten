@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Containerized Microservice Architecture]]
+Tags: [[Containerized Microservice Architecture]] [[Cloud Scalability and Resilience Patterns]] [[.NET Server Concurrency and Parallel Patterns]]
 
 # Microservice
 
@@ -10,6 +10,15 @@ A microservice is a small, independently operated process responsible for a boun
 
 Independent deployment and scaling can isolate change, but dividing one system into many services adds network, versioning, logging, and data-consistency problems. The book cautions that a microservice architecture is useful only when those costs solve a real need.
 
+The design-patterns source frames a microservice as a small unit built around one business capability, loosely coupled by an explicit service contract, independently maintainable, and responsible for isolated state. Those boundaries permit different services and their data stores to scale or deploy at different rates, rather than merely splitting a monolith into smaller processes that still share one database.
+
+The architecture source distinguishes code modularity from deployment modularity. A microservice is valuable when a focused business capability, isolated persistence, loose communication, and independent deployment create an operational boundary—not merely when a codebase is split into more processes.
+
 # References
 
+[[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
 [[c8andnetcore30projectsusingazure.pdf]]
+[[hands-ondesignpatternswithcandnetcore.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+[[hands-onrestfulwebserviceswithaspnetcore3.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Probability Foundations]]
+Tags: [[Probability Foundations]] [[Game Probability and Simulation]]
 
 # Joint Probability Distribution
 
@@ -10,6 +10,10 @@ A joint probability distribution assigns probabilities to combinations of values
 
 Bayesian programs rarely store an unrestricted joint table. They decompose it into smaller conditional factors using justified independence assumptions, then reconstruct the terms required for a particular question.
 
+For independent game events, the joint probability of all of them occurring is the product of their individual probabilities. The multiplication rule should not be applied blindly when one outcome changes the probability of another.
+
 # References
 
 [[bayesianprogramming.pdf]]
+
+[[playersmakingdecisions.pdf]]

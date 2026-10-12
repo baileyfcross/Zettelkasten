@@ -10,6 +10,10 @@ A C# property exposes get and optional set behavior with field-like syntax. Its 
 
 An indexer applies similar accessor behavior to bracket syntax, letting an object retrieve or assign values by a key or position. Properties and indexers preserve an interface that is convenient to use without surrendering control over how state is obtained or changed.
 
+A property exposes `get` and `set` accessors around a value and can limit reading or writing independently. An automatically implemented property removes repetitive backing-field code when no custom validation or transformation is needed.
+
 # References
+
+[[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]

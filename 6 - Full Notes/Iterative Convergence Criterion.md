@@ -12,5 +12,6 @@ A theoretical criterion may use the [[Spectral Radius]] or a norm of the [[Itera
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

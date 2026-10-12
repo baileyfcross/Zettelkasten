@@ -10,7 +10,10 @@ The Lagrange multiplier method finds candidate extrema subject to equality const
 
 The multipliers measure the local sensitivity of the optimum to constraint bounds. Candidate points still require feasibility and classification checks.
 
+For one smooth constraint $g(x)=c$ with $\nabla g(x)\neq0$, a constrained extremum must satisfy $\nabla f(x)=\lambda\nabla g(x)$. This condition locates candidates but does not determine whether each is a maximum or minimum.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[multivariableandvectorcalculus.pdf]]

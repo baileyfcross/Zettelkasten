@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[Cyber Threat Vulnerability and Risk Analysis]]
 
 # Threat Assessment
 
@@ -10,6 +10,10 @@ A threat assessment identifies the kinds of harmful events, actors, or condition
 
 The result informs [[Security Risk]] and the selection of preventive, detective, and recovery controls. Threats should be reassessed when a cloud deployment changes its users, locations, service providers, interfaces, or stored data.
 
+A cybersecurity assessment begins by identifying valuable information assets, then enumerates [[Cyber Threat|threats]] and [[Cyber Vulnerability|vulnerabilities]] that could affect them. Likelihood and impact ratings provide a defensible basis for prioritizing scarce defensive resources.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+
+[[cybersecurity.epub]]

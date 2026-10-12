@@ -10,6 +10,9 @@ Tags: [[.NET Task Parallelism and Asynchrony]]
 
 The wait shape should match the dependency: continue after the first useful result, after all required results, or after one specific operation. Blocking is especially risky in responsive and server applications because it consumes a thread and may participate in a deadlock.
 
+The `WhenAny` and `WhenAll` methods return tasks and therefore compose with awaiting, whereas `WaitAny`, `WaitAll`, and `Wait` synchronously occupy the calling thread. The distinction matters even when both variants eventually identify the same completions.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+[[hands-onparallelprogrammingwithc8andnetcore3.pdf]]

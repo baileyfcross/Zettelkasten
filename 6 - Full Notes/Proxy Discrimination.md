@@ -10,6 +10,14 @@ Proxy discrimination occurs when a model does not use a protected characteristic
 
 Removing the explicit characteristic therefore does not guarantee fairness. It may make discrimination harder to detect while leaving the underlying relationship intact. Evaluation should compare outcomes across groups, inspect correlated features, and ask whether each variable has a legitimate connection to the decision. The problem shows the limits of [[Fairness Through Unawareness]].
 
+The book poses a practical dilemma in which several interacting fields collectively act as a proxy for race. Excluding the race field while keeping those proxies can improve a model's measured performance precisely because historic discrimination is present in the data. The model objective must therefore be tested against the social consequences of its predictions, not just predictive accuracy.
+
+Location is a direct example: a postal code can be correlated with ethnicity even when the protected attribute is absent. Learning systems are designed to discover predictive correlations, including ones that are not obvious to a reviewer, so feature removal must be paired with group-level outcome tests and [[Model Interpretability|interpretability]].
+
 # References
 
 [[aiethics.epub]]
+
+[[datascience_mit.epub]]
+
+[[machinelearning_mit.epub]]

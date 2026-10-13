@@ -12,6 +12,9 @@ A virtual field trip can place a class in a museum, distant location, historical
 
 The technology amplifies the pedagogy already present. [[Presence]] and interactivity can increase attention, but they do not guarantee understanding. Curriculum design, instructor familiarity, accessibility, assessment, and an appropriate relationship between exploration and explanation determine whether the experience improves learning.
 
+Immersion is especially useful when the learning objective is spatial: a student can inspect anatomy, molecules, buildings, or historical settings from viewpoints that a flat illustration cannot provide. Evidence discussed in the source found improved spatial-learning accuracy and later recall in particular studies, but those results support matching the medium to the objective rather than assuming that every lesson benefits from a headset.
+
 # References
 
 [[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

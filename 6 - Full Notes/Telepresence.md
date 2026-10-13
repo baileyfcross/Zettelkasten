@@ -16,8 +16,11 @@ Collaborative AR can create telepresence by placing a remote participant's video
 
 Telepresence is the perceptual experience of being at the remote site, whereas [[Telerobotics]] is the mechanism for acting there through a robot. Wide-field stereoscopic viewing, spatial audio, viewpoint control, and timely sensor feedback can strengthen that experience, but they do not remove the operational consequences of network delay or incomplete remote sensing.
 
+Telepresence can also be distinguished from telexistence. Telepresence emphasizes feeling present with a remote place or people; telexistence emphasizes operating or appearing in a location separate from the body's physical location. A shared virtual meeting may provide the first, while a remotely controlled embodied system can approach the second.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
 [[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

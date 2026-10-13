@@ -16,8 +16,11 @@ An AR system combines real and virtual information, updates interactively in rea
 
 Because the physical world remains visible and usable, AR can support a person moving through an ordinary workplace instead of isolating the person inside a replacement world. That advantage also creates a safety obligation: overlays compete with real hazards and task information, so useful augmentation depends on selective presentation rather than simply adding more data.
 
+The display form changes the interaction. A handheld phone offers a portable window into an augmented scene but occupies a hand and requires looking at the screen. Glasses or a heads-up display can keep instructions in view during repair, navigation, or driving, but they must place information without obstructing the physical task. In both cases, the augmentation must update quickly enough to remain anchored as the user or camera moves.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
 [[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

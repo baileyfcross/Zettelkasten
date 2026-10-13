@@ -14,8 +14,11 @@ Unlike [[Augmented Reality]], which keeps the physical world as the main setting
 
 Full immersion can be produced by an opaque [[Head-Worn Display]] or by a large fixed display that fills much of the user's [[Field of View]]. Neither stereoscopy nor uninterrupted 360-degree imagery is required for every task; wide visual coverage and responsive viewpoint control can still create a strong sense of presence when the application does not depend on near-field depth judgments.
 
+VR can therefore vary by degree rather than belonging to one device category. A surrounding display may stimulate only part of the sensory field, a simulator may combine a physical cockpit with generated surroundings, and an opaque headset can block the outside world for fuller immersion. The appropriate level depends on the task, because increased sensory coverage also raises demands on tracking, rendering, comfort, and physical safety.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
 [[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

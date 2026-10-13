@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security and Data Protection]]
+Tags: [[Cloud Security and Data Protection]] [[XR Ethics and Psychological Consequences]]
 
 # Data Privacy
 
@@ -12,8 +12,11 @@ Cloud services complicate privacy because providers, employees, applications, de
 
 Personalization illustrates why privacy is also inferential. A recommender can combine clicks, dwell time, location, device, and time of day to infer preferences the person never explicitly disclosed. Meaningful consent must therefore address the conclusions and future uses enabled by combined behavioral traces, not only the collection of each field in isolation.
 
+Extended reality makes the inferential problem more intimate. A headset can record head and eye movement, body dimensions, gestures, chosen paths, and involuntary reactions inside a controlled environment. Combined over time, these signals can reveal attention, preferences, physical limitations, or possible health conditions. Privacy controls must therefore cover raw sensor streams, derived psychographic profiles, and the use of those inferences to adapt an immersive experience.
+
 # References
 
 [[cloudcomputing_mit.epub]]
 
 [[recommendationengines.epub]]
+[[virtualreality.epub]]

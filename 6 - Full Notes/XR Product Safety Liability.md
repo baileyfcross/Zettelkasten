@@ -12,6 +12,9 @@ Hardware and software both shape risk. A poorly aligned [[Head-Worn Display]], e
 
 Safety work therefore includes foreseeable use and misuse, adjustment ranges, physical clearance, symptom guidance, and a reliable way to stop or recover. Legal rules vary by jurisdiction, but the engineering principle is broader: distributing a compelling experience does not remove the producer's duty to analyze how its complete system can harm users or bystanders.
 
+Immersive intensity can also require dynamic safeguards. Physiological monitoring may reveal rising heart rate, perspiration, or other signs of overstimulation before a participant asks to stop, allowing the system to reduce intensity or trigger a failsafe. Because such monitoring creates sensitive data and cannot predict every response, it should supplement explicit user control and pre-exposure risk assessment rather than replace them.
+
 # References
 
 [[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

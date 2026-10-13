@@ -12,6 +12,9 @@ Presence can be assessed through rating scales and questionnaires, responses to 
 
 Display characteristics, natural movement, [[Spatial Audio]], consistent [[Feedback]], and interaction quality can all influence presence.
 
+An environment does not need to duplicate physical reality in every detail to produce presence. It needs enough perceptual and behavioral plausibility for the participant to respond as though events matter. In a social setting, this can become social presence: timely gestures, gaze, voice, and spatial behavior make a remote person feel co-present rather than merely transmitted.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[virtualreality.epub]]

@@ -12,6 +12,9 @@ A system can warn about a configured play boundary, reveal the physical scene th
 
 [[Augmented Reality]] preserves more of the physical view, but overlays can still distract or obscure hazards. Boundary design must account for the user's body and handheld equipment, not merely the headset position, and should protect nearby people who are not represented in the virtual scene.
 
+Locomotion hardware and perceptual redirection can keep virtual travel inside a smaller area. An [[Omnidirectional Treadmill]] supports multi-directional steps while retaining the body near one location, whereas [[Redirected Walking]] gradually bends the physical path without making the virtual route appear curved. Both still require clearance, tracking, and a conservative response when the user approaches a real limit.
+
 # References
 
 [[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

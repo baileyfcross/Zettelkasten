@@ -12,6 +12,9 @@ A medical rehearsal can combine stereoscopic anatomy, instrument tracking, [[Bim
 
 Transfer depends on matching the important perceptual and motor demands of the real procedure. A headset or controller that is absent from actual practice may teach compensations specific to the simulator, so display and interaction choices should follow the skill being trained.
 
+A rehearsal can also enforce sequence and corrective repetition. In the source's manufacturing example, a learner assembled virtual engine components, received an immediate warning after an incorrect placement, and repeated the process before approaching the real equipment. This structure turns inexpensive failure into feedback while reserving costly or hazardous physical practice for a learner who already knows the order of operations.
+
 # References
 
 [[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

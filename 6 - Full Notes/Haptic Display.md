@@ -18,9 +18,12 @@ A haptic display differs from a skin-only [[Tactile Display]] because it engages
 
 The engineering difficulty is reproducing a broad vocabulary of touch—pressure, texture, shear, edges, vibration, and force—within a device small and safe enough for the task. Different actuators solve different fragments of that problem, which is why tactile wearables, grounded force-feedback arms, controllers, and passive physical props should be selected by the sensation and movement the application must convey.
 
+One wearable approach uses dense microfluidic actuators in a flexible textile to deform the skin at many points. Software converts a virtual object's geometry and material into pressure patterns while a separate mechanism can resist finger motion. Coordinating skin deformation with kinesthetic resistance makes a grasp more convincing than vibration alone, but it also increases calibration, plumbing, and attachment complexity.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
 [[haptics.epub]]
 [[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

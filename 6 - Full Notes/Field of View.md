@@ -18,6 +18,8 @@ AR often has a narrower augmented field than the user's unobstructed physical vi
 
 In a perspective game camera, field of view is an input to the projection matrix. An excessively narrow value magnifies camera motion and can hide surrounding context, while a very wide value increases peripheral coverage but distorts the image near its edges.
 
+Headset design adds a resource tradeoff: widening the field spreads a finite display and rendering budget across more visual angle, which can reduce apparent sharpness. [[Foveated Rendering]] can partly address that tradeoff by concentrating detail near gaze. For see-through AR, the augmented field must also leave enough unobstructed physical vision for the task and surrounding hazards.
+
 # References
 
 [[gameprogrammingincplusplus.pdf]]
@@ -25,3 +27,4 @@ In a perspective game camera, field of view is an input to the projection matrix
 [[augmentedreality_pearson.pdf]]
 [[practicalaugmentedreality.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+[[virtualreality.epub]]

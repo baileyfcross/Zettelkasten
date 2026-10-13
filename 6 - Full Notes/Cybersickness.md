@@ -16,8 +16,11 @@ The broader term [[Sensory Conflict Theory]] describes the mismatch among visual
 
 Visually induced self-motion, or vection, grows with the optic flow that signals movement through the scene. Continuous artificial acceleration can therefore create stronger conflict than a discrete relocation. A cockpit or temporary grid can reduce the moving portion of the view and give the user a stable frame of reference, while snap turning removes rotational acceleration. Susceptibility varies widely, so a locomotion system should expose comfort choices rather than assuming one method is safe for everyone.
 
+[[Dynamic Rest Frames]] generalize the stable-reference strategy by introducing a stationary visual region during demanding motion and adapting it as conditions change. Operational safeguards matter as well: exposure can begin with short sessions, include regular breaks, and end when discomfort appears rather than when a fixed task is complete. A user may remain impaired after removing the display, so driving or operating machinery immediately afterward can be unsafe.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[practicalaugmentedreality.pdf]]
 [[unrealenginevrcookbook.pdf]]
+[[virtualreality.epub]]

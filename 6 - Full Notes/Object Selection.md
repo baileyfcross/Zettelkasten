@@ -12,6 +12,9 @@ Selection difficulty depends on target size and distance, object density, occlus
 
 Dense scenes can use [[Progressive Refinement]]: a coarse first action narrows the candidates and a simpler second action identifies the final target.
 
+Gaze selection can supplement a narrow [[Ray Casting|ray cast]] with an intent score. The dot product between the normalized view direction and the direction to a candidate ranks angular alignment, but discards distance; minimizing the corresponding arc length restores a distance penalty. A sphere trace gives a simpler collision-aware acquisition cone. Pure angular ranking also needs an occlusion test, or it may select an object through a wall.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
+[[unrealenginevrcookbook.pdf]]

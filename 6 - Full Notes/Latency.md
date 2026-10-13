@@ -20,6 +20,8 @@ In an online game, network latency delays the response to a remote player's comm
 
 Game latency also accumulates outside the network through input sampling, simulation, a multithreaded render pipeline, vertical synchronization, display refresh, and pixel response. Network delay adds propagation, transmission, processing, and queuing components. [[Round-Trip Time]] measures a message and response together, while [[Network Jitter]] describes variation that can make a steady update stream arrive unevenly.
 
+An immersive renderer can preserve CPU/GPU overlap while reducing perceived delay by sampling tracked pose late, after most game work is complete. Timewarp or reprojection then transforms an already rendered eye image using a newer head orientation immediately before scan-out. On a predictable mobile pipeline, front-buffer scanline racing can update the warped image close to the display's line-by-line refresh. These techniques reduce particular latency components and provide fallback for missed timing; they do not excuse an application from sustaining its target frame rate.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
@@ -31,3 +33,4 @@ Game latency also accumulates outside the network through input sampling, simula
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 
 [[multiplayergameprogramming.pdf]]
+[[unrealenginevrcookbook.pdf]]

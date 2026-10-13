@@ -10,6 +10,9 @@ Element blending uses `mix-blend-mode` to choose how an element's colors combine
 
 The backdrop depends on stacking and compositing context, so the same element can produce different colors over different content. [[CSS Isolated Blending]] can restrict which backdrop participates.
 
+Blending is evaluated after the foreground and backdrop layers have been painted, so it differs from changing the foreground's source color. Isolation creates a bounded compositing group: descendants can blend with one another, but their combined result is then composited normally with content outside the group. This makes backdrop membership an explicit part of the visual design.
+
 # References
 
 [[css_thedefinitiveguide.pdf]]
+[[usingsvgwithcss3andhtml5.pdf]]

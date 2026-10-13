@@ -2,7 +2,7 @@
 
 Parent topic: [[Web Image Performance]]
 
-SVG coordinate systems, shapes, paths, grouping, filters, compression, and structural simplification for efficient vector delivery.
+SVG embedding, coordinate systems, shapes, paths, reuse, transforms, paint, effects, compression, and structural simplification for efficient vector delivery.
 
 ## Directly Linked Full Notes
 

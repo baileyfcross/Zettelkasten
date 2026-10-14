@@ -10,6 +10,10 @@ A JavaScript default parameter supplies an argument value when a caller omits th
 
 Defaults can be strings, numbers, objects, functions, or other values. React components in the source use the same idea for optional callback props, providing a harmless identity function so an absent callback can still be invoked without a separate existence check.
 
+A default is selected specifically when the corresponding argument is `undefined`, including when the argument is omitted. A transpiler can express that rule for an older engine by inspecting the argument position and substituting the default only when that value is `undefined`.
+
 # References
 
 [[learningreact1.pdf]]
+
+[[youdontknowjs_upandgoing.pdf]]

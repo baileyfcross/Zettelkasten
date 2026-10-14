@@ -12,6 +12,8 @@ One design uses [[Amplitude Encoding for Circuit-Centric Classification]], so an
 
 An alternative [[Single-Qubit Data Re-Uploading Classifier]] eliminates a separate amplitude-state loader. It inserts classical features directly into rotation angles at every layer, uses circuit depth as model capacity, and compares the output qubit with class-specific label states. This preserves the circuit-centric pattern while exchanging qubit width for repeated, accurately controlled operations.
 
+A second structured alternative uses [[Unary Amplitude Encoding]] and [[Reconfigurable Beam Splitter Quantum Gate|reconfigurable beam-splitter gates]]. In a [[Quantum-Assisted Neural Network]], the circuit estimates inner products inside an otherwise classical network. In a [[Quantum Orthogonal Neural Network]], a [[Quantum Pyramidal Circuit]] realizes an exactly orthogonal weight matrix on the unary subspace. These designs sacrifice the logarithmic qubit width of general amplitude encoding to gain a transparent correspondence with classical neural-network layers.
+
 Training remains hybrid: a quantum processor estimates outputs and analytical derivatives, while a classical optimizer stores and updates parameters. The resulting parameter count can grow polynomially in the qubit count and therefore polylogarithmically in the input dimension, although [[Circuit-Centric Quantum Classifier Resource Scaling]] shows that general state preparation can erase this advantage.
 
 # References
@@ -19,3 +21,5 @@ Training remains hybrid: a quantum processor estimates outputs and analytical de
 [[2018 - Circuit-centric quantum classifiers.pdf]]
 
 [[2021 - Single-qubit universal classifier implemented on an ion-trap quantum device.pdf]]
+
+[[2022 - Quantum Methods for Neural Networks and Application to Medical Image Classification.pdf]]

@@ -12,6 +12,10 @@ Composing gates produces a sequence of square unitary layers. These layers prese
 
 This graphical view explains both the compactness and the restriction of the [[Circuit-Centric Quantum Classifier]]. Many amplitude-to-amplitude connections are determined by parameter sharing and unitarity rather than learned separately. The measurement and threshold stages, not the unitary layers themselves, supply the model's explicit nonlinearity.
 
+The symmetry can also be chosen to reproduce a familiar classical layer exactly. A [[Quantum Pyramidal Circuit]] made from number-preserving two-qubit rotations keeps unary inputs inside an $n$-dimensional invariant subspace. Restricted to that subspace, the larger $2^n\times2^n$ unitary acts as an $n\times n$ [[Orthogonal Matrix|orthogonal matrix]], giving the quantum gate pattern a precise matrix-vector interpretation rather than only a visual analogy.
+
 # References
 
 [[2018 - Circuit-centric quantum classifiers.pdf]]
+
+[[2022 - Quantum Methods for Neural Networks and Application to Medical Image Classification.pdf]]

@@ -2,7 +2,7 @@
 
 Parent topic: [[Neural Network Classification and Clustering]]
 
-Low-depth variational quantum classifiers that encode features through amplitude states or repeated data-dependent rotations, transform them with parameterized circuits, and derive predictions from few-qubit measurement statistics.
+Quantum classifiers that encode features through amplitude states or repeated data-dependent rotations, transform them with parameterized circuits, and derive predictions from measurements. The family includes both generic variational models and structured circuits whose unary subspaces implement classical linear-algebra operations.
 
 ## Linked Full Notes
 

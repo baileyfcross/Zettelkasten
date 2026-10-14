@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]]
+Tags: [[Deep Feature Representation]]
 
 # Neural Feature Learning
 
@@ -10,6 +10,10 @@ Neural feature learning uses a network's internal transformations to construct u
 
 A hidden unit may respond to a learned combination of earlier features, and later units can compose these partial results. This is why [[Deep Neural Network|deep networks]] can work with complex image or language inputs, but it does not remove the need for thoughtful data selection or evaluation. The learned features are useful to the task, not automatically transparent to a human observer.
 
+Alpaydin describes the representation as a hierarchy: local pixels can support edge units, edges can support shapes, and later layers can support whole objects. The number of features often decreases as their abstraction increases. Architectural choices such as local convolutional connections contribute useful structure, so “automatic” feature learning still includes assumptions about the data.
+
 # References
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

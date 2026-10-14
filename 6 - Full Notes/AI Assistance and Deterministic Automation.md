@@ -12,8 +12,12 @@ A safe DevOps workflow uses each where its character is useful. AI may interpret
 
 In NetOps, a mature script should continue collecting interface or BGP state predictably, while the agent decides which approved observation would help an investigation and summarizes the results. Fixed checks, policy enforcement, filtering, and execution remain deterministic. Agents are justified when the next information need depends on changing evidence; replacing a reliable fixed workflow with model reasoning only enlarges the failure surface.
 
+The same selection rule applies to Linux operations: use deterministic automation for stable, frequent, low-latency work with defined inputs and outcomes, and introduce AI where unstructured evidence, changing requirements, or contextual interpretation genuinely matter. Even then, the model should propose an artifact or plan that ordinary syntax, policy, dry-run, diff, and post-condition checks can verify.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
 
 [[buildingaiagentsfornetworkoperations.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

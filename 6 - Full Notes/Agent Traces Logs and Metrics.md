@@ -12,8 +12,16 @@ Together, these signals reveal both the execution path and aggregate trends. Cap
 
 Network-agent operations should observe the agent, tool layer, and backend separately. Useful measures include calls and latency per tool, success and timeout rates, blocked commands, unknown-device requests, approval decisions, and invalid tool or argument requests. These signals show whether a deployment changed behavior and whether safety policy is absorbing attempted actions that deserve prompt, training, or scope review.
 
+End-to-end agent traces can also include MCP tool names and arguments, model calls, token consumption, guardrail results, and downstream observability API requests. This makes it possible to compare models, locate a slow or failing step, and attribute the usage and cost created by an agentic workflow.
+
+Production Linux agents also need telemetry for approval latency, human interventions, task success, reasoning and validation quality, resource consumption, and emergency stops. A trace should continue through the policy decision, tool execution, and audit write; stopping at the model response leaves the consequential part of the workflow invisible during incident reconstruction.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
 
 [[buildingaiagentsfornetworkoperations.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]
+
+[[ultimateaiguideforlinuxengineers.pdf]]

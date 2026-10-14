@@ -12,5 +12,6 @@ These methods are attractive for large [[Sparse Matrix|sparse matrices]], where 
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

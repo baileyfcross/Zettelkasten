@@ -14,6 +14,8 @@ For classification, every training observation is paired with a [[Class Label]].
 
 Kelleher emphasizes that target labels give the learner direct feedback on how a candidate function performed. Creating those labels can be costly, especially for large image datasets that need expert or human annotation. The feedback helps guide optimization, but labeled data still must represent the cases on which the model will later be used.
 
+Supervision includes both regression, whose target is numeric, and classification, whose target is a class code. In each case the desired output lets fitting compare a prediction with an observed target. The goal remains [[Generalization in Machine Learning|generalization]]: if every possible case and answer were already stored, table lookup rather than learning would be sufficient.
+
 # References
 
 [[aiassistants.epub]]
@@ -23,3 +25,5 @@ Kelleher emphasizes that target labels give the learner direct feedback on how a
 [[bigdatamanagementandprocessing.pdf]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

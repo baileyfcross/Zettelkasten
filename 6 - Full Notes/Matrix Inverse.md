@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]]
 
 # Matrix Inverse
 
@@ -14,6 +14,8 @@ The closed-form least-squares expression includes the inverse of the design cros
 
 The primer expresses formal finite element solutions through an inverse of the reduced global matrix. For large assembled systems, solving the equations directly is preferable to explicitly constructing that inverse.
 
+The student companion introduces the inverse through simultaneous equations and then uses R's `solve` operation to obtain a solution. Its singular example shows geometrically that parallel inconsistent equations cannot be rescued by asking for an inverse that does not exist.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
@@ -21,3 +23,5 @@ The primer expresses formal finite element solutions through an inverse of the r
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

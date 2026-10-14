@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Bayesian Inference Algorithms]]
+Tags: [[Bayesian Inference Algorithms]] [[Pseudorandom Number Generation Methods]]
 
 # Rejection Sampling
 
@@ -10,6 +10,10 @@ Rejection sampling proposes values from an easier distribution and accepts each 
 
 The method produces unweighted target samples, but its efficiency depends on how tightly the proposal covers the target. A loose bound causes most candidates to be rejected.
 
+If the target density is bounded by $c$ times the proposal density, a proposal is accepted with probability equal to the target-to-envelope ratio. The mean acceptance probability is $1/c$, so choosing an instrumental density that closely follows the target directly reduces wasted proposals.
+
 # References
 
 [[bayesianprogramming.pdf]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

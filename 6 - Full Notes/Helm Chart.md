@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Azure Kubernetes Service Operations]]
+Tags: [[Azure Kubernetes Service Operations]] [[GitOps Deployment Operations]]
 
 # Helm Chart
 
@@ -10,7 +10,11 @@ A Helm chart is a versioned package of related Kubernetes resource templates and
 
 When installed, Helm combines the templates with a [[Helm Values File]] to generate concrete Kubernetes manifests. A chart can be shared through a repository and reused across environments, but standardization is valuable only when the templates preserve the controls and resource requirements the application actually needs.
 
+Helm's packaging and templating simplify repeated installation, but generated output should still be inspected and versioned through an auditable delivery path. Environment values must remain explicit, and secrets should not be hidden in ordinary values files simply because the chart makes them easy to interpolate.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Materials and Textures]] · [[Blender UV Mapping and UDIM]]
+Tags: [[Blender Materials and Textures]] · [[Blender UV Mapping and UDIM]] · [[Blender Image and Shader Editing]]
 
 # Blender Texture Coordinates
 
@@ -12,8 +12,12 @@ Different coordinate sources behave differently under object transforms and defo
 
 UV coordinates are a deliberately authored coordinate source that flatten mesh faces into image space. Projection, seam, island, scale, and tile decisions determine how much texture resolution each part receives and where distortion or overlap can occur.
 
+The Blender 2.80 Shader Editor also exposes Generated, Normal, Object, Camera, Window, and Reflection coordinate outputs. A Mapping node can translate, rotate, or scale the selected coordinates before they reach an image or procedural texture. This makes coordinate choice part of the material's dataflow and explains why a correctly loaded image may still appear reversed, stretched, or misplaced.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
 
 [[creatinggameenvironmentsinblender3d.pdf]]
+
+[[modelingandanimationusingblender.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[Multiplayer Scalability and Security]]
 
 # Man-in-the-Middle Attack
 
@@ -12,7 +12,11 @@ Authenticating endpoints and using an [[Encrypted Communication Channel]] reduce
 
 In a networked game, interception can occur on a machine other than the one running the client, allowing packets to be read or modified beyond the reach of local cheat detection. Authentication and encryption are especially important for credentials and other account-sensitive traffic.
 
+An attacker can also alter address-resolution or routing information so each endpoint unknowingly sends traffic through the attacker's host. Public-key cryptography can protect the exchange needed to establish a confidential channel, but a game should reserve its strongest guarantees for passwords, billing data, and other sensitive information rather than assuming every state packet needs the same treatment.
+
 # References
 
 [[cloudcomputing_mit.epub]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[multiplayergameprogramming.pdf]]

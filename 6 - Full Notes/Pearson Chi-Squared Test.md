@@ -10,6 +10,10 @@ The Pearson chi-squared test compares observed cell counts in a [[Contingency Ta
 
 The p-value is evaluated with degrees of freedom determined by the table dimensions. Sparse expected cells can undermine the approximation, in which case a [[Fisher Exact Test]] may be more appropriate.
 
+The same statistic also supports a goodness-of-fit test that compares observed category counts with a fully specified expected distribution. When continuous data are grouped into bins, the result can depend strongly on the number and boundaries of those bins, so grouping and expected-count adequacy belong in the design rather than being adjusted to obtain a preferred result.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

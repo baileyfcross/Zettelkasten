@@ -14,6 +14,8 @@ Within a broader taxonomy, filters contrast with wrappers, hybrids, and embedded
 
 For high-dimensional Big Data, filters are attractive because they avoid fitting a classifier for every candidate subset. Distributed scoring can extend that advantage, although pairwise relevance and redundancy measures may still be expensive.
 
+The [[SPEC Feature Selection Framework]] is a filter because it constructs a sample-similarity graph and scores feature vectors without fitting the downstream learner. This independence lets the same machinery serve supervised, unsupervised, and semi-supervised settings, but its quality is tied to the chosen similarity representation.
+
 # References
 
 [[dataclassification.pdf]]
@@ -21,3 +23,5 @@ For high-dimensional Big Data, filters are attractive because they avoid fitting
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
 
 [[frontiersofdatascience.pdf]]
+
+[[spectralfeatureselectionfordatamining.pdf]]

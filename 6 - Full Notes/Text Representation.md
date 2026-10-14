@@ -10,6 +10,10 @@ Text representation retains selected information from a document as features sui
 
 The representation should map text objects relevant to the same task into similar descriptions while separating objects that should differ. Richer representations can capture more meaning but often require more computation, data, and language-specific processing.
 
+A [[Sparse Text Feature Matrix]] makes large vocabularies computationally practical, while named entities, part-of-speech labels, emoticons, or hashtags can preserve signals that plain counts discard. Representation design therefore joins storage efficiency with a judgment about which distinctions matter.
+
 # References
 
 [[featureengineeringformachinelearninganddataanalytics.pdf]]
+
+[[textminingandvisualization.pdf]]

@@ -17,3 +17,5 @@ Blender's Texture Paint workspace keeps the 3D Viewport and Image Editor connect
 [[blenderfordummies4thedition.pdf]]
 
 [[creatinggameenvironmentsinblender3d.pdf]]
+
+[[introductiontoblender30.pdf]]

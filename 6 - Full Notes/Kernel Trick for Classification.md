@@ -10,6 +10,10 @@ The kernel trick replaces an inner product between explicit feature vectors with
 
 This avoids constructing every transformed coordinate, but prediction must evaluate the kernel against support vectors. Kernel choice and its parameters determine the geometry in which margin maximization occurs.
 
+In a reproducing kernel Hilbert space, regularized empirical-risk minimization has a solution in the span of kernel sections centered at the training observations. The support-vector representation is therefore a consequence of the function-space optimization, not merely a numerical shortcut.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[introductiontohigh-dimensionalstatistics.pdf]]

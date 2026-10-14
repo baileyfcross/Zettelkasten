@@ -10,7 +10,13 @@ Recall is the proportion of actual positive cases that a classifier identifies. 
 
 Thresholds that raise recall often lower [[Precision]], making the tradeoff a decision question rather than a purely technical optimum.
 
+In information retrieval, recall is the fraction of all relevant records that the system returns. Returning more candidates can raise recall while admitting irrelevant results. In medical testing the same measure is called sensitivity, emphasizing how reliably positive cases are detected.
+
+In a two-class text problem, each class has its own recall. Examining positive and negative recall together can expose an imbalanced model whose overall accuracy looks acceptable because it recognizes the larger or easier class.
+
 # References
 
 [[essentialsofdatascience.pdf]]
+[[machinelearning_mit.epub]]
 
+[[textminingandvisualization.pdf]]

@@ -15,3 +15,5 @@ Equivalently, it has equation $ax+by+cz=d$. The normal vector is perpendicular t
 # References
 
 [[foundationsofmath.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

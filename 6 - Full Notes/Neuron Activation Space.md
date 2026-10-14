@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]]
+Tags: [[Deep Feature Representation]]
 
 # Neuron Activation Space
 

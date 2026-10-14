@@ -14,6 +14,8 @@ Kelleher contrasts manually fixed neural-network choices with weights fitted dur
 
 The book tunes decision-tree complexity and loss choices by comparing held-out behavior, and it controls ensemble capacity through settings such as feature sampling, tree count, depth, learning rate, and boosting rounds. These choices shape the fitted procedure without being ordinary learned coefficients.
 
+Model form and input history length are also hyperparameters. In a sequence model, choosing a linear or quadratic rule and deciding how many earlier values may influence the next one change the learner's capacity before its ordinary weights are fitted. Hyperparameters should therefore be selected with validation evidence rather than chosen to explain one sample perfectly.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
@@ -21,3 +23,5 @@ The book tunes decision-tree complexity and loss choices by comparing held-out b
 [[deeplearning_mit.epub]]
 
 [[essentialsofdatascience.pdf]]
+
+[[machinelearning_mit.epub]]

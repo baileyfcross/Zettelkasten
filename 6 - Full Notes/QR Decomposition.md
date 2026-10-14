@@ -12,8 +12,12 @@ For full-column-rank least squares, orthogonality preserves residual length and 
 
 The source uses QR factorization to explain how R fits linear models more stably than an explicit inverse of $X^T X$. The factorization also reveals matrix rank, connecting numerical computation to whether model coefficients are uniquely estimable.
 
+Gram-Schmidt and Householder reflections both construct QR factorizations. The latter usually offers better numerical behavior because it applies orthogonal transformations to whole column tails instead of explicitly subtracting nearly dependent projections one at a time.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[linearalgebra.pdf]]

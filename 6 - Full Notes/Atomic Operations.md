@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]] [[Linux Kernel Lock-Free Synchronization]]
 
 # Atomic Operations
 
@@ -12,7 +12,10 @@ Atomic primitives avoid a full lock for small state transitions, but they do not
 
 Interlocked operations also establish the memory-order boundary required for other threads to observe the transition consistently. That ordering guarantee is part of their synchronization role, not merely a faster spelling of arithmetic.
 
+Linux supplies atomic integer, bitwise, exchange, and compare-exchange APIs along with specialized [[Reference Counting in the Linux Kernel|reference-count operations]]. They safely update one location, but a compound invariant across several fields still needs a lock or a proven lock-free protocol with explicit ordering.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+[[linuxkernelprogramming_secondedition.pdf]]

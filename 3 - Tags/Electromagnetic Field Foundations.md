@@ -1,6 +1,6 @@
 # Electromagnetic Field Foundations
 
-Parent topic: [[Finite Element Analysis]]
+Parent topics: [[Finite Element Analysis]] · [[Mathematical Methods in Theoretical Physics]]
 
 Maxwell theory, charge conservation, electromagnetic material behavior, interfaces, phasors, force, and power flow.
 

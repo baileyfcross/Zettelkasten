@@ -12,8 +12,12 @@ When PageRank converges, multiplying the final [[PageRank Vector]] by the Google
 
 For a chosen eigenvalue $\lambda$, eigenvectors are the nonzero solutions of the [[Homogeneous Linear System]] $(A-\lambda I)x=0$. Together with the zero vector they form the corresponding [[Eigenspace]], so every nonzero scalar multiple is also an eigenvector.
 
+For a linear operator, the same definition is $T(v)=\lambda v$. Eigenvectors belonging to distinct eigenvalues are linearly independent, a fact that underlies diagonalization when enough of them exist.
+
 # References
 
 [[algorithms.epub]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[linearalgebra.pdf]]

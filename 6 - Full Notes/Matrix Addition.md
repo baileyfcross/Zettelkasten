@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[FEM Mathematical Foundations]]
+Tags: [[Matrix and Vector Computation]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]]
 
 # Matrix Addition
 
@@ -12,8 +12,12 @@ The operation is commutative and associative, and the [[Zero Matrix]] acts as it
 
 During finite element assembly, matrices from elements sharing a degree of freedom contribute by addition to the corresponding global entries. Compatible dimensions and consistent local-to-global numbering are therefore essential.
 
+The student companion demonstrates addition and subtraction directly on R matrices and emphasizes the shared-dimension requirement. The concise syntax does not relax the mathematical rule: differently shaped arrays do not represent corresponding entries that can be combined.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

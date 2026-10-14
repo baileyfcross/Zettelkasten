@@ -10,6 +10,10 @@ Explainable AI develops methods and practices that make an automated result inte
 
 Explanation is not identical to complete technical disclosure. Different audiences need different answers, and a simplified explanation can mislead if it hides uncertainty or important limitations. Explainability may also trade off against model performance in some designs. Ethical use asks what level of understanding is necessary for informed action, challenge, and [[Algorithmic Accountability]].
 
+A recommender explanation can state why an item appeared, such as a prior view, a shared feature, or a pattern among similar users. This rationale helps a person build an accurate mental model, calibrate trust, and forgive an occasional poor suggestion; an opaque but statistically strong ranking may otherwise fail because its user cannot tell whose interest it serves.
+
 # References
 
 [[aiethics.epub]]
+
+[[recommendationengines.epub]]

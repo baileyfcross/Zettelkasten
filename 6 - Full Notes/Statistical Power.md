@@ -12,8 +12,12 @@ Power is conditional rather than an intrinsic property of a dataset. Changing th
 
 The source expresses power as the probability that a test statistic exceeds the chosen cutoff when the alternative is true. Its simulations show that increasing sample size narrows standard errors, separates the alternative distribution from the null, and increases the chance of detection.
 
+Equivalently, power is one minus the probability of a Type II error. An operating-characteristic curve can show how the chance of failing to reject changes across alternative parameter values, making clear that a study does not have one universal power value independent of the effect being considered.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

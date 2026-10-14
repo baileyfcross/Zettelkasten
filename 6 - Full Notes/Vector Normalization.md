@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Linear Algebra]]
+Tags: [[Game Linear Algebra]] · [[Vector Algebra and Geometry]]
 
 # Vector Normalization
 
@@ -10,7 +10,11 @@ Vector normalization divides a nonzero vector by its magnitude to produce a unit
 
 Unit directions simplify lighting, movement, and angle calculations. A zero vector cannot be normalized because it has no direction and would require division by zero.
 
+In symbols, normalizing a nonzero vector $v$ produces the [[Unit Vector]] $v/\|v\|$. Scaling by this reciprocal length changes magnitude without changing direction.
+
 # References
 
 [[gameprogrammingincplusplus.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

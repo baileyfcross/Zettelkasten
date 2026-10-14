@@ -12,5 +12,6 @@ Ill-conditioning is a property of the problem, not simply of the chosen algorith
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

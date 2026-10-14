@@ -1,6 +1,6 @@
 # Plane Trigonometry
 
-Parent topic: [[Foundations of Mathematics]]
+Parent topics: [[Foundations of Mathematics]] · [[Mathematical Methods in Theoretical Physics]]
 
 Radian measure, unit-circle ratios, trigonometric identities, and laws for solving plane triangles.
 

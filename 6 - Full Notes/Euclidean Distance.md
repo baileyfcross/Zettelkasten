@@ -12,8 +12,12 @@ The measure is sensitive to attribute scale and tends to support compact, globul
 
 The source extends the familiar two-dimensional formula to gene-expression samples with thousands of coordinates. The same square-root sum of squared feature differences defines pairwise sample distance once each column is interpreted as a point in high-dimensional space.
 
+In a feature-based recommender, Euclidean distance can compare user and item vectors or place related items into neighborhoods: a smaller distance represents greater similarity. Its scale sensitivity still applies, so a high-range feature can dominate recommendation unless the representation is normalized or deliberately weighted.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[recommendationengines.epub]]

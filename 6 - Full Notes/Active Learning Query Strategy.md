@@ -10,6 +10,10 @@ An active learning query strategy ranks unlabeled observations by the expected v
 
 Strategies can target uncertainty, disagreement, expected performance improvement, representativeness, or combinations of these goals. Selection bias and variable labeling costs must be considered when assessing the resulting model.
 
+Resampling can expose where a model is unstable: several models trained on slightly different subsets will disagree more in regions with little data. Those regions are candidates for new labels. In classification, cases near the current decision boundary—including a negative case that closely resembles positives—are informative because their labels can materially change the boundary.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[machinelearning_mit.epub]]

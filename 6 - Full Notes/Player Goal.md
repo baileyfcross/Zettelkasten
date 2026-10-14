@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Player Experience Design]]
+Tags: [[Player Experience Design]] [[Player Agency and Decision Design]]
 
 # Player Goal
 
@@ -12,7 +12,11 @@ Goals give consequences meaning and allow [[Feedback]] to be interpreted as prog
 
 A goal may be explicit, implied by the system's rewards and resistance, selected from many authored objectives, or invented by the player inside an open system. Increasing player control over purpose widens the conversation but does not remove the boundaries established by the rules.
 
+Useful goals operate at short, medium, and whole-game timescales, remain understandable enough for the player to form a path, and may change as the player learns. A designer can offer goals and consequences, but players can ignore, reinterpret, or deliberately subvert them.
+
 # References
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+
+[[playersmakingdecisions.pdf]]

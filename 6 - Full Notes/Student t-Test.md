@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Descriptive Health Statistics]] · [[Statistical Inference and Resampling]]
+Tags: [[Descriptive Health Statistics]] · [[Statistical Inference and Resampling]] · [[R Statistical Testing and Model Validation]]
 
 # Student t-Test
 
@@ -12,8 +12,12 @@ The result should include group means, the t statistic, degrees of freedom, a co
 
 The source constructs the test from the observed mean difference and its estimated standard error before using R's `t.test` function. It emphasizes that the t-distribution gives an exact small-sample result only when the underlying population is adequately approximated by a normal distribution.
 
+R's formula and vector interfaces support one-sample, independent two-sample, and paired designs, with Welch's unequal-variance comparison as the usual independent-sample default. The pairing flag changes the unit of analysis to within-pair differences and must match the actual study design.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[rprimer.pdf]]

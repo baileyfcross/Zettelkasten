@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Player Experience Design]] [[Level and Scene Design]]
+Tags: [[Player Experience Design]] [[Level and Scene Design]] [[Player Agency and Decision Design]]
 
 # Meaningful Decision
 
@@ -10,9 +10,16 @@ A meaningful decision is a choice that changes a discernible state, alters futur
 
 Meaningful decisions require some uncertainty and a [[Play Space]] with multiple viable paths. A dominant strategy, equivalent options, or an inevitable outcome turns apparent choice into an illusion and reduces [[Engagement]].
 
+An interesting choice offers more than one valid option, gives each option meaningful advantages and disadvantages, and produces outcomes that are predictable enough to reason about without being completely guaranteed.
+
 Choices feel integrated when they are made through established [[Game Verb|verbs]] and relationships. A [[Reflective Choice]] may leave the game state unchanged while still making the player consider identity, values, or attitude.
+
+The complete choice also depends on its framing and aftermath. [[Game Choice Anatomy]] traces context, option communication, input, consequences, and feedback; a weakness at any stage can turn an intended decision into guesswork or an illusion of agency.
 
 # References
 
 [[advancedgamedesign.pdf]]
 [[agamedesignvocabulary.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[playersmakingdecisions.pdf]]

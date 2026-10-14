@@ -14,6 +14,8 @@ For labeled data, the classifier combines class priors with feature likelihoods 
 
 The source presents the general Bayes decision boundary: for a given predictor vector, assign the class with the largest conditional probability. Practical learning methods approximate this unknown probability from training data rather than observing the true boundary directly.
 
+Under zero–one loss, this rule is the Bayes classifier and has the smallest possible misclassification probability. Parametric methods model a finite-dimensional family for the joint distribution, semiparametric methods constrain only part of it, and nonparametric methods estimate the decision structure more flexibly. Each approach trades assumptions against the sample size needed for accurate approximation.
+
 # References
 
 [[bayesianprogramming.pdf]]
@@ -21,3 +23,5 @@ The source presents the general Bayes decision boundary: for a given predictor v
 [[clusteranalysisanddatamining.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[introductiontohigh-dimensionalstatistics.pdf]]

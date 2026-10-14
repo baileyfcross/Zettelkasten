@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Blender Sculpting and Geometry Objects]]
+Tags: [[Blender Sculpting and Geometry Objects]] · [[Blender Efficient Modeling and Retopology]]
 
 # Reference Images for Blender Sculpting
 
@@ -10,6 +10,10 @@ Reference images help a digital artist judge proportion, scale, and silhouette w
 
 An image object can be transformed like other scene elements and aligned to a chosen viewing orientation. Camera objects can also display background images that appear only through the camera view.
 
+In the Blender 2.7x workflow, an image displayed by an Empty could be given transparency and a depth offset, then made nonselectable in the Outliner. This kept the reference visible and aligned while preventing it from interfering with modeling selections.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[howtocheatinblender27x.pdf]]

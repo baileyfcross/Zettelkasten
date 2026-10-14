@@ -14,6 +14,8 @@ Training first uses [[Forward Propagation]] to calculate layer-by-layer activati
 
 Kelleher separates the [[Neural Credit Assignment Problem|assignment of error sensitivity]] from the optimizer's choice of weight update. During the forward pass, each neuron's weighted sum and activation are stored. The backward pass first computes a local error gradient, or delta, for output neurons; hidden deltas combine downstream deltas according to connection weights and the derivative of the hidden activation. A weight's gradient is then its destination neuron's delta multiplied by the source activation. [[Gradient Descent]] can use those gradients, but it is a separate update rule rather than the meaning of the backward calculation itself.
 
+The method made multilayer networks trainable by carrying an output error through every earlier layer. Updates can follow one example, a [[Batch Learning|batch]], or a mini-batch. Very deep networks remain difficult when the backward signal must cross many parameters, so connectivity and architecture affect trainability as well as representational power.
+
 # References
 
 [[aiassistants.epub]]
@@ -23,3 +25,5 @@ Kelleher separates the [[Neural Credit Assignment Problem|assignment of error se
 [[bigdatamanagementandprocessing.pdf]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

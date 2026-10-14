@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[GenAI Resilience and Disaster Recovery]]
 
 # Recovery Time Objective
 
@@ -12,7 +12,10 @@ The objective should appear in continuity planning and service commitments so re
 
 RTO influences the choice among backup-and-restore, pilot light, warm standby, and active multi-site recovery. A shorter target generally increases the capacity and automation maintained before an incident. Measurement should begin at the agreed disruption point and end only when the service is usable, not merely when infrastructure has started.
 
+For GenAI inference, usable recovery includes obtaining accelerator capacity, loading the approved model, reconnecting retrieval data, passing readiness checks, and accepting routed requests. A restored Kubernetes control plane does not meet the objective if the model endpoint still lacks weights, GPU memory, or its vector store.
+
 # References
 
 [[cloudcomputing_mit.epub]]
 [[clouddevopsengineersguide.pdf]]
+[[kubernetesforgenerativeaisolutions.pdf]]

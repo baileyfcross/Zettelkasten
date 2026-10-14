@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[UX Evaluation]] [[Software Engineering]] [[Software Requirements Elicitation and Specification]]
+Tags: [[UX Evaluation]] [[Software Engineering]] [[Software Requirements Elicitation and Specification]] [[LLM-Assisted Project Management]]
 
 # Requirements Analysis
 
@@ -14,7 +14,11 @@ This work grounds [[User-Centered Design]] in actual context and supplies inputs
 
 Architectural analysis also classifies statements into behavior and quality constraints, resolves conflicts, and tests feasibility against schedule, budget, technology, and the expected operating environment.
 
+LLMs can organize large interview, questionnaire, document, and feedback collections; expose repeated or conflicting needs; and draft structured requirements and candidate tasks. This reduces manual synthesis but cannot repair missing stakeholder evidence, so analysts must confirm interpretations and resolve ambiguity with the people affected.
+
 # References
+
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[3duserinterfaces2ande.pdf]]
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]

@@ -10,6 +10,10 @@ A time-harmonic electromagnetic field oscillates sinusoidally at a single angula
 
 Time differentiation then becomes multiplication by the imaginary frequency factor, converting time-domain Maxwell equations into frequency-domain equations. This form is widely used for steady sinusoidal electrical systems.
 
+A frequency-domain device sweep solves a sequence of these single-frequency problems. In the book's waveguide model, each solution combines a complex spatial propagation factor with modal port fields, producing frequency-dependent electric-field distributions and [[Scattering Parameters]].
+
 # References
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[rfmodule.pdf]]

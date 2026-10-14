@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]]
 
 # Matrix
 
@@ -16,6 +16,8 @@ For statistical modeling, a matrix can place observations in rows and model term
 
 Finite element formulations use matrix notation to collect element coefficients, nodal unknowns, and loads. Assembly ultimately produces a large simultaneous system in which rows and columns follow the ordering of global degrees of freedom.
 
+The student companion constructs matrices in R by reshaping or binding vectors, then accesses entries with row and column indexes. It uses the object both as a rectangular data structure and as an operator that advances a scientific state through matrix multiplication.
+
 # References
 
 [[algorithms.epub]]
@@ -25,3 +27,5 @@ Finite element formulations use matrix notation to collect element coefficients,
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[rstudentcompanion.pdf]]

@@ -10,6 +10,10 @@ Digital machines represent numbers with a finite number of bits, so many values 
 
 Numerical methods control this risk through stable formulations, bounded errors, and checks on intermediate results. More hardware speed does not repair an unstable method; it can merely produce the wrong answer faster.
 
+The same mathematical expression can admit several computational analogs with different error behavior. Centering data before forming sums of squares and scaling columns whose magnitudes differ greatly are examples of changing the representation of a problem before finite-precision operations amplify its disparities.
+
 # References
 
 [[computationalthinking.epub]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

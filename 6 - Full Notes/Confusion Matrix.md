@@ -12,8 +12,12 @@ Those counts support accuracy, precision, recall, specificity, and F-measure. In
 
 The book derives held-out counts from predicted and observed classes, then uses them to interpret precision, recall, and the F-measure. Keeping the chosen positive class explicit prevents the same table from being read in contradictory ways.
 
+For sentiment models, the matrix also makes the asymmetry between positive and negative errors visible. This matters when class frequencies differ or when a lexicon returns a neutral outcome for messages it does not cover.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[textminingandvisualization.pdf]]

@@ -2,6 +2,8 @@
 
 Use this guide when the user asks to continue onto the next book in this vault. Work in the repository root. Process **exactly one source per request**, then stop. The next source is the first `unprocessed` entry in `.zettelkasten-processing/manifest.json` in its stored, case-insensitive relative-path order. Read the current manifest; do not rely on a book name remembered from an earlier session.
 
+For papers, apply the same note, taxonomy, validation, and Git rules to `2 - Source Material/Papers/`. Use `.zettelkasten-processing/papers-manifest.json` and the helper's paper-specific commands: `inventory-papers`, `extract-paper`, `show-paper-pages`, `validate-paper`, `complete-paper`, and `refresh-processed-paper-validations`. Process the first `unprocessed` paper in its stored, case-insensitive relative-path order and stop after exactly one paper.
+
 Do not stage, commit, or push. The user reserves all Git publication steps for themselves. Do not edit `.obsidian/`, move or modify source books, delete existing notes, or overwrite unrelated local changes.
 
 ## Authority and starting checks

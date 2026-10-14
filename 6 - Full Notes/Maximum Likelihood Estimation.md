@@ -12,8 +12,12 @@ The result is a point estimate and does not by itself retain uncertainty about n
 
 The source illustrates the method with Poisson counts: independence turns the joint probability of all observed segment counts into a likelihood for the rate parameter, and the maximizing rate is the sample mean count. The example shows how a distributional assumption determines the optimization target.
 
+For numerical work, products of many small density values are replaced by a sum of log densities, and maximizing likelihood is equivalently minimizing negative log-likelihood. A derivative-based optimizer can use the score and curvature, while parameter constraints and the starting value remain part of the computational problem.
+
 # References
 
 [[bayesianprogramming.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

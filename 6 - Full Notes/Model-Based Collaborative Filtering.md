@@ -10,6 +10,10 @@ Model-based collaborative filtering learns a predictive model from part of the i
 
 This approach can scale and generalize better than direct neighborhood lookup, but recommendations depend on the learned representation and training objective. [[Matrix Factorization Recommendation]] is a prominent model-based method.
 
+Training condenses interaction data into parameters that can score many users and items without consulting every observation at prediction time. This can increase catalog coverage under sparsity, but the model inherits whatever the objective rewards, so greater reach does not guarantee better user outcomes.
+
 # References
 
 [[frontiersofdatascience.pdf]]
+
+[[recommendationengines.epub]]

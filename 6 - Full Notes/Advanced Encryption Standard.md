@@ -10,6 +10,10 @@ The Advanced Encryption Standard is a symmetric block cipher available through .
 
 Security depends on more than selecting the AES algorithm name. Keys and initialization values must be generated and managed correctly, and applications should rely on established cryptographic constructions rather than inventing their own combinations of primitives.
 
+Because AES is symmetric, encryption and decryption depend on the same secret key. A .NET pipeline can place an AES transform behind a `CryptoStream` to process file or stream data incrementally, but the surrounding key, initialization-value, and integrity design remains part of the protocol.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

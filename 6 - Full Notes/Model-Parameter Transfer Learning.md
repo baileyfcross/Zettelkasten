@@ -10,6 +10,10 @@ Model-parameter transfer learning treats parameters learned in a source task as 
 
 Regularization determines how strongly target estimates remain near the source solution. Strong coupling helps when tasks share a predictive mechanism but introduces bias when their boundaries differ in consequential ways.
 
+In a deep network, early layers learned from a large source collection can be copied into a target network and later layers fitted for the new task. Reusing broadly useful visual features reduces the number of target parameters that must be learned, which is valuable when the target dataset is small. Transfer is warranted only when the tasks share the structure encoded by those layers.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[machinelearning_mit.epub]]

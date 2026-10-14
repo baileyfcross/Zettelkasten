@@ -14,6 +14,8 @@ In the book's classification treatment, a perceptron has input nodes fully conne
 
 Kelleher describes Rosenblatt's rule as error correction after each labeled example: if the output is correct the weights remain unchanged; otherwise, weights are changed in a direction intended to correct the mistake. The [[Learning Rate]] scales those changes. The convergence result applies when a separating set of weights exists, but an unsuccessful long run alone cannot tell whether convergence is merely slow or impossible for the examples.
 
+Alpaydin emphasizes the representational limit through exclusive OR: assigning each input enough weight to activate the unit separately also activates it when both are present, so one linear threshold cannot express the required pattern. Adding hidden layers overcomes that structural limit; changing only the one-layer weights cannot.
+
 # References
 
 [[algorithms.epub]]
@@ -21,3 +23,5 @@ Kelleher describes Rosenblatt's rule as error correction after each labeled exam
 [[clusteranalysisanddatamining.pdf]]
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

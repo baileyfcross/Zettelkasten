@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[AWS Cloud Economics and Cost Management]]
+Tags: [[AWS Cloud Economics and Cost Management]] [[Platform FinOps and Cost Management]]
 
 # FinOps
 
@@ -10,6 +10,10 @@ FinOps is a collaborative operating practice for making cloud value and cost vis
 
 The practice is iterative rather than a one-time cost-cutting project. The [[FinOps Lifecycle]] makes spending understandable, identifies worthwhile improvements, and embeds their execution into normal engineering work. Unit economics and business outcomes matter more than indiscriminately minimizing the total bill.
 
+For a platform team, FinOps is an architectural collaborator rather than an external savings mandate. Recommendations must be qualified against platform principles, user satisfaction, and developer experience, and the platform can integrate allocation, reporting, limits, and optimization into its self-service capabilities.
+
 # References
 
 [[clouddevopsengineersguide.pdf]]
+
+[[platformengineeringforarchitects.pdf]]

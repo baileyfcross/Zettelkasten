@@ -10,6 +10,10 @@ A .NET language compiler translates source code into intermediate language instr
 
 This intermediate representation separates the source language from the machine architecture. Different .NET languages can target the same runtime services, and one compiled assembly can remain portable where a compatible runtime supplies the required APIs.
 
+The compilation boundary also lets the Common Language Runtime validate type information and provide managed services before or during execution. Just-in-time compilation then translates the method's IL for the current processor, so the assembly carries portable instructions while execution uses native code.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Quadratic Equations]] · [[Polynomial Equations and Factorization]]
+Tags: [[Quadratic Equations]] · [[Polynomial Equations and Factorization]] · [[R Mathematical Functions and Coordinates]]
 
 # Quadratic Formula
 
@@ -14,8 +14,12 @@ for (ax^2+bx+c=0) with (a\neq0). The plus-minus sign represents the two candidat
 
 The method works whether or not integer factors are easy to find. Substitute the coefficients with their signs, simplify the radical and fraction, and verify the resulting values. Decimal approximations should be marked as approximations rather than exact equalities.
 
+The student companion implements the formula as vectorized R arithmetic and relates the discriminant to the plotted intersections of a [[Quadratic Function]]. This provides a computational check that the algebraic roots actually fall on the horizontal axis of the corresponding parabola.
+
 # References
 
 [[algebraessentials.pdf]]
 
 [[foundationsofmath.pdf]]
+
+[[rstudentcompanion.pdf]]

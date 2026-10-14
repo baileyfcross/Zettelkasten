@@ -12,8 +12,12 @@ Because both components depend on the chosen positive class and decision thresho
 
 The book calculates the measure from held-out confusion-matrix counts so a model must balance successful positive retrieval against the reliability of positive predictions. The appropriate balance remains dependent on the costs of false positives and false negatives.
 
+Macro-averaging computes an F-score for each class and then averages them, giving both positive and negative sentiment equal influence even when their frequencies differ. It complements accuracy by resisting domination by the larger class.
+
 # References
 
 [[dataclassification.pdf]]
 
 [[essentialsofdatascience.pdf]]
+
+[[textminingandvisualization.pdf]]

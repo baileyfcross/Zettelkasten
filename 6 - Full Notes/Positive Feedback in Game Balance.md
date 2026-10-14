@@ -13,3 +13,4 @@ This can reward good play and help a match reach resolution, but excessive feedb
 # References
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

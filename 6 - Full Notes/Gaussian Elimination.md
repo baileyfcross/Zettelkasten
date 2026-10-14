@@ -12,8 +12,14 @@ A small or zero pivot can amplify error or halt the naive algorithm. [[Partial P
 
 After assembly and boundary-condition enforcement, a finite element model becomes a simultaneous linear system. Gaussian elimination provides a direct route to its nodal unknowns by triangularization followed by back substitution.
 
+The column-by-column sweep eliminates entries below each pivot and applies the same row operations to the right-hand side. A dense implementation requires cubic-order arithmetic; [[Partial Pivoting]] adds row interchange so a zero or dangerously small diagonal element is not used as the divisor.
+
 # References
+
+[[numericalmethodsinengineeringandscience.pdf]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[finiteelementanalysis_aprimer.pdf]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

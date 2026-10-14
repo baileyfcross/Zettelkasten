@@ -12,7 +12,11 @@ An SLA should express outcomes that matter to the consumer rather than exposing 
 
 The agreement is an external commitment and may define consequences when the promise is missed. This distinguishes it from an internal objective used to steer engineering. A useful chain therefore runs from a measured [[Service Level Indicator]], to a target SLO, to the subset of promises and remedies formalized in the SLA.
 
+Internal SLOs can be more stringent or more technically specific than an SLA so they provide early warning before a contractual promise is breached. Incident analysis should therefore show which objective is threatened and whether that threat can propagate to the agreement's customer-facing commitment.
+
 # References
 
 [[cloudcomputing_mit.epub]]
 [[clouddevopsengineersguide.pdf]]
+
+[[observabilityintheai-nativeera.pdf]]

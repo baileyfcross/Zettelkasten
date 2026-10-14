@@ -13,3 +13,5 @@ Because event customization can become complicated, restore controls are importa
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

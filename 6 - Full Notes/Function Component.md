@@ -10,6 +10,10 @@ A function component is a JavaScript or TypeScript function that accepts props a
 
 Hooks such as [[React useState Hook|useState]] and [[React useEffect Hook|useEffect]] give function components local state and lifecycle-related effects. A TypeScript function-component type can associate a defined props interface with the function.
 
+The source calls the historical state-free form a stateless functional component: a function receives props and returns elements without an instance `this`. Destructuring can expose the required props at the parameter boundary, and keeping the function pure makes its UI output straightforward to test.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
+
+[[learningreact1.pdf]]

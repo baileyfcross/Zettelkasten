@@ -12,5 +12,6 @@ Sequences of these rotations can reduce matrices while preserving eigenvalues an
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

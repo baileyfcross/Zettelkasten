@@ -12,8 +12,12 @@ PageRank begins with relative-importance values summing to one and repeatedly ap
 
 For a general matrix, each multiplication is normally followed by normalization to prevent overflow and expose the scale factor. Convergence requires a [[Dominant Eigenvalue]] and a starting vector with a nonzero component in its eigendirection; the [[Rayleigh Quotient]] can estimate the corresponding eigenvalue.
 
+The asymptotic rate depends on the magnitude ratio between the second-largest and dominant eigenvalues. A ratio near one causes slow convergence, and sign changes in the dominant eigenvalue can make normalized iterates alternate even while their direction converges.
+
 # References
 
 [[algorithms.epub]]
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+
+[[statisticalcomputingincplusplusandr.pdf]]

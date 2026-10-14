@@ -13,3 +13,5 @@ The network separates material logic into visible stages. This makes it possible
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

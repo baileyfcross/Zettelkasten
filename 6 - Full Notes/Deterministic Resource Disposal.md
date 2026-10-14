@@ -10,6 +10,10 @@ Managed memory is reclaimed by garbage collection, but scarce operating-system r
 
 A C# `using` statement or declaration guarantees disposal when control leaves its scope, including when an exception occurs. This produces predictable resource lifetimes and prevents open streams or handles from lingering until nondeterministic finalization.
 
+A type that also has a finalizer can suppress that fallback after successful disposal with `GC.SuppressFinalize`. This keeps the explicit path responsible for normal cleanup while preserving finalization only for objects whose owners failed to dispose them.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[programmingincexam70-483mcsdguide.pdf]]

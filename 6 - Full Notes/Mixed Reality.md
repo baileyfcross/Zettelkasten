@@ -12,7 +12,13 @@ A system can be located on a continuum whose extremes are a purely real environm
 
 Near the real end, [[Augmented Reality]] makes the physical world the primary place of action and adds registered virtual information. Near the virtual end, augmented virtuality brings selected real-world imagery or participants into a primarily synthetic environment. The continuum classifies the resulting experience rather than requiring one display technology.
 
+A system can also divide one view into real and generated regions. A flight-training display, for example, may preserve the physical cockpit and instruments while replacing or augmenting the scene beyond the windows. This arrangement shows why mixed reality is about the functional relationship between sources, not merely the percentage of pixels that are real.
+
+That relationship must remain coherent during interaction. A real chair represented inside a virtual room, or a virtual object placed on a real table, should preserve scale, position, and response as the participant moves. Mixed reality fails when its parts are merely shown together but do not share a stable spatial and behavioral frame.
+
 # References
 
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
+[[practicalaugmentedreality.pdf]]
+[[virtualreality.epub]]

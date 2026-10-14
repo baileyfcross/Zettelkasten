@@ -12,8 +12,12 @@ A common, high-quality repository gives data mining a consistent view of organiz
 
 The book adds that a warehouse can materially shorten individual data science projects because extraction, standardization, and integration have already been done for shared use. Its historic records also allow models to be rolled through earlier time periods and checked for changing accuracy. A central repository is helpful, not a prerequisite for data science.
 
+Alpaydin distinguishes the warehouse from an operational database by its analytical purpose. Data may be selected from several sources, cleaned, merged, and summarized into the level needed for mining. The resulting read-oriented collection supports human-driven [[Online Analytical Processing]] as well as automated model discovery.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
 
 [[datascience_mit.epub]]
+
+[[machinelearning_mit.epub]]

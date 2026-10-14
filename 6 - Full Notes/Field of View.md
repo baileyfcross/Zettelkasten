@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spatial Perception and Navigation]] [[XR Environments]]
+Tags: [[Spatial Perception and Navigation]] [[XR Environments]] [[XR Human Factors and Safety]]
 
 # Field of View
 
@@ -12,13 +12,19 @@ Field of view describes what is visible at one moment, while [[Field of Regard]]
 
 A wider field of view can support peripheral vision, visual search, and spatial awareness, but it is only one component of [[Display Fidelity]].
 
+A wide display can also intensify visually induced self-motion and therefore increase [[Cybersickness]] for some users. Comfort depends on agreement between the physical display field and the geometric field used by the rendering camera, as well as on peripheral flicker, refresh rate, luminance, and scene motion. More coverage is not automatically safer or more accurate.
+
 AR often has a narrower augmented field than the user's unobstructed physical view. Virtual content can therefore disappear at an artificial image boundary even though its real referent remains visible, making off-screen cues and deliberate content placement important.
 
 In a perspective game camera, field of view is an input to the projection matrix. An excessively narrow value magnifies camera motion and can hide surrounding context, while a very wide value increases peripheral coverage but distorts the image near its edges.
+
+Headset design adds a resource tradeoff: widening the field spreads a finite display and rendering budget across more visual angle, which can reduce apparent sharpness. [[Foveated Rendering]] can partly address that tradeoff by concentrating detail near gaze. For see-through AR, the augmented field must also leave enough unobstructed physical vision for the task and surrounding hazards.
 
 # References
 
 [[gameprogrammingincplusplus.pdf]]
 [[3duserinterfaces2ande.pdf]]
 [[augmentedreality_pearson.pdf]]
+[[practicalaugmentedreality.pdf]]
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+[[virtualreality.epub]]

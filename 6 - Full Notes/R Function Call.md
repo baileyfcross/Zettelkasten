@@ -10,7 +10,10 @@ An R function call applies a named operation to supplied arguments and returns a
 
 Calls can be nested, assigned to objects, or connected with an [[R Pipe Operator]], making them the basic compositional unit of R analysis.
 
+R matches supplied arguments by exact name, partial name, and then position. Naming nontrivial arguments makes a call easier to inspect and reduces the risk that a later change in argument order alters the intended computation.
+
 # References
 
 [[essentialsofdatascience.pdf]]
 
+[[statisticalcomputingincplusplusandr.pdf]]

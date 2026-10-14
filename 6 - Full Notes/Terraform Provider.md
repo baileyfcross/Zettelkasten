@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Terraform Infrastructure as Code]]
+Tags: [[Terraform Core Workflow and State]]
 
 # Terraform Provider
 
@@ -10,7 +10,9 @@ A Terraform provider is a plugin that understands the API of a platform and expo
 
 The configuration declares the required provider and an acceptable version. `terraform init` then downloads the plugin before planning or applying changes. Provider configuration can also select details such as a cloud region, while authentication should come from an appropriate credential mechanism rather than hardcoded secrets.
 
+Aliased provider configurations let one root module target multiple regions, accounts, or subscriptions, and a module can receive the appropriate instance explicitly. Providers also define practical control-plane boundaries: a Kubernetes provider cannot plan workload resources until the cluster that supplies its endpoint and credentials exists.
+
 # References
 
 [[clouddevopsengineersguide.pdf]]
-
+[[masteringterraform.pdf]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Neural Network Training]]
+Tags: [[Neural Network Training]] · [[Reinforcement Learning Methods]]
 
 # Neural Credit Assignment Problem
 
@@ -10,6 +10,10 @@ In a multilayer network, the training data specify an expected final output, not
 
 [[Backpropagation]] addresses the problem by calculating local error gradients at the output and propagating them backward through the connections. A [[Gradient Descent|weight-update method]] can then use the resulting derivatives. Kelleher distinguishes these steps: assigning sensitivity to internal parameters is necessary before choosing how to change those parameters.
 
+Sequential decisions create a temporal form of the same problem: a reward may arrive only after many actions, so the learner must determine which earlier choices deserve credit. [[Temporal Difference Learning]] backs estimated future value through consecutive states, while supervised neural training backs output error through consecutive layers.
+
 # References
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

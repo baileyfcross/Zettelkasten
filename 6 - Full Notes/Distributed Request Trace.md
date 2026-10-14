@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud-Native Observability]]
+Tags: [[Cloud-Native Observability]] [[Docker Observability Operations]]
 
 # Distributed Request Trace
 
@@ -10,7 +10,14 @@ A distributed request trace records the end-to-end path of one request through s
 
 The assembled timeline reveals where latency or failure occurred in a microservice call chain. Metrics can identify that a service is slow and logs can explain an individual event; the trace shows which dependency or operation dominated the user's request. [[OpenTelemetry Trace Instrumentation]] supplies spans that a backend such as [[Jaeger Trace Visualization|Jaeger]] can assemble and display.
 
+Each span belongs to the trace and usually has a parent relationship, while a propagated trace identifier preserves continuity across HTTP calls, messages, queues, and asynchronous work. Sampling and restraint are necessary because capturing every internal call can duplicate other signals and make the tracing system too costly to operate.
+
+In a containerized service graph, a distributed trace connects work that crosses independently deployed containers and network boundaries. Propagated trace context turns otherwise separate spans into an end-to-end request path, making latency and failure ownership visible across the stack.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
 
+[[observabilityintheai-nativeera.pdf]]

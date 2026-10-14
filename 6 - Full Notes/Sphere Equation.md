@@ -15,3 +15,5 @@ The equation fixes the three-dimensional distance from every surface point to th
 # References
 
 [[foundationsofmath.pdf]]
+
+[[multivariableandvectorcalculus.pdf]]

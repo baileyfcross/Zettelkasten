@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[React Component Architecture]]
+Tags: [[React Component Lifecycle and Integration]]
 
 # React Component State
 
@@ -10,6 +10,10 @@ React component state stores values whose changes should cause a component to re
 
 State belongs to the component that owns the behavior and can be passed to children through props. Updating state rather than mutating rendered output directly keeps the interface derived from current application values.
 
+The source represents a class component's state as one object and changes it through `setState`. Each update schedules rendering from the new state; concentrating shared state near the root and passing it down as props provides a single place to understand the data that drives the interface.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
+
+[[learningreact1.pdf]]

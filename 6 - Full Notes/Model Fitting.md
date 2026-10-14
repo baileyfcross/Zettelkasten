@@ -10,6 +10,10 @@ Model fitting is the process through which a machine-learning model learns from 
 
 A fitted model should capture a relationship that also holds for new examples. Excessively close agreement with the training collection can become [[Overfitting]], which is detected by evaluating performance on a separate [[Test Dataset]].
 
+Fitting holds a model form fixed while adjusting its [[Machine Learning Model Parameter|parameters]]. A linear used-car estimator, for example, chooses an intercept and mileage weight so its line lies near the observed price points. The fitted line is valuable because it estimates cases absent from the original table; lookup would only return values already stored.
+
 # References
 
 [[algorithms.epub]]
+
+[[machinelearning_mit.epub]]

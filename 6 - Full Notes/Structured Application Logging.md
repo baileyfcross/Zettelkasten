@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud-Native Observability]]
+Tags: [[Cloud-Native Observability]] [[Docker Observability Operations]]
 
 # Structured Application Logging
 
@@ -10,7 +10,11 @@ Structured application logging records an event as named machine-readable fields
 
 Structure makes [[Distributed Logging]] more useful during an incident because operators can follow the same identifier across several services and a precise time window. The fields should supply operational context without placing passwords, tokens, or other secrets into a central store with broad retention and access.
 
+Structured logs let a container emit fields such as severity, service, request identifier, trace identifier, and event type through standard output. Central collectors can then filter and correlate events without parsing presentation-oriented prose, while rotation and retention remain platform responsibilities.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
 

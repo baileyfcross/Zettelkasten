@@ -17,3 +17,4 @@ The source identifies four essential elements: [[Play]], [[Pretending]], at leas
 [[advancedgamedesign.pdf]]
 
 [[fundamentalsofgamedesign3e.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

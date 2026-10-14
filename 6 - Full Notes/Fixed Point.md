@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Nonlinear Optimization Methods]]
+Tags: [[Numerical Root-Finding Methods]]
 
 # Fixed Point
 
@@ -14,3 +14,4 @@ The rearrangement matters because different choices of $g$ can have different co
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[numericalmethodsinengineeringandscience.pdf]]

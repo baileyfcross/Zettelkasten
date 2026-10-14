@@ -12,8 +12,12 @@ The approach can be memory based, using the observed dataset directly, or model 
 
 Neighborhood-based collaborative filtering separates an offline training stage from an online prediction stage. Training computes user-user or item-item similarities, while prediction combines the selected neighbors through accumulation or weighted averaging. This split also makes the two stages separate targets for [[Recommendation Hardware Acceleration]].
 
+User-based filtering treats people with similar histories as predictors for one another. Item-based filtering instead relates items through the users who interacted with them, which allows many correlations to be precomputed and can scale better than repeatedly rebuilding large user neighborhoods. Neither variant requires semantic knowledge of the items; its evidence comes from interaction patterns.
+
 # References
 
 [[frontiersofdatascience.pdf]]
 
 [[highperformancecomputingforbigdata_methodologiesandapplications.pdf]]
+
+[[recommendationengines.epub]]

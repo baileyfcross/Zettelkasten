@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-09-28T09:09:21.274Z",
+  "updatedAt": "2026-10-05T07:08:08.400Z",
   "sources": {
     "2 - Source Material/3 - Tags/Adaptive and Outcome-Based Cyber Defense.md": {
       "sourceHash": "c799f1159fa8eeea723135fc7a9cb928882b72dde9e9e0d3f7478b4dea83a200",
@@ -7495,6 +7495,16 @@
         "9d2276aa45454affc4fb7e9cc40dd2f726fd98ad47bbaa8230b686c004c0dd3b"
       ]
     },
+    "3 - Tags/3D Character Preproduction and Design.md": {
+      "sourceHash": "9fe928f6dcf1150ca20435947fc99f439d640f6155f24b582d7dcc0c3b44cafa",
+      "sourceType": "markdown",
+      "fileName": "3D Character Preproduction and Design.md",
+      "title": "3D Character Preproduction and Design",
+      "chunkCount": 2,
+      "objectHashes": [
+        "1df7a2eefbaf60c681cbed8d3908db740b742d4ee484cc53079b57ce23870004"
+      ]
+    },
     "3 - Tags/3D Game Rendering.md": {
       "sourceHash": "c19304c22d3c490bfed2263bff634c6f2e7ad965a6125e4a456f0c1e61855af7",
       "sourceType": "markdown",
@@ -7875,6 +7885,16 @@
         "5e20d63f2271e42d2371af868843c16253d2b2661d363a518ab85833d3cac1e1"
       ]
     },
+    "3 - Tags/Analytical Mechanics and Chaotic Dynamics.md": {
+      "sourceHash": "9ffd966704cb42843559db4c22b17b730c0a227b69b32234084d68d8a19add18",
+      "sourceType": "markdown",
+      "fileName": "Analytical Mechanics and Chaotic Dynamics.md",
+      "title": "Analytical Mechanics and Chaotic Dynamics",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6c044312fb04f5cd928e44c98e47736e9c07a01497bb49873ce56b3691ce092a"
+      ]
+    },
     "3 - Tags/Angular Application Architecture.md": {
       "sourceHash": "265bf977f049a7db7b52a958ff24d9e07b0a240b65bdb4b275f445307224de5d",
       "sourceType": "markdown",
@@ -8073,6 +8093,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "767efd082eae53bc075bcff2f7a7cfdf57d0b9f67f67094e6f1203720754f080"
+      ]
+    },
+    "3 - Tags/Astroculture and Planetary Imagination.md": {
+      "sourceHash": "6ef7e4dfb1380d6d50025a16f4f9ca8eb33ed4d66f14c1c882d3fa4ea6275abc",
+      "sourceType": "markdown",
+      "fileName": "Astroculture and Planetary Imagination.md",
+      "title": "Astroculture and Planetary Imagination",
+      "chunkCount": 2,
+      "objectHashes": [
+        "23b679a5d440e4a8246b66965ced84da13d716529690458fcfc20e993876161c"
       ]
     },
     "3 - Tags/Atmospheric Thermodynamics and Air Data.md": {
@@ -8533,6 +8563,36 @@
       "chunkCount": 2,
       "objectHashes": [
         "86fa13c6ce4a80c9811b3ebc418ffd051d45a5d70a8ec262cfb787811efb9348"
+      ]
+    },
+    "3 - Tags/Blender Character Animation Workflow.md": {
+      "sourceHash": "ac890236062904e2395719e7bf1cfa160f24573e0000e4daae802648c5d3c2ae",
+      "sourceType": "markdown",
+      "fileName": "Blender Character Animation Workflow.md",
+      "title": "Blender Character Animation Workflow",
+      "chunkCount": 2,
+      "objectHashes": [
+        "3c77fd0b95c325ca07bd8055a87ccbc7315780b5625de263a7963aa54493f749"
+      ]
+    },
+    "3 - Tags/Blender Character Rigging and Deformation.md": {
+      "sourceHash": "8ac5dada3038a735280735c152ba0a6a87d033216c8e86f3b343266c6992f157",
+      "sourceType": "markdown",
+      "fileName": "Blender Character Rigging and Deformation.md",
+      "title": "Blender Character Rigging and Deformation",
+      "chunkCount": 2,
+      "objectHashes": [
+        "f78f14b73f0cce83f793b3821628d9548dec7f5dfde1620a8fa9ebdc09cb5cab"
+      ]
+    },
+    "3 - Tags/Blender Character Surface Development.md": {
+      "sourceHash": "2c2f9dc2b30aff734426b45693209626431c45955467d25d1c4bde8fd2b92b8a",
+      "sourceType": "markdown",
+      "fileName": "Blender Character Surface Development.md",
+      "title": "Blender Character Surface Development",
+      "chunkCount": 2,
+      "objectHashes": [
+        "21bad9d5dcd4dd640175cd616d7aa449fae66f37419482bf32221c3a0a3f3aff"
       ]
     },
     "3 - Tags/Blender Core Source Architecture.md": {
@@ -9085,6 +9145,16 @@
         "e2fd411a086f5d09d41651abec525c98361a9bec48f95d990c7ac576b00ce1aa"
       ]
     },
+    "3 - Tags/Character Topology and Modeling.md": {
+      "sourceHash": "b5b577537f8cd920592a10a1f0fa66ab942346c25a86c825f23c78688b2bc53c",
+      "sourceType": "markdown",
+      "fileName": "Character Topology and Modeling.md",
+      "title": "Character Topology and Modeling",
+      "chunkCount": 2,
+      "objectHashes": [
+        "1179c9efa25b0865cf6e3c079007272d736129afa28751f500b39dbb05ed69ca"
+      ]
+    },
     "3 - Tags/Chinese Healthcare Big Data.md": {
       "sourceHash": "ea64aa040d7940dd75705abac0c89ee6a413fdca812e728c6075026c73554aba",
       "sourceType": "markdown",
@@ -9335,6 +9405,16 @@
         "3d18a951075e4cf97c5f5bb8659abe3d430f6f5a7992800fa64260a23d3cfa52"
       ]
     },
+    "3 - Tags/Cold War Space Programs and Prestige.md": {
+      "sourceHash": "066ae15472df4505a66f6bccd3050b1281291d75c6b662ff183acba0f35be020",
+      "sourceType": "markdown",
+      "fileName": "Cold War Space Programs and Prestige.md",
+      "title": "Cold War Space Programs and Prestige",
+      "chunkCount": 2,
+      "objectHashes": [
+        "5daccd4a822bd6c084ee5764b1e517356756e0c70767710f0b981a2d6de050cf"
+      ]
+    },
     "3 - Tags/Collaborative Augmented Reality.md": {
       "sourceHash": "bb72a33156f6ea246f9aad59f5c3d941b27ae805fb3468f4c7247636644416a5",
       "sourceType": "markdown",
@@ -9383,6 +9463,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "c7f8f2338b92d0aacee6502fe6e92ba2d6953bb15d356bf997bc7dd0adccd72d"
+      ]
+    },
+    "3 - Tags/Complex Analysis and Conformal Mapping.md": {
+      "sourceHash": "190f8af29f41746dcfb784966e122b878fd039738cd69798e8e88b0477fb792c",
+      "sourceType": "markdown",
+      "fileName": "Complex Analysis and Conformal Mapping.md",
+      "title": "Complex Analysis and Conformal Mapping",
+      "chunkCount": 2,
+      "objectHashes": [
+        "bfedf830c01c1437eb822f72c7f2d7b3ba9cc191b9236e2a8d0898ff5b70f63f"
       ]
     },
     "3 - Tags/Complex Linear Algebra.md": {
@@ -10625,6 +10715,16 @@
         "a4cf33b2ea71893918c0ad26f78679e4c78d2bf7c3cfc1733bd3707fae4e75df"
       ]
     },
+    "3 - Tags/Fourier Series and Integral Transforms.md": {
+      "sourceHash": "73b3740c88c6de6b87c55c596ef2197b74254f7acdd2764631373ccdefdfa968",
+      "sourceType": "markdown",
+      "fileName": "Fourier Series and Integral Transforms.md",
+      "title": "Fourier Series and Integral Transforms",
+      "chunkCount": 2,
+      "objectHashes": [
+        "0c10a96f73763ce194913f7e0bf654f0e962dd40792ebb90a0d9639bc3822635"
+      ]
+    },
     "3 - Tags/Fractions and Decimal Forms.md": {
       "sourceHash": "2b90f0407ba3d83dacc0b616e709fd233b25a1ed1b3cbf24a41ef359f46fb44f",
       "sourceType": "markdown",
@@ -11465,6 +11565,16 @@
         "9babe276e6a9d2fa787b6564378bce1a07f38f8da3fc5e39dc7b49bb7fd5196c"
       ]
     },
+    "3 - Tags/Integral Calculus and Series.md": {
+      "sourceHash": "f469a173e2943cf5b060cef6396be650abf36671320cb1d1a4e62429fe27b679",
+      "sourceType": "markdown",
+      "fileName": "Integral Calculus and Series.md",
+      "title": "Integral Calculus and Series",
+      "chunkCount": 2,
+      "objectHashes": [
+        "4b744d371c71919344494b2858290d87eb1f10f668ce3c0a7547649cfcd54680"
+      ]
+    },
     "3 - Tags/Integral Domains and Ring Characteristic.md": {
       "sourceHash": "1bcdd6272c0a64c54dffc68d1a78b03832e57cf04aec2e8a9fc43088f05fcad6",
       "sourceType": "markdown",
@@ -11545,6 +11655,16 @@
         "ad4544066e01bf758ca4155216e5715dc9701a14a80e33e355a5dc1433d708b0"
       ]
     },
+    "3 - Tags/Istio Service Mesh Operations.md": {
+      "sourceHash": "29ab1e0c1d65ee8b9f05e65d3b8c40c44c5580920130b905474d31f85cc812f0",
+      "sourceType": "markdown",
+      "fileName": "Istio Service Mesh Operations.md",
+      "title": "Istio Service Mesh Operations",
+      "chunkCount": 2,
+      "objectHashes": [
+        "fcdfa90160854bd842943a3a7ba877d1365f682c58095b6a54b6abfd122683f1"
+      ]
+    },
     "3 - Tags/Iterative Game Design Cycle.md": {
       "sourceHash": "0ec0214395d5c2a11b0a4f419c65af3f14dd20f0f92221a6b3b79dc1cb1c556b",
       "sourceType": "markdown",
@@ -11603,6 +11723,86 @@
       "chunkCount": 2,
       "objectHashes": [
         "f533bf2a48dbb8a270c3f97a6b8744326a74d22c3040472a1390e00d87467fd7"
+      ]
+    },
+    "3 - Tags/Kubernetes Backup and Restore Operations.md": {
+      "sourceHash": "cd692e491ff33a49af7db42fd991617380f4c71eea38b163a36d28e4faa5d206",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Backup and Restore Operations.md",
+      "title": "Kubernetes Backup and Restore Operations",
+      "chunkCount": 2,
+      "objectHashes": [
+        "fbaca62d70ea3c4f616d22ff7963e4983ba8b30767ca2c24da0f5b00fb63449d"
+      ]
+    },
+    "3 - Tags/Kubernetes Cluster Architecture and Resources.md": {
+      "sourceHash": "e35217e2dbdd74cdd9251b040b14c0863fd6ac6549d3e2e9befdede8cd9f2c07",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Cluster Architecture and Resources.md",
+      "title": "Kubernetes Cluster Architecture and Resources",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6dab22f1b999317974db149c256c7d846ff7f1edc47b81901641a9c09e6d0c8c"
+      ]
+    },
+    "3 - Tags/Kubernetes Enterprise Operations.md": {
+      "sourceHash": "21fb242eeea7303b7daca832ed73380bcf17c9f76ee77683beb21cc9aa26d0d8",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Enterprise Operations.md",
+      "title": "Kubernetes Enterprise Operations",
+      "chunkCount": 10,
+      "objectHashes": [
+        "18152c5b4d5aa954dbe23a8d9eb77c7d660c5f4588a629f3688148299d148a42"
+      ]
+    },
+    "3 - Tags/Kubernetes Identity Access and Secrets.md": {
+      "sourceHash": "5f3c85222579d01cd97e9eda76c0224ff3fde73563ebe2bcdbff08e8198f6742",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Identity Access and Secrets.md",
+      "title": "Kubernetes Identity Access and Secrets",
+      "chunkCount": 2,
+      "objectHashes": [
+        "7d417c14c5e2ae226b8024581dfc1e9e1157c0fb77a9a7377ada37f5fa6df5c7"
+      ]
+    },
+    "3 - Tags/Kubernetes Monitoring and Log Operations.md": {
+      "sourceHash": "0998c196b1eb4c394376cfe2b10955bf29c9133dca6f1d137b12409860b26d89",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Monitoring and Log Operations.md",
+      "title": "Kubernetes Monitoring and Log Operations",
+      "chunkCount": 2,
+      "objectHashes": [
+        "66abe0729df56c6da9f921564f1bf2d4bbcbe4f7ca3c6594c1e75eb7e2cdeb75"
+      ]
+    },
+    "3 - Tags/Kubernetes Multitenancy and Secure Interfaces.md": {
+      "sourceHash": "40c0dfba99088c7de3b739813fd0a0f3596a08f1b4d80535060dd50b002ef34e",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Multitenancy and Secure Interfaces.md",
+      "title": "Kubernetes Multitenancy and Secure Interfaces",
+      "chunkCount": 2,
+      "objectHashes": [
+        "c976af51522414cbfd1d1de86ffcaf5ff4b5a66aef0143f506b7179e80cfd771"
+      ]
+    },
+    "3 - Tags/Kubernetes Policy and Runtime Security.md": {
+      "sourceHash": "a0ca6d3aa50892953ff2537eec2aea8a232442407032339a373f4df16da14a79",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Policy and Runtime Security.md",
+      "title": "Kubernetes Policy and Runtime Security",
+      "chunkCount": 2,
+      "objectHashes": [
+        "ff5ef00b8b44e7fbf9fdb004f6c0e40fb60207a2b977b165d1a9f032d40d9d78"
+      ]
+    },
+    "3 - Tags/Kubernetes Service Networking and Traffic.md": {
+      "sourceHash": "98229d8c2b9edc47e57a36c717536ebca5e348cedb2db7e0d404c3a10ee916fd",
+      "sourceType": "markdown",
+      "fileName": "Kubernetes Service Networking and Traffic.md",
+      "title": "Kubernetes Service Networking and Traffic",
+      "chunkCount": 2,
+      "objectHashes": [
+        "8032af614f448de3f1588f5c52fda96da034254bcbef5535394ff0738e3cb144"
       ]
     },
     "3 - Tags/Language and Speech Generation.md": {
@@ -11883,6 +12083,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "78164b81f21d11261425c7e43f08a1b9c5bfab6179d95de49f7b9813055c7677"
+      ]
+    },
+    "3 - Tags/Mathematical Methods in Theoretical Physics.md": {
+      "sourceHash": "c36e3b252c6c67d49fb6bab0f8902be37f0e1b11f9426be329c1e570e320f131",
+      "sourceType": "markdown",
+      "fileName": "Mathematical Methods in Theoretical Physics.md",
+      "title": "Mathematical Methods in Theoretical Physics",
+      "chunkCount": 5,
+      "objectHashes": [
+        "3ed6b2e1994777c18b406348ea790dba70e2dd422cc736cad36600075846c4f5"
       ]
     },
     "3 - Tags/Mathematics.md": {
@@ -12335,6 +12545,16 @@
         "8aebb8b1f51136c803975209665e8653f7bf7da51cd5f4e8baf7fb5b7a0ccd41"
       ]
     },
+    "3 - Tags/Ordinary Differential Equations and Phase Space.md": {
+      "sourceHash": "617eaae1834190826d549efa16e171e5a6df7bf2f2ae32753cf8d7a0356bd00d",
+      "sourceType": "markdown",
+      "fileName": "Ordinary Differential Equations and Phase Space.md",
+      "title": "Ordinary Differential Equations and Phase Space",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6c909e326757bc6b3abeb09428fa7490f13ebb0205328b14c5d4b664d434d89e"
+      ]
+    },
     "3 - Tags/Organ-on-a-Chip Systems.md": {
       "sourceHash": "51beee48fad28b583fcc346beff930b36ad151131b25e210a20a3a90cf5ae123",
       "sourceType": "markdown",
@@ -12415,6 +12635,16 @@
         "dafbbc7cee97a6c3ac8b50079093dacea1d90b96a75c94bbb1cb2fc56a5ac615"
       ]
     },
+    "3 - Tags/Partial Differential Equations and Separation Methods.md": {
+      "sourceHash": "8b53a1a5181d4d3974eb9998482a744310ec0752e2e190f001f90cb48c3c639a",
+      "sourceType": "markdown",
+      "fileName": "Partial Differential Equations and Separation Methods.md",
+      "title": "Partial Differential Equations and Separation Methods",
+      "chunkCount": 2,
+      "objectHashes": [
+        "130cefdf8dccf71f71f8a30133005e81b4d175396ccd00b2681004df46f5f680"
+      ]
+    },
     "3 - Tags/Particle and Destruction VFX.md": {
       "sourceHash": "264b7f945d63282be6252b0e5a39404d37a62f0d6762e77b348a41d35faee7a0",
       "sourceType": "markdown",
@@ -12443,6 +12673,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "c15110c3ded420c3c3fff306d0f337a6f359b7196474cc4df3cfc8c988d37b44"
+      ]
+    },
+    "3 - Tags/Personal Data Interpretation and Meaning.md": {
+      "sourceHash": "8a063f2afd0c3efa1f31265387669f4429c526ae7880c64b8205c89d8e721535",
+      "sourceType": "markdown",
+      "fileName": "Personal Data Interpretation and Meaning.md",
+      "title": "Personal Data Interpretation and Meaning",
+      "chunkCount": 2,
+      "objectHashes": [
+        "5ae925f077df3c15ef10d947f420da4d6c17bf537a44817ae2e9d636b829a6a6"
       ]
     },
     "3 - Tags/Photogrammetric Image Analysis.md": {
@@ -12623,6 +12863,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "8babdb844a36e3b52ae01e14f362dcb46b2054ed46813bbcf5f1feff41421b10"
+      ]
+    },
+    "3 - Tags/Post-Cold-War Human Spaceflight and Commercialization.md": {
+      "sourceHash": "9e71a7ce8dcd3e535abe9c6deffbe0624e689722a0ed1ee2461f66ba132a3048",
+      "sourceType": "markdown",
+      "fileName": "Post-Cold-War Human Spaceflight and Commercialization.md",
+      "title": "Post-Cold-War Human Spaceflight and Commercialization",
+      "chunkCount": 2,
+      "objectHashes": [
+        "4c0c389d3ce3daa521863ac13a37a7af259807fb8a715051a824549968d3ad8a"
       ]
     },
     "3 - Tags/Power Plant Architectures.md": {
@@ -12835,6 +13085,16 @@
         "383005de75870961c49fb891a29fce78d2861ad4be566ab5bdb8362411c142e3"
       ]
     },
+    "3 - Tags/R Base Graphics Composition.md": {
+      "sourceHash": "1f64fe8f3adea21f7112e62d5d56e9380db3bb2a2917057f0437caa7795bba14",
+      "sourceType": "markdown",
+      "fileName": "R Base Graphics Composition.md",
+      "title": "R Base Graphics Composition",
+      "chunkCount": 2,
+      "objectHashes": [
+        "600715cfe8f3cbed12784f77caee91799b5dc7d106197839c298eed2bbfd8228"
+      ]
+    },
     "3 - Tags/R Coding Style.md": {
       "sourceHash": "471825c827cbbe9d8c9b9511954a45a772b6470409b2e9f208b4078cbc29dd48",
       "sourceType": "markdown",
@@ -12855,6 +13115,26 @@
         "4e82a92aadcaa987cbf8e237eda1d4c0919d5818829f486a834193c160b8164c"
       ]
     },
+    "3 - Tags/R Data Interchange and External Formats.md": {
+      "sourceHash": "2ec48f9d731beea73c6606f05132c7c09cabbd187f3e8668f67dec6cae23fc3c",
+      "sourceType": "markdown",
+      "fileName": "R Data Interchange and External Formats.md",
+      "title": "R Data Interchange and External Formats",
+      "chunkCount": 2,
+      "objectHashes": [
+        "16111da03039ac39012000be0abc7bc6b77e881b19d7481247ca966a8f018e67"
+      ]
+    },
+    "3 - Tags/R Data Transformation and Reshaping.md": {
+      "sourceHash": "ba65ec29959c7cf69ef9295cb7051ddc0995a841ceff7f72df89936a9b7687e4",
+      "sourceType": "markdown",
+      "fileName": "R Data Transformation and Reshaping.md",
+      "title": "R Data Transformation and Reshaping",
+      "chunkCount": 2,
+      "objectHashes": [
+        "5be2bf4b832527646999860dd1dcc81944fea83ef2986c3f676f8df3c6ba85f3"
+      ]
+    },
     "3 - Tags/R Function Design.md": {
       "sourceHash": "8833db1eecc33fb9d67d3b8748be20e5eb141e159df2c9dd67cf9044d9acb2b6",
       "sourceType": "markdown",
@@ -12865,6 +13145,66 @@
         "8da64289fa7a096c1736e8bc60c1401c005e1a34d63fe5352f06df9037c7c299"
       ]
     },
+    "3 - Tags/R Iteration Logic and Control Flow.md": {
+      "sourceHash": "374b12046a3753d1fe6008f4cf0185dbb6f9d70ead06de34678efb431313cab8",
+      "sourceType": "markdown",
+      "fileName": "R Iteration Logic and Control Flow.md",
+      "title": "R Iteration Logic and Control Flow",
+      "chunkCount": 2,
+      "objectHashes": [
+        "61edb33e8ce2d1fcbf82f95c0637184d356d72917be4fc89d4d5bbef40ffef76"
+      ]
+    },
+    "3 - Tags/R Mathematical Functions and Coordinates.md": {
+      "sourceHash": "809a158f78a3b8fb534eef6f1254ec0c9dfab5779457457c14d3fd544879afd9",
+      "sourceType": "markdown",
+      "fileName": "R Mathematical Functions and Coordinates.md",
+      "title": "R Mathematical Functions and Coordinates",
+      "chunkCount": 2,
+      "objectHashes": [
+        "088bab84585e9715f6000516e526dda37a40947f9c28d6a52826ac045c06e9fd"
+      ]
+    },
+    "3 - Tags/R Matrix Systems and Scientific Models.md": {
+      "sourceHash": "e3e8dfab2cfd7d7a7c73b4fef9e585b8e84463cfef10a8c003bda2ae0fe8a366",
+      "sourceType": "markdown",
+      "fileName": "R Matrix Systems and Scientific Models.md",
+      "title": "R Matrix Systems and Scientific Models",
+      "chunkCount": 2,
+      "objectHashes": [
+        "b2df2bf6878beac4795e4b435e62ca517242aa67daba74a4edaa4920c2789cc2"
+      ]
+    },
+    "3 - Tags/R Multivariate Resampling and Survival Modeling.md": {
+      "sourceHash": "d5c5a3972ef93e2399a98a08ce88f4f160ce39c6aa7d44b9ce850a1dc7603d9d",
+      "sourceType": "markdown",
+      "fileName": "R Multivariate Resampling and Survival Modeling.md",
+      "title": "R Multivariate Resampling and Survival Modeling",
+      "chunkCount": 2,
+      "objectHashes": [
+        "3780f731dd5dbc389fe81ba64d90a045f708e97994ac75d0407685e78c115481"
+      ]
+    },
+    "3 - Tags/R Package Workspace and System Operations.md": {
+      "sourceHash": "af09c26640402735608dbf8b9759378891a0bee57917612c417abd5952720595",
+      "sourceType": "markdown",
+      "fileName": "R Package Workspace and System Operations.md",
+      "title": "R Package Workspace and System Operations",
+      "chunkCount": 2,
+      "objectHashes": [
+        "4a4d7f5976a45452fe789122140504b3e76e90c318f37ae13cda8ba3339a830c"
+      ]
+    },
+    "3 - Tags/R Probability Simulation and Curve Fitting.md": {
+      "sourceHash": "232d083ad0014cc42acf52c7ac37fa67b95c9cd93678815d921a3a1ee030f06c",
+      "sourceType": "markdown",
+      "fileName": "R Probability Simulation and Curve Fitting.md",
+      "title": "R Probability Simulation and Curve Fitting",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6db1c88a6867965b7b6ff3f0042ff0603aac8ad2b90a37309f23cab476d00f2c"
+      ]
+    },
     "3 - Tags/R Programming Environment.md": {
       "sourceHash": "04c44cb1d101a9a7a051facfecdd5a455c0a36cffc02326356f625bd27cb17e2",
       "sourceType": "markdown",
@@ -12873,6 +13213,26 @@
       "chunkCount": 2,
       "objectHashes": [
         "50d02db8bc0e3426d8cf25ad7f519beb57af69f3db3db2ed9e9b672b30516daa"
+      ]
+    },
+    "3 - Tags/R Regression and Longitudinal Modeling.md": {
+      "sourceHash": "4f73c376a4b6ea56bae604933db32e44ac1f70d4b1f70292a2a72df4ca6eef8b",
+      "sourceType": "markdown",
+      "fileName": "R Regression and Longitudinal Modeling.md",
+      "title": "R Regression and Longitudinal Modeling",
+      "chunkCount": 2,
+      "objectHashes": [
+        "47909360205201f4df4ba452c25985c6d3e3c1aab6add3fefeba5082797b5778"
+      ]
+    },
+    "3 - Tags/R Scripts Functions and Debugging.md": {
+      "sourceHash": "7f443cb415b446c9d327ed7dbbc2dce566d5e67f21a5c6108ddae2fd13ba1493",
+      "sourceType": "markdown",
+      "fileName": "R Scripts Functions and Debugging.md",
+      "title": "R Scripts Functions and Debugging",
+      "chunkCount": 2,
+      "objectHashes": [
+        "543593320d8842dfa8fb001e12ec20a322229d8e40b30da3d33bfa49c6849325"
       ]
     },
     "3 - Tags/R Spatial Data Structures.md": {
@@ -12903,6 +13263,26 @@
       "chunkCount": 2,
       "objectHashes": [
         "32c4ace9a529dea441ed24d22d780a409251cc1c6cbf2b9a5f9b8bfdb02cce56"
+      ]
+    },
+    "3 - Tags/R Statistical Graphics and Export.md": {
+      "sourceHash": "095b9d4121309ae2e1bc81b81aea9f2989cd150568e293ecb9827f0bf7e9b079",
+      "sourceType": "markdown",
+      "fileName": "R Statistical Graphics and Export.md",
+      "title": "R Statistical Graphics and Export",
+      "chunkCount": 2,
+      "objectHashes": [
+        "0ad0432a949b3623b7cd06cb7bbc1f65a2df77bbec3785ce7999ec7bcecc9ffe"
+      ]
+    },
+    "3 - Tags/R Statistical Testing and Model Validation.md": {
+      "sourceHash": "02d4c9fd002bae23ec0ea8fa5e8e1cb7bf8694b03f5298062a4ea508e9790e0f",
+      "sourceType": "markdown",
+      "fileName": "R Statistical Testing and Model Validation.md",
+      "title": "R Statistical Testing and Model Validation",
+      "chunkCount": 2,
+      "objectHashes": [
+        "bb2a71c590a09783dc9255651830b652fec2792de4b729f92855d66f8c3dd9dd"
       ]
     },
     "3 - Tags/R Table and Figure Reporting.md": {
@@ -13075,6 +13455,16 @@
         "a856c639975bacecd20d2a48c190487d4c20b9069fd5c165ed8908e9df4427d6"
       ]
     },
+    "3 - Tags/Relativistic Quantum Mechanics.md": {
+      "sourceHash": "ce4fa2d4e4a33e944238ee80f30b2471f06ebead9face0c3619c102702a55780",
+      "sourceType": "markdown",
+      "fileName": "Relativistic Quantum Mechanics.md",
+      "title": "Relativistic Quantum Mechanics",
+      "chunkCount": 2,
+      "objectHashes": [
+        "168004690c2637f7be2ce5180121f913cfa576fd3255c131890c68d814750fe1"
+      ]
+    },
     "3 - Tags/Reproducible R Programming.md": {
       "sourceHash": "85e339254d209df6ff7fa986aa16502b56086610cd25676df7fa97fb2394170a",
       "sourceType": "markdown",
@@ -13105,6 +13495,26 @@
         "5b237aabf9c2045de13d82ef95b918ce03381bf08428e4c67b6dd2693730f0a9"
       ]
     },
+    "3 - Tags/Robotic Space Science and Exploration.md": {
+      "sourceHash": "4956cb4d240f2aba662237b26120db57c8e99c6a2b0152831cae670a4a596e13",
+      "sourceType": "markdown",
+      "fileName": "Robotic Space Science and Exploration.md",
+      "title": "Robotic Space Science and Exploration",
+      "chunkCount": 2,
+      "objectHashes": [
+        "be59c3412a045a08dd718510b6c20c3010a146e4cedf56260b39ee872eeff400"
+      ]
+    },
+    "3 - Tags/Rocketry Origins and Military Development.md": {
+      "sourceHash": "06802d5d2bf12b1c0fed678d3f37e96c92edf573300e995a93efdf1fe74391e4",
+      "sourceType": "markdown",
+      "fileName": "Rocketry Origins and Military Development.md",
+      "title": "Rocketry Origins and Military Development",
+      "chunkCount": 2,
+      "objectHashes": [
+        "21578ca9162af22ea5a4b9b9e2e643462cfbb348f22b1d10a1358205b2921a23"
+      ]
+    },
     "3 - Tags/Rotoscopy and Motion Tracking.md": {
       "sourceHash": "1eaa65b5e2e85c43e3825869b49805b8f381386a55cc9c1ee1aa414445a326bb",
       "sourceType": "markdown",
@@ -13133,6 +13543,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "e434e50f341101a10399a59e5829ee6458a593571980ea13d045cd072227769d"
+      ]
+    },
+    "3 - Tags/Satellite Infrastructure and Orbital Services.md": {
+      "sourceHash": "ebacf8d273f2a0d6960e28a114f46d717c4ade7280d7622827b04032f039479e",
+      "sourceType": "markdown",
+      "fileName": "Satellite Infrastructure and Orbital Services.md",
+      "title": "Satellite Infrastructure and Orbital Services",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6e800ec90294855e6b71ba93b43c888622d4b0b6dd99f361a6e7aab6f92ad96c"
       ]
     },
     "3 - Tags/Satellite Navigation Principles.md": {
@@ -13175,6 +13595,16 @@
         "3a748c902b65cd2bd8ed28edae931e0213eb96201c7ddaaba0748a5e0418e1b7"
       ]
     },
+    "3 - Tags/Scientific Computing with R.md": {
+      "sourceHash": "e5b8e3a3fbeb7fe9eb8c665fdaec8778cbe6c9f67a42c4f6ce9b5b4985bf5ca4",
+      "sourceType": "markdown",
+      "fileName": "Scientific Computing with R.md",
+      "title": "Scientific Computing with R",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4c4bbd9d618734391b6222ee4f0b0a28d5ec38b1e0e049914171274115b193ca"
+      ]
+    },
     "3 - Tags/Scrum and Agile Foundations.md": {
       "sourceHash": "3b0db84ab21d5aab79dd89b2f7d6430218aa15b27edf62e6cb99904b0ce071b3",
       "sourceType": "markdown",
@@ -13203,6 +13633,46 @@
       "chunkCount": 2,
       "objectHashes": [
         "0fa3d5d5ae630ea4177435aba8663a030fc30f9268712ecf535e0c7d9f6fc0f7"
+      ]
+    },
+    "3 - Tags/Self-Tracking and Personal Data.md": {
+      "sourceHash": "27974fb8fda92d871b8b30659a99fce271c9f6ce5e8c9fb183047e82b5eca3da",
+      "sourceType": "markdown",
+      "fileName": "Self-Tracking and Personal Data.md",
+      "title": "Self-Tracking and Personal Data",
+      "chunkCount": 5,
+      "objectHashes": [
+        "4c13f9459569e39ee8244f09732c3fb7c40e65da82535c43b65b77b4190ab82b"
+      ]
+    },
+    "3 - Tags/Self-Tracking Data Rights and Privacy.md": {
+      "sourceHash": "e020bf6d8b6387db7c8d76d502b08824d5adf746cc18d6cec4c87cc23d8181f6",
+      "sourceType": "markdown",
+      "fileName": "Self-Tracking Data Rights and Privacy.md",
+      "title": "Self-Tracking Data Rights and Privacy",
+      "chunkCount": 2,
+      "objectHashes": [
+        "6d28729323c7016bd61431fd6a1b61611bad555e3535f6b9d00fdcc15f0fd116"
+      ]
+    },
+    "3 - Tags/Self-Tracking Markets and Institutional Power.md": {
+      "sourceHash": "6e0cbc4203dde5bd59ee3203218896070c496eb2bf718826cb41ee8ca3534b1e",
+      "sourceType": "markdown",
+      "fileName": "Self-Tracking Markets and Institutional Power.md",
+      "title": "Self-Tracking Markets and Institutional Power",
+      "chunkCount": 2,
+      "objectHashes": [
+        "fcb346ec8866b3b5345d0c7a4f8c14eaabc1f12daecc2ce008be7db041f6f6f8"
+      ]
+    },
+    "3 - Tags/Self-Tracking Practices and Experiments.md": {
+      "sourceHash": "3800c60b781afb6906b2b277c702797b3649f3357397916f9ce5775b6cec2e9c",
+      "sourceType": "markdown",
+      "fileName": "Self-Tracking Practices and Experiments.md",
+      "title": "Self-Tracking Practices and Experiments",
+      "chunkCount": 2,
+      "objectHashes": [
+        "04c9cbf570bc6b06c176622c5a13cadb5f06ed51593df9062713024c7d3b5472"
       ]
     },
     "3 - Tags/Semiconductor and Integrated Circuit History.md": {
@@ -13445,6 +13915,16 @@
         "cfd6cfb7f5aca8e6288a9e37103aeae417c8657f994c68add4c717a4b973b541"
       ]
     },
+    "3 - Tags/Spaceflight History Culture and Infrastructure.md": {
+      "sourceHash": "b5c182e59816fd6e9bd72e88c49783da5609d8959fe71125b740070ed144f2a3",
+      "sourceType": "markdown",
+      "fileName": "Spaceflight History Culture and Infrastructure.md",
+      "title": "Spaceflight History Culture and Infrastructure",
+      "chunkCount": 5,
+      "objectHashes": [
+        "cdb395159099733fb4675ca5ec3c93ff43e3d6a6f7241b16fdc35b8be4c268ed"
+      ]
+    },
     "3 - Tags/Spatial Data Visualization in R.md": {
       "sourceHash": "80c016018b4bed63a7c0aaf9e8d4f5163f3e2cb8c0b933b9a356b3bebce44f30",
       "sourceType": "markdown",
@@ -13513,6 +13993,16 @@
       "chunkCount": 4,
       "objectHashes": [
         "0d8a258c7735ac880ea2021ec481e94b551110130773590715ff34dc92d57098"
+      ]
+    },
+    "3 - Tags/Special Functions and Orthogonal Expansions.md": {
+      "sourceHash": "5794d31ba8f8fbc538b01ac81cb8aa18cb4c405e47c6c6f74d6e15ea9f8005e5",
+      "sourceType": "markdown",
+      "fileName": "Special Functions and Orthogonal Expansions.md",
+      "title": "Special Functions and Orthogonal Expansions",
+      "chunkCount": 2,
+      "objectHashes": [
+        "f12a8a590eb8bef1d1fa26ff0c6e0539b9a2f859f67cb075799c0f05f495c93f"
       ]
     },
     "3 - Tags/Speech and Acoustic Modeling.md": {
@@ -13983,6 +14473,16 @@
       "chunkCount": 2,
       "objectHashes": [
         "0c63b01a8419f7b2c280e7dabbf749d808cfeb47f2cf0a944b1119ce961df94b"
+      ]
+    },
+    "3 - Tags/Vector Calculus and Integral Theorems.md": {
+      "sourceHash": "d5c0f726cca457a934de1bcd21625bba43f2954bd3fad9181431eb84cbf16354",
+      "sourceType": "markdown",
+      "fileName": "Vector Calculus and Integral Theorems.md",
+      "title": "Vector Calculus and Integral Theorems",
+      "chunkCount": 2,
+      "objectHashes": [
+        "b5debb316febd2b6eb42bdca4c5fcf4ca40430b2920f9c4bc4d6f42c45e4ed75"
       ]
     },
     "3 - Tags/Vector Space Geometry.md": {
@@ -14555,6 +15055,16 @@
         "4ae60b70519ef8247b87efdc8094bfa6c6c8268560f9b9e0d980e5db07ddb834"
       ]
     },
+    "6 - Full Notes/Accept-CH Opt-In.md": {
+      "sourceHash": "1b643a4a31ca0f750c742c842974339824c41944339904d2015d9e37ac48d395",
+      "sourceType": "markdown",
+      "fileName": "Accept-CH Opt-In.md",
+      "title": "Accept-CH Opt-In",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d43cd9702f14ec0c9761a23741db69bb91f2e3134f91948e90a19c02bf41ccfd"
+      ]
+    },
     "6 - Full Notes/Acceptable Use Policy.md": {
       "sourceHash": "907fd02c5691269049c79588071278c17567872b66efedf97137d2856f2dfdca",
       "sourceType": "markdown",
@@ -14773,6 +15283,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "8f6b58573654ed46e7a7849a41baeeec17b7224f9aa6f10ae2e855b3ffafeacd"
+      ]
+    },
+    "6 - Full Notes/Activity Tracker.md": {
+      "sourceHash": "6c9d82b2c191b44e58064bec2fb2f43b98d9d8aa35e79466804cafb469b9fcb5",
+      "sourceType": "markdown",
+      "fileName": "Activity Tracker.md",
+      "title": "Activity Tracker",
+      "chunkCount": 3,
+      "objectHashes": [
+        "78379aa366b2e8d48b7695eb064a0aedb233c7dd8246017f8378a4b0984e98ec"
       ]
     },
     "6 - Full Notes/Actor Component Model.md": {
@@ -25345,6 +25865,16 @@
         "f11d50301bd1f7860c35f975a4948aa8bf8a538a56882f048efd696a9abacdd0"
       ]
     },
+    "6 - Full Notes/Cache-Control for Image Intermediaries.md": {
+      "sourceHash": "5680bf63739a79d6b850edaf63e0a003e0f6aea3e285d5ae3388a41698ed28f8",
+      "sourceType": "markdown",
+      "fileName": "Cache-Control for Image Intermediaries.md",
+      "title": "Cache-Control for Image Intermediaries",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a8e9a0e817856a6f52750dca88572981b609c37f4318d645db6f4dd7a29f8c14"
+      ]
+    },
     "6 - Full Notes/Cache-Control Header.md": {
       "sourceHash": "d1f146153c7302981bf15be728c30e7ec724ef2d6c473945ee7e5c1c9e873046",
       "sourceType": "markdown",
@@ -25933,6 +26463,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "e4f084580c8c941d6044f0feed9f15df967992a1309ca94ca8bf2fd8b79c17cf"
+      ]
+    },
+    "6 - Full Notes/CDN Variant Cache Fragmentation.md": {
+      "sourceHash": "ef8307ca502a122b1fe281bbf38b2bfb9bad26fe11b2c4b8d002cb4ec765e5bf",
+      "sourceType": "markdown",
+      "fileName": "CDN Variant Cache Fragmentation.md",
+      "title": "CDN Variant Cache Fragmentation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "34a8a6164b4860fb52e9d8922ab352577ea7f1ee1a0a2db2825ad7746dd11d28"
       ]
     },
     "6 - Full Notes/Cech Complex.md": {
@@ -26843,6 +27383,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "15f567867d9b1b77a21342d8155f2feda91e1d9a54640d6e591bd4674b0e0dd0"
+      ]
+    },
+    "6 - Full Notes/Client Hints Image Negotiation.md": {
+      "sourceHash": "9827a21646eade836e3f828841303b012262a757daac0e110e94778ba7dd6b15",
+      "sourceType": "markdown",
+      "fileName": "Client Hints Image Negotiation.md",
+      "title": "Client Hints Image Negotiation",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f9eda3a52f3db294bd431dc3e11c0ce943d054da06a3efa0558dacaada036228"
       ]
     },
     "6 - Full Notes/Client-Server Evolution from Time-Sharing.md": {
@@ -30993,6 +31543,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "6c8b1695a3e67e3c8581b166e5aad1654f852145e45974ef66257ddfe61d87ea"
+      ]
+    },
+    "6 - Full Notes/Content-DPR Response Header.md": {
+      "sourceHash": "09b9272465f32e9eed1c3cf2d34700cbd1f6c035638a455af6cb83200b3a9e3e",
+      "sourceType": "markdown",
+      "fileName": "Content-DPR Response Header.md",
+      "title": "Content-DPR Response Header",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0b5792512b09ec9fa763eba40ff6526a72b94b6843c76d7e580d76b23418240d"
       ]
     },
     "6 - Full Notes/Content-Driven Game.md": {
@@ -36925,6 +37485,16 @@
         "7e1d75c2d6df376928a0dae221838c3a555c4d9a4c43e7243fff78afccc91732"
       ]
     },
+    "6 - Full Notes/Device-Pixel-Ratio Client Hint.md": {
+      "sourceHash": "e2754ec06c9c801a255b12fcea54e9adccadaf2e8237d1832cb78e651813add5",
+      "sourceType": "markdown",
+      "fileName": "Device-Pixel-Ratio Client Hint.md",
+      "title": "Device-Pixel-Ratio Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "e8dddf7a65711231bfaef30ea4ea98997ef633de0feeb873c767b08d288938e8"
+      ]
+    },
     "6 - Full Notes/DevOps Agent Architecture.md": {
       "sourceHash": "a5986cce81ac4a3d194c843b96a6e43220cc561f07bc5768d5896d88d7f85eef",
       "sourceType": "markdown",
@@ -38503,6 +39073,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "aa688650d3e3afd61c3da5a620d0c13cd717a0eebdb9739f252d22ced2d50c4e"
+      ]
+    },
+    "6 - Full Notes/Downlink Client Hint.md": {
+      "sourceHash": "9bc0998c43e4ab9b60e36ef866c28211edafbb810e9439dc8e03731fa2240ca6",
+      "sourceType": "markdown",
+      "fileName": "Downlink Client Hint.md",
+      "title": "Downlink Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "f3872326fa20251f6e05b359d4d50f467b185d77344574685a9ddd283c2c663b"
       ]
     },
     "6 - Full Notes/Downward Causality.md": {
@@ -41193,6 +41773,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "f22baadbf6b4d17218c3a8e4ae4117ef5c474b2abb1754d720da3b5a81ac2d19"
+      ]
+    },
+    "6 - Full Notes/Explicit and Implicit Recommendation Feedback.md": {
+      "sourceHash": "3c139de53056f0fb4916cc22bed9b5419ed1209775551f2bef066e4e7368f351",
+      "sourceType": "markdown",
+      "fileName": "Explicit and Implicit Recommendation Feedback.md",
+      "title": "Explicit and Implicit Recommendation Feedback",
+      "chunkCount": 3,
+      "objectHashes": [
+        "a41026550cd373cac639ba0026fef810677cdafcd6653bd7ce4bf38915e04ce4"
       ]
     },
     "6 - Full Notes/Explicit Challenge.md": {
@@ -49945,6 +50535,16 @@
         "0886f096cdce59cf07c265cfc1e26637a56e323c6f3c791f1a72543a93c9dc48"
       ]
     },
+    "6 - Full Notes/Image Domain Sharding Under HTTP2.md": {
+      "sourceHash": "14fd4ef38da85b02604d38eb6315bf153648e3931774579045e0294ebad21cde",
+      "sourceType": "markdown",
+      "fileName": "Image Domain Sharding Under HTTP2.md",
+      "title": "Image Domain Sharding Under HTTP2",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d1811ad432e7693e1e39a539ed049aacfd0d357a0d15ff4652ac67d2c5b3f2e4"
+      ]
+    },
     "6 - Full Notes/Image Forensics Countermeasure.md": {
       "sourceHash": "3d4d9462a638a771c82ad9e8c529fa3709f009ffeec1cac285e56952248aadb4",
       "sourceType": "markdown",
@@ -49995,6 +50595,16 @@
         "3b3842af8ca6ac3594d14fc9f16ae091c9d5605942cb3d10b7cef28dcd0ed032"
       ]
     },
+    "6 - Full Notes/Image Quality Tier Selection.md": {
+      "sourceHash": "5fb95bd58f65a2567db6f4b192f7795edc895366298481c2fcef9cfa039e6a2d",
+      "sourceType": "markdown",
+      "fileName": "Image Quality Tier Selection.md",
+      "title": "Image Quality Tier Selection",
+      "chunkCount": 3,
+      "objectHashes": [
+        "21a5c5608a00fa18d834d9670c456fb828bdb007dc9ba3b4be8b9c75f945c669"
+      ]
+    },
     "6 - Full Notes/Image Recognition.md": {
       "sourceHash": "3e2c0fb84b8225ac3c126bce65f2a1bebb971355d281387c23b009b5ecaf994d",
       "sourceType": "markdown",
@@ -50023,6 +50633,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "a2f51aaa32ff6b783146f23b48103ed8384d3ee73867b94fca6efb4ad8d62eb0"
+      ]
+    },
+    "6 - Full Notes/Image Width Breakpoint Budget.md": {
+      "sourceHash": "7104865c6a65c4f6f29720c10cfea6a56f6bd8599fcd3a108a13626989053581",
+      "sourceType": "markdown",
+      "fileName": "Image Width Breakpoint Budget.md",
+      "title": "Image Width Breakpoint Budget",
+      "chunkCount": 3,
+      "objectHashes": [
+        "2f62e26b7ebc43cbdd0124e20ac02d643bac4c47dd7b2a913dc7f42b67e7424a"
       ]
     },
     "6 - Full Notes/Image-Based Lighting.md": {
@@ -69555,6 +70175,76 @@
         "8330417de45509232f72b5d69ddec224250df41d128de951d8e234af5a1df1bd"
       ]
     },
+    "6 - Full Notes/Recommendation Choice Architecture.md": {
+      "sourceHash": "c01864f32f3464af6ea2961912a177ff2ebe8bdb4045ba3e0dfb431fe58ad391",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Choice Architecture.md",
+      "title": "Recommendation Choice Architecture",
+      "chunkCount": 3,
+      "objectHashes": [
+        "17b259b3daeaa44066f1056ca55a99997dd2395de89f872ade303ad74d31e301"
+      ]
+    },
+    "6 - Full Notes/Recommendation Evaluation Objective.md": {
+      "sourceHash": "d4fd7442dbc70f00e13727d8572edf9cf302114ce6788852ecf3fff43f6f29f5",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Evaluation Objective.md",
+      "title": "Recommendation Evaluation Objective",
+      "chunkCount": 3,
+      "objectHashes": [
+        "7614f8e37bb87fd8e2ffedb1661e091e6b176f6e605eac8a3d3fcb1ac9e4a229"
+      ]
+    },
+    "6 - Full Notes/Recommendation Filter Bubble.md": {
+      "sourceHash": "8d65e15a65c3ea48f54c1a658cdd74f644b06b9368457da742fc2349532d330c",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Filter Bubble.md",
+      "title": "Recommendation Filter Bubble",
+      "chunkCount": 3,
+      "objectHashes": [
+        "65dad736a531bc62379b1dbe67c8294ee94b29892785ce7700d10e3ffbc3951e"
+      ]
+    },
+    "6 - Full Notes/Recommendation Serendipity.md": {
+      "sourceHash": "268afc846888deae4a6f7036ad136bfc4fc6d7b0f451f81182d6bbc08e50367d",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Serendipity.md",
+      "title": "Recommendation Serendipity",
+      "chunkCount": 3,
+      "objectHashes": [
+        "56df46ac8c3d51515b627ff3de88789ada59af812de310182885cbfb4c9a5345"
+      ]
+    },
+    "6 - Full Notes/Recommendation Shilling Attack.md": {
+      "sourceHash": "6971a8deb6fa44bf98853ed024a6baa79fc46090d80100fbef737065fb01f46f",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Shilling Attack.md",
+      "title": "Recommendation Shilling Attack",
+      "chunkCount": 3,
+      "objectHashes": [
+        "fe04a4f8d3c9283ac92d5bd895d11ba936e227b64fb001e3b5d583b1d25bbb1c"
+      ]
+    },
+    "6 - Full Notes/Recommendation Utility Matrix.md": {
+      "sourceHash": "a4e28bfdf7223dab5ebab5033551aec4a141579e09c8dd9f4a4bfa54a5004865",
+      "sourceType": "markdown",
+      "fileName": "Recommendation Utility Matrix.md",
+      "title": "Recommendation Utility Matrix",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6f14771d8bf35db13f1d6821f37001d714f92097872f1bb7f70d2ce19e3f91af"
+      ]
+    },
+    "6 - Full Notes/Recommender Cold Start.md": {
+      "sourceHash": "a3dc280b37e50e7c285e74a67c92ad80562bc96fa07e84eb29e88c0203eaf4b5",
+      "sourceType": "markdown",
+      "fileName": "Recommender Cold Start.md",
+      "title": "Recommender Cold Start",
+      "chunkCount": 3,
+      "objectHashes": [
+        "d885d4c607863b328b167478468247946995a3b7598366d9a717220ae6501f50"
+      ]
+    },
     "6 - Full Notes/Recommender System.md": {
       "sourceHash": "a449f977c9cb3afae25d509669fcdc9f99c74165e6e67d87e081e61e87e46100",
       "sourceType": "markdown",
@@ -70905,6 +71595,16 @@
         "97a9fd42101c10ddc844ffafdfd90cb4d829f4941d99d0b32d46fb6b74043379"
       ]
     },
+    "6 - Full Notes/Resource Width Client Hint.md": {
+      "sourceHash": "cebc55da66e2669da563c90b1e451b6778a3fc2cb1bd9a81ab0945a793580412",
+      "sourceType": "markdown",
+      "fileName": "Resource Width Client Hint.md",
+      "title": "Resource Width Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "9318cdef5ca236c58dbd2793b4b48830cf3c2e96f00eaa025dbc9979a40dabc6"
+      ]
+    },
     "6 - Full Notes/Resource.md": {
       "sourceHash": "b83fac69d5ec58432e7145fa5c49e8dacf3a94636db8b9131bfcef87e9a0bdc0",
       "sourceType": "markdown",
@@ -72045,6 +72745,16 @@
         "01e48d73e34371704e90a3ff6870a826a326b6efa5a93c1f571b080c02b8cfa1"
       ]
     },
+    "6 - Full Notes/Save-Data Client Hint.md": {
+      "sourceHash": "e07e27fe1bf8c99b2a721d5235dcbec4bf06684d1f7b771ee6fe38134cd4db31",
+      "sourceType": "markdown",
+      "fileName": "Save-Data Client Hint.md",
+      "title": "Save-Data Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "8b2dcdc60ab40e6579d873736b68025a383aa273417dfa846b5957c6b24d4317"
+      ]
+    },
     "6 - Full Notes/Saving Painted Textures in Blender.md": {
       "sourceHash": "c8236b5d85fa276986efe9a5e879a67ae3702afd4c563025c7265a8e1eb575fd",
       "sourceType": "markdown",
@@ -73063,6 +73773,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "9f0a2652e8b87e53ce7d50e253e4dbc88bf89837635b350eb0be47c810f4687c"
+      ]
+    },
+    "6 - Full Notes/Sensor Sampling Rate.md": {
+      "sourceHash": "140d60103e5087724858b5a9bda0d415b50d58bc944ef701ccdc92bf9659a00d",
+      "sourceType": "markdown",
+      "fileName": "Sensor Sampling Rate.md",
+      "title": "Sensor Sampling Rate",
+      "chunkCount": 3,
+      "objectHashes": [
+        "dc6fbf0fdafb052812d91c34e3d784604372b278533d8eafb335775d9d810705"
       ]
     },
     "6 - Full Notes/Sensor Selection for Correlation Clustering.md": {
@@ -74223,6 +74943,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "70e48fd60f454fa4029778cf9e8066d9ee47cd337d1c6ce86704c1e9340af85d"
+      ]
+    },
+    "6 - Full Notes/Single URL Versus Image Variant URLs.md": {
+      "sourceHash": "920297baaf6977da0898e8194e3057f7c143414463255cd87be5b6c793d3246e",
+      "sourceType": "markdown",
+      "fileName": "Single URL Versus Image Variant URLs.md",
+      "title": "Single URL Versus Image Variant URLs",
+      "chunkCount": 3,
+      "objectHashes": [
+        "6e4c6f803d670b419611c5afe6c4523ec259352a806b684be85858abbccc8be1"
       ]
     },
     "6 - Full Notes/Single-Image Depth Ambiguity.md": {
@@ -84145,6 +84875,16 @@
         "dffcdce52bb419a4e990072cde0c1d3c00d0f315f8a8a6b762fa3fbae7521ba1"
       ]
     },
+    "6 - Full Notes/Vary Header for Image Variants.md": {
+      "sourceHash": "b1c64c702495f5db207a1d867816df13142003cc2d5d2d0f000094559bd19482",
+      "sourceType": "markdown",
+      "fileName": "Vary Header for Image Variants.md",
+      "title": "Vary Header for Image Variants",
+      "chunkCount": 3,
+      "objectHashes": [
+        "4abcfe0632e1ec80c0e4352d6e1f736192bd90a26befb221427938c7af5d51fb"
+      ]
+    },
     "6 - Full Notes/Varying Cross-Section Bar.md": {
       "sourceHash": "03ef66c1ca640bd5b8b6685b044097e222c4d2dd9a3749c04fb2c13a9404a3f9",
       "sourceType": "markdown",
@@ -84723,6 +85463,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "a9fddae4e2f1fb765686873cc15bd7504be240478c9c05281b3acc8eff41c916"
+      ]
+    },
+    "6 - Full Notes/Viewport-Width Client Hint.md": {
+      "sourceHash": "4922d6b6d15b606381ecc1d0882359289661a3c223bc5c79c21ea9f612114203",
+      "sourceType": "markdown",
+      "fileName": "Viewport-Width Client Hint.md",
+      "title": "Viewport-Width Client Hint",
+      "chunkCount": 3,
+      "objectHashes": [
+        "5d7dfdc4ef0515e4a38bc58f8130932da168e29b10de6340a085641195f7aa82"
       ]
     },
     "6 - Full Notes/Vignetting.md": {
@@ -85463,6 +86213,16 @@
       "chunkCount": 3,
       "objectHashes": [
         "ac4362520bc5c3848d29c2973a51617824ca7969d181f4e1a433563477c23ecf"
+      ]
+    },
+    "6 - Full Notes/Wearable Device.md": {
+      "sourceHash": "506adb6cf60405951eb37808027b5b35370597e794285b08ea2d115191905ff6",
+      "sourceType": "markdown",
+      "fileName": "Wearable Device.md",
+      "title": "Wearable Device",
+      "chunkCount": 3,
+      "objectHashes": [
+        "0162215f315d4bb1c71d73459823e93a342c8dcdbad4c2ca8943c01a5a1ccd02"
       ]
     },
     "6 - Full Notes/Web 4.0.md": {

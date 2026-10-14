@@ -12,8 +12,12 @@ The coefficient is sensitive to outliers and can be small when a strong relation
 
 The source further warns that correlation measures linear association, not agreement or reproducibility. Its compact interpretation is most complete for approximately bivariate-normal data; shared trends, broad ranges, or a single extreme observation can otherwise create a misleadingly high value.
 
+A scatterplot should precede the coefficient because it can expose curvature, clusters, restricted range, and influential observations hidden by a single number. Partial correlation asks about the association between two variables after accounting for specified others, but its adjusted relationship remains dependent on the variables and model chosen.
+
 # References
 
 [[analyzinghealthdatainrforsasusers.pdf]]
 
 [[dataanalysisforthelifescienceswithr.pdf]]
+
+[[researchmethodsforinformationsystems.pdf]]

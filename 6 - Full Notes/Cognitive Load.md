@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Human Cognition]]
+Tags: [[Human Cognition]] [[Modern Software Delivery Foundations]] [[Developer Self-Service and Platform Experience]] [[Game Learning and Cognitive Design]]
 
 # Cognitive Load
 
@@ -14,7 +14,19 @@ Evaluation can combine subjective workload ratings with task-performance or phys
 
 In games, [[Articulatory Distance]] adds effort between intention and input, while [[Semantic Distance]] adds effort between feedback and understanding. These demands consume a finite [[Interactivity Budget]], so simultaneous fast action and complex reflection can overwhelm a player even when each demand is manageable alone.
 
+In platform engineering, excessive cognitive load appears when delivery teams must understand the implementation details of every infrastructure and tool integration. A platform reduces that burden by encapsulating complexity behind documented self-service contracts while still exposing the operational information users need.
+
+The platform should present each persona with the signal and control relevant to its responsibility. Hiding all infrastructure makes failures mysterious, while exposing every platform and tenant detail creates noise; effective abstraction preserves awareness of what affects the application without requiring developers to operate the shared substrate.
+
+For game learning, unfamiliar controls, goals, story terms, and system relationships all compete for a small working-memory capacity. Gradual introduction, [[Working Memory Chunking|chunking]], and [[Instructional Scaffolding|scaffolding]] let early concepts enter long-term memory before later demands are combined.
+
 # References
+
+[[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[3duserinterfaces2ande.pdf]]
 [[advancedgamedesign.pdf]]
+
+[[platformengineeringforarchitects.pdf]]
+
+[[playersmakingdecisions.pdf]]

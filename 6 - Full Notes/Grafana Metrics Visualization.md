@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud-Native Observability]]
+Tags: [[Cloud-Native Observability]] [[Docker Observability Operations]]
 
 # Grafana Metrics Visualization
 
@@ -10,7 +10,11 @@ Grafana turns observations from a data source such as Prometheus into interactiv
 
 A dashboard is an interpretation layer, not a health guarantee. Its panels depend on trustworthy measurements, meaningful labels, and service objectives. Dashboards also require someone to look at them, so conditions that demand action should connect to a [[Prometheus Alert Rule]] and routed notification rather than relying on continuous human attention. [[Amazon Managed Grafana]] provides the same visualization role as a managed workspace.
 
+Grafana dashboards translate collected container and application metrics into operational views of traffic, errors, latency, saturation, and resource pressure. A useful dashboard is organized around decisions and service objectives rather than displaying every available measurement.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
 

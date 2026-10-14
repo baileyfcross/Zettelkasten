@@ -10,7 +10,11 @@ A Kubernetes rolling update replaces replicas of a [[Kubernetes Deployment]] gra
 
 Availability depends on more than replacement order. Readiness checks should keep an unready new pod out of the [[Kubernetes Service]], and resource settings must allow old and new replicas to overlap. If the release is unhealthy, rollout history supports undoing it to the previous deployment revision.
 
+The `maxSurge` and `maxUnavailable` settings express the capacity and availability tradeoff during replacement. A rollout may be mechanically complete yet operationally unsafe if readiness is superficial, the new version is incompatible with shared data, or the cluster lacks room for overlapping replicas.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
 

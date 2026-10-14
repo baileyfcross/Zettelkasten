@@ -10,7 +10,10 @@ An R package namespace identifies which package supplies a function or object. T
 
 Explicit namespaces are particularly useful in reusable scripts and functions where several packages may export similarly named operations.
 
+The triple-colon form can reach an internal package object that was not exported, whereas the double-colon form is limited to the public namespace. Depending on internal objects couples code to implementation details and is therefore less stable than using an exported interface.
+
 # References
 
 [[essentialsofdatascience.pdf]]
 
+[[statisticalcomputingincplusplusandr.pdf]]

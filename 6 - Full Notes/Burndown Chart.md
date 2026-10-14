@@ -13,3 +13,4 @@ The chart is a forecast and conversation trigger, not an individual performance 
 # References
 
 [[agilegamedevelopment2e.pdf]]
+[[introductiontogamedesignprototypinganddevelopment3e.pdf]]

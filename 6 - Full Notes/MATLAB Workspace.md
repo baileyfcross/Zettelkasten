@@ -12,5 +12,6 @@ Commands create and transform these values, and workspace inspection shows their
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

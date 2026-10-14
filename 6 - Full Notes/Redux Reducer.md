@@ -10,6 +10,10 @@ A Redux reducer is a pure function that receives the current state and an action
 
 Keeping reducers deterministic makes state changes easier to reason about and test. An unrecognized action returns the current state, preserving the store when no transition applies.
 
+Reducers can focus on leaves or branches and be assembled through [[Redux Reducer Composition]]. Side effects, timestamps, random values, and API calls remain outside the reducer so the same state and action always yield the same result.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
+
+[[learningreact1.pdf]]

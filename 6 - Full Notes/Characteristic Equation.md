@@ -10,7 +10,10 @@ The characteristic equation of a square matrix is $\det(A-\lambda I)=0$. Its roo
 
 The determinant condition makes the homogeneous system $(A-\lambda I)x=0$ singular, allowing a nonzero eigenvector. Directly forming and solving this equation is practical mainly for small matrices.
 
+The equation depends on the scalar field: a real characteristic polynomial may have complex roots, so a real operator can acquire eigenvalues only after extending scalars to the complex numbers.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

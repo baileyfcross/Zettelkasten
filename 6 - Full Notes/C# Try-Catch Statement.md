@@ -10,7 +10,10 @@ A C# `try` block surrounds operations that may throw, and an associated `catch` 
 
 The handler can inspect the exception, report useful context, choose a safe recovery, or rethrow it. A catch should represent a deliberate policy rather than a blanket promise that every failure is recoverable.
 
+When several handlers are present, they must proceed from more specific exception types toward more general ones. Placing a broad handler first would make a later specialized recovery unreachable and erase information the caller could have used.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
+[[programmingincexam70-483mcsdguide.pdf]]

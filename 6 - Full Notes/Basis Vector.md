@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Game Linear Algebra]]
+Tags: [[Game Linear Algebra]] · [[Vector Algebra and Geometry]]
 
 # Basis Vector
 
@@ -10,6 +10,10 @@ A basis vector is one of the directional axes used to express coordinates in a s
 
 An object's orientation or a camera coordinate system can be understood through its basis. Dot products project another vector onto these axes, while a [[Cross Product]] can construct a perpendicular axis when two suitable directions are known.
 
+A basis is a linearly independent set of directions that spans the space. Once it is chosen, each vector has one component along every basis vector; changing the basis changes the components but not the underlying geometric vector.
+
 # References
 
 [[gameprogrammingalgorithmsandtechniques.pdf]]
+
+[[mathematicalphysics.pdf]]

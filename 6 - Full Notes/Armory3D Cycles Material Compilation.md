@@ -10,7 +10,10 @@ Armory3D uses Cycles-style material nodes as an authoring representation and pre
 
 Cycles compatibility is a source-language relationship, not proof that every offline effect has a real-time equivalent. Materials, lighting, and baked data should be tested in the Armory runtime, especially when a node network relies on expensive or unsupported behavior.
 
+This shared representation also lets the source scene be rendered with Cycles path tracing and used for light baking without constructing a separate material setup. Armory then compiles the supported graph into a real-time shader. The workflow preserves authoring continuity while making compilation and runtime verification explicit translation stages.
+
 # References
 
 [[creatinggameenvironmentsinblender3d.pdf]]
 
+[[modelingandanimationusingblender.pdf]]

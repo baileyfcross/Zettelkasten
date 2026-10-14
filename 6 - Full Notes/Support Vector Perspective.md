@@ -10,6 +10,10 @@ The support vector perspective describes an SVM solution through the training ob
 
 Because the decision function depends on this subset, support vectors summarize the boundary-relevant evidence. Their number affects prediction cost and reveals how much of the training set remains necessary after optimization.
 
+In the regularized hinge-loss solution, points outside the margin have zero coefficients, points violating the margin receive bounded positive coefficients, and boundary points can receive intermediate values. This representation follows from the optimality conditions and explains why support vectors, rather than all training observations, determine the fitted function.
+
 # References
 
 [[dataclassification.pdf]]
+
+[[introductiontohigh-dimensionalstatistics.pdf]]

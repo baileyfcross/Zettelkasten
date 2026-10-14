@@ -2,13 +2,15 @@
 
 Status: #baby
 
-Tags: [[GPS Commercialization and Applications]]
+Tags: [[GPS Commercialization and Applications]] [[Spatial Positioning and Navigation]]
 
 # Differential GPS
 
 Differential GPS compares the satellite-derived position of a surveyed reference receiver with its known position. The difference estimates errors shared by nearby users, and broadcasting those corrections lets them improve their own solutions. Because satellite, clock, and some atmospheric errors are spatially correlated, differential techniques achieved ten-meter or better civil accuracy even under [[Selective Availability]] and much finer precision for surveying with suitable measurements and processing.
 
+Local beacon services can provide decimeter- or centimeter-scale improvements for specialized receivers, while a [[Satellite-Based Augmentation System]] distributes corrections over a much wider region. Both approaches rely on the same principle: a reference at a known location measures error that nearby or regional users are likely to share.
+
 # References
 
 [[gps.epub]]
-
+[[spatialcomputing.epub]]

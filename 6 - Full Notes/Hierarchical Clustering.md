@@ -14,6 +14,8 @@ The source begins with one cluster per gene-expression sample and repeatedly joi
 
 The book adds a contrasting way to obtain hierarchy: a Baire longest-common-prefix tree reads nested bins from an encoded value in one pass, without first evaluating every pairwise distance. This can be useful for massive collections, but its groups depend on measurement precision and any projection used to create the code. Sequence-constrained agglomeration is another variant: it permits adjacent passages to merge so a tree retains chronology as well as similarity.
 
+A hierarchy keeps several granularities in one result: a high tolerance can place all cases together, a low tolerance can leave singletons, and intermediate cuts provide alternative partitions. This avoids pretending that one number of groups is inherent in the observations, although the selected representation and linkage still determine which merges appear natural.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
@@ -21,3 +23,5 @@ The book adds a contrasting way to obtain hierarchy: a Baire longest-common-pref
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[datasciencefoundations_geometry.pdf]]
+
+[[machinelearning_mit.epub]]

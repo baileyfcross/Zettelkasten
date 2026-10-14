@@ -10,6 +10,9 @@ A tracking marker identifies a distinctive group of pixels that Blender should f
 
 Tracks must be evaluated because automatic motion estimates can drift when a feature blurs or changes. Accurate tracks can be locked, while failed markers should be corrected or removed before solving the camera.
 
+A marker separates the pattern to recognize from the search area in which Blender looks for it. The search area must be large enough to contain the next-frame displacement but not so large that every comparison becomes expensive; previous-frame matching can adapt gradually when perspective changes the pattern over time.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
+[[learningblender3e.pdf]]

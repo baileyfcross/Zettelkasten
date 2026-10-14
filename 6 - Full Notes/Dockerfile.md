@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Containerized Microservice Architecture]]
+Tags: [[Containerized Microservice Architecture]] [[Buildah Container Image Construction]] [[Docker Image Engineering]]
 
 # Dockerfile
 
@@ -14,10 +14,17 @@ The book shows Visual Studio generating Docker support, but the Dockerfile remai
 
 Instruction order affects both security and build performance. Copying dependency manifests before frequently changing source lets Docker reuse an expensive restore layer, multi-stage builds keep compilers out of the runtime image, and a `.dockerignore` file prevents local artifacts or credentials from entering the build context. Pinning and maintaining the base image keeps reproducibility from becoming permanent exposure to old vulnerabilities.
 
+Podman and Buildah execute the same instruction model. Filesystem-changing instructions such as `RUN`, `COPY`, and `ADD` create image layers, while metadata instructions such as `CMD` update the image configuration. This distinction makes the file both a recipe and a record of how the final OCI image was assembled.
+
+The order of Dockerfile instructions determines how effectively the build cache can be reused. Stable dependency metadata should be copied and resolved before frequently changing source code, while a narrow build context and `.dockerignore` prevent irrelevant or sensitive files from entering cache keys and image layers.
+
 # References
+
+[[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[clouddevopsengineersguide.pdf]]
+[[podmanfordevopssecondedition.pdf]]

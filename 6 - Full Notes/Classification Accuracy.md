@@ -10,7 +10,9 @@ Classification accuracy is the proportion of evaluated cases whose predicted lab
 
 Accuracy can be misleading with imbalanced classes or unequal error costs. Reliability and validity require examining the evaluation design and the kinds of mistakes, not only the overall percentage.
 
+Accuracy counts true positives and true negatives together, so it treats false positives and false negatives as equally undesirable. In diagnosis, authentication, and retrieval that symmetry often fails. Expected-value reasoning or metrics such as [[Precision]] and [[Recall]] make the relevant error tradeoff explicit.
+
 # References
 
 [[clusteranalysisanddatamining.pdf]]
-
+[[machinelearning_mit.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Machine Learning and Neural Networks]]
+Tags: [[Artificial Neural Network Structure]]
 
 # Neural Model Composition
 
@@ -10,6 +10,10 @@ Model composition feeds the output of one learned mapping into another mapping. 
 
 An [[Artificial Neural Network]] repeats this principle: each neuron computes a comparatively simple function, and successive layers use earlier activations as their inputs. The network's overall input-to-output function emerges from those connected transformations. Nonlinear [[Activation Function|activation functions]] are crucial because composing weighted sums without nonlinear steps would still produce only a linear mapping.
 
+Successive layers can also define increasingly abstract features, giving a multilayer network a hierarchical cone from numerous raw measurements to fewer high-level concepts. The individual operations remain simple, but their learned composition can approximate nonlinear relationships that a one-layer [[Perceptron]] cannot express.
+
 # References
 
 [[deeplearning_mit.epub]]
+
+[[machinelearning_mit.epub]]

@@ -10,6 +10,9 @@ A motion-tracking solve is more accurate when Blender knows how the original cam
 
 Camera metadata, device specifications, and production records should be preserved with the shot. Those values populate the Movie Clip Editor's Camera and Lens panels before the solve is calculated.
 
+When focal length or radial distortion is unknown, Blender can refine estimated camera parameters during the solve. Estimation is useful but not equivalent to recorded metadata, and zooming within a shot makes the imaging model harder because the focal length no longer remains constant.
+
 # References
 
 [[blenderfordummies4thedition.pdf]]
+[[learningblender3e.pdf]]

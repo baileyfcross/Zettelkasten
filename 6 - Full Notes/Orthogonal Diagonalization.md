@@ -10,7 +10,10 @@ Orthogonal diagonalization represents a real symmetric matrix as $A=QDQ^T$, wher
 
 The columns of $Q$ are orthonormal eigenvectors, so changing coordinates preserves lengths and angles. This is stronger than ordinary [[Matrix Diagonalization]] and is available for real [[Symmetric Matrix|symmetric matrices]].
 
+The spectral theorem supplies the converse as well: a real matrix is orthogonally diagonalizable exactly when it is symmetric. Repeated eigenvalues cause no obstruction because an orthonormal basis can be chosen inside each eigenspace.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

@@ -13,3 +13,5 @@ An operator is added by finding it in a Blender menu, right-clicking it, and cho
 # References
 
 [[blenderfordummies4thedition.pdf]]
+
+[[introductiontoblender30.pdf]]

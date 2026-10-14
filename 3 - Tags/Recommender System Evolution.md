@@ -2,9 +2,9 @@
 
 Parent topic: [[Data Science Frontiers]]
 
-Collaborative, content-based, hybrid, latent-factor, and streaming approaches to scalable recommendation.
+Data, feedback, similarity, ranking, evaluation, interaction design, and governance across collaborative, content-based, hybrid, latent-factor, and streaming recommendation systems.
 
-## Linked Full Notes
+## Directly Linked Full Notes
 
 ```query
 path:"6 - Full Notes" "[[Recommender System Evolution]]"

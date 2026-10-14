@@ -12,5 +12,6 @@ The polynomial is unique: if two degree-$n$ polynomials agree at $n+1$ distinct 
 
 # References
 
-[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
+[[numericalmethodsinengineeringandscience.pdf]]
 
+[[appliedlinearalgebraandoptimizationusingmatlab.pdf]]

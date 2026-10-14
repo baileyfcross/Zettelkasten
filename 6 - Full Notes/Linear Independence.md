@@ -10,7 +10,10 @@ Vectors are linearly independent when $c_1v_1+\cdots+c_nv_n=0$ implies that ever
 
 Independence means no vector in the set can be constructed from the others. A linearly independent spanning set forms a [[Basis]], and eigenvectors associated with distinct eigenvalues are linearly independent.
 
+In a finite-dimensional space, no independent set can contain more vectors than a basis. Any independent set can be enlarged to a basis, which turns local nonredundancy into a coordinate system for the whole space.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
+[[linearalgebra.pdf]]

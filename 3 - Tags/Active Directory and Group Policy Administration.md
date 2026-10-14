@@ -2,7 +2,7 @@
 
 Parent topic: [[Windows Server Administration]]
 
-Directory structures, domain controllers, trust and replication boundaries, and policy-based configuration of domain resources.
+Directory structures, domain controllers, database scalability, schema and object recovery, trust and replication boundaries, and policy-based configuration of domain resources.
 
 ## Linked Full Notes
 

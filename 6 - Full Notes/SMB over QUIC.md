@@ -10,6 +10,10 @@ SMB over QUIC carries Server Message Block traffic through an encrypted QUIC con
 
 The feature changes the path, not the file authorization model: share and NTFS permissions still determine access after the connection is established. Deployment must coordinate a supported server edition, client capability, DNS name, trusted certificate, firewall path, and certificate renewal. Because the entry point is internet-reachable, operators should restrict which shares and identities are usable, monitor connections, and preserve another administrative path if QUIC connectivity fails.
 
+The certificate name must match the public DNS record clients use, and Windows Server can expose the service on UDP 443 while proxying Kerberos through the KDC Proxy. Performance work should measure latency, bandwidth, packet loss, CPU, memory, and storage together; tuning one layer without observing the others can simply relocate the bottleneck. Client tests should verify both secure connectivity and ordinary share authorization before the service is treated as production-ready.
+
 # References
 
 [[masteringwindowsserver2025_fifthedition.pdf]]
+
+[[windowsserver2025administrationfundamentals_fourthedition.pdf]]

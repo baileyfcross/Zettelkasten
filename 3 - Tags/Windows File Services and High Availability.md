@@ -2,7 +2,7 @@
 
 Parent topic: [[Windows Server Administration]]
 
-Windows file sharing, access control, distributed namespaces, secure SMB transport, storage replication, and workload continuity.
+Windows file sharing, access control, distributed namespaces, secure SMB transport, deduplication, storage tiering and replication, and workload continuity.
 
 ## Linked Full Notes
 

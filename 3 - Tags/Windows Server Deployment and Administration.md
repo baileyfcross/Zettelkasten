@@ -2,7 +2,7 @@
 
 Parent topic: [[Windows Server Administration]]
 
-Selecting, installing, standardizing, remotely managing, upgrading, and diagnosing Windows Server hosts.
+Selecting, installing, standardizing, remotely managing, hotpatching, performance-baselining, upgrading, and diagnosing Windows Server hosts.
 
 ## Linked Full Notes
 

@@ -10,6 +10,10 @@ An Azure Arc-enabled server is an on-premises or non-Azure machine registered as
 
 Arc extends hybrid governance and management without moving the workload itself. For Windows Server 2025, it can support services such as pay-as-you-go licensing and hotpatching when prerequisites and licensing permit. Because registration crosses an administrative boundary, teams should decide who owns the Azure resource, which policies apply, and whether public endpoint connectivity or a more private network path is appropriate before onboarding production servers.
 
+Once connected, Azure Policy can evaluate the server against shared requirements and Azure Monitor can collect selected performance metrics and logs through data-collection rules. This makes on-premises health, update status, and alerts visible in the same control plane as cloud resources. Collection should remain intentional: onboarding, policy assignment, monitoring scope, and optional capabilities such as [[Windows Server Hotpatching]] each need an owner, a cost and retention decision, and post-configuration validation.
+
 # References
 
 [[masteringwindowsserver2025_fifthedition.pdf]]
+
+[[windowsserver2025administrationfundamentals_fourthedition.pdf]]

@@ -2,7 +2,7 @@
 
 Parent topic: [[Windows Server Administration]]
 
-Certificate services, host defenses, encryption, credential protection, identity monitoring, and constrained administration.
+Certificate services, endpoint defenses, encryption, audit policy, baseline drift, credential protection, identity monitoring, and constrained administration.
 
 ## Linked Full Notes
 

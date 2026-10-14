@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Single-Qubit Data Re-Uploading Classifiers]]
+Tags: [[Single-Qubit Data Re-Uploading Classifiers]] · [[Variational Quantum Image Classification]]
 
 # Quantum Classifier Sampling and Systematic Error
 
@@ -12,6 +12,10 @@ The residual error comes from phase and timing jitter, laser-qubit detuning, int
 
 The experiment reduces its Rabi frequency from 312 to 40 kilohertz so absolute fluctuations have less influence, reporting an overall classifier-output error near 2 percent after this adjustment. These observations explain why the hardware decision boundaries in [[Single-Qubit Re-Uploading Classifier Benchmark]] are less sharp than their exact simulations even when the underlying parameters match.
 
+Multiclass readout adds another sampling constraint. When a prediction selects the largest among $k$ measured class scores, the shot count must be sufficient to resolve all relevant margins; the multiple-decision analysis cited by the Fashion-MNIST study gives an $O(k)$ measurement requirement for fixed success probability. The experiment used 100,000 shots per image to suppress this uncertainty enough to expose hardware noise separately.
+
 # References
 
 [[2021 - Single-qubit universal classifier implemented on an ion-trap quantum device.pdf]]
+
+[[2024 - Classification of the Fashion-MNIST Dataset on a Quantum Computer.pdf]]

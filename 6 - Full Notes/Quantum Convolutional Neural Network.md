@@ -12,6 +12,10 @@ The architecture adapts the locality, [[Convolutional Weight Sharing]], and prog
 
 The paper interprets this circuit as both a reversed entanglement-renormalization network and a nested error-correction process. Those two views explain its applications to [[QCNN Symmetry-Protected Phase Recognition]] and [[QCNN-Optimized Quantum Error Correction]].
 
+A later analysis also treats the circuit as a measurement adapter. Conjugating its final few-qubit observable through the QCNN produces an effective many-body observable, so pooling can select basis functions supplied by a [[Hidden Ground-State Feature Map]]. This view extends the architecture from phase classification to finite-shot learning and regression.
+
 # References
 
 [[2019 - Quantum Convolutional Neural Networks.pdf]]
+
+[[2023 - What can we learn from quantum convolutional neural networks.pdf]]

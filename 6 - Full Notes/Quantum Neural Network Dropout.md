@@ -10,8 +10,12 @@ Quantum neural network dropout is a training-time regularizer that randomly repl
 
 The approach is designed for deep, data-reuploading quantum neural networks whose many trainable gates can make them highly expressive and overparameterized. Unlike classical dropout, removing a one-qubit rotation does not isolate a computational unit: entanglement can propagate its effect, and the same qubit participates at multiple circuit times. The paper therefore defines several explicitly quantum strategies rather than treating gates as exact neuron-and-connection counterparts.
 
+An earlier circuit-centric proposal instead measures and temporarily removes an entire qubit for several parameter-update epochs. That [[Qubit Dropout for Circuit-Centric Classification]] excludes half of an amplitude-encoded representation at once and is structurally different from replacing selected trainable gates with identities.
+
 In the reported noiseless simulations, useful effective drop probabilities were modest and depended on the circuit architecture and task. [[Overparameterization-Aware Quantum Dropout Rate]] supplies an upper-bound heuristic, while [[Quantum Dropout Expressibility and Entanglement]] shows that successful regularization need not work by making the circuit less expressive or less entangling.
 
 # References
 
 [[2023 - A General Approach to Dropout in Quantum Neural Networks.pdf]]
+
+[[2018 - Circuit-centric quantum classifiers.pdf]]

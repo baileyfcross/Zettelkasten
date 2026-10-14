@@ -34,13 +34,19 @@ Healthy disagreement is part of creative production. Participatory decision maki
 
 Scaling therefore depends on reducing unnecessary dependencies, not merely adding meetings. Teams need a shared product vision, clear interfaces, synchronized integration, and access to the expertise required to finish meaningful slices of the game. Communication overhead grows rapidly with team size, so structure should preserve small collaborative units while creating deliberate paths for cross-team decisions.
 
+### Producing and commissioning game music
+
+[[Game Music Production and Business]] applies production discipline to a specialized creative pipeline. Spotting and an audio design document translate game structure, emotional goals, and interactive behavior into a cue sheet. Approval workflows, consistent filenames, version tracking, and access to playable builds then keep each music asset aligned with implementation as the game changes.
+
+The same topic connects creative scope to commercial terms. An estimate separates original themes, variations, recording, implementation, and interactive work so their different costs are visible. Contracts distinguish licenses from work-for-hire ownership, identify composition and recording rights, specify deliverables and revisions, and create a basis for renegotiating when scope or budget changes. Production succeeds when these agreements support the musical plan instead of remaining detached from it.
+
 ### Operating after release
 
 [[Live Game Operations]] extends production beyond launch. Continuous delivery, feature toggles, canary and blue-green deployments, monitoring, incident retrospectives, experiments, and live support allow the game to change while people are using it. Metrics such as retention, lead time, and service health help teams detect problems, but must be interpreted alongside qualitative player feedback.
 
 Live operation closes the production loop. Observed behavior creates hypotheses, small changes test them, and results guide the next decision. Reliable deployment and recovery practices make this learning safer. A game developed as a service is therefore not a finished artifact followed by maintenance; it is an evolving relationship among the product, its production system, and its community.
 
-These five areas form one production discipline. Engineering practices create releasable increments, flow methods expose constraints, leadership supports learning, scaling structures coordinate dependencies, and live operations return evidence from the field. Together they make iterative design possible without sacrificing stability or shared direction.
+These seven areas form one production discipline. Planning and milestones expose progress, engineering practices create releasable increments, flow methods reveal constraints, leadership supports learning, scaling structures coordinate dependencies, and live operations return evidence from the field. Specialized pipelines such as game music show how creative direction, asset control, technical integration, and commercial scope must remain connected throughout that system. Together they make iterative design possible without sacrificing stability or shared direction.
 
 ## Directly Referenced Tags
 

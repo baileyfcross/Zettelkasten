@@ -12,6 +12,10 @@ Assuming measurement variance does not decrease when noise is amplified, two-lev
 
 Attempting to exactly undo the exponential scale of a noise-induced barren plateau makes the resolvability penalty itself exponentially severe. These are conditional results about trainability, not a claim that zero-noise extrapolation never improves expectation-value accuracy.
 
+The VQE hardware benchmark supplies a concrete failure mode. Once a deep circuit's unscaled energy has already been damped near zero, measurements at larger noise scales cannot anchor a stable exponential extrapolation. [[Deep-Circuit ZNE Signal Collapse]] records failures beginning well before the roughly 25-layer frontier reached by specialized damping-factor calibrations.
+
 # References
 
 [[2021 - Can Error Mitigation Improve Trainability of Noisy Variational Quantum Algorithms.pdf]]
+
+[[2021 - Experimental error mitigation using linear rescaling for variational quantum eigensolving with up to 20 qubits.pdf]]

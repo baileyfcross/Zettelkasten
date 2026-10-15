@@ -12,6 +12,10 @@ This property does not guarantee that the minimum can be found efficiently. The 
 
 The distinction separates geometric correctness from operational learnability. It also limits what can be inferred from results such as [[QAE Local Cost Depolarizing-Noise Resilience]]: preservation of the minimizing parameters is valuable, but it is not by itself a trainability guarantee.
 
+Hardware evidence provides the complementary case. [[Unmitigated SPSA VQE under Observable Damping]] often converges below the first excited-state energy even though the energy is damped and the damping factor varies with parameters. This shows that approximate resilience can be sufficient at small depth, while the observed parameter dependence prevents assuming that the same behavior persists for every problem or deeper circuit.
+
 # References
 
 [[2021 - Can Error Mitigation Improve Trainability of Noisy Variational Quantum Algorithms.pdf]]
+
+[[2021 - Experimental error mitigation using linear rescaling for variational quantum eigensolving with up to 20 qubits.pdf]]

@@ -2,7 +2,7 @@
 
 Parent topic: [[Quantum Physics and Cosmology]]
 
-How finite-shot error-mitigation protocols change the resolvability, optimization cost, and practical trainability of noisy variational quantum algorithms.
+How finite-shot error-mitigation protocols change the resolvability, optimization cost, and practical trainability of noisy variational quantum algorithms, including method-specific calibration studies under focused child topics.
 
 ## Directly Linked Full Notes
 

@@ -12,6 +12,10 @@ Learning only selected observables can require far fewer state copies than recon
 
 A longer-term proposal connects quantum sensors coherently to a quantum processor so information can be processed before classical measurement destroys its quantum character. That route faces demanding requirements in transduction, coherence, noise mitigation, and measurement overhead. It differs fundamentally from applying a quantum classifier to ordinary collider tables: the possible advantage comes from retaining quantum input structure, not only from using a quantum circuit as a model.
 
+The [[Anomaly qGAN Framework]] sharpens this distinction. Its proof of principle begins with PCA-compressed classical features, but the authors propose eventually applying the detector directly to quantum datasets from quantum sensing or quantum detectors. Such an input could preserve correlations discarded by classical feature preparation, while also requiring a coherent interface between sensing, processing, and anomaly measurement.
+
 # References
 
 [[2023 - Quantum Computing for High-Energy Physics State of the Art and Challenges Summary of the QC4HEP Working Group.pdf]]
+
+[[2023 - Quantum Generative Adversarial Networks For Anomaly Detection In High Energy Physics.pdf]]

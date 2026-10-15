@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Quantum Physics and Cosmology]]
+Tags: [[Foundational Quantum Physics and Cosmology]]
 
 # Quantum Potential Step
 

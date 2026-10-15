@@ -14,8 +14,12 @@ The paper interprets this circuit as both a reversed entanglement-renormalizatio
 
 A later analysis also treats the circuit as a measurement adapter. Conjugating its final few-qubit observable through the QCNN produces an effective many-body observable, so pooling can select basis functions supplied by a [[Hidden Ground-State Feature Map]]. This view extends the architecture from phase classification to finite-shot learning and regression.
 
+For classical images loaded through amplitude encoding, QCNN locality depends on the pixel-to-amplitude ordering. An adjacent two-qubit gate mixes structured groups of four amplitudes, so a deliberate ordering can make those groups correspond to horizontal lines, square neighborhoods, or combined vertical and horizontal patterns. This [[Amplitude-Ordering Shaped Quantum Kernels|shaped-kernel interpretation]] extends the architecture to image data while making the embedding map part of the convolutional design.
+
 # References
 
 [[2019 - Quantum Convolutional Neural Networks.pdf]]
 
 [[2023 - What can we learn from quantum convolutional neural networks.pdf]]
+
+[[2025 - Practical insights on the effect of different encodings ansatze and measurements in quantum and hybrid convolutional neural networks.pdf]]

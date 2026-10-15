@@ -14,8 +14,12 @@ Normalization can distort datasets whose relevant information includes vector le
 
 Image encodings make the loading bottleneck concrete. Exact preparation of an arbitrary pixel-amplitude state has gate complexity proportional to the number of pixels, while [[Flexible Representation of Quantum Images]] stores intensity in a separate color qubit and can require quadratically many CNOTs in the pixel count when prepared exactly. [[Variational FRQI State Preparation]] trades exactness for circuits that exploit image structure.
 
+A later EuroSAT study shows that amplitude encoding is also sensitive to circuit placement. It works well after classical convolutions have compressed an image into a global feature vector, but performs poorly when each small raw-image patch is normalized and encoded independently in an early quanvolution. Patch normalization can suppress local magnitude and contrast, while [[Amplitude-Ordering Shaped Quantum Kernels]] shows that the pixel-to-amplitude index map determines which neighborhoods later two-qubit gates can mix.
+
 # References
 
 [[2018 - Circuit-centric quantum classifiers.pdf]]
 
 [[2024 - Classification of the Fashion-MNIST Dataset on a Quantum Computer.pdf]]
+
+[[2025 - Practical insights on the effect of different encodings ansatze and measurements in quantum and hybrid convolutional neural networks.pdf]]

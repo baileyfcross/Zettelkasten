@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Error-Mitigation Trainability of Variational Quantum Algorithms]]
+Tags: [[Error-Mitigation Trainability of Variational Quantum Algorithms]] · [[Randomized Compiling and Zero-Noise Extrapolation]]
 
 # Error-Mitigation Variance Cost
 
@@ -18,6 +18,10 @@ Variance cost is not sufficient to judge an optimizer because mitigation may als
 
 This explains why accurately reconstructing one expectation value with unlimited samples is different from training a variational circuit with a fixed total budget. A protocol can be asymptotically unbiased yet provide worse optimization decisions at every affordable shot count.
 
+Randomized compiling adds an ensemble component to this cost. Its expectation estimate converges only as $1/\sqrt{N_{\mathrm{rand}}}$, and finite ensembles can broaden the distribution of VQE optima even when the best mitigated energy improves. The near disappearance of that spread in the infinite-randomization, infinite-shot simulation links the abstract variance penalty to the practical optimizer behavior in [[Optimizer Sensitivity under Finite Randomization]].
+
 # References
 
 [[2021 - Can Error Mitigation Improve Trainability of Noisy Variational Quantum Algorithms.pdf]]
+
+[[2022 - Synergetic quantum error mitigation by randomized compiling and zero-noise extrapolation for the variational quantum eigensolver.pdf]]

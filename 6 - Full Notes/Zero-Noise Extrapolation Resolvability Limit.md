@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Error-Mitigation Trainability of Variational Quantum Algorithms]]
+Tags: [[Error-Mitigation Trainability of Variational Quantum Algorithms]] · [[Randomized Compiling and Zero-Noise Extrapolation]]
 
 # Zero-Noise Extrapolation Resolvability Limit
 
@@ -14,8 +14,12 @@ Attempting to exactly undo the exponential scale of a noise-induced barren plate
 
 The VQE hardware benchmark supplies a concrete failure mode. Once a deep circuit's unscaled energy has already been damped near zero, measurements at larger noise scales cannot anchor a stable exponential extrapolation. [[Deep-Circuit ZNE Signal Collapse]] records failures beginning well before the roughly 25-layer frontier reached by specialized damping-factor calibrations.
 
+The RC-ZNE simulation supplies an important qualification rather than a contradiction. Under stationary coherent gate errors, ZNE alone follows a strongly nonlinear, state-dependent response, but randomized compiling first makes that response approximately stochastic and linear in the inserted CNOT count. ZNE can then recover energies and landscapes much more accurately. This mechanism-specific success does not remove the finite-sample bounds above; it changes the error model presented to the extrapolator and still incurs [[Finite-Randomization Precision Scaling]].
+
 # References
 
 [[2021 - Can Error Mitigation Improve Trainability of Noisy Variational Quantum Algorithms.pdf]]
 
 [[2021 - Experimental error mitigation using linear rescaling for variational quantum eigensolving with up to 20 qubits.pdf]]
+
+[[2022 - Synergetic quantum error mitigation by randomized compiling and zero-noise extrapolation for the variational quantum eigensolver.pdf]]

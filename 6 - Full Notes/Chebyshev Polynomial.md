@@ -12,9 +12,13 @@ Using those nodes in [[Polynomial Interpolation]] reduces the largest interpolat
 
 For quantum signal processing, even Chebyshev polynomials form a convenient basis for a bounded, definite-parity approximation. The derivative-pricing construction discretizes $[0,1]$ at Chebyshev-root points and solves a minimax problem for coefficients $c_k$ in $P(x)=\sum_k c_kT_{2k}(x)$, with an additional bound slightly below one to avoid overshoot. A degree-20 approximation reaches maximum payoff-amplitude error $10^{-3}$ in the autocallable benchmark.
 
+Chebyshev polynomials can also serve as quantum-state amplitudes rather than only as approximation functions. At the roots $x_j=\cos(\pi(2j+1)/2^{N+1})$, properly weighted vectors of $T_0(x_j),\ldots,T_{2^N-1}(x_j)$ form the [[Chebyshev Node Quantum Basis|orthonormal Chebyshev basis]]. This discrete orthogonality underlies both the [[Orthonormal Chebyshev Feature Map]] and the reversible [[Quantum Chebyshev Transform]].
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
 
 [[2023 - Derivative Pricing using Quantum Signal Processing.pdf]]
+
+[[2023 - Quantum Chebyshev Transform Mapping Embedding Learning and Sampling Distributions.pdf]]
 

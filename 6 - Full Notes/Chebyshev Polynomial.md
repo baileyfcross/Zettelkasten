@@ -14,6 +14,8 @@ For quantum signal processing, even Chebyshev polynomials form a convenient basi
 
 Chebyshev polynomials can also serve as quantum-state amplitudes rather than only as approximation functions. At the roots $x_j=\cos(\pi(2j+1)/2^{N+1})$, properly weighted vectors of $T_0(x_j),\ldots,T_{2^N-1}(x_j)$ form the [[Chebyshev Node Quantum Basis|orthonormal Chebyshev basis]]. This discrete orthogonality underlies both the [[Orthonormal Chebyshev Feature Map]] and the reversible [[Quantum Chebyshev Transform]].
 
+For QSP risk analysis, an even Chebyshev expansion also approximates a discontinuous threshold outside a deliberately excluded transition gap. A minimax optimization on Chebyshev-root grid points chooses the coefficients while constraining the polynomial magnitude; [[QSP Threshold Polynomial Gap Tradeoff]] relates the gap width and degree to the resulting VaR error.
+
 # References
 
 [[appliedlinearalgebraandoptimizationusingmatlab.pdf]]
@@ -21,4 +23,6 @@ Chebyshev polynomials can also serve as quantum-state amplitudes rather than onl
 [[2023 - Derivative Pricing using Quantum Signal Processing.pdf]]
 
 [[2023 - Quantum Chebyshev Transform Mapping Embedding Learning and Sampling Distributions.pdf]]
+
+[[2024 - Quantum Risk Analysis of Financial Derivatives.pdf]]
 

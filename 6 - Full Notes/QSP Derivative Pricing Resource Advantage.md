@@ -12,6 +12,10 @@ Extending the calculation through iterative amplitude estimation at total error 
 
 These are fault-tolerant resource estimates under a specific stochastic model, contract, error allocation, classical baseline, and circuit decomposition. They quantify a lower threshold, not a demonstrated quantum advantage or an assessment of present hardware readiness.
 
+Reusing the same pricing oracle inside a coherent value-at-risk calculation changes the comparison because the quantum circuit processes many scenarios together. In a 50,000-scenario simulation, [[Aggregate-Risk Quantum Advantage Threshold]] finds that sufficiently cheap scenario preparation could reduce the required logical clock rate by as much as roughly 30 times relative to the 45 MHz single-derivative threshold. The improvement is conditional on state loading and the paper's aggregate-risk assumptions.
+
 # References
 
 [[2023 - Derivative Pricing using Quantum Signal Processing.pdf]]
+
+[[2024 - Quantum Risk Analysis of Financial Derivatives.pdf]]

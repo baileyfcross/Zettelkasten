@@ -12,6 +12,10 @@ Odd and even degrees use slightly different endpoint projectors, reflecting the 
 
 The phase values are computed classically after the approximation polynomial is chosen; open implementations make that synthesis accessible without deriving the factors analytically. Their existence does not remove approximation or execution cost, because higher polynomial degree lengthens the [[Quantum Signal Processing Polynomial Transformation]].
 
+In QSP value-at-risk estimation, every bisection candidate $\mu$ defines a different threshold polynomial and therefore a different phase-factor sequence $\vec\phi_\mu$. The circuit structure is reusable, but the classical approximation and phase synthesis must track the candidate threshold and selected polynomial degree.
+
 # References
 
 [[2023 - Derivative Pricing using Quantum Signal Processing.pdf]]
+
+[[2024 - Quantum Risk Analysis of Financial Derivatives.pdf]]

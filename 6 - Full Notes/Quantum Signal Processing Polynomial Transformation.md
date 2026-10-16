@@ -12,6 +12,10 @@ For a degree-$d$ transformation, the implementable real polynomial must have deg
 
 The derivative-pricing construction chooses $P$ to approximate a square-root payoff composition on the positive interval. [[Chebyshev Polynomial]] supplies the approximation basis, and [[QSP Phase-Factor Sequence]] describes how the selected polynomial becomes a circuit.
 
+The same mechanism can act one level above pricing. A scenario-conditioned pricing oracle block-encodes singular values $\sqrt{V(s)}$, and a [[QSP Threshold Transformation for Value at Risk|threshold polynomial]] marks all scenarios whose portfolio value is below a candidate quantile. This direct amplitude transformation avoids the intermediate digital price register required by coherent QAE risk estimation.
+
 # References
 
 [[2023 - Derivative Pricing using Quantum Signal Processing.pdf]]
+
+[[2024 - Quantum Risk Analysis of Financial Derivatives.pdf]]

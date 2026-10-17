@@ -1,6 +1,6 @@
 # Experimental Quantum GAN Image Generation
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Resource-adaptive quantum generative adversarial networks for image synthesis, including patchwise and coherent-batch architectures, circuit nonlinearities, hardware experiments, and benchmark limitations.
 

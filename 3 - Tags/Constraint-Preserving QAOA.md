@@ -1,6 +1,6 @@
 # Constraint-Preserving QAOA
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Quantum alternating-operator constructions that encode objectives in phase separators while using initial states and mixers designed to remain inside a combinatorial problem's feasible subspace.
 

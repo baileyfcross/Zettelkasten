@@ -1,6 +1,6 @@
 # Natural-Gradient Optimization of Optical Quantum Circuits
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Geometry-aware optimization of continuous-variable photonic circuits using Fubini-Study metrics, complex derivatives, regularized metric inverses, and state-preparation benchmarks.
 

@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 332.5
   },
   "right": {
     "id": "b4c00f5882eb6a9e",
@@ -192,7 +192,7 @@
       "local-vault-ai:Open Local Vault AI": false
     }
   },
-  "active": "3c582cc9df16e704",
+  "active": "b67b9e80f53c6606",
   "lastOpenFiles": [
     "2 - Source Material/Lectures/Foundations of CS Lectures/Lecture 3 - Logic Gates.pdf",
     "2 - Source Material/Lectures/Foundations of CS Lectures/Lecture 2 - Logic.pdf",

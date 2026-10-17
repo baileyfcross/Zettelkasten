@@ -1,6 +1,6 @@
 # Quantum Autoencoding and State Compression
 
-Parent topic: [[Machine Learning and Neural Networks]]
+Parent topics: [[Machine Learning and Neural Networks]] · [[Quantum Computing]]
 
 Variational quantum encoders that compress low-rank quantum states, preserve useful spectral information, and support downstream estimation or state-preparation tasks.
 

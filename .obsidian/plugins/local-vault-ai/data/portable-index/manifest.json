@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-10-17T21:23:07.836Z",
+  "updatedAt": "2026-10-17T22:00:33.152Z",
   "sources": {
     "2 - Source Material/3 - Tags/Adaptive and Outcome-Based Cyber Defense.md": {
       "sourceHash": "c799f1159fa8eeea723135fc7a9cb928882b72dde9e9e0d3f7478b4dea83a200",
@@ -7439,6 +7439,39 @@
       "chunkCount": 58,
       "objectHashes": [
         "20bdfedb25ec43f704314fe107ba9667462e379f632f87a65651338309119589"
+      ]
+    },
+    "2 - Source Material/Foundations of CS Lectures/Lecture 1 - 301.pdf": {
+      "sourceHash": "6b45c58451d467c3d810750758e281ec8bb2cd763b3de1a7c0f90f6eeeddcf14",
+      "sourceType": "pdf",
+      "fileName": "Lecture 1 - 301.pdf",
+      "title": "Lecture 1 - 301",
+      "pageCount": 26,
+      "chunkCount": 6,
+      "objectHashes": [
+        "afa132b5031406a9ea3ccf1db0cc8c37f39be1714e608fbda1f7f6df6e15a68f"
+      ]
+    },
+    "2 - Source Material/Foundations of CS Lectures/Lecture 2 - Logic.pdf": {
+      "sourceHash": "e348f43fa0ae8a8ff20b4d86203472b8cc55b7876bff8d3f0ce0d9c39f0af898",
+      "sourceType": "pdf",
+      "fileName": "Lecture 2 - Logic.pdf",
+      "title": "Lecture 2 - Logic",
+      "pageCount": 32,
+      "chunkCount": 11,
+      "objectHashes": [
+        "63d690680022742076b909464125fbf63cb8cce76ff9abd4507b07f15c052f11"
+      ]
+    },
+    "2 - Source Material/Foundations of CS Lectures/Lecture 3 - Logic Gates.pdf": {
+      "sourceHash": "1076d35dd4ad11e45333c1e30399055084f94d468168b50336fa45916080222b",
+      "sourceType": "pdf",
+      "fileName": "Lecture 3 - Logic Gates.pdf",
+      "title": "Lecture 3 - Logic Gates",
+      "pageCount": 42,
+      "chunkCount": 58,
+      "objectHashes": [
+        "4dad40131529296501f728168948e56c11330b4b1e57f24998ce8728acb1fbf3"
       ]
     },
     "2 - Source Material/Papers/Mathematical_Generalization.pdf": {

@@ -1,6 +1,6 @@
 # Hierarchical Multigrid Variational Quantum Algorithms
 
-Parent topic: [[Variable-Structure Variational Quantum Circuits]]
+Parent topics: [[Variable-Structure Variational Quantum Circuits]] · [[Quantum Computing]]
 
 Coarse-to-fine problem hierarchies, circuit refinement, parameter transfer, and benchmark applications for multigrid variational quantum algorithms.
 

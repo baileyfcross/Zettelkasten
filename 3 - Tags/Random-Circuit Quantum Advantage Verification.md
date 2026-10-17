@@ -1,6 +1,6 @@
 # Random-Circuit Quantum Advantage Verification
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Linear cross-entropy benchmarking, fidelity interpretation, classical spoofing, statistical-mechanics mappings, and stronger standards for verifying random-circuit quantum advantage.
 

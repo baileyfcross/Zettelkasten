@@ -1,6 +1,6 @@
 # Variational Quantum Optimizer Benchmarking
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Empirical comparison of classical optimizers for variational quantum circuits, with attention to task coverage, ranking metrics, hyperparameter selection, measurement budgets, simulated noise, and the limits of benchmark-based recommendations.
 

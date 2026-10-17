@@ -1,6 +1,6 @@
 # Quantum Natural Language Processing for Financial Sentiment
 
-Parent topics: [[Quantum Physics and Cosmology]] · [[Sentiment Analysis Methods]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Sentiment Analysis Methods]] · [[Quantum Computing]]
 
 Quantum recurrent and grammar-aware circuit models for classifying financial language, together with the dataset, postselection, simulation, and benchmark constraints that govern their practical evaluation.
 

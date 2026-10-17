@@ -1,6 +1,6 @@
 # Superconducting Qubit Engineering
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Circuit design, noise and coherence, microwave control, entangling gates, dispersive measurement, and quantum-limited amplification for superconducting quantum processors.
 

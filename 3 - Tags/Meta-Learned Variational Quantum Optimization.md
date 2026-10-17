@@ -1,6 +1,6 @@
 # Meta-Learned Variational Quantum Optimization
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Classical recurrent optimizers that learn short-horizon parameter-update policies for families of variational quantum circuits, transfer those policies across system sizes, and initialize conventional local search.
 

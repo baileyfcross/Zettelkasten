@@ -1,6 +1,6 @@
 # Diffusion Models for Quantum Circuit Synthesis
 
-Parent topic: [[Machine Learning and Neural Networks]]
+Parent topics: [[Machine Learning and Neural Networks]] · [[Quantum Computing]]
 
 Conditional denoising models, circuit tensor representations, controlled generation, fine-tuning, and scalability limits for synthesizing quantum circuits.
 

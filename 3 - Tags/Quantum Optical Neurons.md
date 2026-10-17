@@ -1,6 +1,6 @@
 # Quantum Optical Neurons
 
-Parent topic: [[Neural Network Classification and Clustering]]
+Parent topics: [[Neural Network Classification and Clustering]] · [[Quantum Computing]]
 
 Photonic learning units that encode inputs and trainable parameters in quantum optical states, perform an overlap-like operation through interference, and derive predictions from aggregate detector statistics.
 

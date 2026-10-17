@@ -1,6 +1,6 @@
 # Enhanced Feature Quantum Autoencoders
 
-Parent topic: [[Quantum Autoencoding and State Compression]]
+Parent topics: [[Quantum Autoencoding and State Compression]] · [[Quantum Computing]]
 
 Quantum autoencoders whose variational circuits use model features to tailor compression to individual states while retaining a shared trainable structure.
 

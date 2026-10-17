@@ -1,6 +1,6 @@
 # Quantum Information and Circuit Foundations
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 The representation, composition, measurement, and reversible transformation of qubit states, from polarization and tensor products to entanglement and elementary quantum gates.
 

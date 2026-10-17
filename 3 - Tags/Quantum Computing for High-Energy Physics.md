@@ -1,6 +1,6 @@
 # Quantum Computing for High-Energy Physics
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Quantum simulation and quantum machine-learning approaches for theoretically difficult field dynamics, collective neutrino behavior, and computationally intensive collider-data workflows, together with their encoding, hardware, and validation constraints.
 

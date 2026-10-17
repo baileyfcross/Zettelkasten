@@ -1,6 +1,6 @@
 # Hamiltonian Variational Ansatz Trainability
 
-Parent topic: [[Optimization and Differentiation]]
+Parent topics: [[Optimization and Differentiation]] · [[Quantum Computing]]
 
 Gradient scaling, initialization constraints, effective-Hamiltonian approximations, and parameter-sharing strategies for trainable Hamiltonian variational quantum circuits.
 

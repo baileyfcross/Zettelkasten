@@ -1,6 +1,6 @@
 # Scalable Error-Mitigated Quantum Simulation
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Noise modeling, sampling overhead, tensor-network error mitigation, compression bias, resource forecasting, and practical-advantage tests for large digital quantum simulations.
 

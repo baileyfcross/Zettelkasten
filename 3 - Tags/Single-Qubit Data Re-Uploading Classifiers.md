@@ -1,6 +1,6 @@
 # Single-Qubit Data Re-Uploading Classifiers
 
-Parent topic: [[Circuit-Centric Quantum Classification]]
+Parent topics: [[Circuit-Centric Quantum Classification]] · [[Quantum Computing]]
 
 Minimal variational classifiers that repeatedly insert classical features into one-qubit rotations and assign classes by comparing the resulting state with label states on the Bloch sphere.
 

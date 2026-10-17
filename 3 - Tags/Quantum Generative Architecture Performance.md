@@ -1,6 +1,6 @@
 # Quantum Generative Architecture Performance
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Performance tradeoffs among continuous, discrete, and copula-structured quantum generators, including preprocessing, QCBM and QGAN training, parameter efficiency, measurement cost, simulation bias, and industrial scaling.
 

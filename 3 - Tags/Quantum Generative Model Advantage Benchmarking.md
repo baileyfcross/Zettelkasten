@@ -1,6 +1,6 @@
 # Quantum Generative Model Advantage Benchmarking
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Application-grounded comparison of quantum and classical generative models, including evidence tiers for practical advantage, model-agnostic generalization metrics, resource-constrained evaluation tracks, and data-limited QCBM benchmarks.
 

@@ -1,6 +1,6 @@
 # Quantum Circuit Gradient Rules
 
-Parent topic: [[Quantum Physics and Cosmology]]
+Parent topics: [[Quantum Physics and Cosmology]] · [[Quantum Computing]]
 
 Methods for estimating derivatives of variational quantum-circuit expectation values from shifted circuit evaluations, including parameter-shift identities, finite-difference bias, derivative mixtures, and evaluation-cost limits.
 

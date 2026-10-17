@@ -1,4 +1,4 @@
-2026-10-16 22:03
+2026-10-16 22:51
 
 Status: #baby
 
@@ -14,8 +14,12 @@ Expectation readout also constrains the information passed to the classical netw
 
 The style-qGAN uses the same commuting measurement family without a dense upscaler. It assigns one continuous output component to each qubit as $x_i=-\langle\sigma_z^i\rangle$, so an $n$-qubit circuit directly produces a point in $[-1,1]^n$ before classical inverse preprocessing. Other commuting multi-qubit observables could define more elaborate sample components, but the collider benchmark uses one local expectation per feature.
 
+The continuous architecture benchmark likewise uses one rescaled $Z$ expectation per data dimension, but makes the measurement cost explicit: every latent-noise realization requires many shots before it becomes one continuous sample. Its state-vector experiments compute expectations exactly and therefore suppress this hardware cost, in contrast to a discrete Born-sampling generator that returns one sample per shot.
+
 # References
 
 [[2021 - Anomaly detection with variational quantum generative adversarial networks.pdf]]
 
 [[2022 - Style-based quantum generative adversarial networks for Monte Carlo events.pdf]]
+
+[[2023 - A performance characterization of quantum generative models.pdf]]

@@ -16,6 +16,8 @@ The VQE hardware benchmark supplies a concrete failure mode. Once a deep circuit
 
 The RC-ZNE simulation supplies an important qualification rather than a contradiction. Under stationary coherent gate errors, ZNE alone follows a strongly nonlinear, state-dependent response, but randomized compiling first makes that response approximately stochastic and linear in the inserted CNOT count. ZNE can then recover energies and landscapes much more accurately. This mechanism-specific success does not remove the finite-sample bounds above; it changes the error model presented to the extrapolator and still incurs [[Finite-Randomization Precision Scaling]].
 
+For exponential ZNE with probabilistic noise amplification under sparse Pauli-Lindblad noise, the shot-optimal large-circuit construction uses two gain factors, $G_1^*=1$ and $G_2^*=1+2.557/(\epsilon NL)$. Its sampling overhead is $(1+1.795\epsilon NL)^2e^{\epsilon NL}$. Non-Clifford evolution makes the observable a sum of Pauli components with different decay rates, so fitting a single exponential also creates a systematic underestimation of order $\epsilon^2NL$ in the paper's mirrored-circuit model.
+
 # References
 
 [[2021 - Can Error Mitigation Improve Trainability of Noisy Variational Quantum Algorithms.pdf]]
@@ -23,3 +25,5 @@ The RC-ZNE simulation supplies an important qualification rather than a contradi
 [[2021 - Experimental error mitigation using linear rescaling for variational quantum eigensolving with up to 20 qubits.pdf]]
 
 [[2022 - Synergetic quantum error mitigation by randomized compiling and zero-noise extrapolation for the variational quantum eigensolver.pdf]]
+
+[[2024 - Scalability of quantum error mitigation techniques from utility to advantage.pdf]]

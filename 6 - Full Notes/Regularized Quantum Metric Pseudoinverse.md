@@ -14,7 +14,11 @@ The experiments use an empirically selected value near $\lambda=0.1$. The shift 
 
 Regularization changes the exact natural gradient and introduces a tunable bias. Its purpose is numerical stability, so the chosen value is part of the optimizer specification rather than a property derived uniquely from the quantum geometry.
 
+For a stochastic QFIM estimate that may contain negative sampled eigenvalues, QN-SPSA instead regularizes $\sqrt{AA}+\beta I$. Its normalized form makes $\beta$ an explicit [[QN-SPSA Regularization Interpolation|interpolation between noisy natural-gradient geometry and a stable identity-scaled update]].
+
 # References
 
 [[2021 - Natural Gradient Optimization for Optical Quantum Circuits.pdf]]
+
+[[2021 - Simultaneous Perturbation Stochastic Approximation of the Quantum Fisher Information.pdf]]
 

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "47fb5f6cb5bd559e",
+        "id": "65277c2e2d6129d4",
         "type": "tabs",
         "children": [
           {
-            "id": "589753612e0de9b6",
+            "id": "3c582cc9df16e704",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -192,8 +192,14 @@
       "local-vault-ai:Open Local Vault AI": false
     }
   },
-  "active": "589753612e0de9b6",
+  "active": "3c582cc9df16e704",
   "lastOpenFiles": [
+    "2 - Source Material/Lectures/Foundations of CS Lectures/Lecture 3 - Logic Gates.pdf",
+    "2 - Source Material/Lectures/Foundations of CS Lectures/Lecture 2 - Logic.pdf",
+    "2 - Source Material/Lectures/Foundations of CS Lectures/Lecture 1 - 301.pdf",
+    "2 - Source Material/Lectures/Foundations of CS Lectures",
+    "2 - Source Material/Lectures",
+    "3 - Tags/Quantum Computing for High-Energy Physics.md",
     "2 - Source Material/Books/researchmethodsforinformationsystems.pdf",
     "6 - Full Notes/Rocketry Technology Transfer.md",
     "6 - Full Notes/Project Paperclip.md",
@@ -220,11 +226,6 @@
     "tmp/epubs/spaceflight/OPS/xhtml/cover.xhtml",
     "tmp/epubs/spaceflight/OPS/xhtml/c555.xhtml",
     "tmp/epubs/spaceflight/OPS/xhtml/c444.xhtml",
-    "tmp/epubs/spaceflight/OPS/xhtml/c007.xhtml",
-    "tmp/epubs/spaceflight/OPS/xhtml/c008.xhtml",
-    "tmp/epubs/spaceflight/OPS/xhtml/c006.xhtml",
-    "tmp/epubs/spaceflight/OPS/xhtml/c003.xhtml",
-    "tmp/epubs/spaceflight/OPS/xhtml/c005.xhtml",
     "tmp/epubs/spaceflight/OPS/images/9780262536332_FC.jpg",
     "tmp/epubs/spaceflight/OPS/images/11232_000_fig_012.jpg",
     "tmp/epubs/spaceflight/OPS/images/11232_000_fig_011.jpg",
@@ -239,7 +240,6 @@
     "6 - Full Notes/Null Distribution.md",
     "6 - Full Notes/Discrete-Event Simulation.md",
     "3 - Tags/Information Systems Research Methods.md",
-    "6 - Full Notes/Survey Instrument Design.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

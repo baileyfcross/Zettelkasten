@@ -20,6 +20,8 @@ BOOKS = ROOT / "2 - Source Material" / "Books"
 MANIFEST = Path(__file__).resolve().parent / "manifest.json"
 PAPERS = ROOT / "2 - Source Material" / "Papers"
 PAPER_MANIFEST = Path(__file__).resolve().parent / "papers-manifest.json"
+LECTURES = ROOT / "2 - Source Material" / "Lectures"
+LECTURE_MANIFEST = Path(__file__).resolve().parent / "lectures-manifest.json"
 FULL_NOTES = ROOT / "6 - Full Notes"
 TAGS = ROOT / "3 - Tags"
 TAG_REFERENCE_MINIMUM = 10
@@ -96,6 +98,10 @@ def inventory() -> None:
 
 def inventory_papers() -> None:
     inventory_collection(PAPERS, PAPER_MANIFEST, "2 - Source Material/Papers")
+
+
+def inventory_lectures() -> None:
+    inventory_collection(LECTURES, LECTURE_MANIFEST, "2 - Source Material/Lectures")
 
 
 def extract_pdf(relative_path: str, output: Path, source_root: Path = BOOKS) -> None:
@@ -544,57 +550,81 @@ def main() -> None:
     subparsers = parser.add_subparsers(dest="command", required=True)
     subparsers.add_parser("inventory")
     subparsers.add_parser("inventory-papers")
+    subparsers.add_parser("inventory-lectures")
     extract_parser = subparsers.add_parser("extract-pdf")
     extract_parser.add_argument("relative_path")
     extract_parser.add_argument("output", type=Path)
     extract_paper_parser = subparsers.add_parser("extract-paper")
     extract_paper_parser.add_argument("relative_path")
     extract_paper_parser.add_argument("output", type=Path)
+    extract_lecture_parser = subparsers.add_parser("extract-lecture")
+    extract_lecture_parser.add_argument("relative_path")
+    extract_lecture_parser.add_argument("output", type=Path)
     show_parser = subparsers.add_parser("show-pdf-pages")
     show_parser.add_argument("relative_path")
     show_parser.add_argument("pages")
     show_paper_parser = subparsers.add_parser("show-paper-pages")
     show_paper_parser.add_argument("relative_path")
     show_paper_parser.add_argument("pages")
+    show_lecture_parser = subparsers.add_parser("show-lecture-pages")
+    show_lecture_parser.add_argument("relative_path")
+    show_lecture_parser.add_argument("pages")
     validate_parser = subparsers.add_parser("validate-source")
     validate_parser.add_argument("relative_path")
     validate_paper_parser = subparsers.add_parser("validate-paper")
     validate_paper_parser.add_argument("relative_path")
+    validate_lecture_parser = subparsers.add_parser("validate-lecture")
+    validate_lecture_parser.add_argument("relative_path")
     complete_parser = subparsers.add_parser("complete-source")
     complete_parser.add_argument("relative_path")
     complete_paper_parser = subparsers.add_parser("complete-paper")
     complete_paper_parser.add_argument("relative_path")
+    complete_lecture_parser = subparsers.add_parser("complete-lecture")
+    complete_lecture_parser.add_argument("relative_path")
     subparsers.add_parser("validate-topics")
     subparsers.add_parser("refresh-processed-validations")
     subparsers.add_parser("refresh-processed-paper-validations")
+    subparsers.add_parser("refresh-processed-lecture-validations")
     args = parser.parse_args()
 
     if args.command == "inventory":
         inventory()
     elif args.command == "inventory-papers":
         inventory_papers()
+    elif args.command == "inventory-lectures":
+        inventory_lectures()
     elif args.command == "extract-pdf":
         extract_pdf(args.relative_path, args.output)
     elif args.command == "extract-paper":
         extract_pdf(args.relative_path, args.output, PAPERS)
+    elif args.command == "extract-lecture":
+        extract_pdf(args.relative_path, args.output, LECTURES)
     elif args.command == "show-pdf-pages":
         show_pdf_pages(args.relative_path, args.pages)
     elif args.command == "show-paper-pages":
         show_pdf_pages(args.relative_path, args.pages, PAPERS)
+    elif args.command == "show-lecture-pages":
+        show_pdf_pages(args.relative_path, args.pages, LECTURES)
     elif args.command == "validate-source":
         print(json.dumps(validate_source(args.relative_path), indent=2))
     elif args.command == "validate-paper":
         print(json.dumps(validate_source(args.relative_path, PAPERS, PAPER_MANIFEST), indent=2))
+    elif args.command == "validate-lecture":
+        print(json.dumps(validate_source(args.relative_path, LECTURES, LECTURE_MANIFEST), indent=2))
     elif args.command == "complete-source":
         complete_source(args.relative_path)
     elif args.command == "complete-paper":
         complete_source(args.relative_path, PAPERS, PAPER_MANIFEST)
+    elif args.command == "complete-lecture":
+        complete_source(args.relative_path, LECTURES, LECTURE_MANIFEST)
     elif args.command == "validate-topics":
         print(json.dumps(validate_topics(), indent=2))
     elif args.command == "refresh-processed-validations":
         refresh_processed_validations()
     elif args.command == "refresh-processed-paper-validations":
         refresh_processed_validations(PAPERS, PAPER_MANIFEST)
+    elif args.command == "refresh-processed-lecture-validations":
+        refresh_processed_validations(LECTURES, LECTURE_MANIFEST)
 
 
 if __name__ == "__main__":

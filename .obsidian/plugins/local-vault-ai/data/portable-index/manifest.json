@@ -7,7 +7,7 @@
   "embeddingDimensions": 384,
   "indexPdfSources": true,
   "createdAt": "2026-09-27T05:25:35.469Z",
-  "updatedAt": "2026-10-05T07:08:08.400Z",
+  "updatedAt": "2026-10-17T21:23:07.836Z",
   "sources": {
     "2 - Source Material/3 - Tags/Adaptive and Outcome-Based Cyber Defense.md": {
       "sourceHash": "c799f1159fa8eeea723135fc7a9cb928882b72dde9e9e0d3f7478b4dea83a200",
@@ -4940,7 +4940,7 @@
       ]
     },
     "2 - Source Material/Article/What is artificial intelligence (AI).md": {
-      "sourceHash": "1c153f1d3a5ad57e432fc08733e5a989cd648bd2009ce839f5720be5aa21aff3",
+      "sourceHash": "64cd7ff7856813e1ac6018ab8c1acaa94d2d2a67c23870d1544e86f95523f698",
       "sourceType": "markdown",
       "fileName": "What is artificial intelligence (AI).md",
       "title": "What is artificial intelligence (AI)",
@@ -4950,7 +4950,7 @@
       ]
     },
     "2 - Source Material/Article/What is software development.md": {
-      "sourceHash": "b60055127935e0e389397d1f97cfa24feb2a20ddea754d487c3ac3ccf3c1930b",
+      "sourceHash": "38c17cd6dc92364a0116aff54b6db089913c0e425bfa5e3cc650e16e2ad6a54e",
       "sourceType": "markdown",
       "fileName": "What is software development.md",
       "title": "What is software development",
@@ -7441,39 +7441,6 @@
         "20bdfedb25ec43f704314fe107ba9667462e379f632f87a65651338309119589"
       ]
     },
-    "2 - Source Material/Foundations of CS Lectures/Lecture 1 - 301.pdf": {
-      "sourceHash": "6b45c58451d467c3d810750758e281ec8bb2cd763b3de1a7c0f90f6eeeddcf14",
-      "sourceType": "pdf",
-      "fileName": "Lecture 1 - 301.pdf",
-      "title": "Lecture 1 - 301",
-      "pageCount": 26,
-      "chunkCount": 6,
-      "objectHashes": [
-        "afa132b5031406a9ea3ccf1db0cc8c37f39be1714e608fbda1f7f6df6e15a68f"
-      ]
-    },
-    "2 - Source Material/Foundations of CS Lectures/Lecture 2 - Logic.pdf": {
-      "sourceHash": "e348f43fa0ae8a8ff20b4d86203472b8cc55b7876bff8d3f0ce0d9c39f0af898",
-      "sourceType": "pdf",
-      "fileName": "Lecture 2 - Logic.pdf",
-      "title": "Lecture 2 - Logic",
-      "pageCount": 32,
-      "chunkCount": 11,
-      "objectHashes": [
-        "63d690680022742076b909464125fbf63cb8cce76ff9abd4507b07f15c052f11"
-      ]
-    },
-    "2 - Source Material/Foundations of CS Lectures/Lecture 3 - Logic Gates.pdf": {
-      "sourceHash": "1076d35dd4ad11e45333c1e30399055084f94d468168b50336fa45916080222b",
-      "sourceType": "pdf",
-      "fileName": "Lecture 3 - Logic Gates.pdf",
-      "title": "Lecture 3 - Logic Gates",
-      "pageCount": 42,
-      "chunkCount": 58,
-      "objectHashes": [
-        "4dad40131529296501f728168948e56c11330b4b1e57f24998ce8728acb1fbf3"
-      ]
-    },
     "2 - Source Material/Papers/Mathematical_Generalization.pdf": {
       "sourceHash": "5b4eb71f5e19d36b7db5b8456f571031ce28ca25183c1ddee47a2ab45c5c7a13",
       "sourceType": "pdf",
@@ -9556,13 +9523,13 @@
       ]
     },
     "3 - Tags/Computer Science.md": {
-      "sourceHash": "b3d42e18914da0783b1de5d2d19d663c77143d0fa4a1459f5faee9de5ce59564",
+      "sourceHash": "7f3439951e203e924616fdf85654d5f9f722153a640e1403ad1a26482d106dcf",
       "sourceType": "markdown",
       "fileName": "Computer Science.md",
       "title": "Computer Science",
       "chunkCount": 13,
       "objectHashes": [
-        "83f3efe4dbd81aa57c39849772d8ea70dc7e13f197042e036c09e6eff44a7cce"
+        "7b86a4151b3808f1bffd3a5cef15995281772300114679226a32763389c2f839"
       ]
     },
     "3 - Tags/Computing History.md": {
@@ -18186,7 +18153,7 @@
       ]
     },
     "6 - Full Notes/Artificial Intelligence.md": {
-      "sourceHash": "1c04231e9621bcf591c36525aa2a0d3a160320f57dd10141c78c3a4056940dec",
+      "sourceHash": "e8fc5cc096bb3a12c78de759d8503e0834996584d66fe5ce0975531b5d9a8c9d",
       "sourceType": "markdown",
       "fileName": "Artificial Intelligence.md",
       "title": "Artificial Intelligence",
@@ -19406,13 +19373,13 @@
       ]
     },
     "6 - Full Notes/Automation.md": {
-      "sourceHash": "67e2326b368a3e091cd1e3606a4c6c5d96e8b95104c4df74d4a54052bb8e5278",
+      "sourceHash": "f8a81f22368df37464da32f108731861a52a14bd5c85eac71e88049e7ba5f3bb",
       "sourceType": "markdown",
       "fileName": "Automation.md",
       "title": "Automation",
       "chunkCount": 3,
       "objectHashes": [
-        "ca7a7648682132c31092c2101db84c820f88fdfe63ce0667794bfafe7e626344"
+        "7d4bff8ada83dea61038368bab5eecea7369c377e522f1b5c1b488225cfa87b4"
       ]
     },
     "6 - Full Notes/Automotive GPS Navigation.md": {
@@ -25086,13 +25053,13 @@
       ]
     },
     "6 - Full Notes/Build Pipeline.md": {
-      "sourceHash": "4f2b03cdc7df2fbd25aaf939d530f6aca8add2d0095e9dd60c6239578a196f28",
+      "sourceHash": "5a4142e26dcd3f56c404595426c97953dbb2620f2bd713606b5d85081c78157f",
       "sourceType": "markdown",
       "fileName": "Build Pipeline.md",
       "title": "Build Pipeline",
       "chunkCount": 3,
       "objectHashes": [
-        "0788621dcd5b90a86f11497f2fa5e2d2281ed25905e4e95741c6dda936a4502d"
+        "52b491de41f26d7b2436c9f754251366e84e9fc5fe01d95ad823e6e09331fe5a"
       ]
     },
     "6 - Full Notes/Builder Pattern.md": {
@@ -30016,7 +29983,7 @@
       ]
     },
     "6 - Full Notes/Compound Propositions.md": {
-      "sourceHash": "4c24b94309334570b5aad292493cd95faaf6626d21ca49278d9960f4681c5f55",
+      "sourceHash": "3b9d831283fb0d63b844693693bf4156d94220aa022a169e13e36a70c22a577d",
       "sourceType": "markdown",
       "fileName": "Compound Propositions.md",
       "title": "Compound Propositions",
@@ -30826,7 +30793,7 @@
       ]
     },
     "6 - Full Notes/Conclusion.md": {
-      "sourceHash": "b2ceff8152a9c942ef24c329a683e6a9cea14262981e047b541ee99027e20a91",
+      "sourceHash": "d89d16ddd6ea1034a4e0b80cf0a838ae501476808a8f1e9f46b2bb9334b31dc0",
       "sourceType": "markdown",
       "fileName": "Conclusion.md",
       "title": "Conclusion",
@@ -39926,7 +39893,7 @@
       ]
     },
     "6 - Full Notes/Electronic Circuits.md": {
-      "sourceHash": "d4dee6d8aec05625b94c1e74c433e1c69efbdc5869414f577bd2ae01dc47b547",
+      "sourceHash": "3a18225a1113e63f0769951661d0b3721acdc6dadff3d305f4668906683cc99d",
       "sourceType": "markdown",
       "fileName": "Electronic Circuits.md",
       "title": "Electronic Circuits",
@@ -50896,13 +50863,13 @@
       ]
     },
     "6 - Full Notes/Incident Retrospective.md": {
-      "sourceHash": "a8b00ac6f3b661a39f3b023b2650c96440b7fce81c6fd2c2ebc81756d1095367",
+      "sourceHash": "fc548ed705e2f8bc70c581563e418b342333054d4208179072113707195e1537",
       "sourceType": "markdown",
       "fileName": "Incident Retrospective.md",
       "title": "Incident Retrospective",
       "chunkCount": 3,
       "objectHashes": [
-        "57c1d2a82a5c0b3f43dff8cba01f38cb2ba63f11b43e3a1306d749339abdcdc5"
+        "a9dddda6f06e57b711d96a161ce45406d63517790f95792d76c041687fad9e8d"
       ]
     },
     "6 - Full Notes/Inclusive AI Development.md": {
@@ -56126,13 +56093,13 @@
       ]
     },
     "6 - Full Notes/Logical Deduction.md": {
-      "sourceHash": "3f0839d0b36747d907d2f8f11e49d044800857a66077e5667a455ae2582e8918",
+      "sourceHash": "ba4a7a12ead3fd30a12c1c613f167fa8da854398a6b60c639bb67a06d4e6dc51",
       "sourceType": "markdown",
       "fileName": "Logical Deduction.md",
       "title": "Logical Deduction",
       "chunkCount": 3,
       "objectHashes": [
-        "3453884d45df9998efe248391b87187c871cb4bed1fa6dd1dd065d256eeff76d"
+        "db760dab61318d0968b5ec5a1107e5a8a016450b6d5bd569d19cc48824aac2fb"
       ]
     },
     "6 - Full Notes/Logical Operators.md": {
@@ -56146,13 +56113,13 @@
       ]
     },
     "6 - Full Notes/Logically Equivalent.md": {
-      "sourceHash": "7335f1b2e1b7948f46961baa1700292ea95ea3e15b890b23eeb33bc0278e0fb5",
+      "sourceHash": "f53020e956c011e55eb81384747cc51bee1fed168fce2cd743a7a7f89e829fc3",
       "sourceType": "markdown",
       "fileName": "Logically Equivalent.md",
       "title": "Logically Equivalent",
       "chunkCount": 3,
       "objectHashes": [
-        "1f105cc1b944f7da527a2e3007c8d0c70fc9381fe9972e01bb3156ffbd02fec9"
+        "37638723591c716c7b4e123e389fe1fcdf9d606145d51c0bdc90a2089f2a60e8"
       ]
     },
     "6 - Full Notes/Logistic Model Convergence.md": {
@@ -67926,13 +67893,13 @@
       ]
     },
     "6 - Full Notes/Prompt Repository.md": {
-      "sourceHash": "771cdfbd6a4a3af3735b4a844b17a74081fe15c39f02c682221edb54386efa63",
+      "sourceHash": "1ba1de2640c54a438e2db15e60ea5c5762a47378ff52c212b58bd761bdbdf29a",
       "sourceType": "markdown",
       "fileName": "Prompt Repository.md",
       "title": "Prompt Repository",
       "chunkCount": 3,
       "objectHashes": [
-        "a5ed1dfbec77a4c10ec2221677409338d399eb83317b9518deac91f5d6ff3956"
+        "1e8519665f84ece1a00502cab02d5e2ac3991a300ecaa8bbc3759a3b0abb24a3"
       ]
     },
     "6 - Full Notes/Prompt Tapering.md": {
@@ -68086,13 +68053,13 @@
       ]
     },
     "6 - Full Notes/Propositional Variable.md": {
-      "sourceHash": "ef851996fb03aa5ae20f1febcb6b2080081e6884acae613936beb0a5e6c9ac6f",
+      "sourceHash": "4f4fff1f3cac7c7800ac04867cff83b95ec291a3dc55c24e668d44beef5eab42",
       "sourceType": "markdown",
       "fileName": "Propositional Variable.md",
       "title": "Propositional Variable",
       "chunkCount": 3,
       "objectHashes": [
-        "d73c544b02cf429817dd8624fa0c30066973a79c4121eb2f05e562de53aed12e"
+        "310fb77a0f9791402ab0d62f0081bf97575566b8dcce00f0d01f68dbddcea9cd"
       ]
     },
     "6 - Full Notes/Protected Constructor for Abstract Containers.md": {
@@ -68346,13 +68313,13 @@
       ]
     },
     "6 - Full Notes/Pull Request.md": {
-      "sourceHash": "e8b35ec6a4db4c4c165e007b9bb0e32ed3d97c4b56e1fe851c496126e587a460",
+      "sourceHash": "e5b44c7cb3c39593f1e88ab2c341d6a68118353fb013a06d1eb193685f3cf4d5",
       "sourceType": "markdown",
       "fileName": "Pull Request.md",
       "title": "Pull Request",
       "chunkCount": 3,
       "objectHashes": [
-        "6b76416f910e8144f01803e21080707db74db3e30c76be858c5e98047b8749c2"
+        "9824ab3353d43a19fc351386e04d132aa7838c4a78f5b9a1118a0198a7fbe9eb"
       ]
     },
     "6 - Full Notes/Pull System.md": {
@@ -71146,13 +71113,13 @@
       ]
     },
     "6 - Full Notes/Release Pipeline.md": {
-      "sourceHash": "7e3ba4ca5ce34387ef282caff0718395e6581d4c389dd34c290e8dba641913a3",
+      "sourceHash": "34f6991faf9edb8513e25b9ff3ca68760e2820076850662ed6978902f56faa07",
       "sourceType": "markdown",
       "fileName": "Release Pipeline.md",
       "title": "Release Pipeline",
       "chunkCount": 3,
       "objectHashes": [
-        "88c8f67800a65a3ffc73e51e94e4a642a6c6d281d00fdedc20d2eee149b2a3f8"
+        "7aa5f229b1a9e9e912b6b712c8dfbe7dcc63a966a4b0d888b703f181b4bc596f"
       ]
     },
     "6 - Full Notes/Release Planning.md": {
@@ -75686,13 +75653,13 @@
       ]
     },
     "6 - Full Notes/Software Development.md": {
-      "sourceHash": "c931a5f4b3c0d215d57de24145a70308797d9fc69f1049ea3e84712504c6e001",
+      "sourceHash": "ab51dc0b09a708725a142bcf2018bc5e58355897b5eb84821068bd310d246251",
       "sourceType": "markdown",
       "fileName": "Software Development.md",
       "title": "Software Development",
       "chunkCount": 3,
       "objectHashes": [
-        "48ec0959cea260fbbdb8ffd0ea01a4464e94253e0391f5a4a30a6e9fe5bf517f"
+        "ae5da010b113068e9e49cf500911f937b9a56af3a360b131653d18ed1092faa2"
       ]
     },
     "6 - Full Notes/Software Environmental Fit.md": {
@@ -75786,13 +75753,13 @@
       ]
     },
     "6 - Full Notes/Software.md": {
-      "sourceHash": "f12c8f460567065dd4ddeb03f5a0e255688ee8cb627a55d34b4e8a4da7589ce4",
+      "sourceHash": "811e94ef9a51580a24c687b4c6c9af2885e6f26640c17af802de8cfc08b614bf",
       "sourceType": "markdown",
       "fileName": "Software.md",
       "title": "Software",
       "chunkCount": 2,
       "objectHashes": [
-        "7102fdb70bdca0656309fd95033e29ed6c4d3a5373c340a43591db0bbd0f7b4b"
+        "166a2b0445a7e2d33f73f9deb62961a76c0da7db9e5c3462e75816f7cf37904d"
       ]
     },
     "6 - Full Notes/Solar Air Mass.md": {
@@ -86856,13 +86823,13 @@
       ]
     },
     "6 - Full Notes/Workflow Automation.md": {
-      "sourceHash": "55b6b5fef4a1a936babb04597cbad2749d1aa51490842c9fbc05604c70cec202",
+      "sourceHash": "a6d74e92a5e889458fdd78158765f93211be8cc1d5eac25c65efc91c6c7733ce",
       "sourceType": "markdown",
       "fileName": "Workflow Automation.md",
       "title": "Workflow Automation",
       "chunkCount": 3,
       "objectHashes": [
-        "af232b4a8a852e72bedb6331987310150a6f78bef2c92ba98214ed4c5fe8fabb"
+        "9c6f16acc124e6688854d2898c60b0041e331072f8a1d06058da1549c217bd07"
       ]
     },
     "6 - Full Notes/Workflow Buffer.md": {

@@ -1,8 +1,8 @@
-2026-10-16 17:54
+2026-10-16 22:03
 
 Status: #baby
 
-Tags: [[Variational Quantum Wasserstein Anomaly Detection]]
+Tags: [[Variational Quantum Wasserstein Anomaly Detection]] · [[Style-qGAN Monte Carlo Event Generation]]
 
 # Commuting Z-Expectation Generator Readout
 
@@ -12,6 +12,10 @@ All of the measured Pauli-$Z$ operators commute, so one batch of computational-b
 
 Expectation readout also constrains the information passed to the classical network. For example, a final $Z$ rotation cannot change a $Z$ expectation by itself, which helps explain why circuits with randomly chosen rotation axes can benefit from additional layers. The output is a learned classical feature vector, not a direct sample of the 29-dimensional transaction distribution.
 
+The style-qGAN uses the same commuting measurement family without a dense upscaler. It assigns one continuous output component to each qubit as $x_i=-\langle\sigma_z^i\rangle$, so an $n$-qubit circuit directly produces a point in $[-1,1]^n$ before classical inverse preprocessing. Other commuting multi-qubit observables could define more elaborate sample components, but the collider benchmark uses one local expectation per feature.
+
 # References
 
 [[2021 - Anomaly detection with variational quantum generative adversarial networks.pdf]]
+
+[[2022 - Style-based quantum generative adversarial networks for Monte Carlo events.pdf]]

@@ -1,4 +1,4 @@
-2026-10-16 23:00
+2026-10-16 23:13
 
 Status: #baby
 
@@ -16,6 +16,8 @@ A second performance study reports a similarly striking but still conditional ex
 
 A quantum invertible neural network supplies a third example. Its roughly 2,000 parameters outperform an equal-sized spline INN and are reported as comparable to classical models with about 6,000 to 16,000 parameters on a five-dimensional collider task. Yet about 1,700 of the QINN parameters belong to a classical inverse-state-preparation network, the comparison uses different model structures, and all quantum results are simulated without hardware measurement costs. The result supports compact hybrid model capacity, not an end-to-end quantum resource advantage.
 
+A QuDDPM comparison controls the generator circuits more tightly: QuDDPM, quantum direct transport, and the QuGAN generator each receive 720 variational parameters and the same total training-step budget on a two-qubit state-ensemble task. QuDDPM performs much better, but its parameters are distributed across 20 sequential denoising circuits, the QuGAN has an additional discriminator, and the models require different measurement and optimization workflows. Equalized raw counts improve the comparison without making computational cost identical, especially in a noiseless simulation.
+
 # References
 
 [[2023 - A Framework for Demonstrating Practical Quantum Advantage Racing Quantum against Classical Generative Models.pdf]]
@@ -23,4 +25,6 @@ A quantum invertible neural network supplies a third example. Its roughly 2,000 
 [[2023 - A performance characterization of quantum generative models.pdf]]
 
 [[2023 - Generative Invertible Quantum Neural Networks.pdf]]
+
+[[2023 - Generative quantum machine learning via denoising diffusion probabilistic models.pdf]]
 

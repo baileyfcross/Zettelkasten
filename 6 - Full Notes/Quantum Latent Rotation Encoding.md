@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Variational Quantum Wasserstein Anomaly Detection]]
+Tags: [[Variational Quantum Wasserstein Anomaly Detection]] · [[Experimental Quantum GAN Image Generation]]
 
 # Quantum Latent Rotation Encoding
 
@@ -12,6 +12,10 @@ This is latent-data encoding rather than loading the observed transaction. Durin
 
 One-coordinate-per-qubit rotation encoding is shallow and compatible with small devices, but it does not compress an arbitrary classical record into logarithmically many qubits. The practical advantage claimed for the design is avoidance of high-dimensional quantum data preparation, not an asymptotic encoding speedup.
 
+The image-generation patch qGAN uses the same pattern with $R_Y$ rotations whose angles are sampled from a chosen latent distribution. Every patch sub-generator receives the same latent state during an iteration so their probability vectors form one image drawn from a single generator map. Here the rotations encode random generator input, while amplitude encoding of real images is reserved for the distinct quantum batch architecture.
+
 # References
 
 [[2021 - Anomaly detection with variational quantum generative adversarial networks.pdf]]
+
+[[2021 - Experimental Quantum Generative Adversarial Networks for Image Generation.pdf]]

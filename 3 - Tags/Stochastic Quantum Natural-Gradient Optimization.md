@@ -6,7 +6,7 @@ Stochastic estimators that make quantum natural-gradient and imaginary-time upda
 
 ## Directly Linked Full Notes
 
-\`\`\`query
+```query
 path:"6 - Full Notes" "[[Stochastic Quantum Natural-Gradient Optimization]]"
-\`\`\`
+```
 

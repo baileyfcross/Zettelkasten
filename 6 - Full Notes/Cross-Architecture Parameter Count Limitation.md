@@ -1,4 +1,4 @@
-2026-10-16 22:51
+2026-10-16 23:00
 
 Status: #baby
 
@@ -14,9 +14,13 @@ The smaller QCBM count is therefore a descriptive result rather than evidence of
 
 A second performance study reports a similarly striking but still conditional example: a 54-parameter discrete copula QGAN fits the three-dimensional X distribution with KL $0.029$, compared with KL $0.089$ for a 9,475-parameter classical GAN. The quantum and classical parameter counts arise from different circuit blocks, hidden layers, training rules, and runtime costs, while every quantum result is obtained in noiseless state-vector simulation. Parameter efficiency is therefore an empirical architecture property, not a controlled resource advantage.
 
+A quantum invertible neural network supplies a third example. Its roughly 2,000 parameters outperform an equal-sized spline INN and are reported as comparable to classical models with about 6,000 to 16,000 parameters on a five-dimensional collider task. Yet about 1,700 of the QINN parameters belong to a classical inverse-state-preparation network, the comparison uses different model structures, and all quantum results are simulated without hardware measurement costs. The result supports compact hybrid model capacity, not an end-to-end quantum resource advantage.
+
 # References
 
 [[2023 - A Framework for Demonstrating Practical Quantum Advantage Racing Quantum against Classical Generative Models.pdf]]
 
 [[2023 - A performance characterization of quantum generative models.pdf]]
+
+[[2023 - Generative Invertible Quantum Neural Networks.pdf]]
 

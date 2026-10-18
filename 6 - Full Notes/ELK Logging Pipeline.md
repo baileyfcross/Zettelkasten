@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud-Native Observability]]
+Tags: [[Cloud-Native Observability]] [[Microservice Security and Observability]]
 
 # ELK Logging Pipeline
 
@@ -10,7 +10,10 @@ An ELK logging pipeline centralizes events through Elasticsearch, Logstash, and 
 
 This pipeline replaces host-by-host log inspection when services and containers are distributed or short-lived. A transaction identifier and [[Structured Application Logging|structured fields]] let an operator reconstruct a failure across services, while infrastructure metrics can be correlated with the same time window to distinguish an application error from an exhausted dependency or network.
 
+The microservices source adds lightweight shippers to the pipeline: Beats can collect logs, metrics, network data, audit events, or endpoint health and forward them for processing. The division of roles matters operationally—collection gathers evidence near the workload, Logstash transforms it, Elasticsearch indexes it, and Kibana presents it—so capacity and failure in one stage can be diagnosed without treating the stack as a single black box.
+
 # References
 
 [[clouddevopsengineersguide.pdf]]
+[[artofdecodingmicroservices.epub]]
 

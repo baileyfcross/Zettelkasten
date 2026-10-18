@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud-Native Observability]] [[Docker Observability Operations]]
+Tags: [[Cloud-Native Observability]] [[Docker Observability Operations]] [[Microservice Security and Observability]]
 
 # Prometheus Pull-Based Metrics Collection
 
@@ -14,6 +14,8 @@ Prometheus also evaluates alerting rules and forwards notifications to Alertmana
 
 Prometheus scrapes exposed metrics endpoints on a schedule, turning service and container measurements into labeled time series. Stable labels and bounded cardinality are essential because unconstrained per-container or per-request dimensions can make the monitoring system expensive and difficult to query.
 
+For a Spring microservice, the source connects application instrumentation through Micrometer and an Actuator metrics endpoint to Prometheus scraping, PromQL queries, and Grafana dashboards. This path separates measurement from presentation: the service exposes observations, Prometheus stores and evaluates time series, and a dashboard displays selected signals. Alerts should be based on conditions that require action rather than every available measurement.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -21,3 +23,4 @@ Prometheus scrapes exposed metrics endpoints on a schedule, turning service and 
 [[clouddevopsengineersguide.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]
+[[artofdecodingmicroservices.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Azure Kubernetes Service Operations]] [[Kubernetes Cluster Architecture and Resources]]
+Tags: [[Azure Kubernetes Service Operations]] [[Kubernetes Cluster Architecture and Resources]] [[Microservice Testing Deployment and Scaling]]
 
 # Kubernetes Deployment
 
@@ -14,6 +14,8 @@ For AKS, declarative deployment extends beyond an individual manifest to a contr
 
 A Deployment owns ReplicaSets rather than creating replacement pods directly. Changing its pod template produces a new ReplicaSet and gradually transfers the desired replica count, preserving rollout history that can support pause, inspection, and rollback.
 
+The microservices source places a Deployment within a larger Kubernetes delivery path: the container image supplies the service artifact, the Deployment declares replicas and rollout state, a Service provides stable access to changing pods, and ingress can route external HTTP traffic. Resource declarations, probes, and autoscaling determine whether replicas can be scheduled, receive traffic, recover, and respond to demand.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -21,3 +23,4 @@ A Deployment owns ReplicaSets rather than creating replacement pods directly. Ch
 [[c8andnetcore30projectsusingazure.pdf]]
 
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
+[[artofdecodingmicroservices.epub]]

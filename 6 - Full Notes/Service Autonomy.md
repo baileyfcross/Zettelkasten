@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Containerized Microservice Architecture]]
+Tags: [[Containerized Microservice Architecture]] [[Microservice Architecture Adoption]]
 
 # Service Autonomy
 
@@ -10,6 +10,9 @@ Service autonomy means a service owns its execution and can remain operational w
 
 The order worker receives sales orders through an [[Azure Storage Queue]], so the producer and consumer do not need to be available simultaneously. This loose timing relationship is what allows several worker replicas to process the same backlog.
 
+The microservices source extends autonomy from runtime independence to lifecycle ownership. A team needs authority over the service's model, data, technology, deployment, scaling, monitoring, and maintenance if it is to change without continuous coordination. Autonomy therefore depends on explicit contracts and automated operations; placing code in a separate process while retaining a shared database or lockstep release does not create an independent service.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[artofdecodingmicroservices.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Bounded Context and Organizational Design]]
+Tags: [[Bounded Context and Organizational Design]] [[Microservice Boundaries and Data]]
 
 # Bounded Context
 
@@ -12,6 +12,8 @@ The architecture source uses bounded contexts to divide a complex solution where
 
 The AWS solutions source connects this boundary to microservice design: each service can own the model and data for one business capability, while a context map makes upstream, downstream, partnership, shared-kernel, and translation relationships visible. Splitting services without preserving these semantic boundaries merely distributes one coupled model.
 
+The microservices source treats a bounded context as a candidate service boundary because it keeps terminology, rules, and data internally consistent. The mapping still requires judgment: a context should not be split merely to make services smaller, and separate contexts should communicate through deliberate interfaces or domain events rather than shared internal structures.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -19,3 +21,4 @@ The AWS solutions source connects this boundary to microservice design: each ser
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
 
 [[awsforsolutionsarchitectsthirdedition.pdf]]
+[[artofdecodingmicroservices.epub]]

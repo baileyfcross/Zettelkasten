@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Scalability and Resilience Patterns]] [[.NET Microservice Communication and Workers]]
+Tags: [[Cloud Scalability and Resilience Patterns]] [[.NET Microservice Communication and Workers]] [[Microservice Communication and Resilience]]
 
 # Event-Driven Architecture
 
@@ -14,6 +14,8 @@ The AWS architecture source separates queue, publish-subscribe, and stream model
 
 The Azure architecture map uses Event Hubs for high-volume ingestion, Service Bus topics for filtered enterprise messaging, and Functions or Stream Analytics for event processing. These services occupy different semantic roles: a retained event stream supports independent offsets and replay, while a brokered topic supplies subscriptions, delivery controls, and routing filters. The workload’s ordering, retention, fan-out, transaction, and failure requirements should select the mechanism.
 
+The microservices source distinguishes choreography, in which services react to events without one central coordinator, from orchestration, in which a coordinator directs the sequence. Choreography reduces central control but can make a long workflow difficult to see; orchestration makes the flow explicit but creates a coordinating dependency. In either style, immutable event facts, versioned schemas, idempotent consumers, and observable broker behavior are part of the service contract.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -24,3 +26,4 @@ The Azure architecture map uses Event Hubs for high-volume ingestion, Service Bu
 [[awsforsolutionsarchitectsthirdedition.pdf]]
 
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
+[[artofdecodingmicroservices.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Object-Oriented Design Patterns]]
+Tags: [[Object-Oriented Design Patterns]] [[Java OpenAI API Integration]]
 
 # Builder Pattern
 
@@ -12,6 +12,8 @@ A builder moves the steps required to assemble a complex object out of the clien
 
 The room-construction example separates a configured building process from the client that requests a completed representation. .NET Generic Host applies the same pattern by accumulating service, configuration, and logging choices before building the host.
 
+The Java OpenAI example applies the pattern to an API request with a small required core and many optional generation parameters. A builder can require the model and messages, collect only the optional fields a call needs, and produce the serialized request object without a long positional constructor. As the source-versioned endpoint adds or removes fields, the construction surface can evolve while existing call sites remain readable.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -19,3 +21,4 @@ The room-construction example separates a configured building process from the c
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+[[chatgptforjava.epub]]

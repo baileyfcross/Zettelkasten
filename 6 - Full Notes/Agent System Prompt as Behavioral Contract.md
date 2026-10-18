@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Microsoft Foundry Enterprise Agent Integrations]]
+Tags: [[Microsoft Foundry Enterprise Agent Integrations]] [[Prompt-Controlled Generative AI Applications]]
 
 # Agent System Prompt as Behavioral Contract
 
@@ -12,8 +12,11 @@ Like a contract, the prompt must be versioned, tested, and interpreted together 
 
 Operational instruction files make the contract domain-specific by stating the situation, goal, and approach an agent should follow. Guidance such as starting with cheaper metrics, bounding the timeframe, and using a known investigation sequence can reduce exploratory queries without requiring a newly trained model.
 
+The Java ChatGPT source demonstrates the contract with two Discord bots. A system message establishes the Q&A assistant's role and supplied knowledge boundary, while a separate moderation prompt defines locally unwanted solicitation. When the first Q&A instruction merely encouraged helpfulness, the model invented unsupported product features; changing it to remain within the provided FAQ and avoid assumptions materially improved the behavior.
+
 # References
 
 [[microsoftfoundryinaction.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]
+[[chatgptforjava.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[R Probability Simulation and Curve Fitting]] [[Pseudorandom Number Generation Methods]]
+Tags: [[R Probability Simulation and Curve Fitting]] [[Pseudorandom Number Generation Methods]] [[Cryptographic Randomness and Hashing]]
 
 # Pseudorandom Number Generation
 
@@ -12,8 +12,12 @@ Different distribution functions transform the generator into uniform, normal, b
 
 A generator advances through a finite deterministic state space, so it eventually repeats after its [[Random Number Generator Period]]. Statistical quality therefore requires more than a long cycle: successive values should avoid visible structure, and separate workers must receive nonoverlapping streams in [[Parallel Random Number Generation]].
 
+For cryptography, a sequence must also resist efficient prediction. The seed determines the sequence, so reproducibility that is useful in a simulation becomes a weakness when the values protect keys or sessions. Tests such as the [[Next-Bit Test]] and resistance to a [[State Compromise Extension Attack]] evaluate an adversary's ability to exploit observed output or disclosed internal state rather than only the sequence's visible distribution.
+
 # References
 
 [[rstudentcompanion.pdf]]
 
 [[statisticalcomputingincplusplusandr.pdf]]
+
+[[cryptographyandcryptanalysisinjava.epub]]

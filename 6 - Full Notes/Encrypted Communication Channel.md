@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Cloud Security Monitoring and Resilience]] [[Applied Cryptography and PKI]]
+Tags: [[Cloud Security Monitoring and Resilience]] [[Public-Key Cryptosystems and Digital Identity]]
 
 # Encrypted Communication Channel
 
@@ -12,8 +12,12 @@ Channel encryption protects the route between the participating endpoints. An ap
 
 The source describes SSL/TLS session establishment as a client-server exchange in which a certificate is presented and authenticated, supported cipher suites are compared, and keys are exchanged. The established channel combines asymmetric key management with efficient symmetric protection for transmitted data.
 
+The Java source identifies JSSE as the platform interface for SSL/TLS while the Java Cryptography Architecture supplies underlying key, cipher, signature, digest, and random-number operations. It also uses [[Hybrid Public-Key Encryption]] to explain why asymmetric mechanisms establish or protect session material while symmetric algorithms carry the channel's larger data stream.
+
 # References
 
 [[cloudcomputing_mit.epub]]
 
 [[cybersecurity.epub]]
+
+[[cryptographyandcryptanalysisinjava.epub]]

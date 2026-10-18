@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Applied Cryptography and PKI]]
+Tags: [[Cryptographic Randomness and Hashing]]
 
 # Message Authentication Code
 
@@ -10,6 +10,10 @@ A message authentication code is a short keyed value that lets a recipient check
 
 Unlike an unkeyed [[Cryptographic Hash Function|hash]], the code authenticates a party that holds the key. The source presents it as a lighter form of signature evidence used to support [[Nonrepudiation]].
 
+Java's cryptographic architecture exposes MAC algorithms as services alongside hashes, ciphers, and signatures. The shared secret distinguishes a MAC from an ordinary digest: both can detect changed content, but only the keyed construction limits valid code generation to parties that possess the authentication key.
+
 # References
 
 [[cybersecurity.epub]]
+
+[[cryptographyandcryptanalysisinjava.epub]]

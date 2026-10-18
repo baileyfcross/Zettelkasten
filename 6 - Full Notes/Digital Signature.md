@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Cryptography and Access Control]] [[Applied Cryptography and PKI]]
+Tags: [[.NET Cryptography and Access Control]] [[Public-Key Cryptosystems and Digital Identity]]
 
 # Digital Signature
 
@@ -14,6 +14,8 @@ Digital signatures support [[Nonrepudiation]] by giving a recipient verifiable e
 
 The message digest makes verification sensitive to any content change without requiring the asymmetric operation to process the whole message directly. Signing applies the private-key operation to that digest, and verification recomputes the digest before checking it with the public key.
 
+A signature scheme separates key generation, signing, and verification. Signing consumes the private key and message, while verification consumes the message, signature, and public key and returns acceptance or rejection. The Java examples implement `SHA256withRSA` and an ElGamal signature, emphasizing that practical implementations normally sign a [[Cryptographic Hash Function|digest]] rather than applying the public-key operation directly to an arbitrarily long message.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
@@ -21,3 +23,5 @@ The message digest makes verification sensitive to any content change without re
 [[cybersecurity.epub]]
 
 [[programmingincexam70-483mcsdguide.pdf]]
+
+[[cryptographyandcryptanalysisinjava.epub]]

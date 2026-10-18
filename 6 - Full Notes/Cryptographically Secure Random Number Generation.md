@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Cryptography and Access Control]]
+Tags: [[.NET Cryptography and Access Control]] [[Cryptographic Randomness and Hashing]] [[Java Platform Cryptography and Security]]
 
 # Cryptographically Secure Random Number Generation
 
@@ -10,6 +10,10 @@ Security-sensitive values require randomness that an attacker cannot feasibly pr
 
 The ordinary `Random` class is useful for simulation and general variation but is not designed to resist prediction. Choosing the cryptographic generator is therefore a security boundary, not merely a matter of producing a wider range of numbers.
 
+The Java source makes the same distinction between general pseudorandom interfaces and `java.security.SecureRandom`. It describes operating-system random data as the seed material for `SecureRandom`, contrasts that with ordinary time-derived seeding, and recommends the secure generator for keys, one-time passwords, and session identifiers whose predictability would enable impersonation or guessing.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[cryptographyandcryptanalysisinjava.epub]]

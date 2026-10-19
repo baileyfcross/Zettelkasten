@@ -16,6 +16,8 @@ Transformer attention learns query, key, and value projections so a token can we
 
 Machine translation makes the alignment role concrete. While generating a target word, the decoder can raise the weight of the source words most relevant to that decision rather than treating the entire encoded sentence equally. This is especially useful for long inputs and language pairs with different word order, where the source position needed for agreement or meaning may be far from the decoder's current step.
 
+For generative application design, attention also helps explain why the supplied context is a limited computational resource. Longer prompts, histories, and retrieved passages expand the relationships the model must process, so applications need explicit context selection rather than indiscriminately appending all available text.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -25,3 +27,5 @@ Machine translation makes the alignment role concrete. While generating a target
 [[deeplearning_mit.epub]]
 
 [[machinetranslation.epub]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

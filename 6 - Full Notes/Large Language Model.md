@@ -10,6 +10,10 @@ A large language model is a high-capacity neural model pretrained on extensive t
 
 Modern LLMs are commonly based on the [[Transformer Architecture]] and later adapted through prompting, retrieval, or [[Parameter-Efficient Fine-Tuning]]. Their fluent output remains probabilistic next-token prediction, so capability does not remove the need for grounding and evaluation.
 
+For Java application engineering, the model is best treated as a replaceable probabilistic component behind an explicit service boundary. The surrounding application supplies context, tools, validation, evaluation, and operational controls; changing the model does not eliminate those responsibilities.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

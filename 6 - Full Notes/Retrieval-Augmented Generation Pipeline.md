@@ -12,8 +12,12 @@ The pipeline's quality depends on ingestion, chunking, embeddings, indexing, ret
 
 The workflow separates offline [[RAG Data Indexing]] from the online [[RAG Retrieval Stage]] and [[RAG Generation Stage]]. That separation makes update, search, authorization, ranking, and generation failures independently observable instead of treating the system as one opaque model call.
 
+In the Java framework examples, document readers and vector-store ingestion implement the offline path, while a retriever or advisor adds selected evidence to a model request online. Both paths must share compatible embedding and metadata conventions, and retrieved content must fit within a deliberate [[RAG Context Window Budget]].
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[kubernetesforgenerativeaisolutions.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

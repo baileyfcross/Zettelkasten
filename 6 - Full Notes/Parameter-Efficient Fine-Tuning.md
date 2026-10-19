@@ -12,8 +12,12 @@ PEFT is useful when a domain has limited labeled data or compute, but it does no
 
 Adapter, prefix, low-rank, and representation-based approaches place the trainable capacity in different parts of the computation. Selecting among them requires comparing task quality with memory, compute, storage, serving complexity, and the amount of available domain data.
 
+The Java application-development source situates parameter-efficient tuning alongside prompting and retrieval rather than as their automatic replacement. The adaptation choice should follow evidence that the task requires changed model behavior, because fine-tuned artifacts add training, versioning, deployment, and regression-evaluation obligations.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[kubernetesforgenerativeaisolutions.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

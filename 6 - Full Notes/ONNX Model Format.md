@@ -10,7 +10,11 @@ The Open Neural Network Exchange, or ONNX, model format provides a standardized 
 
 Export is a compatibility step, not proof of equivalence or speed. The ONNX graph must be validated against the original model, its operations must be supported by the target runtime, and NVIDIA-specific optimization remains the responsibility of tools such as [[NVIDIA TensorRT]].
 
+In Java, the graph can be executed directly with an ONNX Runtime session or through an abstraction such as DJL. Either path still requires the application to match input names, tensor shapes, data types, preprocessing, and output interpretation to the exported model.
+
 # References
 
 [[nvidiagpuinfrastructurefundamentals.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]
 

@@ -10,6 +10,10 @@ LLMOps is the set of practices and tools used to manage the lifecycle of applica
 
 Because an LLM application may change when its prompt, retrieved knowledge, model endpoint, or tool set changes, release evidence must cover more than a model binary. Continuous evaluation and traceable configuration are central to dependable operation.
 
+The Java application lifecycle described in the source adds tool schemas, framework configuration, conversation memory, provider options, and evaluator settings to the assets that must be versioned. This shifts delivery from checking only service uptime toward continuous semantic evaluation and observation of the exact model-assisted path.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

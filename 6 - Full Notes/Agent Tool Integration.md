@@ -12,7 +12,11 @@ Every integration needs authorization, input validation, output handling, timeou
 
 Microsoft Foundry integrations with Fabric data agents and Databricks Genie illustrate the separation between model-directed routing and enterprise execution. Tool descriptions and schemas guide selection, while identity, downstream permissions, and the external service govern access. Production readiness also requires preflight schema review, tool-call evaluation, and a runbook for authentication or contract failures.
 
+The Java tool-calling lifecycle makes the boundary explicit: the application publishes a schema, the model returns a proposed tool name and arguments, Java code validates and executes the operation, and the tool result is injected into a later model request. Framework annotations reduce registration work but do not transfer authorization to the model.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 [[microsoftfoundryinaction.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

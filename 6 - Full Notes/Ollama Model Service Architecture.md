@@ -12,8 +12,12 @@ Persistent volumes protect model data across container replacement, and an expli
 
 On Linux, Ollama can also run as a local daemon with a CLI and REST interface, using quantized GGUF-family model artifacts to reduce memory requirements. Its strength is simple local integration with shell tools, systemd services, and agents while keeping prompts on the host; workloads that need fine-grained batching, accelerator tuning, or large multi-tenant serving may require a more specialized runtime.
 
+Java clients can also use Ollama's OpenAI-compatible interface by changing the endpoint and model configuration of a compatible client. This eases prototyping and provider comparison, but production use still needs feature-compatibility tests and an authenticated network boundary around the locally operated service.
+
 # References
 
 [[ainetworkingcookbook.pdf]]
 
 [[ultimateaiguideforlinuxengineers.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

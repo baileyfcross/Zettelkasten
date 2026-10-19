@@ -10,6 +10,10 @@ Agent telemetry can expose prompts, message content, function arguments, tool re
 
 Production instrumentation should disable sensitive content unless an approved governance policy explicitly permits it. Retention, access control, integrity, redaction, and backend selection must match the data classification. Observability should make decisions inspectable without creating a second uncontrolled data store.
 
+The Java observability examples reinforce a separation between safe operational attributes and optional prompt or response capture. Redaction should occur before export, and high-cardinality or content-bearing details should not be placed indiscriminately into metric labels or long-lived logs.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

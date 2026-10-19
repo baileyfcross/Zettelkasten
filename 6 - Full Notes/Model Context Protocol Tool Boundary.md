@@ -16,6 +16,8 @@ The network-agent implementation sharpens this boundary by keeping backend acces
 
 A Microsoft Foundry agent connected to Databricks Genie through MCP follows the same division. MCP exposes the Genie capability and schema, the agent chooses when and how to call it, and OAuth or managed identity controls downstream access. Schema preflight, least-privilege configuration, tool-call evaluation, and production monitoring remain necessary around the protocol boundary.
 
+Spring AI and Quarkus examples show the same protocol boundary in Java. Client and server support can standardize discovery and JSON-RPC exchange for tools, resources, and prompts, while transport security, trusted-server selection, input policy, and consequential-action approval stay outside the interoperability layer.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
@@ -25,3 +27,5 @@ A Microsoft Foundry agent connected to Databricks Genie through MCP follows the 
 [[buildingaiagentsfornetworkoperations.pdf]]
 
 [[microsoftfoundryinaction.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

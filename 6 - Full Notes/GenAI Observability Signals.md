@@ -12,7 +12,11 @@ Model systems add token use, prompt and response metadata, retrieval timing, acc
 
 In Microsoft Foundry, operational metrics such as latency, errors, request volume, and token consumption can be read alongside evaluator results for relevance, groundedness, coherence, intent resolution, and safety. Their divergence is especially informative: stable service metrics with declining quality points toward model, data, prompt, or orchestration changes rather than infrastructure failure.
 
+Spring AI observations distinguish higher-level ChatClient activity from the underlying ChatModel invocation. That separation can reveal time spent in advisors or orchestration versus the provider call, while correlated metrics, traces, and logs connect token use and latency to the request that produced them.
+
 # References
 
 [[kubernetesforgenerativeaisolutions.pdf]]
 [[microsoftfoundryinaction.pdf]]
+
+[[generativeai-drivenapplicationdevelopmentwithjava.epub]]

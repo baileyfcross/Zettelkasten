@@ -20,6 +20,8 @@ The design-patterns source extends the inventory web application so logged-in us
 
 In Microsoft Entra, authorization is expressed through directory roles, Azure resource roles, application roles, group membership, scopes, and claims. The security principal identifies the user or workload, the role definition states permitted operations, and the assignment binds that authority to a scope. Conditional Access can decide whether a session may begin, but the receiving service must still enforce what the authenticated principal is allowed to do.
 
+The Java enterprise-social treatment emphasizes least privilege and the granularity of the protected object. Authority may need to vary by operation, resource instance, attribute, or time instead of ending at a coarse application role. A social client permitted to read a public profile, for example, should not inherit permission to publish as the user or administer a community. Declarative constraints can establish stable role boundaries, while programmatic checks handle decisions that depend on the current resource and context.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -35,3 +37,5 @@ In Microsoft Entra, authorization is expressed through directory roles, Azure re
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 
 [[masteringmicrosoftentraid.pdf]]
+
+[[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]

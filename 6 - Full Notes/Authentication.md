@@ -20,6 +20,8 @@ The inventory web application adds a login boundary before restricted product op
 
 Microsoft Entra places authentication within an identity, authentication, authorization, and accountability sequence. A claimed identity can be verified with passwords, possession factors, biometrics, certificates, passkeys, or federation, after which Conditional Access can evaluate contextual signals before a token is issued. The resulting sign-in and audit records provide the accountability needed to investigate how the identity was used.
 
+Enterprise social systems add external providers and contextual evidence to this model. Location and behavioral patterns can raise or lower confidence, but they are best treated as supporting signals rather than substitutes for strong independent factors. Social login also divides responsibility: the provider authenticates an external identity, while the Java application validates the protocol response, maps that identity to a local principal, and retains responsibility for its own [[Authorization]].
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -35,3 +37,5 @@ Microsoft Entra places authentication within an identity, authentication, author
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 
 [[masteringmicrosoftentraid.pdf]]
+
+[[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]

@@ -16,7 +16,7 @@
   "useLocalEmbeddings": true,
   "embeddingModel": "embeddinggemma",
   "autoIndex": true,
-  "indexPdfSources": true,
+  "indexPdfSources": false,
   "indexingConcurrency": 6,
   "filesystemConcurrency": 3,
   "pdfPageConcurrency": 12,

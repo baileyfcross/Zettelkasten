@@ -12,6 +12,8 @@ The stock-checker project uses IdentityServer 4 to issue a token to a UWP client
 
 The Azure architecture map places OAuth 2.0 access tokens at the API boundary, where an API gateway can validate issuer, audience, claims, scopes, and expiry before routing a request. Token validation authenticates the presented authorization grant; the backend must still enforce resource-level permissions and tenant boundaries. Managed identities complement rather than replace this model by authenticating Azure workloads to downstream services without user credentials.
 
+For a social integration, OAuth lets a resource owner authorize a client to call a platform's resource server without giving the client the owner's password. The authorization grant and resulting access token are bounded by the provider, client registration, scopes, and lifetime. This makes narrow scope selection and token protection central: obtaining delegated access to one social capability does not grant general authority over the user's account or over the enterprise application's own resources.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -19,3 +21,5 @@ The Azure architecture map places OAuth 2.0 access tokens at the API boundary, w
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
+
+[[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]

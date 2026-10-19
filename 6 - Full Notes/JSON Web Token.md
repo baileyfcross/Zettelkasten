@@ -12,9 +12,13 @@ In a single-page application, IdentityServer can issue a JWT after authenticatio
 
 The REST security discussion describes the three dot-separated JWT portions and validates a bearer token before ASP.NET Core authorization evaluates the resulting claims. Transport protection and bounded token lifetime remain necessary because possession grants presentation rights.
 
+Those three portions are a header, a claim-bearing payload, and a signature. Signing provides integrity and issuer authentication but does not ordinarily encrypt the payload, so encoded claims should not be assumed secret. In MicroProfile JWT, a validated `upn` claim can identify the caller principal and `groups` can map into container roles, allowing Jakarta microservices to consume token identity through their normal security context.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]

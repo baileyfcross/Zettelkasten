@@ -12,8 +12,12 @@ OpenID Connect is an authentication protocol built on OAuth 2.0 concepts. It let
 
 In an Azure identity design, OpenID Connect provides interactive sign-in and identity claims, while OAuth 2.0 access tokens authorize calls to APIs. Keeping those purposes distinct prevents an ID token from being treated as an API credential. Conditional Access, multifactor requirements, application registrations, redirect URI validation, and secure token handling shape the complete sign-in flow around the protocol.
 
+Standardized in 2014, OpenID Connect adds an identity layer with provider discovery, identity claims, session-related behavior, and the ability to protect identity information within the surrounding OAuth flow. A social login must validate the returned ID token and correlate the response with the initiated request before mapping its subject to a local account. The ID token tells the client about an authentication event; an OAuth access token remains the credential intended for a protected API.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
 
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
+
+[[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]

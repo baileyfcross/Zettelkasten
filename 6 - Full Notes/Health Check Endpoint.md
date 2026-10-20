@@ -10,6 +10,10 @@ A health check endpoint maps the application's registered probes to an HTTP rout
 
 Readiness and liveness answer different questions: one indicates whether traffic can be served, while the other indicates whether the process should be restarted. Combining them indiscriminately can cause a temporary dependency failure to trigger harmful restart loops.
 
+Helidon exposes an aggregate `/health` route and type-specific `/health/live`, `/health/ready`, and `/health/started` routes. GET returns JSON with the individual check results, while HEAD returns only the HTTP status; a service-unavailable status communicates a failed aggregate without requiring the caller to parse the payload.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]

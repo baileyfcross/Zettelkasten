@@ -16,6 +16,8 @@ Its .NET examples register abstractions and implementations with the generic hos
 
 Go applies the same design without requiring a standard container: a constructor function can accept small interfaces for collaborators such as logging, caching, database access, or HTTP calls. Explicit assembly in `main` keeps the object graph visible, while reflection- or code-generation-based containers become options when manual wiring grows too complex.
 
+Helidon makes the choice visible at the programming-model boundary. Helidon MP uses Jakarta CDI annotations such as `@Inject` and `@ApplicationScoped` to construct and scope managed beans, while Helidon SE deliberately omits a dependency-injection container and assembles services through explicit builders and constructors.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -25,3 +27,5 @@ Go applies the same design without requiring a standard container: a constructor
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]
+
+[[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]

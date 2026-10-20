@@ -10,6 +10,10 @@ A web server listens for network requests and passes them into a web application
 
 ASP.NET Core can use servers such as [[Kestrel]] and can also integrate with an external server such as [[Internet Information Services]] or operate behind an [[Nginx]] [[Reverse Proxy]].
 
+Helidon SE instead embeds an immutably configured WebServer in the standalone application. Helidon 4 rebuilt that server as Helidon Níma on Java virtual threads, replacing the Netty-based reactive layer used by earlier releases while retaining explicit listener and routing configuration.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+
+[[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]

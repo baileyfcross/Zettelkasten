@@ -14,6 +14,8 @@ The cloud-native observability model separates three complementary forms of tele
 
 Events, continuous profiles, real-user behavior, and security evidence extend this model beyond the traditional three signals. Collection should decide what to enrich, remove, retain, and connect so growing telemetry becomes usable information rather than an expensive archive of unrelated observations.
 
+MicroProfile Telemetry adopts OpenTelemetry to standardize instrumentation maintenance and data portability for tracing, logging, metrics, and baggage. This gives a compatible Java microservice runtime a shared telemetry contract rather than requiring every framework to define unrelated representations for the same operational signals.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -27,3 +29,5 @@ Events, continuous profiles, real-user behavior, and security evidence extend th
 [[clouddevopsengineersguide.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]
+
+[[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]

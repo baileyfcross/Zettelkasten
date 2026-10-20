@@ -12,9 +12,13 @@ The document improves discovery and can drive client generation, but it must acc
 
 The book configures ASP.NET Core OpenAPI generation and Swagger UI so the running API exposes discoverable operations and schemas. Accurate annotations and response metadata are required for the generated description to remain trustworthy.
 
+MicroProfile OpenAPI brings the same machine-readable contract to JAX-RS applications through portable interfaces and programming models. A compatible runtime automatically exposes the generated description at `/openapi`, allowing clients to discover the running service without access to its source.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]

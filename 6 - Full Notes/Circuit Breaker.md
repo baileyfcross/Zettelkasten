@@ -14,9 +14,13 @@ For model serving, a circuit breaker can isolate an unavailable hosted provider 
 
 The microservices source describes the breaker as a state machine. In the closed state calls proceed while failures are counted; crossing a threshold opens the breaker so calls fail fast; after a delay, the half-open state permits limited probes to decide whether normal traffic can resume. Thresholds, wait duration, and fallback behavior must match the dependency because an over-sensitive breaker can reject healthy work and an under-sensitive one can prolong a cascade.
 
+MicroProfile expresses that state machine through a `@CircuitBreaker` policy. A request-volume window and failure ratio determine when the circuit opens, a delay controls the transition to half-open, and a success threshold controls recovery; `skipOn` exceptions take precedence over the failure classes listed by `failOn`.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[ultimateaiguideforlinuxengineers.pdf]]
 [[artofdecodingmicroservices.epub]]
+
+[[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]

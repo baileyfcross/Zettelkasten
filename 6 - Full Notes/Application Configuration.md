@@ -10,6 +10,10 @@ Application configuration separates adjustable settings from the code that consu
 
 Environment-specific files can override general values for a [[Development Environment]], [[Staging Environment]], or [[Production Environment]]. Configuration values may be read by key or bound to typed classes so the rest of the application uses a defined model.
 
+Helidon treats configuration as an immutable tree assembled from environment variables, system properties, classpath resources, files, directories, URLs, or in-memory values. Parsers turn serialized formats into nodes, mappers convert subtrees to Java types, filters transform elementary values, and ordered sources let deployment settings override classpath defaults without repackaging the service.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
+
+[[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]

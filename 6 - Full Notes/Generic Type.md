@@ -14,6 +14,8 @@ Generics preserve type safety while reusing a class, struct, interface, or metho
 
 For value types, retaining the generic type parameter can also avoid the allocation and copy involved in C# boxing and unboxing. The abstraction remains reusable while preserving the representation and operations of the supplied type.
 
+Go generic types declare constrained parameters in square brackets and instantiate a statically typed representation for supplied concrete types. Methods reuse the receiver type's parameters, and Go's lack of class inheritance avoids covariance and contravariance rules while still allowing constraints to describe permitted operations.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
@@ -22,3 +24,5 @@ For value types, retaining the generic type parameter can also avoid the allocat
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[programmingincexam70-483mcsdguide.pdf]]
+
+[[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]

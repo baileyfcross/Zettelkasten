@@ -10,6 +10,10 @@ The REST uniform-interface constraint gives clients a consistent way to identify
 
 Uniformity reduces coupling but can sacrifice an interface tailored to one implementation. The service gains evolvability by making its public semantics depend on shared HTTP and representation rules rather than internal method names.
 
+The Go source contrasts REST's resource-oriented use of HTTP operations with RPC services that publish arbitrary procedures. Go's standard HTTP handlers and routing support can implement REST-like resource endpoints, but conformance comes from the application's resource and message design rather than from the library call alone.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]

@@ -12,9 +12,13 @@ The book compares custom request parsing with ASP.NET Core model binding to redu
 
 The managed heap is organized into generations so short-lived objects can usually be collected without scanning every older object. Collection traces reachable objects, reclaims unreachable space, and may compact surviving objects; a finalizable object follows an additional path before its memory can be reclaimed.
 
+Go also uses managed memory, but its compiler can keep values on a goroutine's stack when they do not escape the call. Values that must outlive that frame, including data captured by a surviving closure, move to the heap and remain available until no reachable reference remains.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[programmingincexam70-483mcsdguide.pdf]]
+
+[[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]

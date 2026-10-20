@@ -14,6 +14,8 @@ The source presents an ORM as a layer that maps application entities and operati
 
 The architecture source explains ORM as a mapping layer between object graphs and relational rows. It reduces repetitive persistence code while leaving query shape, transactions, schema evolution, and provider capabilities as explicit design concerns.
 
+Go's standard `database/sql` package deliberately provides lower-level driver, pool, query, row, statement, and transaction abstractions rather than an ORM. Community libraries such as GORM add object-relational mapping when struct-to-table persistence is worth the additional translation layer.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -22,3 +24,5 @@ The architecture source explains ORM as a mapping layer between object graphs an
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]

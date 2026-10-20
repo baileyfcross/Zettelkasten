@@ -10,6 +10,10 @@ A pointer is a stored memory address that identifies another location in compute
 
 In a [[Linked List]], each node contains a pointer to the next node, allowing a sequence to be formed even when nodes are stored apart. The final pointer is null, signaling that traversal has reached the end rather than another item.
 
+In Go, a pointer can address a value of any type, not only a heap object. The address and dereference operators expose that relationship, while selector syntax can implicitly dereference a pointer to a struct. Ordinary typed Go omits general pointer arithmetic, and dereferencing the zero pointer value `nil` causes a panic.
+
 # References
 
 [[algorithms.epub]]
+
+[[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]

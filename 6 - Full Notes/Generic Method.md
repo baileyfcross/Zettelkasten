@@ -10,7 +10,11 @@ A generic method declares one or more type parameters on the method itself, so i
 
 Constraints can state which operations the method requires, such as `IComparable<T>` for comparison. When arguments make the type unambiguous, C# type inference can supply the type argument at the call site.
 
+Go supports generic functions and methods on generic receiver types, but a method cannot introduce type parameters beyond those already declared by its receiver. Type inference can often omit a generic function's explicit type arguments when ordinary call arguments determine them.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
+
+[[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]
 

@@ -14,6 +14,8 @@ In the inventory application, commands depend on read or write context interface
 
 Its .NET examples register abstractions and implementations with the generic host or ASP.NET Core service collection, moving object composition and lifetime selection away from business behavior that consumes the dependency.
 
+Go applies the same design without requiring a standard container: a constructor function can accept small interfaces for collaborators such as logging, caching, database access, or HTTP calls. Explicit assembly in `main` keeps the object graph visible, while reflection- or code-generation-based containers become options when manual wiring grows too complex.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -21,3 +23,5 @@ Its .NET examples register abstractions and implementations with the generic hos
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]

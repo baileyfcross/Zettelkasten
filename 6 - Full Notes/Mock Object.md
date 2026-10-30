@@ -14,6 +14,8 @@ In the React examples, a mock function records whether a click callback was invo
 
 In R database tests, a mock can replace the connection, the connection wrapper, or the domain-specific query function. Moving the replacement higher makes the test faster and more portable, but removes more production behavior from the evidence. [[R Database Test Mocking]] therefore chooses the boundary according to whether the test is meant to verify database access, query construction, or downstream analysis.
 
+In Java tests, a mock framework can configure a dependency's responses and later verify that expected interactions occurred. Replacing a repository or service isolates the class under test from storage and network behavior, but the assertions then establish the collaboration protocol rather than proving that the real dependency works.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
@@ -21,3 +23,5 @@ In R database tests, a mock can replace the connection, the connection wrapper, 
 [[learningreact1.pdf]]
 
 [[testingrcode.pdf]]
+
+[[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]

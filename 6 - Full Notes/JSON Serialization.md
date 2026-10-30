@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]] [[.NET Files Streams and Serialization]]
+Tags: [[HTTP API Integration]] [[.NET Files Streams and Serialization]] [[Java File IO Serialization and Persistence]]
 
 # JSON Serialization
 
@@ -12,6 +12,8 @@ An ASP.NET Core endpoint can serialize health or entity results, and an Angular 
 
 The Azure projects serialize work items, queue messages, cognitive-service responses, and bot configuration at system boundaries. The bot chapter also uses the .NET Core 3 `JsonDocument` API to select an intent's response array from an embedded JSON resource without constructing a larger object model.
 
+In Java, Jackson's `ObjectMapper` can serialize an object into JSON text and deserialize JSON into a requested Java type. This keeps the interchange format independent of Java's native object-stream representation, but successful reconstruction still depends on a compatible mapping between JSON properties and the target class.
+
 # References
 
 [[gameprogrammingincplusplus.pdf]]
@@ -19,3 +21,5 @@ The Azure projects serialize work items, queue messages, cognitive-service respo
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]

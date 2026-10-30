@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Performance and Scalability]] [[.NET Core Data Types and Collections]]
+Tags: [[Web Performance and Scalability]] [[.NET Core Data Types and Collections]] [[Java Garbage Collection and Memory Management]]
 
 # Garbage Collection
 
@@ -14,6 +14,8 @@ The managed heap is organized into generations so short-lived objects can usuall
 
 Go also uses managed memory, but its compiler can keep values on a goroutine's stack when they do not escape the call. Values that must outlive that frame, including data captured by a surviving closure, move to the heap and remain available until no reachable reference remains.
 
+The Java Virtual Machine also reclaims heap objects according to reachability rather than lexical scope. HotSpot collectors exploit the observation that many objects die young by organizing collection work around generations or regions, while collector selection trades throughput, pause time, footprint, and heap size. Runtime logging and heap statistics are therefore part of evaluating a collector rather than treating automatic reclamation as cost-free.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
@@ -22,3 +24,5 @@ Go also uses managed memory, but its compiler can keep values on a goroutine's s
 [[programmingincexam70-483mcsdguide.pdf]]
 
 [[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]
+
+[[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]

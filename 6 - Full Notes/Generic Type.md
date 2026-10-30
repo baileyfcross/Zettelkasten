@@ -16,6 +16,8 @@ For value types, retaining the generic type parameter can also avoid the allocat
 
 Go generic types declare constrained parameters in square brackets and instantiate a statically typed representation for supplied concrete types. Methods reuse the receiver type's parameters, and Go's lack of class inheritance avoids covariance and contravariance rules while still allowing constraints to describe permitted operations.
 
+Java generics likewise use type parameters to let a class, interface, or method operate on a family of reference types while retaining compile-time type checking. A declaration such as `Container<T>` names a placeholder that callers replace with a concrete type; bounded parameters restrict that placeholder when the implementation requires a particular capability. The Java compiler applies generic checks and then erases most type-parameter information, so generic reuse does not create a separate runtime class for every supplied type.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
@@ -26,3 +28,5 @@ Go generic types declare constrained parameters in square brackets and instantia
 [[programmingincexam70-483mcsdguide.pdf]]
 
 [[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]
+
+[[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]

@@ -10,6 +10,9 @@ The Garbage-First collector divides the heap into equal-sized regions that can t
 
 G1 combines concurrent phases with parallel stop-the-world phases and uses a pause prediction model to choose how much work to include in a collection set. Its flexible regional layout replaces fixed generation sizes and has been the default HotSpot collector since Java 9.
 
+JNI critical sections once could suppress collection while native code held heap access. [[Java G1 Region Pinning]] confines that constraint to affected regions so young-generation work can continue, while the Java 26 outlook's [[Java G1 Dual Card Table]] aims to reduce interference in remembered-reference bookkeeping.
+
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[java25andbeyond_modernjavamadeeasy.epub]]

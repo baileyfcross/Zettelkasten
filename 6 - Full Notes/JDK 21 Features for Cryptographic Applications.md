@@ -10,6 +10,9 @@ The source applies several JDK 21 language and runtime features to cryptographic
 
 These features improve expression, integration, or concurrency rather than changing the underlying security properties of an algorithm. The source also distinguishes preview and incubator features from permanent APIs, so version status must be checked before a design depends on them.
 
+Java 21 also added the Key Encapsulation Mechanism API. It gives callers a standard framework for an encapsulator to derive a shared secret and an encapsulation message and for a decapsulator holding the private key to recover the same secret, separating that exchange workflow from one specific KEM algorithm.
+
 # References
 
 [[cryptographyandcryptanalysisinjava.epub]]
+[[java25andbeyond_modernjavamadeeasy.epub]]

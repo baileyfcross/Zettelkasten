@@ -10,6 +10,9 @@ JShell is the JDK's read-evaluate-print loop for executing Java declarations, ex
 
 This makes JShell useful for learning syntax and testing a small API call. It is not a substitute for a structured project: session state and shortened declarations can hide the package, module, build, and test boundaries that normal source files make explicit.
 
+In Java 25, a module import declaration can be entered in JShell to make the exported packages of a module available for exploration in one step. That convenience is still subject to ambiguity when different imported packages expose types with the same simple name, which then requires a qualified reference.
+
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[java25andbeyond_modernjavamadeeasy.epub]]

@@ -10,6 +10,9 @@ The Java Collection Framework supplies interfaces and implementations for groups
 
 Choosing a collection means choosing semantics before implementation: duplicates, ordering, lookup keys, queue discipline, mutability, and concurrency requirements determine the appropriate interface. A concrete class such as `ArrayList`, `HashSet`, or `HashMap` then supplies a particular storage and performance strategy.
 
+Java 21 added sequenced interfaces that express encounter order consistently across collections and maps. [[Java Sequenced Collection]], [[Java Sequenced Set]], and [[Java Sequenced Map]] expose first, last, and reversed views without forcing callers to depend on a particular implementation such as a list or linked map.
+
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[java25andbeyond_modernjavamadeeasy.epub]]

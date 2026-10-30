@@ -10,6 +10,9 @@ Java's source-file launch mode lets the `java` launcher compile a source file in
 
 Newer preview forms can reduce ceremony further through implicitly declared classes and instance main methods. The mode is convenient for examples and scripts, but a multi-file application still benefits from explicit packages, build metadata, tests, and reproducible output directories.
 
+Java 22 extended the launcher to find and compile additional source files referenced by the initially named file, while Java 25 finalized [[Java Compact Source File]] and [[Java Instance Main Method]]. These features let a small program begin without explicit compilation or an enclosing class and then grow into additional ordinary source files.
+
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[java25andbeyond_modernjavamadeeasy.epub]]

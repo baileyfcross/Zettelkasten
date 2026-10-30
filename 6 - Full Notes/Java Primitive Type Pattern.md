@@ -10,6 +10,9 @@ In Java 23, primitive patterns were a preview capability that extended pattern m
 
 Because the feature was preview in the book's Java 23 setting, source and launch commands must enable preview features and the syntax can change in later releases. It should therefore be recorded as version-specific rather than assumed to be a permanent baseline language rule.
 
+The Java 25 third preview described by the later source makes representability central: a narrowing pattern succeeds only if the source value can be represented by the target primitive without an invalid range or precision result. This permits range-safe selection in `instanceof` and `switch` rather than treating every syntactically possible numeric cast as a match.
+
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[java25andbeyond_modernjavamadeeasy.epub]]

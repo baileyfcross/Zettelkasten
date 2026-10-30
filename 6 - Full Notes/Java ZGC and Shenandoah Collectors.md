@@ -10,6 +10,9 @@ ZGC and Shenandoah are HotSpot collectors designed to keep pauses low by moving 
 
 Concurrent collection trades shorter pauses for background CPU, memory, and coordination cost. A workload with tight latency objectives may benefit, but the decision requires measuring application throughput and resource headroom rather than selecting a collector solely from its pause description.
 
+ZGC added a generational mode in Java 21 and made that mode the default in Java 23. Separating young and old objects lets it concentrate collection effort on the common case of short-lived allocations while retaining its concurrent low-pause design; a compatibility flag could still select the earlier non-generational mode during the transition described by the book.
+
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[java25andbeyond_modernjavamadeeasy.epub]]

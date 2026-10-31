@@ -10,6 +10,9 @@ An Amazon EC2 instance is a virtual server launched in an availability zone from
 
 EC2 gives the customer operating-system and application control, which also means responsibility for patching, configuration, and workload availability. Instances are replaceable compute units; durable data should use storage whose lifecycle matches the application.
 
+The source provisions an EC2 host with Terraform, reaches it through SSH, installs a Java runtime, copies the packaged microservice, and starts the process. The sequence makes the responsibility boundary concrete: EC2 supplies the virtual machine, while the customer supplies and operates the operating system and application stack.
+
 # References
 
 [[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

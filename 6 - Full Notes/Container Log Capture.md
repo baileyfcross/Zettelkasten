@@ -12,8 +12,11 @@ Applications designed for containers should direct operational messages to these
 
 Docker captures a container's standard output and standard error through a configured logging driver. Applications that write structured events to these streams remain portable, while the host or logging driver handles collection, forwarding, rotation, and retention outside the image.
 
+The Java examples use console output so `docker logs` can retrieve the main process's events without entering the container or reading an internal file. Compose and Kubernetes then preserve the same application convention even though the command used to reach the logs changes with the runtime.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[podmanfordevopssecondedition.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

@@ -12,8 +12,11 @@ A VPC spans the availability zones of its region, but a subnet does not. This le
 
 The solutions-architecture source treats the VPC as a routing system as well as an address boundary. Main route tables provide defaults, subnet associations can select different routes, and gateways or inspection endpoints become effective only when the relevant route tables direct traffic through them.
 
+The Java source builds both EC2 and EKS examples inside a Terraform-declared VPC. Subnets, route tables, internet and NAT gateways, security groups, and EKS network interfaces form one connectivity design around the compute rather than appearing as incidental instance settings.
+
 # References
 
 [[awscertifiedcloudpractitionerclf-c02certificationguidesecondeditio.pdf]]
 
 [[awsforsolutionsarchitectsthirdedition.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

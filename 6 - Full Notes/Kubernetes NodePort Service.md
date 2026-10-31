@@ -10,7 +10,11 @@ A Kubernetes NodePort Service exposes a Service on a static port of each cluster
 
 The request path is client to node port, then [[Kubernetes Service]], then a healthy pod chosen by the service. Production cloud deployments commonly prefer a LoadBalancer Service or an ingress layer so clients do not depend on node ports and the provider can supply a stable external endpoint.
 
+The book uses NodePort with Minikube to make local microservice endpoints reachable from the workstation. This is a cluster-access convenience for the example, while path-based ingress later consolidates several service routes behind one HTTP entry point.
+
 # References
 
 [[clouddevopsengineersguide.pdf]]
+
+[[javamicroservicesandcontainersinthecloud.epub]]
 

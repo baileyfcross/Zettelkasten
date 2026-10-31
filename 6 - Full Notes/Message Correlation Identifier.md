@@ -10,6 +10,9 @@ A message correlation identifier labels messages that belong to the same task, c
 
 Correlation lets independent messages retain business context without embedding transport assumptions in application logic. The identifier must remain unique within its intended scope and be propagated across every participating service.
 
+Spring Kafka's request-reply and aggregating templates use the correlation header to complete one request with its response or to collect several provider responses into one batch. A shared reply topic is safe only when every reply retains the identifier expected by its waiting requester or aggregator.
+
 # References
 
 [[cloudcomputing_mit.epub]]
+[[javamicroservicesandcontainersinthecloud.epub]]

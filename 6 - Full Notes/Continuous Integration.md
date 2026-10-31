@@ -22,6 +22,8 @@ In scientific software, continuous integration can build and test each accepted 
 
 For an R package, a hosted integration service can run an [[R Package Check]] whenever changes reach the shared repository. Testing several R versions and operating systems matters because paths, locales, numerical precision, compiled code, and package dependencies can behave differently across environments. CI makes those compatibility checks repeatable, but its evidence is only as strong as the package tests and configuration it executes.
 
+The Java microservice source frames CI as the repeated automated build, test, and merge of changes from one or many service teams into shared repositories. Skaffold's development loop supplies a concrete container path by rebuilding the artifact and redeploying it to Minikube when source changes.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -34,3 +36,4 @@ For an R package, a hosted integration service can run an [[R Package Check]] wh
 [[implementingreproducableresearch.pdf]]
 
 [[testingrcode.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

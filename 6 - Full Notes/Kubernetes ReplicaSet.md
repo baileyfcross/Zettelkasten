@@ -10,6 +10,9 @@ A Kubernetes ReplicaSet keeps a specified number of matching pod replicas runnin
 
 ReplicaSets are normally managed through a [[Kubernetes Deployment]] rather than edited directly. Each Deployment revision can create a new ReplicaSet, allowing the controller to shift replicas between old and new pod templates during a rolling update and retain revision history for rollback.
 
+The book places ReplicaSet between a Deployment's desired replica count and the replaceable microservice pods. When a pod disappears, the controller creates another from the template so instance loss does not reduce the declared capacity indefinitely.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

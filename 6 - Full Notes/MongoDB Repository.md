@@ -10,6 +10,9 @@ A MongoDB repository encapsulates creation of the Mongo client, selection of a d
 
 In the Cosmos project, the repository receives settings through configuration and exposes the work-item collection used by a service. This boundary keeps database-specific driver code separate from request handling and makes later replacement or testing less invasive.
 
+In the Spring example, a repository interface extends `MongoRepository` or the more generic `CrudRepository`, and Spring creates the MongoDB adapter from dependencies and runtime configuration. The controller and service call the port, allowing the same core behavior to be demonstrated with a PostgreSQL adapter in another configuration.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

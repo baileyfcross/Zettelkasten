@@ -12,9 +12,13 @@ Stable identity does not make the pod itself durable. The workload must still pl
 
 The controller's ordered identities make peer discovery and per-replica volume claims predictable, but they can also serialize rollout and recovery. A StatefulSet should therefore be selected for identity or ordering requirements, not merely because an application writes data.
 
+The book contrasts scaling stateless microservice pods with state retention for MongoDB and PostgreSQL. A StatefulSet supplies stable replica identity, while PersistentVolumeClaims and PersistentVolumes give the database data a lifecycle outside a deleted or recreated pod.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[kubernetes_anenterpriseguidethirdedition.pdf]]
+
+[[javamicroservicesandcontainersinthecloud.epub]]
 

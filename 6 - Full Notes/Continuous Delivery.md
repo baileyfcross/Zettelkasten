@@ -18,6 +18,8 @@ The source extends successful integration into a multistage path where a version
 
 A cloud delivery pipeline preserves the same tested artifact while changing the controls around promotion. Infrastructure plans, security scans, environment checks, and a [[Manual Deployment Approval]] can sit between build and production without turning the release into a manually reconstructed procedure. The deployable state is maintained continuously even when the business chooses the release time.
 
+The book distinguishes delivery from deployment by the production decision: delivery automatically builds, tests, and publishes a releasable artifact, but an operations or approval step can still decide when it becomes live. Container registries and Helm packages provide the artifact and deployment inputs for that decision.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -26,3 +28,4 @@ A cloud delivery pipeline preserves the same tested artifact while changing the 
 [[aspnetcore3andreact.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[clouddevopsengineersguide.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

@@ -14,6 +14,8 @@ For microservice deployment, the container supplies an isolated, repeatable runt
 
 Docker implements this unit as an ordinary host process whose view of processes, networking, mounts, and other resources is restricted by Linux namespaces. Resource controls such as cgroups complement that isolation, while the image supplies a repeatable filesystem and a thin writable layer records runtime changes.
 
+The book contrasts this shared-kernel model with a virtual machine's guest operating system above a hypervisor. It then follows the same Java service from a standalone container into Compose and Kubernetes, showing that the container remains the process package while the surrounding platform supplies networking, storage, replicas, and routing.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -22,3 +24,4 @@ Docker implements this unit as an ordinary host process whose view of processes,
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

@@ -10,6 +10,8 @@ The publisher-subscriber pattern sends an event from a producer to whichever con
 
 The book uses publish-subscribe to let an event source notify interested handlers without depending directly on each receiver. That reduces structural coupling while making event contract, ordering, and duplicate delivery part of the design.
 
+In the Java microservice source, a topic supplies one copy of a published event to each subscribed output channel. A new service can subscribe as the application evolves without changing or restarting the publisher, while each subscriber still consumes its own copy only once according to that channel's delivery behavior.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -18,3 +20,4 @@ The book uses publish-subscribe to let an event source notify interested handler
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

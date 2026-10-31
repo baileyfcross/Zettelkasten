@@ -14,6 +14,8 @@ The software-architecture treatment uses images to separate the versioned deploy
 
 A Docker image is an immutable, content-addressed stack of filesystem layers plus configuration metadata. When the image starts, Docker adds a disposable writable layer, so durable data and intentional configuration must live outside the container's mutable runtime surface.
 
+The Java source demonstrates two construction paths for the same delivery boundary: a Dockerfile-based build and a Jib build driven from Maven. In both cases the image is pushed to a repository and later instantiated as containers by Docker or Kubernetes, keeping artifact creation separate from runtime replication.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -22,3 +24,4 @@ A Docker image is an immutable, content-addressed stack of filesystem layers plu
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

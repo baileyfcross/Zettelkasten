@@ -16,6 +16,8 @@ The Azure architecture map uses Event Hubs for high-volume ingestion, Service Bu
 
 The microservices source distinguishes choreography, in which services react to events without one central coordinator, from orchestration, in which a coordinator directs the sequence. Choreography reduces central control but can make a long workflow difficult to see; orchestration makes the flow explicit but creates a coordinating dependency. In either style, immutable event facts, versioned schemas, idempotent consumers, and observable broker behavior are part of the service contract.
 
+The Java example uses an event channel to decentralize a booking transaction. The booking service records its local result and publishes a flight-booked event; inventory updates later from that event instead of blocking the booking on a synchronous call. End-to-end completion becomes the convergence of local transactions rather than one coordinator's commit.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -27,3 +29,4 @@ The microservices source distinguishes choreography, in which services react to 
 
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
 [[artofdecodingmicroservices.epub]]
+[[javamicroservicesandcontainersinthecloud.epub]]

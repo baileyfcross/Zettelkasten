@@ -10,6 +10,9 @@ Synchronous microservice communication makes a caller wait for a service to retu
 
 The waiting relationship couples availability and latency: a slow dependency holds the caller's resources, and a chain of calls can transmit one failure across several services. Timeouts, [[Circuit Breaker|circuit breaking]], bounded retries, and fallbacks keep that dependency visible and limited. When immediate completion is unnecessary or traffic needs buffering, [[Asynchronous Microservices|asynchronous communication]] can separate producer and consumer availability instead.
 
+The source contrasts point-to-point HTTP with brokered messaging: one unresponsive provider can cause the synchronous consumer's user request to fail its service-level expectation. If a result is truly required, RPC is direct; when no immediate downstream information is needed, messaging avoids making the caller wait for a remote completion.
+
 # References
 
 [[artofdecodingmicroservices.epub]]
+[[javamicroservicesandcontainersinthecloud.epub]]

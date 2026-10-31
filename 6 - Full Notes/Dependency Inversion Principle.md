@@ -10,8 +10,11 @@ The dependency inversion principle directs high-level behavior to depend on abst
 
 Layered code follows dependency inversion when high- and low-level modules meet through abstractions whose contracts do not expose concrete implementation details. Changes can then be contained behind the abstraction instead of propagating through construction and call sites.
 
+The ports-and-adapters examples make the direction visible: the application owns a repository or client interface, while Spring supplies a PostgreSQL, MongoDB, REST, or Kafka adapter outside the core. Infrastructure therefore depends on the application contract instead of the domain importing a provider-specific implementation.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

@@ -16,9 +16,12 @@ The design-patterns source describes different promotion triggers for developmen
 
 Automatic production promotion increases the importance of small batches, observable health signals, and a tested rollback path. A passing pipeline establishes that its encoded checks succeeded; it cannot establish that users will experience no regression. Progressive exposure and post-deployment monitoring contain the impact when automated evidence is incomplete.
 
+The Java source defines continuous deployment as extending delivery by removing the routine human production-release step. Its Skaffold example automates a local build-and-deploy loop rather than claiming that local redeployment alone is production continuous deployment; a production profile still needs the target environment's controls.
+
 # References
 
 [[agilegamedevelopment2e.pdf]]
 [[aspnetcore3andreact.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[clouddevopsengineersguide.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

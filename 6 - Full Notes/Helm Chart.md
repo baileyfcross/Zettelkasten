@@ -12,9 +12,13 @@ When installed, Helm combines the templates with a [[Helm Values File]] to gener
 
 Helm's packaging and templating simplify repeated installation, but generated output should still be inspected and versioned through an auditable delivery path. Environment values must remain explicit, and secrets should not be hidden in ordinary values files simply because the chart makes them easy to interpolate.
 
+The Java source builds separate charts for PostgreSQL and ingress and a reusable application chart installed for several microservices. `helm lint` checks the packages, a debug dry run exposes rendered resources, and dependency update resolves charts declared by the ingress package before installation.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
+
+[[javamicroservicesandcontainersinthecloud.epub]]
 

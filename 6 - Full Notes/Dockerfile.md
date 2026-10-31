@@ -18,6 +18,8 @@ Podman and Buildah execute the same instruction model. Filesystem-changing instr
 
 The order of Dockerfile instructions determines how effectively the build cache can be reused. Stable dependency metadata should be copied and resolved before frequently changing source code, while a narrow build context and `.dockerignore` prevent irrelevant or sensitive files from entering cache keys and image layers.
 
+The Java microservice example uses a Dockerfile to copy the packaged application into a Java runtime base and define the startup command. Its alternative Jib workflow makes the same distinction visible from another direction: a Dockerfile is one reproducible image recipe, not the definition of a container itself.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -28,3 +30,4 @@ The order of Dockerfile instructions determines how effectively the build cache 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[clouddevopsengineersguide.pdf]]
 [[podmanfordevopssecondedition.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

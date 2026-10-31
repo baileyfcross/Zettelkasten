@@ -10,6 +10,9 @@ Microservice service granularity is the choice of how much cohesive business beh
 
 There is no useful target based only on code size. A boundary should instead be evaluated by its business responsibility, data ownership, team ownership, communication frequency, and deployment needs. Splitting too far creates [[Microservice Boundary Over-Segmentation]]; grouping unrelated responsibilities creates [[Microservice Boundary Under-Segmentation]]. Granularity should be revised as the domain becomes better understood rather than fixed by an early enthusiasm for smaller services.
 
+The source distinguishes packaging milestones along that continuum. A macroservice can place separate JAR modules inside one deployable archive, while a mini service can create several deployables that still share a node or dependencies. Full microservice granularity requires independent development, deployment, release, and data ownership rather than merely more files.
+
 # References
 
 [[artofdecodingmicroservices.epub]]
+[[javamicroservicesandcontainersinthecloud.epub]]

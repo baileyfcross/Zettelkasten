@@ -12,8 +12,11 @@ Pods are replaceable rather than durable identities. When one is deleted, the de
 
 Containers in the same pod share a network namespace and can share mounted volumes, making the pod the boundary for tightly coupled processes rather than a synonym for one container. Because pod identities are ephemeral, higher-level controllers and Services provide continuity across recreation.
 
+The source deploys Java microservice, MongoDB, PostgreSQL, and Kafka containers as pods and tests replacement behavior by deleting workload pods. Controllers restore the requested instances, while persistent claims determine whether state survives the replacement.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

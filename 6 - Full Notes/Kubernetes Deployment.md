@@ -16,6 +16,8 @@ A Deployment owns ReplicaSets rather than creating replacement pods directly. Ch
 
 The microservices source places a Deployment within a larger Kubernetes delivery path: the container image supplies the service artifact, the Deployment declares replicas and rollout state, a Service provides stable access to changing pods, and ingress can route external HTTP traffic. Resource declarations, probes, and autoscaling determine whether replicas can be scheduled, receive traffic, recover, and respond to demand.
 
+The Java examples apply separate Deployments for web, provider, database, broker, and administration components, then automate the same resources through scripts, Helm, and Skaffold. The progression shows that the Deployment remains the workload declaration even when a higher-level packaging or delivery tool renders and applies it.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -24,3 +26,4 @@ The microservices source places a Deployment within a larger Kubernetes delivery
 
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
 [[artofdecodingmicroservices.epub]]
+[[javamicroservicesandcontainersinthecloud.epub]]

@@ -12,7 +12,10 @@ Asynchrony does not remove downstream capacity limits or make CPU-heavy work che
 
 Across microservices, asynchronous communication also separates producer and consumer availability through a broker or queue. A producer can publish work or an event without waiting for the consumer to finish, allowing buffering and independent scaling. The tradeoff is a more complex contract: delivery duplication, ordering, retries, idempotency, event schemas, and delayed consistency must be handled explicitly.
 
+The Java source shows that a synchronous-style user experience can still be built over asynchronous transport by sending a request and a separate correlated reply. The return address, reply partition, timeout, and correlation identifier become explicit protocol elements that a direct HTTP call previously supplied implicitly.
+
 # References
 
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
 [[artofdecodingmicroservices.epub]]
+[[javamicroservicesandcontainersinthecloud.epub]]

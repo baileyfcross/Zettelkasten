@@ -12,9 +12,13 @@ Applications run on worker [[Kubernetes Node|nodes]], while users and automation
 
 The control plane's API server is the front door for declared state, while the scheduler assigns unscheduled pods and controllers repeatedly reconcile resources toward their specifications. etcd preserves cluster state, so control-plane availability and backup are distinct from the availability of the applications running on worker nodes.
 
+For Amazon EKS, AWS runs the control-plane nodes across availability zones and exposes the Kubernetes API through the cluster endpoint. Worker nodes remain in the customer's account and connect to that managed plane, separating cluster coordination from application execution capacity.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
+
+[[javamicroservicesandcontainersinthecloud.epub]]
 

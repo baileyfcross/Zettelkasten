@@ -12,7 +12,10 @@ This practice replaces slow and inconsistent click-ops with repeatable provision
 
 Terraform applies this discipline across cloud platforms through a common workflow while allowing each provider to expose its platform's distinctive resources. Reuse therefore comes from stable architectural boundaries and [[Terraform Module|modules]], not from pretending that AWS, Azure, and Google Cloud have identical network or identity models.
 
+The source uses Terraform first to declare a small EC2 network and host, then to extend the same discipline to EKS control-plane, worker-node, VPC, subnet, route, and security resources. Application deployment remains a later step, keeping cloud infrastructure creation distinct from copying a Java artifact or applying Kubernetes manifests.
+
 # References
 
 [[clouddevopsengineersguide.pdf]]
 [[masteringterraform.pdf]]
+[[javamicroservicesandcontainersinthecloud.epub]]

@@ -12,9 +12,13 @@ The selection is driven by a [[Kubernetes Label Selector]]. This decouples calle
 
 This stable virtual endpoint is meaningful only when its selector matches the intended workload labels and readiness excludes replicas that cannot yet serve traffic. ClusterIP, NodePort, and LoadBalancer types progressively change reachability without changing the selected pod set.
 
+The Java deployment topologies use Services to decouple microservice and database clients from pod addresses. The request path can then add NodePort or ingress exposure outside the stable internal Service without changing how its selector finds replacement replicas.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
+
+[[javamicroservicesandcontainersinthecloud.epub]]
 

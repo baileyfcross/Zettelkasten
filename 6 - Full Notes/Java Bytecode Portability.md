@@ -13,3 +13,4 @@ Portability therefore belongs to the boundary between the compiled program and i
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

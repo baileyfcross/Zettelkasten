@@ -13,3 +13,4 @@ Checked exceptions make anticipated external failures visible in signatures, whi
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Platform Runtime and Project Structure]]
+Tags: [[Java Platform Runtime and Project Structure]] · [[Java Nested Types and Package Organization]]
 
 # Java Access Control Levels
 
@@ -13,3 +13,4 @@ An access modifier states which code may name a member, not whether that member 
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

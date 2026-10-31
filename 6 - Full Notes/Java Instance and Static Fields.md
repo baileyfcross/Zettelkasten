@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Classes Interfaces and Type Declarations]]
+Tags: [[Java Classes Interfaces and Type Declarations]] · [[Java Object Construction and Class Members]]
 
 # Java Instance and Static Fields
 
@@ -13,3 +13,4 @@ Fields receive type-specific defaults before constructor code runs. Adding `fina
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Values Strings and Core Types]]
+Tags: [[Java Values Strings and Core Types]] · [[Java Numeric Utilities and Arbitrary Precision]]
 
 # Java Numeric Widening and Narrowing
 
@@ -13,3 +13,4 @@ Narrowing can discard high-order bits, change sign, or lose fractional informati
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

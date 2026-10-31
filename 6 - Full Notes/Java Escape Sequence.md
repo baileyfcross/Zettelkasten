@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Values Strings and Core Types]]
+Tags: [[Java Values Strings and Core Types]] · [[Java String Processing and Mutable Text]]
 
 # Java Escape Sequence
 
@@ -13,3 +13,4 @@ Escaping belongs to source syntax: the resulting runtime string contains the rep
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

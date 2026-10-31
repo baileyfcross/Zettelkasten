@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Garbage Collection and Memory Management]]
+Tags: [[Java Garbage Collection and Memory Management]] · [[Java System Runtime Services]]
 
 # Java Finalization and Cleaner
 
@@ -16,3 +16,4 @@ The later source records JEP 421 marking finalization and the `finalize` methods
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
 [[java25andbeyond_modernjavamadeeasy.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

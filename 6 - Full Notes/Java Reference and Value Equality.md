@@ -13,3 +13,4 @@ Logical equality for objects is supplied by an `equals` implementation and may c
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

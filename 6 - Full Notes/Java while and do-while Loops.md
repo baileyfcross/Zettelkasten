@@ -13,3 +13,4 @@ Both forms fit repetition whose count is not naturally known in advance, such as
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

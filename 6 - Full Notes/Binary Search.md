@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Search Algorithms]]
+Tags: [[Search Algorithms]] · [[Java Arrays and Elementary Algorithms]]
 
 # Binary Search
 
@@ -16,3 +16,4 @@ The same method can tune a game value when testing supplies “too high” or �
 
 [[algorithms.epub]]
 [[introductiontogamesystemdesign.pdf]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

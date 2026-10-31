@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Platform API Evolution]]
+Tags: [[Java Platform API Evolution]] · [[Java Numeric Utilities and Arbitrary Precision]]
 
 # Java Exact Arithmetic Methods
 
@@ -13,3 +13,4 @@ The family includes exact addition and multiplication as well as newer exact div
 # References
 
 [[java25andbeyond_modernjavamadeeasy.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

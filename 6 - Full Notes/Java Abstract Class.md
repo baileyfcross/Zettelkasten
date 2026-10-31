@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Classes Interfaces and Type Declarations]]
+Tags: [[Java Classes Interfaces and Type Declarations]] · [[Java Inheritance Composition and Object Contracts]]
 
 # Java Abstract Class
 
@@ -13,3 +13,4 @@ This form is useful when related types share state or implementation as well as 
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

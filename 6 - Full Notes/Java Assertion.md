@@ -13,3 +13,4 @@ Assertions are disabled by default and enabled with the `-ea` launch option, so 
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

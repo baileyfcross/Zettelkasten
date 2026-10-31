@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Classes Interfaces and Type Declarations]]
+Tags: [[Java Classes Interfaces and Type Declarations]] · [[Java Object Construction and Class Members]]
 
 # Java Constructor Overloading and Chaining
 
@@ -16,3 +16,4 @@ The prologue can validate or prepare arguments, define local variables, call sta
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
 [[java25andbeyond_modernjavamadeeasy.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

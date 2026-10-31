@@ -13,3 +13,4 @@ Class, interface, enum, array, record, and annotation types participate in the r
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

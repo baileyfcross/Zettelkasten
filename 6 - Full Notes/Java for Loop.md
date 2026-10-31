@@ -13,3 +13,4 @@ Any header component can be omitted, so the form can express an intentionally un
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

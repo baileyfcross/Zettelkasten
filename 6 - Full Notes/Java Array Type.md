@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Values Strings and Core Types]]
+Tags: [[Java Values Strings and Core Types]] · [[Java Arrays and Elementary Algorithms]]
 
 # Java Array Type
 
@@ -13,3 +13,4 @@ Arrays can hold primitives or references and can have multiple dimensions repres
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

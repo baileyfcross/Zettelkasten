@@ -13,3 +13,4 @@ Precedence is not execution-order documentation. Parentheses are useful whenever
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

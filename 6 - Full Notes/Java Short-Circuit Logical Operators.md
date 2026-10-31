@@ -13,3 +13,4 @@ The unary `!` negates a boolean. Single `&` and `|` can also combine boolean ope
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

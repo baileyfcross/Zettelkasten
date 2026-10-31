@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Classes Interfaces and Type Declarations]]
+Tags: [[Java Classes Interfaces and Type Declarations]] · [[Java Inheritance Composition and Object Contracts]]
 
 # Java Inheritance and Method Overriding
 
@@ -13,3 +13,4 @@ Overriding supplies a new implementation with a compatible signature and return 
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Classes Interfaces and Type Declarations]]
+Tags: [[Java Classes Interfaces and Type Declarations]] · [[Java Object Construction and Class Members]]
 
 # Java Encapsulation with Accessors
 
@@ -13,3 +13,4 @@ An accessor is not automatically good encapsulation: a public setter that accept
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

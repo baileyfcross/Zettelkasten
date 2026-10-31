@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Values Strings and Core Types]]
+Tags: [[Java Values Strings and Core Types]] · [[Java String Processing and Mutable Text]]
 
 # Java String Pool
 
@@ -13,3 +13,4 @@ Pooling is safe because [[Java String Immutability]] prevents one user from chan
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

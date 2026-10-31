@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Values Strings and Core Types]]
+Tags: [[Java Values Strings and Core Types]] · [[Java String Processing and Mutable Text]]
 
 # Java String Immutability
 
@@ -13,3 +13,4 @@ Immutability makes pooled strings safe to share and allows stable hashing, but r
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

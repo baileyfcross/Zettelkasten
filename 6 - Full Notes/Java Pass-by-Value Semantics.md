@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Values Strings and Core Types]]
+Tags: [[Java Values Strings and Core Types]] · [[Java Object Construction and Class Members]]
 
 # Java Pass-by-Value Semantics
 
@@ -13,3 +13,4 @@ Consequently, a method can use a copied reference to mutate the same object seen
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

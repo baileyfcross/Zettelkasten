@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Application Interaction and Internationalization]]
+Tags: [[Java Application Interaction and Internationalization]] · [[Java System Runtime Services]]
 
 # Java Standard Input Stream
 
@@ -13,3 +13,4 @@ Reading directly exposes byte-oriented operations and requires the program to de
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

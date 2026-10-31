@@ -13,3 +13,4 @@ The JVM is distinct from the Java language and from any single vendor distributi
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

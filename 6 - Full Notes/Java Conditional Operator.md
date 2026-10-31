@@ -13,3 +13,4 @@ It is useful for a small selection where both branches naturally yield the same 
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

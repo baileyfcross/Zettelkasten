@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Values Strings and Core Types]]
+Tags: [[Java Values Strings and Core Types]] · [[Java String Processing and Mutable Text]]
 
 # Java String Formatting and Concatenation
 
@@ -13,3 +13,4 @@ The choice affects readability and allocation. Repeated `+` in a loop can genera
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

@@ -13,3 +13,4 @@ These operators do not provide a general ordering for objects. Reference types u
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Classes Interfaces and Type Declarations]]
+Tags: [[Java Classes Interfaces and Type Declarations]] · [[Java Object Construction and Class Members]]
 
 # Java Method Overloading and Varargs
 
@@ -13,3 +13,4 @@ A variable-arity parameter, written with `...`, lets callers supply zero or more
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

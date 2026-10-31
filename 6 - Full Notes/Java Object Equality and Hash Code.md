@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Collections and Date-Time]]
+Tags: [[Java Collections and Date-Time]] · [[Java Inheritance Composition and Object Contracts]]
 
 # Java Object Equality and Hash Code
 
@@ -13,3 +13,4 @@ Equal objects must produce equal hash codes, though unequal objects may collide.
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

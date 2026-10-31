@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Garbage Collection and Memory Management]]
+Tags: [[Java Garbage Collection and Memory Management]] · [[Java System Runtime Services]]
 
 # Java Garbage Collection Eligibility
 
@@ -13,3 +13,4 @@ Setting one variable to null is sufficient only when it removes the last reachab
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

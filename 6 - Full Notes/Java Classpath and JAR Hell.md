@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Platform Runtime and Project Structure]]
+Tags: [[Java Platform Runtime and Project Structure]] · [[Java Nested Types and Package Organization]]
 
 # Java Classpath and JAR Hell
 
@@ -13,3 +13,4 @@ This family of conflicts is commonly called JAR hell. Build tools manage declare
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

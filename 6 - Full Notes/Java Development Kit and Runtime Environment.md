@@ -13,3 +13,4 @@ The runtime side supplies the JVM and standard libraries required by an applicat
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

@@ -13,3 +13,4 @@ Command-line execution exposes the boundary that an IDE normally automates: sour
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

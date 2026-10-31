@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]]
+Tags: [[Matrix and Vector Computation]] · [[Matrix Algebra for Statistical Models]] · [[FEM Mathematical Foundations]] · [[R Matrix Systems and Scientific Models]] · [[Java Arrays and Elementary Algorithms]]
 
 # Matrix Multiplication
 
@@ -29,3 +29,5 @@ The student companion uses R's matrix-product operator to combine an age-transit
 [[finiteelementanalysis_aprimer.pdf]]
 
 [[rstudentcompanion.pdf]]
+
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

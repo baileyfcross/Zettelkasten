@@ -13,3 +13,4 @@ A `default` label handles selectors not matched by another case. Strings and enu
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

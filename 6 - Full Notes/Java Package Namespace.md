@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Platform Runtime and Project Structure]]
+Tags: [[Java Platform Runtime and Project Structure]] · [[Java Nested Types and Package Organization]]
 
 # Java Package Namespace
 
@@ -13,3 +13,4 @@ Packages provide organization and an access boundary, but they are not independe
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

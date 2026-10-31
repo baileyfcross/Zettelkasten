@@ -15,4 +15,5 @@ The later source uses `var` to remove noisy repetition around generic collection
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]
 [[java25andbeyond_modernjavamadeeasy.epub]]

@@ -13,3 +13,4 @@ Java bitwise `~`, `&`, `|`, and `^` operate on the individual bits of integer va
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

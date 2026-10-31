@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Operators and Pattern Matching]]
+Tags: [[Java Operators and Pattern Matching]] · [[Java Numeric Utilities and Arbitrary Precision]]
 
 # Java Integer Division and Remainder
 
@@ -13,3 +13,4 @@ The remainder operator `%` returns the portion left after division and follows t
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

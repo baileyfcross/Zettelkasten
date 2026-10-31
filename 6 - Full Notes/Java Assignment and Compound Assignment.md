@@ -13,3 +13,4 @@ Compound forms such as `+=`, `-=`, and `*=` combine an operation with assignment
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

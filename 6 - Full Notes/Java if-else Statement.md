@@ -13,3 +13,4 @@ Braces make the intended block explicit even when it currently contains one stat
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
+[[learnjavafundamentals_aprimerforjavadevelopmentandprogramming.epub]]

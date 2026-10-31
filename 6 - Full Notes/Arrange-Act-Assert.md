@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]]
+Tags: [[Web Test Design and Tooling]]
 
 # Arrange-Act-Assert
 

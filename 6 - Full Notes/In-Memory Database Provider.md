@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]] [[Entity Framework Core Data Access]] [[ASP.NET Core API Integration Testing]]
+Tags: [[Entity Framework Core Data Access]] [[ASP.NET Core API Integration Testing]] [[Web Test Design and Tooling]]
 
 # In-Memory Database Provider
 

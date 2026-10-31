@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]] [[Test-Driven Development and Unit Test Design]]
+Tags: [[Test-Driven Development and Unit Test Design]] [[Web Test Design and Tooling]] [[Selenium Page Objects and TestNG]]
 
 # Test Fixture
 
@@ -12,7 +12,12 @@ In Angular testing, a component fixture gives the test access to both the compon
 
 In xUnit, fixture lifetimes can share costly initialization across tests or classes, but the fixture must not introduce mutable state that makes cases depend on execution order.
 
+
+TestNG lifecycle annotations define fixture scope for Selenium tests. Method-level setup and teardown can create and quit a separate driver for each case, while suite- or class-level fixtures share more state and therefore require stronger isolation discipline.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+
+[[javatestingwithselenium_acomprehensivesyntaxguideforautomation.epub]]

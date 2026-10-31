@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Parallel Diagnostics and Testing]]
+Tags: [[.NET Parallel Diagnostics and Testing]] [[Selenium Page Objects and TestNG]]
 
 # Parallel Test Execution
 
@@ -10,6 +10,11 @@ Parallel test execution runs independent tests or test groups concurrently to re
 
 Tests that share static state, files, ports, databases, clocks, or order assumptions can become nondeterministic under parallel execution. Isolation and explicit fixtures are prerequisites; disabling parallelism can be the correct policy for a group whose contract is inherently shared.
 
+
+TestNG configures parallel Selenium runs through `testng.xml`, selecting a scope such as methods and a maximum thread count. Each concurrent test needs its own browser session and isolated data; shared drivers or mutable fixtures can turn the time saving into flaky results.
+
 # References
 
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+
+[[javatestingwithselenium_acomprehensivesyntaxguideforautomation.epub]]

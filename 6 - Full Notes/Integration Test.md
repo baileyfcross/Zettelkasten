@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]] [[ASP.NET Core API Integration Testing]]
+Tags: [[ASP.NET Core API Integration Testing]] [[Web Test Design and Tooling]]
 
 # Integration Test
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]] [[React Testing Practice]] [[R Software Testing]]
+Tags: [[React Testing Practice]] [[R Software Testing]] [[Web Test Design and Tooling]]
 
 # Mock Object
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Application Testing]] [[React Testing Practice]]
+Tags: [[React Testing Practice]] [[Web Test Design and Tooling]]
 
 # Jest
 

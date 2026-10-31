@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[High-Dimensional Inference and Multiple Testing]]
+Tags: [[High-Dimensional Inference and Multiple Testing]] [[Selenium Assertions Exceptions and Test Reliability]]
 
 # False Negative
 
@@ -12,8 +12,13 @@ Stricter thresholds can reduce [[False Positive|false positives]] while increasi
 
 In classification, a false negative assigns the negative label to a truly positive case. Missing a disease can be more harmful than initiating a follow-up for a false alarm, while other domains reverse or alter that tradeoff. Evaluation therefore needs error-specific costs as well as an aggregate score.
 
+
+In automated testing, a false negative is a failing result even though the application behavior is correct. Brittle locators, inadequate synchronization, unstable environments, and stale baseline data can create such failures without exposing a product defect.
+
 # References
 
 [[dataanalysisforthelifescienceswithr.pdf]]
 
 [[machinelearning_mit.epub]]
+
+[[javatestingwithselenium_acomprehensivesyntaxguideforautomation.epub]]

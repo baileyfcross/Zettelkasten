@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[HTTP API Integration]]
+Tags: [[HTTP API Integration]] [[REST Resource Contracts and Data Handling]]
 
 # API Request Model
 
@@ -12,7 +12,10 @@ A focused request model makes writable fields explicit and can carry validation 
 
 ASP.NET Core binds the request payload into this transport model before application logic runs. Custom and fluent validation can reject an invalid model while leaving persistence entities protected from unrestricted client assignment.
 
+Across the book's frameworks, the accepted request shape is paired with parsing and validation before persistence or business behavior. Treating that shape as an operation-specific contract makes required fields, supported media types, and invalid-input feedback visible to API consumers.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[masteringrestapis.epub]]

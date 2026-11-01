@@ -10,6 +10,9 @@ REST statelessness requires each request to carry the information needed for the
 
 Resource state can still be stored persistently, and clients can still maintain application state. Removing hidden per-client conversation state makes requests easier to distribute among service instances, while tokens or other request data must be sent again when needed.
 
+Because a request is self-contained, the book notes that it can be routed or retried against another available server without reconstructing a private session. That improves load distribution and fault tolerance while making request-carried identity and authorization context part of every protected interaction.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[masteringrestapis.epub]]

@@ -10,6 +10,9 @@ A REST resource is the conceptual target identified by a URI, while a representa
 
 Clients manipulate a resource by sending and receiving representations through HTTP methods. Separating identity from representation lets the server change internal storage while preserving the public address and agreed message semantics.
 
+The book's client-server diagram shows requests using methods such as GET, POST, PUT, and DELETE and responses carrying formats such as JSON, XML, or HTML. The media format is therefore a transferable view selected for communication, while the resource remains the identified concept behind it.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[masteringrestapis.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[ASP.NET Core Web API Development]] [[ASP.NET Core Service Observability and API Tooling]]
+Tags: [[ASP.NET Core Web API Development]] [[ASP.NET Core Service Observability and API Tooling]] [[REST API Versioning Documentation and Governance]]
 
 # OpenAPI and Swagger
 
@@ -14,6 +14,8 @@ The book configures ASP.NET Core OpenAPI generation and Swagger UI so the runnin
 
 MicroProfile OpenAPI brings the same machine-readable contract to JAX-RS applications through portable interfaces and programming models. A compatible runtime automatically exposes the generated description at `/openapi`, allowing clients to discover the running service without access to its source.
 
+The REST API book uses an OpenAPI document to describe a bookstore endpoint, including the API version, path, operation, response status, content type, and example representation. It identifies interactive exploration, client or server code generation, and consistency across APIs as benefits of maintaining the standardized description.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -22,3 +24,4 @@ MicroProfile OpenAPI brings the same machine-readable contract to JAX-RS applica
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 
 [[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]
+[[masteringrestapis.epub]]

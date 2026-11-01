@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Web Identity and Access Control]] [[ASP.NET Core API Security and Caching]]
+Tags: [[Web Identity and Access Control]] [[ASP.NET Core API Security and Caching]] [[REST API Security and Access Control]]
 
 # JSON Web Token
 
@@ -14,6 +14,8 @@ The REST security discussion describes the three dot-separated JWT portions and 
 
 Those three portions are a header, a claim-bearing payload, and a signature. Signing provides integrity and issuer authentication but does not ordinarily encrypt the payload, so encoded claims should not be assumed secret. In MicroProfile JWT, a validated `upn` claim can identify the caller principal and `groups` can map into container roles, allowing Jakarta microservices to consume token identity through their normal security context.
 
+The book's Express flow issues a time-limited JWT after successful credential authentication, extracts the bearer token on protected requests, verifies its signature, and attaches the validated claims for later authorization. Expiration and renewal policies bound how long possession remains useful.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -22,3 +24,4 @@ Those three portions are a header, a claim-bearing payload, and a signature. Sig
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 
 [[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]
+[[masteringrestapis.epub]]

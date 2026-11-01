@@ -14,6 +14,8 @@ The REST constraints add more than resource-shaped routes: messages should be se
 
 Its SOA chapter relates REST services to resource-oriented URLs, standard HTTP methods, stateless requests, status semantics, bearer authorization, and OpenAPI documentation, keeping transport choices aligned with an interoperable public contract.
 
+The book implements that contract through six conventional frameworks and serverless platforms. This comparison makes the API's resource and HTTP semantics the portable boundary: controllers, routers, serializers, and cloud functions are replaceable mechanisms behind the same externally visible interaction.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -22,3 +24,4 @@ Its SOA chapter relates REST services to resource-oriented URLs, standard HTTP m
 
 [[hands-onnetworkprogrammingwithcandnetcore.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[masteringrestapis.epub]]

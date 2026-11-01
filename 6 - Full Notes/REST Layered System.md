@@ -10,6 +10,9 @@ The layered-system constraint permits intermediaries such as gateways, proxies, 
 
 Layers can provide caching, security, routing, or load distribution. Their participation depends on self-descriptive messages and must preserve the externally visible semantics expected by the client.
 
+The book emphasizes that each layer communicates through a defined interface and can be extended or scaled for its own responsibility. This modularity enables a storage, routing, or presentation layer to change without requiring every other layer to share its implementation details.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[masteringrestapis.epub]]

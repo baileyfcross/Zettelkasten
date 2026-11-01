@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Progressive Web Application Capabilities]] [[ASP.NET Core API Security and Caching]]
+Tags: [[Progressive Web Application Capabilities]] [[ASP.NET Core API Security and Caching]] [[REST API Security and Access Control]]
 
 # Cross-Origin Resource Sharing
 
@@ -10,7 +10,10 @@ Cross-Origin Resource Sharing is an HTTP policy mechanism through which a server
 
 An ASP.NET Core application registers and applies a CORS policy in its middleware configuration. Production settings should name the intended origin rather than granting every origin access without need.
 
+The book frames CORS as a controlled exception to the browser's same-origin policy. Server response headers state permitted origins, methods, headers, and credential behavior, while a preflight request lets the browser check a non-simple cross-origin operation before sending the actual request.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[masteringrestapis.epub]]

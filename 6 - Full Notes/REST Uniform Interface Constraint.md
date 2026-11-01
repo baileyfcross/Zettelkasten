@@ -12,8 +12,11 @@ Uniformity reduces coupling but can sacrifice an interface tailored to one imple
 
 The Go source contrasts REST's resource-oriented use of HTTP operations with RPC services that publish arbitrary procedures. Go's standard HTTP handlers and routing support can implement REST-like resource endpoints, but conformance comes from the application's resource and message design rather than from the library call alone.
 
+The book describes the uniform interface through resource URLs, standard HTTP methods, standard status codes, and self-descriptive messages. These shared elements let clients predict how an unfamiliar resource behaves without learning a private verb protocol for each server implementation.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 
 [[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]
+[[masteringrestapis.epub]]

@@ -10,6 +10,9 @@ Representational State Transfer is an architectural style for networked systems 
 
 Compliance is a system property rather than a label attached to JSON over HTTP. Each constraint changes how clients and servers evolve, scale, and understand an interaction, so adopting only an HTTP endpoint does not by itself make a service RESTful.
 
+The book presents these constraints as a cross-framework design foundation: Express, Rails, Django, Laravel, ASP.NET Core, Spring Boot, and serverless handlers can all serve REST APIs, but their routing syntax does not replace the resource, message, statelessness, caching, layering, and interface decisions.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+[[masteringrestapis.epub]]

@@ -4,7 +4,7 @@ Parent topic: [[Software Engineering]]
 
 Java Programming Language is the chapter-level topic for the platform, type system, core values and libraries, control flow, functional processing, concurrency, diagnostics, application interfaces, persistence, and managed memory described in the linked notes.
 
-This chapter synthesizes only the Full Notes produced or updated from *Java 23 for Absolute Beginners: Learn the Fundamentals of Java Programming*, *Java 25 and Beyond: Modern Java Made Easy*, *Learn Java Fundamentals: A Primer for Java Development and Programming*, and the local source material cited by those notes. It does not add claims from external material.
+This chapter synthesizes only the Full Notes produced or updated from *Java 23 for Absolute Beginners: Learn the Fundamentals of Java Programming*, *Java 25 and Beyond: Modern Java Made Easy*, *Learn Java Fundamentals: A Primer for Java Development and Programming*, *Mastering SIMD with Java Vector API: Unlocking Single-Core Performance Through SIMD Optimization*, and the local source material cited by those notes. It does not add claims from external material.
 
 ## Overview Chapter
 
@@ -111,6 +111,14 @@ Scoped values complement that task structure with one-way contextual data. A bin
 [[Java Low-Level Platform and Native Performance]] covers facilities that deliberately operate below ordinary object-oriented application code. The Foreign Function and Memory API represents native memory with bounded segments, controls lifetime through arenas, discovers symbols, describes native signatures, and creates downcalls or upcalls through a linker. These abstractions replace many direct uses of unsafe memory access with explicit spatial and temporal boundaries. They reduce accidental misuse but do not make a native function's own contract, alignment, or ownership requirements disappear.
 
 The Class-File API similarly offers a supported model for reading and building class files instead of requiring each bytecode tool to maintain its own parser for every class-file version. At the computational level, the Vector API expresses operations over a hardware-appropriate vector species. The same lane-wise computation can cover a bulk region with SIMD instructions and handle the tail that does not fill a complete vector. Auto-vectorization can optimize some ordinary loops, while the explicit API states the intended vector shape when predictable transformation matters. Both the Vector API's incubator status and native integration's platform dependence belong in the design decision.
+
+### Portable SIMD and single-core optimization
+
+[[Java SIMD and Single-Core Optimization]] develops that vector-computation boundary into a complete optimization method. A preferred vector species lets one algorithm adapt its lane count to the available hardware, while masks preserve correctness for partial tails and conditional lanes. Shuffles, blends, slices, compression, expansion, gathers, scatters, and zip/unzip transformations determine how values move between lanes and memory. These operations can replace branches or reorganize data, but irregular access and cross-lane dependencies may cost more than the parallel work saves.
+
+Reductions and scans illustrate the difference between independent lane-wise arithmetic and operations whose results depend on earlier values. Partial accumulators, tree-shaped combinations, transposed batches, and explicit carry propagation can expose parallel work when associativity and data layout permit it. Floating-point algorithms add another constraint because regrouping additions changes rounding. Pairwise and compensated summation can improve accuracy, yet a vectorized result may still vary with vector length and summation order.
+
+The same chapter treats optimization as a measured interaction among algorithms, the JIT compiler, and the processor. Branchless execution, residue-class lookahead, memoization, structure-of-arrays layouts, recurrence reformulation, and rejection compaction can create SIMD-friendly work. Loop unrolling and independent accumulators may raise instruction-level parallelism, but also increase register pressure or structural hazards. Warmup, generated-assembly inspection, and comparison against a scalar baseline are therefore part of the method: explicit vectors are useful when measured behavior supports them, not a guarantee that every rewritten loop is faster.
 
 ### From a single source file to documented programs
 

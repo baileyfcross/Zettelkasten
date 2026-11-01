@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Numerical Error and Conditioning]]
+Tags: [[Numerical Error and Conditioning]] [[SIMD Numerical Accuracy and Statistics]]
 
 # Catastrophic Cancellation
 
@@ -10,6 +10,10 @@ Catastrophic cancellation occurs when floating-point subtraction removes the lea
 
 The computational identity for sample variance can suffer this problem because it subtracts a term based on the squared sum from a sum of squares. Centered or recursively updated formulations such as [[Two-Pass Variance Algorithm]] and [[West Online Variance Algorithm]] avoid that difference of large, close quantities.
 
+The book's single-pass mean and standard-deviation kernel accumulates $S_1=\sum x_i$ and $S_2=\sum x_i^2$, then forms $S_2/N-(S_1/N)^2$. Although this reduces memory passes and vectorizes readily, the final subtraction can discard significant digits when the two terms are close. More throughput therefore does not establish an adequate numerical result.
+
 # References
 
 [[statisticalcomputingincplusplusandr.pdf]]
+
+[[masteringsimdwithjavavectorapi_unlockingsingle-coreperformancethro.epub]]

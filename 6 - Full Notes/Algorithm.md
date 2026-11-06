@@ -10,6 +10,9 @@ An algorithm is a precise set of steps for solving a problem or carrying out a t
 
 An algorithm may receive an [[Algorithm Input]], transforms that data through operations arranged by a [[Control Structure]], and produces an [[Algorithm Output]]. Its steps must be unambiguous, effective, and guaranteed to finish after a finite amount of work.
 
+Design begins before syntax. [[Algorithmic Problem Decomposition]] identifies inputs, outputs, constraints, edge cases, and a sequence of actions, conditions, and repetitions; an [[Algorithm Flowchart]] can then expose missing branches or termination errors before the procedure is encoded in a programming language.
+
 # References
 
 [[algorithms.epub]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

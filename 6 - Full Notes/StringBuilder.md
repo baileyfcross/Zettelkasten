@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Core Data Types and Collections]]
+Tags: [[.NET Core Data Types and Collections]] · [[Java String Processing and Mutable Text]]
 
 # StringBuilder
 
@@ -12,8 +12,11 @@ The builder is most useful for repeated modifications in loops or large generate
 
 The performance difference follows from string immutability: repeated concatenation can create a succession of intermediate strings, whereas the builder mutates its managed buffer across appends. The final `ToString` call creates the finished immutable value.
 
+Java's `StringBuilder` follows the same mutable-buffer principle. Appending is efficient when capacity is available, while inserting or deleting within the buffer is $O(n)$ because later characters must be shifted; it is the appropriate tool for repeated text changes rather than a replacement for immutable `String` data.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[programmingincexam70-483mcsdguide.pdf]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

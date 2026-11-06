@@ -10,7 +10,10 @@ Dijkstra's algorithm finds the shortest paths from one starting vertex to all ot
 
 The algorithm repeatedly selects the unvisited vertex with the smallest current estimate and applies [[Graph Relaxation]] to its neighbors. Recording each improved vertex's predecessor makes it possible to reconstruct a route after the final distances are known. Negative weights violate the assumptions that make a visited estimate final.
 
+A Java implementation can use `PriorityQueue` to select the cheapest current estimate. Because the standard queue does not directly decrease an entry's priority, an improved distance can be inserted as a new entry and a later stale entry skipped when it no longer equals the best recorded distance. With an adjacency list, this works well for large sparse graphs.
+
 # References
 
 [[gameprogrammingincplusplus.pdf]]
 [[algorithms.epub]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

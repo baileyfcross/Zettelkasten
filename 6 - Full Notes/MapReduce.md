@@ -12,7 +12,10 @@ The model automates parallel work and data redistribution, but separate jobs imp
 
 Within an in-process .NET example, map operations can be expressed as independent projections and the reduce phase as grouping and aggregation. That implementation demonstrates the decomposition, although it lacks the fault tolerance and data-placement machinery of a distributed MapReduce system.
 
+At cluster scale, each node maps its local partition and reduce stages combine the intermediate values. The pattern succeeds when work can be divided independently and data is distributed well; communication, skewed partitions, coordination, and result combination can otherwise dominate the computation.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

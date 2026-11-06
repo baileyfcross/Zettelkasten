@@ -10,6 +10,9 @@ A graph is a structure made of vertices and edges connecting them. It represents
 
 The same structure can model landmasses joined by bridges, people joined by social relationships, pages joined by hyperlinks, or tasks joined by dependencies. Once a problem is expressed as a graph, algorithms can ask about paths, cycles, coloring, ranking, or other properties of the connections.
 
+Representation determines the cost of those questions. An [[Adjacency List]] stores only existing neighbor relationships and suits sparse graphs, while an [[Adjacency Matrix]] reserves a position for every vertex pair and makes direct edge tests simple at the cost of quadratic space.
+
 # References
 
 [[algorithms.epub]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

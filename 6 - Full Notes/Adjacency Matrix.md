@@ -12,8 +12,11 @@ For a [[Directed Graph]], the row and column order preserves edge direction. Thi
 
 Matrix powers encode longer connectivity: the $(i,j)$ entry of $A^k$ counts length-$k$ walks from vertex $i$ to vertex $j$ under the chosen row-column convention. Degree information from $A$ also feeds the [[Graph Laplacian]].
 
+The representation gives direct access to any possible pair but consumes $O(V^2)$ space even when few edges exist. An [[Adjacency List]] instead uses space proportional to existing vertices and edges and lets a traversal enumerate only actual neighbors.
+
 # References
 
 [[algorithms.epub]]
 
 [[linearalgebra.pdf]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

@@ -10,6 +10,8 @@ A directed acyclic graph is a [[Directed Graph]] containing no [[Graph Cycle]]. 
 
 DAGs represent relationships that proceed in one direction without eventually returning to their starting point. Task priorities, prerequisites, and dependencies fit this structure when following the directed relationships can never lead back to an earlier item.
 
+The absence of cycles permits a topological order in which every prerequisite appears before the item that depends on it. Build tools, workflow engines, course scheduling, and data pipelines use this order to decide which vertices can execute next.
+
 In a directed graphical model, each variable is conditionally independent of its nondescendants given its parents, and a positive joint density factors into one conditional density per node. Different arrow orientations can encode the same conditional independences, so observational data do not generally identify a unique minimal DAG or causal direction without additional assumptions.
 
 # References
@@ -17,3 +19,4 @@ In a directed graphical model, each variable is conditionally independent of its
 [[algorithms.epub]]
 
 [[introductiontohigh-dimensionalstatistics.pdf]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

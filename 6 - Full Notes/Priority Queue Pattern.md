@@ -10,8 +10,11 @@ A priority queue pattern schedules selected messages ahead of lower-priority wor
 
 As an abstract data structure, a priority queue inserts keyed objects and returns the object with the minimum or maximum key rather than the oldest object. A [[Binary Heap]] supports both insertion and priority extraction in logarithmic time while exposing the next-priority item at its root.
 
+Java's `PriorityQueue` supports [[Dijkstra's Algorithm]] by returning the vertex with the smallest discovered distance. Because changing an entry's priority in place is inconvenient, the algorithm can insert the improved pair and discard an older pair when it is later removed and found to be stale.
+
 # References
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[statisticalcomputingincplusplusandr.pdf]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

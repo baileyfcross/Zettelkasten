@@ -12,7 +12,10 @@ Choosing a collection means choosing semantics before implementation: duplicates
 
 Java 21 added sequenced interfaces that express encounter order consistently across collections and maps. [[Java Sequenced Collection]], [[Java Sequenced Set]], and [[Java Sequenced Map]] expose first, last, and reversed views without forcing callers to depend on a particular implementation such as a list or linked map.
 
+Complexity tables are only a starting point for choosing an implementation. The actual mix of indexed reads, iteration, appends, middle updates, key lookup, ordering, and concurrent access determines whether `ArrayList`, `LinkedList`, `HashMap`, `TreeMap`, or a concurrent structure fits the workload.
+
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
 [[java25andbeyond_modernjavamadeeasy.epub]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

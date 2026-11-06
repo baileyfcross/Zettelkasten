@@ -10,6 +10,9 @@ A dynamic array stores elements in contiguous memory while allowing its logical 
 
 Growing by a multiplicative factor, such as doubling, spreads the occasional copying cost across many inexpensive insertions. Random indexed access remains constant time, but inserting in the middle requires shifting later elements and resizing invalidates pointers or iterators into the old block.
 
+Java `ArrayList` is a dynamic-array implementation whose occasional $O(n)$ resize is amortized across many appends. Its contiguous backing array also gives it cache locality that can make it a better general-purpose list than a node-based structure even when both expose the same abstract list operations; [[Java ArrayList Capacity Growth]] describes its capacity policy.
+
 # References
 
 [[statisticalcomputingincplusplusandr.pdf]]
+[[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]

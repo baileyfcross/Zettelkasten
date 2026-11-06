@@ -10,6 +10,9 @@ Hybrid retrieval runs a lexical method such as BM25 alongside embedding-based si
 
 The two result lists need a deliberate merge and evaluation strategy rather than simple concatenation. In log and runbook retrieval, the useful test is whether the combined ranking returns the correct evidence for representative incidents without promoting plausible but unrelated documents.
 
+The modular RAG discussion in the current source treats hybrid retrieval as one selectable strategy alongside routing and multiquery search. Keyword, semantic, and vector paths can be chosen or combined according to the query, then followed by reranking and context compression before generation.
+
 # References
 
 [[ultimateaiguideforlinuxengineers.pdf]]
+[[masteringspringai.epub]]

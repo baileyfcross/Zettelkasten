@@ -14,6 +14,8 @@ An operations workflow can assign an alert-receiver role to group related events
 
 Context-rich observability improves the triage by joining deployment history, component ownership, call and hosting dependencies, shared resources, and SLO impact. The AI can summarize that evidence quickly, but the responder remains responsible for validating the inferred cause and any write action.
 
+The current source separates failure identification from root-cause explanation. An observability agent can locate the affected entity and match current telemetry against a classified failure list, while a root-cause agent uses the retrieved evidence and operational knowledge to form an explanation. Keeping those stages explicit makes it easier to see whether a poor result came from missing data, incorrect classification, retrieval, or model reasoning.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,4 @@ Context-rich observability improves the triage by joining deployment history, co
 [[agenticaifordevopsengineers.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

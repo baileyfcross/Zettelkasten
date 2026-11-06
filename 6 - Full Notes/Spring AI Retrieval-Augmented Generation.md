@@ -10,6 +10,9 @@ Spring AI retrieval-augmented generation uses a retriever or advisor to search a
 
 The framework composes the stages, but grounding quality still depends on ingestion, metadata filters, query formulation, ranking, and prompt design. Responses should preserve enough source information to evaluate whether retrieval actually supported the answer.
 
+The current source implements the naive form explicitly: it embeds and stores document chunks offline, calls `similaritySearch` for the user's question, joins the returned content into a system prompt, and adds the user message before invoking the chat model. A flag that bypasses document stuffing demonstrates that retrieval augmentation is application-supplied context, not knowledge automatically retained by the model.
+
 # References
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
+[[masteringspringai.epub]]

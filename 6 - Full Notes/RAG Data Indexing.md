@@ -14,6 +14,8 @@ In the Foundry example, adding files to a Foundry IQ knowledge source triggers p
 
 Operational RAG requires the same discipline for runbooks, incident summaries, configuration guidance, and system documentation. Sources should be reviewed, dated, assigned ownership, and retired when obsolete before their chunks enter the index; a larger collection of stale documents can reduce retrieval quality even when embeddings and storage work correctly.
 
+The current source's naive RAG path normalizes PDF, HTML, Word, JSON, CSV, or URL content, splits it into context-sized chunks, encodes each chunk with an embedding model, and stores the vectors in a database. Its advanced path adds finer segmentation and metadata such as timestamps, authors, and categories so later retrieval can use more than raw semantic proximity.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,4 @@ Operational RAG requires the same discipline for runbooks, incident summaries, c
 [[microsoftfoundryinaction.pdf]]
 
 [[ultimateaiguideforlinuxengineers.pdf]]
+[[masteringspringai.epub]]

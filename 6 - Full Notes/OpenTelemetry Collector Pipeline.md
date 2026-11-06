@@ -10,6 +10,9 @@ An OpenTelemetry Collector pipeline receives telemetry from instrumented applica
 
 The collector is vendor-neutral infrastructure rather than an observability database. It can reduce duplication and move context enrichment out of individual applications, but it must itself be sized and monitored so unhealthy receivers, dropped signals, or saturated exporters do not silently create blind spots.
 
+The current source adds reliability and analytical roles to the pipeline. Throttling, buffers, retries, batches, rate limits, compression, and replicas determine how it behaves under load, while collector metrics expose received volume, sample counts, cardinality, and sent data. A span-metrics processor can derive service measures and objectives from traces before export, but its output remains trustworthy only when the pipeline's own drops, queues, and saturation are observed.
+
 # References
 
 [[observabilityintheai-nativeera.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

@@ -14,6 +14,8 @@ A Foundry agent can reinforce this stage with a system prompt that forbids unsup
 
 Production evaluation should distinguish context relevance, answer correctness, and faithfulness to the supplied evidence. These measures expose different defects: a generator cannot repair a missing document reliably, and a relevant document does not prevent the model from adding an unsupported conclusion.
 
+The current source's Spring AI example builds a system message from the retrieved document text, appends the current user message, and sends both as one prompt. This makes the boundary visible: search supplies context, prompt construction integrates it, and the model produces the response. Redundant or disjointed retrieved passages can still degrade the answer even when every chunk is individually related to the query.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,4 @@ Production evaluation should distinguish context relevance, answer correctness, 
 [[microsoftfoundryinaction.pdf]]
 
 [[ultimateaiguideforlinuxengineers.pdf]]
+[[masteringspringai.epub]]

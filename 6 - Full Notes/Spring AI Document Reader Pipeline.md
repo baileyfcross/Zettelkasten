@@ -10,6 +10,9 @@ A Spring AI document reader pipeline loads source material into Document objects
 
 Reading is only the first stage of retrieval quality. The pipeline must preserve source identity and useful metadata, choose boundaries that retain meaning, and make ingestion failures visible before vectors are written to a store.
 
+For PDF input, the current source configures a `PagePdfDocumentReader` with page-level extraction, removal of repeated top or bottom lines, and a `TokenTextSplitter` before storage. For structured input, it uses a JSON reader and metadata generator to select content and metadata fields. These two paths share the `Document` boundary while retaining format-specific decisions that affect later retrieval.
+
 # References
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
+[[masteringspringai.epub]]

@@ -12,8 +12,11 @@ An MLOps pipeline may be triggered by code changes, new data, or detected model 
 
 The operating record also includes the framework, checkpoint, hardware environment, and [[Model Promotion Evidence]] that justified a serving version. Orchestration, experiment tracking, pipeline execution, and inference serving are separate responsibilities that can be combined without asking one tool to own the entire lifecycle.
 
+The current source contrasts this broad lifecycle with [[LLMOps]], which starts from many of the same deployment and monitoring practices but adds prompt templates, context windows, generated-output evaluation, LLM-specific inference optimization, and ethical controls for open-ended responses. The distinction is one of specialized operational assets and failure modes rather than a replacement for reproducible data, model, and deployment management.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[nvidiagpuinfrastructurefundamentals.pdf]]
+[[masteringspringai.epub]]

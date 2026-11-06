@@ -14,6 +14,8 @@ The workflow separates offline [[RAG Data Indexing]] from the online [[RAG Retri
 
 In the Java framework examples, document readers and vector-store ingestion implement the offline path, while a retriever or advisor adds selected evidence to a model request online. Both paths must share compatible embedding and metadata conventions, and retrieved content must fit within a deliberate [[RAG Context Window Budget]].
 
+The current source distinguishes naive, advanced, and modular forms of the pipeline. Naive RAG follows indexing, retrieval, and generation directly; advanced RAG adds [[RAG Pre-Retrieval Optimization|query and index refinement]] plus [[RAG Post-Retrieval Optimization|reranking or compression]]; modular RAG introduces routing, memory, multiquery fusion, and task-specific adapters that can be arranged for the application rather than forced into one fixed sequence.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,4 @@ In the Java framework examples, document readers and vector-store ingestion impl
 [[kubernetesforgenerativeaisolutions.pdf]]
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
+[[masteringspringai.epub]]

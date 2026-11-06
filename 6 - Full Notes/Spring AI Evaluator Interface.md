@@ -10,6 +10,9 @@ Spring AI's evaluator interface represents a check over an AI response and its s
 
 The interface makes evaluation composable with Java tests and application workflows, but the meaning of a pass depends on the chosen evaluator and threshold. Teams should preserve the tested prompt, model, evidence, and evaluator version so results remain interpretable.
 
+The current source describes an `EvaluationRequest` carrying the original user text, a list of supporting `Content`, and the response under review. An evaluator returns an `EvaluationResponse` with a pass flag, score, feedback, and metadata. This shape lets the same semantic check run inside JUnit or an administrative endpoint without confusing evaluation output with the generated answer itself.
+
 # References
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
+[[masteringspringai.epub]]

@@ -10,6 +10,9 @@ Spring AI ChatClient provides a fluent Java interface for assembling a prompt, s
 
 The client can also participate in advisor chains, structured-output conversion, tools, observations, and retrieval. That makes it a composition point rather than merely an HTTP wrapper, so cross-cutting behavior should remain visible in configuration and tests.
 
+In the source's Spring AI 0.8.1 API, a `Prompt` is a container for ordered message objects and `ChatClient.call` returns a response whose result contains the assistant content. The examples progress from a plain string call to role-separated prompts, templates, retrieval context, and conversation history, showing that the client boundary stays stable while the application deliberately assembles richer input.
+
 # References
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
+[[masteringspringai.epub]]

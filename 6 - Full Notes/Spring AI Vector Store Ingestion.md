@@ -10,6 +10,9 @@ Spring AI vector store ingestion prepares documents and adds them to a configure
 
 A dependable ingestion job records document identity, transformation choices, and embedding configuration. Without those controls, updates can create duplicate chunks or mix incompatible vector spaces, even though each individual write succeeds.
 
+The current source shows both `vectorStore.accept(tokenTextSplitter.apply(pdfReader.get()))` for unstructured PDF pages and `vectorStore.add(documents)` for JSON-derived products. Separating those load endpoints from question answering makes corpus replacement and row-count checks possible without coupling an expensive embedding operation to every user request.
+
 # References
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
+[[masteringspringai.epub]]

@@ -10,6 +10,9 @@ AI artifact traceability places generated code, prompts, configurations, reports
 
 Traceability should include the model or service used, relevant input or input reference, validation result, reviewer approval, and final disposition when practical. This evidence does not prove the artifact is correct, but it makes influence attributable and supports auditing, rollback, incident analysis, and later evaluation.
 
+The current source applies the same discipline to prompts and deployed LLM behavior. Prompt versions, model variants, retrieved context, evaluation results, security-relevant events, and configuration changes need a reviewable record so an organization can explain which governed assets produced a response and whether later feedback triggered a controlled revision.
+
 # References
 
 [[agenticaifordevopsengineers.pdf]]
+[[masteringspringai.epub]]

@@ -14,6 +14,8 @@ Each span belongs to the trace and usually has a parent relationship, while a pr
 
 In a containerized service graph, a distributed trace connects work that crosses independently deployed containers and network boundaries. Propagated trace context turns otherwise separate spans into an end-to-end request path, making latency and failure ownership visible across the stack.
 
+The current source shows why a trace identifier is not always an end-to-end business identifier. One order can involve several user actions and therefore several traces, while queues, legacy middleware, and unsupported protocols can interrupt a parent-child path. A [[Business-to-System Correlation Chain]] groups those traces under stable request, order, payment, or transaction context, and a [[Distributed Trace Span Link]] represents many-input asynchronous relationships without inventing a single parent.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -21,3 +23,4 @@ In a containerized service graph, a distributed trace connects work that crosses
 [[clouddevopsengineersguide.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

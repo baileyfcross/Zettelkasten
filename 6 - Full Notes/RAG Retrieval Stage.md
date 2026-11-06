@@ -14,6 +14,8 @@ Microsoft Foundry can expose this stage to an agent as a knowledge-base retrieva
 
 In operational search, hybrid retrieval can combine BM25's strength on exact service names and error codes with vector search for semantically similar descriptions. The retriever should be evaluated on a curated question-to-document set with hit rate, precision, recall, and top-k behavior before generation quality is considered.
 
+The current source describes a progression from keyword matching to query vectorization and top-k similarity selection, then to query rewriting, expansion, routing, hybrid search, and reranking. Each added transformation should remain observable because an irrelevant answer may originate in a changed query, a poor candidate set, or a ranking decision rather than in the language model.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,4 @@ In operational search, hybrid retrieval can combine BM25's strength on exact ser
 [[microsoftfoundryinaction.pdf]]
 
 [[ultimateaiguideforlinuxengineers.pdf]]
+[[masteringspringai.epub]]

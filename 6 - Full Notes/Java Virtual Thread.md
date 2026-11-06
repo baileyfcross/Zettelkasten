@@ -12,7 +12,10 @@ Virtual threads should generally be created per task rather than pooled as scarc
 
 Supported blocking operations park and unmount the virtual thread so its [[Java Virtual Thread Carrier]] can execute another task. Java 24 removed the important synchronized-block pinning restriction described for earlier releases, but [[Java Virtual Thread Pinning]] remains a useful distinction for native calls and other work that cannot unmount.
 
+The observability source adds an operational view of the mapping. A virtual thread is mounted on a carrier scheduled through the JVM's ForkJoinPool and can be inspected through profiles, thread events, and stack traces; a request trace alone may miss unsupported socket or non-blocking paths. Monitoring must therefore distinguish the logical virtual task, its carrier, and the underlying operating-system thread instead of treating them as one identity.
+
 # References
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
 [[java25andbeyond_modernjavamadeeasy.epub]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

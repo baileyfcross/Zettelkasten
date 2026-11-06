@@ -12,8 +12,11 @@ Preparation also establishes update and feedback loops so corrections reach the 
 
 A Microsoft Foundry knowledge source should therefore contain the latest approved documents, use clear filenames and parseable structure, and exclude drafts or superseded versions. Scanned images without OCR and complex layouts can produce retrieval gaps even when upload succeeds, so indexing status must be followed by test queries that confirm expected passages and citations.
 
+The current source adds enterprise-specific failure modes: inconsistent formats, obsolete records, redundant documents, ambiguous domain queries, confidential fields, and rapidly changing context. Cleaning and automated validation should precede indexing, while encryption, access control, anonymization where appropriate, and audit trails constrain which prepared passages a particular user may retrieve.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[microsoftfoundryinaction.pdf]]
+[[masteringspringai.epub]]

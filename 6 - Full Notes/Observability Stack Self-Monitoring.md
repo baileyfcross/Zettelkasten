@@ -10,6 +10,9 @@ Observability stack self-monitoring measures the health of instrumentation, coll
 
 Baselining received and ingested volume can expose a sudden instrumentation mistake or blocked pipeline. A static threshold is appropriate for the percentage of unintentionally dropped data, while rising analysis delay indicates that detection and response are becoming more reactive even if the monitored application itself has not changed.
 
+The OpenTelemetry Collector example makes that check concrete. Collector process metrics report received and sent flows, sample counts, and cardinality, while queues, throttling, batches, retries, buffers, and exporters create their own saturation and failure modes. Monitoring the `otelcol` pipeline path distinguishes missing application telemetry from data that was produced correctly but delayed or dropped in collection.
+
 # References
 
 [[observabilityintheai-nativeera.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

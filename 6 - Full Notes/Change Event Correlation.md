@@ -10,6 +10,9 @@ Change event correlation compares an abnormal behavior with deployments, configu
 
 Temporal proximity is evidence rather than proof. The analysis must also establish that the changed component lies on the affected dependency path and that the observed mechanism can explain the impact. This prevents every recent release from becoming the default suspect.
 
+The current source illustrates this with a memory increase and repeated full collections that began after an instrumentation patch. Garbage collection and latency are effects; the deployment becomes a stronger causal candidate only when the timeline, affected JVM generation, component path, and profile support the mechanism. Recording release context inside the RCA evidence model makes that distinction testable.
+
 # References
 
 [[observabilityintheai-nativeera.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

@@ -12,8 +12,11 @@ Because an LLM application may change when its prompt, retrieved knowledge, mode
 
 The Java application lifecycle described in the source adds tool schemas, framework configuration, conversation memory, provider options, and evaluator settings to the assets that must be versioned. This shifts delivery from checking only service uptime toward continuous semantic evaluation and observation of the exact model-assisted path.
 
+The current source distinguishes LLMOps from general MLOps through prompt management, context-window control, foundation-model variants, fine-tuning, reinforcement learning from human feedback, generated-text evaluation, and inference cost. It pairs model-quality measures with latency, throughput, memory, compute, user feedback, fairness, deployment stability, and cost efficiency, making prompt and serving behavior first-class operational assets.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
+[[masteringspringai.epub]]

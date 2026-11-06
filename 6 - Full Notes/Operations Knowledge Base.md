@@ -10,6 +10,9 @@ An operations knowledge base organizes runbooks, architecture, troubleshooting r
 
 Construction requires requirements, governed data collection, preprocessing, indexing, deployment, and repeated evaluation and refresh. The knowledge base must retain document ownership and currency so an outdated procedure does not become confident operational advice.
 
+The current source builds this asset from reviewed failure reports, root-cause findings, diagnostic patterns, and reproducible experiments. A small set of accurate, well-classified records can be more useful than a large archive of poorly structured text. Production snapshots and chaos experiments preserve the evidence needed to replay a past failure, while senior engineers must contribute the tacit conditions and remedies that telemetry alone does not contain.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

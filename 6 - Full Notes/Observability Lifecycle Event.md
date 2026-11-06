@@ -10,6 +10,9 @@ An observability lifecycle event records a meaningful change in software deliver
 
 When lifecycle events share semantic context with production telemetry, an incident can be tied to the pull request, pipeline run, or release that preceded it. The same event stream can support delivery metrics and business reporting while giving [[Change Event Correlation]] a trustworthy chronology.
 
+The legacy-systems source uses events for another correlation boundary: connecting business steps or broken traces that cannot share one continuous parent-child path. An event carrying a release, order, or transaction identifier can place several traces in chronological context, provided its schema preserves the actor, entity, time, and change rather than recording only free-form text.
+
 # References
 
 [[observabilityintheai-nativeera.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

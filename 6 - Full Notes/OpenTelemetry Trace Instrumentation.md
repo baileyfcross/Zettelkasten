@@ -12,9 +12,13 @@ Instrumentation is the evidence-producing layer rather than the analysis interfa
 
 OpenTelemetry instrumentation gives containerized applications a vendor-neutral way to emit trace context and spans. Exporting through a collector decouples application code from a particular backend and lets deployment configuration control batching, enrichment, and routing.
 
+The legacy-systems source separates four responsibilities that are easy to conflate: instrument the relevant method, extract incoming context, inject and propagate outgoing context, and transfer completed spans to storage. Known frameworks may be handled automatically, while custom Java code or unsupported middleware can require an [[OpenTelemetry Java Agent Extension]]. A successful export does not prove continuity; propagation format and parent relationships must be tested across every service and messaging boundary.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
+
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]
 

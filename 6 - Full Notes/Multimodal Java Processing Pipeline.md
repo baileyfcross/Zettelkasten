@@ -10,6 +10,9 @@ A multimodal Java processing pipeline chooses between specialized local componen
 
 The choice depends on the required determinism, supported formats, privacy, latency, cost, and evaluation data. Specialized extraction can be easier to validate for bounded fields, while a multimodal model handles flexible interpretation but adds probabilistic behavior.
 
+The current source extends the pipeline across text, generated images, audio transcription, and a proposed enterprise interface that can route different media to appropriate model endpoints. Conversation history and function calls then connect interpretation to application state and external systems, so modality routing, session context, and execution authority must remain distinct stages.
+
 # References
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
+[[masteringspringai.epub]]

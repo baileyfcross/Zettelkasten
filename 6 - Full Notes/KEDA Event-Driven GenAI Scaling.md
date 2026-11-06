@@ -10,7 +10,10 @@ KEDA event-driven GenAI scaling uses a ScaledObject to translate an external eve
 
 KEDA can scale a deployment to zero when no events exist, reducing idle cost. Polling interval, cooldown, minimum capacity, maximum replicas, authentication, and model warm-up time must be tuned together so savings do not create unacceptable first-request latency.
 
+The current source generalizes the control path beyond model serving: a KEDA scaler reads an external operational signal, converts it into a desired replica decision, and relies on Kubernetes scaling machinery to apply it. That makes signal semantics part of capacity policy. A noisy, late, or incorrectly aggregated metric can create oscillation or delayed recovery even when the ScaledObject itself is valid.
+
 # References
 
 [[kubernetesforgenerativeaisolutions.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]
 

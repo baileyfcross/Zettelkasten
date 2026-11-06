@@ -14,6 +14,8 @@ In a microservice investigation, specialized agents can collect node metrics, tr
 
 Modern observability strengthens the analysis by connecting horizontal call chains, vertical hosting relationships, network paths, shared resources, neighboring applications, and external change events. A useful explanation preserves this evidence trail so the suspected root cause can be distinguished from a coincident symptom.
 
+The current source organizes that investigation as a [[Root Cause Analysis Escalation Ladder]]. Metrics and objectives narrow the affected area, traces and profiles examine a request and its methods, and system traces or kernel profiles are used when application evidence cannot explain the delay. This progression also guards against calling a result the cause: a timeout, full garbage collection, or high latency can be an effect of an earlier code, configuration, deployment, or resource condition.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,4 @@ Modern observability strengthens the analysis by connecting horizontal call chai
 [[agilegamedevelopment2e.pdf]]
 
 [[observabilityintheai-nativeera.pdf]]
+[[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]

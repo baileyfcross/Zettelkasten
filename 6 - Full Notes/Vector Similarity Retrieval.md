@@ -14,6 +14,8 @@ In enterprise RAG, both document chunks and the incoming query are embedded in a
 
 Operational systems should bound top-k retrieval so knowledge-base growth does not cause unbounded context consumption. Exact identifiers and rare error strings can still favor lexical search, making vector similarity one contributor to a hybrid rank rather than an exclusive definition of relevance.
 
+The current source illustrates the matching path explicitly: the same embedding model represents stored chunks and the incoming query, similarity scores rank the candidates, and only the top-k chunks enter prompt construction. Compatible vector spaces are therefore a correctness requirement, while the value of k is both a retrieval-recall choice and a context-budget choice.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -21,3 +23,4 @@ Operational systems should bound top-k retrieval so knowledge-base growth does n
 [[kubernetesforgenerativeaisolutions.pdf]]
 
 [[ultimateaiguideforlinuxengineers.pdf]]
+[[masteringspringai.epub]]

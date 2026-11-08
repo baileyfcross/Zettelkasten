@@ -48,6 +48,8 @@ REST request-response operations are not the only communication mode an API-back
 
 Serverless platforms place API Gateway or a comparable managed entry point in front of event-triggered functions. The provider provisions and scales infrastructure, while functions should remain focused and place durable state in external services. Automatic scaling and pay-per-use execution reduce some operational work but introduce cold starts, connection-lifetime limits, provider-specific integrations, and distributed observability needs. Event-driven functions can decouple background work from the request path, provided their retries and duplicate deliveries are handled deliberately. Across conventional and serverless frameworks, reliable API engineering comes from keeping the public contract independent of the code mechanism that happens to serve it.
 
+[[Micronaut REST Application Framework]] adds a Java implementation shaped around compile-time metadata. Controllers declare routes, methods, body binding, and media types; managed services and generated data repositories separate HTTP behavior from application and persistence concerns. Annotation processors can create OpenAPI descriptions or translate a supported subset of JAX-RS declarations before runtime. Micronaut Security supplies authentication providers and route-level authorization, while its startup and memory model supports container and function deployments. These mechanisms reduce framework plumbing, but the resource model, representation contract, validation, persistence semantics, and access policy still belong to the API design.
+
 ## Directly Referenced Tags
 
 ```query

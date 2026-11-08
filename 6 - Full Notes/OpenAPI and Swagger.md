@@ -18,6 +18,8 @@ The REST API book uses an OpenAPI document to describe a bookstore endpoint, inc
 
 In Jakarta REST, MicroProfile OpenAPI annotations can describe application metadata, resources, parameters, operations, and responses directly beside the endpoint implementation. A runtime can generate the document from that metadata, but generation does not validate the semantic truth of the contract; undocumented errors or inaccurate response declarations still mislead clients.
 
+Micronaut can generate an OpenAPI YAML artifact during compilation through an annotation processor. Application and schema annotations contribute metadata, and static-resource routing can publish the resulting file from the build output. This connects the documentation to compiled endpoint definitions while still requiring the declared model to match actual runtime behavior.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -29,3 +31,5 @@ In Jakarta REST, MicroProfile OpenAPI annotations can describe application metad
 [[masteringrestapis.epub]]
 
 [[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

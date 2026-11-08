@@ -10,6 +10,10 @@ A developer portal is a user interface for discovering platform capabilities, la
 
 The portal is not the [[Internal Developer Platform]] itself. Its value depends on the automation, policy, identity, metadata, and support contracts behind each action. Some users may prefer a CLI, API, IDE extension, or declarative file, so the platform should treat the portal as one interface over consistent capabilities rather than the only route to self-service.
 
+For an external API engagement platform, the same interface can expose a portfolio overview, documentation, interactive trials, example client code, credential or application-key provisioning, rate plans, versions, service levels, and community support. This consumer-facing layer complements the runtime that serves requests and the development tools that build the APIs.
+
 # References
 
 [[platformengineeringforarchitects.pdf]]
+
+[[prorestfulapiswithmicronaut.epub]]

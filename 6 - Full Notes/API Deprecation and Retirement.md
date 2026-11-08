@@ -10,6 +10,10 @@ API deprecation announces that a contract remains available temporarily but shou
 
 The book recommends publishing the reason, replacement, migration instructions, schedule, and final retirement notice. Monitoring remaining usage helps the provider find active consumers before removal and prevents a nominal deadline from concealing unknown dependencies.
 
+Within an API management lifecycle, a deprecated API can remain deployed for existing users while disappearing from discovery for new consumers. Retirement follows when the API is unpublished and removed. Version replacement, security concerns, technology changes, declining usage, or lost business value may motivate the transition, but none removes the need to communicate it to dependent clients.
+
 # References
 
 [[masteringrestapis.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

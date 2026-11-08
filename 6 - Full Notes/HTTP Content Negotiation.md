@@ -10,6 +10,10 @@ HTTP content negotiation lets a client state which representation media types it
 
 The book uses the `Accept` header both for ordinary format selection and for media-type versioning. A server should describe the selected type in its response and return a clear failure when it cannot produce any representation acceptable to the client.
 
+When none of the server's available representations satisfies the request's Accept values, the source uses HTTP 406 Not Acceptable to report the mismatch. This makes unsupported format selection a visible protocol outcome rather than silently returning a body the client did not declare it could process.
+
 # References
 
 [[masteringrestapis.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

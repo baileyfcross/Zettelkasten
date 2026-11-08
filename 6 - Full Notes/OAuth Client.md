@@ -10,6 +10,10 @@ An OAuth client is the application requesting an access token so it can call a p
 
 In the stock checker, the UWP application is the client and the ASP.NET Core API is the resource. Defining the client in the authorization server makes its permitted path to a token an explicit part of the system's trust model.
 
+OAuth client registration commonly records the application name, redirect URLs, allowed grant types, and, for browser calls, permitted JavaScript origins. The authorization server returns a client identifier and may return a client secret; that secret is meaningful only for a client architecture able to keep it confidential.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
+
+[[prorestfulapiswithmicronaut.epub]]

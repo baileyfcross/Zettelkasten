@@ -10,6 +10,10 @@ An application service layer coordinates a use case between the HTTP controller,
 
 The layer prevents request handling from becoming the home of domain and data-access decisions. It should orchestrate collaborators rather than duplicate repository code or expose persistence entities as its public result by accident.
 
+In the source's process-API layer, the service holds reusable and process-specific business behavior and coordinates calls to system APIs through orchestration or choreography. A Micronaut controller receives the service through constructor injection, so HTTP routing remains at the boundary while the managed service can be reused and tested independently.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[prorestfulapiswithmicronaut.epub]]

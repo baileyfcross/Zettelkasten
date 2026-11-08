@@ -12,7 +12,11 @@ Compliance is a system property rather than a label attached to JSON over HTTP. 
 
 The book presents these constraints as a cross-framework design foundation: Express, Rails, Django, Laravel, ASP.NET Core, Spring Boot, and serverless handlers can all serve REST APIs, but their routing syntax does not replace the resource, message, statelessness, caching, layering, and interface decisions.
 
+The Micronaut source connects the constraints to system properties: client-server separation supports independent evolution, stateless requests improve scalability and recovery, cache declarations can reduce latency and server load, and transparent layers admit gateways, proxies, and load balancers. Code on demand is optional because transferring executable logic couples the client to a technology it can execute.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[masteringrestapis.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

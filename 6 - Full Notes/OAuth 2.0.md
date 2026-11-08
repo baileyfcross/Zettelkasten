@@ -16,6 +16,8 @@ For a social integration, OAuth lets a resource owner authorize a client to call
 
 In the book's microservice deployment, the API gateway acts as a confidential client in an authorization-code flow, the authorization server issues access tokens, and each service that owns protected resources can act as a resource server. Tokens can be propagated between services, but every recipient must still validate the token and enforce access to the resource it owns.
 
+The Micronaut source separates the resource owner, client, authorization server, and resource server roles. A short-lived access token accompanies protected-resource requests, while an optional refresh token returns only to the authorization server to obtain a replacement access token. Client registration records redirect locations and permitted grants and returns a client identifier plus any secret the client is capable of protecting.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -26,3 +28,5 @@ In the book's microservice deployment, the API gateway acts as a confidential cl
 
 [[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]
 [[practicalmicroservicesarchitecturalpatterns.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

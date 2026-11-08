@@ -12,8 +12,12 @@ An ASP.NET Core application registers and applies a CORS policy in its middlewar
 
 The book frames CORS as a controlled exception to the browser's same-origin policy. Server response headers state permitted origins, methods, headers, and credential behavior, while a preflight request lets the browser check a non-simple cross-origin operation before sending the actual request.
 
+The server, not client-side JavaScript, defines which cross-origin reads the browser may allow. An Access-Control-Allow-Origin wildcard and broad method list demonstrate the mechanism, but a production policy should narrow origins and operations to the consumers that require them because CORS is a browser access policy rather than API authentication.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[masteringrestapis.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

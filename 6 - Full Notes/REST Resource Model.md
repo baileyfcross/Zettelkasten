@@ -10,6 +10,10 @@ A REST resource model identifies the domain concepts an API exposes, the propert
 
 The book models a blog with collections and individual posts, and a social application with users and their posts. A coherent model gives URI design, validation, serialization, and documentation the same vocabulary, while internal storage can remain a separate implementation decision.
 
+Domain analysis can distinguish independent resources that exist on their own, dependent resources that require another resource, and associative resources that retain their own identity while referring to others. Identifying allowed state transitions then helps determine which HTTP operations the public model needs, before controller code fixes those choices in an implementation.
+
 # References
 
 [[masteringrestapis.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

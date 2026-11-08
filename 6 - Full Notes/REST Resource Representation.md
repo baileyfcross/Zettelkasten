@@ -12,7 +12,11 @@ Clients manipulate a resource by sending and receiving representations through H
 
 The book's client-server diagram shows requests using methods such as GET, POST, PUT, and DELETE and responses carrying formats such as JSON, XML, or HTML. The media format is therefore a transferable view selected for communication, while the resource remains the identified concept behind it.
 
+The Micronaut book demonstrates one message exposed through both JSON and XML responses. The representation changes its syntax and media type without changing the identified message resource, which is why a server can select among supported formats while preserving the same URI and operation semantics.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[masteringrestapis.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

@@ -12,7 +12,11 @@ The response should make boundaries and navigation understandable, and the servi
 
 The book's product-list example combines `page` and `per_page` with filters and a sort order, then returns both the selected products and a total count. The page is most useful when the response also lets a client understand the size and position of the result window.
 
+Pagination vocabularies may express the same window as offset and limit, page and records-per-page, or start and count. A portfolio should choose a consistent convention so consumers do not need to reinterpret equivalent collection navigation for every API they combine.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[masteringrestapis.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

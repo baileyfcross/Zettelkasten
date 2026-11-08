@@ -12,7 +12,11 @@ The endpoint contract includes more than a route: request fields, validation, re
 
 Resource-oriented routes distinguish a collection from an individual member and combine that identity with standard HTTP method semantics. The design avoids embedding implementation method names in the public URI.
 
+PATCH expresses a partial resource update when sending a complete replacement would be excessive. HEAD has GET's retrieval semantics without a response body, and OPTIONS lets a client inspect the capabilities associated with a resource or server. The source also distinguishes idempotent use of GET, PUT, and DELETE from POST creation, whose repeated submission can add more collection members.
+
 # References
 
 [[aspnetcore3andreact.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[prorestfulapiswithmicronaut.epub]]

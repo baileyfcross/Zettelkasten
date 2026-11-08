@@ -18,6 +18,8 @@ The book's Express flow issues a time-limited JWT after successful credential au
 
 The practical architecture source identifies the JWT header, claims, and signature and uses standard claims such as expiration, issued-at time, and JWT ID. Time bounds limit the replay window, while a unique `jti` can act as a nonce when the receiver tracks reuse. Clock tolerance must be deliberate because distributed services can disagree slightly about time.
 
+The Micronaut source follows the full request lifecycle: credential authentication produces a signed JWT, the client stores it and sends it in the Authorization header, and the server verifies the signature before using claims for authorization. Encoding does not provide confidentiality, interception grants presentation power until expiry, and logout requires an explicit invalidation strategy if a still-valid token must stop working before its time limit.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -28,3 +30,5 @@ The practical architecture source identifies the JWT header, claims, and signatu
 [[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]
 [[masteringrestapis.epub]]
 [[practicalmicroservicesarchitecturalpatterns.epub]]
+
+[[prorestfulapiswithmicronaut.epub]]

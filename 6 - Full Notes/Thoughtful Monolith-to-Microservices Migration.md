@@ -10,6 +10,10 @@ A thoughtful monolith-to-microservices migration extracts services in response t
 
 Extraction should target a capability whose independent change, scaling, or ownership has clear value. Its interface and data authority must be made explicit, and the delivery and monitoring path must be ready before traffic depends on it. The team can then use production evidence to refine the next boundary. This incremental approach avoids treating microservices as a goal and reduces the [[Microservice Boundary Over-Segmentation]] caused by guessing at fine-grained services too early.
 
+Incremental techniques provide different kinds of evidence. A [[Strangler Fig Pattern]] routes selected behavior to a replacement service, branch by abstraction lets old and new implementations sit behind one interface, and a parallel run compares their results before the replacement becomes authoritative. Each technique still depends on data migration, rollback, observability, security, and team coordination rather than making those concerns disappear.
+
 # References
 
 [[artofdecodingmicroservices.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

@@ -18,6 +18,8 @@ Go applies the same design without requiring a standard container: a constructor
 
 Helidon makes the choice visible at the programming-model boundary. Helidon MP uses Jakarta CDI annotations such as `@Inject` and `@ApplicationScoped` to construct and scope managed beans, while Helidon SE deliberately omits a dependency-injection container and assembles services through explicit builders and constructors.
 
+Jakarta CDI extends injection into a managed lifecycle. At startup the container discovers beans and validates injection points, types, qualifiers, and scopes; at runtime it supplies the contextual instance associated with the active scope, invokes lifecycle callbacks, and destroys the instance when that context ends. This makes resolution and lifetime part of the deployment contract rather than a convention enforced separately by each consumer.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -29,3 +31,5 @@ Helidon makes the choice visible at the programming-model boundary. Helidon MP u
 [[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]
 
 [[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

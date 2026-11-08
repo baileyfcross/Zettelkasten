@@ -10,6 +10,10 @@ MicroProfile OpenAPI provides Java interfaces and programming models for produci
 
 A compatible MicroProfile implementation automatically exposes the description at `/openapi`. This makes the generated document an operational endpoint tied to the running service and connects it to the broader [[OpenAPI and Swagger]] contract model.
 
+OpenAPI annotations can keep high-level metadata, resource descriptions, parameters, operations, and response contracts next to Jakarta REST code. Runtime generation reduces the distance between implementation and documentation, but the annotations must still describe actual status codes and representations if the endpoint is to remain trustworthy.
+
 # References
 
 [[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

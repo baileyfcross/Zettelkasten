@@ -10,6 +10,10 @@ A repository interface states the persistence operations needed by an applicatio
 
 The interface should follow application needs rather than mirror every database operation. It creates a dependency boundary for tests, but an excessively generic contract can hide important query and transaction semantics.
 
+Jakarta Data standardizes this idea with repository interfaces whose implementations are supplied at runtime. DataRepository, BasicRepository, and CrudRepository offer progressively richer built-in contracts, while application interfaces can add query-derived methods or annotated queries. The uniform interface can sit over Jakarta Persistence or Jakarta NoSQL, although the chosen store still determines which operations are supported.
+
 # References
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

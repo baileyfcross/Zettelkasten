@@ -14,6 +14,8 @@ For a Foundry asset, the same principle means deploying a new model, prompt, wor
 
 On Kubernetes, blue and green Deployments can coexist behind a stable Service whose selector determines which version receives production traffic. Switching the selector is fast, but database compatibility, in-flight work, capacity, and post-switch observation still determine whether rollback is truly safe.
 
+For a Jakarta EE workload with complex state or database migrations, the duplicate environment gives the new version a validation boundary before traffic moves. The apparent simplicity of the switch does not remove shared-state compatibility: a rollback is only fast when both application versions can operate safely against the data and dependencies present after the release.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -21,3 +23,5 @@ On Kubernetes, blue and green Deployments can coexist behind a stable Service wh
 [[agilegamedevelopment2e.pdf]]
 
 [[microsoftfoundryinaction.pdf]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

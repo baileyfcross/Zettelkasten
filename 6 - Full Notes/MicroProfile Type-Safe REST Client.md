@@ -10,6 +10,10 @@ The MicroProfile Rest Client specification defines a type-safe way for Java code
 
 This preserves the endpoint structure in code while leaving the runtime responsible for the client invocation. It belongs to the declarative, standards-based side of [[Helidon MP Programming Model]], whereas the SE model provides the programmatic [[Helidon WebClient]].
 
+An annotated interface can declare a base URI, common headers, resource paths, HTTP methods, parameters, and Java response types. CDI injects the runtime-generated implementation through the RestClient qualifier, and that implementation creates the request and converts the response body. The contract is type-safe at the Java boundary even though compatibility with the remote HTTP service still must be verified.
+
 # References
 
 [[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

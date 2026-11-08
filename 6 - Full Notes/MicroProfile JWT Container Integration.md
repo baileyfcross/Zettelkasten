@@ -10,6 +10,10 @@ MicroProfile JWT Authentication standardizes how a bearer JWT becomes an authent
 
 The source highlights two useful mappings: the `upn` claim can identify the caller principal, and the `groups` claim can supply role membership. These mappings let independently deployed Jakarta services interpret identity consistently without inventing a different token-to-role convention for every endpoint. They do not excuse incomplete validation: [[JWT Claim and Signature Structure|signature, issuer, audience, and lifetime checks]] must precede authorization, and roles should still follow [[Jakarta Authorization Least Privilege]].
 
+The Jakarta runtime performs token validation before making the authenticated principal, claims, and roles available through its security context. Downstream service calls can propagate the bearer token when the caller's identity must cross a boundary, but each receiving service remains responsible for validating the token and applying its own authorization policy.
+
 # References
 
 [[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

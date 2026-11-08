@@ -12,7 +12,11 @@ Readiness should represent the work the service promises to accept. A shallow pr
 
 The microservices source uses readiness to protect deployments and scaling events. A new replica should not join the Service's traffic set until initialization and required connections are complete, and a temporarily overloaded instance can withdraw without being restarted. Readiness thus gives the routing layer evidence about current service capacity while liveness answers a separate recovery question.
 
+For a Jakarta EE application, readiness can remain false while CDI initialization, required resource creation, or essential connection establishment is incomplete. Kubernetes then withholds traffic without restarting the process, allowing the same signal to protect initial rollout and temporary loss of a required serving dependency.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 [[artofdecodingmicroservices.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

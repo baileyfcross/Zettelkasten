@@ -4,7 +4,7 @@ Parent topic: [[Software Engineering]]
 
 Java Programming Language is the chapter-level topic for the platform, type system, core values and libraries, control flow, functional processing, concurrency, diagnostics, application interfaces, persistence, and managed memory described in the linked notes.
 
-This chapter synthesizes only the Full Notes produced or updated from *Java 23 for Absolute Beginners: Learn the Fundamentals of Java Programming*, *Java 25 and Beyond: Modern Java Made Easy*, *Learn Java Fundamentals: A Primer for Java Development and Programming*, *Mastering SIMD with Java Vector API: Unlocking Single-Core Performance Through SIMD Optimization*, and the local source material cited by those notes. It does not add claims from external material.
+This chapter synthesizes only the Full Notes produced or updated from *Java 23 for Absolute Beginners: Learn the Fundamentals of Java Programming*, *Java 25 and Beyond: Modern Java Made Easy*, *Learn Java Fundamentals: A Primer for Java Development and Programming*, *Mastering SIMD with Java Vector API: Unlocking Single-Core Performance Through SIMD Optimization*, *Pro Cloud-Native Java EE Apps: DevOps with MicroProfile, Jakarta EE 11 APIs, and Kubernetes*, and the local source material cited by those notes. It does not add claims from external material.
 
 ## Overview Chapter
 
@@ -25,6 +25,12 @@ Inheritance and overriding allow a derived class to refine inherited behavior. A
 Those declarations operate on the values in [[Java Values Strings and Core Types]]. Primitive values and object references have different representations, yet Java passes both kinds of arguments by value: a copied reference may still designate the same object. Local execution uses stack frames while objects and arrays normally live on the heap. Widening and narrowing conversions govern numeric movement, wrapper types bridge primitive values into object-oriented APIs, and boxing or unboxing performs that bridge automatically in many expressions. Arrays have a fixed length and element type; a `null` reference designates no object and must be handled before dereference.
 
 Strings add their own important rules. They are immutable objects, may be shared through the string pool, and require content equality rather than reference identity when the text is what matters. Escape sequences, text blocks, formatting, and concatenation provide different ways to construct readable text. Local-variable type inference lets the compiler infer a declared local type from its initializer without weakening static typing, and the diamond operator reduces repeated generic arguments when the surrounding declaration already supplies enough information.
+
+### Container-managed dependencies and lifecycles
+
+[[Jakarta CDI Dependency Management]] moves object assembly from ordinary construction into a validated container model. Bean discovery determines which classes participate, injection points state where a contextual instance is required, and qualifiers distinguish compatible implementations. Producers adapt objects that need factory logic, while interceptor bindings, decorators, and typed events add behavior without folding each concern into the target class. The scope attached to a bean defines the context in which its instances are created, reused, and destroyed.
+
+Client proxies connect that lifecycle model to ordinary method calls. A reference can resolve the correct request- or application-scoped target at invocation time, letting components with different lifetimes collaborate. Startup validation checks resolution and metadata before business requests arrive, so an unsatisfied or ambiguous dependency becomes a deployment problem rather than a late failure on one execution path.
 
 ### Arrays, object construction, and forms of reuse
 
@@ -75,6 +81,12 @@ Programs meet people and other systems through [[Java Application Interaction an
 [[Java File IO Serialization and Persistence]] follows information across storage boundaries. `File` is the older pathname abstraction, while `Path` and `Files` support modern creation, traversal, copying, moving, deletion, temporary resources, and file-tree operations. Character readers and writers handle text; byte streams handle binary content; buffering reduces repeated low-level operations. Try-with-resources ensures closeable resources are released even when an operation fails.
 
 Native object serialization writes a Java-specific object representation and carries compatibility and safety constraints. XML and JSON serializers instead map objects to textual interchange formats, and ImageIO handles supported media formats. JDBC connects Java code to a relational database through connections, statements, result sets, and explicit resource management. Each persistence choice defines a contract outside the live object graph, so format compatibility and cleanup are as important as the in-memory class design.
+
+### Managed persistence and repository access
+
+[[Jakarta Persistence and Data Access]] places another managed boundary between Java objects and stored data. Entity metadata maps classes, identifiers, embedded values, and relationships to a relational model. A persistence unit groups entities with a data source and transaction configuration; a persistence context tracks the managed instances through which an EntityManager performs lifecycle operations. JPQL addresses the entity model through a query string, while the Criteria API constructs typed, conditional queries through Java objects.
+
+The same data-access chapter extends beyond relational mapping. Jakarta NoSQL supplies a template for common operations and fluent queries across non-relational stores while retaining store-specific limits. Jakarta Data declares repository interfaces whose implementations are generated at runtime and can sit over persistence or NoSQL providers. The uniform contract reduces repeated access code, but it does not make a key-value store, document database, and relational system support identical queries or transaction behavior.
 
 ### Managed memory as a runtime responsibility
 

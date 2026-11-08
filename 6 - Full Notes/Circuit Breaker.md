@@ -18,6 +18,8 @@ MicroProfile expresses that state machine through a `@CircuitBreaker` policy. A 
 
 The Spring Cloud example uses Resilience4j to substitute an alternate response when a provider cannot meet its service expectation. Failing fast keeps the caller from waiting indefinitely and prevents repeated calls from worsening a dependency outage, but the fallback must be safe for the requested operation rather than merely available.
 
+MicroProfile Fault Tolerance can place the circuit-breaker policy on a Jakarta CDI method and combine it with timeout, retry, fallback, bulkhead, or asynchronous execution. Those policies interact: retries contribute calls to the breaker's rolling volume, a fallback handles the final exhausted failure, and external configuration can tune annotation values for an environment without rebuilding the application.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -27,3 +29,5 @@ The Spring Cloud example uses Resilience4j to substitute an alternate response w
 
 [[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]
 [[practicalmicroservicesarchitecturalpatterns.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

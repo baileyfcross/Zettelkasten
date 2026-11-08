@@ -10,6 +10,10 @@ MicroProfile is a suite of specifications for optimizing enterprise Java for mic
 
 The initial platform combined CDI, JSON Processing, and RESTful Web Services, then added cloud-oriented capabilities such as configuration, fault tolerance, metrics, health, JWT propagation, API description, client calls, messaging, context propagation, GraphQL, long-running actions, and telemetry. [[Helidon MP Programming Model]] implements this standards-oriented model.
 
+The specifications address concerns that a Jakarta EE microservice otherwise would implement separately: configuration source resolution, resilience annotations, runtime health signals, token-to-container identity, type-safe outbound clients, OpenAPI description, and OpenTelemetry-aligned tracing. Their value is the common contract across compatible runtimes rather than one vendor's convenience API.
+
 # References
 
 [[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

@@ -10,6 +10,8 @@ A decorator implements the same interface as an object it wraps, delegates the c
 
 Decorator adds behavior by wrapping an object through a compatible interface, so the new responsibility can be composed at runtime without creating a subclass for every combination. The wrapper should preserve the wrapped object's established contract while adding its concern.
 
+Jakarta CDI makes decorators container-managed. A decorator implements the business interface, injects a delegate for that interface, and selectively adds or changes business behavior while forwarding the remaining work. Priority determines its position in a decorator chain. This differs from an interceptor, which attaches orthogonal technical behavior through an interceptor binding rather than specializing one business interface.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
@@ -17,3 +19,5 @@ Decorator adds behavior by wrapping an object through a compatible interface, so
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

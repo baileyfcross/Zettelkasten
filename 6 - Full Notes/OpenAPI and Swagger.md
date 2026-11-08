@@ -16,6 +16,8 @@ MicroProfile OpenAPI brings the same machine-readable contract to JAX-RS applica
 
 The REST API book uses an OpenAPI document to describe a bookstore endpoint, including the API version, path, operation, response status, content type, and example representation. It identifies interactive exploration, client or server code generation, and consistency across APIs as benefits of maintaining the standardized description.
 
+In Jakarta REST, MicroProfile OpenAPI annotations can describe application metadata, resources, parameters, operations, and responses directly beside the endpoint implementation. A runtime can generate the document from that metadata, but generation does not validate the semantic truth of the contract; undocumented errors or inaccurate response declarations still mislead clients.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -25,3 +27,5 @@ The REST API book uses an OpenAPI document to describe a bookstore endpoint, inc
 
 [[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]
 [[masteringrestapis.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

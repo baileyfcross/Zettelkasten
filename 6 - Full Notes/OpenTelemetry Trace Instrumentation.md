@@ -14,6 +14,8 @@ OpenTelemetry instrumentation gives containerized applications a vendor-neutral 
 
 The legacy-systems source separates four responsibilities that are easy to conflate: instrument the relevant method, extract incoming context, inject and propagate outgoing context, and transfer completed spans to storage. Known frameworks may be handled automatically, while custom Java code or unsupported middleware can require an [[OpenTelemetry Java Agent Extension]]. A successful export does not prove continuity; propagation format and parent relationships must be tested across every service and messaging boundary.
 
+MicroProfile Telemetry integrates OpenTelemetry with the Jakarta EE programming model. It can instrument Jakarta REST endpoints and clients automatically, add spans declaratively to CDI methods, expose the Tracer for explicit span lifecycle and error recording, or use an optional Java agent for supported libraries. Sampling, batching, service attributes, and OTLP export remain deployment configuration rather than fixed application logic.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -21,4 +23,6 @@ The legacy-systems source separates four responsibilities that are easy to confl
 [[clouddevopsengineersguide.pdf]]
 
 [[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]
 

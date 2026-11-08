@@ -16,6 +16,8 @@ The architecture source explains ORM as a mapping layer between object graphs an
 
 Go's standard `database/sql` package deliberately provides lower-level driver, pool, query, row, statement, and transaction abstractions rather than an ORM. Community libraries such as GORM add object-relational mapping when struct-to-table persistence is worth the additional translation layer.
 
+Jakarta Persistence expresses the mapping with entity, table, identifier, column, embeddable, and relationship metadata. A persistence unit groups entities with a data source and transaction configuration, while an EntityManager works through a persistence context to translate object lifecycle operations and entity queries into database operations.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -26,3 +28,5 @@ Go's standard `database/sql` package deliberately provides lower-level driver, p
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 
 [[goforjavaprogrammers_learngooglesgoprogramminglanguage.epub]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

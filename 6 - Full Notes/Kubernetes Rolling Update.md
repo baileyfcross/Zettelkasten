@@ -12,9 +12,13 @@ Availability depends on more than replacement order. Readiness checks should kee
 
 The `maxSurge` and `maxUnavailable` settings express the capacity and availability tradeoff during replacement. A rollout may be mechanically complete yet operationally unsafe if readiness is superficial, the new version is incompatible with shared data, or the cluster lacks room for overlapping replicas.
 
+A zero-unavailable policy can combine maxUnavailable set to zero with temporary surge capacity, but the guarantee still depends on truthful readiness and adequate cluster resources. A Pod Disruption Budget can protect minimum capacity during voluntary disruptions, while graceful shutdown must let old Jakarta EE instances finish or transfer work before termination.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[clouddevopsengineersguide.pdf]]
+
+[[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]
 

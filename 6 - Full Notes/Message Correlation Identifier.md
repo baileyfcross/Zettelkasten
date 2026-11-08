@@ -12,7 +12,10 @@ Correlation lets independent messages retain business context without embedding 
 
 Spring Kafka's request-reply and aggregating templates use the correlation header to complete one request with its response or to collect several provider responses into one batch. A shared reply topic is safe only when every reply retains the identifier expected by its waiting requester or aggregator.
 
+The book applies the same mechanism to AMQP request-response and distributed sagas. A provider copies the request's identity into the response correlation field, allowing a pooled network bridge or saga process manager to deliver a reply to the correct waiting client and reconstruct one workflow across separate messages.
+
 # References
 
 [[cloudcomputing_mit.epub]]
 [[javamicroservicesandcontainersinthecloud.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

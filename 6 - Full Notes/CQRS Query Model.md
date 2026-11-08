@@ -12,8 +12,11 @@ Query models should be shaped around the information a user or external system n
 
 In the Azure architecture map, the query side can be projected into a read-optimized service or store and scaled independently from command processing. Events synchronize that representation, so the API must tolerate a defined lag between an accepted command and a visible query result. The read model should be designed from consumer access patterns and rebuilt from an authoritative stream when the chosen event architecture supports replay.
 
+The practical architecture source allows several query representations for one write entity. Event handlers can update distinct materialized views and analytics stores, while a query manager chooses the view suited to a request. This flexibility is the benefit that must justify the propagation and staleness costs.
+
 # References
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

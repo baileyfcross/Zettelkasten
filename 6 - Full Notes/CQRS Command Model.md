@@ -12,8 +12,11 @@ Within a domain-centered design, a command expresses [[Command Intent]] and is p
 
 The Azure architecture map applies the command side to a cloud-native application in which writes can be validated and scaled separately from reads. Commands may persist operational state and publish changes that update downstream views. This separation is useful only when different models or scaling characteristics justify the added messaging, synchronization, and eventual-consistency work; it should not be adopted merely to give reads and writes different class names.
 
+In the book's metamodel, a command gateway selects synchronous or asynchronous dispatch, a command bus routes the message, and a handler loads and changes the domain entity. A successful state change produces an event rather than returning responsibility for read synchronization to the command caller.
+
 # References
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

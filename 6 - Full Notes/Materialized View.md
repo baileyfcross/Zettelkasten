@@ -8,8 +8,11 @@ Tags: [[CQRS and Ledger Data Architecture]]
 
 A materialized view stores the result of a query so readers need not recompute it from all source rows on every request. The ledger example can keep a purchaser's current amount as an aggregate of many transaction entries. The view must be refreshed when source data changes or on a defined schedule; faster reads therefore introduce a maintenance and potential-staleness obligation.
 
+In event-based CQRS, event handlers maintain one or more materialized views after the command side changes an entity. Each view can use a structure optimized for its consumers and can be replicated for read traffic, but it remains derived state whose freshness depends on successful event propagation.
+
 # References
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 
 [[hands-onmobiledevelopmentwithnetcore.pdf]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

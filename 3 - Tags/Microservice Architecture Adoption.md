@@ -2,7 +2,7 @@
 
 Parent topic: [[Microservice Engineering]]
 
-Microservice Architecture Adoption covers the architectural and organizational tradeoffs involved in choosing, introducing, and independently operating microservices.
+Microservice Architecture Adoption covers the architectural and organizational tradeoffs involved in choosing microservices, moving beyond a modular monolith, and managing their inner and outer architecture.
 
 ## Directly Linked Full Notes
 

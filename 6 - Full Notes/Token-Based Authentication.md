@@ -12,8 +12,11 @@ The ASP.NET Core and Angular SPA flow uses a [[JSON Web Token]] issued through I
 
 In a microservice system, an API gateway or individual service can validate a presented token before accepting a request, then apply role- or attribute-based authorization to the verified identity. The token avoids one shared server session but still requires protected signing keys, expiration, validation, and careful propagation. Authentication proves who or what presented the token; it does not by itself authorize every downstream operation.
 
+The book assigns token concerns to the outer architecture: an authorization server issues a bounded credential, the gateway can carry it into downstream calls, and each protected microservice validates it as a resource server. Because possession enables presentation, encrypted transport, short validity, and replay-resistant identifiers remain necessary even for a signed token.
+
 # References
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[artofdecodingmicroservices.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

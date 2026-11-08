@@ -2,7 +2,7 @@
 
 Parent topic: [[Microservice Engineering]]
 
-Microservice Communication and Resilience covers synchronous and asynchronous collaboration, discovery and routing, client-specific gateways, and failure-containment patterns.
+Microservice Communication and Resilience covers synchronous and asynchronous collaboration, discovery, routing, configuration, message reliability and ordering, wire formats, and failure containment.
 
 ## Directly Linked Full Notes
 

@@ -14,8 +14,11 @@ Across microservices, asynchronous communication also separates producer and con
 
 The Java source shows that a synchronous-style user experience can still be built over asynchronous transport by sending a request and a separate correlated reply. The return address, reply partition, timeout, and correlation identifier become explicit protocol elements that a direct HTTP call previously supplied implicitly.
 
+The book traces the full brokered request-response cycle: the request is stored and consumed, the reply is separately stored and consumed, and [[Message Correlation Identifier|correlation]] reunites the two. Persistence can let work survive temporary endpoint failure, while releasing a caller thread improves utilization. The design must still bound outstanding conversations because an asynchronous wait continues to consume connection, memory, queue, or timeout state somewhere.
+
 # References
 
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
 [[artofdecodingmicroservices.epub]]
 [[javamicroservicesandcontainersinthecloud.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

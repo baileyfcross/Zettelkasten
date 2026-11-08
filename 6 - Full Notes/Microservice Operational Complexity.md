@@ -10,6 +10,9 @@ Microservice operational complexity is the coordination cost created when one ap
 
 Automation and observability make this cost manageable but do not erase it. A team must be able to build, test, deploy, scale, and diagnose services consistently before the architecture's independence becomes useful. When those capabilities or the underlying business need are absent, the [[Monolithic Application Trade-Off]] may favor retaining a monolith rather than accepting distribution for its own sake.
 
+The practical architecture source calls this an inversion of architecture: service registry and discovery, gateway routing, configuration, retries, load balancing, identity, backing services, telemetry, and deployment automation become part of the [[Microservice Outer Architecture]]. The number of services therefore increases not only application processes but also the coordination surface that must remain reliable.
+
 # References
 
 [[artofdecodingmicroservices.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

@@ -8,6 +8,9 @@ Tags: [[Aggregate Consistency and Persistence]]
 
 Optimistic concurrency allows work to proceed without holding a lock, then verifies at commit time that the persisted [[Aggregate]] has not changed since it was read. A version value is loaded with the aggregate and supplied as the expected version when saving. If another command committed first, the mismatch rejects the stale write instead of overwriting it. In [[Event Sourcing]], the number or revision of events in an [[Event Stream]] provides the aggregate version naturally.
 
+This becomes important when several write-service instances can load the same scarce entity, such as the last available seat. Each proceeds without a long-held lock, but a version or timestamp check lets only a commit based on the current state succeed. The pattern scales well for read-often, write-sometimes entities while requiring a deliberate retry or conflict response for the rejected writer.
+
 # References
 
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

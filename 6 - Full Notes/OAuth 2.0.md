@@ -14,6 +14,8 @@ The Azure architecture map places OAuth 2.0 access tokens at the API boundary, w
 
 For a social integration, OAuth lets a resource owner authorize a client to call a platform's resource server without giving the client the owner's password. The authorization grant and resulting access token are bounded by the provider, client registration, scopes, and lifetime. This makes narrow scope selection and token protection central: obtaining delegated access to one social capability does not grant general authority over the user's account or over the enterprise application's own resources.
 
+In the book's microservice deployment, the API gateway acts as a confidential client in an authorization-code flow, the authorization server issues access tokens, and each service that owns protected resources can act as a resource server. Tokens can be propagated between services, but every recipient must still validate the token and enforce access to the resource it owns.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
@@ -23,3 +25,4 @@ For a social integration, OAuth lets a resource owner authorize a client to call
 [[azurecloudnativearchitecturemapbooksecondedition.pdf]]
 
 [[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

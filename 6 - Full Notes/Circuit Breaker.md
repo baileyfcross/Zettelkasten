@@ -16,6 +16,8 @@ The microservices source describes the breaker as a state machine. In the closed
 
 MicroProfile expresses that state machine through a `@CircuitBreaker` policy. A request-volume window and failure ratio determine when the circuit opens, a delay controls the transition to half-open, and a success threshold controls recovery; `skipOn` exceptions take precedence over the failure classes listed by `failOn`.
 
+The Spring Cloud example uses Resilience4j to substitute an alternate response when a provider cannot meet its service expectation. Failing fast keeps the caller from waiting indefinitely and prevents repeated calls from worsening a dependency outage, but the fallback must be safe for the requested operation rather than merely available.
+
 # References
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
@@ -24,3 +26,4 @@ MicroProfile expresses that state machine through a `@CircuitBreaker` policy. A 
 [[artofdecodingmicroservices.epub]]
 
 [[helidonrevealed_apracticalguidetooraclesmicroservicesframework.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

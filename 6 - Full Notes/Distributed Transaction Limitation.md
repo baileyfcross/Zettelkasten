@@ -14,8 +14,11 @@ The microservices source connects this limitation to database-per-service owners
 
 The telecom case study makes compensation observable as domain behavior. A revision may require undoing an earlier action, redoing it with changed input, leaving it untouched, or performing an amended action after compensation completes. Traces and business identifiers must preserve the order, outcome, and affected component for each step because a technically successful message exchange can still leave the overall order inconsistent.
 
+The practical architecture source contrasts three responses to this limitation. [[Two-Phase Commit Protocol|Two-phase commit]] coordinates a strong decision across resource managers but adds round trips, longer locks, and failure recovery. [[BASE Transaction|BASE]] propagates smaller local commits asynchronously, while a [[Saga Transaction|saga]] coordinates local work and semantic compensation. The correct choice depends on which temporary states and failure windows the business can tolerate.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[artofdecodingmicroservices.epub]]
 [[observabilityforlegacysystems_methodsandsolutionswithopentelemetry.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

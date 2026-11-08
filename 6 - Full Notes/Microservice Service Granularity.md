@@ -12,7 +12,10 @@ There is no useful target based only on code size. A boundary should instead be 
 
 The source distinguishes packaging milestones along that continuum. A macroservice can place separate JAR modules inside one deployable archive, while a mini service can create several deployables that still share a node or dependencies. Full microservice granularity requires independent development, deployment, release, and data ownership rather than merely more files.
 
+The practical architecture source treats granularity as an explicit quality trade-off rather than a rule that smaller is always better. A boundary may improve selective scaling or fault isolation while increasing remote calls and outer-architecture work. A [[Domain-Centric Microservice Partition]] is therefore stronger evidence for a split than a target line count or a desire to maximize service quantity.
+
 # References
 
 [[artofdecodingmicroservices.epub]]
 [[javamicroservicesandcontainersinthecloud.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

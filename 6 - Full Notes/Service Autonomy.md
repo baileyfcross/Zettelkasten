@@ -14,8 +14,11 @@ The microservices source extends autonomy from runtime independence to lifecycle
 
 The Java source adds an availability consequence: a service should remain useful even when another service in the end-to-end flow is unhealthy. Replacing a mandatory synchronous call with a message channel lets the provider resume later, while the producing service completes the part of the transaction it owns.
 
+The book describes a microservice as both logically and physically self-contained: related behavior is grouped behind a rigid runtime boundary and can be built, tested, deployed, and operated separately. This autonomy still depends on [[Microservice Outer Architecture|outer-architecture]] services for communication and governance, so it is not the same as isolation from the wider system.
+
 # References
 
 [[c8andnetcore30projectsusingazure.pdf]]
 [[artofdecodingmicroservices.epub]]
 [[javamicroservicesandcontainersinthecloud.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

@@ -16,6 +16,8 @@ Those three portions are a header, a claim-bearing payload, and a signature. Sig
 
 The book's Express flow issues a time-limited JWT after successful credential authentication, extracts the bearer token on protected requests, verifies its signature, and attaches the validated claims for later authorization. Expiration and renewal policies bound how long possession remains useful.
 
+The practical architecture source identifies the JWT header, claims, and signature and uses standard claims such as expiration, issued-at time, and JWT ID. Time bounds limit the replay window, while a unique `jti` can act as a nonce when the receiver tracks reuse. Clock tolerance must be deliberate because distributed services can disagree slightly about time.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -25,3 +27,4 @@ The book's Express flow issues a time-limited JWT after successful credential au
 
 [[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]
 [[masteringrestapis.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

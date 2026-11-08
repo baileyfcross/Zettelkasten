@@ -10,6 +10,9 @@ A monolithic application packages its presentation, business logic, and data acc
 
 The same unity becomes a constraint when parts of the system need different release schedules, scaling profiles, or technologies. The whole application may need to be rebuilt and redeployed for a local change, and a defect or resource bottleneck can affect the entire unit. These pressures motivate [[Thoughtful Monolith-to-Microservices Migration]], but they do not by themselves make decomposition worthwhile; the replacement also incurs [[Microservice Operational Complexity]].
 
+The book sharpens the distinction with the [[Modular Monolith]]: source modules can be logically clean while one deployment boundary still forces homogeneous scaling and a common technology baseline. A product-browsing module may need many replicas while order processing needs fewer, more reliable instances, yet the monolith can normally scale only the combined application.
+
 # References
 
 [[artofdecodingmicroservices.epub]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

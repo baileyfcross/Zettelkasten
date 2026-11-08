@@ -12,8 +12,11 @@ In an event-sourced system, the event stream is updated before asynchronous [[Pr
 
 Distributed document databases can expose eventual consistency as a selectable replication contract, improving availability or latency while requiring the application to tolerate temporarily stale reads.
 
+The book makes the user-visible consequence concrete with competing orders for the last item. Both orders can initially exist while inventory events are still propagating; one order is confirmed and the other is later canceled when insufficient stock is reported. Eventual consistency is acceptable only if the business permits that temporary, possibly disappointing state and the workflow reliably reaches a final outcome.
+
 # References
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-ondomain-drivendesignwithnetcore.pdf]]
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
+[[practicalmicroservicesarchitecturalpatterns.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spring Microservice Application Architecture]]
+Tags: [[Spring Web and Service Interfaces]]
 
 # Spring REST Controller Adapter
 
@@ -10,7 +10,11 @@ A Spring REST controller is a driving adapter that turns HTTP requests and JSON 
 
 The controller belongs at the delivery boundary rather than inside the domain model. Its responsibility is protocol and format translation, leaving business behavior and persistence to inner services and driven ports.
 
+The Spring Boot 4 request lifecycle places the adapter behind the DispatcherServlet, handler mapping, and handler adapter. Path variables and request bodies become method arguments, validation can fail before business code runs, and an HTTP message converter serializes the returned representation. This makes status, headers, validation, and media types controller concerns while the service remains transport-independent.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[javamicroservicesandcontainersinthecloud.epub]]
 

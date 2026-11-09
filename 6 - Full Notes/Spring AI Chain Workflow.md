@@ -10,6 +10,10 @@ A Spring AI chain workflow feeds the output of one model-assisted step into the 
 
 Each stage should have a narrow contract so downstream prompts do not rely on ambiguous prose. Chaining can improve focus, but it also accumulates latency and propagates earlier errors, making intermediate outputs important evaluation points.
 
+The CRM database assistant uses a two-stage chain. One ChatClient call receives the relational schema and translates the user's request into SQL, a controlled R2DBC tool executes the query, and a second model call turns the raw result into a user-facing answer. Splitting generation from presentation exposes each boundary for validation and testing instead of allowing one opaque prompt to generate, execute, and explain a query.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]

@@ -10,6 +10,10 @@ Mutual TLS between microservices protects a connection and requires both endpoin
 
 Mutual authentication does not decide what the caller may do; authorization still needs a policy based on the verified identity and request. The mechanism also creates certificate issuance, storage, rotation, revocation, and observability work. A failed or expired certificate can become an availability incident, so lifecycle automation is part of the security design. User-facing [[Token-Based Authentication]] may coexist with mutual TLS because client identity and workload identity address different trust boundaries.
 
+The Spring Boot source configures server and client key and trust material through named SSL bundles. It also uses a client certificate to authenticate an OAuth client to an authorization server under the mutual-TLS client-authentication model, replacing a reusable client secret. The resulting scoped token still authorizes the operation, keeping transport identity distinct from resource permission.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[artofdecodingmicroservices.epub]]

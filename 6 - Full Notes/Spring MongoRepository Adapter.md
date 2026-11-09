@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spring Microservice Application Architecture]]
+Tags: [[Spring Data Access and Persistence]]
 
 # Spring MongoRepository Adapter
 
@@ -10,7 +10,11 @@ A Spring `MongoRepository` adapter binds a repository interface to MongoDB and s
 
 Database connection properties and the Spring Data MongoDB dependency select the concrete infrastructure. The consuming controller or service continues to work through the repository port rather than through the MongoDB driver.
 
+The Spring Boot 4 example maps immutable records to a document collection and derives BSON filters from finder names. When the application assigns identifiers, implementing Spring Data's persistable contract tells the adapter whether an object is new and avoids an unnecessary existence check before insertion. Indexed fields and real-engine container tests keep the convenient repository boundary from hiding query and deployment behavior.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[javamicroservicesandcontainersinthecloud.epub]]
 

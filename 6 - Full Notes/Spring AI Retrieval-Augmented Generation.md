@@ -12,7 +12,11 @@ The framework composes the stages, but grounding quality still depends on ingest
 
 The current source implements the naive form explicitly: it embeds and stores document chunks offline, calls `similaritySearch` for the user's question, joins the returned content into a system prompt, and adds the user message before invoking the chat model. A flag that bypasses document stuffing demonstrates that retrieval augmentation is application-supplied context, not knowledge automatically retained by the model.
 
+The CRM example separates a product-question endpoint from general chat and delegates retrieval to a RAG service backed by a vector store. The user question is embedded, semantically similar documents are retrieved, and that private context is supplied to the model for the answer. This grounds current enterprise knowledge without retraining the model, while retrieval quality and source content still bound the result.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
 [[masteringspringai.epub]]

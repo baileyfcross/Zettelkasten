@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spring Microservice Application Architecture]]
+Tags: [[Spring Web and Service Interfaces]]
 
 # Spring GraphiQL Development Console
 

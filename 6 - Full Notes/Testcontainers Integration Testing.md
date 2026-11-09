@@ -10,6 +10,10 @@ Testcontainers starts disposable containerized dependencies or applications insi
 
 Using the same container images as deployment narrows environmental differences while keeping each run isolated and repeatable. This form of test is slower than a unit test because it exercises real runtime components and persistence, but it can verify multi-step behavior, configuration, serialization, network calls, and database state that mocks do not establish.
 
+The Spring Boot source favors real MongoDB, Redis, CockroachDB, Kafka, and RabbitMQ containers over unlike embedded substitutes. A service connection can derive application properties from the container automatically, while dynamic property registration handles unsupported cases. The same infrastructure can launch a developer instance of the application against disposable services as well as support automated tests.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]

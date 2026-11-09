@@ -20,7 +20,11 @@ The practical architecture source identifies the JWT header, claims, and signatu
 
 The Micronaut source follows the full request lifecycle: credential authentication produces a signed JWT, the client stores it and sends it in the Authorization header, and the server verifies the signature before using claims for authorization. Encoding does not provide confidentiality, interception grants presentation power until expiry, and logout requires an explicit invalidation strategy if a still-valid token must stop working before its time limit.
 
+The Spring Boot security flow treats a JWT as stateless authorization evidence for the reactive service. The resource server verifies the issuer and signature, derives scope authorities, and makes the authenticated context available to handlers without a server-side login session. That scalability does not remove expiry, revocation, audience, transport, or least-scope requirements.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spring Microservice Application Architecture]]
+Tags: [[Spring Data Access and Persistence]]
 
 # Spring CrudRepository Adapter
 
@@ -10,7 +10,11 @@ Spring's `CrudRepository` is a generic persistence contract for a repository's e
 
 The dependency and configuration choose the adapter, while the service retains the same calls. Persistence-specific mappings may still require an outer representation so those details do not make the shared domain entity store-dependent.
 
+The Spring Boot 4 data discussion treats the generated repository as a ladder above hand-written JdbcClient SQL. Common save, find, delete, pagination, and derived-query contracts remove implementation boilerplate, but the choice between JDBC aggregates, JPA relationships, MongoDB documents, and reactive R2DBC remains an architectural choice rather than a property of the generic CRUD name.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[javamicroservicesandcontainersinthecloud.epub]]
 

@@ -12,7 +12,11 @@ The book uses the `Accept` header both for ordinary format selection and for med
 
 When none of the server's available representations satisfies the request's Accept values, the source uses HTTP 406 Not Acceptable to report the mismatch. This makes unsupported format selection a visible protocol outcome rather than silently returning a body the client did not declare it could process.
 
+The Spring MVC example adds an XML message-converter dependency beside the default JSON converter. The DispatcherServlet's response pipeline then inspects the Accept header and selects a converter, and tests assert both the default JSON response and an explicitly requested XML response. Supporting a second format therefore requires converter configuration and regression tests, not a second conceptual resource.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[masteringrestapis.epub]]
 

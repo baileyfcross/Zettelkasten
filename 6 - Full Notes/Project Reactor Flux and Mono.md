@@ -10,6 +10,10 @@ Project Reactor supplies higher-level Reactive Streams publishers and operators.
 
 Reactor manages demand and nonblocking composition more practically than the JDK's minimal interfaces, but the same end-to-end constraint remains: inserting a blocking operation into the chain can stall its execution model. The declared pipeline stays inactive until subscription establishes a consumer.
 
+The Spring Boot source uses `Mono` for zero-or-one results and `Flux` for zero-to-many streams in WebFlux and R2DBC. Operators can combine independent results, recover from selected errors, filter streams, or wrap legacy blocking work on an appropriate scheduler. Subscription remains the terminal trigger, and calling `block` inside the event-loop path defeats the nonblocking model.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]

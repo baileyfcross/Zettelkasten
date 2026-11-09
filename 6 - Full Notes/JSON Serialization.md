@@ -14,7 +14,11 @@ The Azure projects serialize work items, queue messages, cognitive-service respo
 
 In Java, Jackson's `ObjectMapper` can serialize an object into JSON text and deserialize JSON into a requested Java type. This keeps the interchange format independent of Java's native object-stream representation, but successful reconstruction still depends on a compatible mapping between JSON properties and the target class.
 
+The Spring Boot 4 source uses Jackson 3 message converters for REST records. It highlights direct record-constructor support, ISO-8601 date and time defaults, field renaming with JSON property annotations, and exclusion of sensitive fields from serialization. Boot can customize the mapper centrally, while a focused JSON test verifies the contract without starting the web layer.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[gameprogrammingincplusplus.pdf]]
 [[c8andnetcore30projectsusingazure.pdf]]

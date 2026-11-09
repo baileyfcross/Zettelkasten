@@ -12,7 +12,11 @@ The client can also participate in advisor chains, structured-output conversion,
 
 In the source's Spring AI 0.8.1 API, a `Prompt` is a container for ordered message objects and `ChatClient.call` returns a response whose result contains the assistant content. The examples progress from a plain string call to role-separated prompts, templates, retrieval context, and conversation history, showing that the client boundary stays stable while the application deliberately assembles richer input.
 
+The Spring Boot 4 source uses ChatClient as the assistant's application-facing LLM boundary. A REST endpoint sends a user message through the client, while higher-level services supply system instructions, retrieved documents, and tools. Because the client is injected behind a clean assistant interface, the same capability can be reused from Spring Shell and replaced with a mock during tests.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
 [[masteringspringai.epub]]

@@ -10,6 +10,10 @@ The API gateway pattern gives clients one managed entry point that routes reques
 
 This simplifies clients and applies edge policy consistently, but the gateway adds processing and operational concentration. The book identifies latency, complexity, and a possible single point of failure as tradeoffs, so redundancy and careful scope are part of the pattern.
 
+Spring Cloud Gateway realizes this pattern with route predicates, request and response filters, and discovery-aware `lb://` targets on a nonblocking WebFlux runtime. The gateway can apply a circuit breaker and forward an open-circuit request to a defined fallback, but it should remain lean: routing and common edge policy belong there, while domain decisions remain in the services.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[masteringrestapis.epub]]

@@ -18,7 +18,11 @@ In the book's microservice deployment, the API gateway acts as a confidential cl
 
 The Micronaut source separates the resource owner, client, authorization server, and resource server roles. A short-lived access token accompanies protected-resource requests, while an optional refresh token returns only to the authorization server to obtain a replacement access token. Client registration records redirect locations and permitted grants and returns a client identifier plus any secret the client is capable of protecting.
 
+The Spring Security source applies these roles to a reactive resource server: a trusted authorization server authenticates the user and issues a JWT, and the service validates that token and maps its scopes into authorities. Mutual TLS can separately authenticate a confidential service client to the authorization server, demonstrating that OAuth authorization and connection-level workload identity solve different parts of the trust path.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[c8andnetcore30projectsusingazure.pdf]]
 

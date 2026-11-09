@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Java Social Authentication Frameworks]]
+Tags: [[Spring Security and Identity]]
 
 # Spring Security Provider and Filter Chains
 
@@ -10,6 +10,10 @@ Spring Security processes web security through a chain of filters that recognize
 
 This layered design allows password login, bearer tokens, and external-provider login to coexist without one monolithic handler. Ordering and endpoint matching matter because a request must reach the intended filter and authorization rule. Once authentication succeeds, authorities inform access decisions; they should not be granted simply because a provider supplied a profile. [[Spring Security OAuth Social Login]] specializes this pipeline for OAuth 2.0 and OpenID Connect providers.
 
+Spring Security 7 expresses the chain as component beans and a lambda DSL rather than an inherited adapter. Method-and-path matchers can distinguish public health probes, scoped reads, and administrator writes, while `anyRequest().authenticated()` closes the unmatched surface. Servlet and reactive applications use different chain types, but both separate request authentication from method-level authorization.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[enterprisesocialforthejavaplatform_sharesmashupslikesandwaystointe.epub]]

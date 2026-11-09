@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Spring Microservice Application Architecture]]
+Tags: [[Spring Cloud Operations and Native Runtime]]
 
 # Spring Cloud OpenFeign Client
 

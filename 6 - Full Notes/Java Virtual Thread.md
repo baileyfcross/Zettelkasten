@@ -14,7 +14,11 @@ Supported blocking operations park and unmount the virtual thread so its [[Java 
 
 The observability source adds an operational view of the mapping. A virtual thread is mounted on a carrier scheduled through the JVM's ForkJoinPool and can be inspected through profiles, thread events, and stack traces; a request trace alone may miss unsupported socket or non-blocking paths. Monitoring must therefore distinguish the logical virtual task, its carrier, and the underlying operating-system thread instead of treating them as one identity.
 
+The Spring Boot 4 source presents virtual threads as an alternative for I/O-heavy imperative applications that would otherwise exhaust a platform-thread pool. One property can configure the embedded server and task executors to use a virtual thread per task. They should not be pooled, and large thread-local values remain costly when millions of logical threads are possible; streaming and backpressure can still justify WebFlux.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[java23forabsolutebeginners_learnthefundamentalsofjavaprogramming.epub]]
 [[java25andbeyond_modernjavamadeeasy.epub]]

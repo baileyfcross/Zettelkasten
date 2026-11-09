@@ -12,7 +12,11 @@ The format should remain consistent across controllers and avoid leaking impleme
 
 For a consumer, the server is otherwise a black box, so the error contract is also a usage and troubleshooting interface. The source groups outcomes into success, client error, and server error, then recommends preserving the corresponding HTTP status while returning a stable code, message, and safe link or detail when more explanation is needed.
 
+Spring's `ProblemDetail` supplies the RFC problem fields and permits safe extensions such as a combined list of validation failures. A controller advice can map `MethodArgumentNotValidException` and missing-resource failures into the shared shape for every controller. The detail should help the caller correct the request without exposing a stack trace or internal implementation data.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 

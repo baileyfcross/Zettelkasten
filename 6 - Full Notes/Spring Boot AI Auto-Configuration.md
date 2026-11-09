@@ -12,7 +12,11 @@ Auto-configuration shortens setup but can obscure which provider, options, or ad
 
 The current source inspects the Spring AI 0.8.1 auto-configuration JAR to show that provider URLs, default model names, and connection properties may be supplied before application code runs. It then overrides selected values in `application.yaml`, including a Bedrock region, credentials supplied through environment variables, model enablement, and temperature. Reviewing the effective configuration is therefore part of verifying which model call the injected client will make.
 
+The book extends the idea into a reusable CRM assistant starter. Auto-configuration registers the assistant only when ChatClient is present, enables typed properties, lets a property disable the feature, and backs away when the consuming application provides its own assistant bean. Separating that logic from the lightweight dependency-aggregating starter preserves both a one-dependency experience and user override control.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[generativeai-drivenapplicationdevelopmentwithjava.epub]]
 [[masteringspringai.epub]]

@@ -16,7 +16,11 @@ The legacy-systems source separates four responsibilities that are easy to confl
 
 MicroProfile Telemetry integrates OpenTelemetry with the Jakarta EE programming model. It can instrument Jakarta REST endpoints and clients automatically, add spans declaratively to CDI methods, expose the Tracer for explicit span lifecycle and error recording, or use an optional Java agent for supported libraries. Sampling, batching, service attributes, and OTLP export remain deployment configuration rather than fixed application logic.
 
+Spring Boot 4 can auto-instrument incoming HTTP, outgoing clients, JDBC, and R2DBC and bridge the Observation API into OpenTelemetry spans. Trace context is injected on an outbound call and extracted by the receiving service, while the OTLP exporter sends completed telemetry to a collector or tracing backend. Custom observations fill gaps in business logic without replacing automatic propagation.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 

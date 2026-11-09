@@ -20,7 +20,11 @@ The Spring Cloud example uses Resilience4j to substitute an alternate response w
 
 MicroProfile Fault Tolerance can place the circuit-breaker policy on a Jakarta CDI method and combine it with timeout, retry, fallback, bulkhead, or asynchronous execution. Those policies interact: retries contribute calls to the breaker's rolling volume, a fallback handles the final exhausted failure, and external configuration can tune annotation values for an environment without rebuilding the application.
 
+The Spring Boot 4 example applies a named Resilience4j circuit breaker as a Gateway filter. A rolling request window and failure-rate threshold open the circuit, a timed open period leads to limited half-open probes, and a fallback route provides a deliberate degraded response. Actuator state makes threshold tuning and unstable dependencies observable rather than leaving fast failures unexplained.
+
 # References
+
+[[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[llmsformodernsoftwaredeliveryanddevops.pdf]]
 

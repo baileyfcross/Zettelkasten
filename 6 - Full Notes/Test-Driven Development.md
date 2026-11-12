@@ -16,6 +16,8 @@ The inventory project uses tests around commands, factories, and the shared repo
 
 The red-green-refactor loop treats the initial failing test as evidence that the new behavior is absent, implements only enough to satisfy it, and then improves the design while the full suite remains green.
 
+The current source contrasts test-first development with writing tests after a completed unit. Test-first work makes the expected behavior available before implementation, supports continuous integration, and grows a regression suite alongside the product, but the test still has to be designed from the requirement rather than from the code's current shape.
+
 The React and Redux source applies the cycle especially to pure reducers: state and an action define the input, the expected next state defines the contract, and the initial failure becomes a precise implementation task. It distinguishes this behavior-first cycle from merely adding tests after code already exists.
 
 # References
@@ -27,3 +29,5 @@ The React and Redux source applies the cycle especially to pure reducers: state 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[learningreact1.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

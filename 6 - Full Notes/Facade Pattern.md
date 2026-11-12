@@ -12,9 +12,13 @@ The pattern reduces the client's knowledge of subsystem structure without preven
 
 Applied to an API, the façade begins with the ideal consumer-facing URLs, request fields, responses, headers, and query parameters. Mock data lets client developers test that contract before backend integration is complete, after which a mediation layer connects the stable façade to databases, content systems, SOAP services, or other internal subsystems.
 
+The current source separates Facade from Adapter: an adapter translates one incompatible contract into another, while a facade supplies one simpler, higher-level entry point over several subsystem interfaces and shields clients from changes within their coordination.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[prorestfulapiswithmicronaut.epub]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]
 

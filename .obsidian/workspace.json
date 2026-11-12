@@ -11,10 +11,10 @@
             "id": "3c582cc9df16e704",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 330.5
   },
   "right": {
     "id": "b4c00f5882eb6a9e",
@@ -178,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 625.5
+    "width": 625.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,8 +193,12 @@
       "local-vault-ai:Open Local Vault AI": false
     }
   },
-  "active": "ef90bf97bd567075",
+  "active": "3c582cc9df16e704",
   "lastOpenFiles": [
+    "6 - Full Notes/Automated Feature Engineering.md",
+    "3 - Tags/Exposure and Lighting Forensics.md",
+    "3 - Tags/Matte Painting and Scene Finishing.md",
+    "6 - Full Notes/2.5D Atmospheric Cards.md",
     "3 - Tags/Enterprise Social Java Applications.md",
     "3 - Tags/Enterprise Social Portals and Publishing.md",
     "3 - Tags/Java Social Platform SDKs.md",
@@ -216,10 +221,6 @@
     "6 - Full Notes/Java GitHub API Clients.md",
     "6 - Full Notes/Twitch4J.md",
     "6 - Full Notes/Java Discord Client Libraries.md",
-    "6 - Full Notes/Twitter Java Client Libraries.md",
-    "6 - Full Notes/BigBone Mastodon Client.md",
-    "6 - Full Notes/WhatsApp Business Java SDK.md",
-    "6 - Full Notes/Meta Business SDK for Java.md",
     "tmp/enterprise-social-java-book/extracted.txt",
     "tmp/enterprise-social-java-book/extract-epub.ps1",
     "tmp/enterprise-social-java-book/OEBPS/images/600273_1_En_6_Chapter/600273_1_En_6_Fig3_HTML.jpg",

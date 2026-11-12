@@ -10,6 +10,8 @@ A test assertion compares an observed result with an expected condition and caus
 
 Specific assertions produce useful failure messages and avoid accepting unintended outcomes. The expected condition should express the public behavior rather than restating private implementation steps.
 
+The current source uses assertion libraries as the self-validating boundary of an automated test: an expected and actual result produce an immediate pass or failure without requiring a person to inspect pages of output. That Boolean result is distinct from a production-code assertion used to enforce an internal invariant.
+
 
 In Selenium tests organized with TestNG, a [[Hard Test Assertion]] stops the current method at the first required failure, while a [[Soft Test Assertion]] records independent failures until [[Soft Assertion Aggregation|`assertAll()`]] reports them together.
 
@@ -18,3 +20,5 @@ In Selenium tests organized with TestNG, a [[Hard Test Assertion]] stops the cur
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[javatestingwithselenium_acomprehensivesyntaxguideforautomation.epub]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Scalable Social Data Processing]] [[.NET Server Concurrency and Parallel Patterns]]
+Tags: [[Scalable Social Data Processing]] [[.NET Server Concurrency and Parallel Patterns]] [[Parallel Program Design]]
 
 # MapReduce
 
@@ -14,8 +14,12 @@ Within an in-process .NET example, map operations can be expressed as independen
 
 At cluster scale, each node maps its local partition and reduce stages combine the intermediate values. The pattern succeeds when work can be divided independently and data is distributed well; communication, skewed partitions, coordination, and result combination can otherwise dominate the computation.
 
+The current source makes the shuffle boundary explicit: mapping produces intermediate key-value pairs, shuffle gathers related keys at a reducer, and reduction combines each group into output. The extra redistribution distinguishes distributed MapReduce from a simple in-memory map followed by a local reduce.
+
 # References
 
 [[bigdataincomplexandsocialnetworks.pdf]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
 [[practicaldatastructuresandalgorithmsforjavadevelopers_fromfundamen.epub]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

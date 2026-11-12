@@ -10,7 +10,11 @@ Scrum is an empirical framework in which a small [[Scrum Team]] creates a usable
 
 Scrum does not prescribe the engineering or creative techniques used inside a Sprint. It creates a cadence and accountabilities within which a team can discover and improve those techniques.
 
+The source emphasizes that the Sprint Goal protects the purpose of a timebox while the Product Backlog, Sprint Backlog, and Increment make different planning horizons visible. Planning, the daily Scrum, review, and retrospective give the team distinct opportunities to select work, coordinate progress, inspect the product, and improve the process.
+
 # References
 
 [[agilegamedevelopment2e.pdf]]
 [[introductiontogamedesignprototypinganddevelopment3e.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

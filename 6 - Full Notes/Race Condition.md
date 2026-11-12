@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]] [[Linux Kernel Locking]]
+Tags: [[.NET Task Parallelism and Asynchrony]] [[.NET Synchronization and Thread Coordination]] [[Linux Kernel Locking]] [[Parallel Program Design]]
 
 # Race Condition
 
@@ -14,9 +14,13 @@ The design-patterns source demonstrates that making an inventory context a singl
 
 In the Linux kernel, concurrent access can arise from multiple CPUs, preemption, or interrupts as well as ordinary threads. A data race exists when concurrent plain accesses reach the same object and at least one writes it without a valid synchronization relationship, so the analysis must cover every execution context that can reach the shared state.
 
+The current source uses shared-memory threads to show why parallel design must include synchronization. Two activities can each be locally correct yet produce a wrong result when their accesses interleave, so the dependency and data-sharing analysis must precede the choice of locks, barriers, or another coordination mechanism.
+
 # References
 
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
 [[hands-ondesignpatternswithcandnetcore.pdf]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]
 [[linuxkernelprogramming_secondedition.pdf]]

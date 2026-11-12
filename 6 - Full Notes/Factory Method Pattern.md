@@ -12,6 +12,8 @@ A factory method selects and constructs one implementation of a shared product a
 
 The architecture chapter uses factory behavior when creation must vary without making consuming code select and construct every concrete class directly. The seam preserves a stable use site while centralizing the choice of implementation.
 
+The current source emphasizes delegation of the creation decision: a creator defines the product interface, while subclasses select which member of a related product family to instantiate. Adding a location-specific product extends the creation hierarchy without placing a new constructor branch in every client.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -19,3 +21,5 @@ The architecture chapter uses factory behavior when creation must vary without m
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

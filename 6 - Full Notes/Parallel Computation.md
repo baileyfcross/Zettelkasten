@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Computational Methods and Formalization]] [[.NET Data Parallelism and PLINQ]] [[Parallel Statistical Computing]]
+Tags: [[Computational Methods and Formalization]] [[.NET Data Parallelism and PLINQ]] [[Parallel Statistical Computing]] [[Parallel Program Design]]
 
 # Parallel Computation
 
@@ -12,9 +12,13 @@ Speedup is limited by sequential dependencies, communication, synchronization, a
 
 Statistical simulations can be nearly embarrassingly parallel when trials do not communicate, whereas a distributed analysis of one dataset must also partition data and combine partial statistics. The useful speedup is therefore bounded by serial setup and reduction as well as by the number of processors.
 
+The current source separates the concurrent structure of an algorithm from parallel execution on a machine and identifies overhead, serial fractions, communication, synchronization, dependencies, and load imbalance as reasons that P processors rarely reduce elapsed time to exactly one-Pth.
+
 # References
 
 [[computationalthinking.epub]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
 
 [[statisticalcomputingincplusplusandr.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

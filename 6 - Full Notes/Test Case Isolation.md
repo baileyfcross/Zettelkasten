@@ -12,8 +12,12 @@ Isolation allows tests to run in any order and, where resources permit, in paral
 
 R tests need particular care around side effects such as global options, working directories, loaded packages, files, and graphics devices. A test should scope the temporary state and guarantee restoration even if an expectation fails; cleanup registered with `on.exit` or a scoped helper avoids contaminating later cases. External files and connections should likewise use temporary locations and deterministic teardown.
 
+The software-development source includes independence among its core test characteristics: each test supplies and removes its own objects and data so it can run in any order. That property makes a failure local to the behavior under test instead of to an invisible history created by earlier cases.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 
 [[testingrcode.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

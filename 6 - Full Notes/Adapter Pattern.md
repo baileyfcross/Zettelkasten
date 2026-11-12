@@ -10,7 +10,11 @@ The Adapter pattern places a translating object between a client and an incompat
 
 This preserves both sides from invasive changes and permits a different adapter for another implementation. The pattern is most useful when the mismatch is stable and translation is clearer than forcing either component to adopt the other's interface.
 
+The current source distinguishes the expected client interface from the existing target interface and assigns their translation to the adapter. This is especially valuable when the target is a library that cannot be changed or the client has other users that make rewriting its contract unsafe.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]
 

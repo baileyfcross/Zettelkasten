@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Continuous Delivery Risk and Release Governance]], [[Reproducible Scientific Software]]
+Tags: [[Continuous Delivery Risk and Release Governance]] [[Reproducible Scientific Software]] [[Software Review and Inspection]]
 
 # Peer Code Review
 
@@ -14,9 +14,13 @@ The reviewer should be able to see the exact diff, the purpose of the change, an
 
 In scientific software, review is strongest when automated checks first handle style, portability, builds, and quick regression tests. Reviewers can then concentrate on the substantive algorithm, assumptions, and research consequences of the change while still seeing evidence from multiple execution platforms.
 
+The software-development source positions peer review between an informal [[Walkthrough]] and a formal [[Code Inspection]]. A substantial change benefits from project developers, a testing perspective, and an experienced reviewer who receive the material before discussion, while an agile team can preserve the same independent scrutiny through a lightweight over-the-shoulder or tool-mediated review.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
 [[clouddevopsengineersguide.pdf]]
 
 [[implementingreproducableresearch.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

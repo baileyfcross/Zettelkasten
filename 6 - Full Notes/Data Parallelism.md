@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Parallel Neural Network Training]] [[.NET Data Parallelism and PLINQ]]
+Tags: [[Parallel Neural Network Training]] [[.NET Data Parallelism and PLINQ]] [[Parallel Program Design]]
 
 # Data Parallelism
 
@@ -14,9 +14,13 @@ In .NET's Task Parallel Library, the same structural idea appears in parallel lo
 
 Machine-learning training can fit separate model copies over different data partitions and merge their results. A complementary strategy distributes different layers or subsets of one large network across processors in a pipeline. Graphics processors are useful because many neural calculations repeat the same matrix-style operation over different values, but communication and synchronization still limit scaling.
 
+The current source generalizes the pattern beyond model training: the same computation is applied to different partitions in parallel and partial values are later combined. Scalability depends on adding useful partitions without allowing distribution and reduction to dominate their work.
+
 # References
 
 [[bigdatamanagementandprocessing.pdf]]
 [[hands-onparallelprogrammingwithc8andnetcore3.pdf]]
 
 [[machinelearning_mit.epub]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

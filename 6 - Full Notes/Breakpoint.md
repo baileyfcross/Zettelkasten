@@ -12,9 +12,13 @@ A breakpoint inside a controller can expose server request state, while one in a
 
 A Visual Studio breakpoint can also carry a label, a Boolean condition, and an action. The Breakpoints window makes those stops manageable across a solution, while step-into, step-over, and step-out commands continue execution at different call depths.
 
+The current source presents the breakpoint as one tool in [[Systematic Debugging]]. Stopping at a relevant location makes variables and the call path observable, but a useful breakpoint follows from the reproduced symptom and a suspected transition rather than from pausing everywhere.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[aspnetcore3andangular9_3ed.pdf]]
 [[c80andnetcore30moderncross-platformdevelopment.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

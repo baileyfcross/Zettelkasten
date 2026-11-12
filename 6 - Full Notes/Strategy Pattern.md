@@ -10,8 +10,12 @@ The strategy pattern defines interchangeable algorithms behind one operation and
 
 Strategy turns a family of algorithms into interchangeable implementations of one abstraction. An object can receive the appropriate behavior through composition, avoiding an inheritance hierarchy that mixes independent behavioral dimensions.
 
+The current source makes the selection role explicit: a context holds the strategy interface, and concrete strategies implement alternatives such as tax or compression algorithms. Changing the strategy replaces one behavior without changing the context's public task.
+
 # References
 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

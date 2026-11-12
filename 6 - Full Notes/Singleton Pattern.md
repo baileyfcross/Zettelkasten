@@ -12,6 +12,8 @@ Singleton centralizes access to one class instance across an application, but in
 
 The source presents singleton as controlled access to one shared instance while warning through its broader dependency-injection discussion that shared lifetime does not by itself make mutable state thread-safe or globally appropriate.
 
+The current book derives the pattern's mechanics from the one-instance requirement: construction is hidden, the class creates its own instance, and callers use a shared access operation. It also places Singleton among creational patterns because the central design decision is how object creation is constrained.
+
 # References
 
 [[hands-onsoftwarearchitecturewithc8andnetcore3.pdf]]
@@ -19,3 +21,5 @@ The source presents singleton as controlled access to one shared instance while 
 [[hands-onobject-orientedprogrammingwithc.pdf]]
 
 [[hands-ondesignpatternswithcandnetcore.pdf]]
+
+[[softwaredevelopmentdesignandcoding_withpatternsdebuggingunittestin.epub]]

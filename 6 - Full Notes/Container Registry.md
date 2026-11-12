@@ -10,6 +10,10 @@ A container registry is a distribution service for image manifests, configuratio
 
 Public, hosted private, and on-premises registries implement the same general distribution role but differ in access, availability, governance, and network reachability. A registry is not merely file storage: repository naming, authentication, TLS, retention, deletion, and [[Container Registry Garbage Collection]] all affect whether an image can be distributed safely.
 
+The Java-container source uses the registry as the handoff between image construction and later deployment. Publishing one tagged artifact lets development, test, and production systems retrieve the same image rather than rebuilding it on every host, while a private repository restricts proprietary images to authorized clients.
+
 # References
 
 [[podmanfordevopssecondedition.pdf]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

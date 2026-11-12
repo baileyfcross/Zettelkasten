@@ -12,8 +12,12 @@ Tags are therefore mutable labels, not identity proofs. Deployment and promotion
 
 A Docker image tag is a mutable human-readable reference that can be reassigned to a different manifest. Tags are convenient for release channels and discovery, but production promotion and policy checks should resolve or record the immutable digest behind the tag.
 
+The source presents semantic versions, source-commit identifiers, environment names, and build dates as different tagging strategies. Each answers a different lookup question, while `latest` is only a mutable convenience and is too ambiguous to identify a production artifact by itself.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
 
 [[podmanfordevopssecondedition.pdf]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

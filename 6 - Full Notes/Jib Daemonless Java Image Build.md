@@ -10,7 +10,11 @@ Jib builds a Java container image from a Maven project without requiring a hand-
 
 The build configuration names the target image and registry behavior, while credentials and publication remain delivery concerns. Jib changes the image-construction path, not the need to verify the resulting runtime contents and application behavior.
 
+Its Java-aware layering separates stable dependencies, snapshot dependencies, resources, compiled classes, and configured custom content. A code-only change can therefore rebuild and push the classes layer while reusing the larger dependency layers; Maven and Gradle plugins can send the resulting image directly to the configured registry.
+
 # References
 
 [[javamicroservicesandcontainersinthecloud.epub]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]
 

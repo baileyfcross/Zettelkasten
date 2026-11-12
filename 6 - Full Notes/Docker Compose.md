@@ -16,6 +16,8 @@ Podman can expose a Docker-compatible API socket so the standard `docker-compose
 
 Docker Compose describes a multi-container application as services, networks, volumes, configuration, and dependencies in a declarative file. It is especially effective for reproducible single-host development and test stacks, while multi-node availability and scheduling require an orchestrator rather than Compose alone.
 
+The Java example defines an application and MySQL service together, passes the database URL and credentials as service environment values, and names the database as a dependency. Compose can scale a service to several instances, but the declaration still needs the port, state, and readiness behavior required for those replicas to function.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
@@ -23,3 +25,5 @@ Docker Compose describes a multi-container application as services, networks, vo
 [[hands-onrestfulwebserviceswithaspnetcore3.pdf]]
 [[clouddevopsengineersguide.pdf]]
 [[podmanfordevopssecondedition.pdf]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

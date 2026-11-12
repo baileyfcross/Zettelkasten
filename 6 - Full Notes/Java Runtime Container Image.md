@@ -10,7 +10,11 @@ A Java runtime container image contains the Java runtime and packaged applicatio
 
 Keeping build and runtime concerns separate reduces image size and attack surface. Configuration, database state, and secrets should remain outside the immutable image so the same artifact can move across environments.
 
+The source distinguishes a JDK base, which includes compilers and development tools, from a JRE-oriented base selected only to launch an already-built service. It also shows that the runtime distribution and operating-system variant are part of the deployment contract, leading to choices such as maintained OpenJDK, Eclipse Temurin, Alpine, or [[Distroless Java Container Image]].
+
 # References
 
 [[javamicroservicesandcontainersinthecloud.epub]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]
 

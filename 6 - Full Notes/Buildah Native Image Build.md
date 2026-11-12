@@ -10,6 +10,10 @@ A Buildah native image build expresses construction as a sequence of Buildah com
 
 This form gives a custom pipeline direct control over conditions, loops, host tooling, and error handling. It can also build a [[Scratch Container Image]] or transfer artifacts among stages. The added flexibility shifts more responsibility to the script to remain readable, reproducible, and explicit about every input.
 
+The book's native-command example creates a working container from scratch, mounts its filesystem, installs and writes content through that mount, commits the changed filesystem as an image, and pushes the result to a registry. The sequence makes the mutable working container and the final immutable image separate, visible stages.
+
 # References
 
 [[podmanfordevopssecondedition.pdf]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

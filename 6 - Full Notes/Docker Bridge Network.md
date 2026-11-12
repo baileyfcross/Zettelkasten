@@ -10,6 +10,10 @@ A Docker bridge network connects container network namespaces to a Linux bridge 
 
 The automatically created default bridge offers basic connectivity but is a broad shared boundary. A bridge has local scope and cannot itself span several Docker hosts, so multi-node service reachability requires an orchestration or overlay mechanism rather than treating the single-host subnet as cluster networking.
 
+Each attached container receives an address on the bridge subnet, which prevents its internal listener from automatically colliding with another container's listener. The source contrasts that single-host behavior with a [[Docker Host Network]], a disconnected [[Docker None Network]], and a multi-host [[Docker Overlay Network]].
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

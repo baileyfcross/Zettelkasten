@@ -10,6 +10,10 @@ Spring Boot Docker Compose support can discover supported services in a local Co
 
 This shortens the feedback loop while keeping the service definitions close to the project. It is a development integration rather than a production orchestrator, and lifecycle behavior must be clear so one developer run does not unexpectedly stop infrastructure another process uses. The same service-connection idea appears in [[Spring Testcontainers Service Connection]] for isolated tests.
 
+The source describes Boot detecting `compose.yaml`, running `docker compose up` before connection, reusing services that are already running, and stopping the managed services at shutdown. Its `ConnectionDetails` beans translate the discovered container endpoints into application configuration, so dynamically assigned ports do not need to be copied into properties by hand.
+
 # References
 
 [[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

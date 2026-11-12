@@ -10,6 +10,10 @@ A Docker volume has a lifecycle independent of any one container. It can be crea
 
 This independence prevents accidental loss during instance replacement but also creates orphaned storage and stale sensitive data when ownership is unclear. Cleanup commands should treat volumes more cautiously than disposable containers and images, and production volumes need capacity, backup, restore, permission, and encryption policies of their own.
 
+The source traces the operational sequence through `docker volume create`, `ls`, `inspect`, container mounting, explicit removal, and bulk pruning. It also calls out user and group ownership on the mounted directory: persistence is usable only when the process identity inside the container can access the retained data.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

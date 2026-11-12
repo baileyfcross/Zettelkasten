@@ -10,6 +10,10 @@ Podman Desktop is a graphical interface for building, pulling, running, inspecti
 
 The application can also connect to Kubernetes contexts and browse resources such as pods, deployments, services, and persistent-volume claims. This creates one workstation interface for local container work and cluster inspection, while the declarative manifests and command-line tools remain important for repeatability, automation, and complete diagnostics.
 
+The Java-container source uses the desktop interface to create its Podman machine, build a Spring Boot image from a Containerfile, inspect the produced layers, configure port mapping, and start the application. The graphical sequence changes the interface, not the underlying image, container, and network objects.
+
 # References
 
 [[podmanfordevopssecondedition.pdf]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

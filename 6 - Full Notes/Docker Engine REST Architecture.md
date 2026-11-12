@@ -10,6 +10,10 @@ Docker Engine is the management layer above the container runtime. It coordinate
 
 This separation makes the daemon endpoint a privileged control boundary. Anyone able to issue unrestricted Engine requests can create containers, mount host paths, or change network state, so socket access should be treated as administrative authority and limited independently from ordinary container permissions.
 
+The book's build-tag-push sequence illustrates the same boundary: the CLI submits a build request, the daemon assembles the image from the Dockerfile and context, and later client requests assign a registry reference and publish the resulting layers. The command-line process coordinates those operations but does not itself become the image builder or container runtime.
+
 # References
 
 [[ultimatedockercontainerbookfourthedition.pdf]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]

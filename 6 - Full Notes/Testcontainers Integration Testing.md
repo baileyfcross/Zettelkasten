@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Microservice Testing Deployment and Scaling]]
+Tags: [[Microservice Testing Deployment and Scaling]] [[Docker Development and Testing]]
 
 # Testcontainers Integration Testing
 
@@ -12,8 +12,12 @@ Using the same container images as deployment narrows environmental differences 
 
 The Spring Boot source favors real MongoDB, Redis, CockroachDB, Kafka, and RabbitMQ containers over unlike embedded substitutes. A service connection can derive application properties from the container automatically, while dynamic property registration handles unsupported cases. The same infrastructure can launch a developer instance of the application against disposable services as well as support automated tests.
 
+The Docker-and-Java source adds lifecycle control, health waiting, reusable containers, log collection, custom images, and preconfigured database URLs to the testing model. These features let a test start a real dependency on demand, wait until it can accept work, inspect its evidence after a failure, and clean it up without requiring a manually maintained local service.
+
 # References
 
 [[prospringboot4_anauthoritativeguidewithbestpractices.epub]]
 
 [[procloud-nativejavaeeapps_devopswithmicroprofilejakartaee11apisand.epub]]
+
+[[whendockermeetsjava_apracticalguidetodockerforjavaandspringbootapp.epub]]
